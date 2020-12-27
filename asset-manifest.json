@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/vangoey.be/static/css/main.8d52491f.chunk.css",
+    "main.js": "/vangoey.be/static/js/main.e0f5eb39.chunk.js",
+    "main.js.map": "/vangoey.be/static/js/main.e0f5eb39.chunk.js.map",
+    "runtime-main.js": "/vangoey.be/static/js/runtime-main.507c4589.js",
+    "runtime-main.js.map": "/vangoey.be/static/js/runtime-main.507c4589.js.map",
+    "static/css/2.de424728.chunk.css": "/vangoey.be/static/css/2.de424728.chunk.css",
+    "static/js/2.e1507a4b.chunk.js": "/vangoey.be/static/js/2.e1507a4b.chunk.js",
+    "static/js/2.e1507a4b.chunk.js.map": "/vangoey.be/static/js/2.e1507a4b.chunk.js.map",
+    "index.html": "/vangoey.be/index.html",
+    "precache-manifest.515239cec0dd8527a1afe63e171d8869.js": "/vangoey.be/precache-manifest.515239cec0dd8527a1afe63e171d8869.js",
+    "service-worker.js": "/vangoey.be/service-worker.js",
+    "static/css/2.de424728.chunk.css.map": "/vangoey.be/static/css/2.de424728.chunk.css.map",
+    "static/css/main.8d52491f.chunk.css.map": "/vangoey.be/static/css/main.8d52491f.chunk.css.map",
+    "static/js/2.e1507a4b.chunk.js.LICENSE.txt": "/vangoey.be/static/js/2.e1507a4b.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/vangoey.be/static/media/Coolvetica.ttf.5bd51699.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.507c4589.js",
+    "static/css/2.de424728.chunk.css",
+    "static/js/2.e1507a4b.chunk.js",
+    "static/css/main.8d52491f.chunk.css",
+    "static/js/main.e0f5eb39.chunk.js"
+  ]
+}
