@@ -7,7 +7,7 @@ module.exports = {
     // Main Site Title
     title: `Jeroen Van Goey | Sr. Software Development Engineer - Machine Learning at Barco`,
     // Description that goes under your name in main bio
-    description: `Just Another Genome Hacker,`,
+    description: `Just Another Genome Hacker`,
     // Optional: Twitter account handle
     author: `@BioGeek`,
     // Optional: Github account URL
@@ -34,19 +34,17 @@ module.exports = {
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
       {
-        name: 'Acme Corp',
-        description: 'Full-Stack Developer, February 2020 - Present',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'Barco',
+        description: 'Sr. Software Development Engineer - Machine Learning, February 2020 - Present',
       },
       {
-        name: 'Globex Corp',
-        description: 'Full-Stack Developer, December 2017 - February 2020',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'BASF',
+        description: 'Bioinformatics Researcher - Manager of the Python and R Platforms, August 2018 - January 2020',
       },
       {
-        name: 'Hooli',
-        description: 'Full-Stack Developer, May 2015 - December 2017',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'Jeroen Van Goey Photography',
+        description: 'Freelance Photographer, August 2010 - Present',
+        link: 'https://jeroenvangoey.be',
       },
     ],
     // Optional: List your skills, they must have `name` and `description`.
@@ -54,16 +52,16 @@ module.exports = {
       {
         name: 'Languages & Frameworks',
         description:
-          'JavaScript (ES6+), Golang, Node.js, Express.js, React, Ruby on Rails, PHP',
+          'Python: pandas, NumPy, Tensorflow, BioPython, ...',
       },
       {
-        name: 'Databases',
-        description: 'MongoDB, PostreSQL, MySQL',
+        name: 'Bioinformatics',
+        description: 'BLAST, ClustalW, Snakemake, BioNumerics,...',
       },
       {
         name: 'Other',
         description:
-          'Docker, Amazon Web Services (AWS), CI / CD, Microservices, API design, Agile / Scrum',
+          'Docker, Amazon Web Services (AWS), CI / CD, ...',
       },
     ],
   },
