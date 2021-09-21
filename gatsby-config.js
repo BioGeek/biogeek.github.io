@@ -15,7 +15,7 @@ module.exports = {
     // Optional: LinkedIn account URL
     linkedin: `https://www.linkedin.com/in/jeroenvangoey/`,
     // Content of the About Me section
-    about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus perferendis porro cumque ea error ab voluptatem. Temporibus adipisci exercitationem similique itaque quibusdam laudantium, qui molestiae quas, aut amet animi id.`,
+    about: `Bringing Machine Learning pipelines into production. #MLOps`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
@@ -25,7 +25,7 @@ module.exports = {
         link: 'https://github.com/BioGeek/euler',
       },
       {
-        name: 'euler',
+        name: 'adventofcode',
         description:
           'My solutions to Advent of Code',
         link: 'https://github.com/BioGeek/adventofcode',
@@ -36,10 +36,12 @@ module.exports = {
       {
         name: 'Barco',
         description: 'Sr. Software Development Engineer - Machine Learning, February 2020 - Present',
+        link: 'https://barco.com',
       },
       {
         name: 'BASF',
         description: 'Bioinformatics Researcher - Manager of the Python and R Platforms, August 2018 - January 2020',
+        link: 'https://basf.com',
       },
       {
         name: 'Jeroen Van Goey Photography',
