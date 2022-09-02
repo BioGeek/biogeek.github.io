@@ -5,7 +5,7 @@ module.exports = {
     // Your Name
     name: 'Jeroen Van Goey',
     // Main Site Title
-    title: `Jeroen Van Goey | Sr. Software Development Engineer - Machine Learning at Barco`,
+    title: `Jeroen Van Goey | BioAI Software Engineer at InstaDeep`,
     // Description that goes under your name in main bio
     description: `Just Another Genome Hacker`,
     // Optional: Twitter account handle
@@ -15,7 +15,7 @@ module.exports = {
     // Optional: LinkedIn account URL
     linkedin: `https://www.linkedin.com/in/jeroenvangoey/`,
     // Content of the About Me section
-    about: `Bringing Machine Learning pipelines into production. #MLOps`,
+    about: `Fascinated by the intersection of AI and science. Working on Machine Learning for personalized cancer vaccines.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
@@ -34,8 +34,13 @@ module.exports = {
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
       {
+        name: 'InstaDeep',
+        description: 'BioAI Software Engineer - Machine Learning for personalized cancer vaccines, August 2022 - Present',
+        link: 'https://instadeep.com',
+      },
+      {
         name: 'Barco',
-        description: 'Sr. Software Development Engineer - Machine Learning, February 2020 - Present',
+        description: 'Sr. Software Development Engineer - Machine Learning for dermatology, February 2020 - August 2022',
         link: 'https://barco.com',
       },
       {
@@ -54,11 +59,11 @@ module.exports = {
       {
         name: 'Languages & Frameworks',
         description:
-          'Python: pandas, NumPy, Tensorflow, BioPython, ...',
+          'Python: pandas, NumPy, Tensorflow, BioPython, Jax, ...',
       },
       {
         name: 'Bioinformatics',
-        description: 'BLAST, ClustalW, Snakemake, BioNumerics,...',
+        description: 'BLAST, ClustalW, Snakemake, BioNumerics, ...',
       },
       {
         name: 'Other',
