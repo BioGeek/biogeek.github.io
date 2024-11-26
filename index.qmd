@@ -1,0 +1,63 @@
+---
+title: "Jeroen Van Goey"
+subtitle: "Just Another Genome Hacker"
+format: html
+theme: flatly
+css: styles.css
+---
+
+<!-- Header Section -->
+
+<div class="header">
+  <img src="images/jeroen.jpg" alt="Jeroen Van Goey" class="profile-pic" />
+  <div class="header-text">
+    # Jeroen Van Goey  
+    Just Another Genome Hacker  
+    **[Twitter](#)** | **[GitHub](#)** | **[LinkedIn](#)**  
+  </div>
+</div>
+
+---
+
+## About Me
+Fascinated by the intersection of AI and science. Working on Machine Learning for personalized cancer vaccines.
+
+---
+
+## Projects
+### euler
+My solutions to [Project Euler](#).
+
+### adventofcode
+My solutions to [Advent of Code](#).
+
+---
+
+## Experience
+### InstaDeep
+**BioAI Software Engineer** - Machine Learning for personalized cancer vaccines,  
+_August 2022 - Present_
+
+### Barco
+**Sr. Software Development Engineer** - Machine Learning for dermatology,  
+_February 2020 - August 2022_
+
+### BASF
+**Bioinformatics Researcher** - Manager of the Python and R Platforms,  
+_August 2018 - January 2020_
+
+### Jeroen Van Goey Photography
+**Freelance Photographer**,  
+_August 2010 - Present_
+
+---
+
+## Skills
+### Languages & Frameworks
+- Python: pandas, NumPy, Tensorflow, BioPython, Jax, ...
+
+### Bioinformatics
+- BLAST, ClustalW, Snakemake, BioNumerics, ...
+
+### Other
+- Docker, Amazon Web Services (AWS), CI/CD, ...
