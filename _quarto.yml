@@ -1,6 +1,8 @@
 project:
   type: website
   output-dir: docs
+  post-render:
+    - "cp -rnv .well-known/. docs/.well-known/"
 
 website:
   title: "Jeroen Van Goey"
@@ -15,6 +17,5 @@ format:
     theme: cosmo
     css: styles.css
     toc: true
-
 
 
