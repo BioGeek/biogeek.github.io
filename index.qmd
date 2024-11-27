@@ -8,47 +8,52 @@ css: styles.css
 
 <!-- Header Section -->
 
+## About Me
+
 <div class="header">
   <img src="images/jeroen.jpg" alt="Jeroen Van Goey" class="profile-pic" />
   <div class="header-text">
-    # Jeroen Van Goey  
-    Just Another Genome Hacker  
-    **[Twitter](#)** | **[GitHub](#)** | **[LinkedIn](#)**  
+Fascinated by the intersection of AI and science. Working on Machine Learning for personalized cancer vaccines, <i>de novo</i> peptide sequencing and signal peptides.
   </div>
 </div>
 
----
+**[Bluesky](https://bsky.app/profile/biogeek.bsky.social)** | **[GitHub](https://github.com/BioGeek)** | **[LinkedIn](https://linkedin.com/in/jeroenvangoey)**  
 
-## About Me
-Fascinated by the intersection of AI and science. Working on Machine Learning for personalized cancer vaccines.
 
 ---
 
 ## Projects
-### euler
-My solutions to [Project Euler](#).
 
-### adventofcode
-My solutions to [Advent of Code](#).
+### [InstaNovo](https://github.com/instadeepai/InstaNovo)
+De novo peptide sequencing with InstaNovo: Accurate, database-free peptide identification for large scale proteomics experiments
+
+### [Snakes and Sequences: Senegalese Serpent Venom Sequencing Hackathon](https://github.com/BioGeek/hackathon_indaba_senegal_2024/blob/main/starter_notebook.ipynb)
+This hackathon focused on improving the predictions of the *de novo* peptide sequencing model IsntaNovo using filtering and recalibration on a dataset of Snakes present in Africa.
+
+### [Desert locust breeding ground prediction hackathon](https://github.com/BioGeek/hackathon_indabaX_2024/blob/main/hackathon_beginner_notebook.ipynb)
+A machine learning hackathon to predict desert locust breeding grounds using remote sensing data and to improve model performance on the Zindi leaderboard.
+
+### [euler](https://github.com/BioGeek/euler)
+My solutions to [Project Euler](https://projecteuler.net/).
+
+### [adventofcode](https://github.com/BioGeek/adventofcode)
+My solutions to [Advent of Code](https://adventofcode.com/).
 
 ---
 
 ## Experience
-### InstaDeep
-**BioAI Software Engineer** - Machine Learning for personalized cancer vaccines,  
+### [InstaDeep](https://www.instadeep.com/)
+**Staff Software Engineer in BioAI** - Machine Learning for personalized cancer vaccines,  
 _August 2022 - Present_
 
-### Barco
+### [Barco]((https://www.barco.com/en))
 **Sr. Software Development Engineer** - Machine Learning for dermatology,  
 _February 2020 - August 2022_
 
-### BASF
+### [BASF](https://basf.com/)
 **Bioinformatics Researcher** - Manager of the Python and R Platforms,  
 _August 2018 - January 2020_
 
-### Jeroen Van Goey Photography
-**Freelance Photographer**,  
-_August 2010 - Present_
 
 ---
 
