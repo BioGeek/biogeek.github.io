@@ -18,7 +18,7 @@
     "href": "index.html#projects",
     "title": "Jeroen Van Goey",
     "section": "Projects",
-    "text": "Projects\n\nInstaNovo\nDe novo peptide sequencing with InstaNovo: Accurate, database-free peptide identification for large scale proteomics experiments\n\n\nSnakes and Sequences: Senegalese Serpent Venom Sequencing Hackathon\nThis hackathon focused on improving the predictions of the de novo peptide sequencing model IsntaNovo using filtering and recalibration on a dataset of Snakes present in Africa.\n\n\nDesert locust breeding ground prediction hackathon\nA machine learning hackathon to predict desert locust breeding grounds using remote sensing data and to improve model performance on the Zindi leaderboard.\n\n\neuler\nMy solutions to Project Euler.\n\n\nadventofcode\nMy solutions to Advent of Code."
+    "text": "Projects\n\nInstaNovo\nDe novo peptide sequencing with InstaNovo: Accurate, database-free peptide identification for large scale proteomics experiments\n\n\nSnakes and Sequences: Senegalese Serpent Venom Sequencing Hackathon\nThis hackathon focused on improving the predictions of the de novo peptide sequencing model InstaNovo using filtering and recalibration on a dataset of venoms of African snakes.\n\n\nDesert locust breeding ground prediction hackathon\nA machine learning hackathon to predict desert locust breeding grounds using remote sensing data and to improve model performance on the Zindi leaderboard.\n\n\neuler\nMy solutions to Project Euler.\n\n\nadventofcode\nMy solutions to Advent of Code."
   },
   {
     "objectID": "index.html#experience",

@@ -3,6 +3,7 @@ project:
   output-dir: docs
   post-render:
     - "cp -rnv .well-known/. docs/.well-known/"
+    - "cp CNAME docs/"
 
 website:
   title: "Jeroen Van Goey"

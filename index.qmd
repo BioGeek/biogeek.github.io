@@ -25,10 +25,10 @@ Fascinated by the intersection of AI and science. Working on Machine Learning fo
 ## Projects
 
 ### [InstaNovo](https://github.com/instadeepai/InstaNovo)
-De novo peptide sequencing with InstaNovo: Accurate, database-free peptide identification for large scale proteomics experiments
+_De novo_ peptide sequencing with InstaNovo: Accurate, database-free peptide identification for large scale proteomics experiments
 
 ### [Snakes and Sequences: Senegalese Serpent Venom Sequencing Hackathon](https://github.com/BioGeek/hackathon_indaba_senegal_2024/blob/main/starter_notebook.ipynb)
-This hackathon focused on improving the predictions of the *de novo* peptide sequencing model IsntaNovo using filtering and recalibration on a dataset of Snakes present in Africa.
+This hackathon focused on improving the predictions of the *de novo* peptide sequencing model InstaNovo using filtering and recalibration on a dataset of venoms of African snakes.
 
 ### [Desert locust breeding ground prediction hackathon](https://github.com/BioGeek/hackathon_indabaX_2024/blob/main/hackathon_beginner_notebook.ipynb)
 A machine learning hackathon to predict desert locust breeding grounds using remote sensing data and to improve model performance on the Zindi leaderboard.
