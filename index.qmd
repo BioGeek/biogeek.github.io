@@ -1,6 +1,9 @@
 ---
 title: "Jeroen Van Goey"
 subtitle: "Staff Research Engineer in BioAI building generative models for biology"
+pagetitle: "Jeroen Van Goey - Staff Research Engineer in BioAI"
+description-meta: "Staff Research Engineer in BioAI building generative models for biology: de novo peptide sequencing, proteomics, and personalized cancer vaccines."
+image: images/og-image.png
 format: html
 ---
 
@@ -8,7 +11,7 @@ format: html
 <div class="hero">
   <img src="images/jeroen.jpg" alt="Jeroen Van Goey" class="profile-pic" />
   <div class="hero-text">
-    <p class="tagline">Machine learning research engineer, fascinated by the intersection of AI and science. I build large-scale models for biology: Transformer and Diffusion models for <i>de novo</i> peptide sequencing and personalized cancer vaccines, trained at scale in PyTorch.</p>
+    <p class="tagline">Machine learning research engineer, fascinated by the intersection of AI and science. I bridge scientific ML, biological domain knowledge, production-quality software, and team leadership.</p>
     <div class="social-links">
       <a href="https://github.com/BioGeek"><i class="bi bi-github"></i> GitHub</a>
       <a href="https://bsky.app/profile/jeroen.vangoey.be"><i class="bi bi-cloud"></i> Bluesky</a>
@@ -26,77 +29,24 @@ format: html
     <a class="cta" href="https://scholar.google.com/citations?user=QinE3gcAAAAJ&hl=en"><i class="bi bi-mortarboard"></i> Google Scholar</a>
   </div>
   <ul class="proof">
-    <li>Published a diffusion model for <i>de novo</i> peptide sequencing in <strong>Nature Machine Intelligence</strong>.</li>
+    <li>Published InstaNovo (a transformer) and InstaNovo+ (a diffusion model) for <i>de novo</i> peptide sequencing in <strong>Nature Machine Intelligence</strong>.</li>
     <li>Led BioAI teams working on peptide sequencing and signal-peptide design.</li>
-    <li>Built scalable ML systems across GPUs, HPC, cloud, and scientific data pipelines.</li>
+    <li>Built and shipped production-grade ML systems across GPUs, HPC, cloud, and scientific data pipelines.</li>
   </ul>
 </div>
 ```
 
-## Selected Work
+## What I work on
+
+I build and ship machine-learning systems for science: generative sequence models, calibrated and reliable predictions, and the large-scale data and training behind them. My main application is *de novo* proteomics: reading protein and peptide sequences directly from raw mass spectra.
 
 ```{=html}
-<div class="case-studies">
-
-<div class="case-study flagship">
-  <div class="cs-head">
-    <span class="cs-title">InstaNovo: diffusion-powered <i>de novo</i> peptide sequencing</span>
-    <span class="cs-venue">Nature Machine Intelligence · 2025</span>
-  </div>
-  <dl>
-    <dt>Problem</dt>
-    <dd>Reading peptide sequences directly from mass-spectrometry spectra without a reference database is a core bottleneck in proteomics, and essential for discovering novel peptides in immunopeptidomics and personalized cancer vaccines.</dd>
-    <dt>My role</dt>
-    <dd>Part of the InstaDeep BioAI team behind InstaNovo: contributed to model development, large-scale training and evaluation, and co-authored the paper.</dd>
-    <dt>Impact</dt>
-    <dd>Published in <strong>Nature Machine Intelligence</strong>; surpasses prior state-of-the-art and recovers thousands of previously unidentified peptides. Open-source, with broad independent press (Science, Science News, Chemistry World, and more).</dd>
-  </dl>
-  <div class="pub-badges">
-    <a class="badge-primary" href="https://doi.org/10.1038/s42256-025-01019-5"><i class="bi bi-journal-text"></i> Nature Mach. Intell.</a>
-    <a href="https://github.com/instadeepai/InstaNovo"><i class="bi bi-github"></i> Code</a>
-    <a href="#instanovo-in-the-news"><i class="bi bi-newspaper"></i> In the news</a>
-  </div>
-</div>
-
-<div class="case-study">
-  <div class="cs-head">
-    <span class="cs-title">InstaNexus: generalizable direct protein sequencing</span>
-    <span class="cs-venue">Molecular &amp; Cellular Proteomics · 2026</span>
-  </div>
-  <dl>
-    <dt>Problem</dt>
-    <dd><i>De novo</i> sequencing models often fail to generalize across instruments, organisms and acquisition methods. InstaNexus targets robust, generalizable direct protein sequencing.</dd>
-    <dt>My role</dt>
-    <dd>Co-author; contributed to model development and evaluation across diverse proteomics datasets.</dd>
-    <dt>Impact</dt>
-    <dd>Peer-reviewed in <strong>Molecular &amp; Cellular Proteomics</strong>, demonstrating generalization beyond the conditions models were trained on.</dd>
-  </dl>
-  <div class="pub-badges">
-    <a class="badge-primary" href="https://doi.org/10.1016/j.mcpro.2026.101547"><i class="bi bi-journal-text"></i> Mol. Cell. Proteomics</a>
-    <a href="https://doi.org/10.1101/2025.07.25.666861"><i class="bi bi-file-earmark-text"></i> Preprint</a>
-  </div>
-</div>
-
-<div class="case-study">
-  <div class="cs-head">
-    <span class="cs-title">Winnow: rescoring &amp; FDR estimation for <i>de novo</i> sequencing</span>
-    <span class="cs-venue">arXiv · 2025</span>
-  </div>
-  <dl>
-    <dt>Problem</dt>
-    <dd>AI <i>de novo</i> predictions need statistical error control to be trustworthy in practice. Winnow provides rescoring and false-discovery-rate (FDR) estimation for <i>de novo</i> peptide sequencing.</dd>
-    <dt>My role</dt>
-    <dd>Co-author; contributed to the method and its open-source implementation.</dd>
-    <dt>Impact</dt>
-    <dd>Released as an open-source tool (<code>winnow-fdr</code> on PyPI) so the wider proteomics community can apply FDR control to <i>de novo</i> results.</dd>
-  </dl>
-  <div class="pub-badges">
-    <a class="badge-primary" href="https://arxiv.org/abs/2509.24952"><i class="bi bi-file-earmark-text"></i> arXiv</a>
-    <a href="https://github.com/instadeepai/winnow"><i class="bi bi-github"></i> Code</a>
-  </div>
-</div>
-
-</div>
+<ul class="proof">
+  <li><strong>Generative sequence models:</strong> transformer and diffusion models that decode sequences from noisy scientific signals (InstaNovo / InstaNovo+), top-ranked across an independent benchmark of 17 tools on 83 datasets.</li>
+  <li><strong>Reliable, calibrated predictions:</strong> rescoring, calibration and false-discovery-rate control so model outputs carry statistical guarantees (Winnow).</li>
+  <li><strong>Large-scale data &amp; training:</strong> curating large public datasets with automated LLM labelling, and distributed training across GPUs, HPC and cloud.</li>
+  <li><strong>Research to production:</strong> turning models into reusable, production-grade libraries and an end-to-end pipeline (prediction, scoring, quantification, structural assembly).</li>
+</ul>
 ```
 
 
@@ -107,7 +57,7 @@ format: html
 
 <div class="pub-card flagship">
   <a class="pub-thumb" href="https://doi.org/10.1038/s42256-025-01019-5">
-    <img src="images/publications/instanovo_figure1.png" alt="InstaNovo figure 1" />
+    <img loading="lazy" src="images/publications/instanovo_figure1.png" alt="InstaNovo figure 1" />
   </a>
   <div class="pub-body">
     <div class="pub-title"><a href="https://doi.org/10.1038/s42256-025-01019-5">InstaNovo enables diffusion-powered de novo peptide sequencing in large-scale proteomics experiments</a></div>
@@ -124,7 +74,7 @@ format: html
 
 <div class="pub-card">
   <a class="pub-thumb" href="https://doi.org/10.1101/2025.05.14.654049">
-    <img src="images/publications/instanovo-p_figure1.png" alt="InstaNovo-P figure 1" />
+    <img loading="lazy" src="images/publications/instanovo-p_figure1.png" alt="InstaNovo-P figure 1" />
   </a>
   <div class="pub-body">
     <div class="pub-title"><a href="https://doi.org/10.1101/2025.05.14.654049">InstaNovo-P: a de novo peptide sequencing model for phosphoproteomics</a></div>
@@ -139,7 +89,7 @@ format: html
 
 <div class="pub-card">
   <a class="pub-thumb" href="https://arxiv.org/abs/2509.24952">
-    <img src="images/publications/winnow_figure1.png" alt="Winnow figure 1" />
+    <img loading="lazy" src="images/publications/winnow_figure1.png" alt="Winnow figure 1" />
   </a>
   <div class="pub-body">
     <div class="pub-title"><a href="https://arxiv.org/abs/2509.24952">De novo peptide sequencing rescoring and FDR estimation with Winnow</a></div>
@@ -153,8 +103,24 @@ format: html
 </div>
 
 <div class="pub-card">
+  <a class="pub-thumb" href="https://springernature.figshare.com/articles/journal_contribution/_b_A_living_proteomics_benchmark_for_comprehensive_b_b_evaluation_of_deep_learning-based_b_b_i_de_novo_i_b_b_peptide_b_b_sequencing_tools_b_/31680883/1">
+    <img loading="lazy" src="images/publications/living_proteomics_benchmark_figure1.png" alt="Living proteomics benchmark figure 1" />
+  </a>
+  <div class="pub-body">
+    <div class="pub-title"><a href="https://springernature.figshare.com/articles/journal_contribution/_b_A_living_proteomics_benchmark_for_comprehensive_b_b_evaluation_of_deep_learning-based_b_b_i_de_novo_i_b_b_peptide_b_b_sequencing_tools_b_/31680883/1">A living proteomics benchmark for comprehensive evaluation of deep learning-based de novo peptide sequencing tools</a></div>
+    <div class="pub-authors">M. Pominova, <strong>J. Van Goey</strong>, C. Adams, C. Dens, et al.</div>
+    <div class="pub-venue"><span class="venue-name">Preprint</span> · 2026</div>
+    <div class="pub-badges">
+      <a class="badge-primary" href="https://springernature.figshare.com/articles/journal_contribution/_b_A_living_proteomics_benchmark_for_comprehensive_b_b_evaluation_of_deep_learning-based_b_b_i_de_novo_i_b_b_peptide_b_b_sequencing_tools_b_/31680883/1"><i class="bi bi-file-earmark-text"></i> Preprint</a>
+      <a href="https://github.com/bittremieuxlab/denovo_benchmarks"><i class="bi bi-github"></i> Code</a>
+      <a href="https://denovobenchmarks.streamlit.app/"><i class="bi bi-graph-up"></i> Live results</a>
+    </div>
+  </div>
+</div>
+
+<div class="pub-card">
   <a class="pub-thumb" href="https://doi.org/10.1016/j.mcpro.2026.101547">
-    <img src="images/publications/instanexus_figure1.jpg" alt="InstaNexus figure 1" />
+    <img loading="lazy" src="images/publications/instanexus_figure1.jpg" alt="InstaNexus figure 1" />
   </a>
   <div class="pub-body">
     <div class="pub-title"><a href="https://doi.org/10.1016/j.mcpro.2026.101547">Generalizable direct protein sequencing with InstaNexus</a></div>
@@ -169,7 +135,7 @@ format: html
 
 <div class="pub-card">
   <a class="pub-thumb" href="https://doi.org/10.1021/acs.jproteome.5c01153">
-    <img src="images/publications/database_search_fig1.png" alt="Database search framework figure 1" />
+    <img loading="lazy" src="images/publications/database_search_fig1.png" alt="Database search framework figure 1" />
   </a>
   <div class="pub-body">
     <div class="pub-title"><a href="https://doi.org/10.1021/acs.jproteome.5c01153">A framework for database search with AI models in mass spectrometry-based proteomics</a></div>
@@ -183,7 +149,7 @@ format: html
 
 <div class="pub-card">
   <a class="pub-thumb" href="https://doi.org/10.1021/acs.jproteome.4c01079">
-    <img src="images/publications/open_source_and_fair_research_software_for_proteomics_figure1.gif" alt="Open-source and FAIR research software for proteomics figure 1" />
+    <img loading="lazy" src="images/publications/open_source_and_fair_research_software_for_proteomics_figure1.gif" alt="Open-source and FAIR research software for proteomics figure 1" />
   </a>
   <div class="pub-body">
     <div class="pub-title"><a href="https://doi.org/10.1021/acs.jproteome.4c01079">Open-source and FAIR research software for proteomics</a></div>
@@ -197,12 +163,12 @@ format: html
 
 <div class="pub-card">
   <a class="pub-thumb" href="files/poster_afkSNP.pdf">
-    <img src="images/publications/afksnp.png" alt="afkSNP poster" />
+    <img loading="lazy" src="images/publications/afksnp.png" alt="afkSNP poster" />
   </a>
   <div class="pub-body">
     <div class="pub-title"><a href="files/poster_afkSNP.pdf">afkSNP: assembly-free k-mer based SNP comparison of bacterial WGS samples</a></div>
     <div class="pub-authors"><strong>J. Van Goey</strong>, H. Pouseele, P. Supply, S. Niemann</div>
-    <div class="pub-venue">Conference poster · Belgian bioinformatics conference · 2016</div>
+    <div class="pub-venue">Conference poster · Benelux Bioinformatics Conference 2015</div>
     <div class="pub-badges">
       <a class="badge-primary" href="files/poster_afkSNP.pdf"><i class="bi bi-file-earmark-pdf"></i> Poster (PDF)</a>
       <a href="https://www.researchgate.net/publication/291354610"><i class="bi bi-link-45deg"></i> ResearchGate</a>
@@ -291,7 +257,7 @@ After publication we released a next generation of InstaNovo models:
 
 <div class="pub-card">
   <a class="pub-thumb" href="https://jeroen.vangoey.be/awesome_de_novo_peptide_sequencing/">
-    <img src="images/projects/awesome_de_novo.png" alt="Awesome De Novo Peptide Sequencing" />
+    <img loading="lazy" src="images/projects/awesome_de_novo.png" alt="Awesome De Novo Peptide Sequencing" />
   </a>
   <div class="pub-body">
     <div class="pub-title"><a href="https://jeroen.vangoey.be/awesome_de_novo_peptide_sequencing/">Awesome De Novo Peptide Sequencing</a></div>
@@ -311,33 +277,45 @@ After publication we released a next generation of InstaNovo models:
 
 ## Experience
 
+```{=html}
+<div class="relocation">
+  <i class="bi bi-geo-alt-fill"></i> <strong>Location &amp; availability:</strong> I moved from Belgium to South Africa with my family in 2023, and we plan to relocate back to Europe around mid-2027. So I'm open to <strong>remote-first roles now</strong>, or <strong>hybrid / on-site roles in Europe from 2027</strong>.
+</div>
+```
+
 ### <img src="images/icons/instadeep.png" class="company-icon" alt=""> [InstaDeep](https://www.instadeep.com/)
 **Staff Research Engineer in BioAI**\
-_July 2024 – Present_ · Cape Town, South Africa\
+<i class="bi bi-calendar3"></i> _July 2024 – Present_\
+<img src="images/flags/za.svg" class="flag-icon" alt="South Africa">Cape Town, South Africa\
 Team lead and hiring manager for two cross-disciplinary BioAI research teams: *de novo* peptide sequencing (in collaboration with the Technical University of Denmark) and signal-peptide design for secretion efficiency in immunotherapy and vaccines (with BioNTech). Responsible for recruitment and team expansion across the Cape Town and Kigali offices.
 
 **Senior BioAI Software Engineer**\
-_August 2022 – July 2024_\
+<i class="bi bi-calendar3"></i> _August 2022 – July 2024_\
+<img src="images/flags/za.svg" class="flag-icon" alt="South Africa">Cape Town, South Africa\
 Designed, implemented and delivered performant, scalable protein-design libraries (Transformer-based, written in Python / PyTorch) running compute-intensive workloads on large, complex data across GPUs, HPC supercomputers and the cloud.
 
 ### <img src="images/icons/barco.png" class="company-icon" alt=""> [Barco](https://www.barco.com/en)
 **Sr. Software Development Engineer, Machine Learning**\
-_February 2020 – August 2022_ · Kortrijk, Belgium\
+<i class="bi bi-calendar3"></i> _February 2020 – August 2022_\
+<img src="images/flags/be.svg" class="flag-icon" alt="Belgium">Kortrijk, Belgium\
 Built a TensorFlow Extended production pipeline training deep-learning models on multispectral images to detect and classify melanoma skin cancers, working across the research, cloud-backend and mobile/web frontend teams.
 
 ### <img src="images/icons/basf.png" class="company-icon" alt=""> [BASF](https://basf.com/)
 **Bioinformatics Researcher, Manager of the Python & R Platforms**\
-_August 2018 – January 2020_ · Zwijnaarde, Belgium\
+<i class="bi bi-calendar3"></i> _August 2018 – January 2020_\
+<img src="images/flags/be.svg" class="flag-icon" alt="Belgium">Zwijnaarde, Belgium\
 Owned the Python/R data-analysis platform used by 480 researchers and data scientists: technical support, proactive monitoring and root-cause analysis, training (NumPy, pandas, BioPython, …) and mentoring across the scientific community.
 
 ### <img src="images/icons/bayer.png" class="company-icon" alt=""> [Bayer Crop Science](https://www.bayer.com/)
 **Bioinformatics Researcher & Python Platform Manager**\
-_February 2018 – July 2018_ · Zwijnaarde, Belgium\
+<i class="bi bi-calendar3"></i> _February 2018 – July 2018_\
+<img src="images/flags/be.svg" class="flag-icon" alt="Belgium">Zwijnaarde, Belgium\
 Same platform role, prior to acquisition by BASF Agricultural Solutions.
 
 ### <img src="images/icons/biomerieux.png" class="company-icon" alt=""> [Applied Maths, a bioMérieux company](https://web.archive.org/web/20201211112011/https://www.applied-maths.com/)
 **Bioinformatics Software Developer**\
-_September 2011 – January 2018_ · Sint-Martens-Latem, Belgium\
+<i class="bi bi-calendar3"></i> _September 2011 – January 2018_\
+<img src="images/flags/be.svg" class="flag-icon" alt="Belgium">Sint-Martens-Latem, Belgium\
 Worked on BioNumerics, a bioinformatics suite for integrated analysis of biological data, writing custom Python scripts and extensions for clients in the clinical, academic and government sectors.
 
 
@@ -345,23 +323,31 @@ Worked on BioNumerics, a bioinformatics suite for integrated analysis of biologi
 
 ## Education
 
-**Katholieke Universiteit Leuven**: Bioinformatics, partial credits obtained (M.Sc. not completed) · 2010–2012\
-**University of Antwerp**: M.Sc., Biology · 1997–2004\
-**Hogeschool West-Vlaanderen (Howest)**: Microdegree, Machine Learning & Deep Learning · 2018–2019
+<img src="images/icons/howest.png" class="company-icon" alt=""> **Hogeschool West-Vlaanderen (Howest)**\
+<i class="bi bi-calendar3"></i> _2018–2019_\
+Microdegree, Machine Learning & Deep Learning
+
+<img src="images/icons/kuleuven.png" class="company-icon" alt=""> **Katholieke Universiteit Leuven**\
+<i class="bi bi-calendar3"></i> _2010–2012_\
+Bioinformatics, partial credits obtained (M.Sc. not completed)
+
+<img src="images/icons/uantwerpen.png" class="company-icon" alt=""> **University of Antwerp**\
+<i class="bi bi-calendar3"></i> _1997–2004_\
+M.Sc., Biology
 
 
 ---
 
 ## Hackathons
 
-I have **co-created, organized and judged** machine-learning hackathons at the Deep Learning Indaba and its regional IndabaX events.
+I have **co-created, organized and judged** machine-learning hackathons at the [Deep Learning Indaba](https://deeplearningindaba.com/) and its regional [IndabaX](https://indabax.co.za/) events.
 
 ```{=html}
 <div class="pub-list">
 
 <div class="pub-card">
   <a class="pub-thumb" href="https://github.com/BioGeek/hackathon_IndabaX_2025_mlip">
-    <img src="images/hackathons/mlip.png" alt="3BPA (3-(benzyloxy)pyridin-2-amine) molecule" />
+    <img loading="lazy" src="images/hackathons/mlip.png" alt="3BPA (3-(benzyloxy)pyridin-2-amine) molecule" />
   </a>
   <div class="pub-body">
     <div class="pub-title"><a href="https://github.com/BioGeek/hackathon_IndabaX_2025_mlip">Machine Learning Interatomic Potentials Hackathon</a></div>
@@ -372,7 +358,7 @@ I have **co-created, organized and judged** machine-learning hackathons at the D
 
 <div class="pub-card">
   <a class="pub-thumb" href="https://github.com/BioGeek/hackathon_indaba_senegal_2024">
-    <img src="images/hackathons/snakes_and_sequences.png" alt="Snakes and Sequences hackathon" />
+    <img loading="lazy" src="images/hackathons/snakes_and_sequences.png" alt="Snakes and Sequences hackathon" />
   </a>
   <div class="pub-body">
     <div class="pub-title"><a href="https://github.com/BioGeek/hackathon_indaba_senegal_2024">Snakes and Sequences: Senegalese Serpent Venom Sequencing Hackathon</a></div>
@@ -383,7 +369,7 @@ I have **co-created, organized and judged** machine-learning hackathons at the D
 
 <div class="pub-card">
   <a class="pub-thumb" href="https://github.com/BioGeek/hackathon_indabaX_2024">
-    <img src="images/hackathons/desert_locust.png" alt="Desert locust breeding ground prediction hackathon" />
+    <img loading="lazy" src="images/hackathons/desert_locust.png" alt="Desert locust breeding ground prediction hackathon" />
   </a>
   <div class="pub-body">
     <div class="pub-title"><a href="https://github.com/BioGeek/hackathon_indabaX_2024">Desert Locust Breeding Ground Prediction Hackathon</a></div>
@@ -400,11 +386,20 @@ I have **co-created, organized and judged** machine-learning hackathons at the D
 
 ## Skills
 
-**Machine learning** · Transformers, diffusion models, large language models (LLMs), supervised & self-supervised learning\
-**Frameworks** · PyTorch, TensorFlow / TFX, NumPy, pandas\
-**Scale & MLOps** · Distributed GPU training, HPC clusters (on-premise and the MareNostrum 5 supercomputer), cloud (AWS), Docker, CI/CD\
-**Bioinformatics** · BioPython, BLAST, ClustalW, Snakemake, BioNumerics\
-**Languages** · Python (primary), R
+**Machine learning**\
+Transformers, diffusion models, large language models (LLMs), supervised & self-supervised learning
+
+**Frameworks**\
+PyTorch, TensorFlow / TFX, NumPy, pandas
+
+**Scale & MLOps**\
+Distributed GPU training, HPC clusters (on-premise and the MareNostrum 5 supercomputer), cloud (AWS), Docker, CI/CD
+
+**Bioinformatics**\
+BioPython, BLAST, ClustalW, Snakemake, BioNumerics
+
+**Languages**\
+Python (primary), R
 
 ### Just for fun
 
@@ -425,16 +420,16 @@ I have **co-created, organized and judged** machine-learning hackathons at the D
       <thead><tr><th>Year</th><th>Days</th><th>Stars</th></tr></thead>
       <tbody>
       <!-- AOC:ROWS:START -->
-      <tr><td>2024</td><td><img src="https://img.shields.io/badge/days_completed-5-0f766e" alt="5 days completed"></td><td><img src="https://img.shields.io/badge/stars_%E2%AD%90-10-0f766e" alt="10 stars"></td></tr>
-      <tr><td>2023</td><td><img src="https://img.shields.io/badge/days_completed-2-0f766e" alt="2 days completed"></td><td><img src="https://img.shields.io/badge/stars_%E2%AD%90-5-0f766e" alt="5 stars"></td></tr>
-      <tr><td>2022</td><td><img src="https://img.shields.io/badge/days_completed-6-0f766e" alt="6 days completed"></td><td><img src="https://img.shields.io/badge/stars_%E2%AD%90-12-0f766e" alt="12 stars"></td></tr>
-      <tr><td>2021</td><td><img src="https://img.shields.io/badge/days_completed-8-0f766e" alt="8 days completed"></td><td><img src="https://img.shields.io/badge/stars_%E2%AD%90-17-0f766e" alt="17 stars"></td></tr>
-      <tr><td>2020</td><td><img src="https://img.shields.io/badge/days_completed-8-0f766e" alt="8 days completed"></td><td><img src="https://img.shields.io/badge/stars_%E2%AD%90-18-0f766e" alt="18 stars"></td></tr>
-      <tr><td>2019</td><td><img src="https://img.shields.io/badge/days_completed-6-0f766e" alt="6 days completed"></td><td><img src="https://img.shields.io/badge/stars_%E2%AD%90-14-0f766e" alt="14 stars"></td></tr>
-      <tr><td>2018</td><td><img src="https://img.shields.io/badge/days_completed-5-0f766e" alt="5 days completed"></td><td><img src="https://img.shields.io/badge/stars_%E2%AD%90-10-0f766e" alt="10 stars"></td></tr>
-      <tr><td>2017</td><td><img src="https://img.shields.io/badge/days_completed-6-0f766e" alt="6 days completed"></td><td><img src="https://img.shields.io/badge/stars_%E2%AD%90-13-0f766e" alt="13 stars"></td></tr>
-      <tr><td>2016</td><td><img src="https://img.shields.io/badge/days_completed-15-0f766e" alt="15 days completed"></td><td><img src="https://img.shields.io/badge/stars_%E2%AD%90-30-0f766e" alt="30 stars"></td></tr>
-      <tr><td>2015</td><td><img src="https://img.shields.io/badge/days_completed-12-0f766e" alt="12 days completed"></td><td><img src="https://img.shields.io/badge/stars_%E2%AD%90-27-0f766e" alt="27 stars"></td></tr>
+      <tr><td>2024</td><td><img src="https://img.shields.io/badge/days_completed-5-0b5e54" alt="5 days completed"></td><td><img src="https://img.shields.io/badge/stars_%E2%AD%90-10-0b5e54" alt="10 stars"></td></tr>
+      <tr><td>2023</td><td><img src="https://img.shields.io/badge/days_completed-2-0b5e54" alt="2 days completed"></td><td><img src="https://img.shields.io/badge/stars_%E2%AD%90-5-0b5e54" alt="5 stars"></td></tr>
+      <tr><td>2022</td><td><img src="https://img.shields.io/badge/days_completed-6-0b5e54" alt="6 days completed"></td><td><img src="https://img.shields.io/badge/stars_%E2%AD%90-12-0b5e54" alt="12 stars"></td></tr>
+      <tr><td>2021</td><td><img src="https://img.shields.io/badge/days_completed-8-0b5e54" alt="8 days completed"></td><td><img src="https://img.shields.io/badge/stars_%E2%AD%90-17-0b5e54" alt="17 stars"></td></tr>
+      <tr><td>2020</td><td><img src="https://img.shields.io/badge/days_completed-8-0b5e54" alt="8 days completed"></td><td><img src="https://img.shields.io/badge/stars_%E2%AD%90-18-0b5e54" alt="18 stars"></td></tr>
+      <tr><td>2019</td><td><img src="https://img.shields.io/badge/days_completed-6-0b5e54" alt="6 days completed"></td><td><img src="https://img.shields.io/badge/stars_%E2%AD%90-14-0b5e54" alt="14 stars"></td></tr>
+      <tr><td>2018</td><td><img src="https://img.shields.io/badge/days_completed-5-0b5e54" alt="5 days completed"></td><td><img src="https://img.shields.io/badge/stars_%E2%AD%90-10-0b5e54" alt="10 stars"></td></tr>
+      <tr><td>2017</td><td><img src="https://img.shields.io/badge/days_completed-6-0b5e54" alt="6 days completed"></td><td><img src="https://img.shields.io/badge/stars_%E2%AD%90-13-0b5e54" alt="13 stars"></td></tr>
+      <tr><td>2016</td><td><img src="https://img.shields.io/badge/days_completed-15-0b5e54" alt="15 days completed"></td><td><img src="https://img.shields.io/badge/stars_%E2%AD%90-30-0b5e54" alt="30 stars"></td></tr>
+      <tr><td>2015</td><td><img src="https://img.shields.io/badge/days_completed-12-0b5e54" alt="12 days completed"></td><td><img src="https://img.shields.io/badge/stars_%E2%AD%90-27-0b5e54" alt="27 stars"></td></tr>
       <!-- AOC:ROWS:END -->
       </tbody>
     </table>

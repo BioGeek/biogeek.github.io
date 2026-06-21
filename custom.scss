@@ -1,8 +1,9 @@
 /*-- scss:defaults --*/
 
-// Accent — a bio/teal palette nodding to "genome hacker"
-$primary:   #0f766e;     // teal-700
-$link-color: #0f766e;
+// Accent: a bio/teal palette. Darkened from teal-700 (#0f766e) to clear WCAG AA
+// contrast (~7.6:1 on white) for link/accent text per Lighthouse.
+$primary:   #0b5e54;
+$link-color: #0b5e54;
 
 $font-family-sans-serif: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 $headings-font-weight: 700;
@@ -166,6 +167,39 @@ ul.proof li::before {
   .case-study dt { margin-top: 0.4rem; }
 }
 
+// ---- Ecosystem pipeline (Selected Work) ---------------------------------
+.pipeline-label {
+  font-weight: 700;
+  margin: 1.1rem 0 0.5rem;
+}
+ol.pipeline {
+  list-style: none;
+  counter-reset: step;
+  margin: 0 0 0.5rem;
+  padding: 0;
+}
+ol.pipeline li {
+  counter-increment: step;
+  position: relative;
+  padding-left: 2.4rem;
+  margin-bottom: 0.55rem;
+}
+ol.pipeline li::before {
+  content: counter(step);
+  position: absolute;
+  left: 0;
+  top: 0.05em;
+  width: 1.6rem;
+  height: 1.6rem;
+  background: $primary;
+  color: #fff;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 0.85rem;
+  font-weight: 700;
+  line-height: 1.6rem;
+}
+
 // ---- Publication cards --------------------------------------------------
 .pub-card {
   display: flex;
@@ -315,6 +349,21 @@ ul.proof li::before {
   margin-bottom: 0.3rem;
 }
 
+// Location & availability note at the top of Experience
+.relocation {
+  border: 1px solid var(--bs-border-color);
+  border-left: 4px solid $primary;
+  border-radius: 8px;
+  background: var(--bs-tertiary-bg);
+  padding: 0.85rem 1.1rem;
+  margin: 0.5rem 0 1.5rem;
+  font-size: 0.95rem;
+}
+.relocation .bi {
+  color: $primary;
+  margin-right: 0.3rem;
+}
+
 // Favicon-style company icons in the Experience headings
 .company-icon {
   width: 1.1em;
@@ -323,6 +372,16 @@ ul.proof li::before {
   vertical-align: -0.15em;
   margin-right: 0.45rem;
   border-radius: 3px;
+}
+
+// Small country-flag images (render consistently across platforms, unlike emoji)
+.flag-icon {
+  height: 0.85em;
+  width: auto;
+  vertical-align: -0.05em;
+  margin-right: 0.35em;
+  border: 1px solid var(--bs-border-color);
+  border-radius: 2px;
 }
 
 // Compact "for fun" side projects line

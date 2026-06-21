@@ -6,8 +6,16 @@ project:
     - "cp CNAME docs/"
 
 website:
-  title: "Jeroen Van Goey"
+  site-url: https://jeroen.vangoey.be
+  description: "Staff Research Engineer in BioAI building generative models for biology: de novo peptide sequencing, proteomics, and personalized cancer vaccines."
+  image: images/og-image.png
+  open-graph: true
+  twitter-card:
+    creator: "@BioGeek"
+    card-style: summary_large_image
+  search: false
   navbar:
+    title: "Jeroen Van Goey"
     left:
       - href: index.qmd
         text: Home
