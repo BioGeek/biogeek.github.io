@@ -63,6 +63,7 @@ I build and ship machine-learning systems for science: generative sequence model
       <a href="https://github.com/instadeepai/InstaNovo"><i class="bi bi-github"></i> Code</a>
       <a href="https://huggingface.co/spaces/InstaDeepAI/InstaNovo"><i class="bi bi-play-circle"></i> Demo</a>
       <a href="https://huggingface.co/datasets/InstaDeepAI/ms_proteometools"><i class="bi bi-database"></i> Datasets</a>
+      <a href="#instanovo-in-the-news"><i class="bi bi-newspaper"></i> In the news</a>
     </div>
   </div>
 </div>
