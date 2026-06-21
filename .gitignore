@@ -12,3 +12,6 @@ wheels/
 /.quarto/
 
 **/*.quarto_ipynb
+
+# Rendered site (built and deployed by GitHub Actions, not committed)
+/docs/
