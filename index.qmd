@@ -62,7 +62,7 @@ I build and ship machine-learning systems for science: generative sequence model
       <a class="badge-primary" href="https://doi.org/10.1038/s42256-025-01019-5"><i class="bi bi-journal-text"></i> Nature Mach. Intell.</a>
       <a href="https://github.com/instadeepai/InstaNovo"><i class="bi bi-github"></i> Code</a>
       <a href="https://huggingface.co/spaces/InstaDeepAI/InstaNovo"><i class="bi bi-play-circle"></i> Demo</a>
-      <a href="https://huggingface.co/collections/InstaDeepAI/de-novo-peptide-sequencing"><i class="bi bi-database"></i> Datasets</a>
+      <a href="https://huggingface.co/datasets/InstaDeepAI/ms_proteometools"><i class="bi bi-database"></i> Datasets</a>
     </div>
   </div>
 </div>
@@ -78,6 +78,7 @@ I build and ship machine-learning systems for science: generative sequence model
     <div class="pub-badges">
       <a class="badge-primary" href="https://doi.org/10.1101/2025.05.14.654049"><i class="bi bi-file-earmark-text"></i> bioRxiv</a>
       <a href="https://github.com/instadeepai/InstaNovo-P"><i class="bi bi-github"></i> Code</a>
+      <a href="https://huggingface.co/datasets/InstaDeepAI/InstaNovo-P"><i class="bi bi-database"></i> Datasets</a>
     </div>
   </div>
 </div>
@@ -93,6 +94,7 @@ I build and ship machine-learning systems for science: generative sequence model
     <div class="pub-badges">
       <a class="badge-primary" href="https://arxiv.org/abs/2509.24952"><i class="bi bi-file-earmark-text"></i> arXiv</a>
       <a href="https://github.com/instadeepai/winnow"><i class="bi bi-github"></i> Code</a>
+      <a href="https://huggingface.co/datasets/InstaDeepAI/winnow-ms-datasets"><i class="bi bi-database"></i> Datasets</a>
     </div>
   </div>
 </div>
@@ -123,7 +125,7 @@ I build and ship machine-learning systems for science: generative sequence model
     <div class="pub-venue"><span class="venue-name">Molecular &amp; Cellular Proteomics</span> · 2026 · 25(4):101547</div>
     <div class="pub-badges">
       <a class="badge-primary" href="https://doi.org/10.1016/j.mcpro.2026.101547"><i class="bi bi-journal-text"></i> Mol. Cell. Proteomics</a>
-      <a href="https://doi.org/10.1101/2025.07.25.666861"><i class="bi bi-file-earmark-text"></i> Preprint</a>
+      <a href="https://github.com/Multiomics-Analytics-Group/InstaNexus"><i class="bi bi-github"></i> Code</a>
     </div>
   </div>
 </div>
