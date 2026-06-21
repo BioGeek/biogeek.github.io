@@ -33,12 +33,12 @@ format: html
 
 ## What I work on
 
-I build and ship machine-learning systems for science: generative sequence models, calibrated and reliable predictions, and the large-scale data and training behind them. My main application is *de novo* proteomics: reading protein and peptide sequences directly from raw mass spectra.
+I build and ship machine-learning systems for science: generative sequence models, calibrated and reliable predictions, and the large-scale data and training behind them. My main application is *de novo* peptide sequencing: predicting peptide sequences directly from raw mass spectra.
 
 ```{=html}
 <ul class="proof">
   <li><strong>Generative sequence models:</strong> transformer and diffusion models that decode sequences from noisy scientific signals (InstaNovo / InstaNovo+), top-ranked across an independent benchmark of 17 tools on 83 datasets.</li>
-  <li><strong>Reliable, calibrated predictions:</strong> rescoring, calibration and false-discovery-rate control so model outputs carry statistical guarantees (Winnow).</li>
+  <li><strong>Reliable, calibrated predictions:</strong> rescoring, calibration and false-discovery-rate control so model outputs carry statistical guarantees.</li>
   <li><strong>Large-scale data &amp; training:</strong> curating large public datasets with automated LLM labelling, and distributed training across GPUs, HPC and cloud.</li>
   <li><strong>Research to production:</strong> turning models into reusable, production-grade libraries and an end-to-end pipeline (prediction, scoring, quantification, structural assembly).</li>
 </ul>
@@ -249,31 +249,6 @@ More at the [InstaNovo project website](https://instanovo.ai/) and its [blog](ht
 
 ---
 
-## Projects
-
-```{=html}
-<div class="pub-list">
-
-<div class="pub-card">
-  <a class="pub-thumb" href="https://jeroen.vangoey.be/awesome_de_novo_peptide_sequencing/">
-    <img loading="lazy" src="images/projects/awesome_de_novo.png" alt="Awesome De Novo Peptide Sequencing" />
-  </a>
-  <div class="pub-body">
-    <div class="pub-title"><a href="https://jeroen.vangoey.be/awesome_de_novo_peptide_sequencing/">Awesome De Novo Peptide Sequencing</a></div>
-    <p>A comprehensive, interactive map of the field: algorithms, post-processors, downstream applications, and adjacent tools, deep-learning and classical alike.</p>
-    <div class="pub-badges">
-      <a class="badge-primary" href="https://jeroen.vangoey.be/awesome_de_novo_peptide_sequencing/"><i class="bi bi-box-arrow-up-right"></i> Live site</a>
-      <a href="https://github.com/BioGeek/awesome_de_novo_peptide_sequencing"><i class="bi bi-github"></i> Code</a>
-    </div>
-  </div>
-</div>
-
-</div>
-```
-
-
----
-
 ## Experience
 
 ```{=html}
@@ -333,6 +308,31 @@ Bioinformatics, partial credits obtained (M.Sc. not completed)
 <img src="images/icons/uantwerpen.png" class="company-icon" alt=""> **University of Antwerp**\
 <i class="bi bi-calendar3"></i> _1997–2004_\
 M.Sc., Biology
+
+
+---
+
+## Projects
+
+```{=html}
+<div class="pub-list">
+
+<div class="pub-card">
+  <a class="pub-thumb" href="https://jeroen.vangoey.be/awesome_de_novo_peptide_sequencing/">
+    <img loading="lazy" src="images/projects/awesome_de_novo.png" alt="Awesome De Novo Peptide Sequencing" />
+  </a>
+  <div class="pub-body">
+    <div class="pub-title"><a href="https://jeroen.vangoey.be/awesome_de_novo_peptide_sequencing/">Awesome De Novo Peptide Sequencing</a></div>
+    <p>A comprehensive, interactive map of the field: algorithms, post-processors, downstream applications, and adjacent tools, deep-learning and classical alike.</p>
+    <div class="pub-badges">
+      <a class="badge-primary" href="https://jeroen.vangoey.be/awesome_de_novo_peptide_sequencing/"><i class="bi bi-box-arrow-up-right"></i> Live site</a>
+      <a href="https://github.com/BioGeek/awesome_de_novo_peptide_sequencing"><i class="bi bi-github"></i> Code</a>
+    </div>
+  </div>
+</div>
+
+</div>
+```
 
 
 ---
