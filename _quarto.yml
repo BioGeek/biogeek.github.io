@@ -14,6 +14,7 @@ website:
     creator: "@BioGeek"
     card-style: summary_large_image
   search: false
+  google-analytics: "G-WBNWDFRGEV"
   navbar:
     title: "Jeroen Van Goey"
     left:
@@ -25,7 +26,7 @@ format:
   html:
     theme:
       light: [cosmo, custom.scss]
-      dark: [darkly, custom.scss]
+      dark: [darkly, custom.scss, custom-dark.scss]
     toc: true
     include-in-header:
       text: |

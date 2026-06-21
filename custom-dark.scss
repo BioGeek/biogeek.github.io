@@ -1,0 +1,16 @@
+/*-- scss:defaults --*/
+
+// The brand teal (#0b5e54, tuned for AA contrast on white) is too dark to read
+// on dark backgrounds. Use a lighter teal for links and accent text in dark mode.
+$primary:   #3db8a6;
+$link-color: #3db8a6;
+
+/*-- scss:rules --*/
+
+// Filled teal badges/buttons now sit on a lighter teal; use dark text on them.
+.pub-badges a.badge-primary,
+.pub-badges a.badge-primary:hover,
+.cta-buttons .cta-primary,
+.cta-buttons .cta-primary:hover {
+  color: #06302b;
+}
