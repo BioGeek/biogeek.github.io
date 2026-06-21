@@ -16,7 +16,7 @@ import urllib.request
 
 README_URL = "https://raw.githubusercontent.com/BioGeek/adventofcode/{branch}/README.md"
 QMD = "index.qmd"
-COLOR = "0f766e"  # site teal, matches the rest of the page
+COLOR = "0b5e54"  # site teal, matches the rest of the page
 
 # Badge URLs look like:
 #   https://img.shields.io/badge/days%20completed-5-red&year=2024

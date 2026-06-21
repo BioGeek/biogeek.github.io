@@ -25,6 +25,6 @@ fi
 
 # Crop the content area (title + stat cards + breakdown charts), excluding the
 # right-hand "On this page" table of contents, then resize to a card-friendly width.
-convert "$TMP/full.png" -crop 910x575+112+18 +repage -resize 760x "$OUT"
+convert "$TMP/full.png" -crop 910x575+112+18 +repage -resize 480x -strip "$OUT"
 
 echo "updated $OUT ($(identify -format '%wx%h' "$OUT"))"
