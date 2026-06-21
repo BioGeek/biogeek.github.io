@@ -1,0 +1,72 @@
+name: Check links
+
+on:
+  schedule:
+    - cron: "0 8 1 * *" # 1st of each month, 08:00 UTC
+  workflow_dispatch:
+    inputs:
+      archive:
+        description: "Also submit every link to the Wayback Machine (Save Page Now)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write # commit link replacements
+  pages: write
+  id-token: write
+
+# Shared with publish/aoc/screenshot so renders/deploys/pushes never race.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Archive all links (manual opt-in)
+        if: ${{ inputs.archive }}
+        run: python scripts/check_links.py --archive || true
+
+      - name: Replace dead links with Wayback captures
+        run: python scripts/check_links.py --check
+
+      - name: Commit and push source if changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "No dead links to replace."
+            exit 0
+          fi
+          git add -A
+          git commit -m "chore: replace dead links with Wayback Machine captures"
+          for attempt in 1 2 3; do
+            git pull --rebase --autostash origin main && git push && break
+            echo "push attempt $attempt failed; retrying"; sleep 5
+          done
+
+      - uses: quarto-dev/quarto-actions/setup@v2
+        with:
+          version: 1.9.38
+
+      - name: Render
+        run: quarto render
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+
+      - id: deploy
+        uses: actions/deploy-pages@v4

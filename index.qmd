@@ -164,7 +164,7 @@ The InstaNovo paper drew broad attention across the scientific press.
   <summary>More coverage: press releases, blogs &amp; social</summary>
   <p><strong>Institutional press releases:</strong>
     <a href="https://instadeep.com/2025/03/enhancing-peptide-sequencing-with-ai/">InstaDeep</a> ·
-    <a href="https://www.dtu.dk/english/news/all-news/new-ai-models-possible-game-changers-within-protein-science-and-healthcare">DTU</a> ·
+    <a href="https://www.dtu.dk/english/newsarchive/2025/03/new-ai-models-possible-game-changers-within-protein-science-and-healthcare">DTU</a> ·
     <a href="https://www.sciencenews.dk/en/artificial-intelligence-cracks-protein-secrets-your-dna-cannot-show">Science News Denmark (Novo Nordisk Foundation)</a>
   </p>
   <p><strong>Blogs &amp; newsletters:</strong>
@@ -255,7 +255,7 @@ Owned the Python/R data-analysis platform used by 480 researchers and data scien
 _February 2018 – July 2018_ · Zwijnaarde, Belgium\
 Same platform role, prior to acquisition by BASF Agricultural Solutions.
 
-### [Applied Maths, a bioMérieux company](https://www.applied-maths.com/)
+### [Applied Maths, a bioMérieux company](https://web.archive.org/web/20201211112011/https://www.applied-maths.com/)
 **Bioinformatics Software Developer**\
 _September 2011 – January 2018_ · Sint-Martens-Latem, Belgium\
 Worked on BioNumerics, a bioinformatics suite for integrated analysis of biological data, writing custom Python scripts and extensions for clients in the clinical, academic and government sectors.
