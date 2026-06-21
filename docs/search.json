@@ -14,11 +14,11 @@
     "text": "Fascinated by the intersection of AI and science. Working on Machine Learning for personalized cancer vaccines, de novo peptide sequencing and signal peptides.\n\n\nBluesky | GitHub | LinkedIn"
   },
   {
-    "objectID": "index.html#projects",
-    "href": "index.html#projects",
+    "objectID": "index.html#publications",
+    "href": "index.html#publications",
     "title": "Jeroen Van Goey",
-    "section": "Projects",
-    "text": "Projects\n\nInstaNovo\nDe novo peptide sequencing with InstaNovo: Accurate, database-free peptide identification for large scale proteomics experiments\n\n\nSnakes and Sequences: Senegalese Serpent Venom Sequencing Hackathon\nThis hackathon focused on improving the predictions of the de novo peptide sequencing model InstaNovo using filtering and recalibration on a dataset of venoms of African snakes.\n\n\nDesert locust breeding ground prediction hackathon\nA machine learning hackathon to predict desert locust breeding grounds using remote sensing data and to improve model performance on the Zindi leaderboard.\n\n\neuler\nMy solutions to Project Euler.\n\n\nadventofcode\nMy solutions to Advent of Code."
+    "section": "Publications",
+    "text": "Publications\n\nInstaNovo\nDe novo peptide sequencing with InstaNovo: Accurate, database-free peptide identification for large scale proteomics experiments"
   },
   {
     "objectID": "index.html#experience",
@@ -26,6 +26,20 @@
     "title": "Jeroen Van Goey",
     "section": "Experience",
     "text": "Experience\n\nInstaDeep\nStaff Software Engineer in BioAI - Machine Learning for personalized cancer vaccines,\nAugust 2022 - Present\n\n\nBarco\nSr. Software Development Engineer - Machine Learning for dermatology,\nFebruary 2020 - August 2022\n\n\nBASF\nBioinformatics Researcher - Manager of the Python and R Platforms,\nAugust 2018 - January 2020"
+  },
+  {
+    "objectID": "index.html#hackathons",
+    "href": "index.html#hackathons",
+    "title": "Jeroen Van Goey",
+    "section": "Hackathons",
+    "text": "Hackathons\n\nSnakes and Sequences: Senegalese Serpent Venom Sequencing Hackathon\nThis hackathon focused on improving the predictions of the de novo peptide sequencing model InstaNovo using filtering and recalibration on a dataset of venoms of African snakes.\n\n\nDesert locust breeding ground prediction hackathon\nA machine learning hackathon to predict desert locust breeding grounds using remote sensing data and to improve model performance on the Zindi leaderboard."
+  },
+  {
+    "objectID": "index.html#programming-challenges",
+    "href": "index.html#programming-challenges",
+    "title": "Jeroen Van Goey",
+    "section": "Programming challenges",
+    "text": "Programming challenges\n\neuler\nMy solutions to Project Euler.\n\n\nadventofcode\nMy solutions to Advent of Code."
   },
   {
     "objectID": "index.html#skills",
