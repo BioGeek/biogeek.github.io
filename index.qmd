@@ -231,7 +231,7 @@ After publication we released a next generation of InstaNovo models:
 
 ## Experience
 
-### [InstaDeep](https://www.instadeep.com/)
+### <img src="images/icons/instadeep.png" class="company-icon" alt=""> [InstaDeep](https://www.instadeep.com/)
 **Staff Research Engineer in BioAI**\
 _July 2024 – Present_ · Cape Town, South Africa\
 Team lead and hiring manager for two cross-disciplinary BioAI research teams: *de novo* peptide sequencing (in collaboration with the Technical University of Denmark) and signal-peptide design for secretion efficiency in immunotherapy and vaccines (with BioNTech). Responsible for recruitment and team expansion across the Cape Town and Kigali offices.
@@ -240,22 +240,22 @@ Team lead and hiring manager for two cross-disciplinary BioAI research teams: *d
 _August 2022 – July 2024_\
 Designed, implemented and delivered performant, scalable protein-design libraries (Transformer-based, written in Python / PyTorch) running compute-intensive workloads on large, complex data across GPUs, HPC supercomputers and the cloud.
 
-### [Barco](https://www.barco.com/en)
+### <img src="images/icons/barco.png" class="company-icon" alt=""> [Barco](https://www.barco.com/en)
 **Sr. Software Development Engineer, Machine Learning**\
 _February 2020 – August 2022_ · Kortrijk, Belgium\
 Built a TensorFlow Extended production pipeline training deep-learning models on multispectral images to detect and classify melanoma skin cancers, working across the research, cloud-backend and mobile/web frontend teams.
 
-### [BASF](https://basf.com/)
+### <img src="images/icons/basf.png" class="company-icon" alt=""> [BASF](https://basf.com/)
 **Bioinformatics Researcher, Manager of the Python & R Platforms**\
 _August 2018 – January 2020_ · Zwijnaarde, Belgium\
 Owned the Python/R data-analysis platform used by 480 researchers and data scientists: technical support, proactive monitoring and root-cause analysis, training (NumPy, pandas, BioPython, …) and mentoring across the scientific community.
 
-### [Bayer Crop Science](https://www.bayer.com/)
+### <img src="images/icons/bayer.png" class="company-icon" alt=""> [Bayer Crop Science](https://www.bayer.com/)
 **Bioinformatics Researcher & Python Platform Manager**\
 _February 2018 – July 2018_ · Zwijnaarde, Belgium\
 Same platform role, prior to acquisition by BASF Agricultural Solutions.
 
-### [Applied Maths, a bioMérieux company](https://web.archive.org/web/20201211112011/https://www.applied-maths.com/)
+### <img src="images/icons/biomerieux.png" class="company-icon" alt=""> [Applied Maths, a bioMérieux company](https://web.archive.org/web/20201211112011/https://www.applied-maths.com/)
 **Bioinformatics Software Developer**\
 _September 2011 – January 2018_ · Sint-Martens-Latem, Belgium\
 Worked on BioNumerics, a bioinformatics suite for integrated analysis of biological data, writing custom Python scripts and extensions for clients in the clinical, academic and government sectors.

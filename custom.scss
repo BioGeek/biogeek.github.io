@@ -207,6 +207,16 @@ $headings-font-weight: 700;
   margin-bottom: 0.3rem;
 }
 
+// Favicon-style company icons in the Experience headings
+.company-icon {
+  width: 1.1em;
+  height: 1.1em;
+  object-fit: contain;
+  vertical-align: -0.15em;
+  margin-right: 0.45rem;
+  border-radius: 3px;
+}
+
 // Compact "for fun" side projects line
 .sidenote { color: var(--bs-secondary-color); }
 
