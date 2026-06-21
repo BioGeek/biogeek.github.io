@@ -13,7 +13,7 @@ permissions:
 
 # Avoid overlapping runs racing on a push
 concurrency:
-  group: update-aoc
+  group: site-auto-commit
   cancel-in-progress: false
 
 jobs:
@@ -30,6 +30,8 @@ jobs:
         run: python scripts/update_aoc.py
 
       - uses: quarto-dev/quarto-actions/setup@v2
+        with:
+          version: 1.9.38 # keep in sync with local Quarto to avoid site_libs churn
 
       - name: Render site
         run: quarto render
@@ -38,10 +40,15 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          if [ -n "$(git status --porcelain)" ]; then
-            git add -A
-            git commit -m "chore: sync Advent of Code stats from repo README"
-            git push
-          else
+          if [ -z "$(git status --porcelain)" ]; then
             echo "No changes to commit."
+            exit 0
           fi
+          git add -A
+          git commit -m "chore: sync Advent of Code stats from repo README"
+          # Integrate any concurrent push before pushing (belt-and-suspenders).
+          for attempt in 1 2 3; do
+            git pull --rebase --autostash origin main && git push && exit 0
+            echo "push attempt $attempt failed; retrying"; sleep 5
+          done
+          echo "push failed after retries"; exit 1
