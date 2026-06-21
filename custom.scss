@@ -413,10 +413,8 @@ ol.pipeline li::before {
 // Compact "for fun" side projects line
 .sidenote { color: var(--bs-secondary-color); }
 
-// "More …" disclosure dropdowns (publications, coverage)
-.more-pubs,
+// "More coverage" disclosure dropdown (news section)
 .more-coverage { margin-top: 0.75rem; }
-.more-pubs > summary,
 .more-coverage > summary {
   cursor: pointer;
   font-weight: 600;

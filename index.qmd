@@ -131,10 +131,11 @@ I build and ship machine-learning systems for science: generative sequence model
 </div>
 
 </div>
+```
 
-<details class="more-pubs">
-<summary>More publications</summary>
+::: {.callout-note collapse="true" title="More publications"}
 
+```{=html}
 <div class="pub-list">
 
 <div class="pub-card">
@@ -181,8 +182,9 @@ I build and ship machine-learning systems for science: generative sequence model
 </div>
 
 </div>
-</details>
 ```
+
+:::
 
 ### InstaNovo in the news {#instanovo-in-the-news}
 
