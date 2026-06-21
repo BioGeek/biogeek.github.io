@@ -413,6 +413,17 @@ ol.pipeline li::before {
 // Compact "for fun" side projects line
 .sidenote { color: var(--bs-secondary-color); }
 
+// "More …" disclosure dropdowns (publications, coverage)
+.more-pubs,
+.more-coverage { margin-top: 0.75rem; }
+.more-pubs > summary,
+.more-coverage > summary {
+  cursor: pointer;
+  font-weight: 600;
+  color: $primary;
+  padding: 0.3rem 0;
+}
+
 // Subtle sign-off (the old casual tagline, kept low-key)
 .genome-hacker {
   margin-top: 2.5rem;

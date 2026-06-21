@@ -130,6 +130,13 @@ I build and ship machine-learning systems for science: generative sequence model
   </div>
 </div>
 
+</div>
+
+<details class="more-pubs">
+<summary>More publications</summary>
+
+<div class="pub-list">
+
 <div class="pub-card">
   <a class="pub-thumb" href="https://doi.org/10.1021/acs.jproteome.5c01153">
     <img loading="lazy" src="images/publications/database_search_fig1.png" alt="Database search framework figure 1" />
@@ -174,6 +181,7 @@ I build and ship machine-learning systems for science: generative sequence model
 </div>
 
 </div>
+</details>
 ```
 
 ### InstaNovo in the news {#instanovo-in-the-news}
