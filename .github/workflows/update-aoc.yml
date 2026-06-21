@@ -1,0 +1,47 @@
+name: Update Advent of Code stats
+
+on:
+  schedule:
+    # Daily at 06:00 UTC during December (AoC season; puzzles unlock 05:00 UTC)
+    - cron: "0 6 * 12 *"
+    # Otherwise on the 1st of each month, January–November, at 06:00 UTC
+    - cron: "0 6 1 1-11 *"
+  workflow_dispatch: {} # manual "Run workflow" button in the Actions tab
+
+permissions:
+  contents: write
+
+# Avoid overlapping runs racing on a push
+concurrency:
+  group: update-aoc
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Sync AoC badges from the adventofcode repo README
+        run: python scripts/update_aoc.py
+
+      - uses: quarto-dev/quarto-actions/setup@v2
+
+      - name: Render site
+        run: quarto render
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if [ -n "$(git status --porcelain)" ]; then
+            git add -A
+            git commit -m "chore: sync Advent of Code stats from repo README"
+            git push
+          else
+            echo "No changes to commit."
+          fi

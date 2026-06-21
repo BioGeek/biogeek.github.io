@@ -2,77 +2,368 @@
 title: "Jeroen Van Goey"
 subtitle: "Just Another Genome Hacker"
 format: html
-theme: flatly
-css: styles.css
 ---
 
-<!-- Header Section -->
-
-## About Me
-
-<div class="header">
+```{=html}
+<div class="hero">
   <img src="images/jeroen.jpg" alt="Jeroen Van Goey" class="profile-pic" />
-  <div class="header-text">
-Fascinated by the intersection of AI and science. Working on Machine Learning for personalized cancer vaccines, <i>de novo</i> peptide sequencing and signal peptides.
+  <div class="hero-text">
+    <p class="tagline">Machine learning research engineer, fascinated by the intersection of AI and science. I build large-scale models for biology: Transformer and Diffusion models for <i>de novo</i> peptide sequencing and personalized cancer vaccines, trained at scale in PyTorch.</p>
+    <div class="social-links">
+      <a href="https://github.com/BioGeek"><i class="bi bi-github"></i> GitHub</a>
+      <a href="https://linkedin.com/in/jeroenvangoey"><i class="bi bi-linkedin"></i> LinkedIn</a>
+      <a href="https://scholar.google.com/citations?user=QinE3gcAAAAJ&hl=en"><i class="bi bi-mortarboard"></i> Scholar</a>
+      <a href="https://bsky.app/profile/jeroen.vangoey.be"><i class="bi bi-cloud"></i> Bluesky</a>
+      <a href="https://x.com/BioGeek"><i class="bi bi-twitter-x"></i> Twitter/X</a>
+    </div>
   </div>
 </div>
-
-**[Bluesky](https://bsky.app/profile/jeroen.vangoey.be)** | **[GitHub](https://github.com/BioGeek)** | **[LinkedIn](https://linkedin.com/in/jeroenvangoey)**  
-
-
----
+```
 
 ## Publications
 
-### [InstaNovo](https://github.com/instadeepai/InstaNovo)
-_De novo_ peptide sequencing with InstaNovo: Accurate, database-free peptide identification for large scale proteomics experiments
+```{=html}
+<div class="pub-list">
+
+<div class="pub-card flagship">
+  <a class="pub-thumb" href="https://doi.org/10.1038/s42256-025-01019-5">
+    <img src="images/publications/instanovo_figure1.png" alt="InstaNovo figure 1" />
+  </a>
+  <div class="pub-body">
+    <div class="pub-title"><a href="https://doi.org/10.1038/s42256-025-01019-5">InstaNovo enables diffusion-powered de novo peptide sequencing in large-scale proteomics experiments</a></div>
+    <div class="pub-authors">K. Eloff, K. Kalogeropoulos, A. Mabona, O. Morell, R. Catzel, E. Rivera-de-Torre, J. Berg Jespersen, W. Williams, S. P. B. van Beljouw, M. J. Skwark, A. H. Laustsen, S. J. J. Brouns, A. Ljungars, E. M. Schoof, <strong>J. Van Goey</strong>, U. auf dem Keller, K. Beguir, N. Lopez Carranza, T. P. Jenkins</div>
+    <div class="pub-venue"><span class="venue-name">Nature Machine Intelligence</span> · 2025 · 7(4):565–579</div>
+    <div class="pub-badges">
+      <a class="badge-primary" href="https://doi.org/10.1038/s42256-025-01019-5"><i class="bi bi-journal-text"></i> Nature Mach. Intell.</a>
+      <a href="https://www.biorxiv.org/content/10.1101/2023.08.30.555055"><i class="bi bi-file-earmark-text"></i> Preprint</a>
+      <a href="https://github.com/instadeepai/InstaNovo"><i class="bi bi-github"></i> Code</a>
+      <a href="#instanovo-in-the-news"><i class="bi bi-newspaper"></i> In the news</a>
+    </div>
+  </div>
+</div>
+
+<div class="pub-card">
+  <a class="pub-thumb" href="https://doi.org/10.1101/2025.05.14.654049">
+    <img src="images/publications/instanovo-p_figure1.png" alt="InstaNovo-P figure 1" />
+  </a>
+  <div class="pub-body">
+    <div class="pub-title"><a href="https://doi.org/10.1101/2025.05.14.654049">InstaNovo-P: a de novo peptide sequencing model for phosphoproteomics</a></div>
+    <div class="pub-authors">J. Lauridsen, P. Ramasamy, R. Catzel, V. Canbay, A. Mabona, K. Eloff, P. Fullwood, J. Ferguson, A. Kirketerp-Møller, I. S. Goldschmidt, T. Claeys, S. van Puyenbroeck, N. Lopez Carranza, E. M. Schoof, L. Martens, <strong>J. Van Goey</strong>, C. Francavilla, T. P. Jenkins, K. Kalogeropoulos</div>
+    <div class="pub-venue"><span class="venue-name">bioRxiv</span> (preprint) · 2025</div>
+    <div class="pub-badges">
+      <a class="badge-primary" href="https://doi.org/10.1101/2025.05.14.654049"><i class="bi bi-file-earmark-text"></i> bioRxiv</a>
+      <a href="https://github.com/instadeepai/InstaNovo-P"><i class="bi bi-github"></i> Code</a>
+    </div>
+  </div>
+</div>
+
+<div class="pub-card">
+  <a class="pub-thumb" href="https://arxiv.org/abs/2509.24952">
+    <img src="images/publications/winnow_figure1.png" alt="Winnow figure 1" />
+  </a>
+  <div class="pub-body">
+    <div class="pub-title"><a href="https://arxiv.org/abs/2509.24952">De novo peptide sequencing rescoring and FDR estimation with Winnow</a></div>
+    <div class="pub-authors">A. Mabona, J. Daniel, H. S. J. Knudsen, R. Catzel, K. M. Eloff, E. M. Schoof, N. Lopez Carranza, T. P. Jenkins, <strong>J. Van Goey</strong>, K. Kalogeropoulos</div>
+    <div class="pub-venue"><span class="venue-name">arXiv</span> (preprint) · 2025</div>
+    <div class="pub-badges">
+      <a class="badge-primary" href="https://arxiv.org/abs/2509.24952"><i class="bi bi-file-earmark-text"></i> arXiv</a>
+      <a href="https://github.com/instadeepai/winnow"><i class="bi bi-github"></i> Code</a>
+    </div>
+  </div>
+</div>
+
+<div class="pub-card">
+  <a class="pub-thumb" href="https://doi.org/10.1016/j.mcpro.2026.101547">
+    <img src="images/publications/instanexus_figure1.jpg" alt="InstaNexus figure 1" />
+  </a>
+  <div class="pub-body">
+    <div class="pub-title"><a href="https://doi.org/10.1016/j.mcpro.2026.101547">Generalizable direct protein sequencing with InstaNexus</a></div>
+    <div class="pub-authors">M. Reverenna, M. Wennekers Nielsen, D. S. Wolff, J. Daniel, E. Lytra, S. Thumtecho, P. D. Colaianni, A. Ljungars, A. H. Laustsen, E. M. Schoof, <strong>J. Van Goey</strong>, T. P. Jenkins, M. V. Lukassen, A. Santos, K. Kalogeropoulos</div>
+    <div class="pub-venue"><span class="venue-name">Molecular &amp; Cellular Proteomics</span> · 2026 · 25(4):101547</div>
+    <div class="pub-badges">
+      <a class="badge-primary" href="https://doi.org/10.1016/j.mcpro.2026.101547"><i class="bi bi-journal-text"></i> Mol. Cell. Proteomics</a>
+      <a href="https://doi.org/10.1101/2025.07.25.666861"><i class="bi bi-file-earmark-text"></i> Preprint</a>
+    </div>
+  </div>
+</div>
+
+<div class="pub-card">
+  <a class="pub-thumb" href="https://doi.org/10.1021/acs.jproteome.5c01153">
+    <img src="images/publications/database_search_fig1.png" alt="Database search framework figure 1" />
+  </a>
+  <div class="pub-body">
+    <div class="pub-title"><a href="https://doi.org/10.1021/acs.jproteome.5c01153">A framework for database search with AI models in mass spectrometry-based proteomics</a></div>
+    <div class="pub-authors">K. Kalogeropoulos, <strong>J. Van Goey</strong>, T. P. Jenkins, K. M. Eloff</div>
+    <div class="pub-venue"><span class="venue-name">Journal of Proteome Research</span> · 2026 · 25(5):2234–2242</div>
+    <div class="pub-badges">
+      <a class="badge-primary" href="https://doi.org/10.1021/acs.jproteome.5c01153"><i class="bi bi-journal-text"></i> J. Proteome Res.</a>
+    </div>
+  </div>
+</div>
+
+<div class="pub-card">
+  <a class="pub-thumb" href="https://doi.org/10.1021/acs.jproteome.4c01079">
+    <img src="images/publications/open_source_and_fair_research_software_for_proteomics_figure1.gif" alt="Open-source and FAIR research software for proteomics figure 1" />
+  </a>
+  <div class="pub-body">
+    <div class="pub-title"><a href="https://doi.org/10.1021/acs.jproteome.4c01079">Open-source and FAIR research software for proteomics</a></div>
+    <div class="pub-authors">Y. Perez-Riverol, W. Bittremieux, W. S. Noble, L. Martens, A. Bilbao, M. R. Lazear, B. Grüning, D. S. Katz, M. J. MacCoss, C. Dai, J. K. Eng, R. Bouwmeester, M. R. Shortreed, E. Audain, T. Sachsenberg, <strong>J. Van Goey</strong>, G. Wallmann, B. Wen, L. Käll, W. E. Fondrie</div>
+    <div class="pub-venue"><span class="venue-name">Journal of Proteome Research</span> · 2025 · 24(5):2222–2234</div>
+    <div class="pub-badges">
+      <a class="badge-primary" href="https://doi.org/10.1021/acs.jproteome.4c01079"><i class="bi bi-journal-text"></i> J. Proteome Res.</a>
+    </div>
+  </div>
+</div>
+
+<div class="pub-card">
+  <a class="pub-thumb" href="files/poster_afkSNP.pdf">
+    <img src="images/publications/afksnp.png" alt="afkSNP poster" />
+  </a>
+  <div class="pub-body">
+    <div class="pub-title"><a href="files/poster_afkSNP.pdf">afkSNP: assembly-free k-mer based SNP comparison of bacterial WGS samples</a></div>
+    <div class="pub-authors"><strong>J. Van Goey</strong>, H. Pouseele, P. Supply, S. Niemann</div>
+    <div class="pub-venue">Conference poster · Belgian bioinformatics conference · 2016</div>
+    <div class="pub-badges">
+      <a class="badge-primary" href="files/poster_afkSNP.pdf"><i class="bi bi-file-earmark-pdf"></i> Poster (PDF)</a>
+      <a href="https://www.researchgate.net/publication/291354610"><i class="bi bi-link-45deg"></i> ResearchGate</a>
+    </div>
+  </div>
+</div>
+
+</div>
+```
+
+### InstaNovo in the news {#instanovo-in-the-news}
+
+The InstaNovo paper drew broad attention across the scientific press.
+
+```{=html}
+<div class="media-wrap">
+  <div class="altmetric-box">
+    <div data-badge-type="donut" data-badge-popover="right" data-doi="10.1038/s42256-025-01019-5" class="altmetric-embed"></div>
+    <div class="altmetric-caption">Live Altmetric attention</div>
+  </div>
+  <div class="coverage">
+    <strong>Selected coverage</strong>
+    <ul class="coverage-grid">
+      <li><a href="https://www.science.org/content/article/ai-revolution-comes-protein-sequencing"><span class="outlet">Science</span><span class="headline">An AI revolution comes to protein sequencing</span></a></li>
+      <li><a href="https://www.sciencenews.org/article/ai-decode-indecipherable-proteins"><span class="outlet">Science News</span><span class="headline">AI may help decode proteins DNA can't reveal</span></a></li>
+      <li><a href="https://www.chemistryworld.com/news/ai-takes-step-towards-cracking-biologys-toughest-problem-protein-sequencing/4021205.article"><span class="outlet">Chemistry World</span><span class="headline">AI takes step towards cracking biology's toughest problem</span></a></li>
+      <li><a href="https://www.biotechniques.com/computational-biology/doubling-up-novel-ai-models-improve-de-novo-peptide-sequencing/"><span class="outlet">BioTechniques</span><span class="headline">Doubling up: novel AI models improve de novo peptide sequencing</span></a></li>
+      <li><a href="https://www.technologynetworks.com/tn/news/ai-models-accelerate-discovery-within-protein-science-397916"><span class="outlet">Technology Networks</span><span class="headline">AI models accelerate discovery within protein science</span></a></li>
+      <li><a href="https://www.azolifesciences.com/news/20250401/Novel-AI-Models-Enhance-Disease-Diagnosis-and-Pathogen-Identification.aspx"><span class="outlet">AZoLifeSciences</span><span class="headline">Novel AI models enhance disease diagnosis and pathogen ID</span></a></li>
+      <li><a href="https://www.sciencedaily.com/releases/2025/03/250331122207.htm"><span class="outlet">ScienceDaily</span><span class="headline">Possible game-changers within protein science and healthcare</span></a></li>
+      <li><a href="https://www.miragenews.com/ai-models-revolutionize-protein-science-"><span class="outlet">Mirage News</span><span class="headline">AI models revolutionize protein science</span></a></li>
+      <li><a href="https://www.theresearchcode.com/articles/ai-system-reads-protein-sequences-without-databases"><span class="outlet">The Research Code</span><span class="headline">AI system reads protein sequences without databases</span></a></li>
+      <li><a href="https://www.dongascience.com/news.php?idx=70867"><span class="outlet">Dong-a Science</span><span class="headline">AI cracks protein sequencing (Korean)</span></a></li>
+    </ul>
+  </div>
+</div>
+
+<details class="more-coverage">
+  <summary>More coverage: press releases, blogs &amp; social</summary>
+  <p><strong>Institutional press releases:</strong>
+    <a href="https://instadeep.com/2025/03/enhancing-peptide-sequencing-with-ai/">InstaDeep</a> ·
+    <a href="https://www.dtu.dk/english/news/all-news/new-ai-models-possible-game-changers-within-protein-science-and-healthcare">DTU</a> ·
+    <a href="https://www.sciencenews.dk/en/artificial-intelligence-cracks-protein-secrets-your-dna-cannot-show">Science News Denmark (Novo Nordisk Foundation)</a>
+  </p>
+  <p><strong>Blogs &amp; newsletters:</strong>
+    <a href="https://plentyofroom.beehiiv.com/p/ai-protein-sequencing-breakthrough-decoding-peptides-faster">Plenty of Room</a> ·
+    <a href="https://proteomicsnews.blogspot.com/2025/03/two-people-i-know-are-in-sciencenews.html">Proteomics News</a>
+  </p>
+  <p><strong>Community:</strong>
+    <a href="https://www.reddit.com/r/proteomics/comments/1jo5384/instanovo_enables_diffusionpowered_de_novo/">r/proteomics</a> ·
+    <a href="https://www.reddit.com/r/massspectrometry/comments/1jo56wx/instanovo_enables_diffusionpowered_de_novo/">r/massspectrometry</a>
+  </p>
+  <p><strong>On X:</strong>
+    <a href="https://x.com/instadeepai/status/1906656773286568220">InstaDeep</a> ·
+    <a href="https://x.com/IterIntellectus/status/1906711077477380133">viral thread (149.8K views)</a> ·
+    <a href="https://x.com/ChemistryWorld/status/1906731644418936851">Chemistry World</a> ·
+    <a href="https://x.com/AndreasLaustsen/status/1906636460133879857">A. Laustsen</a> ·
+    <a href="https://x.com/TimothyPJenkins/status/1928369194283729312">T. P. Jenkins</a> ·
+    <a href="https://x.com/bravo_abad/status/1906709650533216453">J. Bravo-Abad</a>
+  </p>
+  <p><strong>On LinkedIn:</strong>
+    <a href="https://www.linkedin.com/posts/instanovo-aiforgood-ugcPost-7312422855462248448-Z5Gn/">InstaNovo</a> ·
+    <a href="https://www.linkedin.com/posts/proteomics-immunopeptidomics-ugcPost-7312423166071492608--fiJ/">Proteomics &amp; Immunopeptidomics</a> ·
+    <a href="https://www.linkedin.com/posts/mortenbusch_sciencenews-novonordiskfoundation-ai-share-7312414787248828416-uKUw/">M. Busch</a> ·
+    <a href="https://www.linkedin.com/posts/andreas-laustsen-kiel-2b104214_immunopeptidomics-proteome-therapeutic-share-7312402064955904001-iwC5/">A. Laustsen</a>
+  </p>
+</details>
+```
+
+::: {.callout-note collapse="true"}
+## Follow-up: InstaNovo v1.1
+
+After publication we released a next generation of InstaNovo models:
+[Introducing the next generation of InstaNovo models](https://instanovo.ai/introducing-the-next-generation-of-instanovo-models/)
+([announcement on X](https://x.com/instadeepai/status/1909931852980449599) ·
+[on LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7315698333488939009)).
+:::
+
+
+---
+
+## Projects
+
+```{=html}
+<div class="pub-list">
+
+<div class="pub-card">
+  <a class="pub-thumb" href="https://jeroen.vangoey.be/awesome_de_novo_peptide_sequencing/">
+    <img src="images/projects/awesome_de_novo.png" alt="Awesome De Novo Peptide Sequencing" />
+  </a>
+  <div class="pub-body">
+    <div class="pub-title"><a href="https://jeroen.vangoey.be/awesome_de_novo_peptide_sequencing/">Awesome De Novo Peptide Sequencing</a></div>
+    <p>A comprehensive, interactive map of the field: algorithms, post-processors, downstream applications, and adjacent tools, deep-learning and classical alike.</p>
+    <div class="pub-badges">
+      <a class="badge-primary" href="https://jeroen.vangoey.be/awesome_de_novo_peptide_sequencing/"><i class="bi bi-box-arrow-up-right"></i> Live site</a>
+      <a href="https://github.com/BioGeek/awesome_de_novo_peptide_sequencing"><i class="bi bi-github"></i> Code</a>
+    </div>
+  </div>
+</div>
+
+</div>
+```
 
 
 ---
 
 ## Experience
-### [InstaDeep](https://www.instadeep.com/)
-**Staff Software Engineer in BioAI** - Machine Learning for personalized cancer vaccines,  
-_August 2022 - Present_
 
-### [Barco]((https://www.barco.com/en))
-**Sr. Software Development Engineer** - Machine Learning for dermatology,  
-_February 2020 - August 2022_
+### [InstaDeep](https://www.instadeep.com/)
+**Staff Research Engineer in BioAI**\
+_July 2024 – Present_ · Cape Town, South Africa\
+Team lead and hiring manager for two cross-disciplinary BioAI research teams: *de novo* peptide sequencing (in collaboration with the Technical University of Denmark) and signal-peptide design for secretion efficiency in immunotherapy and vaccines (with BioNTech). Responsible for recruitment and team expansion across the Cape Town and Kigali offices.
+
+**Senior BioAI Software Engineer**\
+_August 2022 – July 2024_\
+Designed, implemented and delivered performant, scalable protein-design libraries (Transformer-based, written in Python / PyTorch) running compute-intensive workloads on large, complex data across GPUs, HPC supercomputers and the cloud.
+
+### [Barco](https://www.barco.com/en)
+**Sr. Software Development Engineer, Machine Learning**\
+_February 2020 – August 2022_ · Kortrijk, Belgium\
+Built a TensorFlow Extended production pipeline training deep-learning models on multispectral images to detect and classify melanoma skin cancers, working across the research, cloud-backend and mobile/web frontend teams.
 
 ### [BASF](https://basf.com/)
-**Bioinformatics Researcher** - Manager of the Python and R Platforms,  
-_August 2018 - January 2020_
+**Bioinformatics Researcher, Manager of the Python & R Platforms**\
+_August 2018 – January 2020_ · Zwijnaarde, Belgium\
+Owned the Python/R data-analysis platform used by 480 researchers and data scientists: technical support, proactive monitoring and root-cause analysis, training (NumPy, pandas, BioPython, …) and mentoring across the scientific community.
+
+### [Bayer Crop Science](https://www.bayer.com/)
+**Bioinformatics Researcher & Python Platform Manager**\
+_February 2018 – July 2018_ · Zwijnaarde, Belgium\
+Same platform role, prior to acquisition by BASF Agricultural Solutions.
+
+### [Applied Maths, a bioMérieux company](https://www.applied-maths.com/)
+**Bioinformatics Software Developer**\
+_September 2011 – January 2018_ · Sint-Martens-Latem, Belgium\
+Worked on BioNumerics, a bioinformatics suite for integrated analysis of biological data, writing custom Python scripts and extensions for clients in the clinical, academic and government sectors.
+
+
+---
+
+## Education
+
+**Katholieke Universiteit Leuven**: Bioinformatics, partial credits obtained (M.Sc. not completed) · 2010–2012\
+**University of Antwerp**: M.Sc., Biology · 1997–2004\
+**Hogeschool West-Vlaanderen (Howest)**: Microdegree, Machine Learning & Deep Learning · 2018–2019
 
 
 ---
 
 ## Hackathons
 
-### [Snakes and Sequences: Senegalese Serpent Venom Sequencing Hackathon](https://github.com/BioGeek/hackathon_indaba_senegal_2024/blob/main/starter_notebook.ipynb)
-This hackathon focused on improving the predictions of the *de novo* peptide sequencing model InstaNovo using filtering and recalibration on a dataset of venoms of African snakes.
+I have **co-created, organized and judged** machine-learning hackathons at the Deep Learning Indaba and its regional IndabaX events.
 
-### [Desert locust breeding ground prediction hackathon](https://github.com/BioGeek/hackathon_indabaX_2024/blob/main/hackathon_beginner_notebook.ipynb)
-A machine learning hackathon to predict desert locust breeding grounds using remote sensing data and to improve model performance on the Zindi leaderboard.
+```{=html}
+<div class="pub-list">
 
----
+<div class="pub-card">
+  <a class="pub-thumb" href="https://github.com/BioGeek/hackathon_IndabaX_2025_mlip">
+    <img src="images/hackathons/mlip.png" alt="3BPA (3-(benzyloxy)pyridin-2-amine) molecule" />
+  </a>
+  <div class="pub-body">
+    <div class="pub-title"><a href="https://github.com/BioGeek/hackathon_IndabaX_2025_mlip">Machine Learning Interatomic Potentials Hackathon</a></div>
+    <div class="pub-venue">IndabaX 2025 · Stellenbosch University, South Africa</div>
+    <p>Training a Machine Learning Interatomic Potential (MLIP) model (predicting the energy and forces of atomic systems) with the <a href="https://github.com/instadeepai/mlip">mlip</a> library, using the 3BPA molecule (3-(benzyloxy)pyridin-2-amine) as the benchmark system.</p>
+  </div>
+</div>
 
-## Programming challenges
+<div class="pub-card">
+  <a class="pub-thumb" href="https://github.com/BioGeek/hackathon_indaba_senegal_2024">
+    <img src="images/hackathons/snakes_and_sequences.png" alt="Snakes and Sequences hackathon" />
+  </a>
+  <div class="pub-body">
+    <div class="pub-title"><a href="https://github.com/BioGeek/hackathon_indaba_senegal_2024">Snakes and Sequences: Senegalese Serpent Venom Sequencing Hackathon</a></div>
+    <div class="pub-venue">Deep Learning Indaba 2024 · Senegal</div>
+    <p>Using <a href="https://github.com/instadeepai/InstaNovo">InstaNovo</a> and <i>de novo</i> peptide sequencing to characterise African snake venoms for better antivenoms.</p>
+  </div>
+</div>
 
-### [euler](https://github.com/BioGeek/euler)
-My solutions to [Project Euler](https://projecteuler.net/).
+<div class="pub-card">
+  <a class="pub-thumb" href="https://github.com/BioGeek/hackathon_indabaX_2024">
+    <img src="images/hackathons/desert_locust.png" alt="Desert locust breeding ground prediction hackathon" />
+  </a>
+  <div class="pub-body">
+    <div class="pub-title"><a href="https://github.com/BioGeek/hackathon_indabaX_2024">Desert Locust Breeding Ground Prediction Hackathon</a></div>
+    <div class="pub-venue">IndabaX 2024 · University of the Witwatersrand (Wits), Johannesburg</div>
+    <p>Predicting desert locust breeding grounds from remote-sensing data, with teams competing on the Zindi leaderboard.</p>
+  </div>
+</div>
 
-### [adventofcode](https://github.com/BioGeek/adventofcode)
-My solutions to [Advent of Code](https://adventofcode.com/).
+</div>
+```
 
 
 ---
 
 ## Skills
-### Languages & Frameworks
-- Python: pandas, NumPy, Tensorflow, BioPython, Jax, ...
 
-### Bioinformatics
-- BLAST, ClustalW, Snakemake, BioNumerics, ...
+**Machine learning** · Transformers, diffusion models, large language models (LLMs), supervised & self-supervised learning\
+**Frameworks** · PyTorch, TensorFlow / TFX, NumPy, pandas\
+**Scale & MLOps** · Distributed GPU training, HPC clusters (on-premise and the MareNostrum 5 supercomputer), cloud (AWS), Docker, CI/CD\
+**Bioinformatics** · BioPython, BLAST, ClustalW, Snakemake, BioNumerics\
+**Languages** · Python (primary), R
 
-### Other
-- Docker, Amazon Web Services (AWS), CI/CD, ...
+### Just for fun
+
+```{=html}
+<div class="pub-list">
+
+<div class="pub-card">
+  <a class="pub-thumb" href="https://github.com/BioGeek/euler"><img class="euler-badge" src="images/fun/euler.png" alt="Project Euler profile: Solved 68, Level 2" /></a>
+  <div class="pub-body">
+    <div class="pub-title"><a href="https://github.com/BioGeek/euler">Project Euler</a></div>
+    <p>My solutions to <a href="https://projecteuler.net/">Project Euler</a>, a series of challenging mathematical and computer-programming problems.</p>
+  </div>
+</div>
+
+<div class="pub-card">
+  <div class="pub-thumb pub-thumb-wide">
+    <table class="aoc-table">
+      <thead><tr><th>Year</th><th>Days</th><th>Stars</th></tr></thead>
+      <tbody>
+      <!-- AOC:ROWS:START -->
+      <tr><td>2024</td><td><img src="https://img.shields.io/badge/days_completed-5-0f766e" alt="5 days completed"></td><td><img src="https://img.shields.io/badge/stars_%E2%AD%90-10-0f766e" alt="10 stars"></td></tr>
+      <tr><td>2023</td><td><img src="https://img.shields.io/badge/days_completed-2-0f766e" alt="2 days completed"></td><td><img src="https://img.shields.io/badge/stars_%E2%AD%90-5-0f766e" alt="5 stars"></td></tr>
+      <tr><td>2022</td><td><img src="https://img.shields.io/badge/days_completed-6-0f766e" alt="6 days completed"></td><td><img src="https://img.shields.io/badge/stars_%E2%AD%90-12-0f766e" alt="12 stars"></td></tr>
+      <tr><td>2021</td><td><img src="https://img.shields.io/badge/days_completed-8-0f766e" alt="8 days completed"></td><td><img src="https://img.shields.io/badge/stars_%E2%AD%90-17-0f766e" alt="17 stars"></td></tr>
+      <tr><td>2020</td><td><img src="https://img.shields.io/badge/days_completed-8-0f766e" alt="8 days completed"></td><td><img src="https://img.shields.io/badge/stars_%E2%AD%90-18-0f766e" alt="18 stars"></td></tr>
+      <tr><td>2019</td><td><img src="https://img.shields.io/badge/days_completed-6-0f766e" alt="6 days completed"></td><td><img src="https://img.shields.io/badge/stars_%E2%AD%90-14-0f766e" alt="14 stars"></td></tr>
+      <tr><td>2018</td><td><img src="https://img.shields.io/badge/days_completed-5-0f766e" alt="5 days completed"></td><td><img src="https://img.shields.io/badge/stars_%E2%AD%90-10-0f766e" alt="10 stars"></td></tr>
+      <tr><td>2017</td><td><img src="https://img.shields.io/badge/days_completed-6-0f766e" alt="6 days completed"></td><td><img src="https://img.shields.io/badge/stars_%E2%AD%90-13-0f766e" alt="13 stars"></td></tr>
+      <tr><td>2016</td><td><img src="https://img.shields.io/badge/days_completed-15-0f766e" alt="15 days completed"></td><td><img src="https://img.shields.io/badge/stars_%E2%AD%90-30-0f766e" alt="30 stars"></td></tr>
+      <tr><td>2015</td><td><img src="https://img.shields.io/badge/days_completed-12-0f766e" alt="12 days completed"></td><td><img src="https://img.shields.io/badge/stars_%E2%AD%90-27-0f766e" alt="27 stars"></td></tr>
+      <!-- AOC:ROWS:END -->
+      </tbody>
+    </table>
+  </div>
+  <div class="pub-body">
+    <div class="pub-title"><a href="https://github.com/BioGeek/adventofcode">Advent of Code</a></div>
+    <p>My solutions to <a href="https://adventofcode.com/">Advent of Code</a>, the annual December programming-puzzle event (<!-- AOC:SUMMARY:START -->156 stars across 2015–2024<!-- AOC:SUMMARY:END -->).</p>
+  </div>
+</div>
+
+</div>
+```

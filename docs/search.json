@@ -4,48 +4,48 @@
     "href": "index.html",
     "title": "Jeroen Van Goey",
     "section": "",
-    "text": "Fascinated by the intersection of AI and science. Working on Machine Learning for personalized cancer vaccines, de novo peptide sequencing and signal peptides.\n\n\nBluesky | GitHub | LinkedIn"
-  },
-  {
-    "objectID": "index.html#about-me",
-    "href": "index.html#about-me",
-    "title": "Jeroen Van Goey",
-    "section": "",
-    "text": "Fascinated by the intersection of AI and science. Working on Machine Learning for personalized cancer vaccines, de novo peptide sequencing and signal peptides.\n\n\nBluesky | GitHub | LinkedIn"
+    "text": "Machine learning research engineer, fascinated by the intersection of AI and science. I build large-scale models for biology: Transformer and Diffusion models for de novo peptide sequencing and personalized cancer vaccines, trained at scale in PyTorch.\n    \n       GitHub\n       LinkedIn\n       Scholar\n       Bluesky\n       Twitter/X"
   },
   {
     "objectID": "index.html#publications",
     "href": "index.html#publications",
     "title": "Jeroen Van Goey",
     "section": "Publications",
-    "text": "Publications\n\nInstaNovo\nDe novo peptide sequencing with InstaNovo: Accurate, database-free peptide identification for large scale proteomics experiments"
+    "text": "Publications\n\n\n\n  \n    \n  \n  \n    InstaNovo enables diffusion-powered de novo peptide sequencing in large-scale proteomics experiments\n    K. Eloff, K. Kalogeropoulos, A. Mabona, O. Morell, R. Catzel, E. Rivera-de-Torre, J. Berg Jespersen, W. Williams, S. P. B. van Beljouw, M. J. Skwark, A. H. Laustsen, S. J. J. Brouns, A. Ljungars, E. M. Schoof, J. Van Goey, U. auf dem Keller, K. Beguir, N. Lopez Carranza, T. P. Jenkins\n    Nature Machine Intelligence · 2025 · 7(4):565–579\n    \n       Nature Mach. Intell.\n       Preprint\n       Code\n       In the news\n    \n  \n\n\n\n  \n    \n  \n  \n    InstaNovo-P: a de novo peptide sequencing model for phosphoproteomics\n    J. Lauridsen, P. Ramasamy, R. Catzel, V. Canbay, A. Mabona, K. Eloff, P. Fullwood, J. Ferguson, A. Kirketerp-Møller, I. S. Goldschmidt, T. Claeys, S. van Puyenbroeck, N. Lopez Carranza, E. M. Schoof, L. Martens, J. Van Goey, C. Francavilla, T. P. Jenkins, K. Kalogeropoulos\n    bioRxiv (preprint) · 2025\n    \n       bioRxiv\n       Code\n    \n  \n\n\n\n  \n    \n  \n  \n    De novo peptide sequencing rescoring and FDR estimation with Winnow\n    A. Mabona, J. Daniel, H. S. J. Knudsen, R. Catzel, K. M. Eloff, E. M. Schoof, N. Lopez Carranza, T. P. Jenkins, J. Van Goey, K. Kalogeropoulos\n    arXiv (preprint) · 2025\n    \n       arXiv\n       Code\n    \n  \n\n\n\n  \n    \n  \n  \n    Generalizable direct protein sequencing with InstaNexus\n    M. Reverenna, M. Wennekers Nielsen, D. S. Wolff, J. Daniel, E. Lytra, S. Thumtecho, P. D. Colaianni, A. Ljungars, A. H. Laustsen, E. M. Schoof, J. Van Goey, T. P. Jenkins, M. V. Lukassen, A. Santos, K. Kalogeropoulos\n    Molecular & Cellular Proteomics · 2026 · 25(4):101547\n    \n       Mol. Cell. Proteomics\n       Preprint\n    \n  \n\n\n\n  \n    \n  \n  \n    A framework for database search with AI models in mass spectrometry-based proteomics\n    K. Kalogeropoulos, J. Van Goey, T. P. Jenkins, K. M. Eloff\n    Journal of Proteome Research · 2026 · 25(5):2234–2242\n    \n       J. Proteome Res.\n    \n  \n\n\n\n  \n    \n  \n  \n    Open-source and FAIR research software for proteomics\n    Y. Perez-Riverol, W. Bittremieux, W. S. Noble, L. Martens, A. Bilbao, M. R. Lazear, B. Grüning, D. S. Katz, M. J. MacCoss, C. Dai, J. K. Eng, R. Bouwmeester, M. R. Shortreed, E. Audain, T. Sachsenberg, J. Van Goey, G. Wallmann, B. Wen, L. Käll, W. E. Fondrie\n    Journal of Proteome Research · 2025 · 24(5):2222–2234\n    \n       J. Proteome Res.\n    \n  \n\n\n\n  \n    \n  \n  \n    afkSNP: assembly-free k-mer based SNP comparison of bacterial WGS samples\n    J. Van Goey, H. Pouseele, P. Supply, S. Niemann\n    Conference poster · Belgian bioinformatics conference · 2016\n    \n       Poster (PDF)\n       ResearchGate\n    \n  \n\n\n\n\nInstaNovo in the news\nThe InstaNovo paper drew broad attention across the scientific press.\n\n  \n    \n    Live Altmetric attention\n  \n  \n    Selected coverage\n    \n      ScienceAn AI revolution comes to protein sequencing\n      Science NewsAI may help decode proteins DNA can't reveal\n      Chemistry WorldAI takes step towards cracking biology's toughest problem\n      BioTechniquesDoubling up: novel AI models improve de novo peptide sequencing\n      Technology NetworksAI models accelerate discovery within protein science\n      AZoLifeSciencesNovel AI models enhance disease diagnosis and pathogen ID\n      ScienceDailyPossible game-changers within protein science and healthcare\n      Mirage NewsAI models revolutionize protein science\n      The Research CodeAI system reads protein sequences without databases\n      Dong-a ScienceAI cracks protein sequencing (Korean)\n    \n  \n\n\n\n  More coverage: press releases, blogs & social\n  Institutional press releases:\n    InstaDeep ·\n    DTU ·\n    Science News Denmark (Novo Nordisk Foundation)\n  \n  Blogs & newsletters:\n    Plenty of Room ·\n    Proteomics News\n  \n  Community:\n    r/proteomics ·\n    r/massspectrometry\n  \n  On X:\n    InstaDeep ·\n    viral thread (149.8K views) ·\n    Chemistry World ·\n    A. Laustsen ·\n    T. P. Jenkins ·\n    J. Bravo-Abad\n  \n  On LinkedIn:\n    InstaNovo ·\n    Proteomics & Immunopeptidomics ·\n    M. Busch ·\n    A. Laustsen\n  \n\n\n\n\n\n\n\nFollow-up: InstaNovo v1.1\n\n\n\n\n\nAfter publication we released a next generation of InstaNovo models: Introducing the next generation of InstaNovo models (announcement on X · on LinkedIn)."
+  },
+  {
+    "objectID": "index.html#projects",
+    "href": "index.html#projects",
+    "title": "Jeroen Van Goey",
+    "section": "Projects",
+    "text": "Projects\n\n\n\n  \n    \n  \n  \n    Awesome De Novo Peptide Sequencing\n    A comprehensive, interactive map of the field: algorithms, post-processors, downstream applications, and adjacent tools, deep-learning and classical alike.\n    \n       Live site\n       Code"
   },
   {
     "objectID": "index.html#experience",
     "href": "index.html#experience",
     "title": "Jeroen Van Goey",
     "section": "Experience",
-    "text": "Experience\n\nInstaDeep\nStaff Software Engineer in BioAI - Machine Learning for personalized cancer vaccines,\nAugust 2022 - Present\n\n\nBarco\nSr. Software Development Engineer - Machine Learning for dermatology,\nFebruary 2020 - August 2022\n\n\nBASF\nBioinformatics Researcher - Manager of the Python and R Platforms,\nAugust 2018 - January 2020"
+    "text": "Experience\n\nInstaDeep\nStaff Research Engineer in BioAI\nJuly 2024 – Present · Cape Town, South Africa\nTeam lead and hiring manager for two cross-disciplinary BioAI research teams: de novo peptide sequencing (in collaboration with the Technical University of Denmark) and signal-peptide design for secretion efficiency in immunotherapy and vaccines (with BioNTech). Responsible for recruitment and team expansion across the Cape Town and Kigali offices.\nSenior BioAI Software Engineer\nAugust 2022 – July 2024\nDesigned, implemented and delivered performant, scalable protein-design libraries (Transformer-based, written in Python / PyTorch) running compute-intensive workloads on large, complex data across GPUs, HPC supercomputers and the cloud.\n\n\nBarco\nSr. Software Development Engineer, Machine Learning\nFebruary 2020 – August 2022 · Kortrijk, Belgium\nBuilt a TensorFlow Extended production pipeline training deep-learning models on multispectral images to detect and classify melanoma skin cancers, working across the research, cloud-backend and mobile/web frontend teams.\n\n\nBASF\nBioinformatics Researcher, Manager of the Python & R Platforms\nAugust 2018 – January 2020 · Zwijnaarde, Belgium\nOwned the Python/R data-analysis platform used by 480 researchers and data scientists: technical support, proactive monitoring and root-cause analysis, training (NumPy, pandas, BioPython, …) and mentoring across the scientific community.\n\n\nBayer Crop Science\nBioinformatics Researcher & Python Platform Manager\nFebruary 2018 – July 2018 · Zwijnaarde, Belgium\nSame platform role, prior to acquisition by BASF Agricultural Solutions.\n\n\nApplied Maths, a bioMérieux company\nBioinformatics Software Developer\nSeptember 2011 – January 2018 · Sint-Martens-Latem, Belgium\nWorked on BioNumerics, a bioinformatics suite for integrated analysis of biological data, writing custom Python scripts and extensions for clients in the clinical, academic and government sectors."
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Jeroen Van Goey",
+    "section": "Education",
+    "text": "Education\nKatholieke Universiteit Leuven: Bioinformatics, partial credits obtained (M.Sc. not completed) · 2010–2012\nUniversity of Antwerp: M.Sc., Biology · 1997–2004\nHogeschool West-Vlaanderen (Howest): Microdegree, Machine Learning & Deep Learning · 2018–2019"
   },
   {
     "objectID": "index.html#hackathons",
     "href": "index.html#hackathons",
     "title": "Jeroen Van Goey",
     "section": "Hackathons",
-    "text": "Hackathons\n\nSnakes and Sequences: Senegalese Serpent Venom Sequencing Hackathon\nThis hackathon focused on improving the predictions of the de novo peptide sequencing model InstaNovo using filtering and recalibration on a dataset of venoms of African snakes.\n\n\nDesert locust breeding ground prediction hackathon\nA machine learning hackathon to predict desert locust breeding grounds using remote sensing data and to improve model performance on the Zindi leaderboard."
-  },
-  {
-    "objectID": "index.html#programming-challenges",
-    "href": "index.html#programming-challenges",
-    "title": "Jeroen Van Goey",
-    "section": "Programming challenges",
-    "text": "Programming challenges\n\neuler\nMy solutions to Project Euler.\n\n\nadventofcode\nMy solutions to Advent of Code."
+    "text": "Hackathons\nI have co-created, organized and judged machine-learning hackathons at the Deep Learning Indaba and its regional IndabaX events.\n\n\n\n  \n    \n  \n  \n    Machine Learning Interatomic Potentials Hackathon\n    IndabaX 2025 · Stellenbosch University, South Africa\n    Training a Machine Learning Interatomic Potential (MLIP) model (predicting the energy and forces of atomic systems) with the mlip library, using the 3BPA molecule (3-(benzyloxy)pyridin-2-amine) as the benchmark system.\n  \n\n\n\n  \n    \n  \n  \n    Snakes and Sequences: Senegalese Serpent Venom Sequencing Hackathon\n    Deep Learning Indaba 2024 · Senegal\n    Using InstaNovo and de novo peptide sequencing to characterise African snake venoms for better antivenoms.\n  \n\n\n\n  \n    \n  \n  \n    Desert Locust Breeding Ground Prediction Hackathon\n    IndabaX 2024 · University of the Witwatersrand (Wits), Johannesburg\n    Predicting desert locust breeding grounds from remote-sensing data, with teams competing on the Zindi leaderboard."
   },
   {
     "objectID": "index.html#skills",
     "href": "index.html#skills",
     "title": "Jeroen Van Goey",
     "section": "Skills",
-    "text": "Skills\n\nLanguages & Frameworks\n\nPython: pandas, NumPy, Tensorflow, BioPython, Jax, …\n\n\n\nBioinformatics\n\nBLAST, ClustalW, Snakemake, BioNumerics, …\n\n\n\nOther\n\nDocker, Amazon Web Services (AWS), CI/CD, …"
+    "text": "Skills\nMachine learning · Transformers, diffusion models, large language models (LLMs), supervised & self-supervised learning\nFrameworks · PyTorch, TensorFlow / TFX, NumPy, pandas\nScale & MLOps · Distributed GPU training, HPC clusters (on-premise and the MareNostrum 5 supercomputer), cloud (AWS), Docker, CI/CD\nBioinformatics · BioPython, BLAST, ClustalW, Snakemake, BioNumerics\nLanguages · Python (primary), R\n\nJust for fun\n\n\n\n  \n  \n    Project Euler\n    My solutions to Project Euler, a series of challenging mathematical and computer-programming problems.\n  \n\n\n\n  \n    \n\n\n\nYear\nDays\nStars\n\n\n\n\n2024\n\n\n\n\n2023\n\n\n\n\n2022\n\n\n\n\n2021\n\n\n\n\n2020\n\n\n\n\n2019\n\n\n\n\n2018\n\n\n\n\n2017\n\n\n\n\n2016\n\n\n\n\n2015\n\n\n\n\n\n\n  \n  \n    Advent of Code\n    My solutions to Advent of Code, the annual December programming-puzzle event (156 stars across 2015–2024)."
   }
 ]

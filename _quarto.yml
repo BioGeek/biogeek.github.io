@@ -15,8 +15,14 @@ website:
 
 format:
   html:
-    theme: cosmo
-    css: styles.css
+    theme:
+      light: [cosmo, custom.scss]
+      dark: [darkly, custom.scss]
     toc: true
-
-
+    include-in-header:
+      text: |
+        <link rel="preconnect" href="https://rsms.me/">
+        <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+    include-after-body:
+      text: |
+        <script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>

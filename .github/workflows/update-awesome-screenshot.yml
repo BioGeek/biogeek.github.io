@@ -1,0 +1,43 @@
+name: Update Awesome De Novo screenshot
+
+on:
+  schedule:
+    - cron: "0 7 * * 1" # Mondays at 07:00 UTC
+  workflow_dispatch: {} # manual "Run workflow" button in the Actions tab
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-awesome-screenshot
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # ubuntu-latest ships Google Chrome and ImageMagick; ensure ImageMagick is present.
+      - name: Ensure ImageMagick
+        run: convert -version || (sudo apt-get update && sudo apt-get install -y imagemagick)
+
+      - name: Re-capture the Awesome De Novo dashboard thumbnail
+        run: bash scripts/update_awesome_screenshot.sh
+
+      - uses: quarto-dev/quarto-actions/setup@v2
+
+      - name: Render site
+        run: quarto render
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if [ -n "$(git status --porcelain)" ]; then
+            git add -A
+            git commit -m "chore: refresh Awesome De Novo screenshot"
+            git push
+          else
+            echo "No changes to commit."
+          fi
