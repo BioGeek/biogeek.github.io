@@ -12,16 +12,11 @@ format: html
   <img src="images/jeroen.jpg" alt="Jeroen Van Goey" class="profile-pic" />
   <div class="hero-text">
     <p class="tagline">Machine learning research engineer, fascinated by the intersection of AI and science. I bridge scientific ML, biological domain knowledge, production-quality software, and team leadership.</p>
-    <div class="social-links">
-      <a href="https://github.com/BioGeek"><i class="bi bi-github"></i> GitHub</a>
-      <a href="https://bsky.app/profile/jeroen.vangoey.be"><i class="bi bi-cloud"></i> Bluesky</a>
-      <a href="https://x.com/BioGeek"><i class="bi bi-twitter-x"></i> Twitter/X</a>
-    </div>
   </div>
 </div>
 
 <div class="hiring">
-  <p class="hiring-status"><strong>Currently looking for Staff/Principal Research Engineer roles in AI for science</strong>, especially biology, proteomics, drug discovery, protein design, or scientific foundation models.</p>
+  <p class="hiring-status"><strong>Currently looking for Staff/Principal Research Engineer roles in AI for science</strong> (biology, proteomics, drug discovery, protein design, foundation models).</p>
   <div class="cta-buttons">
     <a class="cta cta-primary" href="files/jeroen-van-goey-cv.pdf"><i class="bi bi-file-earmark-arrow-down"></i> Download CV</a>
     <a class="cta cta-primary" href="mailto:jeroen.vangoey@gmail.com"><i class="bi bi-envelope"></i> Email me</a>
@@ -440,6 +435,14 @@ Python (primary), R
   </div>
 </div>
 
+</div>
+```
+
+```{=html}
+<div class="social-links footer-social">
+  <a href="https://github.com/BioGeek"><i class="bi bi-github"></i> GitHub</a>
+  <a href="https://bsky.app/profile/jeroen.vangoey.be"><i class="bi bi-cloud"></i> Bluesky</a>
+  <a href="https://x.com/BioGeek"><i class="bi bi-twitter-x"></i> Twitter/X</a>
 </div>
 ```
 

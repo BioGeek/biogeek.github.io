@@ -108,8 +108,34 @@ ul.proof {
 ul.proof li {
   position: relative;
   padding-left: 1.5rem;
-  margin-bottom: 0.35rem;
+  margin-bottom: 0.3rem;
   font-size: 0.95rem;
+}
+
+// Footer social row (GitHub/Bluesky/X moved out of the hero)
+.footer-social {
+  justify-content: center;
+  margin-top: 2.5rem;
+}
+
+// Mobile: tighten the hero/hiring block so "What I work on" reaches the fold sooner
+@media (max-width: 575.98px) {
+  .hiring { padding: 0.9rem 1rem; }
+  .hiring-status { margin-bottom: 0.7rem; }
+  .cta-buttons {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.5rem;
+  }
+  .cta-buttons .cta {
+    justify-content: center;
+    min-width: 0; // allow grid items to shrink below their content width
+  }
+  ul.proof li { margin-bottom: 0.2rem; line-height: 1.35; }
+  // Keep the wide AoC table from stretching the page; let it scroll in its box
+  .pub-thumb.pub-thumb-wide { max-width: 100%; overflow-x: auto; }
+  // Single-column coverage cards on small screens (the 220px floor is cramped)
+  .coverage-grid { grid-template-columns: 1fr; }
 }
 ul.proof li::before {
   content: "\2713"; // checkmark
