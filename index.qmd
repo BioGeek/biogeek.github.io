@@ -1,6 +1,6 @@
 ---
 title: "Jeroen Van Goey"
-subtitle: "Just Another Genome Hacker"
+subtitle: "Staff Research Engineer in BioAI building generative models for biology"
 format: html
 ---
 
@@ -11,14 +11,94 @@ format: html
     <p class="tagline">Machine learning research engineer, fascinated by the intersection of AI and science. I build large-scale models for biology: Transformer and Diffusion models for <i>de novo</i> peptide sequencing and personalized cancer vaccines, trained at scale in PyTorch.</p>
     <div class="social-links">
       <a href="https://github.com/BioGeek"><i class="bi bi-github"></i> GitHub</a>
-      <a href="https://linkedin.com/in/jeroenvangoey"><i class="bi bi-linkedin"></i> LinkedIn</a>
-      <a href="https://scholar.google.com/citations?user=QinE3gcAAAAJ&hl=en"><i class="bi bi-mortarboard"></i> Scholar</a>
       <a href="https://bsky.app/profile/jeroen.vangoey.be"><i class="bi bi-cloud"></i> Bluesky</a>
       <a href="https://x.com/BioGeek"><i class="bi bi-twitter-x"></i> Twitter/X</a>
     </div>
   </div>
 </div>
+
+<div class="hiring">
+  <p class="hiring-status"><strong>Currently looking for Staff/Principal Research Engineer roles in AI for science</strong>, especially biology, proteomics, drug discovery, protein design, or scientific foundation models.</p>
+  <div class="cta-buttons">
+    <a class="cta cta-primary" href="files/jeroen-van-goey-cv.pdf"><i class="bi bi-file-earmark-arrow-down"></i> Download CV</a>
+    <a class="cta cta-primary" href="mailto:jeroen.vangoey@gmail.com"><i class="bi bi-envelope"></i> Email me</a>
+    <a class="cta" href="https://linkedin.com/in/jeroenvangoey"><i class="bi bi-linkedin"></i> LinkedIn</a>
+    <a class="cta" href="https://scholar.google.com/citations?user=QinE3gcAAAAJ&hl=en"><i class="bi bi-mortarboard"></i> Google Scholar</a>
+  </div>
+  <ul class="proof">
+    <li>Published a diffusion model for <i>de novo</i> peptide sequencing in <strong>Nature Machine Intelligence</strong>.</li>
+    <li>Led BioAI teams working on peptide sequencing and signal-peptide design.</li>
+    <li>Built scalable ML systems across GPUs, HPC, cloud, and scientific data pipelines.</li>
+  </ul>
+</div>
 ```
+
+## Selected Work
+
+```{=html}
+<div class="case-studies">
+
+<div class="case-study flagship">
+  <div class="cs-head">
+    <span class="cs-title">InstaNovo: diffusion-powered <i>de novo</i> peptide sequencing</span>
+    <span class="cs-venue">Nature Machine Intelligence · 2025</span>
+  </div>
+  <dl>
+    <dt>Problem</dt>
+    <dd>Reading peptide sequences directly from mass-spectrometry spectra without a reference database is a core bottleneck in proteomics, and essential for discovering novel peptides in immunopeptidomics and personalized cancer vaccines.</dd>
+    <dt>My role</dt>
+    <dd>Part of the InstaDeep BioAI team behind InstaNovo: contributed to model development, large-scale training and evaluation, and co-authored the paper.</dd>
+    <dt>Impact</dt>
+    <dd>Published in <strong>Nature Machine Intelligence</strong>; surpasses prior state-of-the-art and recovers thousands of previously unidentified peptides. Open-source, with broad independent press (Science, Science News, Chemistry World, and more).</dd>
+  </dl>
+  <div class="pub-badges">
+    <a class="badge-primary" href="https://doi.org/10.1038/s42256-025-01019-5"><i class="bi bi-journal-text"></i> Nature Mach. Intell.</a>
+    <a href="https://github.com/instadeepai/InstaNovo"><i class="bi bi-github"></i> Code</a>
+    <a href="#instanovo-in-the-news"><i class="bi bi-newspaper"></i> In the news</a>
+  </div>
+</div>
+
+<div class="case-study">
+  <div class="cs-head">
+    <span class="cs-title">InstaNexus: generalizable direct protein sequencing</span>
+    <span class="cs-venue">Molecular &amp; Cellular Proteomics · 2026</span>
+  </div>
+  <dl>
+    <dt>Problem</dt>
+    <dd><i>De novo</i> sequencing models often fail to generalize across instruments, organisms and acquisition methods. InstaNexus targets robust, generalizable direct protein sequencing.</dd>
+    <dt>My role</dt>
+    <dd>Co-author; contributed to model development and evaluation across diverse proteomics datasets.</dd>
+    <dt>Impact</dt>
+    <dd>Peer-reviewed in <strong>Molecular &amp; Cellular Proteomics</strong>, demonstrating generalization beyond the conditions models were trained on.</dd>
+  </dl>
+  <div class="pub-badges">
+    <a class="badge-primary" href="https://doi.org/10.1016/j.mcpro.2026.101547"><i class="bi bi-journal-text"></i> Mol. Cell. Proteomics</a>
+    <a href="https://doi.org/10.1101/2025.07.25.666861"><i class="bi bi-file-earmark-text"></i> Preprint</a>
+  </div>
+</div>
+
+<div class="case-study">
+  <div class="cs-head">
+    <span class="cs-title">Winnow: rescoring &amp; FDR estimation for <i>de novo</i> sequencing</span>
+    <span class="cs-venue">arXiv · 2025</span>
+  </div>
+  <dl>
+    <dt>Problem</dt>
+    <dd>AI <i>de novo</i> predictions need statistical error control to be trustworthy in practice. Winnow provides rescoring and false-discovery-rate (FDR) estimation for <i>de novo</i> peptide sequencing.</dd>
+    <dt>My role</dt>
+    <dd>Co-author; contributed to the method and its open-source implementation.</dd>
+    <dt>Impact</dt>
+    <dd>Released as an open-source tool (<code>winnow-fdr</code> on PyPI) so the wider proteomics community can apply FDR control to <i>de novo</i> results.</dd>
+  </dl>
+  <div class="pub-badges">
+    <a class="badge-primary" href="https://arxiv.org/abs/2509.24952"><i class="bi bi-file-earmark-text"></i> arXiv</a>
+    <a href="https://github.com/instadeepai/winnow"><i class="bi bi-github"></i> Code</a>
+  </div>
+</div>
+
+</div>
+```
+
 
 ## Publications
 
@@ -367,3 +447,7 @@ I have **co-created, organized and judged** machine-learning hackathons at the D
 
 </div>
 ```
+
+::: {.genome-hacker}
+Just another genome hacker. 🧬
+:::
