@@ -60,11 +60,9 @@ I build and ship machine-learning systems for science: generative sequence model
     <div class="pub-venue"><span class="venue-name">Nature Machine Intelligence</span> · 2025 · 7(4):565–579</div>
     <div class="pub-badges">
       <a class="badge-primary" href="https://doi.org/10.1038/s42256-025-01019-5"><i class="bi bi-journal-text"></i> Nature Mach. Intell.</a>
-      <a href="https://www.biorxiv.org/content/10.1101/2023.08.30.555055"><i class="bi bi-file-earmark-text"></i> Preprint</a>
       <a href="https://github.com/instadeepai/InstaNovo"><i class="bi bi-github"></i> Code</a>
       <a href="https://huggingface.co/spaces/InstaDeepAI/InstaNovo"><i class="bi bi-play-circle"></i> Demo</a>
       <a href="https://huggingface.co/collections/InstaDeepAI/de-novo-peptide-sequencing"><i class="bi bi-database"></i> Datasets</a>
-      <a href="#instanovo-in-the-news"><i class="bi bi-newspaper"></i> In the news</a>
     </div>
   </div>
 </div>
