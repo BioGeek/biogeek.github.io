@@ -151,6 +151,7 @@ I build and ship machine-learning systems for science: generative sequence model
     <div class="pub-venue"><span class="venue-name">Journal of Proteome Research</span> · 2026 · 25(5):2234–2242</div>
     <div class="pub-badges">
       <a class="badge-primary" href="https://doi.org/10.1021/acs.jproteome.5c01153"><i class="bi bi-journal-text"></i> J. Proteome Res.</a>
+      <a href="https://github.com/instadeepai/database_search_scaling"><i class="bi bi-github"></i> Code</a>
     </div>
   </div>
 </div>
