@@ -66,6 +66,7 @@ I build and ship machine-learning systems for science: generative sequence model
       <a href="https://huggingface.co/datasets/InstaDeepAI/ms_proteometools"><i class="bi bi-database"></i> Datasets</a>
       <a href="https://instanovo.ai/blog/"><i class="bi bi-rss"></i> Blog</a>
       <a href="#instanovo-in-the-news"><i class="bi bi-newspaper"></i> In the news</a>
+      <a href="files/bib/eloff2025instanovo.bib" download><i class="bi bi-quote"></i> BibTeX</a>
     </div>
   </div>
 </div>
@@ -82,6 +83,7 @@ I build and ship machine-learning systems for science: generative sequence model
       <a class="badge-primary" href="https://doi.org/10.1101/2025.05.14.654049"><i class="bi bi-file-earmark-text"></i> bioRxiv</a>
       <a href="https://github.com/instadeepai/InstaNovo-P"><i class="bi bi-github"></i> Code</a>
       <a href="https://huggingface.co/datasets/InstaDeepAI/InstaNovo-P"><i class="bi bi-database"></i> Datasets</a>
+      <a href="files/bib/lauridsen2025instanovo.bib" download><i class="bi bi-quote"></i> BibTeX</a>
     </div>
   </div>
 </div>
@@ -98,6 +100,7 @@ I build and ship machine-learning systems for science: generative sequence model
       <a class="badge-primary" href="https://arxiv.org/abs/2509.24952"><i class="bi bi-file-earmark-text"></i> arXiv</a>
       <a href="https://github.com/instadeepai/winnow"><i class="bi bi-github"></i> Code</a>
       <a href="https://huggingface.co/datasets/InstaDeepAI/winnow-ms-datasets"><i class="bi bi-database"></i> Datasets</a>
+      <a href="files/bib/mabona2025novo.bib" download><i class="bi bi-quote"></i> BibTeX</a>
     </div>
   </div>
 </div>
@@ -114,6 +117,7 @@ I build and ship machine-learning systems for science: generative sequence model
       <a class="badge-primary" href="https://springernature.figshare.com/articles/journal_contribution/_b_A_living_proteomics_benchmark_for_comprehensive_b_b_evaluation_of_deep_learning-based_b_b_i_de_novo_i_b_b_peptide_b_b_sequencing_tools_b_/31680883/1"><i class="bi bi-file-earmark-text"></i> Preprint</a>
       <a href="https://github.com/bittremieuxlab/denovo_benchmarks"><i class="bi bi-github"></i> Code</a>
       <a href="https://denovobenchmarks.streamlit.app/"><i class="bi bi-graph-up"></i> Live results</a>
+      <a href="files/bib/pominova2026benchmark.bib" download><i class="bi bi-quote"></i> BibTeX</a>
     </div>
   </div>
 </div>
@@ -129,6 +133,7 @@ I build and ship machine-learning systems for science: generative sequence model
     <div class="pub-badges">
       <a class="badge-primary" href="https://doi.org/10.1016/j.mcpro.2026.101547"><i class="bi bi-journal-text"></i> Mol. Cell. Proteomics</a>
       <a href="https://github.com/Multiomics-Analytics-Group/InstaNexus"><i class="bi bi-github"></i> Code</a>
+      <a href="files/bib/reverenna2026generalizable.bib" download><i class="bi bi-quote"></i> BibTeX</a>
     </div>
   </div>
 </div>
@@ -152,6 +157,7 @@ I build and ship machine-learning systems for science: generative sequence model
     <div class="pub-badges">
       <a class="badge-primary" href="https://doi.org/10.1021/acs.jproteome.5c01153"><i class="bi bi-journal-text"></i> J. Proteome Res.</a>
       <a href="https://github.com/instadeepai/database_search_scaling"><i class="bi bi-github"></i> Code</a>
+      <a href="files/bib/kalogeropoulos2026framework.bib" download><i class="bi bi-quote"></i> BibTeX</a>
     </div>
   </div>
 </div>
@@ -166,6 +172,7 @@ I build and ship machine-learning systems for science: generative sequence model
     <div class="pub-venue"><span class="venue-name">Journal of Proteome Research</span> · 2025 · 24(5):2222–2234</div>
     <div class="pub-badges">
       <a class="badge-primary" href="https://doi.org/10.1021/acs.jproteome.4c01079"><i class="bi bi-journal-text"></i> J. Proteome Res.</a>
+      <a href="files/bib/perez2025open.bib" download><i class="bi bi-quote"></i> BibTeX</a>
     </div>
   </div>
 </div>
@@ -181,6 +188,7 @@ I build and ship machine-learning systems for science: generative sequence model
     <div class="pub-badges">
       <a class="badge-primary" href="files/poster_afkSNP.pdf"><i class="bi bi-file-earmark-pdf"></i> Poster (PDF)</a>
       <a href="https://www.researchgate.net/publication/291354610"><i class="bi bi-link-45deg"></i> ResearchGate</a>
+      <a href="files/bib/vanafksnp.bib" download><i class="bi bi-quote"></i> BibTeX</a>
     </div>
   </div>
 </div>
