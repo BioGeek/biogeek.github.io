@@ -297,7 +297,7 @@ More at the [InstaNovo project website](https://instanovo.ai/) and its [blog](ht
 **Sr. Software Development Engineer, Machine Learning**\
 <i class="bi bi-calendar3"></i> _February 2020 – August 2022_\
 <img src="images/flags/be.svg" class="flag-icon" alt="Belgium">Kortrijk, Belgium\
-Built a TensorFlow Extended production pipeline training deep-learning models on multispectral images to detect and classify melanoma skin cancers, working across the research, cloud-backend and mobile/web frontend teams.
+Built a TensorFlow Extended production pipeline training deep-learning models on multispectral images to detect and classify melanoma skin cancers for [Demetra](https://www.inthepocket.com/work/barco-demetra), Barco's dermatology imaging device, engineered to the standards of regulated medical industries (FDA approval). Worked across the research, cloud-backend and mobile/web frontend teams.
 
 ### <img src="images/icons/basf.png" class="company-icon" alt=""> [BASF](https://basf.com/)
 **Bioinformatics Researcher, Manager of the Python & R Platforms**\
@@ -378,8 +378,8 @@ I have **co-created, organized and judged** machine-learning hackathons at the [
     <div class="pub-venue">IndabaX 2025 · <img src="images/flags/za.svg" class="flag-icon" alt="South Africa">Stellenbosch University, South Africa</div>
     <p>Training a Machine Learning Interatomic Potential (MLIP) model (predicting the energy and forces of atomic systems) with the <a href="https://github.com/instadeepai/mlip">mlip</a> library, using the 3BPA molecule (3-(benzyloxy)pyridin-2-amine) as the benchmark system.</p>
     <div class="pub-badges">
-      <a href="https://github.com/BioGeek/hackathon_IndabaX_2025_mlip"><i class="bi bi-github"></i> Code</a>
       <a href="https://zindi.africa/competitions/indabax-south-africa-2025-hackathon-with-instadeep"><i class="bi bi-trophy"></i> Competition</a>
+      <a href="https://github.com/BioGeek/hackathon_IndabaX_2025_mlip"><i class="bi bi-github"></i> Code</a>
       <a href="https://www.linkedin.com/posts/jeroenvangoey_it-was-a-pleasure-hosting-the-hackathon-on-ugcPost-7351611068751720448--NWt/"><i class="bi bi-newspaper"></i> News</a>
     </div>
   </div>
@@ -422,7 +422,7 @@ I have **co-created, organized and judged** machine-learning hackathons at the [
   <div class="pub-body">
     <div class="pub-title"><a href="https://zindi.africa/competitions/dli-ghana-2023">Unveiling Cassava's Secrets</a></div>
     <div class="pub-venue">Deep Learning Indaba 2023 · <img src="images/flags/gh.svg" class="flag-icon" alt="Ghana">Ghana</div>
-    <p>Using <a href="https://www.nature.com/articles/s42003-024-06465-2">AgroNT<a/>, a variant of InstaDeep's <a href="https://www.nature.com/articles/s41592-024-02523-z">Nucleotide Transformer</a> trained on edible plant genomes, to probe the genome of cassava, a staple crop for food security across Africa.</p>
+    <p>Probe the genome of cassava, a staple crop for food security across Africa, using <a href="https://www.nature.com/articles/s42003-024-06465-2">AgroNT<a/>, a variant of InstaDeep's <a href="https://www.nature.com/articles/s41592-024-02523-z">Nucleotide Transformer</a> trained on edible plant genomes.</p>
     <div class="pub-badges">
       <a href="https://zindi.africa/competitions/dli-ghana-2023"><i class="bi bi-trophy"></i> Competition</a>
       <a href="https://www.linkedin.com/posts/deeplearningindaba-ai-machinelearning-share-7105142248584986624-PsXY/"><i class="bi bi-newspaper"></i> News</a>
