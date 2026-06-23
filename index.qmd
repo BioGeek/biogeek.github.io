@@ -297,7 +297,7 @@ More at the [InstaNovo project website](https://instanovo.ai/) and its [blog](ht
 **Sr. Software Development Engineer, Machine Learning**\
 <i class="bi bi-calendar3"></i> _February 2020 – August 2022_\
 <img src="images/flags/be.svg" class="flag-icon" alt="Belgium">Kortrijk, Belgium\
-Built a TensorFlow Extended production pipeline training deep-learning models on multispectral images to detect and classify melanoma skin cancers for [Demetra](https://www.inthepocket.com/work/barco-demetra), Barco's dermatology imaging device, engineered to the standards of regulated medical industries (FDA approval). Worked across the research, cloud-backend and mobile/web frontend teams.
+Built a TensorFlow Extended production pipeline training deep-learning models on multispectral images to detect and classify melanoma skin cancers for [Demetra](https://www.inthepocket.com/work/barco-demetra), Barco's dermatology imaging device. Engineered the pipeline with end-to-end data and model lineage tracking to deliver the traceability and reproducibility that regulated medical industries (FDA approval) require. Worked across the research, cloud-backend and mobile/web frontend teams.
 
 ### <img src="images/icons/basf.png" class="company-icon" alt=""> [BASF](https://basf.com/)
 **Bioinformatics Researcher, Manager of the Python & R Platforms**\
