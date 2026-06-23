@@ -378,6 +378,7 @@ I have **co-created, organized and judged** machine-learning hackathons at the [
     <div class="pub-venue">IndabaX 2025 · <img src="images/flags/za.svg" class="flag-icon" alt="South Africa">Stellenbosch University, South Africa</div>
     <p>Training a Machine Learning Interatomic Potential (MLIP) model (predicting the energy and forces of atomic systems) with the <a href="https://github.com/instadeepai/mlip">mlip</a> library, using the 3BPA molecule (3-(benzyloxy)pyridin-2-amine) as the benchmark system.</p>
     <div class="pub-badges">
+      <a href="https://github.com/BioGeek/hackathon_IndabaX_2025_mlip"><i class="bi bi-github"></i> Code</a>
       <a href="https://www.linkedin.com/posts/jeroenvangoey_it-was-a-pleasure-hosting-the-hackathon-on-ugcPost-7351611068751720448--NWt/"><i class="bi bi-newspaper"></i> News</a>
     </div>
   </div>
@@ -392,6 +393,7 @@ I have **co-created, organized and judged** machine-learning hackathons at the [
     <div class="pub-venue">Deep Learning Indaba 2024 · <img src="images/flags/sn.svg" class="flag-icon" alt="Senegal">Senegal</div>
     <p>Using <a href="https://github.com/instadeepai/InstaNovo">InstaNovo</a> and <i>de novo</i> peptide sequencing to characterise African snake venoms for better antivenoms.</p>
     <div class="pub-badges">
+      <a href="https://github.com/BioGeek/hackathon_indaba_senegal_2024"><i class="bi bi-github"></i> Code</a>
       <a href="https://www.linkedin.com/posts/timothy-jenkins-a251ab67_hackathon-ai-deeplearning-ugcPost-7238952177505849344-A7v2/"><i class="bi bi-newspaper"></i> News</a>
     </div>
   </div>
@@ -403,9 +405,10 @@ I have **co-created, organized and judged** machine-learning hackathons at the [
   </a>
   <div class="pub-body">
     <div class="pub-title"><a href="https://github.com/BioGeek/hackathon_indabaX_2024">Desert Locust Breeding Ground Prediction Hackathon</a></div>
-    <div class="pub-venue">IndabaX 2024 · <img src="images/flags/za.svg" class="flag-icon" alt="South Africa">University of the Witwatersrand (Wits), Johannesburg</div>
+    <div class="pub-venue">IndabaX 2024 · <img src="images/flags/za.svg" class="flag-icon" alt="South Africa">University of the Witwatersrand, Johannesburg</div>
     <p>Predicting desert locust breeding grounds from remote-sensing data, an early-warning task that helps target control efforts before swarms threaten crops and food security across Africa.</p>
     <div class="pub-badges">
+      <a href="https://github.com/BioGeek/hackathon_indabaX_2024"><i class="bi bi-github"></i> Code</a>
       <a href="https://www.linkedin.com/posts/jeroenvangoey_it-was-a-pleasure-hosting-a-hackathon-around-ugcPost-7218010024059543552-G4mL/"><i class="bi bi-newspaper"></i> News</a>
     </div>
   </div>
