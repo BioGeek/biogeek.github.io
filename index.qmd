@@ -323,7 +323,7 @@ The InstaNovo paper drew broad attention across the scientific press.
 - Built the team's **ML engineering foundations**: scalable, Transformer-based libraries (Python / PyTorch) for large-scale training across GPUs, HPC supercomputers (MareNostrum v5), and the cloud. 
 
 ### <img src="images/icons/barco.png" class="company-icon" alt=""> [Barco](https://www.barco.com/en)
-**Sr. Software Development Engineer, Machine Learning**\
+**Senior Software Development Engineer, Machine Learning**\
 <i class="bi bi-calendar3"></i> _February 2020 – August 2022_\
 <img src="images/flags/be.svg" class="flag-icon" alt="Belgium">Kortrijk, Belgium\
 Built a TensorFlow Extended production pipeline training deep-learning models on multispectral images to detect and classify melanoma skin cancers for [Demetra](https://www.inthepocket.com/work/barco-demetra), Barco's dermatology imaging device. Engineered the pipeline with end-to-end data and model lineage tracking to deliver the traceability and reproducibility that regulated medical industries (FDA approval) require. Worked across the research, cloud-backend and mobile/web frontend teams.
