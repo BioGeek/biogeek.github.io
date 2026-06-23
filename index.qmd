@@ -437,6 +437,15 @@ I have **co-created, organized and judged** machine-learning hackathons at the [
 
 ---
 
+## Teaching & mentoring
+
+**Machine Learning for Biology practical**\
+<i class="bi bi-calendar3"></i> _2023_\
+<img src="images/flags/gh.svg" class="flag-icon" alt="Ghana">Deep Learning Indaba, Ghana\
+Mentored the hands-on practical alongside InstaDeep and Google DeepMind colleagues. [News](https://www.linkedin.com/posts/yousra-farhani-7a416219a_machinelearning-biology-dli23-ugcPost-7109547765549936640-Y4t3/)
+
+---
+
 ## Skills
 
 **Machine learning**\
