@@ -8,6 +8,154 @@ format: html
 ---
 
 ```{=html}
+<canvas id="ms-bg" aria-hidden="true"></canvas>
+<script>
+(function () {
+  var canvas = document.getElementById("ms-bg");
+  if (!canvas) return;
+  var ctx = canvas.getContext("2d");
+  var dpr = Math.max(1, window.devicePixelRatio || 1);
+  var W = 0, H = 0;
+  var reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+  // Theme colours, read from CSS custom properties so they follow light/dark.
+  var accent = "#0b5e54", dim = "rgba(11,94,84,0.28)";
+  function readColors() {
+    var cs = getComputedStyle(document.documentElement);
+    var a = cs.getPropertyValue("--ms-accent").trim();
+    var d = cs.getPropertyValue("--ms-dim").trim();
+    if (a) accent = a;
+    if (d) dim = d;
+  }
+
+  // Spectrum peaks: fixed x positions, each breathing on its own phase.
+  var peaks = [];
+  function buildPeaks() {
+    peaks = [];
+    var n = Math.max(28, Math.round(W / 26));
+    for (var i = 0; i < n; i++) {
+      peaks.push({
+        x: (i + 0.5) / n,
+        base: 0.18 + Math.random() * 0.62,
+        speed: 0.18 + Math.random() * 0.5,
+        phase: Math.random() * Math.PI * 2,
+        w: 1 + Math.random() * 1.5
+      });
+    }
+  }
+
+  // Drifting amino-acid letters from "PEPTIDE".
+  var LETTERS = ["P", "E", "P", "T", "I", "D", "E"];
+  var ions = [];
+  function spawnIon(seed) {
+    return {
+      ch: LETTERS[Math.floor(Math.random() * LETTERS.length)],
+      x: 0.05 + Math.random() * 0.9,
+      y: seed ? Math.random() : 1.02,
+      speed: 0.012 + Math.random() * 0.02,
+      size: 14 + Math.random() * 16,
+      life: seed ? Math.random() : 0
+    };
+  }
+  function buildIons() {
+    ions = [];
+    var n = 6;
+    for (var i = 0; i < n; i++) ions.push(spawnIon(true));
+  }
+
+  function resize() {
+    W = window.innerWidth;
+    H = window.innerHeight;
+    canvas.width = Math.round(W * dpr);
+    canvas.height = Math.round(H * dpr);
+    canvas.style.width = W + "px";
+    canvas.style.height = H + "px";
+    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    buildPeaks();
+    if (!ions.length) buildIons();
+  }
+
+  function draw(t) {
+    ctx.clearRect(0, 0, W, H);
+    var maxH = Math.min(H * 0.4, 320); // spectrum occupies bottom region
+
+    // Spectrum peaks along the bottom.
+    ctx.lineCap = "round";
+    ctx.strokeStyle = dim;
+    for (var i = 0; i < peaks.length; i++) {
+      var p = peaks[i];
+      var amp = 0.55 + 0.45 * Math.sin(t * p.speed + p.phase); // gentle breathing
+      var h = p.base * amp * maxH;
+      var px = p.x * W;
+      ctx.lineWidth = p.w;
+      ctx.beginPath();
+      ctx.moveTo(px, H);
+      ctx.lineTo(px, H - h);
+      ctx.stroke();
+    }
+
+    // Drifting ion letters: read off the spectrum, rising and fading.
+    ctx.textAlign = "center";
+    ctx.textBaseline = "middle";
+    ctx.fillStyle = accent;
+    for (var j = 0; j < ions.length; j++) {
+      var io = ions[j];
+      var fade = Math.sin(Math.max(0, Math.min(1, io.life)) * Math.PI);
+      ctx.save();
+      ctx.globalAlpha = Math.max(0, fade);
+      ctx.font = "600 " + io.size + "px Inter, system-ui, sans-serif";
+      ctx.fillText(io.ch, io.x * W, io.y * H);
+      ctx.restore();
+    }
+  }
+
+  function step(io, dt) {
+    io.y -= io.speed * dt * 30;
+    io.life += dt * 0.35;
+    if (io.y < -0.05 || io.life > 1.8) {
+      var fresh = spawnIon(false);
+      io.ch = fresh.ch; io.x = fresh.x; io.y = 1.02;
+      io.speed = fresh.speed; io.size = fresh.size; io.life = 0;
+    }
+  }
+
+  // ~30fps throttle.
+  var last = 0, lastColor = 0, FRAME = 1000 / 30, prevTs = 0;
+  function loop(ts) {
+    requestAnimationFrame(loop);
+    if (ts - last < FRAME) return;
+    var dt = prevTs ? Math.min(0.1, (ts - prevTs) / 1000) : 0.033;
+    prevTs = ts;
+    last = ts;
+    if (ts - lastColor > 1000) { readColors(); lastColor = ts; }
+    for (var k = 0; k < ions.length; k++) step(ions[k], dt);
+    draw(ts / 1000);
+  }
+
+  function staticFrame() {
+    readColors();
+    draw(0);
+  }
+
+  readColors();
+  resize();
+  window.addEventListener("resize", function () {
+    dpr = Math.max(1, window.devicePixelRatio || 1);
+    resize();
+    if (reduce) staticFrame();
+  });
+
+  if (reduce) {
+    staticFrame();
+    // Redraw on theme toggle.
+    new MutationObserver(function () { staticFrame(); })
+      .observe(document.documentElement, { attributes: true, attributeFilter: ["data-bs-theme", "class"] });
+  } else {
+    requestAnimationFrame(loop);
+  }
+})();
+</script>
+
 <div class="hero">
   <img src="images/jeroen.jpg" alt="Jeroen Van Goey" class="profile-pic" />
   <div class="hero-text">

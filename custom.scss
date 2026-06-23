@@ -10,6 +10,23 @@ $headings-font-weight: 700;
 
 /*-- scss:rules --*/
 
+// ---- Animated mass-spectrum background ----------------------------------
+// Decorative canvas: spectrum peaks + drifting amino-acid letters. Sits
+// behind all content, very low opacity, never intercepts clicks/selection.
+:root {
+  --ms-accent: #0b5e54;
+  --ms-dim: rgba(11, 94, 84, 0.28);
+}
+#ms-bg {
+  position: fixed;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  pointer-events: none;
+  opacity: 0.07;
+}
+
 // ---- Hero ---------------------------------------------------------------
 .hero {
   display: flex;

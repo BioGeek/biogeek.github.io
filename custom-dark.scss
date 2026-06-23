@@ -7,6 +7,16 @@ $link-color: #3db8a6;
 
 /*-- scss:rules --*/
 
+// Animated mass-spectrum background: brighter teal and slightly higher
+// opacity so it stays barely visible on the dark backdrop.
+:root {
+  --ms-accent: #3db8a6;
+  --ms-dim: rgba(61, 184, 166, 0.32);
+}
+#ms-bg {
+  opacity: 0.10;
+}
+
 // Filled teal badges/buttons now sit on a lighter teal; use dark text on them.
 .pub-badges a.badge-primary,
 .pub-badges a.badge-primary:hover,
