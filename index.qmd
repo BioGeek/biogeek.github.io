@@ -227,7 +227,14 @@ The InstaNovo paper drew broad attention across the scientific press.
 </div>
 
 <details class="more-coverage">
-  <summary>More coverage: press releases, blogs &amp; social</summary>
+  <summary>More coverage: follow-up, press releases, blogs &amp; social</summary>
+  <p><strong>Follow-up (InstaNovo v1.1):</strong>
+    <a href="https://instanovo.ai/introducing-the-next-generation-of-instanovo-models/">Next generation of InstaNovo models</a> ·
+    <a href="https://x.com/instadeepai/status/1909931852980449599">on X</a> ·
+    <a href="https://www.linkedin.com/feed/update/urn:li:activity:7315698333488939009">on LinkedIn</a> ·
+    <a href="https://instanovo.ai/">project website</a> ·
+    <a href="https://instanovo.ai/blog/">blog</a>
+  </p>
   <p><strong>Institutional press releases:</strong>
     <a href="https://instadeep.com/2025/03/enhancing-peptide-sequencing-with-ai/">InstaDeep</a> ·
     <a href="https://www.dtu.dk/english/newsarchive/2025/03/new-ai-models-possible-game-changers-within-protein-science-and-healthcare">DTU</a> ·
@@ -260,18 +267,6 @@ The InstaNovo paper drew broad attention across the scientific press.
   </p>
 </details>
 ```
-
-::: {.callout-note collapse="true"}
-## Follow-up: InstaNovo v1.1
-
-After publication we released a next generation of InstaNovo models:
-[Introducing the next generation of InstaNovo models](https://instanovo.ai/introducing-the-next-generation-of-instanovo-models/)
-([announcement on X](https://x.com/instadeepai/status/1909931852980449599) ·
-[on LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7315698333488939009)).
-
-More at the [InstaNovo project website](https://instanovo.ai/) and its [blog](https://instanovo.ai/blog/).
-:::
-
 
 ---
 
