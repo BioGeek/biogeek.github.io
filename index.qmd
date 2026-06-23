@@ -8,6 +8,8 @@ format: html
 ---
 
 ```{=html}
+<canvas id="ms-banner" class="ms-banner" aria-hidden="true"></canvas>
+
 <div class="hero">
   <img src="images/jeroen.jpg" alt="Jeroen Van Goey" class="profile-pic" />
   <div class="hero-text">
@@ -29,6 +31,158 @@ format: html
     <li>Built and shipped production-grade ML systems across GPUs, HPC, cloud, and scientific data pipelines.</li>
   </ul>
 </div>
+
+<script>
+(function () {
+  var canvas = document.getElementById("ms-banner");
+  if (!canvas) return;
+  var ctx = canvas.getContext("2d");
+  if (!ctx) return;
+
+  var LETTERS = ["P", "E", "P", "T", "I", "D", "E"]; // amino-acid codes spelling PEPTIDE
+  var PEAK_COUNT = 45;
+  var DURATION = 7000; // ms per sweep
+
+  // Deterministic pseudo-random so peaks are stable across redraws.
+  function rand(seed) {
+    var x = Math.sin(seed * 12.9898 + 78.233) * 43758.5453;
+    return x - Math.floor(x);
+  }
+
+  // Build the spectrum layout once (positions are fractions of width/height).
+  var peaks = [];
+  for (var i = 0; i < PEAK_COUNT; i++) {
+    peaks.push({
+      x: (i + 0.5) / PEAK_COUNT,
+      h: 0.18 + rand(i + 1) * 0.5,
+      label: null
+    });
+  }
+  // Assign the seven labelled fragment peaks, roughly evenly spaced.
+  for (var j = 0; j < LETTERS.length; j++) {
+    var idx = Math.round(((j + 0.5) / LETTERS.length) * (PEAK_COUNT - 1));
+    peaks[idx].label = LETTERS[j];
+    peaks[idx].h = Math.max(peaks[idx].h, 0.72 + rand(idx + 50) * 0.18);
+  }
+
+  function readColors() {
+    var cs = getComputedStyle(document.documentElement);
+    return {
+      accent: cs.getPropertyValue("--ms-accent").trim() || "#0b5e54",
+      dim: cs.getPropertyValue("--ms-dim").trim() || "rgba(11,94,84,0.28)"
+    };
+  }
+
+  var dpr = 1;
+  var W = 0, H = 0;
+
+  function resize() {
+    dpr = window.devicePixelRatio || 1;
+    W = canvas.clientWidth;
+    H = canvas.clientHeight;
+    canvas.width = Math.max(1, Math.round(W * dpr));
+    canvas.height = Math.max(1, Math.round(H * dpr));
+    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+  }
+
+  // progress: 0..1 position of the scan line across the width.
+  function draw(progress) {
+    var c = readColors();
+    ctx.clearRect(0, 0, W, H);
+
+    var pad = 10;
+    var baseY = H - 14;
+    var maxH = baseY - 18;
+    var scanX = pad + progress * (W - 2 * pad);
+
+    // baseline (m/z-like axis)
+    ctx.strokeStyle = c.dim;
+    ctx.lineWidth = 1;
+    ctx.beginPath();
+    ctx.moveTo(pad, baseY + 0.5);
+    ctx.lineTo(W - pad, baseY + 0.5);
+    ctx.stroke();
+
+    // peaks
+    for (var i = 0; i < peaks.length; i++) {
+      var p = peaks[i];
+      var px = pad + p.x * (W - 2 * pad);
+      var ph = p.h * maxH;
+      var passed = px <= scanX;
+      ctx.strokeStyle = passed ? c.accent : c.dim;
+      ctx.lineWidth = p.label ? 2.4 : 1.4;
+      ctx.beginPath();
+      ctx.moveTo(px, baseY);
+      ctx.lineTo(px, baseY - ph);
+      ctx.stroke();
+
+      // a small tick cap on labelled fragment peaks
+      if (p.label && passed) {
+        ctx.beginPath();
+        ctx.arc(px, baseY - ph, 2, 0, Math.PI * 2);
+        ctx.fillStyle = c.accent;
+        ctx.fill();
+      }
+
+      // letter fades in once the scan line passes, then stays.
+      if (p.label) {
+        var fade;
+        if (px > scanX) {
+          fade = 0;
+        } else {
+          fade = Math.min(1, (scanX - px) / 26);
+        }
+        if (fade > 0) {
+          ctx.globalAlpha = fade;
+          ctx.fillStyle = c.accent;
+          ctx.font = "700 15px Inter, system-ui, sans-serif";
+          ctx.textAlign = "center";
+          ctx.textBaseline = "bottom";
+          ctx.fillText(p.label, px, baseY - ph - 6);
+          ctx.globalAlpha = 1;
+        }
+      }
+    }
+
+    // scan line
+    if (progress > 0 && progress < 1) {
+      ctx.strokeStyle = c.accent;
+      ctx.globalAlpha = 0.55;
+      ctx.lineWidth = 1.5;
+      ctx.beginPath();
+      ctx.moveTo(scanX, baseY);
+      ctx.lineTo(scanX, 4);
+      ctx.stroke();
+      ctx.globalAlpha = 1;
+    }
+  }
+
+  var reduce = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+  if (reduce) {
+    // Static representative frame: all letters visible, no animation.
+    var staticDraw = function () { resize(); draw(1); };
+    staticDraw();
+    window.addEventListener("resize", staticDraw);
+    // Redraw on theme toggle (light/dark switch changes html class/attribute).
+    var obs = new MutationObserver(staticDraw);
+    obs.observe(document.documentElement, { attributes: true, attributeFilter: ["class", "data-bs-theme"] });
+    return;
+  }
+
+  resize();
+  window.addEventListener("resize", resize);
+
+  var start = null;
+  function frame(ts) {
+    if (start === null) start = ts;
+    var progress = ((ts - start) % DURATION) / DURATION;
+    draw(progress);
+    requestAnimationFrame(frame);
+  }
+  requestAnimationFrame(frame);
+})();
+</script>
 ```
 
 ## What I work on
