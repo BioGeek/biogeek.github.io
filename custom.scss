@@ -120,6 +120,17 @@ ul.proof li {
 
 // Mobile: tighten the hero/hiring block so "What I work on" reaches the fold sooner
 @media (max-width: 575.98px) {
+  // Smaller, side-by-side portrait and tighter spacing so the page scrolls sooner
+  .hero {
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    gap: 1rem;
+    margin: 0.25rem 0 0.9rem;
+  }
+  .hero .profile-pic { width: 84px; height: 84px; }
+  .hero-text { min-width: 0; }
+  .hero-text .tagline { font-size: 0.95rem; margin-bottom: 0.5rem; }
+
   .hiring { padding: 0.9rem 1rem; }
   .hiring-status { margin-bottom: 0.7rem; }
   .cta-buttons {
@@ -248,6 +259,21 @@ ol.pipeline li::before {
   border: 1px solid var(--bs-border-color);
   background: #fff;
   display: block;
+}
+// Hover preview: pop the thumbnail out to its full native resolution (the file
+// is 480px wide but displayed at 240px, so this is a genuinely sharper 2x view).
+// Only on devices that actually hover, so touch screens are unaffected.
+@media (hover: hover) {
+  .pub-thumb img {
+    transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+    transform-origin: top left;
+  }
+  .pub-thumb:hover { position: relative; z-index: 30; }
+  .pub-thumb:hover img {
+    transform: scale(2);
+    border-color: $primary;
+    box-shadow: 0 10px 34px rgba(0, 0, 0, 0.35);
+  }
 }
 .pub-body { flex: 1 1 300px; min-width: 0; }
 .pub-body .pub-title {
