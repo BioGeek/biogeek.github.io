@@ -228,13 +228,6 @@ The InstaNovo paper drew broad attention across the scientific press.
 
 <details class="more-coverage">
   <summary>More coverage: follow-up, press releases, blogs &amp; social</summary>
-  <p><strong>Follow-up (InstaNovo v1.1):</strong>
-    <a href="https://instanovo.ai/introducing-the-next-generation-of-instanovo-models/">Next generation of InstaNovo models</a> ·
-    <a href="https://x.com/instadeepai/status/1909931852980449599">on X</a> ·
-    <a href="https://www.linkedin.com/feed/update/urn:li:activity:7315698333488939009">on LinkedIn</a> ·
-    <a href="https://instanovo.ai/">project website</a> ·
-    <a href="https://instanovo.ai/blog/">blog</a>
-  </p>
   <p><strong>Institutional press releases:</strong>
     <a href="https://instadeep.com/2025/03/enhancing-peptide-sequencing-with-ai/">InstaDeep</a> ·
     <a href="https://www.dtu.dk/english/newsarchive/2025/03/new-ai-models-possible-game-changers-within-protein-science-and-healthcare">DTU</a> ·
@@ -265,6 +258,13 @@ The InstaNovo paper drew broad attention across the scientific press.
     <a href="https://www.linkedin.com/posts/mortenbusch_sciencenews-novonordiskfoundation-ai-share-7312414787248828416-uKUw/">M. Busch</a> ·
     <a href="https://www.linkedin.com/posts/andreas-laustsen-kiel-2b104214_immunopeptidomics-proteome-therapeutic-share-7312402064955904001-iwC5/">A. Laustsen</a>
   </p>
+  <p><strong>Follow-up:</strong></p>
+  <ul>
+    <li><a href="https://instanovo.ai/introducing-the-next-generation-of-instanovo-models/">Introducing the next generation of InstaNovo models</a></li>
+    <li><a href="https://instanovo.ai/introducing-instanovo-p-a-de-novo-sequencing-model-for-phosphoproteomics/">Introducing InstaNovo-P: a de novo sequencing model for phosphoproteomics</a></li>
+    <li><a href="https://instanovo.ai/calibrated-confidence-and-fdr-control-for-de-novo-sequencing/">Calibrated confidence and FDR control for de novo sequencing</a></li>
+  </ul>
+
 </details>
 ```
 
