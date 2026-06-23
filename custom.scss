@@ -287,6 +287,40 @@ ol.pipeline li::before {
   color: var(--bs-secondary-color);
   margin-bottom: 0.2rem;
 }
+.author-legend {
+  color: var(--bs-secondary-color);
+  font-size: 0.86rem;
+  margin: -0.35rem 0 0.8rem;
+}
+.author-role {
+  color: $primary;
+  font-weight: 800;
+  padding-left: 0.05rem;
+}
+.author-ellipsis {
+  appearance: none;
+  border: 0;
+  background: transparent;
+  color: $primary;
+  cursor: pointer;
+  font: inherit;
+  font-weight: 700;
+  line-height: inherit;
+  padding: 0 0.1rem;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  text-underline-offset: 0.12em;
+}
+.author-ellipsis:focus {
+  outline: 2px solid $primary;
+  outline-offset: 2px;
+  border-radius: 3px;
+}
+.author-ellipsis[aria-expanded="true"] {
+  color: var(--bs-secondary-color);
+  font-weight: 400;
+  text-decoration: none;
+}
 .pub-body .pub-venue {
   font-size: 0.9rem;
   margin-bottom: 0.6rem;
