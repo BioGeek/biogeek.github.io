@@ -10,6 +10,12 @@ $headings-font-weight: 700;
 
 /*-- scss:rules --*/
 
+// Mass-spectrum decoration accent colors (overridden in dark mode).
+:root {
+  --ms-accent: #0b5e54;
+  --ms-dim: rgba(11, 94, 84, 0.28);
+}
+
 // ---- Hero ---------------------------------------------------------------
 .hero {
   display: flex;
@@ -17,6 +23,38 @@ $headings-font-weight: 700;
   gap: 1.75rem;
   margin: 0.5rem 0 1.5rem;
   flex-wrap: wrap;
+}
+
+// ---- Mouse-reactive mass-spectrum band ----------------------------------
+.ms-band {
+  position: relative;
+  width: 100%;
+  height: 140px;
+  margin: 0 0 1.75rem;
+  border-radius: 10px;
+  overflow: hidden;
+  background: linear-gradient(180deg,
+    rgba(11, 94, 84, 0.04) 0%,
+    rgba(11, 94, 84, 0.07) 100%);
+  border: 1px solid var(--ms-dim);
+}
+.ms-band canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+.ms-band .ms-caption {
+  position: absolute;
+  left: 12px;
+  bottom: 8px;
+  margin: 0;
+  font-size: 0.72rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--ms-accent);
+  opacity: 0.6;
+  pointer-events: none;
 }
 .hero .profile-pic {
   border-radius: 50%;

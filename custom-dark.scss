@@ -7,6 +7,17 @@ $link-color: #3db8a6;
 
 /*-- scss:rules --*/
 
+// Mass-spectrum decoration accent colors for dark mode.
+:root {
+  --ms-accent: #3db8a6;
+  --ms-dim: rgba(61, 184, 166, 0.32);
+}
+.ms-band {
+  background: linear-gradient(180deg,
+    rgba(61, 184, 166, 0.05) 0%,
+    rgba(61, 184, 166, 0.10) 100%);
+}
+
 // Filled teal badges/buttons now sit on a lighter teal; use dark text on them.
 .pub-badges a.badge-primary,
 .pub-badges a.badge-primary:hover,
