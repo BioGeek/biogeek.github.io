@@ -6,10 +6,11 @@
 # Build the CV first, then the site, so the deployed site serves the latest CV PDF.
 render: cv site
 
-# Render the CV to files/jeroen-van-goey-cv.pdf only.
-# The .typ/.md/.html/.png variants are gitignored, so we skip generating them.
+# Render the CV to files/jeroen-van-goey-cv.pdf.
+# Skip HTML/Markdown/PNG (gitignored), but keep Typst generation: skipping it
+# makes RenderCV compile the PDF from a stale .typ instead of the current YAML.
 cv:
-	rendercv render Jeroen_Van_Goey_CV.yaml --dont-generate-html --dont-generate-markdown --dont-generate-png --dont-generate-typst
+	rendercv render Jeroen_Van_Goey_CV.yaml --dont-generate-html --dont-generate-markdown --dont-generate-png
 
 # Render the website into docs/.
 site:
