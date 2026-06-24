@@ -27,11 +27,11 @@ cv:
         end_date: present
         location: Cape Town, South Africa
         highlights:
-          - "**Tech lead and hiring manager** for two cross-disciplinary **ML research teams** of about 5 to 8 people each: *de novo* peptide sequencing (with the Technical University of Denmark) and signal-peptide design for secretion efficiency (with BioNTech)."
+          - "**Tech lead and hiring manager** for two cross-disciplinary **ML research teams** of about 5 to 8 people: *de novo* peptide sequencing (with the Technical University of Denmark) and signal-peptide design for secretion efficiency (with BioNTech)."
           - Delivered a **client collaboration with Syngenta**, applying **genomic language models** (AgroNT, a Nucleotide Transformer trained on ~10.5 million genomic sequences spanning trillions of base pairs across 48 plant species) to accelerate crop trait research.
           - Set **research direction** and take models **from research to production**, balancing scientific rigour with reliable, maintainable engineering.
           - "**Lead the BioAI department** of InstaDeep's Cape Town office and serve as the office's **site manager** (an office of about 25 people); hire and grow the BioAI teams across the Cape Town and Kigali offices."
-          - "Built the team's **ML engineering foundations**: scalable, Transformer-based libraries (Python / PyTorch) for large-scale training on two of the world's most powerful supercomputers (InstaDeep's Kyber, ~500 PFLOPs, and EuroHPC's MareNostrum 5, 260 PFLOPs peak), as well as GPUs and the cloud, with training and data pipelines orchestrated in Dagster."
+          - "Directed the team's **ML engineering foundations**: scalable, Transformer-based libraries (Python / PyTorch) for large-scale training on InstaDeep's Kyber (~500 PFLOPs) and EuroHPC's MareNostrum 5 (260 PFLOPs) supercomputers, and the cloud (AWS, GCP)."
       - company: Barco
         position: Senior Software Development Engineer, Machine Learning
         start_date: 2020-02
@@ -39,7 +39,7 @@ cv:
         location: Kortrijk, Belgium
         highlights:
           - Built a TensorFlow Extended production pipeline (orchestrated with Apache Airflow) training deep-learning models on multispectral images to detect and classify melanoma skin cancers for Demetra, Barco's dermatology imaging device.
-          - Engineered the pipeline with end-to-end data and model lineage tracking to deliver the traceability and reproducibility that regulated medical industries (FDA approval) require.
+          - Engineered the pipeline with **end-to-end data and model lineage tracking** to deliver the traceability and reproducibility that **regulated medical industries (FDA approval)** require.
           - Worked across the research, cloud-backend and mobile/web frontend teams.
       - company: Bayer Crop Science, then BASF
         position: Bioinformatics Researcher, Manager of the Python & R Platforms
@@ -47,7 +47,7 @@ cv:
         end_date: 2020-01
         location: Zwijnaarde, Belgium
         highlights:
-          - "Owned the Python/R data-analysis platform used by 480 researchers and data scientists: technical support, proactive monitoring and root-cause analysis, training (NumPy, pandas, BioPython) and mentoring across the company's internal research community."
+          - "Owned the **Python/R data-analysis platform** used by **480 researchers and data scientists**: technical support, proactive monitoring and root-cause analysis, **training** (NumPy, pandas, BioPython) and **mentoring** across the company's internal research community."
           - The Zwijnaarde site was divested from Bayer Crop Science to BASF as part of Bayer's acquisition of Monsanto; I continued in the same role across the transition.
       - company: Applied Maths (acquired by bioMérieux)
         position: Bioinformatics Software Developer
@@ -55,7 +55,7 @@ cv:
         end_date: 2018-01
         location: Sint-Martens-Latem, Belgium
         highlights:
-          - Worked on BioNumerics, a bioinformatics suite for integrated analysis of biological data, writing custom Python scripts and extensions for clients in the clinical, academic and government sectors.
+          - Worked on BioNumerics, a bioinformatics suite for integrated analysis of biological data, writing **custom Python scripts and extensions** for clients in the clinical, academic and government sectors.
     Selected publications:
       - title: InstaNovo enables diffusion-powered *de novo* peptide sequencing in large-scale proteomics experiments
         authors: ["K. Eloff", "K. Kalogeropoulos", "…", "**J. Van Goey**", "…", "T. P. Jenkins"]
@@ -80,7 +80,7 @@ cv:
         date: 2026
       - title: Generalizable direct protein sequencing with InstaNexus
         authors: ["M. Reverenna", "M. Wennekers Nielsen", "…", "**J. Van Goey**", "…", "K. Kalogeropoulos"]
-        journal: Molecular & Cellular Proteomics
+        journal: Mol. Cell. Proteomics
         doi: 10.1016/j.mcpro.2026.101547
         date: 2026
       - title: A Framework for Database Search with AI Models in Mass Spectrometry-Based Proteomics
@@ -164,6 +164,16 @@ design:
     line_spacing: 0.5em
     font_size:
       body: 9.5pt
+  templates:
+    publication_entry:
+      main_column: |-
+        **TITLE**
+        AUTHORS
+        SUMMARY
+        URL
+      date_and_location_column: |-
+        JOURNAL
+        DATE
 locale:
   language: english
 settings:
