@@ -507,6 +507,11 @@ Mentored the hands-on practical alongside InstaDeep and Google DeepMind colleagu
   <a href="https://www.linkedin.com/posts/yousra-farhani-7a416219a_machinelearning-biology-dli23-ugcPost-7109547765549936640-Y4t3/"><i class="bi bi-newspaper"></i> News</a>
 </div>
 
+**Scientific Python training & mentoring**\
+<i class="bi bi-calendar3"></i> _2018–2020_\
+<img src="images/flags/be.svg" class="flag-icon" alt="Belgium">BASF and Bayer Crop Science, Belgium\
+Trained and mentored researchers and data scientists in scientific Python (NumPy, pandas, BioPython, …) as manager of the Python/R analysis platform used across the scientific community.
+
 ---
 
 ## Skills
