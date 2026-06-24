@@ -36,3 +36,18 @@ format:
     include-after-body:
       text: |
         <script type="text/javascript" async src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
+        <script>
+          // Quarto's collapsible callout headers carry aria-expanded on a bare <div>,
+          // which isn't a valid ARIA role combination; give them role="button". Also drop
+          // the generic aria-label so the visible title becomes the accessible name
+          // (otherwise the label/name-mismatch audit fails).
+          document.querySelectorAll('.callout-header[aria-expanded]').forEach(function (el) {
+            el.setAttribute('role', 'button');
+            el.removeAttribute('aria-label');
+          });
+          // Quarto puts role="menu" on the navbar hamburger <button>, an inappropriate
+          // role for a button that malforms the accessibility tree (agentic-browsing audit).
+          document.querySelectorAll('.navbar-toggler[role]').forEach(function (el) {
+            el.removeAttribute('role');
+          });
+        </script>

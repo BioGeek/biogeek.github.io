@@ -487,6 +487,14 @@ ol.pipeline li::before {
   border-radius: 2px;
 }
 
+// Themed line-art icons for skills sections that have no brand logo
+.skill-glyph {
+  color: var(--bs-primary);
+  margin-right: 0.45rem;
+}
+i.bi.skill-glyph { font-size: 1.2em; vertical-align: -0.16em; }
+svg.skill-glyph { width: 1.2em; height: 1.2em; vertical-align: -0.27em; }
+
 // Compact "for fun" side projects line
 .sidenote { color: var(--bs-secondary-color); }
 

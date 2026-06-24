@@ -9,7 +9,7 @@ format: html
 
 ```{=html}
 <div class="hero">
-  <img src="images/jeroen.jpg" alt="Jeroen Van Goey" class="profile-pic" />
+  <img width="250" height="250" src="images/jeroen.jpg" alt="Jeroen Van Goey" class="profile-pic" />
   <div class="hero-text">
     <p class="tagline">Machine learning research engineer, fascinated by the intersection of AI and science. I bridge scientific ML, biological domain knowledge, production-quality software, and team leadership.</p>
   </div>
@@ -78,7 +78,7 @@ I build and ship machine-learning systems for science. My main application is *d
 
 <div class="pub-card flagship" id="pub-instanovo">
   <a class="pub-thumb" href="https://doi.org/10.1038/s42256-025-01019-5">
-    <img loading="lazy" src="images/publications/instanovo_figure1.png" alt="InstaNovo figure 1" />
+    <img width="480" height="380" loading="lazy" src="images/publications/instanovo_figure1.png" alt="InstaNovo figure 1" />
   </a>
   <div class="pub-body">
     <div class="pub-title"><a href="https://doi.org/10.1038/s42256-025-01019-5">InstaNovo enables diffusion-powered <i>de novo</i> peptide sequencing in large-scale proteomics experiments</a></div>
@@ -99,7 +99,7 @@ I build and ship machine-learning systems for science. My main application is *d
 
 <div class="pub-card">
   <a class="pub-thumb" href="https://doi.org/10.1101/2025.05.14.654049">
-    <img loading="lazy" src="images/publications/instanovo-p_figure1.png" alt="InstaNovo-P figure 1" />
+    <img width="480" height="405" loading="lazy" src="images/publications/instanovo-p_figure1.png" alt="InstaNovo-P figure 1" />
   </a>
   <div class="pub-body">
     <div class="pub-title"><a href="https://doi.org/10.1101/2025.05.14.654049">InstaNovo-P: a <i>de novo</i> peptide sequencing model for phosphoproteomics</a></div>
@@ -116,7 +116,7 @@ I build and ship machine-learning systems for science. My main application is *d
 
 <div class="pub-card" id="pub-winnow">
   <a class="pub-thumb" href="https://arxiv.org/abs/2509.24952">
-    <img loading="lazy" src="images/publications/winnow_figure1.png" alt="Winnow figure 1" />
+    <img width="480" height="418" loading="lazy" src="images/publications/winnow_figure1.png" alt="Winnow figure 1" />
   </a>
   <div class="pub-body">
     <div class="pub-title"><a href="https://arxiv.org/abs/2509.24952"><i>De novo</i> peptide sequencing rescoring and FDR estimation with Winnow</a></div>
@@ -134,7 +134,7 @@ I build and ship machine-learning systems for science. My main application is *d
 
 <div class="pub-card">
   <a class="pub-thumb" href="https://springernature.figshare.com/articles/journal_contribution/_b_A_living_proteomics_benchmark_for_comprehensive_b_b_evaluation_of_deep_learning-based_b_b_i_de_novo_i_b_b_peptide_b_b_sequencing_tools_b_/31680883/1">
-    <img loading="lazy" src="images/publications/living_proteomics_benchmark_figure1.png" alt="Living proteomics benchmark figure 1" />
+    <img width="480" height="267" loading="lazy" src="images/publications/living_proteomics_benchmark_figure1.png" alt="Living proteomics benchmark figure 1" />
   </a>
   <div class="pub-body">
     <div class="pub-title"><a href="https://springernature.figshare.com/articles/journal_contribution/_b_A_living_proteomics_benchmark_for_comprehensive_b_b_evaluation_of_deep_learning-based_b_b_i_de_novo_i_b_b_peptide_b_b_sequencing_tools_b_/31680883/1">A living proteomics benchmark for comprehensive evaluation of deep learning-based <i>de novo</i> peptide sequencing tools</a></div>
@@ -151,7 +151,7 @@ I build and ship machine-learning systems for science. My main application is *d
 
 <div class="pub-card" id="pub-instanexus">
   <a class="pub-thumb" href="https://doi.org/10.1016/j.mcpro.2026.101547">
-    <img loading="lazy" src="images/publications/instanexus_figure1.jpg" alt="InstaNexus figure 1" />
+    <img width="480" height="218" loading="lazy" src="images/publications/instanexus_figure1.jpg" alt="InstaNexus figure 1" />
   </a>
   <div class="pub-body">
     <div class="pub-title"><a href="https://doi.org/10.1016/j.mcpro.2026.101547">Generalizable direct protein sequencing with InstaNexus</a></div>
@@ -213,7 +213,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 <div class="pub-card">
   <a class="pub-thumb" href="https://doi.org/10.1021/acs.jproteome.5c01153">
-    <img loading="lazy" src="images/publications/database_search_fig1.png" alt="Database search framework figure 1" />
+    <img width="480" height="367" loading="lazy" src="images/publications/database_search_fig1.png" alt="Database search framework figure 1" />
   </a>
   <div class="pub-body">
     <div class="pub-title"><a href="https://doi.org/10.1021/acs.jproteome.5c01153">A framework for database search with AI models in mass spectrometry-based proteomics</a></div>
@@ -229,7 +229,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 <div class="pub-card">
   <a class="pub-thumb" href="https://doi.org/10.1021/acs.jproteome.4c01079">
-    <img loading="lazy" src="images/publications/open_source_and_fair_research_software_for_proteomics_figure1.gif" alt="Open-source and FAIR research software for proteomics figure 1" />
+    <img width="480" height="478" loading="lazy" src="images/publications/open_source_and_fair_research_software_for_proteomics_figure1.gif" alt="Open-source and FAIR research software for proteomics figure 1" />
   </a>
   <div class="pub-body">
     <div class="pub-title"><a href="https://doi.org/10.1021/acs.jproteome.4c01079">Open-source and FAIR research software for proteomics</a></div>
@@ -244,7 +244,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 <div class="pub-card">
   <a class="pub-thumb" href="files/poster_afkSNP.pdf">
-    <img loading="lazy" src="images/publications/afksnp.png" alt="afkSNP poster" />
+    <img width="480" height="299" loading="lazy" src="images/publications/afksnp.png" alt="afkSNP poster" />
   </a>
   <div class="pub-body">
     <div class="pub-title"><a href="files/poster_afkSNP.pdf">afkSNP: assembly-free k-mer based SNP comparison of bacterial WGS samples</a></div>
@@ -276,7 +276,7 @@ The InstaNovo paper drew broad attention across the scientific press.
   <div class="coverage">
     <strong>Selected coverage</strong>
     <ul class="coverage-grid">
-      <li class="coverage-featured"><a href="https://www.science.org/content/article/ai-revolution-comes-protein-sequencing"><img class="coverage-logo" src="images/icons/science.svg" alt="Science"><span class="headline">An AI revolution comes to protein sequencing</span></a></li>
+      <li class="coverage-featured"><a href="https://www.science.org/content/article/ai-revolution-comes-protein-sequencing"><img width="132" height="36" class="coverage-logo" src="images/icons/science.svg" alt="Science"><span class="headline">An AI revolution comes to protein sequencing</span></a></li>
       <li><a href="https://www.sciencenews.org/article/ai-decode-indecipherable-proteins"><span class="outlet">Science News</span><span class="headline">AI may help decode proteins DNA can't reveal</span></a></li>
       <li><a href="https://www.chemistryworld.com/news/ai-takes-step-towards-cracking-biologys-toughest-problem-protein-sequencing/4021205.article"><span class="outlet">Chemistry World</span><span class="headline">AI takes step towards cracking biology's toughest problem</span></a></li>
       <li><a href="https://www.biotechniques.com/computational-biology/doubling-up-novel-ai-models-improve-de-novo-peptide-sequencing/"><span class="outlet">BioTechniques</span><span class="headline">Doubling up: novel AI models improve <i>de novo</i> peptide sequencing</span></a></li>
@@ -342,39 +342,39 @@ The InstaNovo paper drew broad attention across the scientific press.
 </div>
 ```
 
-### <img src="images/icons/instadeep.png" class="company-icon" alt=""> [InstaDeep](https://www.instadeep.com/)
+### <img width="32" height="32" src="images/icons/instadeep.png" class="company-icon" alt=""> [InstaDeep](https://www.instadeep.com/)
 **Staff Research Engineer in BioAI**\
 <i class="bi bi-calendar3"></i> _August 2022 – Present_\
-<img src="images/flags/za.svg" class="flag-icon" alt="South Africa">Cape Town, South Africa
+<img width="900" height="600" src="images/flags/za.svg" class="flag-icon" alt="South Africa">Cape Town, South Africa
 
 - **Tech lead and hiring manager** for two cross-disciplinary **ML research teams** of about 5 to 8 people: *de novo* peptide sequencing (with the Technical University of Denmark) and signal-peptide design for secretion efficiency (with BioNTech).
 - Delivered a **client collaboration with [Syngenta](https://instadeep.com/2024/06/syngenta-and-instadeep-collaborate-to-accelerate-crops-seeds-trait-research-using-ai-large-language-models/)**, applying **genomic language models** (AgroNT, a Nucleotide Transformer trained on ~10.5 million genomic sequences spanning trillions of base pairs across 48 plant species) to accelerate crop trait research.
 - Set **research direction** and take models **from research to production**, balancing scientific rigour with reliable, maintainable engineering.
 - **Lead the BioAI department** of InstaDeep's Cape Town office and serve as the office's **site manager** (an office of about 25 people); responsible for **hiring and growing** the BioAI teams across the Cape Town and Kigali offices.
-- Directed the team's **ML engineering foundations**: scalable, Transformer-based libraries (Python / PyTorch) for large-scale training on InstaDeep's **Kyber** (~500 PFLOPs) and EuroHPC's **MareNostrum 5** (260 PFLOPs) supercomputers, and the cloud (AWS, GCP).
+- Directed the team's **ML engineering foundations**: scalable, Transformer-based libraries (Python / PyTorch) for large-scale training on InstaDeep's [**Kyber**](https://instadeep.com/2024/10/instadeep-unveils-near-exascale-supercomputer-kyber-boosting-ai-capabilities/) (~500 PFLOPs) and EuroHPC's [**MareNostrum 5**](https://www.bsc.es/marenostrum/marenostrum-5) (260 PFLOPs) supercomputers, and the cloud (AWS, GCP).
 
-### <img src="images/icons/barco.png" class="company-icon" alt=""> [Barco](https://www.barco.com/en)
+### <img width="128" height="128" src="images/icons/barco.png" class="company-icon" alt=""> [Barco](https://www.barco.com/en)
 **Senior Software Development Engineer, Machine Learning**\
 <i class="bi bi-calendar3"></i> _February 2020 – August 2022_\
-<img src="images/flags/be.svg" class="flag-icon" alt="Belgium">Kortrijk, Belgium\
+<img width="640" height="480" src="images/flags/be.svg" class="flag-icon" alt="Belgium">Kortrijk, Belgium\
 Built a TensorFlow Extended production pipeline (orchestrated with Apache Airflow) training deep-learning models on multispectral images to detect and classify melanoma skin cancers for [Demetra](https://www.inthepocket.com/work/barco-demetra), Barco's dermatology imaging device. Engineered the pipeline with **end-to-end data and model lineage tracking** to deliver the traceability and reproducibility that **regulated medical industries (FDA approval)** require. Worked across the research, cloud-backend and mobile/web frontend teams.
 
-### <img src="images/icons/basf.png" class="company-icon" alt=""> [BASF](https://basf.com/)
+### <img width="128" height="128" src="images/icons/basf.png" class="company-icon" alt=""> [BASF](https://basf.com/)
 **Bioinformatics Researcher, Manager of the Python & R Platforms**\
 <i class="bi bi-calendar3"></i> _August 2018 – January 2020_\
-<img src="images/flags/be.svg" class="flag-icon" alt="Belgium">Zwijnaarde, Belgium\
+<img width="640" height="480" src="images/flags/be.svg" class="flag-icon" alt="Belgium">Zwijnaarde, Belgium\
 Owned the **Python/R data-analysis platform** used by **480 researchers and data scientists**: technical support, proactive monitoring and root-cause analysis, **training** (NumPy, pandas, BioPython, …) and **mentoring** across the company's internal research community.
 
-### <img src="images/icons/bayer.png" class="company-icon" alt=""> [Bayer Crop Science](https://www.bayer.com/)
+### <img width="48" height="48" src="images/icons/bayer.png" class="company-icon" alt=""> [Bayer Crop Science](https://www.bayer.com/)
 **Bioinformatics Researcher & Python Platform Manager**\
 <i class="bi bi-calendar3"></i> _February 2018 – July 2018_\
-<img src="images/flags/be.svg" class="flag-icon" alt="Belgium">Zwijnaarde, Belgium\
+<img width="640" height="480" src="images/flags/be.svg" class="flag-icon" alt="Belgium">Zwijnaarde, Belgium\
 Same platform role, prior to acquisition by **BASF Agricultural Solutions**.
 
-### <img src="images/icons/biomerieux.png" class="company-icon" alt=""> [Applied Maths (acquired by bioMérieux)](https://web.archive.org/web/20201211112011/https://www.applied-maths.com/)
+### <img width="121" height="121" src="images/icons/biomerieux.png" class="company-icon" alt=""> [Applied Maths (acquired by bioMérieux)](https://web.archive.org/web/20201211112011/https://www.applied-maths.com/)
 **Bioinformatics Software Developer**\
 <i class="bi bi-calendar3"></i> _September 2011 – January 2018_\
-<img src="images/flags/be.svg" class="flag-icon" alt="Belgium">Sint-Martens-Latem, Belgium\
+<img width="640" height="480" src="images/flags/be.svg" class="flag-icon" alt="Belgium">Sint-Martens-Latem, Belgium\
 Worked on BioNumerics, a bioinformatics suite for integrated analysis of biological data, writing **custom Python scripts and extensions** for clients in the clinical, academic and government sectors.
 
 
@@ -382,34 +382,34 @@ Worked on BioNumerics, a bioinformatics suite for integrated analysis of biologi
 
 ## Education
 
-<img src="images/icons/howest.png" class="company-icon" alt=""> **HOWEST Hogeschool West-Vlaanderen**\
+<img width="128" height="128" src="images/icons/howest.png" class="company-icon" alt=""> **HOWEST Hogeschool West-Vlaanderen**\
 <i class="bi bi-calendar3"></i> _2018–2019_\
-<img src="images/flags/be.svg" class="flag-icon" alt="Belgium">Kortrijk, Belgium\
+<img width="640" height="480" src="images/flags/be.svg" class="flag-icon" alt="Belgium">Kortrijk, Belgium\
 Microdegree, Machine Learning & Deep Learning
 
-<img src="images/icons/kuleuven.png" class="company-icon" alt=""> **Katholieke Universiteit Leuven**\
+<img width="96" height="96" src="images/icons/kuleuven.png" class="company-icon" alt=""> **Katholieke Universiteit Leuven**\
 <i class="bi bi-calendar3"></i> _2010–2012_\
-<img src="images/flags/be.svg" class="flag-icon" alt="Belgium">Leuven, Belgium\
+<img width="640" height="480" src="images/flags/be.svg" class="flag-icon" alt="Belgium">Leuven, Belgium\
 Bioinformatics (partial credits obtained)
 
-<img src="images/icons/uantwerpen.png" class="company-icon" alt=""> **University of Antwerp**\
+<img width="48" height="48" src="images/icons/uantwerpen.png" class="company-icon" alt=""> **University of Antwerp**\
 <i class="bi bi-calendar3"></i> _1997–2004_\
-<img src="images/flags/be.svg" class="flag-icon" alt="Belgium">Antwerp, Belgium\
+<img width="640" height="480" src="images/flags/be.svg" class="flag-icon" alt="Belgium">Antwerp, Belgium\
 M.Sc., Biology
 
-<img src="images/icons/universitat-de-barcelona.png" class="company-icon" alt=""> **Universitat de Barcelona**\
+<img width="128" height="128" src="images/icons/universitat-de-barcelona.png" class="company-icon" alt=""> **Universitat de Barcelona**\
 <i class="bi bi-calendar3"></i> _2002_\
-<img src="images/flags/es.svg" class="flag-icon" alt="Spain">Barcelona, Spain\
+<img width="640" height="480" src="images/flags/es.svg" class="flag-icon" alt="Spain">Barcelona, Spain\
 Erasmus interuniversity exchange
 
-<img src="images/icons/lillesand.png" class="company-icon" alt=""> **Møglestu videregående skole**\
+<img width="256" height="256" src="images/icons/lillesand.png" class="company-icon" alt=""> **Møglestu videregående skole**\
 <i class="bi bi-calendar3"></i> _1996–1997_\
-<img src="images/flags/no.svg" class="flag-icon" alt="Norway">Lillesand, Norway\
+<img width="640" height="480" src="images/flags/no.svg" class="flag-icon" alt="Norway">Lillesand, Norway\
 AFS intercultural exchange program
 
-<img src="images/icons/olv.png" class="company-icon" alt=""> **Onze-Lieve-Vrouwecollege, Antwerp**\
+<img width="256" height="256" src="images/icons/olv.png" class="company-icon" alt=""> **Onze-Lieve-Vrouwecollege, Antwerp**\
 <i class="bi bi-calendar3"></i> _1990–1996_\
-<img src="images/flags/be.svg" class="flag-icon" alt="Belgium">Antwerp, Belgium\
+<img width="640" height="480" src="images/flags/be.svg" class="flag-icon" alt="Belgium">Antwerp, Belgium\
 Secondary education: mathematics–modern languages
 
 
@@ -422,7 +422,7 @@ Secondary education: mathematics–modern languages
 
 <div class="pub-card">
   <a class="pub-thumb" href="https://jeroen.vangoey.be/awesome_de_novo_peptide_sequencing/">
-    <img loading="lazy" src="images/projects/awesome_de_novo.png" alt="Awesome De Novo Peptide Sequencing" />
+    <img width="480" height="303" loading="lazy" src="images/projects/awesome_de_novo.png" alt="Awesome De Novo Peptide Sequencing" />
   </a>
   <div class="pub-body">
     <div class="pub-title"><a href="https://jeroen.vangoey.be/awesome_de_novo_peptide_sequencing/">Awesome De Novo Peptide Sequencing</a></div>
@@ -449,11 +449,11 @@ I have **co-created, organized and judged** machine-learning hackathons at the [
 
 <div class="pub-card">
   <a class="pub-thumb" href="https://github.com/BioGeek/hackathon_IndabaX_2025_mlip">
-    <img loading="lazy" src="images/hackathons/mlip.png" alt="3BPA (3-(benzyloxy)pyridin-2-amine) molecule" />
+    <img width="480" height="269" loading="lazy" src="images/hackathons/mlip.png" alt="3BPA (3-(benzyloxy)pyridin-2-amine) molecule" />
   </a>
   <div class="pub-body">
     <div class="pub-title"><a href="https://github.com/BioGeek/hackathon_IndabaX_2025_mlip">Machine Learning Interatomic Potentials Hackathon</a></div>
-    <div class="pub-venue">IndabaX 2025 · <img src="images/flags/za.svg" class="flag-icon" alt="South Africa">Stellenbosch University, South Africa</div>
+    <div class="pub-venue">IndabaX 2025 · <img width="900" height="600" src="images/flags/za.svg" class="flag-icon" alt="South Africa">Stellenbosch University, South Africa</div>
     <p>Training a Machine Learning Interatomic Potential (MLIP) model (predicting the energy and forces of atomic systems) with the <a href="https://github.com/instadeepai/mlip">mlip</a> library, using the 3BPA molecule (3-(benzyloxy)pyridin-2-amine) as the benchmark system.</p>
     <div class="pub-badges">
       <a href="https://zindi.africa/competitions/indabax-south-africa-2025-hackathon-with-instadeep"><i class="bi bi-trophy"></i> Competition</a>
@@ -465,11 +465,11 @@ I have **co-created, organized and judged** machine-learning hackathons at the [
 
 <div class="pub-card">
   <a class="pub-thumb" href="https://github.com/BioGeek/hackathon_indaba_senegal_2024">
-    <img loading="lazy" src="images/hackathons/snakes_and_sequences.png" alt="Snakes and Sequences hackathon" />
+    <img width="305" height="206" loading="lazy" src="images/hackathons/snakes_and_sequences.png" alt="Snakes and Sequences hackathon" />
   </a>
   <div class="pub-body">
     <div class="pub-title"><a href="https://github.com/BioGeek/hackathon_indaba_senegal_2024">Snakes and Sequences: Senegalese Serpent Venom Sequencing Hackathon</a></div>
-    <div class="pub-venue">Deep Learning Indaba 2024 · <img src="images/flags/sn.svg" class="flag-icon" alt="Senegal">Senegal</div>
+    <div class="pub-venue">Deep Learning Indaba 2024 · <img width="900" height="600" src="images/flags/sn.svg" class="flag-icon" alt="Senegal">Senegal</div>
     <p>Using <a href="https://github.com/instadeepai/InstaNovo">InstaNovo</a> and <i>de novo</i> peptide sequencing to characterise African snake venoms for better antivenoms.</p>
     <div class="pub-badges">
       <a href="https://github.com/BioGeek/hackathon_indaba_senegal_2024"><i class="bi bi-github"></i> Code</a>
@@ -480,11 +480,11 @@ I have **co-created, organized and judged** machine-learning hackathons at the [
 
 <div class="pub-card">
   <a class="pub-thumb" href="https://github.com/BioGeek/hackathon_indabaX_2024">
-    <img loading="lazy" src="images/hackathons/desert_locust.png" alt="Desert locust breeding ground prediction hackathon" />
+    <img width="480" height="300" loading="lazy" src="images/hackathons/desert_locust.png" alt="Desert locust breeding ground prediction hackathon" />
   </a>
   <div class="pub-body">
     <div class="pub-title"><a href="https://github.com/BioGeek/hackathon_indabaX_2024">Desert Locust Breeding Ground Prediction Hackathon</a></div>
-    <div class="pub-venue">IndabaX 2024 · <img src="images/flags/za.svg" class="flag-icon" alt="South Africa">University of the Witwatersrand, Johannesburg</div>
+    <div class="pub-venue">IndabaX 2024 · <img width="900" height="600" src="images/flags/za.svg" class="flag-icon" alt="South Africa">University of the Witwatersrand, Johannesburg</div>
     <p>Predicting desert locust breeding grounds from remote-sensing data, an early-warning task that helps target control efforts before swarms threaten crops and food security across Africa.</p>
     <div class="pub-badges">
       <a href="https://github.com/BioGeek/hackathon_indabaX_2024"><i class="bi bi-github"></i> Code</a>
@@ -495,11 +495,11 @@ I have **co-created, organized and judged** machine-learning hackathons at the [
 
 <div class="pub-card">
   <a class="pub-thumb" href="https://zindi.africa/competitions/dli-ghana-2023">
-    <img loading="lazy" src="images/hackathons/cassava.png" alt="Unveiling Cassava's Secrets genomics hackathon" />
+    <img width="480" height="300" loading="lazy" src="images/hackathons/cassava.png" alt="Unveiling Cassava's Secrets genomics hackathon" />
   </a>
   <div class="pub-body">
     <div class="pub-title"><a href="https://zindi.africa/competitions/dli-ghana-2023">Unveiling Cassava's Secrets</a></div>
-    <div class="pub-venue">Deep Learning Indaba 2023 · <img src="images/flags/gh.svg" class="flag-icon" alt="Ghana">Ghana</div>
+    <div class="pub-venue">Deep Learning Indaba 2023 · <img width="900" height="600" src="images/flags/gh.svg" class="flag-icon" alt="Ghana">Ghana</div>
     <p>Probe the genome of cassava, a staple crop for food security across Africa, using <a href="https://www.nature.com/articles/s42003-024-06465-2">AgroNT<a/>, a variant of InstaDeep's <a href="https://www.nature.com/articles/s41592-024-02523-z">Nucleotide Transformer</a> trained on edible plant genomes.</p>
     <div class="pub-badges">
       <a href="https://zindi.africa/competitions/dli-ghana-2023"><i class="bi bi-trophy"></i> Competition</a>
@@ -519,7 +519,7 @@ I have **co-created, organized and judged** machine-learning hackathons at the [
 
 **Machine Learning for Biology practical**\
 <i class="bi bi-calendar3"></i> _2023_\
-<img src="images/flags/gh.svg" class="flag-icon" alt="Ghana">Deep Learning Indaba, Ghana\
+<img width="900" height="600" src="images/flags/gh.svg" class="flag-icon" alt="Ghana">Deep Learning Indaba, Ghana\
 Mentored the hands-on practical alongside InstaDeep and Google DeepMind colleagues.
 
 <div class="pub-badges">
@@ -529,7 +529,7 @@ Mentored the hands-on practical alongside InstaDeep and Google DeepMind colleagu
 
 **Scientific Python training & mentoring**\
 <i class="bi bi-calendar3"></i> _2018–2020_\
-<img src="images/flags/be.svg" class="flag-icon" alt="Belgium">BASF and Bayer Crop Science, Belgium\
+<img width="640" height="480" src="images/flags/be.svg" class="flag-icon" alt="Belgium">BASF and Bayer Crop Science, Belgium\
 Trained and mentored researchers and data scientists in scientific Python (NumPy, pandas, BioPython, …) as manager of the Python/R analysis platform used across the company's internal research community.
 
 ---
@@ -537,25 +537,25 @@ Trained and mentored researchers and data scientists in scientific Python (NumPy
 ## Skills
 
 **Machine learning**\
-Transformers, diffusion models, large language models (LLMs), supervised & self-supervised learning
+<i class="bi bi-diagram-3 skill-glyph" aria-hidden="true"></i>Transformers, diffusion models, large language models (LLMs), supervised & self-supervised learning
 
 **Frameworks**\
-<img src="images/icons/pytorch.svg" class="company-icon" alt="">PyTorch, TensorFlow / TFX, NumPy, pandas
+<img width="128" height="128" src="images/icons/pytorch.svg" class="company-icon" alt="">PyTorch, TensorFlow / TFX, NumPy, pandas
 
 **MLOps**\
-<img src="images/icons/kubernetes.svg" class="company-icon" alt="Kubernetes"><img src="images/icons/docker.svg" class="company-icon" alt="Docker">Kubernetes-based ML platforms (AIchor), Docker, CI/CD, workflow orchestration (Airflow, Dagster), experiment tracking (MLflow, Neptune, TensorBoard)
+<img width="128" height="128" src="images/icons/kubernetes.svg" class="company-icon" alt="Kubernetes"><img width="128" height="128" src="images/icons/docker.svg" class="company-icon" alt="Docker">Kubernetes-based ML platforms ([AIchor](https://aichor.ai/)), Docker, CI/CD, workflow orchestration (Airflow, Dagster), experiment tracking (MLflow, Neptune, TensorBoard)
 
 **Cloud**\
-<img src="images/icons/aws.svg" class="company-icon" alt="AWS"><img src="images/icons/googlecloud.svg" class="company-icon" alt="Google Cloud">Buckets, VMs, Cloud Run (AWS, GCP)
+<img width="64" height="64" src="images/icons/aws.svg" class="company-icon" alt="AWS"><img width="128" height="128" src="images/icons/googlecloud.svg" class="company-icon" alt="Google Cloud">Buckets, VMs, Cloud Run (AWS, GCP)
 
 **Scale**\
-Distributed GPU training, HPC clusters (InstaDeep's Kyber and EuroHPC's MareNostrum 5)
+<i class="bi bi-gpu-card skill-glyph" aria-hidden="true"></i>Distributed GPU training, HPC clusters (InstaDeep's [Kyber](https://instadeep.com/2024/10/instadeep-unveils-near-exascale-supercomputer-kyber-boosting-ai-capabilities/) and EuroHPC's [MareNostrum 5](https://www.bsc.es/marenostrum/marenostrum-5))
 
 **Bioinformatics**\
-BioPython, BLAST, ClustalW, Snakemake, BioNumerics
+<svg class="skill-glyph" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 3v1c-.01 3.352 -1.68 6.023 -5.008 8.014c-3.328 1.99 3.336 -2 .008 -.014c-3.328 1.99 -5 4.662 -5.008 8.014v1"/><path d="M17 21.014v-1c-.01 -3.352 -1.68 -6.023 -5.008 -8.014c-3.328 -1.99 3.336 2 .008 .014c-3.328 -1.991 -5 -4.662 -5.008 -8.014v-1"/><path d="M7 4h10"/><path d="M7 20h10"/><path d="M8 8h8"/><path d="M8 16h8"/></svg>BioPython, BLAST, ClustalW, Snakemake, BioNumerics
 
 **Languages**\
-<img src="images/icons/python.svg" class="company-icon" alt="">Python (primary), R
+<img width="128" height="128" src="images/icons/python.svg" class="company-icon" alt="">Python (primary), R
 
 ### Just for fun
 
@@ -563,9 +563,9 @@ BioPython, BLAST, ClustalW, Snakemake, BioNumerics
 <div class="pub-list">
 
 <div class="pub-card">
-  <a class="pub-thumb" href="https://github.com/BioGeek/euler"><img class="euler-badge" src="images/fun/euler.png" alt="Project Euler profile: Solved 68, Level 2" /></a>
+  <a class="pub-thumb" href="https://github.com/BioGeek/euler"><img width="200" height="60" class="euler-badge" src="images/fun/euler.png" alt="Project Euler profile: Solved 68, Level 2" /></a>
   <div class="pub-body">
-    <div class="pub-title"><a href="https://github.com/BioGeek/euler">Project Euler</a></div>
+    <div class="pub-title">Project Euler</div>
     <p>My solutions to <a href="https://projecteuler.net/">Project Euler</a>, a series of challenging mathematical and computer-programming problems.</p>
     <div class="pub-badges">
       <a class="badge-primary" href="https://github.com/BioGeek/euler"><i class="bi bi-github"></i> Code</a>
@@ -594,7 +594,7 @@ BioPython, BLAST, ClustalW, Snakemake, BioNumerics
     </table>
   </div>
   <div class="pub-body">
-    <div class="pub-title"><a href="https://github.com/BioGeek/adventofcode">Advent of Code</a></div>
+    <div class="pub-title">Advent of Code</div>
     <p>My solutions to <a href="https://adventofcode.com/">Advent of Code</a>, the annual December programming-puzzle event (<!-- AOC:SUMMARY:START -->156 stars across 2015–2024<!-- AOC:SUMMARY:END -->).</p>
     <div class="pub-badges">
       <a class="badge-primary" href="https://github.com/BioGeek/adventofcode"><i class="bi bi-github"></i> Code</a>

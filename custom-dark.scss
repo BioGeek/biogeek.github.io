@@ -18,3 +18,18 @@ $link-color: #3db8a6;
 // Research framework: foot band sits on the lighter dark-mode teal, so use dark text.
 .fw-foot { color: #06302b; }
 .fw-num { background: rgba(61, 184, 166, 0.16); }
+
+// Bayer's navy "BAYER" wordmark is illegible on the dark background — back it with a white disc.
+.company-icon[src*="bayer"] {
+  background: #fff;
+  border-radius: 50%;
+}
+
+// The Altmetric donut's score (e.g. "106") is dark and baked into the badge image,
+// so it disappears on the dark background — sit the donut on a white disc.
+.altmetric-embed {
+  display: inline-block;
+  background: #fff;
+  border-radius: 50%;
+  padding: 3px;
+}
