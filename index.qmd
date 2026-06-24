@@ -18,7 +18,7 @@ format: html
 <div class="hiring">
   <p class="hiring-status"><strong>Currently looking for Staff/Principal Research Engineer roles in AI for science</strong> (biology, proteomics, drug discovery, protein design, foundation models).</p>
   <div class="cta-buttons">
-    <a class="cta cta-primary" href="files/jeroen-van-goey-cv.pdf"><i class="bi bi-file-earmark-arrow-down"></i> Download CV</a>
+    <a class="cta cta-primary" href="files/jeroen-van-goey-cv.pdf" onclick="if(typeof gtag==='function'){gtag('event','cv_download',{file_name:'jeroen-van-goey-cv.pdf',link_text:'Download CV'});}"><i class="bi bi-file-earmark-arrow-down"></i> Download CV</a>
     <a class="cta cta-primary" href="mailto:jeroen.vangoey@gmail.com"><i class="bi bi-envelope"></i> Email me</a>
     <a class="cta" href="https://linkedin.com/in/jeroenvangoey"><i class="bi bi-linkedin"></i> LinkedIn</a>
     <a class="cta" href="https://scholar.google.com/citations?user=QinE3gcAAAAJ&hl=en"><i class="bi bi-mortarboard"></i> Google Scholar</a>
@@ -382,6 +382,7 @@ Worked on BioNumerics, a bioinformatics suite for integrated analysis of biologi
 
 ## Education
 
+::: {.education-grid}
 <img width="128" height="128" src="images/icons/howest.png" class="company-icon" alt=""> **HOWEST Hogeschool West-Vlaanderen**\
 <i class="bi bi-calendar3"></i> _2018–2019_\
 <img width="640" height="480" src="images/flags/be.svg" class="flag-icon" alt="Belgium">Kortrijk, Belgium\
@@ -411,6 +412,7 @@ AFS intercultural exchange program
 <i class="bi bi-calendar3"></i> _1990–1996_\
 <img width="640" height="480" src="images/flags/be.svg" class="flag-icon" alt="Belgium">Antwerp, Belgium\
 Secondary education: mathematics–modern languages
+:::
 
 
 ---

@@ -487,6 +487,20 @@ ol.pipeline li::before {
   border-radius: 2px;
 }
 
+// Education: two columns on desktop (entries flow reverse-chronologically
+// left-to-right, top-to-bottom), collapsing to one column on small screens.
+.education-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 2.5rem;
+  row-gap: 0.9rem;
+  align-items: start;
+}
+.education-grid > p { margin: 0; }
+@media (max-width: 575.98px) {
+  .education-grid { grid-template-columns: 1fr; }
+}
+
 // Themed line-art icons for skills sections that have no brand logo
 .skill-glyph {
   color: var(--bs-primary);
