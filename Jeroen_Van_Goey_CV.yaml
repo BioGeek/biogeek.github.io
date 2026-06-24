@@ -89,31 +89,41 @@ cv:
         doi: 10.1021/acs.jproteome.5c01153
         date: 2026
     Education:
-      - institution: Hogeschool West-Vlaanderen (Howest)
-        area: Machine Learning & Deep Learning
-        degree: Microdegree
+      - institution: HOWEST Hogeschool West-Vlaanderen
+        area: Microdegree Machine Learning & Deep Learning
         start_date: 2018
         end_date: 2019
-        location: Belgium
+        location: Kortrijk, Belgium
       - institution: Katholieke Universiteit Leuven
-        area: Bioinformatics
+        area: Bioinformatics (partial credits obtained)
         start_date: 2010
         end_date: 2012
         location: Leuven, Belgium
-        summary: Partial credits obtained.
       - institution: University of Antwerp
-        area: Biology
-        degree: M.Sc.
+        area: M.Sc. Biology
         start_date: 1997
         end_date: 2004
         location: Antwerp, Belgium
+      - institution: Universitat de Barcelona
+        area: Erasmus interuniversity exchange
+        date: 2002
+        location: Barcelona, Spain
+      - institution: Møglestu videregående skole
+        area: AFS intercultural exchange program
+        start_date: 1996
+        end_date: 1997
+        location: Lillesand, Norway
     Skills:
       - label: Machine learning
         details: Transformers, diffusion models, large language models (LLMs), supervised & self-supervised learning
       - label: Frameworks
         details: PyTorch, TensorFlow / TFX, NumPy, pandas
-      - label: Scale & MLOps
-        details: Distributed GPU training, HPC (InstaDeep's Kyber and EuroHPC's MareNostrum 5 supercomputers), Kubernetes-based ML platforms (AIchor), cloud (AWS, GCP), Docker, CI/CD, workflow orchestration (Airflow, Dagster), experiment tracking (MLflow, Neptune, TensorBoard)
+      - label: MLOps
+        details: Kubernetes-based ML platforms (AIchor), Docker, CI/CD, workflow orchestration (Airflow, Dagster), experiment tracking (MLflow, Neptune, TensorBoard)
+      - label: Cloud
+        details: Buckets, VMs, Cloud Run (AWS, GCP)
+      - label: Scale
+        details: Distributed GPU training, HPC clusters (InstaDeep's Kyber and EuroHPC's MareNostrum 5)
       - label: Bioinformatics
         details: BioPython, BLAST, ClustalW, Snakemake, BioNumerics
       - label: Languages
@@ -151,7 +161,9 @@ design:
     section_titles: rgb(11, 94, 84)
     links: rgb(11, 94, 84)
   entries:
-    degree_width: 2.2cm
+    # No education entry uses a separate degree column (degrees are folded into
+    # the area text), so collapse the degree gutter for a clean two-column layout.
+    degree_width: 0cm
   page:
     top_margin: 0.5in
     bottom_margin: 0.5in

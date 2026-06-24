@@ -382,17 +382,35 @@ Worked on BioNumerics, a bioinformatics suite for integrated analysis of biologi
 
 ## Education
 
-<img src="images/icons/howest.png" class="company-icon" alt=""> **Hogeschool West-Vlaanderen (Howest)**\
+<img src="images/icons/howest.png" class="company-icon" alt=""> **HOWEST Hogeschool West-Vlaanderen**\
 <i class="bi bi-calendar3"></i> _2018–2019_\
+<img src="images/flags/be.svg" class="flag-icon" alt="Belgium">Kortrijk, Belgium\
 Microdegree, Machine Learning & Deep Learning
 
 <img src="images/icons/kuleuven.png" class="company-icon" alt=""> **Katholieke Universiteit Leuven**\
 <i class="bi bi-calendar3"></i> _2010–2012_\
-Bioinformatics, (partial credits obtained)
+<img src="images/flags/be.svg" class="flag-icon" alt="Belgium">Leuven, Belgium\
+Bioinformatics (partial credits obtained)
 
 <img src="images/icons/uantwerpen.png" class="company-icon" alt=""> **University of Antwerp**\
 <i class="bi bi-calendar3"></i> _1997–2004_\
+<img src="images/flags/be.svg" class="flag-icon" alt="Belgium">Antwerp, Belgium\
 M.Sc., Biology
+
+<img src="images/icons/universitat-de-barcelona.png" class="company-icon" alt=""> **Universitat de Barcelona**\
+<i class="bi bi-calendar3"></i> _2002_\
+<img src="images/flags/es.svg" class="flag-icon" alt="Spain">Barcelona, Spain\
+Erasmus interuniversity exchange
+
+<img src="images/icons/lillesand.png" class="company-icon" alt=""> **Møglestu videregående skole**\
+<i class="bi bi-calendar3"></i> _1996–1997_\
+<img src="images/flags/no.svg" class="flag-icon" alt="Norway">Lillesand, Norway\
+AFS intercultural exchange program
+
+<img src="images/icons/olv.png" class="company-icon" alt=""> **Onze-Lieve-Vrouwecollege, Antwerp**\
+<i class="bi bi-calendar3"></i> _1990–1996_\
+<img src="images/flags/be.svg" class="flag-icon" alt="Belgium">Antwerp, Belgium\
+Secondary education: mathematics–modern languages
 
 
 ---
@@ -522,16 +540,22 @@ Trained and mentored researchers and data scientists in scientific Python (NumPy
 Transformers, diffusion models, large language models (LLMs), supervised & self-supervised learning
 
 **Frameworks**\
-PyTorch, TensorFlow / TFX, NumPy, pandas
+<img src="images/icons/pytorch.svg" class="company-icon" alt="">PyTorch, TensorFlow / TFX, NumPy, pandas
 
-**Scale & MLOps**\
-Distributed GPU training, HPC clusters (InstaDeep's Kyber and EuroHPC's MareNostrum 5), Kubernetes-based ML platforms (AIchor), cloud (AWS, GCP), Docker, CI/CD, workflow orchestration (Airflow, Dagster), experiment tracking (MLflow, Neptune, TensorBoard)
+**MLOps**\
+<img src="images/icons/kubernetes.svg" class="company-icon" alt="Kubernetes"><img src="images/icons/docker.svg" class="company-icon" alt="Docker">Kubernetes-based ML platforms (AIchor), Docker, CI/CD, workflow orchestration (Airflow, Dagster), experiment tracking (MLflow, Neptune, TensorBoard)
+
+**Cloud**\
+<img src="images/icons/aws.svg" class="company-icon" alt="AWS"><img src="images/icons/googlecloud.svg" class="company-icon" alt="Google Cloud">Buckets, VMs, Cloud Run (AWS, GCP)
+
+**Scale**\
+Distributed GPU training, HPC clusters (InstaDeep's Kyber and EuroHPC's MareNostrum 5)
 
 **Bioinformatics**\
 BioPython, BLAST, ClustalW, Snakemake, BioNumerics
 
 **Languages**\
-Python (primary), R
+<img src="images/icons/python.svg" class="company-icon" alt="">Python (primary), R
 
 ### Just for fun
 
