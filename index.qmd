@@ -86,8 +86,7 @@ I build and ship machine-learning systems for science. My main application is *d
     <div class="pub-venue"><span class="venue-name">Nature Machine Intelligence</span> · 2025 · 7(4):565–579</div>
     <div class="pub-badges">
       <a class="badge-primary" href="https://doi.org/10.1038/s42256-025-01019-5"><i class="bi bi-journal-text"></i> Nature Mach. Intell.</a>
-      <a href="https://github.com/instadeepai/InstaNovo"><i class="bi bi-github"></i> Code</a>
-      <a href="https://github.com/instadeepai/InstaNovo" title="GitHub stars"><i class="bi bi-star-fill"></i> <!--instanovo-stars-->123<!--/instanovo-stars--> stars</a>
+      <a href="https://github.com/instadeepai/InstaNovo"><i class="bi bi-github"></i> Code (123 <i class="bi bi-star-fill"></i>)</a>
       <a href="https://instadeepai.github.io/InstaNovo/"><i class="bi bi-book"></i> Docs</a>
       <a href="https://huggingface.co/spaces/InstaDeepAI/InstaNovo"><i class="bi bi-play-circle"></i> Demo</a>
       <a href="https://huggingface.co/datasets/InstaDeepAI/ms_proteometools"><i class="bi bi-database"></i> Datasets</a>
