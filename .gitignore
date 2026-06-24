@@ -15,3 +15,14 @@ wheels/
 
 # Rendered site (built and deployed by GitHub Actions, not committed)
 /docs/
+
+# RenderCV artifacts: keep only the downloadable PDF tracked, ignore the rest
+/files/jeroen-van-goey-cv.typ
+/files/jeroen-van-goey-cv.md
+/files/jeroen-van-goey-cv.html
+/files/jeroen-van-goey-cv_*.png
+
+# Local agent / skill tooling
+/.claude/
+/.agents/
+/skills-lock.json
