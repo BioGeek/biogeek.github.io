@@ -42,19 +42,19 @@ I build and ship machine-learning systems for science. My main application is *d
     <div class="fw-stage">
       <div class="fw-top"><span class="fw-num">1</span><span class="fw-icon"><i class="bi bi-soundwave"></i></span></div>
       <div class="fw-flow">Spectrum <span class="fw-arrow">&rarr;</span> Peptide</div>
-      <div class="fw-sub"><i>De novo</i> sequencing with transformer & diffusion models (InstaNovo / InstaNovo+)</div>
+      <div class="fw-sub"><i>De novo</i> sequencing with transformer & diffusion models (<a class="fw-cite" href="#pub-instanovo">InstaNovo / InstaNovo+</a>)</div>
     </div>
     <div class="fw-connector"><i class="bi bi-chevron-right"></i></div>
     <div class="fw-stage">
       <div class="fw-top"><span class="fw-num">2</span><span class="fw-icon"><i class="bi bi-shield-check"></i></span></div>
       <div class="fw-flow">Peptide <span class="fw-arrow fw-arrow-refine" title="confidence scored on the peptide">&#8635;</span> Confidence</div>
-      <div class="fw-sub">Rescoring, calibration &amp; false-discovery-rate control (Winnow)</div>
+      <div class="fw-sub">False-discovery-rate control, rescoring and calibration using PyTorch (<a class="fw-cite" href="#pub-winnow">Winnow</a>)</div>
     </div>
     <div class="fw-connector"><i class="bi bi-chevron-right"></i></div>
     <div class="fw-stage">
       <div class="fw-top"><span class="fw-num">3</span><span class="fw-icon"><i class="bi bi-diagram-3"></i></span></div>
       <div class="fw-flow">Peptides <span class="fw-arrow">&rarr;</span> Proteome</div>
-      <div class="fw-sub">Quantification &amp; structural assembly into biological insight (InstaNexus)</div>
+      <div class="fw-sub">From quantification &amp; de Bruijn graph assembly to biological insight (<a class="fw-cite" href="#pub-instanexus">InstaNexus</a>)</div>
     </div>
   </div>
   <div class="fw-foot">Generative sequence models and scalable ML, from raw spectra to biology</div>
@@ -76,7 +76,7 @@ I build and ship machine-learning systems for science. My main application is *d
 
 <div class="pub-list">
 
-<div class="pub-card flagship">
+<div class="pub-card flagship" id="pub-instanovo">
   <a class="pub-thumb" href="https://doi.org/10.1038/s42256-025-01019-5">
     <img loading="lazy" src="images/publications/instanovo_figure1.png" alt="InstaNovo figure 1" />
   </a>
@@ -91,8 +91,8 @@ I build and ship machine-learning systems for science. My main application is *d
       <a href="https://huggingface.co/spaces/InstaDeepAI/InstaNovo"><i class="bi bi-play-circle"></i> Demo</a>
       <a href="https://huggingface.co/datasets/InstaDeepAI/ms_proteometools"><i class="bi bi-database"></i> Datasets</a>
       <a href="https://instanovo.ai/blog/"><i class="bi bi-rss"></i> Blog</a>
-      <a href="#instanovo-in-the-news"><i class="bi bi-newspaper"></i> In the news</a>
       <a href="files/bib/eloff2025instanovo.bib" download><i class="bi bi-quote"></i> BibTeX</a>
+      <a href="#instanovo-in-the-news"><i class="bi bi-newspaper"></i> In the news</a>
     </div>
   </div>
 </div>
@@ -114,7 +114,7 @@ I build and ship machine-learning systems for science. My main application is *d
   </div>
 </div>
 
-<div class="pub-card">
+<div class="pub-card" id="pub-winnow">
   <a class="pub-thumb" href="https://arxiv.org/abs/2509.24952">
     <img loading="lazy" src="images/publications/winnow_figure1.png" alt="Winnow figure 1" />
   </a>
@@ -149,7 +149,7 @@ I build and ship machine-learning systems for science. My main application is *d
   </div>
 </div>
 
-<div class="pub-card">
+<div class="pub-card" id="pub-instanexus">
   <a class="pub-thumb" href="https://doi.org/10.1016/j.mcpro.2026.101547">
     <img loading="lazy" src="images/publications/instanexus_figure1.jpg" alt="InstaNexus figure 1" />
   </a>

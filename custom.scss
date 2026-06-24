@@ -246,6 +246,8 @@ ol.pipeline li::before {
   border-top: 1px solid var(--bs-border-color);
 }
 .pub-card:first-of-type { border-top: none; }
+// Anchored publication cards (linked from the research framework) clear the navbar.
+.pub-card[id] { scroll-margin-top: 5rem; }
 
 // Thumbnail: uniform width, natural height (no squishing)
 .pub-thumb {
@@ -430,11 +432,6 @@ ol.pipeline li::before {
   height: 1.6em;
   width: auto;
   margin-bottom: 0.3rem;
-  // The official wordmark is black; sit it on a white chip so it stays legible
-  // on the light card and in dark mode (invisible chip on the light theme).
-  background: #fff;
-  padding: 2px 5px;
-  border-radius: 3px;
 }
 .coverage-grid li.coverage-featured a {
   border-color: $primary;
@@ -620,6 +617,14 @@ div.callout-note.callout-style-default > .callout-header {
   color: var(--bs-secondary-color);
   line-height: 1.35;
 }
+// Unobtrusive citation links: keep the muted text colour, just underline (not teal).
+.fw-sub a.fw-cite {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+  text-decoration-thickness: 1px;
+}
+.fw-sub a.fw-cite:hover { color: var(--bs-body-color); }
 .fw-connector {
   flex: 0 0 auto;
   display: flex;
