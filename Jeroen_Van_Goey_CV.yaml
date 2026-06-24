@@ -119,7 +119,7 @@ cv:
       - label: Frameworks
         details: PyTorch, TensorFlow / TFX, NumPy, pandas
       - label: MLOps
-        details: Kubernetes-based ML platforms (AIchor), Docker, CI/CD, workflow orchestration (Airflow, Dagster), experiment tracking (MLflow, Neptune, TensorBoard)
+        details: Kubernetes-based ML platforms ([AIchor](https://aichor.ai/)), Docker, CI/CD, workflow orchestration (Airflow, Dagster), experiment tracking (MLflow, Neptune, TensorBoard)
       - label: Cloud
         details: Buckets, VMs, Cloud Run (AWS, GCP)
       - label: Scale
