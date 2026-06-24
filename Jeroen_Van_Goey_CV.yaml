@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.8/schema.json
 cv:
   name: Jeroen Van Goey
-  headline: Staff Research Engineer in BioAI
+  headline: Staff Research Engineer in BioAI building generative models for biology
   location: Cape Town, South Africa
   email: jeroen.vangoey@gmail.com
   phone: "+27724582796"
@@ -18,7 +18,7 @@ cv:
   sections:
     Summary:
       - Machine learning research engineer working at the intersection of AI and science, bridging scientific ML, biological domain knowledge, production-quality software, and team leadership. I build generative models and take them from prototype to deployment, with a focus on *de novo* peptide sequencing.
-      - Author of 8 publications, including in *Nature Machine Intelligence*.
+      - 8 publications, including in *Nature Machine Intelligence*.
       - "Currently looking for Staff/Principal Research Engineer roles in AI for science. Based in Cape Town, open to remote-first roles now and hybrid/on-site roles in Europe from 2027."
     Experience:
       - company: InstaDeep
