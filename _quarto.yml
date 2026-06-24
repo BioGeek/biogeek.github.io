@@ -29,6 +29,8 @@ format:
       light: [cosmo, custom.scss]
       dark: [darkly, custom.scss, custom-dark.scss]
     toc: true
+    grid:
+      body-width: 960px
     include-in-header:
       file: head.html
     include-after-body:

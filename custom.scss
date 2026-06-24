@@ -293,12 +293,16 @@ ol.pipeline li::before {
   margin: -0.35rem 0 0.8rem;
 }
 .author-role {
-  color: $primary;
+  color: var(--bs-body-color);
   font-weight: 800;
   padding-left: 0.05rem;
 }
 .author-ellipsis {
   appearance: none;
+  // Render as plain inline text so an expanded author list flows and wraps
+  // with the surrounding names (a default button is inline-block + centered).
+  display: inline;
+  text-align: inherit;
   border: 0;
   background: transparent;
   color: $primary;
@@ -538,3 +542,88 @@ div.callout-note.callout-style-default > .callout-header {
   // shift the default blue info icon toward teal
   filter: hue-rotate(-48deg) saturate(0.7) brightness(0.92);
 }
+
+// ---- Research framework banner -----------------------------------------
+.framework {
+  border: 1px solid var(--bs-border-color);
+  border-radius: 12px;
+  overflow: hidden;
+  margin: 1rem 0 1.5rem;
+  background: var(--bs-body-bg);
+}
+.fw-label {
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-weight: 700;
+  color: $primary;
+  padding: 0.7rem 1rem 0.1rem;
+}
+.fw-stages {
+  display: flex;
+  align-items: stretch;
+  padding: 0.3rem 0.7rem 0.9rem;
+}
+.fw-stage {
+  flex: 1 1 0;
+  min-width: 0;
+  padding: 0.5rem 0.7rem;
+}
+.fw-top {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.4rem;
+}
+.fw-num {
+  flex: 0 0 auto;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  background: rgba(15, 118, 110, 0.12);
+  color: $primary;
+  font-weight: 700;
+  font-size: 0.85rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.fw-icon {
+  font-size: 1.3rem;
+  color: $primary;
+  line-height: 1;
+}
+.fw-flow {
+  font-weight: 700;
+  font-size: 0.98rem;
+  margin-bottom: 0.15rem;
+}
+.fw-arrow { color: $primary; margin: 0 0.1rem; }
+.fw-sub {
+  font-size: 0.8rem;
+  color: var(--bs-secondary-color);
+  line-height: 1.35;
+}
+.fw-connector {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  color: $primary;
+  opacity: 0.5;
+  font-size: 1.15rem;
+}
+.fw-foot {
+  background: $primary;
+  color: #fff;
+  text-align: center;
+  font-weight: 600;
+  font-size: 0.9rem;
+  padding: 0.55rem 1rem;
+}
+@media (max-width: 575.98px) {
+  .fw-stages { flex-direction: column; }
+  .fw-connector { justify-content: center; transform: rotate(90deg); padding: 0.15rem 0; opacity: 0.6; }
+}
+
+// Step 2 of the framework uses a circular "re-scoring" arrow, not a forward one.
+.fw-arrow-refine { font-size: 1.15em; vertical-align: -0.05em; }

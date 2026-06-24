@@ -33,14 +33,36 @@ format: html
 
 ## What I work on
 
-I build and ship machine-learning systems for science: generative sequence models, calibrated and reliable predictions, and the large-scale data and training behind them. My main application is *de novo* peptide sequencing: predicting peptide sequences directly from raw mass spectra.
+I build and ship machine-learning systems for science. My main application is *de novo* peptide sequencing: generative models that read peptide sequences directly from raw mass spectra, the confidence estimation that makes those predictions trustworthy, and the proteome-scale analysis they feed.
 
 ```{=html}
+<div class="framework">
+  <div class="fw-label">Research framework</div>
+  <div class="fw-stages">
+    <div class="fw-stage">
+      <div class="fw-top"><span class="fw-num">1</span><span class="fw-icon"><i class="bi bi-soundwave"></i></span></div>
+      <div class="fw-flow">Spectrum <span class="fw-arrow">&rarr;</span> Peptide</div>
+      <div class="fw-sub"><i>De novo</i> sequencing with transformer & diffusion models (InstaNovo / InstaNovo+)</div>
+    </div>
+    <div class="fw-connector"><i class="bi bi-chevron-right"></i></div>
+    <div class="fw-stage">
+      <div class="fw-top"><span class="fw-num">2</span><span class="fw-icon"><i class="bi bi-shield-check"></i></span></div>
+      <div class="fw-flow">Peptide <span class="fw-arrow fw-arrow-refine" title="confidence scored on the peptide">&#8635;</span> Confidence</div>
+      <div class="fw-sub">Rescoring, calibration &amp; false-discovery-rate control (Winnow)</div>
+    </div>
+    <div class="fw-connector"><i class="bi bi-chevron-right"></i></div>
+    <div class="fw-stage">
+      <div class="fw-top"><span class="fw-num">3</span><span class="fw-icon"><i class="bi bi-diagram-3"></i></span></div>
+      <div class="fw-flow">Peptides <span class="fw-arrow">&rarr;</span> Proteome</div>
+      <div class="fw-sub">Quantification &amp; structural assembly into biological insight (InstaNexus)</div>
+    </div>
+  </div>
+  <div class="fw-foot">Generative sequence models and scalable ML, from raw spectra to biology</div>
+</div>
+
 <ul class="proof">
-  <li><strong>Generative sequence models:</strong> transformer and diffusion models that decode sequences from noisy scientific signals (InstaNovo / InstaNovo+), top-ranked across an independent benchmark of 17 tools on 83 datasets.</li>
-  <li><strong>Reliable, calibrated predictions:</strong> rescoring, calibration and false-discovery-rate control so model outputs carry statistical guarantees.</li>
-  <li><strong>Large-scale data &amp; training:</strong> curating large public datasets with automated LLM labelling, and distributed training across GPUs, HPC and cloud.</li>
-  <li><strong>Research to production:</strong> turning models into reusable, production-grade libraries and an end-to-end pipeline (prediction, scoring, quantification, structural assembly).</li>
+  <li><strong>Independently validated:</strong> top-ranked across an external benchmark of 17 de novo sequencing tools on 83 datasets.</li>
+  <li><strong>Built for scale:</strong> distributed training on large public datasets curated with automated LLM labelling.</li>
 </ul>
 ```
 
@@ -58,7 +80,7 @@ I build and ship machine-learning systems for science: generative sequence model
   </a>
   <div class="pub-body">
     <div class="pub-title"><a href="https://doi.org/10.1038/s42256-025-01019-5">InstaNovo enables diffusion-powered de novo peptide sequencing in large-scale proteomics experiments</a></div>
-    <div class="pub-authors">K. Eloff<span class="author-role" aria-label="co-first author" title="co-first author">*</span>, K. Kalogeropoulos<span class="author-role" aria-label="co-first author" title="co-first author">*</span>, <button type="button" class="author-ellipsis" aria-expanded="false" aria-label="Full author list: K. Eloff*, K. Kalogeropoulos*, A. Mabona, O. Morell, R. Catzel, E. Rivera-de-Torre, J. Berg Jespersen, W. Williams, S. P. B. van Beljouw, M. J. Skwark, A. H. Laustsen, S. J. J. Brouns, A. Ljungars, E. M. Schoof, J. Van Goey, U. auf dem Keller, K. Beguir, N. Lopez Carranza, T. P. Jenkins" data-authors="K. Eloff*, K. Kalogeropoulos*, A. Mabona, O. Morell, R. Catzel, E. Rivera-de-Torre, J. Berg Jespersen, W. Williams, S. P. B. van Beljouw, M. J. Skwark, A. H. Laustsen, S. J. J. Brouns, A. Ljungars, E. M. Schoof, J. Van Goey, U. auf dem Keller, K. Beguir, N. Lopez Carranza, T. P. Jenkins">...</button> <strong>J. Van Goey</strong>, <button type="button" class="author-ellipsis" aria-expanded="false" aria-label="Full author list: K. Eloff*, K. Kalogeropoulos*, A. Mabona, O. Morell, R. Catzel, E. Rivera-de-Torre, J. Berg Jespersen, W. Williams, S. P. B. van Beljouw, M. J. Skwark, A. H. Laustsen, S. J. J. Brouns, A. Ljungars, E. M. Schoof, J. Van Goey, U. auf dem Keller, K. Beguir, N. Lopez Carranza, T. P. Jenkins" data-authors="K. Eloff*, K. Kalogeropoulos*, A. Mabona, O. Morell, R. Catzel, E. Rivera-de-Torre, J. Berg Jespersen, W. Williams, S. P. B. van Beljouw, M. J. Skwark, A. H. Laustsen, S. J. J. Brouns, A. Ljungars, E. M. Schoof, J. Van Goey, U. auf dem Keller, K. Beguir, N. Lopez Carranza, T. P. Jenkins">...</button> T. P. Jenkins</div>
+    <div class="pub-authors">K. Eloff*, K. Kalogeropoulos*, <span class="author-ellipsis" role="button" tabindex="0" aria-expanded="false" aria-label="Full author list: K. Eloff*, K. Kalogeropoulos*, A. Mabona, O. Morell, R. Catzel, E. Rivera-de-Torre, J. Berg Jespersen, W. Williams, S. P. B. van Beljouw, M. J. Skwark, A. H. Laustsen, S. J. J. Brouns, A. Ljungars, E. M. Schoof, J. Van Goey, U. auf dem Keller, K. Beguir, N. Lopez Carranza, T. P. Jenkins" data-authors="K. Eloff*, K. Kalogeropoulos*, A. Mabona, O. Morell, R. Catzel, E. Rivera-de-Torre, J. Berg Jespersen, W. Williams, S. P. B. van Beljouw, M. J. Skwark, A. H. Laustsen, S. J. J. Brouns, A. Ljungars, E. M. Schoof, J. Van Goey, U. auf dem Keller, K. Beguir, N. Lopez Carranza, T. P. Jenkins">...</span> <strong>J. Van Goey</strong>, <span class="author-ellipsis" role="button" tabindex="0" aria-expanded="false" aria-label="Full author list: K. Eloff*, K. Kalogeropoulos*, A. Mabona, O. Morell, R. Catzel, E. Rivera-de-Torre, J. Berg Jespersen, W. Williams, S. P. B. van Beljouw, M. J. Skwark, A. H. Laustsen, S. J. J. Brouns, A. Ljungars, E. M. Schoof, J. Van Goey, U. auf dem Keller, K. Beguir, N. Lopez Carranza, T. P. Jenkins" data-authors="K. Eloff*, K. Kalogeropoulos*, A. Mabona, O. Morell, R. Catzel, E. Rivera-de-Torre, J. Berg Jespersen, W. Williams, S. P. B. van Beljouw, M. J. Skwark, A. H. Laustsen, S. J. J. Brouns, A. Ljungars, E. M. Schoof, J. Van Goey, U. auf dem Keller, K. Beguir, N. Lopez Carranza, T. P. Jenkins">...</span> T. P. Jenkins</div>
     <div class="pub-venue"><span class="venue-name">Nature Machine Intelligence</span> · 2025 · 7(4):565–579</div>
     <div class="pub-badges">
       <a class="badge-primary" href="https://doi.org/10.1038/s42256-025-01019-5"><i class="bi bi-journal-text"></i> Nature Mach. Intell.</a>
@@ -79,7 +101,7 @@ I build and ship machine-learning systems for science: generative sequence model
   </a>
   <div class="pub-body">
     <div class="pub-title"><a href="https://doi.org/10.1101/2025.05.14.654049">InstaNovo-P: a de novo peptide sequencing model for phosphoproteomics</a></div>
-    <div class="pub-authors">J. Lauridsen<span class="author-role" aria-label="co-first author" title="co-first author">*</span>, P. Ramasamy<span class="author-role" aria-label="co-first author" title="co-first author">*</span>, <button type="button" class="author-ellipsis" aria-expanded="false" aria-label="Full author list: J. Lauridsen*, P. Ramasamy*, R. Catzel, V. Canbay, A. Mabona, K. Eloff, P. Fullwood, J. Ferguson, A. Kirketerp-Møller, I. S. Goldschmidt, T. Claeys, S. van Puyenbroeck, N. Lopez Carranza, E. M. Schoof, L. Martens, J. Van Goey, C. Francavilla, T. P. Jenkins†, K. Kalogeropoulos†" data-authors="J. Lauridsen*, P. Ramasamy*, R. Catzel, V. Canbay, A. Mabona, K. Eloff, P. Fullwood, J. Ferguson, A. Kirketerp-Møller, I. S. Goldschmidt, T. Claeys, S. van Puyenbroeck, N. Lopez Carranza, E. M. Schoof, L. Martens, J. Van Goey, C. Francavilla, T. P. Jenkins†, K. Kalogeropoulos†">...</button> <strong>J. Van Goey</strong>, <button type="button" class="author-ellipsis" aria-expanded="false" aria-label="Full author list: J. Lauridsen*, P. Ramasamy*, R. Catzel, V. Canbay, A. Mabona, K. Eloff, P. Fullwood, J. Ferguson, A. Kirketerp-Møller, I. S. Goldschmidt, T. Claeys, S. van Puyenbroeck, N. Lopez Carranza, E. M. Schoof, L. Martens, J. Van Goey, C. Francavilla, T. P. Jenkins†, K. Kalogeropoulos†" data-authors="J. Lauridsen*, P. Ramasamy*, R. Catzel, V. Canbay, A. Mabona, K. Eloff, P. Fullwood, J. Ferguson, A. Kirketerp-Møller, I. S. Goldschmidt, T. Claeys, S. van Puyenbroeck, N. Lopez Carranza, E. M. Schoof, L. Martens, J. Van Goey, C. Francavilla, T. P. Jenkins†, K. Kalogeropoulos†">...</button> K. Kalogeropoulos<span class="author-role" aria-label="co-senior author" title="co-senior author">†</span></div>
+    <div class="pub-authors">J. Lauridsen*, P. Ramasamy*, <span class="author-ellipsis" role="button" tabindex="0" aria-expanded="false" aria-label="Full author list: J. Lauridsen*, P. Ramasamy*, R. Catzel, V. Canbay, A. Mabona, K. Eloff, P. Fullwood, J. Ferguson, A. Kirketerp-Møller, I. S. Goldschmidt, T. Claeys, S. van Puyenbroeck, N. Lopez Carranza, E. M. Schoof, L. Martens, J. Van Goey, C. Francavilla, T. P. Jenkins†, K. Kalogeropoulos†" data-authors="J. Lauridsen*, P. Ramasamy*, R. Catzel, V. Canbay, A. Mabona, K. Eloff, P. Fullwood, J. Ferguson, A. Kirketerp-Møller, I. S. Goldschmidt, T. Claeys, S. van Puyenbroeck, N. Lopez Carranza, E. M. Schoof, L. Martens, J. Van Goey, C. Francavilla, T. P. Jenkins†, K. Kalogeropoulos†">...</span> <strong>J. Van Goey</strong>, <span class="author-ellipsis" role="button" tabindex="0" aria-expanded="false" aria-label="Full author list: J. Lauridsen*, P. Ramasamy*, R. Catzel, V. Canbay, A. Mabona, K. Eloff, P. Fullwood, J. Ferguson, A. Kirketerp-Møller, I. S. Goldschmidt, T. Claeys, S. van Puyenbroeck, N. Lopez Carranza, E. M. Schoof, L. Martens, J. Van Goey, C. Francavilla, T. P. Jenkins†, K. Kalogeropoulos†" data-authors="J. Lauridsen*, P. Ramasamy*, R. Catzel, V. Canbay, A. Mabona, K. Eloff, P. Fullwood, J. Ferguson, A. Kirketerp-Møller, I. S. Goldschmidt, T. Claeys, S. van Puyenbroeck, N. Lopez Carranza, E. M. Schoof, L. Martens, J. Van Goey, C. Francavilla, T. P. Jenkins†, K. Kalogeropoulos†">...</span> K. Kalogeropoulos†</div>
     <div class="pub-venue"><span class="venue-name">bioRxiv</span> (preprint) · 2025</div>
     <div class="pub-badges">
       <a class="badge-primary" href="https://doi.org/10.1101/2025.05.14.654049"><i class="bi bi-file-earmark-text"></i> bioRxiv</a>
@@ -96,7 +118,7 @@ I build and ship machine-learning systems for science: generative sequence model
   </a>
   <div class="pub-body">
     <div class="pub-title"><a href="https://arxiv.org/abs/2509.24952">De novo peptide sequencing rescoring and FDR estimation with Winnow</a></div>
-    <div class="pub-authors">A. Mabona<span class="author-role" aria-label="co-first author" title="co-first author">*</span>, J. Daniel<span class="author-role" aria-label="co-first author" title="co-first author">*</span>, <button type="button" class="author-ellipsis" aria-expanded="false" aria-label="Full author list: A. Mabona*, J. Daniel*, H. S. J. Knudsen, R. Catzel, K. M. Eloff, E. M. Schoof, N. Lopez Carranza, T. P. Jenkins, J. Van Goey†, K. Kalogeropoulos†" data-authors="A. Mabona*, J. Daniel*, H. S. J. Knudsen, R. Catzel, K. M. Eloff, E. M. Schoof, N. Lopez Carranza, T. P. Jenkins, J. Van Goey†, K. Kalogeropoulos†">...</button> <strong>J. Van Goey</strong><span class="author-role" aria-label="co-senior author" title="co-senior author">†</span>, K. Kalogeropoulos<span class="author-role" aria-label="co-senior author" title="co-senior author">†</span></div>
+    <div class="pub-authors">A. Mabona*, J. Daniel*, <span class="author-ellipsis" role="button" tabindex="0" aria-expanded="false" aria-label="Full author list: A. Mabona*, J. Daniel*, H. S. J. Knudsen, R. Catzel, K. M. Eloff, E. M. Schoof, N. Lopez Carranza, T. P. Jenkins, J. Van Goey†, K. Kalogeropoulos†" data-authors="A. Mabona*, J. Daniel*, H. S. J. Knudsen, R. Catzel, K. M. Eloff, E. M. Schoof, N. Lopez Carranza, T. P. Jenkins, J. Van Goey†, K. Kalogeropoulos†">...</span> <strong>J. Van Goey</strong><span class="author-role" aria-label="co-senior author" title="co-senior author">†</span>, K. Kalogeropoulos<span class="author-role" aria-label="co-senior author" title="co-senior author">†</span></div>
     <div class="pub-venue"><span class="venue-name">arXiv</span> (preprint) · 2025</div>
     <div class="pub-badges">
       <a class="badge-primary" href="https://arxiv.org/abs/2509.24952"><i class="bi bi-file-earmark-text"></i> arXiv</a>
@@ -114,7 +136,7 @@ I build and ship machine-learning systems for science: generative sequence model
   </a>
   <div class="pub-body">
     <div class="pub-title"><a href="https://springernature.figshare.com/articles/journal_contribution/_b_A_living_proteomics_benchmark_for_comprehensive_b_b_evaluation_of_deep_learning-based_b_b_i_de_novo_i_b_b_peptide_b_b_sequencing_tools_b_/31680883/1">A living proteomics benchmark for comprehensive evaluation of deep learning-based de novo peptide sequencing tools</a></div>
-    <div class="pub-authors">M. Pominova, <strong>J. Van Goey</strong>, <button type="button" class="author-ellipsis" aria-expanded="false" aria-label="Full author list: M. Pominova, J. Van Goey, C. Adams, C. Dens, S. Chen, G. Deflandre, W. E. Fondrie, C. Ge, Z. Jin, D. Klaproth-Andrade, K. Kalogeropoulos, J. Lapin, T. Ling, K. Liu, Q. Liu, Z. Luan, A. Nilsson, C. Nix, Y. Sun, T. Van Den Bossche, R. Wu, J. Xia, Q. Xiao, S. Yang, T. Yang, C. Yao, M. Yilmaz, D. Zhang, X. Zhang, J. Zhou, C. Chang, S. Chang, E. Chuangsuwanich, J. Gagneur, L. Gatto, T. Guo, L. Käll, M. Li, S. Z. Li, B. A. Neely, M. R. Shortreed, S. Sriswasdi, B. Shan, S. Sun, H. Tang, H. Wang, Y. Wang, M. Wilhelm, L. Xin, B. Ma, W. S. Noble, T. P. Jenkins, W. Bittremieux" data-authors="M. Pominova, J. Van Goey, C. Adams, C. Dens, S. Chen, G. Deflandre, W. E. Fondrie, C. Ge, Z. Jin, D. Klaproth-Andrade, K. Kalogeropoulos, J. Lapin, T. Ling, K. Liu, Q. Liu, Z. Luan, A. Nilsson, C. Nix, Y. Sun, T. Van Den Bossche, R. Wu, J. Xia, Q. Xiao, S. Yang, T. Yang, C. Yao, M. Yilmaz, D. Zhang, X. Zhang, J. Zhou, C. Chang, S. Chang, E. Chuangsuwanich, J. Gagneur, L. Gatto, T. Guo, L. Käll, M. Li, S. Z. Li, B. A. Neely, M. R. Shortreed, S. Sriswasdi, B. Shan, S. Sun, H. Tang, H. Wang, Y. Wang, M. Wilhelm, L. Xin, B. Ma, W. S. Noble, T. P. Jenkins, W. Bittremieux">...</button> W. Bittremieux</div>
+    <div class="pub-authors">M. Pominova, <strong>J. Van Goey</strong>, <span class="author-ellipsis" role="button" tabindex="0" aria-expanded="false" aria-label="Full author list: M. Pominova, J. Van Goey, C. Adams, C. Dens, S. Chen, G. Deflandre, W. E. Fondrie, C. Ge, Z. Jin, D. Klaproth-Andrade, K. Kalogeropoulos, J. Lapin, T. Ling, K. Liu, Q. Liu, Z. Luan, A. Nilsson, C. Nix, Y. Sun, T. Van Den Bossche, R. Wu, J. Xia, Q. Xiao, S. Yang, T. Yang, C. Yao, M. Yilmaz, D. Zhang, X. Zhang, J. Zhou, C. Chang, S. Chang, E. Chuangsuwanich, J. Gagneur, L. Gatto, T. Guo, L. Käll, M. Li, S. Z. Li, B. A. Neely, M. R. Shortreed, S. Sriswasdi, B. Shan, S. Sun, H. Tang, H. Wang, Y. Wang, M. Wilhelm, L. Xin, B. Ma, W. S. Noble, T. P. Jenkins, W. Bittremieux" data-authors="M. Pominova, J. Van Goey, C. Adams, C. Dens, S. Chen, G. Deflandre, W. E. Fondrie, C. Ge, Z. Jin, D. Klaproth-Andrade, K. Kalogeropoulos, J. Lapin, T. Ling, K. Liu, Q. Liu, Z. Luan, A. Nilsson, C. Nix, Y. Sun, T. Van Den Bossche, R. Wu, J. Xia, Q. Xiao, S. Yang, T. Yang, C. Yao, M. Yilmaz, D. Zhang, X. Zhang, J. Zhou, C. Chang, S. Chang, E. Chuangsuwanich, J. Gagneur, L. Gatto, T. Guo, L. Käll, M. Li, S. Z. Li, B. A. Neely, M. R. Shortreed, S. Sriswasdi, B. Shan, S. Sun, H. Tang, H. Wang, Y. Wang, M. Wilhelm, L. Xin, B. Ma, W. S. Noble, T. P. Jenkins, W. Bittremieux">...</span> W. Bittremieux</div>
     <div class="pub-venue"><span class="venue-name">Registered report</span> (preprint) · 2026</div>
     <div class="pub-badges">
       <a class="badge-primary" href="https://springernature.figshare.com/articles/journal_contribution/_b_A_living_proteomics_benchmark_for_comprehensive_b_b_evaluation_of_deep_learning-based_b_b_i_de_novo_i_b_b_peptide_b_b_sequencing_tools_b_/31680883/1"><i class="bi bi-file-earmark-text"></i> Registered report</a>
@@ -131,7 +153,7 @@ I build and ship machine-learning systems for science: generative sequence model
   </a>
   <div class="pub-body">
     <div class="pub-title"><a href="https://doi.org/10.1016/j.mcpro.2026.101547">Generalizable direct protein sequencing with InstaNexus</a></div>
-    <div class="pub-authors">M. Reverenna, M. Wennekers Nielsen, <button type="button" class="author-ellipsis" aria-expanded="false" aria-label="Full author list: M. Reverenna, M. Wennekers Nielsen, D. S. Wolff, J. Daniel, E. Lytra, S. Thumtecho, P. D. Colaianni, A. Ljungars, A. H. Laustsen, E. M. Schoof, J. Van Goey, T. P. Jenkins, M. V. Lukassen, A. Santos†, K. Kalogeropoulos†" data-authors="M. Reverenna, M. Wennekers Nielsen, D. S. Wolff, J. Daniel, E. Lytra, S. Thumtecho, P. D. Colaianni, A. Ljungars, A. H. Laustsen, E. M. Schoof, J. Van Goey, T. P. Jenkins, M. V. Lukassen, A. Santos†, K. Kalogeropoulos†">...</button> <strong>J. Van Goey</strong>, <button type="button" class="author-ellipsis" aria-expanded="false" aria-label="Full author list: M. Reverenna, M. Wennekers Nielsen, D. S. Wolff, J. Daniel, E. Lytra, S. Thumtecho, P. D. Colaianni, A. Ljungars, A. H. Laustsen, E. M. Schoof, J. Van Goey, T. P. Jenkins, M. V. Lukassen, A. Santos†, K. Kalogeropoulos†" data-authors="M. Reverenna, M. Wennekers Nielsen, D. S. Wolff, J. Daniel, E. Lytra, S. Thumtecho, P. D. Colaianni, A. Ljungars, A. H. Laustsen, E. M. Schoof, J. Van Goey, T. P. Jenkins, M. V. Lukassen, A. Santos†, K. Kalogeropoulos†">...</button> K. Kalogeropoulos<span class="author-role" aria-label="co-senior author" title="co-senior author">†</span></div>
+    <div class="pub-authors">M. Reverenna, M. Wennekers Nielsen, <span class="author-ellipsis" role="button" tabindex="0" aria-expanded="false" aria-label="Full author list: M. Reverenna, M. Wennekers Nielsen, D. S. Wolff, J. Daniel, E. Lytra, S. Thumtecho, P. D. Colaianni, A. Ljungars, A. H. Laustsen, E. M. Schoof, J. Van Goey, T. P. Jenkins, M. V. Lukassen, A. Santos†, K. Kalogeropoulos†" data-authors="M. Reverenna, M. Wennekers Nielsen, D. S. Wolff, J. Daniel, E. Lytra, S. Thumtecho, P. D. Colaianni, A. Ljungars, A. H. Laustsen, E. M. Schoof, J. Van Goey, T. P. Jenkins, M. V. Lukassen, A. Santos†, K. Kalogeropoulos†">...</span> <strong>J. Van Goey</strong>, <span class="author-ellipsis" role="button" tabindex="0" aria-expanded="false" aria-label="Full author list: M. Reverenna, M. Wennekers Nielsen, D. S. Wolff, J. Daniel, E. Lytra, S. Thumtecho, P. D. Colaianni, A. Ljungars, A. H. Laustsen, E. M. Schoof, J. Van Goey, T. P. Jenkins, M. V. Lukassen, A. Santos†, K. Kalogeropoulos†" data-authors="M. Reverenna, M. Wennekers Nielsen, D. S. Wolff, J. Daniel, E. Lytra, S. Thumtecho, P. D. Colaianni, A. Ljungars, A. H. Laustsen, E. M. Schoof, J. Van Goey, T. P. Jenkins, M. V. Lukassen, A. Santos†, K. Kalogeropoulos†">...</span> K. Kalogeropoulos†</div>
     <div class="pub-venue"><span class="venue-name">Molecular &amp; Cellular Proteomics</span> · 2026 · 25(4):101547</div>
     <div class="pub-badges">
       <a class="badge-primary" href="https://doi.org/10.1016/j.mcpro.2026.101547"><i class="bi bi-journal-text"></i> Mol. Cell. Proteomics</a>
@@ -170,6 +192,12 @@ document.addEventListener("DOMContentLoaded", () => {
           expanded ? `Show omitted authors: ${omitted}` : "Collapse omitted authors"
         );
       });
+      toggle.addEventListener("keydown", (event) => {
+        if (event.key === "Enter" || event.key === " ") {
+          event.preventDefault();
+          toggle.click();
+        }
+      });
     });
   });
 });
@@ -203,7 +231,7 @@ document.addEventListener("DOMContentLoaded", () => {
   </a>
   <div class="pub-body">
     <div class="pub-title"><a href="https://doi.org/10.1021/acs.jproteome.4c01079">Open-source and FAIR research software for proteomics</a></div>
-    <div class="pub-authors">Y. Perez-Riverol, W. Bittremieux, <button type="button" class="author-ellipsis" aria-expanded="false" aria-label="Full author list: Y. Perez-Riverol, W. Bittremieux, W. S. Noble, L. Martens, A. Bilbao, M. R. Lazear, B. Grüning, D. S. Katz, M. J. MacCoss, C. Dai, J. K. Eng, R. Bouwmeester, M. R. Shortreed, E. Audain, T. Sachsenberg, J. Van Goey, G. Wallmann, B. Wen, L. Käll, W. E. Fondrie" data-authors="Y. Perez-Riverol, W. Bittremieux, W. S. Noble, L. Martens, A. Bilbao, M. R. Lazear, B. Grüning, D. S. Katz, M. J. MacCoss, C. Dai, J. K. Eng, R. Bouwmeester, M. R. Shortreed, E. Audain, T. Sachsenberg, J. Van Goey, G. Wallmann, B. Wen, L. Käll, W. E. Fondrie">...</button> <strong>J. Van Goey</strong>, <button type="button" class="author-ellipsis" aria-expanded="false" aria-label="Full author list: Y. Perez-Riverol, W. Bittremieux, W. S. Noble, L. Martens, A. Bilbao, M. R. Lazear, B. Grüning, D. S. Katz, M. J. MacCoss, C. Dai, J. K. Eng, R. Bouwmeester, M. R. Shortreed, E. Audain, T. Sachsenberg, J. Van Goey, G. Wallmann, B. Wen, L. Käll, W. E. Fondrie" data-authors="Y. Perez-Riverol, W. Bittremieux, W. S. Noble, L. Martens, A. Bilbao, M. R. Lazear, B. Grüning, D. S. Katz, M. J. MacCoss, C. Dai, J. K. Eng, R. Bouwmeester, M. R. Shortreed, E. Audain, T. Sachsenberg, J. Van Goey, G. Wallmann, B. Wen, L. Käll, W. E. Fondrie">...</button> W. E. Fondrie</div>
+    <div class="pub-authors">Y. Perez-Riverol, W. Bittremieux, <span class="author-ellipsis" role="button" tabindex="0" aria-expanded="false" aria-label="Full author list: Y. Perez-Riverol, W. Bittremieux, W. S. Noble, L. Martens, A. Bilbao, M. R. Lazear, B. Grüning, D. S. Katz, M. J. MacCoss, C. Dai, J. K. Eng, R. Bouwmeester, M. R. Shortreed, E. Audain, T. Sachsenberg, J. Van Goey, G. Wallmann, B. Wen, L. Käll, W. E. Fondrie" data-authors="Y. Perez-Riverol, W. Bittremieux, W. S. Noble, L. Martens, A. Bilbao, M. R. Lazear, B. Grüning, D. S. Katz, M. J. MacCoss, C. Dai, J. K. Eng, R. Bouwmeester, M. R. Shortreed, E. Audain, T. Sachsenberg, J. Van Goey, G. Wallmann, B. Wen, L. Käll, W. E. Fondrie">...</span> <strong>J. Van Goey</strong>, <span class="author-ellipsis" role="button" tabindex="0" aria-expanded="false" aria-label="Full author list: Y. Perez-Riverol, W. Bittremieux, W. S. Noble, L. Martens, A. Bilbao, M. R. Lazear, B. Grüning, D. S. Katz, M. J. MacCoss, C. Dai, J. K. Eng, R. Bouwmeester, M. R. Shortreed, E. Audain, T. Sachsenberg, J. Van Goey, G. Wallmann, B. Wen, L. Käll, W. E. Fondrie" data-authors="Y. Perez-Riverol, W. Bittremieux, W. S. Noble, L. Martens, A. Bilbao, M. R. Lazear, B. Grüning, D. S. Katz, M. J. MacCoss, C. Dai, J. K. Eng, R. Bouwmeester, M. R. Shortreed, E. Audain, T. Sachsenberg, J. Van Goey, G. Wallmann, B. Wen, L. Käll, W. E. Fondrie">...</span> W. E. Fondrie</div>
     <div class="pub-venue"><span class="venue-name">Journal of Proteome Research</span> · 2025 · 24(5):2222–2234</div>
     <div class="pub-badges">
       <a class="badge-primary" href="https://doi.org/10.1021/acs.jproteome.4c01079"><i class="bi bi-journal-text"></i> J. Proteome Res.</a>
@@ -318,15 +346,16 @@ The InstaNovo paper drew broad attention across the scientific press.
 <img src="images/flags/za.svg" class="flag-icon" alt="South Africa">Cape Town, South Africa
 
 - **Tech lead and hiring manager** for two cross-disciplinary **ML research teams**: *de novo* peptide sequencing (with the Technical University of Denmark) and signal-peptide design for secretion efficiency (with BioNTech).
+- Delivered a **client collaboration with [Syngenta](https://instadeep.com/2024/06/syngenta-and-instadeep-collaborate-to-accelerate-crops-seeds-trait-research-using-ai-large-language-models/)**, applying **genomic language models** (AgroNT, a Nucleotide Transformer trained on crop genomes) to accelerate crop trait research.
 - Set **research direction** and take models **from research to production**, balancing scientific rigour with reliable, maintainable engineering.
 - **Lead the BioAI department** of InstaDeep's Cape Town office and serve as the office's **site manager**; responsible for **hiring and growing** the BioAI teams across the Cape Town and Kigali offices.
-- Built the team's **ML engineering foundations**: scalable, Transformer-based libraries (Python / PyTorch) for large-scale training across GPUs, HPC supercomputers (MareNostrum v5), and the cloud. 
+- Built the team's **ML engineering foundations**: scalable, Transformer-based libraries (Python / PyTorch) for large-scale training across GPUs, HPC supercomputers (MareNostrum v5), and the cloud, with training and data pipelines orchestrated in **Dagster**.
 
 ### <img src="images/icons/barco.png" class="company-icon" alt=""> [Barco](https://www.barco.com/en)
 **Senior Software Development Engineer, Machine Learning**\
 <i class="bi bi-calendar3"></i> _February 2020 – August 2022_\
 <img src="images/flags/be.svg" class="flag-icon" alt="Belgium">Kortrijk, Belgium\
-Built a TensorFlow Extended production pipeline training deep-learning models on multispectral images to detect and classify melanoma skin cancers for [Demetra](https://www.inthepocket.com/work/barco-demetra), Barco's dermatology imaging device. Engineered the pipeline with end-to-end data and model lineage tracking to deliver the traceability and reproducibility that regulated medical industries (FDA approval) require. Worked across the research, cloud-backend and mobile/web frontend teams.
+Built a TensorFlow Extended production pipeline (orchestrated with Apache Airflow) training deep-learning models on multispectral images to detect and classify melanoma skin cancers for [Demetra](https://www.inthepocket.com/work/barco-demetra), Barco's dermatology imaging device. Engineered the pipeline with end-to-end data and model lineage tracking to deliver the traceability and reproducibility that regulated medical industries (FDA approval) require. Worked across the research, cloud-backend and mobile/web frontend teams.
 
 ### <img src="images/icons/basf.png" class="company-icon" alt=""> [BASF](https://basf.com/)
 **Bioinformatics Researcher, Manager of the Python & R Platforms**\
@@ -489,7 +518,7 @@ Transformers, diffusion models, large language models (LLMs), supervised & self-
 PyTorch, TensorFlow / TFX, NumPy, pandas
 
 **Scale & MLOps**\
-Distributed GPU training, HPC clusters (on-premise and the MareNostrum 5 supercomputer), cloud (AWS), Docker, CI/CD
+Distributed GPU training, HPC clusters (on-premise and the MareNostrum 5 supercomputer), Kubernetes-based ML platforms (AIchor), cloud (AWS, GCP), Docker, CI/CD, workflow orchestration (Airflow, Dagster), experiment tracking (MLflow, Neptune, TensorBoard)
 
 **Bioinformatics**\
 BioPython, BLAST, ClustalW, Snakemake, BioNumerics

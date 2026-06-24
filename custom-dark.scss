@@ -14,3 +14,7 @@ $link-color: #3db8a6;
 .cta-buttons .cta-primary:hover {
   color: #06302b;
 }
+
+// Research framework: foot band sits on the lighter dark-mode teal, so use dark text.
+.fw-foot { color: #06302b; }
+.fw-num { background: rgba(61, 184, 166, 0.16); }
