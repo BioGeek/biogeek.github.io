@@ -474,6 +474,7 @@ I have **co-created, organized and judged** machine-learning hackathons at the [
 Mentored the hands-on practical alongside InstaDeep and Google DeepMind colleagues.
 
 <div class="pub-badges">
+  <a href="https://github.com/BioGeek/indaba-pracs-2023/blob/main/practicals/ML_for_Bio_Indaba_Practical_2023.ipynb"><i class="bi bi-github"></i> Code</a>
   <a href="https://www.linkedin.com/posts/yousra-farhani-7a416219a_machinelearning-biology-dli23-ugcPost-7109547765549936640-Y4t3/"><i class="bi bi-newspaper"></i> News</a>
 </div>
 
