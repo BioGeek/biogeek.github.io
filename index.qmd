@@ -61,7 +61,7 @@ I build and ship machine-learning systems for science. My main application is *d
 </div>
 
 <ul class="proof">
-  <li><strong>Independently validated:</strong> top-ranked across an external benchmark of 17 de novo sequencing tools on 83 datasets.</li>
+  <li><strong>Independently validated:</strong> top-ranked across an external benchmark of 17 <i>de novo</i> sequencing tools on 83 datasets.</li>
   <li><strong>Built for scale:</strong> distributed training on large public datasets curated with automated LLM labelling.</li>
 </ul>
 ```
@@ -79,7 +79,7 @@ I build and ship machine-learning systems for science. My main application is *d
     <img loading="lazy" src="images/publications/instanovo_figure1.png" alt="InstaNovo figure 1" />
   </a>
   <div class="pub-body">
-    <div class="pub-title"><a href="https://doi.org/10.1038/s42256-025-01019-5">InstaNovo enables diffusion-powered de novo peptide sequencing in large-scale proteomics experiments</a></div>
+    <div class="pub-title"><a href="https://doi.org/10.1038/s42256-025-01019-5">InstaNovo enables diffusion-powered <i>de novo</i> peptide sequencing in large-scale proteomics experiments</a></div>
     <div class="pub-authors">K. Eloff*, K. Kalogeropoulos*, <span class="author-ellipsis" role="button" tabindex="0" aria-expanded="false" aria-label="Full author list: K. Eloff*, K. Kalogeropoulos*, A. Mabona, O. Morell, R. Catzel, E. Rivera-de-Torre, J. Berg Jespersen, W. Williams, S. P. B. van Beljouw, M. J. Skwark, A. H. Laustsen, S. J. J. Brouns, A. Ljungars, E. M. Schoof, J. Van Goey, U. auf dem Keller, K. Beguir, N. Lopez Carranza, T. P. Jenkins" data-authors="K. Eloff*, K. Kalogeropoulos*, A. Mabona, O. Morell, R. Catzel, E. Rivera-de-Torre, J. Berg Jespersen, W. Williams, S. P. B. van Beljouw, M. J. Skwark, A. H. Laustsen, S. J. J. Brouns, A. Ljungars, E. M. Schoof, J. Van Goey, U. auf dem Keller, K. Beguir, N. Lopez Carranza, T. P. Jenkins">...</span> <strong>J. Van Goey</strong>, <span class="author-ellipsis" role="button" tabindex="0" aria-expanded="false" aria-label="Full author list: K. Eloff*, K. Kalogeropoulos*, A. Mabona, O. Morell, R. Catzel, E. Rivera-de-Torre, J. Berg Jespersen, W. Williams, S. P. B. van Beljouw, M. J. Skwark, A. H. Laustsen, S. J. J. Brouns, A. Ljungars, E. M. Schoof, J. Van Goey, U. auf dem Keller, K. Beguir, N. Lopez Carranza, T. P. Jenkins" data-authors="K. Eloff*, K. Kalogeropoulos*, A. Mabona, O. Morell, R. Catzel, E. Rivera-de-Torre, J. Berg Jespersen, W. Williams, S. P. B. van Beljouw, M. J. Skwark, A. H. Laustsen, S. J. J. Brouns, A. Ljungars, E. M. Schoof, J. Van Goey, U. auf dem Keller, K. Beguir, N. Lopez Carranza, T. P. Jenkins">...</span> T. P. Jenkins</div>
     <div class="pub-venue"><span class="venue-name">Nature Machine Intelligence</span> · 2025 · 7(4):565–579</div>
     <div class="pub-badges">
@@ -100,7 +100,7 @@ I build and ship machine-learning systems for science. My main application is *d
     <img loading="lazy" src="images/publications/instanovo-p_figure1.png" alt="InstaNovo-P figure 1" />
   </a>
   <div class="pub-body">
-    <div class="pub-title"><a href="https://doi.org/10.1101/2025.05.14.654049">InstaNovo-P: a de novo peptide sequencing model for phosphoproteomics</a></div>
+    <div class="pub-title"><a href="https://doi.org/10.1101/2025.05.14.654049">InstaNovo-P: a <i>de novo</i> peptide sequencing model for phosphoproteomics</a></div>
     <div class="pub-authors">J. Lauridsen*, P. Ramasamy*, <span class="author-ellipsis" role="button" tabindex="0" aria-expanded="false" aria-label="Full author list: J. Lauridsen*, P. Ramasamy*, R. Catzel, V. Canbay, A. Mabona, K. Eloff, P. Fullwood, J. Ferguson, A. Kirketerp-Møller, I. S. Goldschmidt, T. Claeys, S. van Puyenbroeck, N. Lopez Carranza, E. M. Schoof, L. Martens, J. Van Goey, C. Francavilla, T. P. Jenkins†, K. Kalogeropoulos†" data-authors="J. Lauridsen*, P. Ramasamy*, R. Catzel, V. Canbay, A. Mabona, K. Eloff, P. Fullwood, J. Ferguson, A. Kirketerp-Møller, I. S. Goldschmidt, T. Claeys, S. van Puyenbroeck, N. Lopez Carranza, E. M. Schoof, L. Martens, J. Van Goey, C. Francavilla, T. P. Jenkins†, K. Kalogeropoulos†">...</span> <strong>J. Van Goey</strong>, <span class="author-ellipsis" role="button" tabindex="0" aria-expanded="false" aria-label="Full author list: J. Lauridsen*, P. Ramasamy*, R. Catzel, V. Canbay, A. Mabona, K. Eloff, P. Fullwood, J. Ferguson, A. Kirketerp-Møller, I. S. Goldschmidt, T. Claeys, S. van Puyenbroeck, N. Lopez Carranza, E. M. Schoof, L. Martens, J. Van Goey, C. Francavilla, T. P. Jenkins†, K. Kalogeropoulos†" data-authors="J. Lauridsen*, P. Ramasamy*, R. Catzel, V. Canbay, A. Mabona, K. Eloff, P. Fullwood, J. Ferguson, A. Kirketerp-Møller, I. S. Goldschmidt, T. Claeys, S. van Puyenbroeck, N. Lopez Carranza, E. M. Schoof, L. Martens, J. Van Goey, C. Francavilla, T. P. Jenkins†, K. Kalogeropoulos†">...</span> K. Kalogeropoulos†</div>
     <div class="pub-venue"><span class="venue-name">bioRxiv</span> (preprint) · 2025</div>
     <div class="pub-badges">
@@ -117,7 +117,7 @@ I build and ship machine-learning systems for science. My main application is *d
     <img loading="lazy" src="images/publications/winnow_figure1.png" alt="Winnow figure 1" />
   </a>
   <div class="pub-body">
-    <div class="pub-title"><a href="https://arxiv.org/abs/2509.24952">De novo peptide sequencing rescoring and FDR estimation with Winnow</a></div>
+    <div class="pub-title"><a href="https://arxiv.org/abs/2509.24952"><i>De novo</i> peptide sequencing rescoring and FDR estimation with Winnow</a></div>
     <div class="pub-authors">A. Mabona*, J. Daniel*, <span class="author-ellipsis" role="button" tabindex="0" aria-expanded="false" aria-label="Full author list: A. Mabona*, J. Daniel*, H. S. J. Knudsen, R. Catzel, K. M. Eloff, E. M. Schoof, N. Lopez Carranza, T. P. Jenkins, J. Van Goey†, K. Kalogeropoulos†" data-authors="A. Mabona*, J. Daniel*, H. S. J. Knudsen, R. Catzel, K. M. Eloff, E. M. Schoof, N. Lopez Carranza, T. P. Jenkins, J. Van Goey†, K. Kalogeropoulos†">...</span> <strong>J. Van Goey</strong><span class="author-role" aria-label="co-senior author" title="co-senior author">†</span>, K. Kalogeropoulos<span class="author-role" aria-label="co-senior author" title="co-senior author">†</span></div>
     <div class="pub-venue"><span class="venue-name">arXiv</span> (preprint) · 2025</div>
     <div class="pub-badges">
@@ -135,7 +135,7 @@ I build and ship machine-learning systems for science. My main application is *d
     <img loading="lazy" src="images/publications/living_proteomics_benchmark_figure1.png" alt="Living proteomics benchmark figure 1" />
   </a>
   <div class="pub-body">
-    <div class="pub-title"><a href="https://springernature.figshare.com/articles/journal_contribution/_b_A_living_proteomics_benchmark_for_comprehensive_b_b_evaluation_of_deep_learning-based_b_b_i_de_novo_i_b_b_peptide_b_b_sequencing_tools_b_/31680883/1">A living proteomics benchmark for comprehensive evaluation of deep learning-based de novo peptide sequencing tools</a></div>
+    <div class="pub-title"><a href="https://springernature.figshare.com/articles/journal_contribution/_b_A_living_proteomics_benchmark_for_comprehensive_b_b_evaluation_of_deep_learning-based_b_b_i_de_novo_i_b_b_peptide_b_b_sequencing_tools_b_/31680883/1">A living proteomics benchmark for comprehensive evaluation of deep learning-based <i>de novo</i> peptide sequencing tools</a></div>
     <div class="pub-authors">M. Pominova, <strong>J. Van Goey</strong>, <span class="author-ellipsis" role="button" tabindex="0" aria-expanded="false" aria-label="Full author list: M. Pominova, J. Van Goey, C. Adams, C. Dens, S. Chen, G. Deflandre, W. E. Fondrie, C. Ge, Z. Jin, D. Klaproth-Andrade, K. Kalogeropoulos, J. Lapin, T. Ling, K. Liu, Q. Liu, Z. Luan, A. Nilsson, C. Nix, Y. Sun, T. Van Den Bossche, R. Wu, J. Xia, Q. Xiao, S. Yang, T. Yang, C. Yao, M. Yilmaz, D. Zhang, X. Zhang, J. Zhou, C. Chang, S. Chang, E. Chuangsuwanich, J. Gagneur, L. Gatto, T. Guo, L. Käll, M. Li, S. Z. Li, B. A. Neely, M. R. Shortreed, S. Sriswasdi, B. Shan, S. Sun, H. Tang, H. Wang, Y. Wang, M. Wilhelm, L. Xin, B. Ma, W. S. Noble, T. P. Jenkins, W. Bittremieux" data-authors="M. Pominova, J. Van Goey, C. Adams, C. Dens, S. Chen, G. Deflandre, W. E. Fondrie, C. Ge, Z. Jin, D. Klaproth-Andrade, K. Kalogeropoulos, J. Lapin, T. Ling, K. Liu, Q. Liu, Z. Luan, A. Nilsson, C. Nix, Y. Sun, T. Van Den Bossche, R. Wu, J. Xia, Q. Xiao, S. Yang, T. Yang, C. Yao, M. Yilmaz, D. Zhang, X. Zhang, J. Zhou, C. Chang, S. Chang, E. Chuangsuwanich, J. Gagneur, L. Gatto, T. Guo, L. Käll, M. Li, S. Z. Li, B. A. Neely, M. R. Shortreed, S. Sriswasdi, B. Shan, S. Sun, H. Tang, H. Wang, Y. Wang, M. Wilhelm, L. Xin, B. Ma, W. S. Noble, T. P. Jenkins, W. Bittremieux">...</span> W. Bittremieux</div>
     <div class="pub-venue"><span class="venue-name">Registered report</span> (preprint) · 2026</div>
     <div class="pub-badges">
@@ -277,7 +277,7 @@ The InstaNovo paper drew broad attention across the scientific press.
       <li><a href="https://www.science.org/content/article/ai-revolution-comes-protein-sequencing"><span class="outlet">Science</span><span class="headline">An AI revolution comes to protein sequencing</span></a></li>
       <li><a href="https://www.sciencenews.org/article/ai-decode-indecipherable-proteins"><span class="outlet">Science News</span><span class="headline">AI may help decode proteins DNA can't reveal</span></a></li>
       <li><a href="https://www.chemistryworld.com/news/ai-takes-step-towards-cracking-biologys-toughest-problem-protein-sequencing/4021205.article"><span class="outlet">Chemistry World</span><span class="headline">AI takes step towards cracking biology's toughest problem</span></a></li>
-      <li><a href="https://www.biotechniques.com/computational-biology/doubling-up-novel-ai-models-improve-de-novo-peptide-sequencing/"><span class="outlet">BioTechniques</span><span class="headline">Doubling up: novel AI models improve de novo peptide sequencing</span></a></li>
+      <li><a href="https://www.biotechniques.com/computational-biology/doubling-up-novel-ai-models-improve-de-novo-peptide-sequencing/"><span class="outlet">BioTechniques</span><span class="headline">Doubling up: novel AI models improve <i>de novo</i> peptide sequencing</span></a></li>
       <li><a href="https://www.technologynetworks.com/tn/news/ai-models-accelerate-discovery-within-protein-science-397916"><span class="outlet">Technology Networks</span><span class="headline">AI models accelerate discovery within protein science</span></a></li>
       <li><a href="https://www.azolifesciences.com/news/20250401/Novel-AI-Models-Enhance-Disease-Diagnosis-and-Pathogen-Identification.aspx"><span class="outlet">AZoLifeSciences</span><span class="headline">Novel AI models enhance disease diagnosis and pathogen ID</span></a></li>
       <li><a href="https://www.sciencedaily.com/releases/2025/03/250331122207.htm"><span class="outlet">ScienceDaily</span><span class="headline">Possible game-changers within protein science and healthcare</span></a></li>
@@ -323,8 +323,8 @@ The InstaNovo paper drew broad attention across the scientific press.
   <p><strong>Follow-up:</strong></p>
   <ul>
     <li><a href="https://instanovo.ai/introducing-the-next-generation-of-instanovo-models/">Introducing the next generation of InstaNovo models</a></li>
-    <li><a href="https://instanovo.ai/introducing-instanovo-p-a-de-novo-sequencing-model-for-phosphoproteomics/">Introducing InstaNovo-P: a de novo sequencing model for phosphoproteomics</a></li>
-    <li><a href="https://instanovo.ai/calibrated-confidence-and-fdr-control-for-de-novo-sequencing/">Calibrated confidence and FDR control for de novo sequencing</a></li>
+    <li><a href="https://instanovo.ai/introducing-instanovo-p-a-de-novo-sequencing-model-for-phosphoproteomics/">Introducing InstaNovo-P: a <i>de novo</i> sequencing model for phosphoproteomics</a></li>
+    <li><a href="https://instanovo.ai/calibrated-confidence-and-fdr-control-for-de-novo-sequencing/">Calibrated confidence and FDR control for <i>de novo</i> sequencing</a></li>
   </ul>
 
 </details>
@@ -361,7 +361,7 @@ Built a TensorFlow Extended production pipeline (orchestrated with Apache Airflo
 **Bioinformatics Researcher, Manager of the Python & R Platforms**\
 <i class="bi bi-calendar3"></i> _August 2018 – January 2020_\
 <img src="images/flags/be.svg" class="flag-icon" alt="Belgium">Zwijnaarde, Belgium\
-Owned the Python/R data-analysis platform used by 480 researchers and data scientists: technical support, proactive monitoring and root-cause analysis, training (NumPy, pandas, BioPython, …) and mentoring across the scientific community.
+Owned the Python/R data-analysis platform used by 480 researchers and data scientists: technical support, proactive monitoring and root-cause analysis, training (NumPy, pandas, BioPython, …) and mentoring across the company's internal research community.
 
 ### <img src="images/icons/bayer.png" class="company-icon" alt=""> [Bayer Crop Science](https://www.bayer.com/)
 **Bioinformatics Researcher & Python Platform Manager**\
@@ -510,7 +510,7 @@ Mentored the hands-on practical alongside InstaDeep and Google DeepMind colleagu
 **Scientific Python training & mentoring**\
 <i class="bi bi-calendar3"></i> _2018–2020_\
 <img src="images/flags/be.svg" class="flag-icon" alt="Belgium">BASF and Bayer Crop Science, Belgium\
-Trained and mentored researchers and data scientists in scientific Python (NumPy, pandas, BioPython, …) as manager of the Python/R analysis platform used across the scientific community.
+Trained and mentored researchers and data scientists in scientific Python (NumPy, pandas, BioPython, …) as manager of the Python/R analysis platform used across the company's internal research community.
 
 ---
 
