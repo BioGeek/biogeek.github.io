@@ -1,0 +1,178 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.8/schema.json
+cv:
+  name: Jeroen Van Goey
+  headline: Staff Research Engineer in BioAI
+  location: Cape Town, South Africa
+  email: jeroen.vangoey@gmail.com
+  phone: "+27724582796"
+  website: https://jeroen.vangoey.be
+  social_networks:
+    - network: LinkedIn
+      username: jeroenvangoey
+    - network: GitHub
+      username: BioGeek
+    - network: Google Scholar
+      username: QinE3gcAAAAJ
+    - network: ORCID
+      username: 0000-0003-4480-5567
+  sections:
+    Summary:
+      - Machine learning research engineer working at the intersection of AI and science, bridging scientific ML, biological domain knowledge, production-quality software, and team leadership. I build generative models and take them from prototype to deployment, with a focus on *de novo* peptide sequencing.
+      - Author of 8 publications, including in *Nature Machine Intelligence*.
+      - "Currently looking for Staff/Principal Research Engineer roles in AI for science. Based in Cape Town, open to remote-first roles now and hybrid/on-site roles in Europe from 2027."
+    Experience:
+      - company: InstaDeep
+        position: Staff Research Engineer in BioAI
+        start_date: 2022-08
+        end_date: present
+        location: Cape Town, South Africa
+        highlights:
+          - "**Tech lead and hiring manager** for two cross-disciplinary **ML research teams** of about 5 to 8 people each: *de novo* peptide sequencing (with the Technical University of Denmark) and signal-peptide design for secretion efficiency (with BioNTech)."
+          - Delivered a **client collaboration with Syngenta**, applying **genomic language models** (AgroNT, a Nucleotide Transformer trained on ~10.5 million genomic sequences spanning trillions of base pairs across 48 plant species) to accelerate crop trait research.
+          - Set **research direction** and take models **from research to production**, balancing scientific rigour with reliable, maintainable engineering.
+          - "**Lead the BioAI department** of InstaDeep's Cape Town office and serve as the office's **site manager** (an office of about 25 people); hire and grow the BioAI teams across the Cape Town and Kigali offices."
+          - "Built the team's **ML engineering foundations**: scalable, Transformer-based libraries (Python / PyTorch) for large-scale training on two of the world's most powerful supercomputers (InstaDeep's Kyber, ~500 PFLOPs, and EuroHPC's MareNostrum 5, 260 PFLOPs peak), as well as GPUs and the cloud, with training and data pipelines orchestrated in Dagster."
+      - company: Barco
+        position: Senior Software Development Engineer, Machine Learning
+        start_date: 2020-02
+        end_date: 2022-08
+        location: Kortrijk, Belgium
+        highlights:
+          - Built a TensorFlow Extended production pipeline (orchestrated with Apache Airflow) training deep-learning models on multispectral images to detect and classify melanoma skin cancers for Demetra, Barco's dermatology imaging device.
+          - Engineered the pipeline with end-to-end data and model lineage tracking to deliver the traceability and reproducibility that regulated medical industries (FDA approval) require.
+          - Worked across the research, cloud-backend and mobile/web frontend teams.
+      - company: Bayer Crop Science, then BASF
+        position: Bioinformatics Researcher, Manager of the Python & R Platforms
+        start_date: 2018-02
+        end_date: 2020-01
+        location: Zwijnaarde, Belgium
+        highlights:
+          - "Owned the Python/R data-analysis platform used by 480 researchers and data scientists: technical support, proactive monitoring and root-cause analysis, training (NumPy, pandas, BioPython) and mentoring across the company's internal research community."
+          - The Zwijnaarde site was divested from Bayer Crop Science to BASF as part of Bayer's acquisition of Monsanto; I continued in the same role across the transition.
+      - company: Applied Maths (acquired by bioMérieux)
+        position: Bioinformatics Software Developer
+        start_date: 2011-09
+        end_date: 2018-01
+        location: Sint-Martens-Latem, Belgium
+        highlights:
+          - Worked on BioNumerics, a bioinformatics suite for integrated analysis of biological data, writing custom Python scripts and extensions for clients in the clinical, academic and government sectors.
+    Selected publications:
+      - title: InstaNovo enables diffusion-powered *de novo* peptide sequencing in large-scale proteomics experiments
+        authors: ["K. Eloff", "K. Kalogeropoulos", "…", "**J. Van Goey**", "…", "T. P. Jenkins"]
+        journal: Nature Machine Intelligence
+        doi: 10.1038/s42256-025-01019-5
+        date: 2025
+        summary: Trained on ~63 million spectra; top-ranked in an independent benchmark of 17 de novo tools across 83 datasets; Altmetric attention score 100+ and 120+ GitHub stars.
+      - title: "InstaNovo-P: a *de novo* peptide sequencing model for phosphoproteomics"
+        authors: ["J. Lauridsen", "P. Ramasamy", "…", "**J. Van Goey**", "…", "K. Kalogeropoulos"]
+        journal: bioRxiv
+        doi: 10.1101/2025.05.14.654049
+        date: 2025
+      - title: "*De novo* peptide sequencing rescoring and FDR estimation with Winnow"
+        authors: ["A. Mabona", "J. Daniel", "…", "**J. Van Goey**", "K. Kalogeropoulos"]
+        journal: arXiv
+        doi: 10.48550/arXiv.2509.24952
+        date: 2025
+      - title: A living proteomics benchmark for comprehensive evaluation of deep learning-based *de novo* peptide sequencing tools
+        authors: ["M. Pominova", "**J. Van Goey**", "C. Adams", "…", "W. Bittremieux"]
+        journal: Registered report (preprint)
+        doi: 10.6084/m9.figshare.31680883.v1
+        date: 2026
+      - title: Generalizable direct protein sequencing with InstaNexus
+        authors: ["M. Reverenna", "M. Wennekers Nielsen", "…", "**J. Van Goey**", "…", "K. Kalogeropoulos"]
+        journal: Molecular & Cellular Proteomics
+        doi: 10.1016/j.mcpro.2026.101547
+        date: 2026
+      - title: A Framework for Database Search with AI Models in Mass Spectrometry-Based Proteomics
+        authors: ["K. Kalogeropoulos", "**J. Van Goey**", "T. P. Jenkins", "K. M. Eloff"]
+        journal: Journal of Proteome Research
+        doi: 10.1021/acs.jproteome.5c01153
+        date: 2026
+    Education:
+      - institution: Hogeschool West-Vlaanderen (Howest)
+        area: Machine Learning & Deep Learning
+        degree: Microdegree
+        start_date: 2018
+        end_date: 2019
+        location: Belgium
+      - institution: Katholieke Universiteit Leuven
+        area: Bioinformatics
+        start_date: 2010
+        end_date: 2012
+        location: Leuven, Belgium
+        summary: Partial credits obtained.
+      - institution: University of Antwerp
+        area: Biology
+        degree: M.Sc.
+        start_date: 1997
+        end_date: 2004
+        location: Antwerp, Belgium
+    Skills:
+      - label: Machine learning
+        details: Transformers, diffusion models, large language models (LLMs), supervised & self-supervised learning
+      - label: Frameworks
+        details: PyTorch, TensorFlow / TFX, NumPy, pandas
+      - label: Scale & MLOps
+        details: Distributed GPU training, HPC (InstaDeep's Kyber and EuroHPC's MareNostrum 5 supercomputers), Kubernetes-based ML platforms (AIchor), cloud (AWS, GCP), Docker, CI/CD, workflow orchestration (Airflow, Dagster), experiment tracking (MLflow, Neptune, TensorBoard)
+      - label: Bioinformatics
+        details: BioPython, BLAST, ClustalW, Snakemake, BioNumerics
+      - label: Languages
+        details: Python (primary), R
+    Projects:
+      - name: "[Awesome De Novo Peptide Sequencing](https://jeroen.vangoey.be/awesome_de_novo_peptide_sequencing/)"
+        summary: "A comprehensive, interactive map of the *de novo* peptide sequencing field: algorithms, post-processors, downstream applications, and adjacent tools, deep-learning and classical alike."
+        highlights:
+          - "Open source: [github.com/BioGeek/awesome_de_novo_peptide_sequencing](https://github.com/BioGeek/awesome_de_novo_peptide_sequencing)"
+    Teaching & mentoring:
+      - name: Machine Learning for Biology practical
+        date: 2023
+        location: Deep Learning Indaba, Ghana
+        summary: Mentored the hands-on practical alongside InstaDeep and Google DeepMind colleagues.
+      - name: Scientific Python training & mentoring
+        start_date: 2018
+        end_date: 2020
+        location: BASF and Bayer Crop Science, Belgium
+        summary: Trained and mentored researchers and data scientists in scientific Python (NumPy, pandas, BioPython) as manager of the Python/R analysis platform.
+    Hackathons (co-created, organized and judged):
+      - label: "2025"
+        details: "Machine Learning Interatomic Potentials Hackathon, IndabaX (Stellenbosch University, South Africa)"
+      - label: "2024"
+        details: "Snakes and Sequences: Senegalese Serpent Venom Sequencing Hackathon, Deep Learning Indaba (Senegal)"
+      - label: "2024"
+        details: "Desert Locust Breeding Ground Prediction Hackathon, IndabaX (Wits, Johannesburg)"
+      - label: "2023"
+        details: "Unveiling Cassava's Secrets, Deep Learning Indaba (Ghana)"
+design:
+  theme: classic
+  colors:
+    name: rgb(11, 94, 84)
+    headline: rgb(11, 94, 84)
+    connections: rgb(11, 94, 84)
+    section_titles: rgb(11, 94, 84)
+    links: rgb(11, 94, 84)
+  entries:
+    degree_width: 2.2cm
+  page:
+    top_margin: 0.5in
+    bottom_margin: 0.5in
+    left_margin: 0.55in
+    right_margin: 0.55in
+  sections:
+    space_between_regular_entries: 0.7em
+    space_between_text_based_entries: 0.15em
+  typography:
+    line_spacing: 0.5em
+    font_size:
+      body: 9.5pt
+locale:
+  language: english
+settings:
+  current_date: today
+  pdf_title: Jeroen Van Goey - CV
+  render_command:
+    output_folder: files
+    pdf_path: files/jeroen-van-goey-cv.pdf
+    typst_path: files/jeroen-van-goey-cv.typ
+    markdown_path: files/jeroen-van-goey-cv.md
+    html_path: files/jeroen-van-goey-cv.html
+    png_path: files/jeroen-van-goey-cv.png
