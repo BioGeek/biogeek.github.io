@@ -25,7 +25,7 @@ format: html
   </div>
   <ul class="proof">
     <li>Published InstaNovo (a transformer) and InstaNovo+ (a diffusion model) for <i>de novo</i> peptide sequencing in <strong>Nature Machine Intelligence</strong>.</li>
-    <li>Led BioAI teams working on peptide sequencing and signal-peptide design.</li>
+    <li>Lead BioAI teams working on peptide sequencing and signal-peptide design.</li>
     <li>Built and shipped production-grade ML systems across GPUs, HPC, cloud, and scientific data pipelines.</li>
   </ul>
 </div>
@@ -276,7 +276,7 @@ The InstaNovo paper drew broad attention across the scientific press.
   <div class="coverage">
     <strong>Selected coverage</strong>
     <ul class="coverage-grid">
-      <li><a href="https://www.science.org/content/article/ai-revolution-comes-protein-sequencing"><span class="outlet">Science</span><span class="headline">An AI revolution comes to protein sequencing</span></a></li>
+      <li class="coverage-featured"><a href="https://www.science.org/content/article/ai-revolution-comes-protein-sequencing"><img class="coverage-logo" src="images/icons/science.svg" alt="Science"><span class="headline">An AI revolution comes to protein sequencing</span></a></li>
       <li><a href="https://www.sciencenews.org/article/ai-decode-indecipherable-proteins"><span class="outlet">Science News</span><span class="headline">AI may help decode proteins DNA can't reveal</span></a></li>
       <li><a href="https://www.chemistryworld.com/news/ai-takes-step-towards-cracking-biologys-toughest-problem-protein-sequencing/4021205.article"><span class="outlet">Chemistry World</span><span class="headline">AI takes step towards cracking biology's toughest problem</span></a></li>
       <li><a href="https://www.biotechniques.com/computational-biology/doubling-up-novel-ai-models-improve-de-novo-peptide-sequencing/"><span class="outlet">BioTechniques</span><span class="headline">Doubling up: novel AI models improve <i>de novo</i> peptide sequencing</span></a></li>
