@@ -3,7 +3,7 @@ title: "Jeroen Van Goey"
 subtitle: "Staff Research Engineer in BioAI building generative models for biology"
 pagetitle: "Jeroen Van Goey - Staff Research Engineer in BioAI"
 description-meta: "Staff Research Engineer in BioAI building generative models for biology: de novo peptide sequencing, proteomics, and personalized cancer vaccines."
-image: images/og-image.png
+image: images/og-image.jpg
 format: html
 ---
 
