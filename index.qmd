@@ -344,7 +344,7 @@ The InstaNovo paper drew broad attention across the scientific press.
 ```
 
 ### <img width="32" height="32" src="images/icons/instadeep.png" class="company-icon" alt=""> [InstaDeep](https://www.instadeep.com/)
-**Staff Research Engineer in BioAI**\
+**Staff Research Engineer · BioAI Lead**\
 <i class="bi bi-calendar3"></i> _August 2022 – Present_\
 <img width="900" height="600" src="images/flags/za.svg" class="flag-icon" alt="South Africa">Cape Town, South Africa
 
