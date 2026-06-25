@@ -29,7 +29,7 @@ cv:
         highlights:
           - "**Tech lead and hiring manager** for two cross-disciplinary **ML research teams** of about 5 to 8 people: *de novo* peptide sequencing (with the Technical University of Denmark) and signal-peptide design for secretion efficiency (with BioNTech)."
           - Delivered a **client collaboration with Syngenta**, applying **genomic language models** (AgroNT, a Nucleotide Transformer trained on ~10.5 million genomic sequences spanning trillions of base pairs across 48 plant species) to accelerate crop trait research.
-          - Set **research direction** and take models **from research to production**, balancing scientific rigour with reliable, maintainable engineering.
+          - Set **research direction** and take models **from research to production** (InstaNovo is available to commercial customers on [DeepChain](https://deepchain.bio/sequence-peptideswithout-reference-databases/)), balancing scientific rigour with reliable engineering.
           - "**Lead the BioAI department** of InstaDeep's Cape Town office and serve as the office's **site manager** (an office of about 25 people); hire and grow the BioAI teams across the Cape Town and Kigali offices."
           - "Directed the team's **ML engineering foundations**: scalable, Transformer-based libraries (Python / PyTorch) for large-scale training on InstaDeep's Kyber (~500 PFLOPs) and EuroHPC's MareNostrum 5 (260 PFLOPs) supercomputers, and the cloud (AWS, GCP)."
       - company: Barco

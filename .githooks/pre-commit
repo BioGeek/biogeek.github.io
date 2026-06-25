@@ -1,0 +1,27 @@
+#!/usr/bin/env bash
+# Keep the committed CV PDF in sync with its source: if the RenderCV YAML is
+# part of this commit, re-render files/jeroen-van-goey-cv.pdf and stage it too.
+#
+# Enable with:  make hooks   (sets git config core.hooksPath .githooks)
+# Bypass once with:  git commit --no-verify
+set -euo pipefail
+
+CV_YAML="Jeroen_Van_Goey_CV.yaml"
+CV_PDF="files/jeroen-van-goey-cv.pdf"
+
+# Nothing to do unless the CV YAML is staged in this commit.
+if ! git diff --cached --name-only | grep -qx "$CV_YAML"; then
+  exit 0
+fi
+
+echo "pre-commit: $CV_YAML changed — re-rendering $CV_PDF…"
+
+if ! command -v rendercv >/dev/null 2>&1; then
+  echo "pre-commit: 'rendercv' not found. Install it (uv tool install \"rendercv[full]\")" >&2
+  echo "            or commit with --no-verify to skip CV rendering." >&2
+  exit 1
+fi
+
+make cv >/dev/null
+git add "$CV_PDF"
+echo "pre-commit: staged updated $CV_PDF"

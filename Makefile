@@ -1,7 +1,7 @@
 # Build commands for the website (Quarto) and the CV (RenderCV).
 # Run `make` (or `make render`) to build both.
 
-.PHONY: render cv site preview stars clean
+.PHONY: render cv site preview stars clean hooks
 
 # Build the CV first, then the site, so the deployed site serves the latest CV PDF.
 render: cv site
@@ -28,3 +28,8 @@ stars:
 # Remove the built site.
 clean:
 	rm -rf docs
+
+# Install the git hooks (re-renders the CV PDF when the YAML is committed).
+hooks:
+	git config core.hooksPath .githooks
+	@echo "Git hooks enabled (core.hooksPath -> .githooks)."
