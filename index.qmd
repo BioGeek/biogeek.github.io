@@ -72,6 +72,10 @@ I build and ship machine-learning systems for science. My main application is *d
 8 publications, including in *Nature Machine Intelligence*.
 
 ```{=html}
+<p class="pub-metrics"><!-- OPENALEX:START --><strong>91</strong> citations &middot; h-index <strong>5</strong> &middot; i10 <strong>4</strong><svg width="72" height="26" viewBox="0 0 72 26" style="vertical-align:-0.4em;margin:0 .4rem" role="img" aria-label="Citations per year"><rect x="0" y="25" width="9" height="1" rx="1" fill="#0b5e54"><title>2016: 1 citations</title></rect><rect x="12" y="21" width="9" height="5" rx="1" fill="#0b5e54"><title>2018: 10 citations</title></rect><rect x="24" y="11" width="9" height="15" rx="1" fill="#0b5e54"><title>2023: 29 citations</title></rect><rect x="36" y="25" width="9" height="1" rx="1" fill="#0b5e54"><title>2024: 1 citations</title></rect><rect x="48" y="0" width="9" height="26" rx="1" fill="#0b5e54"><title>2025: 50 citations</title></rect><rect x="60" y="26" width="9" height="0" rx="1" fill="#0b5e54"><title>2026: 0 citations</title></rect></svg><span style="color:#888;font-size:.8rem">via OpenAlex, Jun 2026</span><!-- OPENALEX:END --></p>
+```
+
+```{=html}
 <p class="author-legend"><span class="author-role">*</span> co-first author · <span class="author-role">†</span> co-senior author</p>
 
 <div class="pub-list">
