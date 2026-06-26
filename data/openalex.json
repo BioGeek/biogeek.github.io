@@ -1,0 +1,168 @@
+{
+  "generated_at": "2026-06-26T07:01:22+00:00",
+  "orcid": "0000-0003-4480-5567",
+  "cited_by_count": 91,
+  "works_count": 18,
+  "h_index": 5,
+  "i10_index": 4,
+  "counts_by_year": [
+    {
+      "year": 2016,
+      "works_count": 1,
+      "oa_works_count": 1,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2018,
+      "works_count": 1,
+      "oa_works_count": 1,
+      "cited_by_count": 10
+    },
+    {
+      "year": 2023,
+      "works_count": 1,
+      "oa_works_count": 1,
+      "cited_by_count": 29
+    },
+    {
+      "year": 2024,
+      "works_count": 2,
+      "oa_works_count": 2,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2025,
+      "works_count": 4,
+      "oa_works_count": 4,
+      "cited_by_count": 50
+    },
+    {
+      "year": 2026,
+      "works_count": 9,
+      "oa_works_count": 9,
+      "cited_by_count": 0
+    }
+  ],
+  "works": [
+    {
+      "title": "InstaNovo enables diffusion-powered de novo peptide sequencing in large-scale proteomics experiments",
+      "year": 2025,
+      "doi": "https://doi.org/10.1038/s42256-025-01019-5",
+      "cited_by_count": 31
+    },
+    {
+      "title": "De novo peptide sequencing with InstaNovo: Accurate, database-free peptide identification for large scale proteomics experiments",
+      "year": 2023,
+      "doi": "https://doi.org/10.1101/2023.08.30.555055",
+      "cited_by_count": 29
+    },
+    {
+      "title": "Open-Source and FAIR Research Software for Proteomics",
+      "year": 2025,
+      "doi": "https://doi.org/10.1021/acs.jproteome.4c01079",
+      "cited_by_count": 15
+    },
+    {
+      "title": "amueller/word_cloud: WordCloud 1.5.0",
+      "year": 2018,
+      "doi": "https://doi.org/10.5281/zenodo.1322068",
+      "cited_by_count": 10
+    },
+    {
+      "title": "InstaNovo-P: A de novo peptide sequencing model for phosphoproteomics",
+      "year": 2025,
+      "doi": "https://doi.org/10.1101/2025.05.14.654049",
+      "cited_by_count": 5
+    },
+    {
+      "title": "Open-source and FAIR Research Software for Proteomics",
+      "year": 2024,
+      "doi": "https://doi.org/10.26434/chemrxiv-2024-wf6dw",
+      "cited_by_count": 1
+    },
+    {
+      "title": "word_cloud: 1.2.1",
+      "year": 2016,
+      "doi": "https://doi.org/10.5281/zenodo.49907",
+      "cited_by_count": 1
+    },
+    {
+      "title": "Awesome De Novo Peptide Sequencing",
+      "year": 2026,
+      "doi": "https://doi.org/10.5281/zenodo.20825736",
+      "cited_by_count": 0
+    },
+    {
+      "title": "instadeepai/InstaNovo-P: InstaNovo-P public release",
+      "year": 2026,
+      "doi": "https://doi.org/10.5281/zenodo.20430928",
+      "cited_by_count": 0
+    },
+    {
+      "title": "A Framework for Database Search with AI Models in Mass Spectrometry-Based Proteomics",
+      "year": 2026,
+      "doi": "https://doi.org/10.1021/acs.jproteome.5c01153",
+      "cited_by_count": 0
+    },
+    {
+      "title": "<b>A living proteomics benchmark for comprehensive </b><b>evaluation of deep learning-based </b><b><i>de novo</i></b><b> peptide </b><b>sequencing tools</b>",
+      "year": 2026,
+      "doi": "https://doi.org/10.6084/m9.figshare.31680883.v1",
+      "cited_by_count": 0
+    },
+    {
+      "title": "Updated DLDN-Bench De Novo Sequencing Benchmark Outputs with InstaNovo v1.2.2",
+      "year": 2026,
+      "doi": "https://doi.org/10.5281/zenodo.20767590",
+      "cited_by_count": 0
+    },
+    {
+      "title": "InstaNovo prediction sample files for PDV import validation",
+      "year": 2026,
+      "doi": "https://doi.org/10.5281/zenodo.20756892",
+      "cited_by_count": 0
+    },
+    {
+      "title": "Generalizable direct protein sequencing with InstaNexus",
+      "year": 2025,
+      "doi": "https://doi.org/10.1101/2025.07.25.666861",
+      "cited_by_count": 0
+    },
+    {
+      "title": "De novo peptide sequencing with InstaNovo: Diffusion-powered, peptide identification for large scale proteomics experiments",
+      "year": 2024,
+      "doi": "https://doi.org/10.21203/rs.3.rs-3376248/v1",
+      "cited_by_count": 0
+    },
+    {
+      "title": "instadeepai/InstaNovo-P: InstaNovo-P public release",
+      "year": 2026,
+      "doi": "https://doi.org/10.5281/zenodo.20430929",
+      "cited_by_count": 0
+    },
+    {
+      "title": "InstaNovo prediction sample files for PDV import validation",
+      "year": 2026,
+      "doi": "https://doi.org/10.5281/zenodo.20756891",
+      "cited_by_count": 0
+    },
+    {
+      "title": "Updated DLDN-Bench De Novo Sequencing Benchmark Outputs with InstaNovo v1.2.2",
+      "year": 2026,
+      "doi": "https://doi.org/10.5281/zenodo.20767591",
+      "cited_by_count": 0
+    },
+    {
+      "title": "Awesome De Novo Peptide Sequencing",
+      "year": 2026,
+      "doi": "https://doi.org/10.5281/zenodo.20825737",
+      "cited_by_count": 0
+    },
+    {
+      "title": "<b>A living proteomics benchmark for comprehensive </b><b>evaluation of deep learning-based </b><b><i>de novo</i></b><b> peptide </b><b>sequencing tools</b>",
+      "year": 2026,
+      "doi": "https://doi.org/10.6084/m9.figshare.31680883",
+      "cited_by_count": 0
+    }
+  ]
+}
