@@ -1,0 +1,22 @@
+# Shared defaults applied to every post under posts/.
+# (Quarto merges this into each post's own front matter.)
+
+author: "Jeroen Van Goey"
+date-format: "D MMM YYYY"
+toc: true
+reading-time: true
+
+# --- Executable-code behaviour -------------------------------------------
+# freeze: auto  => code cells run ONCE locally; the stored result in _freeze/
+# is reused on every later render. This matters because docs/ is built by
+# GitHub Actions, where there is no GPU, no proteomics data and no DonkeyCar.
+# Render locally (`make site`), then commit the _freeze/ directory so CI never
+# tries to execute these cells. Make sure _freeze/ is NOT gitignored.
+freeze: auto
+
+# --- Code presentation ----------------------------------------------------
+code-tools: true        # the </> menu to view/copy the full source
+code-copy: true
+code-overflow: wrap
+code-fold: false        # individual cells can override with #| code-fold: true
+highlight-style: github

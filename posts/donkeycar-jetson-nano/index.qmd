@@ -1,0 +1,99 @@
+---
+title: "Teaching an RC car to drive itself: DonkeyCar on a Jetson Nano"
+subtitle: "A weekend self-driving project, and what it taught me about data over models"
+description: >
+  Building a DonkeyCar on a Jetson Nano — the hardware, the data-collection loop,
+  training a behavioural-cloning model on the edge, and why the dataset (not the
+  architecture) decides whether it makes the corner.
+date: 2026-06-26
+categories: [robotics, edge ml, jetson, side project]
+image: donkeycar.jpg          # a photo of the build
+image-alt: "DonkeyCar with a Jetson Nano"
+draft: true   # <- remove this line to publish
+---
+
+> **Outline / draft.** Technical skeleton with a runnable data-inspection cell.
+> Fill the prose with your own build notes.
+
+## The build
+
+> The hardware list and what each part does. Keep it skimmable:
+
+| Part | Role |
+|------|------|
+| Jetson Nano (4 GB) | On-board inference + training |
+| RC car chassis + ESC | The actual vehicle |
+| Wide-angle CSI camera | The only sensor the model gets |
+| PCA9685 (PWM driver) | Steering + throttle control |
+| Power bank / battery | Untethered runtime |
+
+> A paragraph on the setup pain points (JetPack version, the SD-card image,
+> getting the camera recognised) — the stuff the official docs gloss over.
+
+## The DonkeyCar loop
+
+The whole workflow is three commands. First, scaffold the car:
+
+```bash
+donkey createcar --path ~/mycar
+```
+
+Then drive it manually to collect labelled data — each frame is saved with the
+steering and throttle you commanded (this is behavioural cloning):
+
+```bash
+python ~/mycar/manage.py drive   # records "tubs" of (image, steering, throttle)
+```
+
+Then train an autopilot and hand control back to it:
+
+```bash
+donkey train --tub ~/mycar/data --model ~/mycar/models/pilot.h5
+python ~/mycar/manage.py drive --model ~/mycar/models/pilot.h5
+```
+
+## Look at your data before you train anything
+
+The single biggest lever isn't the model — it's whether your driving data is
+*balanced*. Drive the track only clockwise and the model learns "always turn
+left." Here's a quick look at the steering distribution in a tub:
+
+```{python}
+#| label: fig-steering-balance
+#| fig-cap: "Steering-angle distribution across a recorded tub. A spike at 0 (straights) and a left/right imbalance both predict exactly where the car will fail."
+#| code-fold: true
+#| code-summary: "Show the tub-inspection code"
+#| eval: false   # set to true locally once TUB_DIR points at real data
+import json, glob, os
+import numpy as np
+import matplotlib.pyplot as plt
+
+TUB_DIR = os.path.expanduser("~/mycar/data")  # <- your tub
+records = []
+for f in glob.glob(os.path.join(TUB_DIR, "**", "record_*.json"), recursive=True):
+    with open(f) as fh:
+        records.append(json.load(fh))
+
+steering = np.array([r["user/angle"] for r in records])  # in [-1, 1]
+fig, ax = plt.subplots(figsize=(7, 3))
+ax.hist(steering, bins=41, color="#0b5e54")
+ax.axvline(0, color="#c0392b", ls="--", lw=1)
+ax.set_xlabel("steering angle"); ax.set_ylabel("frames")
+ax.set_title(f"{len(steering)} frames — mean {steering.mean():+.3f}")
+fig.tight_layout()
+```
+
+> Then talk about the fixes you actually used: driving both directions,
+> down-sampling the zero-steering spike, augmentation. This is the part where
+> your day-job instincts (data curation, class balance) transfer directly.
+
+## Squeezing it onto the Nano
+
+> The edge-ML angle that makes this more than a toy: model size vs. frame rate,
+> FP16 / TensorRT, the latency budget for a car moving at speed. Numbers if you
+> have them.
+
+## What stuck with me
+
+> Close on the transferable lesson — for a 4 GB Jetson or a 500-PFLOP cluster,
+> the dataset still decides the outcome.
