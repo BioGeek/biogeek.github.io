@@ -22,6 +22,16 @@ wheels/
 /files/jeroen-van-goey-cv.html
 /files/jeroen-van-goey-cv_*.png
 
+# Listing thumbnails generated on every render by the freeze:false data posts.
+# They are regenerated locally and in CI (and would otherwise make the daily
+# update workflows churn binary diffs), so they are not committed. The
+# freeze:auto posts' thumbnails (pruning.png, theoretical-spectrum.png) ARE
+# committed, because their cells don't re-run in CI.
+/posts/inaturalist-sightings/inat-by-group.png
+/posts/trail-running-strava/strava-monthly.png
+/posts/trail-running-strava/strava-routes.png
+/posts/trails-and-sightings/crossover-map.png
+
 # Local agent / skill tooling
 /.claude/
 /.agents/
