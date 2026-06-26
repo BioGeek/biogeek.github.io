@@ -1,7 +1,7 @@
 # Build commands for the website (Quarto) and the CV (RenderCV).
 # Run `make` (or `make render`) to build both.
 
-.PHONY: render cv site preview stars clean hooks
+.PHONY: render cv site preview stars inat strava openalex clean hooks
 
 # Build the CV first, then the site, so the deployed site serves the latest CV PDF.
 render: cv site
@@ -23,6 +23,22 @@ preview:
 # Refresh the InstaNovo GitHub star count from the API, then rebuild the site.
 stars:
 	python scripts/update_instanovo_stars.py
+	quarto render
+
+# Refresh iNaturalist observation data (public API, no secrets), then rebuild.
+inat:
+	python scripts/fetch_inaturalist.py
+	quarto render
+
+# Refresh Strava activity data, then rebuild.
+# Needs STRAVA_CLIENT_ID, STRAVA_CLIENT_SECRET, STRAVA_REFRESH_TOKEN in the env.
+strava:
+	python scripts/fetch_strava.py
+	quarto render
+
+# Sync citation metrics from OpenAlex (public API, no secrets), then rebuild.
+openalex:
+	python scripts/update_openalex.py
 	quarto render
 
 # Remove the built site.

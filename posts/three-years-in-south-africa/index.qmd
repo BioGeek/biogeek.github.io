@@ -1,0 +1,48 @@
+---
+title: "Three years in South Africa"
+subtitle: "What moving to Cape Town did to my work, my family, and my sense of where 'the field' is"
+description: >
+  A personal note on relocating from Belgium to the Cape, building an ML team
+  from the southern tip of Africa, and what I'll carry back to Europe.
+date: 2026-06-26
+categories: [personal, life]
+image: cape-town.jpg          # drop in a favourite photo
+image-alt: "View over Cape Town"
+draft: true   # <- remove this line to publish
+---
+
+> **Outline / draft.** This one is personal, so it should be in your voice —
+> I've only left signposts and prompts. Keep it concrete: specific mornings,
+> specific people, specific small frustrations.
+
+## Leaving
+
+> Why you left Belgium in 2023, and what the decision felt like at the time.
+> One honest sentence about the part that was hard.
+
+## Working from the bottom of the map
+
+> The professional thread: leading BioAI from Cape Town, the time-zone reality,
+> the surprise of how *close* the European collaborations stayed — and the ways
+> being here changed the work (the Indaba, IndabaX, hackathons across the
+> continent, hiring across Cape Town and Kigali).
+
+> A point worth making for the readers who are also researchers: what the
+> African ML community looks like from the inside, and why "remote from the
+> periphery" turned out to be a strength rather than a compromise.
+
+## Life outside the terminal
+
+> The human stuff. Hout Bay, the mountain, the ocean, the things your kids did
+> that they couldn't have done anywhere else. A photo or two:
+
+::: {layout-ncol=2}
+![A morning somewhere worth remembering](placeholder-1.jpg){fig-alt="Replace me"}
+
+![Another one](placeholder-2.jpg){fig-alt="Replace me"}
+:::
+
+## What I'm taking back
+
+> The relocation to Europe is mid-2027. Close on what stays with you — a habit,
+> a perspective on the field, a way of working you didn't have before.

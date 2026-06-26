@@ -1,0 +1,20 @@
+---
+title: "Writing"
+description: "Notes on building ML systems for biology — and the occasional side quest."
+pagetitle: "Writing — Jeroen Van Goey"
+listing:
+  id: post-list
+  contents: posts          # any index.qmd under posts/ becomes a post
+  type: default            # cards with image, title, description, meta
+  sort: "date desc"
+  categories: true         # category cloud in the sidebar
+  sort-ui: [date, title]
+  filter-ui: true
+  feed: true               # generates blog.xml (RSS) at the site root
+  fields: [date, title, description, reading-time, categories]
+page-layout: full
+toc: false
+---
+
+A place for longer-form notes: how I build things in scientific ML, the
+reasoning behind design decisions, and the side projects that don't fit on a CV.

@@ -1,0 +1,322 @@
+---
+title: "Watch beam search decode a peptide"
+subtitle: "Mass-constrained beam search and the knapsack trick that prunes the dead ends — the way InstaNovo actually does it"
+description: >
+  Decoding a peptide from a spectrum isn't argmax over a vocabulary — it's a
+  search under a hard mass budget. A runnable, step-by-step look at the
+  precursor-mass-constrained beam search in InstaNovo, and why a precomputed
+  knapsack chart prunes branches the mass filter alone can't.
+date: 2026-06-26
+categories: [proteomics, de novo, deep learning, decoding, instanovo]
+image: pruning.png        # produced by the last code cell on first render
+image-alt: "Residues pruned per decoding step: mass filter vs knapsack"
+draft: true   # <- remove to publish
+---
+
+> Companion to [*De novo peptide sequencing from scratch*](../de-novo-from-scratch/),
+> which builds the fragment-ion picture this post relies on.
+
+A sequence model gives you a probability over the next residue. The obvious thing
+to do is take the most probable one, repeat, and stop at the end token. For text
+that's fine. For a peptide it's almost never right — because a peptide isn't just
+*likely*, it has to *weigh the right amount*. The precursor mass is measured, and
+the residues you emit have to add up to it within a few parts per million. Greedy
+decoding ignores that constraint until it's too late.
+
+So decoding a spectrum is really a **constrained search**: find the high-probability
+residue string whose total mass hits the precursor. This post walks through how
+[InstaNovo](https://github.com/instadeepai/InstaNovo) does it — first plain
+beam search with a running mass budget, then the knapsack variant that prunes
+branches the mass filter can't see are doomed. The code below is a compact,
+runnable reimplementation of that logic; links to the real (batched, GPU)
+implementation are at the end.
+
+## A spectrum to decode
+
+We reuse the fragment-ion machinery from the
+[previous post](../de-novo-from-scratch/): a peptide's mass is its residues plus a
+water, and its b/y ions are the running prefix/suffix masses. We'll hand the
+decoder the theoretical peaks of a hidden target and watch it work backwards to
+the sequence.
+
+```{python}
+#| label: setup
+#| code-fold: true
+#| code-summary: "Setup: masses, fragment ions, and a target spectrum"
+import bisect
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# Constants, matching instanovo/constants.py
+H2O_MASS = 18.0106
+PROTON   = 1.007276
+MASS_SCALE = 10000
+
+RESIDUE_MASS = {
+    "G":57.02146,"A":71.03711,"S":87.03203,"P":97.05276,"V":99.06841,
+    "T":101.04768,"C":103.00919,"L":113.08406,"I":113.08406,"N":114.04293,
+    "D":115.02694,"Q":128.05858,"K":128.09496,"E":129.04259,"M":131.04049,
+    "H":137.05891,"F":147.06841,"R":156.10111,"Y":163.06333,"W":186.07931,
+}
+RESIDUES = list(RESIDUE_MASS)
+EOS = "$"
+VOCAB = RESIDUES + [EOS]
+IDX = {r: i for i, r in enumerate(VOCAB)}
+
+def b_ions(pep):
+    m = [RESIDUE_MASS[a] for a in pep]
+    return np.array([sum(m[:i]) + PROTON for i in range(1, len(pep) + 1)])
+
+def y_ions(pep):
+    m = [RESIDUE_MASS[a] for a in pep]; n = len(pep)
+    return np.array([sum(m[n - j:]) + H2O_MASS + PROTON for j in range(1, n + 1)])
+
+TARGET = "PEPTIDE"
+precursor_mass = sum(RESIDUE_MASS[a] for a in TARGET) + H2O_MASS
+peaks = np.concatenate([b_ions(TARGET), y_ions(TARGET)])
+print(f"target {TARGET}  precursor {precursor_mass:.4f} Da  ({len(peaks)} peaks)")
+```
+
+## A stand-in for the model
+
+In real InstaNovo the next-residue distribution comes from a transformer that has
+encoded the spectrum (the `score_candidates` method of the
+[`Decodable`](https://github.com/instadeepai/InstaNovo/blob/55a9a3ff7c18e2748c0ef7fc6ba3213002ad6a0f/instanovo/inference/interfaces.py)
+interface). To keep this post runnable without weights or a GPU, we use a tiny
+stand-in that scores a residue by how well the b-ion it produces lands on an
+observed peak. It's crude, but it's enough to make the *search* behave like the
+real thing.
+
+```{python}
+#| label: model
+def score_next(prefix, sharpness=12.0):
+    """Toy scorer: log-probabilities over the vocabulary given a prefix.
+    Real InstaNovo replaces this with a transformer; the search around it is the
+    same."""
+    base = sum(RESIDUE_MASS[a] for a in prefix)
+    logits = np.full(len(VOCAB), -50.0)
+    for r in RESIDUES:
+        logits[IDX[r]] = -sharpness * np.abs(peaks - (base + RESIDUE_MASS[r] + PROTON)).min()
+    logits -= logits.max()
+    return logits - np.log(np.exp(logits).sum())
+```
+
+## Beam search with a mass budget
+
+The trick that makes this *de novo* decoding rather than plain text generation is
+a single running quantity: the **remaining mass**. It starts at
+`precursor_mass − H₂O` and drops by one residue mass at every step. Two rules fall
+out of it:
+
+1. **Prune overshoots.** Any residue heavier than the remaining budget (beyond
+   tolerance) can't possibly appear next — set its probability to `−∞`.
+2. **Force the end when the budget is spent.** When the remaining mass is within
+   tolerance of zero, the only legal move is the end-of-sequence token.
+
+That's exactly what InstaNovo's beam search does. The core of the mass filter,
+[from `beam_search.py`](https://github.com/instadeepai/InstaNovo/blob/55a9a3ff7c18e2748c0ef7fc6ba3213002ad6a0f/instanovo/inference/beam_search.py):
+
+```python
+# remaining_mass starts at precursor_mass - H2O_MASS, in float64
+valid_mass = remaining_mass_expanded - residue_mass_delta > -mass_target_expanded
+# ... (plus isotope and terminal-residue handling) ...
+next_token_probabilities_filtered[~valid_mass] = -float("inf")
+```
+
+and when the budget is met it forces EOS onto those beams. Everything else is
+ordinary beam search: keep the `beam_size` highest-log-probability partial
+sequences, expanding across `beam_size × vocab` candidates each step. Here it is
+end to end:
+
+```{python}
+#| label: decoder
+def beam_decode(beam_size=4, max_len=12, mass_tolerance=5e-5, use_knapsack=False):
+    tol = mass_tolerance * precursor_mass                 # ppm budget, in Da
+    kmasses, kchart = construct_knapsack(precursor_mass) if use_knapsack else (None, None)
+    beams = [{"seq": [], "logp": 0.0, "rem": precursor_mass - H2O_MASS}]
+    completed, snapshots, prune = [], [], []
+    for step in range(max_len):
+        cand, mass_pruned, knap_pruned = [], 0, 0
+        for b in beams:
+            if abs(b["rem"]) < tol:                        # budget spent -> finish
+                completed.append(b); continue
+            lp = score_next(b["seq"])
+            kset = feasible_masses(kmasses, b["rem"], tol) if use_knapsack else None
+            for r in RESIDUES:
+                rem = b["rem"] - RESIDUE_MASS[r]
+                if not (rem > -tol):                       # (1) mass filter
+                    mass_pruned += 1; continue
+                if use_knapsack and not (kchart[r] & kset): # (2) knapsack filter
+                    knap_pruned += 1; continue
+                cand.append({"seq": b["seq"] + [r], "logp": b["logp"] + lp[IDX[r]], "rem": rem})
+        cand.sort(key=lambda c: c["logp"], reverse=True)   # global top-k over beams x vocab
+        beams = cand[:beam_size]
+        prune.append({"step": step + 1, "mass_pruned": mass_pruned, "knapsack_pruned": knap_pruned})
+        for rank, b in enumerate(beams, 1):
+            snapshots.append({"step": step + 1, "beam": rank, "sequence": "".join(b["seq"]),
+                              "log_prob": round(b["logp"], 2), "remaining_mass": round(b["rem"], 2)})
+        if not beams:
+            break
+    completed += [b for b in beams if abs(b["rem"]) < tol]
+    completed.sort(key=lambda c: c["logp"], reverse=True)
+    return completed, pd.DataFrame(snapshots), pd.DataFrame(prune)
+```
+
+### Watch it decode
+
+Each row is a decoding step; each column is one of the four beams. Watch the
+remaining mass tick down and the sequences converge:
+
+```{python}
+#| label: tbl-watch
+#| code-fold: true
+#| code-summary: "Run plain beam search and tabulate every step"
+completed, snap, prune_plain = beam_decode(use_knapsack=False)
+watch = snap.pivot(index="step", columns="beam", values="sequence")
+watch.columns = [f"beam {c}" for c in watch.columns]
+watch
+```
+
+```{python}
+#| label: tbl-top
+#| echo: false
+top2 = [(("".join(c["seq"])), round(c["logp"], 2)) for c in completed[:2]]
+print("Top-2 completed beams:", top2)
+```
+
+Look at the top two beams: **PEPTLDE** and **PEPTIDE**, with *identical* log
+probabilities. That's not a bug — leucine and isoleucine have exactly the same
+mass (113.08406 Da) and, without immonium or satellite ions to break the tie, are
+genuinely indistinguishable from this spectrum. It's the canonical example of why
+de novo sequencing reports ambiguity, and why you want a *beam* (a ranked set),
+not a single greedy guess.
+
+## The dead ends the mass filter can't see
+
+The mass filter only asks a local question: *does this one residue fit under the
+remaining budget?* It happily keeps a residue that fits, even when **no
+combination of residues** can fill the leftover mass exactly. Those branches are
+already doomed; the model just doesn't find out until several wasted steps later,
+and meanwhile they crowd good hypotheses out of the beam.
+
+A **knapsack** answers the global question ahead of time. Precompute, for every
+achievable total mass, which residues a peptide of that mass can *begin with*.
+Then a residue is only valid if, after subtracting it, the remaining mass is
+something real residues can still realise. InstaNovo builds this chart once with a
+depth-first search over *feasible* masses —
+[`construct_knapsack`](https://github.com/instadeepai/InstaNovo/blob/55a9a3ff7c18e2748c0ef7fc6ba3213002ad6a0f/instanovo/inference/knapsack.py):
+
+```python
+# chart[mass, residue] is True iff a sequence of `mass` can start with `residue`
+while agenda:
+    current_mass = agenda.pop()
+    if current_mass in visited:
+        continue
+    for residue, mass in scaled_residue_masses.items():
+        next_mass = current_mass + mass
+        if next_mass <= scaled_max_mass:
+            agenda.append(next_mass)
+            chart[next_mass, residue_indices[residue]] = True
+    visited.add(current_mass)
+```
+
+Masses are integers (scaled by `MASS_SCALE = 10000`, i.e. 0.1 mDa resolution) so
+the chart is an exact lookup. At decode time, the filter checks the window of
+feasible masses around the remaining budget and keeps only residues that can start
+one of them —
+[`_filter_knapsack`](https://github.com/instadeepai/InstaNovo/blob/55a9a3ff7c18e2748c0ef7fc6ba3213002ad6a0f/instanovo/inference/knapsack_beam_search.py),
+condensed:
+
+```python
+lower = ((remaining_mass - tol) * mass_scale).round().long().clamp(min=0)
+upper = ((remaining_mass + tol) * mass_scale).round().long().clamp(max=chart.shape[0]-1)
+# True for residue r if any feasible mass in [lower, upper] can start with r
+valid = chart[mass_indices, residue_columns].any(dim=-1)
+```
+
+The runnable equivalent — a DFS to build the set of feasible masses per starting
+residue, and a binary-search lookup:
+
+```{python}
+#| label: knapsack
+#| code-fold: true
+#| code-summary: "Build the knapsack chart (DFS) and the feasible-mass lookup"
+def construct_knapsack(max_mass, scale=MASS_SCALE):
+    scaled_max = round(max_mass * scale)
+    scaled = {r: round(RESIDUE_MASS[r] * scale) for r in RESIDUES}
+    chart = {r: {m} for r, m in scaled.items()}   # masses a seq can have if it STARTS with r
+    agenda, visited = list(scaled.values()), set()
+    while agenda:
+        cur = agenda.pop()
+        if cur in visited:
+            continue
+        for r, m in scaled.items():
+            nxt = cur + m
+            if nxt <= scaled_max:
+                agenda.append(nxt); chart[r].add(nxt)
+        visited.add(cur)
+    return np.array(sorted(visited)), {r: set(s) for r, s in chart.items()}
+
+def feasible_masses(masses, target, tol, scale=MASS_SCALE):
+    lo, hi = round(scale * (target - tol)), round(scale * (target + tol))
+    l = bisect.bisect_right(masses, lo); r = bisect.bisect_left(masses, hi)
+    return set(masses[l:r].tolist())
+```
+
+Now run both decoders and count how many candidate expansions each filter kills:
+
+```{python}
+#| label: fig-pruning
+#| fig-cap: "Residues pruned per decoding step. The mass filter only bites at the very end (when residues finally overshoot); the knapsack prunes doomed branches several steps earlier, keeping the beam full of viable hypotheses."
+#| code-fold: true
+#| code-summary: "Run knapsack beam search and compare pruning"
+completed_k, snap_k, prune_knap = beam_decode(use_knapsack=True)
+
+m = prune_plain[["step", "mass_pruned"]].merge(
+    prune_knap[["step", "knapsack_pruned"]], on="step")
+
+fig, ax = plt.subplots(figsize=(7, 3))
+ax.bar(m.step - 0.2, m.mass_pruned, width=0.4, color="#0b5e54", label="mass filter")
+ax.bar(m.step + 0.2, m.knapsack_pruned, width=0.4, color="#c0392b", label="knapsack (extra)")
+ax.set_xlabel("decoding step"); ax.set_ylabel("residues pruned"); ax.legend()
+fig.tight_layout(); fig.savefig("pruning.png", dpi=130)
+
+print(f"mass filter pruned {int(m.mass_pruned.sum())} expansions; "
+      f"knapsack pruned {int(m.knapsack_pruned.sum())} more.")
+print("Knapsack top-2:", [("".join(c["seq"]), round(c["logp"], 2)) for c in completed_k[:2]])
+```
+
+Same answer (PEPTLDE / PEPTIDE), but the knapsack reaches it having explored far
+fewer dead ends — the red bars show it discarding doomed branches mid-decode,
+exactly where the mass filter is still silent. On real spectra, with longer
+peptides and a vocabulary full of modifications, that pruning is the difference
+between a beam packed with viable candidates and one clogged with branches that
+can never balance.
+
+## When it's worth it
+
+The chart is the cost: a DFS up to `MAX_MASS = 4000 Da` at 0.1 mDa resolution,
+built **once** and reused for every spectrum (InstaNovo can pickle it to disk and
+reload). After that, each filter step is a binary search plus a boolean lookup. So
+knapsack beam search is the default when you're decoding many spectra against a
+fixed residue set; plain mass-constrained beam search is the leaner choice for
+one-off runs or when the residue vocabulary keeps changing.
+
+## Plugging in a real model
+
+Everything above swapped one function — `score_next` — for a toy. The real
+contract is the
+[`Decodable`](https://github.com/instadeepai/InstaNovo/blob/55a9a3ff7c18e2748c0ef7fc6ba3213002ad6a0f/instanovo/inference/interfaces.py)
+interface: give the decoder a model that can encode a spectrum and score the next
+residue, and the same mass-constrained search runs on top of it. The production
+versions are batched over beams and spectra and run on GPU, but the skeleton is
+the one you just watched:
+
+- [`beam_search.py`](https://github.com/instadeepai/InstaNovo/blob/55a9a3ff7c18e2748c0ef7fc6ba3213002ad6a0f/instanovo/inference/beam_search.py) — mass-constrained beam search
+- [`knapsack.py`](https://github.com/instadeepai/InstaNovo/blob/55a9a3ff7c18e2748c0ef7fc6ba3213002ad6a0f/instanovo/inference/knapsack.py) — the chart and its DFS construction
+- [`knapsack_beam_search.py`](https://github.com/instadeepai/InstaNovo/blob/55a9a3ff7c18e2748c0ef7fc6ba3213002ad6a0f/instanovo/inference/knapsack_beam_search.py) — the two combined
+
+> *The embedded code is a teaching reimplementation of InstaNovo's decoding logic
+> (Apache-2.0), reduced to single-spectrum, CPU, pure-Python form. Pinned to commit
+> `55a9a3f`.*
