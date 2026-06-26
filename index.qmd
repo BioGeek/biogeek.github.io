@@ -443,7 +443,7 @@ Secondary education: mathematics–modern languages
 
 <div class="pub-card">
   <a class="pub-thumb" href="https://schaakstudiespinsels2.be/">
-    <img width="384" height="544" loading="lazy" src="images/projects/schaakstudiespinsels2.jpg" alt="SchaakStudieSpinselS 2 book cover" />
+    <img width="480" height="300" loading="lazy" src="images/projects/schaakstudiespinsels2.jpg" alt="SchaakStudieSpinselS 2 cover artwork" />
   </a>
   <div class="pub-body">
     <div class="pub-title"><a href="https://schaakstudiespinsels2.be/">SchaakStudieSpinselS 2</a></div>
