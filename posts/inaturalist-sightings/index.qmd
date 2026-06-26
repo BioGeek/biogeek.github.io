@@ -80,6 +80,11 @@ HTML('<div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(180
 
 ## By the numbers
 
+<!-- TODO (viz ideas, not yet implemented): https://glauberramos.github.io/inat/
+     has some nice iNaturalist visualisations worth borrowing — e.g. a life-list
+     timeline, observation calendar/heatmap, and taxonomic breakdowns. Revisit
+     when expanding the charts below. -->
+
 ```{python}
 #| label: fig-by-group
 #| fig-cap: "Observations by taxonomic group."
