@@ -1,0 +1,325 @@
+---
+title: "On the trails: running and hiking, straight from Strava"
+subtitle: "Where I run and hike, how far, and how much climbing — kept current by the Strava API"
+description: >
+  Trail running and hiking stats — distance, elevation, the long days out on the
+  mountain — pulled from the Strava API and refreshed automatically, with photos
+  from the trail.
+date: 2026-06-26
+categories: [running, trail, data, south africa, api]
+image: strava-routes.png    # route heatmap, produced on render
+image-alt: "Heatmap of my running routes"
+freeze: false               # always re-run: the data file updates out of band
+draft: true                 # <- remove to publish
+---
+
+```{python}
+#| label: load
+#| echo: false
+import json
+data = json.load(open("strava_runs.json", encoding="utf-8"))
+s = data["stats"]
+gen = data["generated_at"][:10]
+```
+
+Living under Table Mountain ruins you for flat running. Most weeks end with a few
+hours somewhere on the trails above Cape Town — running when the legs are fresh,
+hiking when they're not — and Strava quietly records all of it. The numbers below
+come from the Strava API and refresh on their own, so this is always the current
+picture, not a snapshot I forgot to update.
+
+```{python}
+#| label: narrative
+#| echo: false
+from datetime import date
+from IPython.display import Markdown
+
+def sp(n):                       # thousands separated by spaces, like "41 662"
+    return f"{int(round(n)):,}".replace(",", " ")
+
+f = date.fromisoformat(s["first_date"])
+t = date.fromisoformat(data["generated_at"][:10])
+months_total = (t.year - f.year) * 12 + (t.month - f.month) - (1 if t.day < f.day else 0)
+yy, mm = divmod(max(months_total, 0), 12)
+span_days = max((t - f).days, 1)
+since = (f"{yy} years and {mm} months" if yy else f"{mm} months")
+
+secs = s["total_moving_seconds"]
+mo, rem = divmod(secs, 30 * 86400); dd, rem = divmod(rem, 86400)
+hh, rem = divmod(rem, 3600); mn = rem // 60
+mt = " ".join(p for p in [f"{mo}mo" if mo else "", f"{dd}d" if dd else "",
+                          f"{hh}h" if hh else "", f"{mn}m" if mn else ""] if p)
+
+km = s["total_distance_km"]
+world = km / 40_075                       # Earth's circumference (km)
+moon = km / 384_400 * 100                 # mean Earth–Moon distance (km)
+everest = s["total_elevation_m"] / 8_849  # Everest height (m)
+per_day = km / span_days
+pizza = s["total_calories"] / 285         # ~285 kcal per slice
+
+story = (
+    f"> Since I first logged an activity on Strava **{since}** ago (on "
+    f"**{f:%d-%m-%Y}**), I've been out on **{s['active_days']} days** of training "
+    f"and adventure.\n>\n"
+    f"> In that time I've covered **{sp(km)} km** — that's **{world:.2f} trips "
+    f"around the world** 🌍, or **{moon:.1f}% of the way to the Moon** 🌕 — and "
+    f"climbed **{sp(s['total_elevation_m'])} m**, which is **{everest:.1f}× Mount "
+    f"Everest** 🏔️. All up that's **{mt}** of moving time 🎉.\n>\n"
+    f"> That averages **{sp(per_day)} km a day**, **{sp(per_day*7)} km a week**, "
+    f"and **{sp(per_day*30.44)} km a month** 🐣 — powered by an estimated "
+    f"**{sp(s['total_calories'])} calories**, or roughly **{sp(pizza)} slices of "
+    f"pizza** 🍕."
+)
+Markdown(story)
+```
+
+```{python}
+#| label: stat-cards
+#| echo: false
+from IPython.display import HTML
+def card(value, label):
+    return (f'<div style="flex:1;min-width:120px;border:1px solid #e2e2e2;'
+            f'border-radius:10px;padding:.9rem 1rem;text-align:center">'
+            f'<div style="font-size:1.6rem;font-weight:700;color:#0b5e54">{value}</div>'
+            f'<div style="font-size:.8rem;color:#666">{label}</div></div>')
+HTML('<div style="display:flex;gap:1rem;flex-wrap:wrap;margin:1rem 0">' + "".join([
+    card(f'{s["trail_runs"]}', "trail runs"),
+    card(f'{s.get("hikes", 0)}', "hikes"),
+    card(f'{s["total_distance_km"]:,} km', "total distance"),
+    card(f'{s["total_elevation_m"]:,} m', "elevation gained"),
+    card(f'{s["total_moving_hours"]} h', "moving time"),
+]) + '</div>')
+```
+
+```{python}
+#| label: highlights
+#| echo: false
+#| output: asis
+lr, bc = s["longest_run"], s["biggest_climb"]
+print(f"The longest single outing so far was **{lr['distance_km']} km** "
+      f"(*{lr['name']}*), and the biggest climb was **{bc['elev_gain_m']} m** of ascent.")
+```
+
+## From the trail
+
+```{=html}
+<!-- Drop a few favourite trail photos into this post's folder (e.g. images/) and
+     list them here. They're your own files, so they render reliably offline. -->
+```
+
+::: {layout-ncol=3}
+![Pipe Track, early light](images/photo-1.jpg){fig-alt="Replace with your photo"}
+
+![Above Hout Bay](images/photo-2.jpg){fig-alt="Replace with your photo"}
+
+![Summit weather](images/photo-3.jpg){fig-alt="Replace with your photo"}
+:::
+
+## The shape of a running year
+
+```{python}
+#| label: fig-monthly
+#| fig-cap: "Distance per month (km). Trail volume tracks the seasons — and how busy work is."
+#| echo: false
+import matplotlib.pyplot as plt
+m = s["by_month"]
+fig, ax = plt.subplots(figsize=(7, 3))
+ax.bar(list(m), [round(v) for v in m.values()], color="#0b5e54")
+ax.set_ylabel("km"); plt.xticks(rotation=45, ha="right")
+fig.tight_layout(); fig.savefig("strava-monthly.png", dpi=130)
+```
+
+Trail runs and hikes aren't just longer — they go *up*. Plotting elevation gain
+against distance separates the mountain days from the easy road recovery runs:
+
+```{python}
+#| label: fig-elev
+#| fig-cap: "Elevation gain vs distance. Trail runs and hikes climb far more per kilometre than road runs."
+#| echo: false
+kinds = {"trail": ("#0b5e54", "trail run", {}),
+         "hike":  ("#FC4C02", "hike", {}),
+         "run":   ("#888",    "road run", {"facecolors": "none", "edgecolors": "#888"})}
+fig, ax = plt.subplots(figsize=(7, 3.6))
+for k, (color, label, extra) in kinds.items():
+    g = [r for r in s["recent"] if r.get("kind", "trail" if r["is_trail"] else "run") == k]
+    if not g:
+        continue
+    ax.scatter([r["distance_km"] for r in g], [r["elev_gain_m"] for r in g],
+               s=36, label=label, **({"color": color} if not extra else extra))
+ax.set_xlabel("distance (km)"); ax.set_ylabel("elevation gain (m)"); ax.legend()
+fig.tight_layout()
+```
+
+## Where I run
+
+Overlaying every recorded track makes a personal heatmap: the lines pile up on
+the routes I run most, and the shape of the mountain falls out of the GPS alone.
+
+```{python}
+#| label: fig-routes
+#| fig-cap: "Every recorded track, overlaid. Start/end points are cropped for privacy."
+#| echo: false
+import numpy as np
+from math import cos, radians
+tracks = s["tracks"]
+fig, ax = plt.subplots(figsize=(6, 6))
+lat_all, lng_all = [], []
+for t in tracks:
+    lat = [p[0] for p in t]; lng = [p[1] for p in t]
+    ax.plot(lng, lat, color="#0b5e54", alpha=0.35, lw=1.2)
+    lat_all += lat; lng_all += lng
+ax.set_aspect(1 / cos(radians(np.mean(lat_all))))
+ax.set_xticks([]); ax.set_yticks([])
+for sp in ax.spines.values():
+    sp.set_visible(False)
+fig.tight_layout(); fig.savefig("strava-routes.png", dpi=130)
+```
+
+Binning the GPS points into a 2-D histogram turns those overlapping lines into a
+true density heatmap — the brightest cells are the trails I keep coming back to:
+
+```{python}
+#| label: fig-density
+#| fig-cap: "GPS-point density (log scale). The hot spots are my most-run trails."
+#| echo: false
+import matplotlib.colors as mcolors
+lng = np.array([p[1] for t in tracks for p in t])
+lat = np.array([p[0] for t in tracks for p in t])
+fig, ax = plt.subplots(figsize=(6, 6))
+h = ax.hist2d(lng, lat, bins=110, cmap="inferno",
+              norm=mcolors.LogNorm(), cmin=1)
+ax.set_aspect(1 / cos(radians(lat.mean())))
+ax.set_xticks([]); ax.set_yticks([])
+fig.colorbar(h[3], ax=ax, shrink=0.6, label="GPS points")
+fig.tight_layout()
+```
+
+## When I run
+
+A weekday-by-hour heatmap shows the rhythm: early-morning weekend trail runs, the
+odd weekday evening when work allows.
+
+```{python}
+#| label: fig-when
+#| fig-cap: "Runs by day of week and hour of day."
+#| echo: false
+grid = np.array(s["time_grid"])
+fig, ax = plt.subplots(figsize=(8, 2.8))
+im = ax.imshow(grid, aspect="auto", cmap="Greens")
+ax.set_yticks(range(7)); ax.set_yticklabels(["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"])
+ax.set_xticks(range(0, 24, 2)); ax.set_xticklabels([f"{h:02d}" for h in range(0, 24, 2)])
+ax.set_xlabel("hour of day")
+fig.colorbar(im, ax=ax, shrink=0.8, label="runs")
+fig.tight_layout()
+```
+
+## What I run in
+
+Joining each activity to the weather at that exact hour (via the free
+[Open-Meteo](https://open-meteo.com) archive) shows the conditions I actually
+head out in — and whether the heat slows me down.
+
+```{python}
+#| label: weather-panel
+#| echo: false
+from IPython.display import HTML, display
+w = s.get("weather", {})
+if w.get("available"):
+    counts = w["counts"]; mx = max(counts.values())
+    LABEL = {"clear": "☀️ clear", "cloudy": "⛅ cloudy", "rain": "🌧️ rain",
+             "fog": "🌫️ fog", "storm": "⛈️ storm", "snow": "❄️ snow",
+             "other": "· other", "unknown": "· n/a"}
+    bars = "".join(
+        f'<div style="display:flex;align-items:center;gap:.5rem;margin:.25rem 0">'
+        f'<span style="width:90px;font-size:.85rem">{LABEL.get(k, k)}</span>'
+        f'<span style="background:#0b5e54;height:14px;border-radius:3px;'
+        f'display:inline-block;width:{round(240 * n / mx)}px"></span>'
+        f'<span style="font-size:.8rem;color:#666">{n}</span></div>'
+        for k, n in counts.items())
+    display(HTML(
+        f'<p>Median temperature on the move: <strong>{w["median_temp"]}°C</strong>, '
+        f'and about <strong>{w["rain_pct"]}%</strong> of outings caught some rain.</p>'
+        + bars))
+else:
+    display(HTML("<p><em>Weather data unavailable for this snapshot.</em></p>"))
+```
+
+```{python}
+#| label: fig-pace-temp
+#| fig-cap: "Pace vs temperature, one point per outing. Dashed line is a trend fitted to trail runs."
+#| echo: false
+import numpy as np
+pts = w.get("points", [])
+if pts:
+    KCOL = {"trail": "#0b5e54", "hike": "#FC4C02", "run": "#888"}
+    fig, ax = plt.subplots(figsize=(7, 3.4))
+    for kind in ("trail", "hike", "run"):
+        g = [p for p in pts if p["kind"] == kind]
+        if g:
+            ax.scatter([p["temp"] for p in g], [p["pace"] for p in g], s=24,
+                       color=KCOL[kind], label=kind, alpha=0.8, edgecolors="none")
+    tr = [p for p in pts if p["kind"] == "trail"]
+    if len(tr) > 2:
+        T = np.array([p["temp"] for p in tr]); P = np.array([p["pace"] for p in tr])
+        b, a0 = np.polyfit(T, P, 1)
+        xs = np.linspace(T.min(), T.max(), 50)
+        ax.plot(xs, a0 + b * xs, color="#333", lw=1, ls="--")
+    ax.set_xlabel("temperature (°C)"); ax.set_ylabel("pace (min/km)"); ax.legend()
+    fig.tight_layout()
+```
+
+## A few more numbers
+
+```{python}
+#| label: fig-cumulative
+#| fig-cap: "Cumulative distance — every kilometre, stacked up over time."
+#| echo: false
+months = list(s["by_month"])
+cum = np.cumsum([s["by_month"][m] for m in months])
+fig, ax = plt.subplots(figsize=(7, 2.8))
+ax.plot(months, cum, color="#0b5e54", marker="o", ms=3)
+ax.set_ylabel("cumulative km"); plt.xticks(rotation=45, ha="right")
+fig.tight_layout()
+```
+
+### Recent runs
+
+```{python}
+#| label: tbl-recent
+#| echo: false
+from IPython.display import Markdown
+rows = ["| Date | Run | km | ↑ m | min/km |", "|---|---|--:|--:|--:|"]
+for r in s["recent"][:10]:
+    link = f'[{r["name"]}](https://www.strava.com/activities/{r["id"]})'
+    kind = r.get("kind", "trail" if r["is_trail"] else "run")
+    tag = {"trail": " 🏔️", "hike": " 🥾", "run": ""}.get(kind, "")
+    rows.append(f'| {r["date"]} | {link}{tag} | {r["distance_km"]:.1f} '
+                f'| {r["elev_gain_m"]} | {r["pace_min_km"]} |')
+Markdown("\n".join(rows))
+```
+
+::: {.callout-note collapse="true"}
+## How this stays current
+A scheduled GitHub Action runs `scripts/fetch_strava.py`, which refreshes a
+short-lived Strava access token from a stored refresh token, pulls my activities,
+writes `strava_runs.json`, commits it, and re-renders the site. Only my own data
+is used (Strava "single player mode"), credentials live in encrypted Action
+secrets, and the page links back to each activity on Strava.
+:::
+
+```{python}
+#| label: attribution
+#| echo: false
+from IPython.display import HTML
+# Strava brand guidelines require visible attribution. Replace the text badge
+# below with the official "Powered by Strava" logo (white or orange) from
+# https://developers.strava.com/guidelines/ — drop it in as images/api_logo_pwrdBy_strava_horiz_light.svg
+HTML(
+    '<div style="display:flex;align-items:center;gap:.6rem;margin-top:2rem;'
+    'font-size:.85rem;color:#666">'
+    f'<span>Last refreshed {gen}</span><span>·</span>'
+    '<span style="background:#FC4C02;color:#fff;font-weight:700;border-radius:4px;'
+    'padding:2px 8px;letter-spacing:.02em">Powered by Strava</span>'
+    '</div>'
+)
+```
