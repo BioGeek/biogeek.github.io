@@ -66,14 +66,16 @@ HTML('<div style="display:flex;gap:1rem;flex-wrap:wrap;margin:1rem 0">' + "".joi
 
 ## The map
 
-Faint grey lines are my Strava tracks; each dot is an iNaturalist sighting,
-coloured by group. Threatened taxa are excluded — iNaturalist obscures their
-locations, so they never appear here.
+The map below is interactive — pan, zoom, and click any dot for the species.
+Faint grey lines are my Strava tracks; each coloured dot is an iNaturalist
+sighting, coloured by taxonomic group. Threatened taxa are excluded —
+iNaturalist obscures their locations, so they never appear here.
 
 ```{python}
-#| label: fig-crossover
-#| fig-cap: "iNaturalist sightings (dots) over Strava running and hiking tracks (grey)."
-#| echo: false
+#| label: fig-crossover-thumb
+#| include: false
+# Static version, hidden: it only writes crossover-map.png, the post's listing
+# thumbnail. The on-page map below is the interactive (folium) one.
 import matplotlib.pyplot as plt
 GROUP_COLORS = {
     "Plantae": "#2e7d32", "Aves": "#1565c0", "Insecta": "#ef6c00",
@@ -97,6 +99,49 @@ for sp in ax.spines.values():
     sp.set_visible(False)
 ax.legend(loc="upper right", fontsize=7, framealpha=0.9, markerscale=1.4)
 fig.tight_layout(); fig.savefig("crossover-map.png", dpi=130)
+```
+
+```{python}
+#| label: fig-interactive
+#| echo: false
+import folium
+
+m = folium.Map(tiles="CartoDB positron", control_scale=True)
+
+# Strava tracks: faint grey lines.
+tracks_fg = folium.FeatureGroup(name="Strava tracks", show=True)
+for t in tracks:
+    folium.PolyLine([(p[0], p[1]) for p in t], color="#777",
+                    weight=1.5, opacity=0.35).add_to(tracks_fg)
+tracks_fg.add_to(m)
+
+# iNaturalist sightings: circle markers coloured by taxonomic group.
+sight_fg = folium.FeatureGroup(name="iNaturalist sightings", show=True)
+for c in inbox:
+    name = c.get("common_name") or c.get("species") or "Unknown"
+    popup = folium.Popup(
+        f"<b>{name}</b><br><i>{c.get('species', '')}</i><br>"
+        f"<span style='color:#888'>{c['group']}</span>", max_width=220)
+    folium.CircleMarker(
+        [c["lat"], c["lng"]], radius=3.5, weight=0, fill=True,
+        fill_color=GROUP_COLORS.get(c["group"], "#888"),
+        fill_opacity=0.85, popup=popup).add_to(sight_fg)
+sight_fg.add_to(m)
+
+# Frame to the area my tracks cover, and add a layer toggle + colour legend.
+m.fit_bounds([[lo_lat, lo_lng], [hi_lat, hi_lng]])
+folium.LayerControl(collapsed=False).add_to(m)
+
+present = [g for g in GROUP_COLORS if any(c["group"] == g for c in inbox)]
+legend = ("<div style='position:fixed;bottom:18px;left:18px;z-index:9999;"
+          "background:rgba(255,255,255,.92);padding:8px 10px;border:1px solid #ccc;"
+          "border-radius:6px;font-size:12px;line-height:1.5'>"
+          + "".join(f"<div><span style='display:inline-block;width:10px;height:10px;"
+                    f"border-radius:50%;background:{GROUP_COLORS[g]};"
+                    f"margin-right:6px'></span>{g}</div>" for g in present)
+          + "</div>")
+m.get_root().html.add_child(folium.Element(legend))
+m
 ```
 
 ## How close to the trail?
