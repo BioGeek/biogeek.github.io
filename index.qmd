@@ -441,6 +441,21 @@ Secondary education: mathematics–modern languages
   </div>
 </div>
 
+<div class="pub-card">
+  <a class="pub-thumb" href="https://schaakstudiespinsels2.be/">
+    <img width="384" height="544" loading="lazy" src="images/projects/schaakstudiespinsels2.jpg" alt="SchaakStudieSpinselS 2 book cover" />
+  </a>
+  <div class="pub-body">
+    <div class="pub-title"><a href="https://schaakstudiespinsels2.be/">SchaakStudieSpinselS 2</a></div>
+    <p>More than three hundred chess endgame studies composed by my grandfather, the Flemish study composer Ignace Vandecasteele. I'm digitising the second volume and putting the whole collection online.</p>
+    <div class="pub-badges">
+      <a class="badge-primary" href="https://schaakstudiespinsels2.be/"><i class="bi bi-box-arrow-up-right"></i> Live site</a>
+      <a href="https://github.com/BioGeek/SchaakStudieSpinsels2"><i class="bi bi-github"></i> Code</a>
+      <a href="https://www.lulu.com/shop/ignace-vandecasteele/schaakstudiespinsels-2/paperback/product-14n762rk.html"><i class="bi bi-bag"></i> Buy the book</a>
+    </div>
+  </div>
+</div>
+
 </div>
 ```
 
