@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-06-25T23:23:37+00:00",
+  "generated_at": "2026-06-26T07:49:41+00:00",
   "user": "biogeek",
   "stats": {
     "observations": 1294,
     "species": 860,
     "threatened_observations": 54,
-    "research_grade": 743,
+    "research_grade": 744,
     "by_group": {
       "Plantae": 538,
       "Insecta": 283,
@@ -127,20 +127,6 @@
       "iucn": null
     },
     {
-      "id": 322778548,
-      "species": "Temnopteryx phalerata",
-      "common_name": "Cape Zebra Cockroach",
-      "group": "Insecta",
-      "observed_on": "2025-10-24",
-      "place": "Scott Estate, Cape Town, 7806, South Africa",
-      "quality_grade": "needs_id",
-      "faves": 1,
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/583972603/large.jpg",
-      "uri": "https://www.inaturalist.org/observations/322778548",
-      "conservation_status": null,
-      "iucn": null
-    },
-    {
       "id": 332421663,
       "species": "Diceros bicornis",
       "common_name": "Black Rhinoceros",
@@ -153,6 +139,20 @@
       "uri": "https://www.inaturalist.org/observations/332421663",
       "conservation_status": "critically endangered",
       "iucn": 50
+    },
+    {
+      "id": 322778548,
+      "species": "Temnopteryx phalerata",
+      "common_name": "Cape Zebra Cockroach",
+      "group": "Insecta",
+      "observed_on": "2025-10-24",
+      "place": "Scott Estate, Cape Town, 7806, South Africa",
+      "quality_grade": "needs_id",
+      "faves": 1,
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/583972603/large.jpg",
+      "uri": "https://www.inaturalist.org/observations/322778548",
+      "conservation_status": null,
+      "iucn": null
     },
     {
       "id": 342868171,
@@ -197,20 +197,6 @@
       "iucn": null
     },
     {
-      "id": 332198940,
-      "species": "Panthera leo melanochaita",
-      "common_name": "Southern Lion",
-      "group": "Mammalia",
-      "observed_on": "2025-12-20",
-      "place": "Siyanda, ZA-NC, ZA",
-      "quality_grade": "research",
-      "faves": 1,
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/602820219/large.jpg",
-      "uri": "https://www.inaturalist.org/observations/332198940",
-      "conservation_status": null,
-      "iucn": null
-    },
-    {
       "id": 324823211,
       "species": "Messor capensis",
       "common_name": "Cape Harvester Ant",
@@ -221,6 +207,20 @@
       "faves": 1,
       "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/588006083/large.jpg",
       "uri": "https://www.inaturalist.org/observations/324823211",
+      "conservation_status": null,
+      "iucn": null
+    },
+    {
+      "id": 332198940,
+      "species": "Panthera leo melanochaita",
+      "common_name": "Southern Lion",
+      "group": "Mammalia",
+      "observed_on": "2025-12-20",
+      "place": "Siyanda, ZA-NC, ZA",
+      "quality_grade": "research",
+      "faves": 1,
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/602820219/large.jpg",
+      "uri": "https://www.inaturalist.org/observations/332198940",
       "conservation_status": null,
       "iucn": null
     },
