@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" width="480" height="300" role="img" aria-label="Self-driving toy car">
+  <rect width="480" height="300" fill="#f4f8f7"/>
+  <!-- sensor field-of-view cone -->
+  <polygon points="300,150 470,108 470,196" fill="#0b5e54" opacity="0.10"/>
+  <!-- road -->
+  <line x1="20" y1="246" x2="460" y2="246" stroke="#c9d6d3" stroke-width="3"/>
+  <line x1="30" y1="262" x2="120" y2="262" stroke="#c9d6d3" stroke-width="4" stroke-dasharray="22 18" stroke-linecap="round"/>
+  <line x1="150" y1="262" x2="300" y2="262" stroke="#c9d6d3" stroke-width="4" stroke-dasharray="22 18" stroke-linecap="round"/>
+  <line x1="330" y1="262" x2="450" y2="262" stroke="#c9d6d3" stroke-width="4" stroke-dasharray="22 18" stroke-linecap="round"/>
+  <!-- car body -->
+  <rect x="120" y="170" width="220" height="48" rx="12" fill="#0b5e54"/>
+  <!-- cabin -->
+  <polygon points="158,170 182,142 272,142 296,170" fill="#1c8a7d"/>
+  <rect x="186" y="148" width="36" height="20" rx="3" fill="#dcefe9"/>
+  <rect x="232" y="148" width="36" height="20" rx="3" fill="#dcefe9"/>
+  <!-- camera mast -->
+  <rect x="258" y="120" width="10" height="24" rx="2" fill="#333"/>
+  <circle cx="263" cy="120" r="7" fill="#333"/>
+  <circle cx="263" cy="120" r="3" fill="#7fd8c8"/>
+  <!-- wheels -->
+  <circle cx="170" cy="218" r="28" fill="#2b2b2b"/>
+  <circle cx="170" cy="218" r="10" fill="#8a8a8a"/>
+  <circle cx="300" cy="218" r="28" fill="#2b2b2b"/>
+  <circle cx="300" cy="218" r="10" fill="#8a8a8a"/>
+  <!-- "perception" nodes along the cone -->
+  <circle cx="360" cy="150" r="3.5" fill="#0b5e54"/>
+  <circle cx="400" cy="150" r="3.5" fill="#0b5e54"/>
+  <circle cx="440" cy="150" r="3.5" fill="#0b5e54"/>
+</svg>

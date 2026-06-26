@@ -1,0 +1,77 @@
+---
+title: "Self-driving toy car"
+subtitle: "Turning a 1/16-scale DonkeyCar into an autonomous car — and a testbed for modern edge ML"
+description: >
+  An ongoing project: training self-driving policies in simulation and deploying
+  them to a Jetson Nano and a Coral Edge TPU. Overview, architecture, and a build log.
+date: 2026-06-26
+image: ../images/projects/self-driving-toy-car.svg
+image-alt: "Self-driving toy car"
+listing:
+  - id: buildlog-posts
+    # Build-log posts are any post folder named posts/donkeycar-* or
+    # posts/self-driving-* — they show up here automatically as I publish them.
+    contents:
+      - "../posts/donkeycar-*/index.qmd"
+      - "../posts/self-driving-*/index.qmd"
+    type: default
+    sort: "date asc"
+    fields: [date, title, description, reading-time, categories]
+    sort-ui: false
+    filter-ui: false
+    feed: false
+toc: true
+---
+
+I'm turning a [DonkeyCar](https://www.donkeycar.com) — a 1/16-scale RC car — into
+a small autonomous vehicle. It's a deliberately constrained playground for the
+parts of modern ML I find most interesting: reinforcement learning, sim-to-real
+transfer, vision-language-action models, and the unglamorous reality of making
+all of that run on cheap, power-limited edge hardware.
+
+This page is the hub: what the car is, how it's put together, and where the
+project is going. The [build log](#build-log) below collects the individual posts
+on architecture and progress as I write them.
+
+## The hardware
+
+- **The car** — a DonkeyCar chassis with steering and throttle over PWM, plus a forward-facing camera.
+- **Jetson Nano** — the on-board host. Old and power-limited, so it mostly handles I/O and runs a compiled policy rather than training anything.
+- **Coral Edge TPU** — a USB INT8 accelerator that runs the small, real-time driving policy at high frame rate and low power.
+- **An off-board GPU** (laptop / cloud) — where all the training happens, and where any heavy "thinking" model lives.
+
+## The architecture
+
+One idea runs through the whole project: a slow brain and fast reflexes, split
+across devices.
+
+- **System 1 — the Coral.** A tiny convolutional policy that maps camera frames to steering and throttle, quantized to INT8 and compiled for the Edge TPU. This is the real-time control loop.
+- **Host — the Nano.** Camera capture, the Coral USB host, and the safety/glue layer.
+- **System 2 — off-board.** An optional, slower model (a small vision-language-action model, or an LLM planner) that issues high-level intent over wifi at a few hertz, which System 1 then carries out.
+
+The guiding constraint is simple: **train off-device, deploy on-device.** The
+Nano's software stack is too old for a modern training toolchain, and the Coral
+is inference-only — so learning happens on a real GPU and the car only ever runs
+a compiled artifact.
+
+## Roadmap
+
+Roughly most-feasible to most-ambitious. Each step reuses the deployment pipeline
+built by the one before it, and each will get its own build-log post.
+
+1. **Hardware audit & baseline** — confirm what each device runs; get teleop and the Coral working end to end.
+2. **Line following, classic CV** — point the camera forward, threshold + centroid + a P-controller, and drive a loop with no ML. Gets the car physically moving and sets a *baseline lap time*.
+3. **Line following, learned: BC-CNN → Coral** — redo it as a small CNN, quantized to INT8 and compiled for the Coral. This commissions the train → quantize → compile → deploy pipeline, and — seeing *ahead* — should beat the CV lap time.
+4. **LLM as an offline copilot** — use a large model off-line to design reward functions, generate track curricula, and analyse failure logs.
+5. **Sim RL with PufferLib** — train a policy in `gym-donkeycar` with PPO (pure Python), then distil and deploy.
+6. **High-throughput RL in JAX** — a fast custom driving env, GPU-vectorized, trained in minutes, transferred with domain randomization.
+7. **Dual-system "talk to your car"** — an off-board vision-language-action model issuing intent, the Coral handling control.
+8. **Dream-to-drive** — a JAX world model, training the policy in imagination.
+
+## Build log {#build-log}
+
+Posts on architecture and progress, oldest first. (More to come — this fills in
+as the roadmap above gets built.)
+
+::: {#buildlog-posts}
+:::
