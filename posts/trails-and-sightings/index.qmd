@@ -1,0 +1,143 @@
+---
+title: "Where the trails meet the sightings"
+subtitle: "Overlaying my iNaturalist observations on my Strava running and hiking tracks"
+description: >
+  Two datasets, one map: every running and hiking track from Strava, with my
+  iNaturalist sightings dropped on top. How much of what I find, I find on the move.
+date: 2026-06-26
+categories: [nature, running, trail, data, api, south africa]
+image: crossover-map.png
+image-alt: "iNaturalist sightings overlaid on Strava tracks"
+freeze: false
+draft: true
+---
+
+I keep two logbooks without meaning to. [Strava](https://www.strava.com) records
+where I run and hike; [iNaturalist](https://www.inaturalist.org) records what I
+find. They cover the same mountains above Cape Town, so the obvious question is:
+**how much of what I observe, I observe on the move?** Both feeds are pulled from
+their APIs, so this answers itself and stays current.
+
+```{python}
+#| label: load
+#| echo: false
+import json, math
+import numpy as np
+strava = json.load(open("../trail-running-strava/strava_runs.json"))["stats"]
+inat = json.load(open("../inaturalist-sightings/inat.json"))
+tracks = strava["tracks"]
+coords = inat["coords"]
+
+# Bound the analysis to where I actually move (track bounding box + margin).
+tlat = [p[0] for t in tracks for p in t]
+tlng = [p[1] for t in tracks for p in t]
+margin = 0.01
+lo_lat, hi_lat = min(tlat) - margin, max(tlat) + margin
+lo_lng, hi_lng = min(tlng) - margin, max(tlng) + margin
+inbox = [c for c in coords if lo_lat < c["lat"] < hi_lat and lo_lng < c["lng"] < hi_lng]
+
+# Distance (m) from each sighting to the nearest track point (equirectangular).
+pts = np.array([(p[0], p[1]) for t in tracks for p in t])
+def nearest_m(c):
+    dlat = (pts[:, 0] - c["lat"]) * 110540
+    dlng = (pts[:, 1] - c["lng"]) * 111320 * math.cos(math.radians(c["lat"]))
+    return float(np.hypot(dlat, dlng).min())
+dist = np.array([nearest_m(c) for c in inbox])
+on_trail = inbox if len(inbox) == 0 else [c for c, d in zip(inbox, dist) if d < 200]
+gen = inat["generated_at"][:10]
+```
+
+```{python}
+#| label: stat-cards
+#| echo: false
+from IPython.display import HTML
+def card(v, l):
+    return (f'<div style="flex:1;min-width:130px;border:1px solid #e2e2e2;border-radius:10px;'
+            f'padding:.9rem 1rem;text-align:center"><div style="font-size:1.6rem;font-weight:700;'
+            f'color:#0b5e54">{v}</div><div style="font-size:.8rem;color:#666">{l}</div></div>')
+pct200 = round(100 * (dist < 200).sum() / max(len(dist), 1))
+species_on_trail = len({c["species"] for c in on_trail if c["species"]})
+HTML('<div style="display:flex;gap:1rem;flex-wrap:wrap;margin:1rem 0">' + "".join([
+    card(f'{len(inbox):,}', "sightings in my running/hiking area"),
+    card(f'{pct200}%', "within 200 m of a track"),
+    card(f'{species_on_trail}', "species found along the routes"),
+]) + '</div>')
+```
+
+## The map
+
+Faint grey lines are my Strava tracks; each dot is an iNaturalist sighting,
+coloured by group. Threatened taxa are excluded — iNaturalist obscures their
+locations, so they never appear here.
+
+```{python}
+#| label: fig-crossover
+#| fig-cap: "iNaturalist sightings (dots) over Strava running and hiking tracks (grey)."
+#| echo: false
+import matplotlib.pyplot as plt
+GROUP_COLORS = {
+    "Plantae": "#2e7d32", "Aves": "#1565c0", "Insecta": "#ef6c00",
+    "Mammalia": "#6d4c41", "Reptilia": "#7b1fa2", "Amphibia": "#00838f",
+    "Fungi": "#ad1457", "Arachnida": "#c62828", "Mollusca": "#5d4037",
+    "Actinopterygii": "#0097a7", "Animalia": "#455a64",
+}
+fig, ax = plt.subplots(figsize=(7, 7))
+for t in tracks:
+    ax.plot([p[1] for p in t], [p[0] for p in t], color="#cfcfcf", lw=1, zorder=1)
+seen = set()
+for c in inbox:
+    g = c["group"]
+    ax.scatter(c["lng"], c["lat"], s=14, color=GROUP_COLORS.get(g, "#888"),
+               alpha=0.8, edgecolors="none", zorder=2,
+               label=g if g not in seen else None)
+    seen.add(g)
+ax.set_aspect(1 / math.cos(math.radians(np.mean(tlat))))
+ax.set_xticks([]); ax.set_yticks([])
+for sp in ax.spines.values():
+    sp.set_visible(False)
+ax.legend(loc="upper right", fontsize=7, framealpha=0.9, markerscale=1.4)
+fig.tight_layout(); fig.savefig("crossover-map.png", dpi=130)
+```
+
+## How close to the trail?
+
+Most sightings aren't *on* a track — they're a short detour off it. The
+distribution of distance-to-nearest-track shows how far I tend to wander:
+
+```{python}
+#| label: fig-distance
+#| fig-cap: "Distance from each sighting to my nearest recorded track."
+#| echo: false
+fig, ax = plt.subplots(figsize=(7, 2.8))
+ax.hist(np.clip(dist, 0, 1000), bins=30, color="#0b5e54")
+ax.axvline(200, color="#c0392b", ls="--", lw=1)
+ax.set_xlabel("metres to nearest track"); ax.set_ylabel("sightings")
+fig.tight_layout()
+```
+
+```{python}
+#| label: by-group
+#| echo: false
+#| output: asis
+from collections import Counter
+near = Counter(c["group"] for c in on_trail).most_common(5)
+if near:
+    line = ", ".join(f"**{g}** ({n})" for g, n in near)
+    print(f"Within 200 m of a track, the groups I record most are: {line}.")
+```
+
+::: {.callout-note collapse="true"}
+## How this works
+This page reads the two committed data files — `strava_runs.json` and
+`inat.json` — produced by the Strava and iNaturalist fetch jobs. The analysis is
+bounded to the area my tracks cover, distances use an equirectangular
+approximation (fine at city scale), and only iNaturalist's non-obscured
+coordinates are used, so no threatened taxon is ever located.
+
+```{python}
+#| label: refreshed
+#| echo: false
+#| output: asis
+print(f"*Data refreshed {gen}. Powered by Strava · observations via iNaturalist.*")
+```
+:::
