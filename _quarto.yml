@@ -6,6 +6,7 @@ project:
     - "cp CNAME docs/"
 
 website:
+  title: "Jeroen Van Goey"
   site-url: https://jeroen.vangoey.be
   favicon: favicon.ico
   description: "Staff Research Engineer · BioAI Lead, building generative models for biology: de novo peptide sequencing, proteomics, and personalized cancer vaccines."
