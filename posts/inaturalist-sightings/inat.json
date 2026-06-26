@@ -1,49 +1,64 @@
 {
-  "generated_at": "2026-06-26T07:49:41+00:00",
+  "generated_at": "2026-06-26T07:55:27+00:00",
   "user": "biogeek",
   "stats": {
-    "observations": 1294,
-    "species": 860,
-    "threatened_observations": 54,
+    "observations": 1460,
+    "species": 947,
+    "threatened_observations": 75,
     "research_grade": 744,
     "by_group": {
-      "Plantae": 538,
-      "Insecta": 283,
-      "Aves": 162,
-      "Mammalia": 85,
+      "Plantae": 629,
+      "Insecta": 284,
+      "Aves": 172,
+      "Mammalia": 126,
       "Fungi": 50,
-      "Animalia": 45,
-      "Reptilia": 36,
+      "Animalia": 48,
+      "Reptilia": 44,
       "Arachnida": 35,
-      "Mollusca": 26,
-      "Actinopterygii": 21,
-      "Amphibia": 10,
-      "Unknown": 1,
+      "Mollusca": 29,
+      "Actinopterygii": 26,
+      "Amphibia": 12,
+      "Unknown": 3,
       "Protozoa": 1,
       "Chromista": 1
     },
     "by_year": {
-      "2008": 11,
-      "2020": 36,
-      "2023": 103,
-      "2024": 405,
-      "2025": 430,
-      "2026": 309
+      "2008": 12,
+      "2020": 39,
+      "2023": 115,
+      "2024": 495,
+      "2025": 460,
+      "2026": 324
     },
     "top_species": [
       {
         "species": "Papio ursinus",
         "common_name": "Chacma Baboon",
-        "count": 8
+        "count": 9
       },
       {
         "species": "Struthio camelus",
         "common_name": "Common Ostrich",
-        "count": 7
+        "count": 8
       },
       {
         "species": "Agama atra",
         "common_name": "Southern Rock Agama",
+        "count": 7
+      },
+      {
+        "species": "Antidorcas marsupialis",
+        "common_name": "Springbok",
+        "count": 7
+      },
+      {
+        "species": "Sciurus carolinensis",
+        "common_name": "Eastern Gray Squirrel",
+        "count": 7
+      },
+      {
+        "species": "Protea cynaroides",
+        "common_name": "King Protea",
         "count": 7
       },
       {
@@ -57,29 +72,14 @@
         "count": 6
       },
       {
+        "species": "Arctocephalus pusillus",
+        "common_name": "Brown Fur Seal",
+        "count": 6
+      },
+      {
         "species": "Loxodonta africana",
         "common_name": "African Savanna Elephant",
         "count": 6
-      },
-      {
-        "species": "Sciurus carolinensis",
-        "common_name": "Eastern Gray Squirrel",
-        "count": 6
-      },
-      {
-        "species": "Protea cynaroides",
-        "common_name": "King Protea",
-        "count": 6
-      },
-      {
-        "species": "Milvus migrans",
-        "common_name": "Black Kite",
-        "count": 5
-      },
-      {
-        "species": "Motacilla capensis",
-        "common_name": "Cape Wagtail",
-        "count": 5
       }
     ]
   },
@@ -127,20 +127,6 @@
       "iucn": null
     },
     {
-      "id": 332421663,
-      "species": "Diceros bicornis",
-      "common_name": "Black Rhinoceros",
-      "group": "Mammalia",
-      "observed_on": "2025-12-27",
-      "place": "Namibia",
-      "quality_grade": "research",
-      "faves": 1,
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/603279324/large.jpg",
-      "uri": "https://www.inaturalist.org/observations/332421663",
-      "conservation_status": "critically endangered",
-      "iucn": 50
-    },
-    {
       "id": 322778548,
       "species": "Temnopteryx phalerata",
       "common_name": "Cape Zebra Cockroach",
@@ -153,6 +139,20 @@
       "uri": "https://www.inaturalist.org/observations/322778548",
       "conservation_status": null,
       "iucn": null
+    },
+    {
+      "id": 332421663,
+      "species": "Diceros bicornis",
+      "common_name": "Black Rhinoceros",
+      "group": "Mammalia",
+      "observed_on": "2025-12-27",
+      "place": "Namibia",
+      "quality_grade": "research",
+      "faves": 1,
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/603279324/large.jpg",
+      "uri": "https://www.inaturalist.org/observations/332421663",
+      "conservation_status": "critically endangered",
+      "iucn": 50
     },
     {
       "id": 342868171,
@@ -197,20 +197,6 @@
       "iucn": null
     },
     {
-      "id": 324823211,
-      "species": "Messor capensis",
-      "common_name": "Cape Harvester Ant",
-      "group": "Insecta",
-      "observed_on": "2025-11-04",
-      "place": "Mainstream, Scott Estate, Cape Town, 7806, South Africa",
-      "quality_grade": "needs_id",
-      "faves": 1,
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/588006083/large.jpg",
-      "uri": "https://www.inaturalist.org/observations/324823211",
-      "conservation_status": null,
-      "iucn": null
-    },
-    {
       "id": 332198940,
       "species": "Panthera leo melanochaita",
       "common_name": "Southern Lion",
@@ -221,6 +207,20 @@
       "faves": 1,
       "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/602820219/large.jpg",
       "uri": "https://www.inaturalist.org/observations/332198940",
+      "conservation_status": null,
+      "iucn": null
+    },
+    {
+      "id": 324823211,
+      "species": "Messor capensis",
+      "common_name": "Cape Harvester Ant",
+      "group": "Insecta",
+      "observed_on": "2025-11-04",
+      "place": "Mainstream, Scott Estate, Cape Town, 7806, South Africa",
+      "quality_grade": "needs_id",
+      "faves": 1,
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/588006083/large.jpg",
+      "uri": "https://www.inaturalist.org/observations/324823211",
       "conservation_status": null,
       "iucn": null
     },
@@ -254,6 +254,13 @@
     }
   ],
   "coords": [
+    {
+      "lat": 51.2176,
+      "lng": 4.41741,
+      "group": "Plantae",
+      "common_name": "bellflowers",
+      "species": "Campanula"
+    },
     {
       "lat": 51.728,
       "lng": 3.97086,
@@ -337,6 +344,13 @@
       "group": "Plantae",
       "common_name": "meadow-rues",
       "species": "Thalictrum"
+    },
+    {
+      "lat": 51.08969,
+      "lng": 3.71886,
+      "group": "Plantae",
+      "common_name": "brambles",
+      "species": "Rubus"
     },
     {
       "lat": 51.08966,
@@ -430,6 +444,13 @@
       "species": "Rana temporaria"
     },
     {
+      "lat": 51.38593,
+      "lng": 4.44306,
+      "group": "Plantae",
+      "common_name": "Japanese andromeda",
+      "species": "Pieris japonica"
+    },
+    {
       "lat": 51.38592,
       "lng": 4.44305,
       "group": "Plantae",
@@ -519,6 +540,13 @@
       "group": "Plantae",
       "common_name": "Germander Speedwell",
       "species": "Veronica chamaedrys"
+    },
+    {
+      "lat": 51.38543,
+      "lng": 4.44383,
+      "group": "Plantae",
+      "common_name": "hostas",
+      "species": "Hosta"
     },
     {
       "lat": 51.38592,
@@ -703,6 +731,13 @@
       "species": "Trachylepis capensis"
     },
     {
+      "lat": -34.04421,
+      "lng": 18.34996,
+      "group": "Plantae",
+      "common_name": "French lavender",
+      "species": "Lavandula dentata"
+    },
+    {
       "lat": -34.04413,
       "lng": 18.3501,
       "group": "Insecta",
@@ -715,6 +750,13 @@
       "group": "Arachnida",
       "common_name": "Cape Burrowing Scorpion",
       "species": "Opistophthalmus capensis"
+    },
+    {
+      "lat": -33.68818,
+      "lng": 18.46406,
+      "group": "Mammalia",
+      "common_name": "Cape Eland",
+      "species": "Tragelaphus oryx oryx"
     },
     {
       "lat": -34.04427,
@@ -822,6 +864,13 @@
       "species": "Chrysaora agulhensis"
     },
     {
+      "lat": -34.331,
+      "lng": 19.32642,
+      "group": "Plantae",
+      "common_name": "Pincushion Hybrids",
+      "species": "Leucospermum × hybridum"
+    },
+    {
       "lat": -33.94864,
       "lng": 18.40999,
       "group": "Plantae",
@@ -841,6 +890,13 @@
       "group": "Plantae",
       "common_name": "Pok Coulterbush",
       "species": "Hymenolepis crithmifolia"
+    },
+    {
+      "lat": -34.0441,
+      "lng": 18.35007,
+      "group": "Plantae",
+      "common_name": "giant bird-of-paradise flower",
+      "species": "Strelitzia nicolai"
     },
     {
       "lat": -34.04411,
@@ -871,11 +927,32 @@
       "species": "Pheidole"
     },
     {
+      "lat": -34.08634,
+      "lng": 18.45451,
+      "group": "Plantae",
+      "common_name": "Prickly Pears",
+      "species": "Opuntia"
+    },
+    {
       "lat": -34.08637,
       "lng": 18.45448,
       "group": "Reptilia",
       "common_name": "Cape Skink",
       "species": "Trachylepis capensis"
+    },
+    {
+      "lat": -34.08776,
+      "lng": 18.4557,
+      "group": "Plantae",
+      "common_name": "Norfolk Island hibiscus",
+      "species": "Lagunaria patersonia"
+    },
+    {
+      "lat": -34.08917,
+      "lng": 18.45679,
+      "group": "Plantae",
+      "common_name": "Pōhutukawa",
+      "species": "Metrosideros excelsa"
     },
     {
       "lat": -34.04581,
@@ -904,6 +981,13 @@
       "group": "Insecta",
       "common_name": null,
       "species": "Cenaeus carnifex"
+    },
+    {
+      "lat": -33.91569,
+      "lng": 18.42519,
+      "group": "Plantae",
+      "common_name": "Peruvian lilies",
+      "species": "Alstroemeria"
     },
     {
       "lat": -33.98258,
@@ -1088,6 +1172,13 @@
       "species": "Pelargonium pinnatum"
     },
     {
+      "lat": -34.05578,
+      "lng": 18.36103,
+      "group": "Plantae",
+      "common_name": "Rochea",
+      "species": "Crassula coccinea"
+    },
+    {
       "lat": -34.04411,
       "lng": 18.35009,
       "group": "Aves",
@@ -1128,6 +1219,13 @@
       "group": "Plantae",
       "common_name": "blue plumbago",
       "species": "Plumbago auriculata"
+    },
+    {
+      "lat": -34.04413,
+      "lng": 18.35016,
+      "group": "Plantae",
+      "common_name": "Tricolor Hibiscus",
+      "species": "Hibiscus × rosa-sinensis"
     },
     {
       "lat": -34.04416,
@@ -1214,6 +1312,13 @@
       "species": "Chironomidae"
     },
     {
+      "lat": -33.82434,
+      "lng": 18.92671,
+      "group": "Plantae",
+      "common_name": "Natal Plum",
+      "species": "Carissa macrocarpa"
+    },
+    {
       "lat": -33.82474,
       "lng": 18.92696,
       "group": "Aves",
@@ -1226,6 +1331,13 @@
       "group": "Plantae",
       "common_name": "Day Waterlily",
       "species": "Nymphaea nouchali"
+    },
+    {
+      "lat": -33.82381,
+      "lng": 18.92733,
+      "group": "Aves",
+      "common_name": "Domestic Turkey",
+      "species": "Meleagris gallopavo domesticus"
     },
     {
       "lat": -34.04411,
@@ -1310,6 +1422,13 @@
       "group": "Aves",
       "common_name": "Cape Robin-Chat",
       "species": "Dessonornis caffer"
+    },
+    {
+      "lat": -34.42828,
+      "lng": 19.22731,
+      "group": "Plantae",
+      "common_name": "blue potatobush",
+      "species": "Lycianthes rantonnetii"
     },
     {
       "lat": -34.42848,
@@ -1473,6 +1592,13 @@
       "species": "Paramyrmamblys"
     },
     {
+      "lat": -34.42821,
+      "lng": 19.22725,
+      "group": "Plantae",
+      "common_name": "scrub cherry",
+      "species": "Syzygium australe"
+    },
+    {
       "lat": -34.38158,
       "lng": 19.24197,
       "group": "Amphibia",
@@ -1485,6 +1611,13 @@
       "group": "Plantae",
       "common_name": "pickerelweed",
       "species": "Pontederia cordata"
+    },
+    {
+      "lat": -34.38149,
+      "lng": 19.24244,
+      "group": "Plantae",
+      "common_name": "Large Fortnight Lily",
+      "species": "Dietes grandiflora"
     },
     {
       "lat": -34.378,
@@ -1669,6 +1802,118 @@
       "species": "Monstera deliciosa"
     },
     {
+      "lat": -33.82951,
+      "lng": 18.79831,
+      "group": "Amphibia",
+      "common_name": "African Box-headed Frogs",
+      "species": "Pyxicephalidae"
+    },
+    {
+      "lat": -33.82951,
+      "lng": 18.79831,
+      "group": "Animalia",
+      "common_name": "Western Cape River Crab",
+      "species": "Potamonautes perlatus"
+    },
+    {
+      "lat": -33.82919,
+      "lng": 18.79829,
+      "group": "Mammalia",
+      "common_name": "Four-toed Hedgehog",
+      "species": "Atelerix albiventris"
+    },
+    {
+      "lat": -33.82909,
+      "lng": 18.79824,
+      "group": "Amphibia",
+      "common_name": "African Clawed Frog",
+      "species": "Xenopus laevis"
+    },
+    {
+      "lat": -33.82913,
+      "lng": 18.79833,
+      "group": "Aves",
+      "common_name": "Spotted Eagle-Owl",
+      "species": "Bubo africanus"
+    },
+    {
+      "lat": -33.82913,
+      "lng": 18.79833,
+      "group": "Reptilia",
+      "common_name": "Rock Monitor",
+      "species": "Varanus albigularis"
+    },
+    {
+      "lat": -33.82912,
+      "lng": 18.79703,
+      "group": "Reptilia",
+      "common_name": "Western Natal Green Snake",
+      "species": "Philothamnus occidentalis"
+    },
+    {
+      "lat": -33.82904,
+      "lng": 18.79818,
+      "group": "Reptilia",
+      "common_name": "Boomslang",
+      "species": "Dispholidus typus"
+    },
+    {
+      "lat": -33.82904,
+      "lng": 18.79818,
+      "group": "Reptilia",
+      "common_name": "Boomslang",
+      "species": "Dispholidus typus"
+    },
+    {
+      "lat": -33.89542,
+      "lng": 18.79874,
+      "group": "Reptilia",
+      "common_name": "Burmese Python",
+      "species": "Python bivittatus"
+    },
+    {
+      "lat": -33.82899,
+      "lng": 18.79837,
+      "group": "Reptilia",
+      "common_name": "Southern African Python",
+      "species": "Python natalensis"
+    },
+    {
+      "lat": -33.82899,
+      "lng": 18.79838,
+      "group": "Mammalia",
+      "common_name": "Cape Grysbok",
+      "species": "Raphicerus melanotis"
+    },
+    {
+      "lat": -33.82903,
+      "lng": 18.79842,
+      "group": "Mammalia",
+      "common_name": "Caracal",
+      "species": "Caracal caracal"
+    },
+    {
+      "lat": -33.82946,
+      "lng": 18.79944,
+      "group": "Mammalia",
+      "common_name": "Southern Giraffe",
+      "species": "Giraffa giraffa"
+    },
+    {
+      "lat": -33.83136,
+      "lng": 18.8002,
+      "group": "Mammalia",
+      "common_name": "Springbok",
+      "species": "Antidorcas marsupialis"
+    },
+    {
+      "lat": -33.82955,
+      "lng": 18.79906,
+      "group": "Reptilia",
+      "common_name": "Nile Crocodile",
+      "species": "Crocodylus niloticus"
+    },
+    {
       "lat": -33.98653,
       "lng": 18.46409,
       "group": "Plantae",
@@ -1681,6 +1926,27 @@
       "group": "Plantae",
       "common_name": "Falling Stars",
       "species": "Crocosmia aurea"
+    },
+    {
+      "lat": -33.98678,
+      "lng": 18.46472,
+      "group": "Plantae",
+      "common_name": "European White Waterlily",
+      "species": "Nymphaea alba"
+    },
+    {
+      "lat": -33.98682,
+      "lng": 18.46458,
+      "group": "Actinopterygii",
+      "common_name": "Amur Carp",
+      "species": "Cyprinus rubrofuscus"
+    },
+    {
+      "lat": -33.98682,
+      "lng": 18.46458,
+      "group": "Plantae",
+      "common_name": "Garden Canna",
+      "species": "Canna × hybrida"
     },
     {
       "lat": -33.98682,
@@ -1697,11 +1963,46 @@
       "species": "Ipomoea indica"
     },
     {
+      "lat": -33.98698,
+      "lng": 18.4636,
+      "group": "Plantae",
+      "common_name": "Chinese fan palm",
+      "species": "Livistona chinensis"
+    },
+    {
+      "lat": -33.98769,
+      "lng": 18.46386,
+      "group": "Plantae",
+      "common_name": "blue lily",
+      "species": "Agapanthus praecox"
+    },
+    {
+      "lat": -33.98799,
+      "lng": 18.46447,
+      "group": "Plantae",
+      "common_name": "orange day-lily",
+      "species": "Hemerocallis fulva"
+    },
+    {
+      "lat": -33.98799,
+      "lng": 18.46447,
+      "group": "Plantae",
+      "common_name": "Tricolor Hibiscus",
+      "species": "Hibiscus × rosa-sinensis"
+    },
+    {
       "lat": -33.98822,
       "lng": 18.46527,
       "group": "Plantae",
       "common_name": "oceanblue morning glory",
       "species": "Ipomoea indica"
+    },
+    {
+      "lat": -33.98732,
+      "lng": 18.4649,
+      "group": "Plantae",
+      "common_name": "Firewheel tree",
+      "species": "Stenocarpus sinuatus"
     },
     {
       "lat": -34.04417,
@@ -1809,11 +2110,25 @@
       "species": "Orthetrum julia capicola"
     },
     {
+      "lat": -34.02597,
+      "lng": 18.80927,
+      "group": "Mammalia",
+      "common_name": "Southern and Eastern African Cheetah",
+      "species": "Acinonyx jubatus jubatus"
+    },
+    {
       "lat": -34.41068,
       "lng": 19.26347,
       "group": "Plantae",
       "common_name": "Hermanus Summerlily",
       "species": "Gladiolus carmineus"
+    },
+    {
+      "lat": -34.41128,
+      "lng": 19.25893,
+      "group": "Plantae",
+      "common_name": "Blue Bushviolet",
+      "species": "Barleria obtusa"
     },
     {
       "lat": -34.83219,
@@ -2064,6 +2379,13 @@
       "lat": -34.04028,
       "lng": 18.36293,
       "group": "Plantae",
+      "common_name": "Cape Honeysuckle",
+      "species": "Tecomaria capensis"
+    },
+    {
+      "lat": -34.04028,
+      "lng": 18.36293,
+      "group": "Plantae",
       "common_name": "Fountain Grass",
       "species": "Cenchrus setaceus"
     },
@@ -2171,6 +2493,13 @@
       "group": "Animalia",
       "common_name": "Whiptail Stingrays",
       "species": "Dasyatidae"
+    },
+    {
+      "lat": -34.04271,
+      "lng": 18.35041,
+      "group": "Plantae",
+      "common_name": "Penwiper",
+      "species": "Kalanchoe marmorata"
     },
     {
       "lat": -34.04405,
@@ -2318,6 +2647,13 @@
       "group": "Aves",
       "common_name": "Egyptian Goose",
       "species": "Alopochen aegyptiaca"
+    },
+    {
+      "lat": -33.79279,
+      "lng": 18.58008,
+      "group": "Plantae",
+      "common_name": "Swan-neck Agave",
+      "species": "Agave attenuata"
     },
     {
       "lat": -33.79959,
@@ -2621,6 +2957,20 @@
       "species": "Euphorbia clandestina"
     },
     {
+      "lat": -33.75606,
+      "lng": 18.91142,
+      "group": "Plantae",
+      "common_name": "Water Pear",
+      "species": "Syzygium guineense"
+    },
+    {
+      "lat": -33.75663,
+      "lng": 18.9109,
+      "group": "Mammalia",
+      "common_name": "Alpaca",
+      "species": "Lama pacos"
+    },
+    {
       "lat": -34.41805,
       "lng": 19.24534,
       "group": "Plantae",
@@ -2647,6 +2997,13 @@
       "group": "Plantae",
       "common_name": "Perez's sea lavender",
       "species": "Limonium perezii"
+    },
+    {
+      "lat": -34.41508,
+      "lng": 19.24925,
+      "group": "Plantae",
+      "common_name": "Fire Stick",
+      "species": "Euphorbia tirucalli"
     },
     {
       "lat": -34.41118,
@@ -3048,6 +3405,20 @@
       "species": "Hibiscus"
     },
     {
+      "lat": 14.59574,
+      "lng": -17.14701,
+      "group": "Plantae",
+      "common_name": "Jungle flame",
+      "species": "Ixora coccinea"
+    },
+    {
+      "lat": 14.59574,
+      "lng": -17.14701,
+      "group": "Plantae",
+      "common_name": "Canna Lilies",
+      "species": "Canna"
+    },
+    {
       "lat": 14.5958,
       "lng": -17.14699,
       "group": "Aves",
@@ -3060,6 +3431,13 @@
       "group": "Plantae",
       "common_name": "African baobab",
       "species": "Adansonia digitata"
+    },
+    {
+      "lat": 14.59566,
+      "lng": -17.14729,
+      "group": "Plantae",
+      "common_name": "Hammerleaf Frangipani",
+      "species": "Plumeria pudica"
     },
     {
       "lat": 14.73355,
@@ -3146,6 +3524,13 @@
       "species": "Phacochoerus africanus africanus"
     },
     {
+      "lat": 14.45784,
+      "lng": -16.9912,
+      "group": "Mammalia",
+      "common_name": "Giraffes",
+      "species": "Giraffa"
+    },
+    {
       "lat": 14.56991,
       "lng": -16.87117,
       "group": "Mammalia",
@@ -3158,6 +3543,13 @@
       "group": "Mammalia",
       "common_name": "Sudanese Buffalo",
       "species": "Syncerus caffer brachyceros"
+    },
+    {
+      "lat": 14.54618,
+      "lng": -16.99682,
+      "group": "Aves",
+      "common_name": "Common Ostrich",
+      "species": "Struthio camelus"
     },
     {
       "lat": 14.55972,
@@ -3179,6 +3571,13 @@
       "group": "Plantae",
       "common_name": "oleander",
       "species": "Nerium oleander"
+    },
+    {
+      "lat": 14.72504,
+      "lng": -17.49399,
+      "group": "Plantae",
+      "common_name": "Purple Heart",
+      "species": "Tradescantia pallida"
     },
     {
       "lat": 14.72289,
@@ -3242,6 +3641,55 @@
       "group": "Aves",
       "common_name": "Western Red-billed Hornbill",
       "species": "Tockus kempi"
+    },
+    {
+      "lat": 14.71539,
+      "lng": -17.49059,
+      "group": "Mollusca",
+      "common_name": null,
+      "species": "Sepiida"
+    },
+    {
+      "lat": 14.71543,
+      "lng": -17.49081,
+      "group": "Mollusca",
+      "common_name": "Cuttlefishes",
+      "species": "Sepiidae"
+    },
+    {
+      "lat": 14.71543,
+      "lng": -17.49081,
+      "group": "Actinopterygii",
+      "common_name": "Monrovia Doctorfish",
+      "species": "Acanthurus monroviae"
+    },
+    {
+      "lat": 14.71543,
+      "lng": -17.49081,
+      "group": "Actinopterygii",
+      "common_name": "African Arowana",
+      "species": "Heterotis niloticus"
+    },
+    {
+      "lat": 14.71543,
+      "lng": -17.49081,
+      "group": "Actinopterygii",
+      "common_name": "Atlantic Tripletail",
+      "species": "Lobotes surinamensis"
+    },
+    {
+      "lat": 14.71543,
+      "lng": -17.49081,
+      "group": "Actinopterygii",
+      "common_name": "Longfin Crevalle Jack",
+      "species": "Caranx fischeri"
+    },
+    {
+      "lat": 14.71575,
+      "lng": -17.49063,
+      "group": "Mollusca",
+      "common_name": "Octopuses",
+      "species": "Octopoda"
     },
     {
       "lat": 14.71585,
@@ -3464,6 +3912,13 @@
       "lat": -33.37757,
       "lng": 18.38827,
       "group": "Plantae",
+      "common_name": "Saldanha Pincushion",
+      "species": "Leucospermum tomentosum"
+    },
+    {
+      "lat": -33.37757,
+      "lng": 18.38827,
+      "group": "Plantae",
       "common_name": "Agretjie Kalossie",
       "species": "Ixia scillaris"
     },
@@ -3629,6 +4084,13 @@
       "species": "Pentatomoidea"
     },
     {
+      "lat": -32.80506,
+      "lng": 17.89818,
+      "group": "Plantae",
+      "common_name": "common boobialla",
+      "species": "Myoporum insulare"
+    },
+    {
       "lat": -32.80511,
       "lng": 17.89821,
       "group": "Insecta",
@@ -3685,6 +4147,13 @@
       "species": "Ardea melanocephala"
     },
     {
+      "lat": -32.80489,
+      "lng": 17.89812,
+      "group": "Plantae",
+      "common_name": "Perez's sea lavender",
+      "species": "Limonium perezii"
+    },
+    {
       "lat": -32.80521,
       "lng": 17.89805,
       "group": "Insecta",
@@ -3706,6 +4175,48 @@
       "species": "Microhodotermes viator"
     },
     {
+      "lat": -33.26567,
+      "lng": 18.21901,
+      "group": "Mammalia",
+      "common_name": "Common Wildebeest",
+      "species": "Connochaetes taurinus"
+    },
+    {
+      "lat": -33.26558,
+      "lng": 18.21937,
+      "group": "Mammalia",
+      "common_name": "Common Eland",
+      "species": "Tragelaphus oryx"
+    },
+    {
+      "lat": -33.26558,
+      "lng": 18.21937,
+      "group": "Mammalia",
+      "common_name": "Greater Kudu",
+      "species": "Tragelaphus strepsiceros"
+    },
+    {
+      "lat": -33.26558,
+      "lng": 18.21937,
+      "group": "Mammalia",
+      "common_name": "Common Eland",
+      "species": "Tragelaphus oryx"
+    },
+    {
+      "lat": -33.26558,
+      "lng": 18.21937,
+      "group": "Mammalia",
+      "common_name": "Hartebeest",
+      "species": "Alcelaphus buselaphus"
+    },
+    {
+      "lat": -33.26558,
+      "lng": 18.21937,
+      "group": "Mammalia",
+      "common_name": "African Buffalo",
+      "species": "Syncerus caffer"
+    },
+    {
       "lat": -33.26862,
       "lng": 18.22556,
       "group": "Reptilia",
@@ -3713,11 +4224,60 @@
       "species": "Chersina angulata"
     },
     {
+      "lat": -33.27313,
+      "lng": 18.22722,
+      "group": "Mammalia",
+      "common_name": "Springbok",
+      "species": "Antidorcas marsupialis"
+    },
+    {
+      "lat": -33.27313,
+      "lng": 18.22722,
+      "group": "Mammalia",
+      "common_name": "Blue Wildebeest",
+      "species": "Connochaetes taurinus taurinus"
+    },
+    {
+      "lat": -33.27351,
+      "lng": 18.22673,
+      "group": "Mammalia",
+      "common_name": "Plains Zebra",
+      "species": "Equus quagga"
+    },
+    {
+      "lat": -33.27318,
+      "lng": 18.24367,
+      "group": "Mammalia",
+      "common_name": "Southern Giraffe",
+      "species": "Giraffa giraffa"
+    },
+    {
+      "lat": -33.2558,
+      "lng": 18.38661,
+      "group": "Mammalia",
+      "common_name": "Southern White Rhinoceros",
+      "species": "Ceratotherium simum simum"
+    },
+    {
+      "lat": -33.26503,
+      "lng": 18.21941,
+      "group": "Mammalia",
+      "common_name": "Meerkat",
+      "species": "Suricata suricatta"
+    },
+    {
       "lat": -33.26499,
       "lng": 18.21941,
       "group": "Plantae",
       "common_name": "Common Wild Fig",
       "species": "Ficus burkei"
+    },
+    {
+      "lat": -33.26513,
+      "lng": 18.21942,
+      "group": "Mammalia",
+      "common_name": "Slender Mongooses",
+      "species": "Herpestes"
     },
     {
       "lat": -34.04417,
@@ -3769,6 +4329,27 @@
       "species": "Echium plantagineum"
     },
     {
+      "lat": -34.02124,
+      "lng": 18.35905,
+      "group": "Plantae",
+      "common_name": "Scented Storksbill",
+      "species": "Pelargonium inquinans"
+    },
+    {
+      "lat": -34.0215,
+      "lng": 18.35926,
+      "group": "Plantae",
+      "common_name": "clove pink",
+      "species": "Dianthus caryophyllus"
+    },
+    {
+      "lat": -34.0215,
+      "lng": 18.35926,
+      "group": "Plantae",
+      "common_name": "Borage",
+      "species": "Borago officinalis"
+    },
+    {
       "lat": -34.0215,
       "lng": 18.35926,
       "group": "Plantae",
@@ -3797,11 +4378,39 @@
       "species": "Cicadidae"
     },
     {
+      "lat": -33.80047,
+      "lng": 18.87262,
+      "group": "Reptilia",
+      "common_name": "Spectacled Caiman",
+      "species": "Caiman crocodilus"
+    },
+    {
+      "lat": -33.8008,
+      "lng": 18.87226,
+      "group": "Mammalia",
+      "common_name": "Meerkat",
+      "species": "Suricata suricatta"
+    },
+    {
+      "lat": -33.80101,
+      "lng": 18.87254,
+      "group": "Aves",
+      "common_name": "Spotted Eagle-Owl",
+      "species": "Bubo africanus"
+    },
+    {
       "lat": -33.80044,
       "lng": 18.87236,
       "group": "Plantae",
       "common_name": "Peanut-Butter Cassia",
       "species": "Senna didymobotrya"
+    },
+    {
+      "lat": -33.80009,
+      "lng": 18.87251,
+      "group": "Plantae",
+      "common_name": "Swiss Cheese Plant",
+      "species": "Monstera deliciosa"
     },
     {
       "lat": -33.99926,
@@ -3832,6 +4441,13 @@
       "species": "Echium plantagineum"
     },
     {
+      "lat": -34.04416,
+      "lng": 18.34999,
+      "group": "Plantae",
+      "common_name": "King Protea",
+      "species": "Protea cynaroides"
+    },
+    {
       "lat": -34.04412,
       "lng": 18.35008,
       "group": "Insecta",
@@ -3844,6 +4460,13 @@
       "group": "Arachnida",
       "common_name": null,
       "species": "Perenethis"
+    },
+    {
+      "lat": -33.96079,
+      "lng": 18.80877,
+      "group": "Plantae",
+      "common_name": "roses",
+      "species": "Rosa"
     },
     {
       "lat": -33.96079,
@@ -3863,8 +4486,57 @@
       "lat": -33.96079,
       "lng": 18.80877,
       "group": "Plantae",
+      "common_name": "lesser bougainvillea",
+      "species": "Bougainvillea glabra"
+    },
+    {
+      "lat": -33.96079,
+      "lng": 18.80877,
+      "group": "Plantae",
       "common_name": "Three-leaved Rose",
       "species": "Rosa laevigata"
+    },
+    {
+      "lat": -33.96058,
+      "lng": 18.80836,
+      "group": "Mammalia",
+      "common_name": "Domestic Goat",
+      "species": "Capra hircus"
+    },
+    {
+      "lat": -33.8826,
+      "lng": 18.84462,
+      "group": "Mammalia",
+      "common_name": "Tiger",
+      "species": "Panthera tigris"
+    },
+    {
+      "lat": -33.95622,
+      "lng": 18.80174,
+      "group": "Mammalia",
+      "common_name": "Plains Zebra",
+      "species": "Equus quagga"
+    },
+    {
+      "lat": -33.80577,
+      "lng": 18.94205,
+      "group": "Mammalia",
+      "common_name": "Southern Sable Antelope",
+      "species": "Hippotragus niger niger"
+    },
+    {
+      "lat": -33.95727,
+      "lng": 18.80285,
+      "group": "Mammalia",
+      "common_name": "European Fallow Deer",
+      "species": "Dama dama"
+    },
+    {
+      "lat": -33.95546,
+      "lng": 18.80109,
+      "group": "Mammalia",
+      "common_name": "Domestic Water Buffalo",
+      "species": "Bubalus bubalis"
     },
     {
       "lat": -33.95546,
@@ -3872,6 +4544,27 @@
       "group": "Mammalia",
       "common_name": "Cape Eland",
       "species": "Tragelaphus oryx oryx"
+    },
+    {
+      "lat": -33.95541,
+      "lng": 18.80094,
+      "group": "Mammalia",
+      "common_name": "Cape Eland",
+      "species": "Tragelaphus oryx oryx"
+    },
+    {
+      "lat": -33.9554,
+      "lng": 18.80089,
+      "group": "Mammalia",
+      "common_name": "Springbok",
+      "species": "Antidorcas marsupialis"
+    },
+    {
+      "lat": -33.96144,
+      "lng": 18.80929,
+      "group": "Plantae",
+      "common_name": "Tickseed",
+      "species": "Coreopsis"
     },
     {
       "lat": -33.96144,
@@ -3891,8 +4584,22 @@
       "lat": -33.96144,
       "lng": 18.80929,
       "group": "Plantae",
+      "common_name": "Japanese Iris",
+      "species": "Iris sanguinea"
+    },
+    {
+      "lat": -33.96144,
+      "lng": 18.80929,
+      "group": "Plantae",
       "common_name": "Onion Weed",
       "species": "Nothoscordum gracile"
+    },
+    {
+      "lat": -33.96144,
+      "lng": 18.80929,
+      "group": "Plantae",
+      "common_name": "Chinese Snowball Viburnum",
+      "species": "Viburnum macrocephalum"
     },
     {
       "lat": -34.04413,
@@ -4033,6 +4740,27 @@
       "group": "Insecta",
       "common_name": "Koppie Foam Grasshopper",
       "species": "Dictyophorus spumans"
+    },
+    {
+      "lat": -34.10387,
+      "lng": 19.66848,
+      "group": "Plantae",
+      "common_name": "fever tree",
+      "species": "Vachellia xanthophloea"
+    },
+    {
+      "lat": -34.10387,
+      "lng": 19.66848,
+      "group": "Plantae",
+      "common_name": "Port Jackson fig",
+      "species": "Ficus rubiginosa"
+    },
+    {
+      "lat": -34.10372,
+      "lng": 19.66874,
+      "group": "Plantae",
+      "common_name": "Peruvian Lily",
+      "species": "Alstroemeria aurea"
     },
     {
       "lat": -34.10372,
@@ -4189,6 +4917,13 @@
       "species": "Trifolium angustifolium"
     },
     {
+      "lat": -34.00308,
+      "lng": 18.44953,
+      "group": "Plantae",
+      "common_name": "bougainvilleas",
+      "species": "Bougainvillea"
+    },
+    {
       "lat": -34.05273,
       "lng": 18.36631,
       "group": "Plantae",
@@ -4301,6 +5036,13 @@
       "species": "Motacilla capensis capensis"
     },
     {
+      "lat": -33.79251,
+      "lng": 20.11474,
+      "group": "Mammalia",
+      "common_name": "Alpaca",
+      "species": "Lama pacos"
+    },
+    {
       "lat": -33.4631,
       "lng": 22.55586,
       "group": "Reptilia",
@@ -4322,6 +5064,13 @@
       "species": "Vachellia karroo"
     },
     {
+      "lat": -33.4629,
+      "lng": 22.55591,
+      "group": "Plantae",
+      "common_name": null,
+      "species": "Ciconium"
+    },
+    {
       "lat": -33.46338,
       "lng": 22.55581,
       "group": "Aves",
@@ -4334,6 +5083,13 @@
       "group": "Aves",
       "common_name": "Cape Sparrow",
       "species": "Passer melanurus"
+    },
+    {
+      "lat": -33.84028,
+      "lng": 23.89399,
+      "group": "Plantae",
+      "common_name": "Skyflower",
+      "species": "Duranta erecta"
     },
     {
       "lat": -33.89816,
@@ -4476,6 +5232,13 @@
       "species": "Equus quagga burchellii"
     },
     {
+      "lat": -34.14131,
+      "lng": 23.91923,
+      "group": "Mammalia",
+      "common_name": "Leopard",
+      "species": "Panthera pardus"
+    },
+    {
       "lat": -34.01986,
       "lng": 23.90171,
       "group": "Mammalia",
@@ -4521,8 +5284,29 @@
       "lat": -33.95049,
       "lng": 23.31331,
       "group": "Plantae",
+      "common_name": "Mexican Plumeria",
+      "species": "Plumeria rubra"
+    },
+    {
+      "lat": -33.95049,
+      "lng": 23.31331,
+      "group": "Plantae",
+      "common_name": "Garden Canna",
+      "species": "Canna × hybrida"
+    },
+    {
+      "lat": -33.95049,
+      "lng": 23.31331,
+      "group": "Plantae",
       "common_name": "blue lily",
       "species": "Agapanthus praecox"
+    },
+    {
+      "lat": -33.95049,
+      "lng": 23.31331,
+      "group": "Plantae",
+      "common_name": "silverleafed princess flower",
+      "species": "Pleroma heteromallum"
     },
     {
       "lat": -33.9505,
@@ -4672,6 +5456,13 @@
       "species": "Acheta domesticus"
     },
     {
+      "lat": -33.95188,
+      "lng": 23.31442,
+      "group": "Plantae",
+      "common_name": "Matchstick Bromeliad",
+      "species": "Aechmea gamosepala"
+    },
+    {
       "lat": -33.95184,
       "lng": 23.31259,
       "group": "Plantae",
@@ -4698,6 +5489,20 @@
       "group": "Actinopterygii",
       "common_name": "Amur Carp",
       "species": "Cyprinus rubrofuscus"
+    },
+    {
+      "lat": -34.19323,
+      "lng": 23.3917,
+      "group": "Plantae",
+      "common_name": "Natal Swamplily",
+      "species": "Crinum moorei"
+    },
+    {
+      "lat": -34.03424,
+      "lng": 23.37256,
+      "group": "Plantae",
+      "common_name": "Waterglass Kopieva",
+      "species": "Bulbine latifolia"
     },
     {
       "lat": -34.03431,
@@ -4791,6 +5596,34 @@
       "species": "Leucospermum grandiflorum"
     },
     {
+      "lat": -33.73329,
+      "lng": 18.94312,
+      "group": "Plantae",
+      "common_name": "Longleaf Heath",
+      "species": "Erica viscaria longifolia"
+    },
+    {
+      "lat": -33.73391,
+      "lng": 18.94409,
+      "group": "Plantae",
+      "common_name": "Sugarbushes",
+      "species": "Protea"
+    },
+    {
+      "lat": -33.73406,
+      "lng": 18.94452,
+      "group": "Plantae",
+      "common_name": "Roughpetal Heath complex",
+      "species": "Erica viscaria"
+    },
+    {
+      "lat": -33.73424,
+      "lng": 18.94506,
+      "group": "Plantae",
+      "common_name": "Discolorous Heath",
+      "species": "Erica discolor"
+    },
+    {
       "lat": -33.73428,
       "lng": 18.94516,
       "group": "Insecta",
@@ -4826,6 +5659,13 @@
       "species": "Lygodactylus capensis"
     },
     {
+      "lat": -33.88973,
+      "lng": 18.81929,
+      "group": "Plantae",
+      "common_name": "Cook pine",
+      "species": "Araucaria columnaris"
+    },
+    {
       "lat": -33.8898,
       "lng": 18.81924,
       "group": "Insecta",
@@ -4838,6 +5678,13 @@
       "group": "Insecta",
       "common_name": "Broad Scarlet",
       "species": "Crocothemis erythraea"
+    },
+    {
+      "lat": -33.89129,
+      "lng": 18.81838,
+      "group": "Plantae",
+      "common_name": "Yellow Fortnight Lily",
+      "species": "Dietes bicolor"
     },
     {
       "lat": -34.04085,
@@ -5274,6 +6121,13 @@
       "species": "Rhodogastria amasis"
     },
     {
+      "lat": -33.8465,
+      "lng": 18.94536,
+      "group": "Plantae",
+      "common_name": "planes",
+      "species": "Platanus"
+    },
+    {
       "lat": -33.84837,
       "lng": 18.94632,
       "group": "Plantae",
@@ -5307,6 +6161,13 @@
       "group": "Plantae",
       "common_name": "clockweed",
       "species": "Oenothera lindheimeri"
+    },
+    {
+      "lat": -34.03484,
+      "lng": 18.36159,
+      "group": "Plantae",
+      "common_name": "Flowering Plants",
+      "species": "Angiospermae"
     },
     {
       "lat": -34.03462,
@@ -5405,6 +6266,13 @@
       "group": "Mammalia",
       "common_name": "Cape Golden Mole",
       "species": "Chrysochloris asiatica"
+    },
+    {
+      "lat": -33.395,
+      "lng": 18.88705,
+      "group": "Plantae",
+      "common_name": "roses",
+      "species": "Rosa"
     },
     {
       "lat": -33.39247,
@@ -5736,6 +6604,13 @@
       "species": "Cassionympha cassius"
     },
     {
+      "lat": -33.90764,
+      "lng": 18.40718,
+      "group": "Plantae",
+      "common_name": "Common Coral Tree",
+      "species": "Erythrina lysistemon"
+    },
+    {
       "lat": -1.95915,
       "lng": 30.06163,
       "group": "Plantae",
@@ -5750,11 +6625,25 @@
       "species": "Hibiscus"
     },
     {
+      "lat": -1.95096,
+      "lng": 30.05967,
+      "group": "Plantae",
+      "common_name": null,
+      "species": "Spathoglottis unguiculata"
+    },
+    {
       "lat": -1.96008,
       "lng": 30.06274,
       "group": "Plantae",
       "common_name": "Society Garlic",
       "species": "Tulbaghia violacea"
+    },
+    {
+      "lat": -1.96008,
+      "lng": 30.06274,
+      "group": "Plantae",
+      "common_name": null,
+      "species": "Hibisceae"
     },
     {
       "lat": -1.95303,
@@ -5813,6 +6702,13 @@
       "species": "Zingiberales"
     },
     {
+      "lat": -1.93084,
+      "lng": 30.06104,
+      "group": "Plantae",
+      "common_name": "Swiss Cheese Plant",
+      "species": "Monstera deliciosa"
+    },
+    {
       "lat": -1.94782,
       "lng": 30.06355,
       "group": "Plantae",
@@ -5832,6 +6728,13 @@
       "group": "Aves",
       "common_name": "African Sacred Ibis",
       "species": "Threskiornis aethiopicus"
+    },
+    {
+      "lat": -34.04402,
+      "lng": 18.36187,
+      "group": "Plantae",
+      "common_name": "scrub cherry",
+      "species": "Syzygium australe"
     },
     {
       "lat": -34.04406,
@@ -6070,6 +6973,20 @@
       "group": "Arachnida",
       "common_name": "Jumping Spiders",
       "species": "Salticidae"
+    },
+    {
+      "lat": -33.81994,
+      "lng": 18.5036,
+      "group": "Plantae",
+      "common_name": "Common screwpine",
+      "species": "Pandanus utilis"
+    },
+    {
+      "lat": -33.89473,
+      "lng": 18.44721,
+      "group": "Aves",
+      "common_name": "Moseley's Rockhopper Penguin",
+      "species": "Eudyptes moseleyi"
     },
     {
       "lat": -33.79957,
@@ -6401,6 +7318,13 @@
       "species": "Anas platyrhynchos domesticus"
     },
     {
+      "lat": -33.95498,
+      "lng": 18.89379,
+      "group": "Plantae",
+      "common_name": "poor man's cycad",
+      "species": "Encephalartos villosus"
+    },
+    {
       "lat": -33.82413,
       "lng": 18.92647,
       "group": "Plantae",
@@ -6420,6 +7344,13 @@
       "group": "Plantae",
       "common_name": "Yellow Pondlily",
       "species": "Nymphoides thunbergiana"
+    },
+    {
+      "lat": -33.82457,
+      "lng": 18.92646,
+      "group": "Plantae",
+      "common_name": "Waterlilies",
+      "species": "Nymphaea"
     },
     {
       "lat": -34.044,
@@ -6637,6 +7568,13 @@
       "group": "Insecta",
       "common_name": "African Stick Mantises",
       "species": "Hoplocorypha"
+    },
+    {
+      "lat": -26.52514,
+      "lng": 20.60235,
+      "group": "Aves",
+      "common_name": "Mainland Emu",
+      "species": "Dromaius novaehollandiae novaehollandiae"
     },
     {
       "lat": -26.43367,
@@ -7640,6 +8578,13 @@
       "species": "Commelina forskaolii"
     },
     {
+      "lat": -19.74902,
+      "lng": 26.0714,
+      "group": "Plantae",
+      "common_name": "beautiful bougainvillea",
+      "species": "Bougainvillea spectabilis"
+    },
+    {
       "lat": -19.74873,
       "lng": 26.07154,
       "group": "Aves",
@@ -8018,6 +8963,20 @@
       "species": "Calliphoridae"
     },
     {
+      "lat": -27.51031,
+      "lng": 23.30432,
+      "group": "Mammalia",
+      "common_name": "Llamas and Guanacos",
+      "species": "Lama"
+    },
+    {
+      "lat": -27.50974,
+      "lng": 23.30394,
+      "group": "Plantae",
+      "common_name": null,
+      "species": "Cereus"
+    },
+    {
       "lat": -27.50974,
       "lng": 23.30394,
       "group": "Plantae",
@@ -8256,6 +9215,13 @@
       "species": "Xerocomus subtomentosus"
     },
     {
+      "lat": -34.03897,
+      "lng": 19.40406,
+      "group": "Plantae",
+      "common_name": "Spotted Bloodlily",
+      "species": "Haemanthus coccineus"
+    },
+    {
       "lat": -34.03893,
       "lng": 19.40404,
       "group": "Fungi",
@@ -8424,6 +9390,27 @@
       "species": "Laetiporus sulphureus"
     },
     {
+      "lat": -33.91602,
+      "lng": 19.12187,
+      "group": "Plantae",
+      "common_name": "Bloodgums",
+      "species": "Corymbia"
+    },
+    {
+      "lat": -33.91602,
+      "lng": 19.12187,
+      "group": "Plantae",
+      "common_name": "Red-flowering gum",
+      "species": "Corymbia ficifolia"
+    },
+    {
+      "lat": -32.27328,
+      "lng": 18.93208,
+      "group": "Plantae",
+      "common_name": "Dicots",
+      "species": "Magnoliopsida"
+    },
+    {
       "lat": -32.07385,
       "lng": 19.0786,
       "group": "Reptilia",
@@ -8576,6 +9563,62 @@
       "group": "Animalia",
       "common_name": "Pyjama Shark",
       "species": "Poroderma africanum"
+    },
+    {
+      "lat": -34.02176,
+      "lng": 18.36363,
+      "group": "Aves",
+      "common_name": "Rose-ringed Parakeet",
+      "species": "Psittacula krameri"
+    },
+    {
+      "lat": -34.08661,
+      "lng": 18.37632,
+      "group": "Mammalia",
+      "common_name": "Ring-tailed Lemur",
+      "species": "Lemur catta"
+    },
+    {
+      "lat": -34.01676,
+      "lng": 18.36137,
+      "group": "Mammalia",
+      "common_name": "Squirrel Monkeys",
+      "species": "Saimiri"
+    },
+    {
+      "lat": -34.01686,
+      "lng": 18.36167,
+      "group": "Mammalia",
+      "common_name": "Serval",
+      "species": "Leptailurus serval"
+    },
+    {
+      "lat": -34.01739,
+      "lng": 18.36137,
+      "group": "Aves",
+      "common_name": "Western Barn Owl",
+      "species": "Tyto alba"
+    },
+    {
+      "lat": -34.0172,
+      "lng": 18.36159,
+      "group": "Aves",
+      "common_name": "Spotted Eagle-Owl",
+      "species": "Bubo africanus"
+    },
+    {
+      "lat": -34.0185,
+      "lng": 18.36511,
+      "group": "Aves",
+      "common_name": "Silver Pheasant",
+      "species": "Lophura nycthemera"
+    },
+    {
+      "lat": -34.1983,
+      "lng": 18.37414,
+      "group": "Mammalia",
+      "common_name": "Cotton-headed Tamarin",
+      "species": "Saguinus oedipus"
     },
     {
       "lat": -34.02812,
@@ -9311,6 +10354,104 @@
       "group": "Animalia",
       "common_name": "Cape Beach Hopper",
       "species": "Capeorchestia capensis"
+    },
+    {
+      "lat": -34.04062,
+      "lng": 18.35401,
+      "group": "Mammalia",
+      "common_name": "Eastern Gray Squirrel",
+      "species": "Sciurus carolinensis"
+    },
+    {
+      "lat": -34.02054,
+      "lng": 18.41983,
+      "group": "Mammalia",
+      "common_name": "Cape Chacma Baboon",
+      "species": "Papio ursinus ursinus"
+    },
+    {
+      "lat": -33.73421,
+      "lng": 18.96211,
+      "group": "Plantae",
+      "common_name": "Small-leaved plane",
+      "species": "Ochna serrulata"
+    },
+    {
+      "lat": -33.73421,
+      "lng": 18.96211,
+      "group": "Plantae",
+      "common_name": "sunshine mimosa",
+      "species": "Mimosa strigillosa"
+    },
+    {
+      "lat": -33.73421,
+      "lng": 18.96211,
+      "group": "Plantae",
+      "common_name": "Blue Ladieshand",
+      "species": "Cyanella hyacinthoides"
+    },
+    {
+      "lat": -33.73421,
+      "lng": 18.96211,
+      "group": "Plantae",
+      "common_name": "Greyleaf Fountain Pincushion",
+      "species": "Leucospermum grandiflorum"
+    },
+    {
+      "lat": -33.73421,
+      "lng": 18.96211,
+      "group": "Plantae",
+      "common_name": "Spiky Summerpipe",
+      "species": "Thereianthus spicatus"
+    },
+    {
+      "lat": -33.73421,
+      "lng": 18.96211,
+      "group": "Plantae",
+      "common_name": "Rough blue sage",
+      "species": "Salvia chamelaeagnea"
+    },
+    {
+      "lat": -33.73421,
+      "lng": 18.96211,
+      "group": "Plantae",
+      "common_name": null,
+      "species": "Schistostephium umbellatum"
+    },
+    {
+      "lat": -34.08988,
+      "lng": 18.49586,
+      "group": "Plantae",
+      "common_name": "Cape Honeysuckle",
+      "species": "Tecomaria capensis"
+    },
+    {
+      "lat": -34.04969,
+      "lng": 18.3483,
+      "group": "Mammalia",
+      "common_name": "Brown Fur Seal",
+      "species": "Arctocephalus pusillus"
+    },
+    {
+      "lat": -34.09684,
+      "lng": 18.42366,
+      "group": "Plantae",
+      "common_name": "Fire Heath",
+      "species": "Erica cerinthoides"
+    },
+    {
+      "lat": -34.02748,
+      "lng": 18.48388,
+      "group": "Animalia",
+      "common_name": "Puffadder Shyshark",
+      "species": "Haploblepharus edwardsii"
+    },
+    {
+      "lat": -34.18716,
+      "lng": 18.42955,
+      "group": "Animalia",
+      "common_name": null,
+      "species": "Ophiodermatidae"
     }
   ]
 }

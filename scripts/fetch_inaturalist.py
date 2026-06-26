@@ -62,7 +62,11 @@ def summarise_observation(o: dict) -> dict:
 
 def main():
     # --- aggregate stats -------------------------------------------------
-    base = dict(user_login=INAT_USER, verifiable="true")
+    # No verifiable filter: count every observation, matching the totals shown
+    # on the iNaturalist profile (verifiable="true" would drop casual/no-media
+    # observations and undercount). The map/coords still only use observations
+    # that carry non-obscured coordinates, and the gallery still filters photos.
+    base = dict(user_login=INAT_USER)
     total = get("observations", per_page=0, **base)["total_results"]
     species = get("observations/species_counts", per_page=0, **base)["total_results"]
     threatened = get("observations", per_page=0, threatened="true", **base)["total_results"]
