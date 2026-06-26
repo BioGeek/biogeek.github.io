@@ -1,0 +1,132 @@
+---
+title: "What I've been finding: my iNaturalist sightings"
+subtitle: "A naturalist's logbook, kept up to date straight from the iNaturalist API"
+description: >
+  Favourite sightings, the rare and threatened ones, and what the numbers say
+  about where and what I observe — pulled live from iNaturalist and refreshed
+  automatically.
+date: 2026-06-26
+categories: [nature, data, south africa, api]
+image: inat-by-group.png   # produced on render
+image-alt: "Observations by taxonomic group"
+freeze: false              # always re-run: the data file updates out of band
+draft: true                # <- remove to publish
+---
+
+```{python}
+#| label: load
+#| echo: false
+import json, datetime
+data = json.load(open("inat.json", encoding="utf-8"))
+s = data["stats"]
+gen = data["generated_at"][:10]
+```
+
+Every walk on the mountain or the shoreline ends the same way: phone out,
+photographing something I can't name yet. [iNaturalist](https://www.inaturalist.org)
+turns that habit into data — and since the numbers below come from its API and
+refresh on their own, this page is never out of date.
+
+```{python}
+#| label: stat-cards
+#| echo: false
+from IPython.display import HTML
+def card(value, label):
+    return (f'<div style="flex:1;min-width:120px;border:1px solid #e2e2e2;'
+            f'border-radius:10px;padding:.9rem 1rem;text-align:center">'
+            f'<div style="font-size:1.6rem;font-weight:700;color:#0b5e54">{value}</div>'
+            f'<div style="font-size:.8rem;color:#666">{label}</div></div>')
+pct = round(100 * s["research_grade"] / max(s["observations"], 1))
+HTML('<div style="display:flex;gap:1rem;flex-wrap:wrap;margin:1rem 0">' + "".join([
+    card(f'{s["observations"]:,}', "observations"),
+    card(f'{s["species"]:,}', "species"),
+    card(f'{s["threatened_observations"]:,}', "threatened taxa"),
+    card(f'{pct}%', "research grade"),
+]) + '</div>')
+```
+
+## Favourite sightings
+
+A few I keep coming back to. Conservation status, where iNaturalist records it,
+is flagged.
+
+```{python}
+#| label: gallery
+#| echo: false
+from IPython.display import HTML
+TEAL = "#0b5e54"
+cards = []
+for f in data["favourites"]:
+    cs = f.get("conservation_status")
+    badge = (f'<span style="background:{TEAL};color:#fff;border-radius:4px;'
+             f'padding:1px 6px;font-size:.72rem">{cs}</span>') if cs else ""
+    name = f.get("common_name") or f.get("species") or "Unknown"
+    sci = f.get("species") or ""
+    place = f.get("place") or ""
+    img = f.get("photo") or ""
+    cards.append(f'''
+      <figure style="margin:0">
+        <a href="{f['uri']}"><img src="{img}" loading="lazy" alt="{name}"
+           style="width:100%;aspect-ratio:1;object-fit:cover;border-radius:8px"></a>
+        <figcaption style="font-size:.82rem;line-height:1.3;margin-top:.35rem">
+          <strong>{name}</strong> {badge}<br>
+          <em style="color:#666">{sci}</em><br>
+          <span style="color:#888">{place} · ♥ {f.get('faves',0)}</span>
+        </figcaption>
+      </figure>''')
+HTML('<div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));'
+     'gap:1rem">' + "".join(cards) + '</div>')
+```
+
+## By the numbers
+
+```{python}
+#| label: fig-by-group
+#| fig-cap: "Observations by taxonomic group."
+#| echo: false
+import matplotlib.pyplot as plt
+g = s["by_group"]
+fig, ax = plt.subplots(figsize=(7, 3.4))
+ax.barh(list(g)[::-1], list(g.values())[::-1], color="#0b5e54")
+ax.set_xlabel("observations")
+fig.tight_layout(); fig.savefig("inat-by-group.png", dpi=130)
+```
+
+```{python}
+#| label: fig-by-year
+#| fig-cap: "Observations per year — the shape of a growing life list."
+#| echo: false
+y = s["by_year"]
+fig, ax = plt.subplots(figsize=(7, 2.8))
+ax.bar(list(y), list(y.values()), color="#0b5e54")
+ax.set_ylabel("observations"); plt.xticks(rotation=45, ha="right")
+fig.tight_layout()
+```
+
+### Most-observed species
+
+```{python}
+#| label: tbl-top
+#| echo: false
+import pandas as pd
+df = pd.DataFrame(s["top_species"])
+df.index = range(1, len(df) + 1)
+df.columns = ["species", "common name", "times observed"]
+df
+```
+
+::: {.callout-note collapse="true"}
+## How this stays current
+A scheduled GitHub Action runs `scripts/fetch_inaturalist.py` (public
+iNaturalist API, no credentials), writes `inat.json`, commits it, and re-renders
+the site. The page reads only that file, so rendering is fast and offline; the
+freshness comes from the schedule. Locations for threatened taxa are obscured by
+iNaturalist, so nothing here pinpoints a sensitive species.
+
+```{python}
+#| label: refreshed
+#| echo: false
+#| output: asis
+print(f"*Last refreshed: {gen}. Photos and observations © the observer, via iNaturalist.*")
+```
+:::
