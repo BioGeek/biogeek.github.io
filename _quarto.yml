@@ -1,6 +1,13 @@
 project:
   type: website
   output-dir: docs
+  render:
+    # Explicit render set so donkeycar-roadmap.md (and other stray .md like
+    # README) is NOT published — the roadmap stays in the repo as a personal
+    # "what to work on next" reference only.
+    - "*.qmd"
+    - "posts/"
+    - "projects/"
   post-render:
     - "cp -rv .well-known/. docs/.well-known/"
     - "cp CNAME docs/"
