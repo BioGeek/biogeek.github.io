@@ -12,6 +12,8 @@ wheels/
 /.quarto/
 
 **/*.quarto_ipynb
+# Collision-suffixed intermediates left by overlapping/interrupted renders.
+**/*.quarto_ipynb_*
 
 # Rendered site (built and deployed by GitHub Actions, not committed)
 /docs/
