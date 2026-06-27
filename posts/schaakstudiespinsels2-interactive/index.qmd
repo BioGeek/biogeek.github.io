@@ -1,0 +1,195 @@
+---
+title: "Turning my grandfather's chess book into a playable website"
+subtitle: "OCR, a piece classifier, a Dutch-notation parser and a tablebase oracle — the pipeline behind an interactive edition of 308 endgame studies"
+description: >
+  How I converted a printed book of 308 original chess endgame studies into a
+  bilingual site where every study is a clickable, playable board — and why
+  getting a correct starting position off a printed diagram was the hard part.
+date: 2026-06-27
+categories: [chess, side project, computer vision, parsing]
+image: cover.jpg
+image-alt: "SchaakStudieSpinselS 2 cover artwork"
+draft: true   # <- remove this line to publish
+---
+
+> **Working draft.** The technical sections are written from the real pipeline;
+> the blockquote prompts (the opening hook and the closing reflection) are the
+> bits that should be in your own voice — fill those in.
+
+## The artifact
+
+> Personal hook: who Bompa (Ignace Vandecasteele) was, what the book is, and why
+> a printed collection of his original endgame studies was worth more than a PDF
+> on a shelf. One honest sentence about wanting his work to outlive the print run.
+
+[*Schaakstudiespinsels 2*](https://schaakstudiespinsels2.be/nl/) is the second
+volume of original chess endgame studies composed by my grandfather, Ignace
+Vandecasteele. A study is a constructed position with a stipulation — *White to
+play and win*, or *to draw* — and a single, often surprising, solution. In print
+each one is a static diagram, a string of moves in Dutch notation, and a few
+lines of analysis. The whole point of a study is that you play it out; a frozen
+diagram on paper is the one format that *won't* let you do that.
+
+So the goal was simple to state and annoying to deliver: turn every one of the
+308 studies into a position you can click through — main line, variations and
+sub-variations — in the browser, in both Dutch and English.
+
+## Two halves: a pipeline and a site
+
+The project is really two codebases that meet at a contract:
+
+- A **Python ingestion pipeline** that reads the printed PDF and emits one JSON
+  file per study.
+- An **[Astro](https://astro.build/) site** that renders each JSON as a prose
+  page plus an interactive board.
+
+The contract between them is a single [Zod](https://zod.dev/) schema. The Python
+parser emits exactly that shape; the Astro components read it. Everything hard
+happens on the Python side — the site is "just" rendering — so that is where
+most of this post lives.
+
+The hard problem, stated precisely: **recover a correct, machine-checkable
+position and move tree from a printed diagram and a paragraph of Dutch chess
+notation.** Neither half of that input is clean.
+
+## Step 1 — finding where each study starts
+
+The book has two studies to a page sometimes, page-number artefacts bleeding
+into the text, and the occasional OCR smudge. The extractor finds study
+boundaries by collecting every `- N -` header span across all pages and sorting
+them in reading order — left column top to bottom, then right column. That
+ordering is what correctly splits a page shared by two studies, something a
+naïve top-to-bottom pass silently merged.
+
+> **A bug worth remembering.** The header regex required a line starting with
+> `-`. A single mis-OCR'd header — `.- 115 -`, with a stray leading period —
+> made study 115 invisible, and it was silently swallowed into its neighbour. It
+> had to be hand-reconstructed. Lesson: the parser that *segments* your input is
+> exactly as fragile as the noisiest character in your scan.
+
+## Step 2 — reading the board (the genuinely hard part)
+
+Each study ships with a diagram image. Deriving the starting [FEN](https://en.wikipedia.org/wiki/Forsyth%E2%80%93Edwards_Notation)
+(the standard text encoding of a position) from that image is a two-pass
+computer-vision problem:
+
+1. **Shape** — match each piece against templates using
+   [Hu moments](https://en.wikipedia.org/wiki/Image_moment#Rotation_invariants),
+   which are scale- and rotation-invariant, to guess the piece *type*.
+2. **Colour** — mean brightness inside the piece mask decides black vs. white.
+
+Piece *locations* come out reliable. Piece *type* is the weak point: the
+silhouettes of a queen, a rook and a bishop are close enough that the classifier
+regularly confuses them — the classic **queen-vs-rook-vs-bishop** problem.
+
+The fix is to bring in a second, independent source of truth. Every study is
+annotated with a [GBR code](https://en.wikipedia.org/wiki/GBR_code), which
+specifies the exact material on the board. So the pipeline snaps the kings onto
+their GBR squares and relabels mis-typed officers to the type the GBR code
+demands — but only when it's unambiguous. Count mismatches and genuinely
+ambiguous cases are surfaced as warnings, not papered over.
+
+## Step 3 — the swap the material count can't see
+
+Here is the subtle failure that makes this project interesting. If the
+classifier swaps a rook and a bishop, the *material counts* are still correct —
+one rook, one bishop, both present — so the GBR check sees nothing wrong. The
+board is still wrong, though, and you only find out because **the book's first
+move is now illegal**.
+
+The repair (`resolve_types.py`) is solution-driven. When the classifier's FEN
+fails to parse the full move list, it enumerates every officer-type assignment
+that keeps the GBR counts intact (king and pawn squares fixed), parses the
+study's solution against each candidate, and keeps the one whose move tree runs
+**strictly deeper** than the classifier's own guess. The solution itself
+disambiguates the position.
+
+The payoff is reproducibility: type-swap studies now rebuild correctly from a
+clean clone, with no hand-written override files. And it's cheap — the stage
+only fires when the classifier's FEN can't parse the moves, so the studies the
+classifier already got right pay nothing.
+
+## Step 4 — parsing Dutch move notation into a tree
+
+With a trustworthy starting position, the parser turns the printed Dutch
+notation (`K D T L P` for King, Queen, Rook, Bishop, Knight) into a structured
+move tree, validating **every** move through
+[python-chess](https://python-chess.readthedocs.io/) and recording the resulting
+FEN after each ply. It handles the main line, top-level variants (`Variant A`/`B`)
+and nested sub-variants (`a)`, `b)`); prose paragraphs between move blocks are
+kept as analysis attached to the surrounding moves.
+
+Most of the parser's complexity is in telling structure apart from prose: a
+refutation line that opens with a move number is split off as commentary rather
+than seeded into the tree, and a fresh move-block whose first ply steps
+*backward* relative to where we are is treated as a reference game or side-line,
+not a continuation. That single "does this move go backward?" guard
+un-truncated dozens of studies that an embedded side-line had been silently
+cutting short.
+
+## Step 5 — two gates, because "legal" isn't "correct"
+
+This is the part I'd press on anyone building something similar: **a consistency
+check is necessary but not sufficient.**
+
+The first gate, `verify_studies.py`, confirms three things: the FEN's material
+and king squares match the GBR code, at least one move parsed, and the move tree
+is *internally consistent* — every move is legal from its parent and lands on
+its recorded position. That catches corruption. It does **not** catch a study
+that is perfectly legal and still wrong — a position mis-read in a way that turns
+a win into a theoretical draw, say, or a side-to-move error.
+
+So there's a second, independent gate: `tablebase_audit.py` queries the
+[Lichess endgame tablebase](https://lichess.org/blog/W3WeMyQAACQAdfAL/7-piece-syzygy-tablebases-are-complete)
+for each starting position and checks the *value* against the stipulation — a
+"White to win" study had better be a tablebase win for White. It caught a whole
+class of studies that sailed through `verify` and were still wrong: queen↔bishop
+and knight↔bishop type swaps that preserved the material count, a rook one file
+off that quietly allowed a drawing capture, a king one square off, and
+side-to-move mistakes. Studies whose verdict matches get stamped
+`"tablebaseVerified": true` so the UI can show a badge.
+
+At the time of writing, **220 of the shipped studies are tablebase-verified**;
+the rest have more than eight pieces and fall outside current tablebase
+coverage, so they wait for the tablebases to grow.
+
+## The site
+
+The frontend is a static [Astro](https://astro.build/) site, bilingual (Dutch
+default, English secondary) with file-based i18n routing. The board is
+deliberately split in two:
+
+- The move table is rendered **server-side**, grouped into book-style numbered
+  rows with the variation tree nested underneath.
+- That markup is **hydrated client-side** with
+  [cm-chessboard](https://github.com/shaack/cm-chessboard) and
+  [chess.js](https://github.com/jhlywa/chess.js), wiring up prev/next/start/end
+  controls and click-to-jump on any move.
+
+Canonical storage is English SAN (what chess.js needs); the Dutch display
+letters are produced at render time. The nicest detail, and the one most in the
+spirit of the book: the board doesn't use a stock piece set. It uses a custom
+SVG sprite generated from **Ignace's own hand-drawn piece silhouettes**, lifted
+from a strip in the original source.
+
+## What I chose not to ship
+
+305 of the book's 308 studies are live. Three are deliberately held back, and I
+think *which* three says something about the project's standard:
+
+- **45 and 205** — the move text was OCR-corrupted beyond safe reconstruction.
+  One plausible-looking reconstruction of 45 was internally legal and passed
+  `verify`, but ended by hanging the queen. Legal isn't correct.
+- **252** — not a pipeline failure at all: the book itself leaves Black's eighth
+  move blank at the zugzwang point. A genuine gap in the source, faithfully left
+  as a gap.
+
+## What I'd take to the next project
+
+> Closing reflection in your voice. A few candidates to draw from: the value of
+> a second, independent oracle (the tablebase) over a self-consistency check;
+> how much of "AI/ML" work is really data-cleaning and ground-truth wrangling;
+> and the quiet satisfaction of making your grandfather's studies playable by
+> anyone with a browser. Land it personally.
+
+[**Browse the studies →**](https://schaakstudiespinsels2.be/nl/)
