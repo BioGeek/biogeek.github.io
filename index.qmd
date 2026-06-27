@@ -433,7 +433,7 @@ Secondary education: mathematics–modern languages
   </a>
   <div class="pub-body">
     <div class="pub-title"><a href="https://schaakstudiespinsels2.be/nl/">SchaakStudieSpinselS 2</a></div>
-    <p>More than three hundred chess endgame studies composed by my grandfather, the Flemish study composer Ignace Vandecasteele. I'm digitising the second volume and putting the whole collection online.</p>
+    <p>More than three hundred chess endgame studies composed by my grandfather, the Flemish study composer Ignace Vandecasteele. I have digitised the second volume of his third book, put the whole collection online, and made the chess boards interactive.</p>
     <div class="pub-badges">
       <a class="badge-primary" href="https://schaakstudiespinsels2.be/nl/"><i class="bi bi-box-arrow-up-right"></i> Live site</a>
       <a href="https://github.com/BioGeek/SchaakStudieSpinsels2"><i class="bi bi-github"></i> Code</a>
