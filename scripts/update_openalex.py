@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
 """Sync citation metrics from OpenAlex into index.qmd and data/openalex.json.
 
-Fetches author metrics (total citations, h-index, i10-index, citations per year)
-by ORCID from the free OpenAlex API (no key; an email puts us in the polite
-pool), builds a tiny inline-SVG citations-per-year sparkline, and rewrites the
+Fetches author metrics (total citations, h-index, i10-index) by ORCID from the
+free OpenAlex API (no key; an email puts us in the polite pool) and rewrites the
 content between these markers in index.qmd:
 
     <!-- OPENALEX:START --> ... <!-- OPENALEX:END -->
@@ -26,7 +25,6 @@ ORCID = "0000-0003-4480-5567"
 QMD = "index.qmd"
 DATA = "data/openalex.json"
 MAILTO = "jeroen.vangoey@gmail.com"          # OpenAlex "polite pool"
-TEAL = "#0b5e54"
 MARKERS = re.compile(r"(<!-- OPENALEX:START -->).*?(<!-- OPENALEX:END -->)", re.S)
 
 
@@ -45,25 +43,6 @@ def get(url, retries=4):
                 continue
             raise
     raise last
-
-
-def sparkline(counts_by_year, n=8):
-    """Inline SVG bar sparkline of citations received per year."""
-    years = sorted(counts_by_year, key=lambda c: c["year"])[-n:]
-    if not years:
-        return ""
-    vals = [c["cited_by_count"] for c in years]
-    mx = max(vals) or 1
-    bw, gap, h = 9, 3, 26
-    bars = "".join(
-        f'<rect x="{i*(bw+gap)}" y="{h-round(h*v/mx)}" width="{bw}" '
-        f'height="{round(h*v/mx)}" rx="1" fill="{TEAL}">'
-        f'<title>{c["year"]}: {v} citations</title></rect>'
-        for i, (c, v) in enumerate(zip(years, vals)))
-    w = len(vals) * (bw + gap)
-    return (f'<svg width="{w}" height="{h}" viewBox="0 0 {w} {h}" '
-            f'style="vertical-align:-0.4em;margin:0 .4rem" role="img" '
-            f'aria-label="Citations per year">{bars}</svg>')
 
 
 def main():
@@ -97,7 +76,7 @@ def main():
              f'<strong>{h_index}</strong> &middot; '
              f'<span class="h-index-term" tabindex="0" role="note" '
              f'aria-label="{i10_tip}" data-tip="{i10_tip}">i10</span> '
-             f'<strong>{i10}</strong>{sparkline(counts)}'
+             f'<strong>{i10}</strong> &middot; '
              f'<span style="color:#888;font-size:.8rem">via OpenAlex, {now:%b %Y}</span>')
 
     # 1) Inject the metrics strip into index.qmd between the markers.
