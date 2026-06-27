@@ -126,8 +126,10 @@ cv:
         details: Distributed GPU training, HPC clusters (InstaDeep's Kyber and EuroHPC's MareNostrum 5)
       - label: Bioinformatics
         details: BioPython, BLAST, ClustalW, Snakemake, BioNumerics
-      - label: Languages
+      - label: Programming languages
         details: Python (primary), R
+      - label: Spoken languages
+        details: Dutch (native), English, French & Norwegian (full professional), German & Spanish (notions)
     Projects:
       - name: "[Awesome De Novo Peptide Sequencing](https://jeroen.vangoey.be/awesome_de_novo_peptide_sequencing/)"
         summary: "A comprehensive, interactive map of the *de novo* peptide sequencing field: algorithms, post-processors, downstream applications, and adjacent tools, deep-learning and classical alike."
