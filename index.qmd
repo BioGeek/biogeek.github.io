@@ -523,7 +523,7 @@ I have **co-created, organized and judged** machine-learning hackathons at the [
   <div class="pub-body">
     <div class="pub-title"><a href="https://github.com/BioGeek/hackathon_indabaX_2024">Desert Locust Breeding Ground Prediction Hackathon</a></div>
     <div class="pub-venue">IndabaX 2024 · <img width="900" height="600" src="images/flags/za.svg" class="flag-icon" alt="South Africa">University of the Witwatersrand, Johannesburg</div>
-    <p>Predicting desert locust breeding grounds from remote-sensing data, an early-warning task that helps target control efforts before swarms threaten crops and food security across Africa.</p>
+    <p>Predicting desert locust breeding grounds from remote-sensing data using <a href="https://github.com/instadeepai/InstaGeo-E2E-Geospatial-ML">InstaGeo</a>, an early-warning task that helps target control efforts before swarms threaten crops and food security across Africa.</p>
     <div class="pub-badges">
       <a href="https://github.com/BioGeek/hackathon_indabaX_2024"><i class="bi bi-github"></i> Code</a>
       <a href="https://www.linkedin.com/posts/jeroenvangoey_it-was-a-pleasure-hosting-a-hackathon-around-ugcPost-7218010024059543552-G4mL/"><i class="bi bi-newspaper"></i> News</a>
