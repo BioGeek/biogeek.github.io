@@ -456,6 +456,7 @@ Secondary education: mathematics–modern languages
   </div>
 </div>
 
+<!-- Hidden for now — work in progress.
 <div class="pub-card">
   <a class="pub-thumb" href="projects/self-driving-toy-car.html">
     <img width="480" height="300" loading="lazy" src="images/projects/self-driving-toy-car.svg" alt="Self-driving toy car" />
@@ -469,6 +470,7 @@ Secondary education: mathematics–modern languages
     </div>
   </div>
 </div>
+-->
 
 </div>
 ```
