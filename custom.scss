@@ -327,6 +327,69 @@ ol.pipeline li::before {
   font-weight: 400;
   text-decoration: none;
 }
+// "h-index" in the publications metrics strip: dotted underline + hover/focus
+// popup explaining what the value means (data-tip is set by update_openalex.py).
+.h-index-term {
+  position: relative;
+  cursor: help;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  text-underline-offset: 0.12em;
+}
+.h-index-term::after {
+  content: attr(data-tip);
+  position: absolute;
+  left: 50%;
+  bottom: calc(100% + 0.6rem);
+  transform: translateX(-50%);
+  z-index: 30;
+  width: max-content;
+  max-width: 16rem;
+  padding: 0.5rem 0.7rem;
+  border-radius: 6px;
+  background: #1a1a1a;
+  color: #fff;
+  font-size: 0.8rem;
+  font-weight: 400;
+  line-height: 1.35;
+  text-align: left;
+  text-decoration: none;
+  white-space: normal;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.15s ease;
+  pointer-events: none;
+}
+.h-index-term::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: calc(100% + 0.25rem);
+  transform: translateX(-50%);
+  z-index: 30;
+  border: 6px solid transparent;
+  border-top-color: #1a1a1a;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.15s ease;
+  pointer-events: none;
+}
+.h-index-term:hover,
+.h-index-term:focus,
+.h-index-term:focus-visible {
+  outline: none;
+}
+.h-index-term:hover::after,
+.h-index-term:focus::after,
+.h-index-term:focus-visible::after,
+.h-index-term:hover::before,
+.h-index-term:focus::before,
+.h-index-term:focus-visible::before {
+  opacity: 1;
+  visibility: visible;
+}
+
 .pub-body .pub-venue {
   font-size: 0.9rem;
   margin-bottom: 0.6rem;

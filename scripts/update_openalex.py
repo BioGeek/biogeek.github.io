@@ -86,9 +86,18 @@ def main():
              for w in get(works_url).get("results", [])]
 
     now = datetime.now(timezone.utc)
+    h_tip = (f'If you have an h-index of {h_index}, it means you have published '
+             f'at least {h_index} papers that have each received {h_index} or '
+             f'more citations')
+    i10_tip = (f'If you have an i10-index of {i10}, it means you have published '
+               f'{i10} papers that have each received 10 or more citations')
     strip = (f'<strong>{cited}</strong> citations &middot; '
-             f'h-index <strong>{h_index}</strong> &middot; '
-             f'i10 <strong>{i10}</strong>{sparkline(counts)}'
+             f'<span class="h-index-term" tabindex="0" role="note" '
+             f'aria-label="{h_tip}" data-tip="{h_tip}">h-index</span> '
+             f'<strong>{h_index}</strong> &middot; '
+             f'<span class="h-index-term" tabindex="0" role="note" '
+             f'aria-label="{i10_tip}" data-tip="{i10_tip}">i10</span> '
+             f'<strong>{i10}</strong>{sparkline(counts)}'
              f'<span style="color:#888;font-size:.8rem">via OpenAlex, {now:%b %Y}</span>')
 
     # 1) Inject the metrics strip into index.qmd between the markers.
