@@ -329,14 +329,16 @@ ol.pipeline li::before {
 }
 // "h-index" in the publications metrics strip: dotted underline + hover/focus
 // popup explaining what the value means (data-tip is set by update_openalex.py).
-.h-index-term {
+.h-index-term,
+.term-tip {
   position: relative;
   cursor: help;
   text-decoration: underline;
   text-decoration-style: dotted;
   text-underline-offset: 0.12em;
 }
-.h-index-term::after {
+.h-index-term::after,
+.term-tip::after {
   content: attr(data-tip);
   position: absolute;
   left: 50%;
@@ -361,7 +363,8 @@ ol.pipeline li::before {
   transition: opacity 0.15s ease;
   pointer-events: none;
 }
-.h-index-term::before {
+.h-index-term::before,
+.term-tip::before {
   content: "";
   position: absolute;
   left: 50%;
@@ -377,7 +380,10 @@ ol.pipeline li::before {
 }
 .h-index-term:hover,
 .h-index-term:focus,
-.h-index-term:focus-visible {
+.h-index-term:focus-visible,
+.term-tip:hover,
+.term-tip:focus,
+.term-tip:focus-visible {
   outline: none;
 }
 .h-index-term:hover::after,
@@ -385,7 +391,13 @@ ol.pipeline li::before {
 .h-index-term:focus-visible::after,
 .h-index-term:hover::before,
 .h-index-term:focus::before,
-.h-index-term:focus-visible::before {
+.h-index-term:focus-visible::before,
+.term-tip:hover::after,
+.term-tip:focus::after,
+.term-tip:focus-visible::after,
+.term-tip:hover::before,
+.term-tip:focus::before,
+.term-tip:focus-visible::before {
   opacity: 1;
   visibility: visible;
 }
