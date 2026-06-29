@@ -1,0 +1,268 @@
+---
+title: "Photography by Jeroen Van Goey"
+image: /images/photography/landscapes/02-w1200.jpg
+image-alt: "Landscape photograph by Jeroen Van Goey"
+toc: false
+page-layout: full
+format:
+  html:
+    grid:
+      body-width: 1140px
+---
+
+<!--
+Gallery images were restored from an earlier version of this portfolio
+(https://web.archive.org/web/20231001155914/https://jeroenvangoey.be/) and are
+served at their original resolutions (600 / 1200 / 1920 / 3840 px) via srcset.
+Replace the files in images/photography/<category>/ with newer high-resolution
+exports when available — keep the NN-w<width>.jpg naming so srcset keeps working.
+-->
+
+Click any image to view it larger.
+
+```{=html}
+<nav class="ph-quicknav" aria-label="Photography categories">
+  <a href="#pregnancy">Pregnancy</a>
+  <a href="#portraits">Portraits</a>
+  <a href="#wedding">Wedding</a>
+  <a href="#landscapes">Landscapes</a>
+  <a href="#boudoir">Boudoir</a>
+  <a href="#long-exposure">Long exposure</a>
+</nav>
+
+<div class="ph-gallery">
+<section class="ph-section">
+<h2 id="pregnancy">Pregnancy</h2>
+<div class="ph-grid">
+  <a class="ph-item" href="/images/photography/pregnancy/01-w1920.jpg" data-w="1920" data-h="1428" aria-label="Pregnancy photograph">
+    <img src="/images/photography/pregnancy/01-w600.jpg" srcset="/images/photography/pregnancy/01-w600.jpg 600w, /images/photography/pregnancy/01-w1200.jpg 1200w, /images/photography/pregnancy/01-w1920.jpg 1920w" sizes="(max-width: 600px) 92vw, (max-width: 960px) 46vw, 300px" width="1920" height="1428" loading="lazy" decoding="async" alt="Pregnancy photograph by Jeroen Van Goey" />
+  </a>
+  <a class="ph-item" href="/images/photography/pregnancy/03-w1200.jpg" data-w="1200" data-h="1800" aria-label="Pregnancy photograph">
+    <img src="/images/photography/pregnancy/03-w600.jpg" srcset="/images/photography/pregnancy/03-w600.jpg 600w, /images/photography/pregnancy/03-w1200.jpg 1200w" sizes="(max-width: 600px) 92vw, (max-width: 960px) 46vw, 300px" width="1200" height="1800" loading="lazy" decoding="async" alt="Pregnancy photograph by Jeroen Van Goey" />
+  </a>
+  <a class="ph-item" href="/images/photography/pregnancy/04-w1920.jpg" data-w="1365" data-h="2048" aria-label="Pregnancy photograph">
+    <img src="/images/photography/pregnancy/04-w600.jpg" srcset="/images/photography/pregnancy/04-w600.jpg 600w, /images/photography/pregnancy/04-w1200.jpg 1200w, /images/photography/pregnancy/04-w1920.jpg 1365w" sizes="(max-width: 600px) 92vw, (max-width: 960px) 46vw, 300px" width="1365" height="2048" loading="lazy" decoding="async" alt="Pregnancy photograph by Jeroen Van Goey" />
+  </a>
+  <a class="ph-item" href="/images/photography/pregnancy/05-w1920.jpg" data-w="1365" data-h="2048" aria-label="Pregnancy photograph">
+    <img src="/images/photography/pregnancy/05-w600.jpg" srcset="/images/photography/pregnancy/05-w600.jpg 600w, /images/photography/pregnancy/05-w1200.jpg 1200w, /images/photography/pregnancy/05-w1920.jpg 1365w" sizes="(max-width: 600px) 92vw, (max-width: 960px) 46vw, 300px" width="1365" height="2048" loading="lazy" decoding="async" alt="Pregnancy photograph by Jeroen Van Goey" />
+  </a>
+  <a class="ph-item" href="/images/photography/pregnancy/06-w1920.jpg" data-w="1365" data-h="2048" aria-label="Pregnancy photograph">
+    <img src="/images/photography/pregnancy/06-w600.jpg" srcset="/images/photography/pregnancy/06-w600.jpg 600w, /images/photography/pregnancy/06-w1200.jpg 1200w, /images/photography/pregnancy/06-w1920.jpg 1365w" sizes="(max-width: 600px) 92vw, (max-width: 960px) 46vw, 300px" width="1365" height="2048" loading="lazy" decoding="async" alt="Pregnancy photograph by Jeroen Van Goey" />
+  </a>
+  <a class="ph-item" href="/images/photography/pregnancy/07-w1920.jpg" data-w="1365" data-h="2048" aria-label="Pregnancy photograph">
+    <img src="/images/photography/pregnancy/07-w600.jpg" srcset="/images/photography/pregnancy/07-w600.jpg 600w, /images/photography/pregnancy/07-w1200.jpg 1200w, /images/photography/pregnancy/07-w1920.jpg 1365w" sizes="(max-width: 600px) 92vw, (max-width: 960px) 46vw, 300px" width="1365" height="2048" loading="lazy" decoding="async" alt="Pregnancy photograph by Jeroen Van Goey" />
+  </a>
+  <a class="ph-item" href="/images/photography/pregnancy/08-w1920.jpg" data-w="1271" data-h="2048" aria-label="Pregnancy photograph">
+    <img src="/images/photography/pregnancy/08-w600.jpg" srcset="/images/photography/pregnancy/08-w600.jpg 600w, /images/photography/pregnancy/08-w1200.jpg 1200w, /images/photography/pregnancy/08-w1920.jpg 1271w" sizes="(max-width: 600px) 92vw, (max-width: 960px) 46vw, 300px" width="1271" height="2048" loading="lazy" decoding="async" alt="Pregnancy photograph by Jeroen Van Goey" />
+  </a>
+  <a class="ph-item" href="/images/photography/pregnancy/09-w1920.jpg" data-w="1920" data-h="1280" aria-label="Pregnancy photograph">
+    <img src="/images/photography/pregnancy/09-w600.jpg" srcset="/images/photography/pregnancy/09-w600.jpg 600w, /images/photography/pregnancy/09-w1200.jpg 1200w, /images/photography/pregnancy/09-w1920.jpg 1920w" sizes="(max-width: 600px) 92vw, (max-width: 960px) 46vw, 300px" width="1920" height="1280" loading="lazy" decoding="async" alt="Pregnancy photograph by Jeroen Van Goey" />
+  </a>
+  <a class="ph-item" href="/images/photography/pregnancy/10-w1920.jpg" data-w="1365" data-h="2048" aria-label="Pregnancy photograph">
+    <img src="/images/photography/pregnancy/10-w600.jpg" srcset="/images/photography/pregnancy/10-w600.jpg 600w, /images/photography/pregnancy/10-w1200.jpg 1200w, /images/photography/pregnancy/10-w1920.jpg 1365w" sizes="(max-width: 600px) 92vw, (max-width: 960px) 46vw, 300px" width="1365" height="2048" loading="lazy" decoding="async" alt="Pregnancy photograph by Jeroen Van Goey" />
+  </a>
+  <a class="ph-item" href="/images/photography/pregnancy/11-w1920.jpg" data-w="1535" data-h="2048" aria-label="Pregnancy photograph">
+    <img src="/images/photography/pregnancy/11-w600.jpg" srcset="/images/photography/pregnancy/11-w600.jpg 600w, /images/photography/pregnancy/11-w1200.jpg 1200w, /images/photography/pregnancy/11-w1920.jpg 1535w" sizes="(max-width: 600px) 92vw, (max-width: 960px) 46vw, 300px" width="1535" height="2048" loading="lazy" decoding="async" alt="Pregnancy photograph by Jeroen Van Goey" />
+  </a>
+  <a class="ph-item" href="/images/photography/pregnancy/02-w1920.jpg" data-w="1920" data-h="397" aria-label="Pregnancy photograph">
+    <img src="/images/photography/pregnancy/02-w600.jpg" srcset="/images/photography/pregnancy/02-w600.jpg 600w, /images/photography/pregnancy/02-w1200.jpg 1200w, /images/photography/pregnancy/02-w1920.jpg 1920w" sizes="(max-width: 600px) 92vw, (max-width: 960px) 46vw, 300px" width="1920" height="397" loading="lazy" decoding="async" alt="Pregnancy photograph by Jeroen Van Goey" />
+  </a>
+</div>
+</section>
+
+<section class="ph-section">
+<h2 id="portraits">Portraits</h2>
+<div class="ph-grid">
+  <a class="ph-item" href="/images/photography/portraits/01-w1920.jpg" data-w="1286" data-h="2048" aria-label="Portraits photograph">
+    <img src="/images/photography/portraits/01-w600.jpg" srcset="/images/photography/portraits/01-w600.jpg 600w, /images/photography/portraits/01-w1200.jpg 1200w, /images/photography/portraits/01-w1920.jpg 1286w" sizes="(max-width: 600px) 92vw, (max-width: 960px) 46vw, 300px" width="1286" height="2048" loading="lazy" decoding="async" alt="Portraits photograph by Jeroen Van Goey" />
+  </a>
+  <a class="ph-item" href="/images/photography/portraits/02-w1920.jpg" data-w="1920" data-h="1280" aria-label="Portraits photograph">
+    <img src="/images/photography/portraits/02-w600.jpg" srcset="/images/photography/portraits/02-w600.jpg 600w, /images/photography/portraits/02-w1200.jpg 1200w, /images/photography/portraits/02-w1920.jpg 1920w" sizes="(max-width: 600px) 92vw, (max-width: 960px) 46vw, 300px" width="1920" height="1280" loading="lazy" decoding="async" alt="Portraits photograph by Jeroen Van Goey" />
+  </a>
+  <a class="ph-item" href="/images/photography/portraits/03-w1920.jpg" data-w="1365" data-h="2048" aria-label="Portraits photograph">
+    <img src="/images/photography/portraits/03-w600.jpg" srcset="/images/photography/portraits/03-w600.jpg 600w, /images/photography/portraits/03-w1200.jpg 1200w, /images/photography/portraits/03-w1920.jpg 1365w" sizes="(max-width: 600px) 92vw, (max-width: 960px) 46vw, 300px" width="1365" height="2048" loading="lazy" decoding="async" alt="Portraits photograph by Jeroen Van Goey" />
+  </a>
+  <a class="ph-item" href="/images/photography/portraits/04-w1920.jpg" data-w="1920" data-h="1280" aria-label="Portraits photograph">
+    <img src="/images/photography/portraits/04-w600.jpg" srcset="/images/photography/portraits/04-w600.jpg 600w, /images/photography/portraits/04-w1200.jpg 1200w, /images/photography/portraits/04-w1920.jpg 1920w" sizes="(max-width: 600px) 92vw, (max-width: 960px) 46vw, 300px" width="1920" height="1280" loading="lazy" decoding="async" alt="Portraits photograph by Jeroen Van Goey" />
+  </a>
+  <a class="ph-item" href="/images/photography/portraits/05-w1920.jpg" data-w="1652" data-h="2048" aria-label="Portraits photograph">
+    <img src="/images/photography/portraits/05-w600.jpg" srcset="/images/photography/portraits/05-w600.jpg 600w, /images/photography/portraits/05-w1200.jpg 1200w, /images/photography/portraits/05-w1920.jpg 1652w" sizes="(max-width: 600px) 92vw, (max-width: 960px) 46vw, 300px" width="1652" height="2048" loading="lazy" decoding="async" alt="Portraits photograph by Jeroen Van Goey" />
+  </a>
+  <a class="ph-item" href="/images/photography/portraits/06-w1920.jpg" data-w="1323" data-h="2048" aria-label="Portraits photograph">
+    <img src="/images/photography/portraits/06-w600.jpg" srcset="/images/photography/portraits/06-w600.jpg 600w, /images/photography/portraits/06-w1200.jpg 1200w, /images/photography/portraits/06-w1920.jpg 1323w" sizes="(max-width: 600px) 92vw, (max-width: 960px) 46vw, 300px" width="1323" height="2048" loading="lazy" decoding="async" alt="Portraits photograph by Jeroen Van Goey" />
+  </a>
+  <a class="ph-item" href="/images/photography/portraits/07-w1920.jpg" data-w="1920" data-h="1280" aria-label="Portraits photograph">
+    <img src="/images/photography/portraits/07-w600.jpg" srcset="/images/photography/portraits/07-w600.jpg 600w, /images/photography/portraits/07-w1200.jpg 1200w, /images/photography/portraits/07-w1920.jpg 1920w" sizes="(max-width: 600px) 92vw, (max-width: 960px) 46vw, 300px" width="1920" height="1280" loading="lazy" decoding="async" alt="Portraits photograph by Jeroen Van Goey" />
+  </a>
+  <a class="ph-item" href="/images/photography/portraits/08-w1920.jpg" data-w="1365" data-h="2048" aria-label="Portraits photograph">
+    <img src="/images/photography/portraits/08-w600.jpg" srcset="/images/photography/portraits/08-w600.jpg 600w, /images/photography/portraits/08-w1200.jpg 1200w, /images/photography/portraits/08-w1920.jpg 1365w" sizes="(max-width: 600px) 92vw, (max-width: 960px) 46vw, 300px" width="1365" height="2048" loading="lazy" decoding="async" alt="Portraits photograph by Jeroen Van Goey" />
+  </a>
+  <a class="ph-item" href="/images/photography/portraits/09-w1920.jpg" data-w="1920" data-h="1920" aria-label="Portraits photograph">
+    <img src="/images/photography/portraits/09-w600.jpg" srcset="/images/photography/portraits/09-w600.jpg 600w, /images/photography/portraits/09-w1200.jpg 1200w, /images/photography/portraits/09-w1920.jpg 1920w" sizes="(max-width: 600px) 92vw, (max-width: 960px) 46vw, 300px" width="1920" height="1920" loading="lazy" decoding="async" alt="Portraits photograph by Jeroen Van Goey" />
+  </a>
+</div>
+</section>
+
+<section class="ph-section">
+<h2 id="wedding">Wedding</h2>
+<div class="ph-grid">
+  <a class="ph-item" href="/images/photography/wedding/01-w1920.jpg" data-w="1920" data-h="1280" aria-label="Wedding photograph">
+    <img src="/images/photography/wedding/01-w600.jpg" srcset="/images/photography/wedding/01-w600.jpg 600w, /images/photography/wedding/01-w1200.jpg 1200w, /images/photography/wedding/01-w1920.jpg 1920w" sizes="(max-width: 600px) 92vw, (max-width: 960px) 46vw, 300px" width="1920" height="1280" loading="lazy" decoding="async" alt="Wedding photograph by Jeroen Van Goey" />
+  </a>
+  <a class="ph-item" href="/images/photography/wedding/02-w1920.jpg" data-w="1920" data-h="1280" aria-label="Wedding photograph">
+    <img src="/images/photography/wedding/02-w600.jpg" srcset="/images/photography/wedding/02-w600.jpg 600w, /images/photography/wedding/02-w1200.jpg 1200w, /images/photography/wedding/02-w1920.jpg 1920w" sizes="(max-width: 600px) 92vw, (max-width: 960px) 46vw, 300px" width="1920" height="1280" loading="lazy" decoding="async" alt="Wedding photograph by Jeroen Van Goey" />
+  </a>
+  <a class="ph-item" href="/images/photography/wedding/03-w1920.jpg" data-w="1920" data-h="1280" aria-label="Wedding photograph">
+    <img src="/images/photography/wedding/03-w600.jpg" srcset="/images/photography/wedding/03-w600.jpg 600w, /images/photography/wedding/03-w1200.jpg 1200w, /images/photography/wedding/03-w1920.jpg 1920w" sizes="(max-width: 600px) 92vw, (max-width: 960px) 46vw, 300px" width="1920" height="1280" loading="lazy" decoding="async" alt="Wedding photograph by Jeroen Van Goey" />
+  </a>
+  <a class="ph-item" href="/images/photography/wedding/04-w1920.jpg" data-w="1920" data-h="1079" aria-label="Wedding photograph">
+    <img src="/images/photography/wedding/04-w600.jpg" srcset="/images/photography/wedding/04-w600.jpg 600w, /images/photography/wedding/04-w1200.jpg 1200w, /images/photography/wedding/04-w1920.jpg 1920w" sizes="(max-width: 600px) 92vw, (max-width: 960px) 46vw, 300px" width="1920" height="1079" loading="lazy" decoding="async" alt="Wedding photograph by Jeroen Van Goey" />
+  </a>
+  <a class="ph-item" href="/images/photography/wedding/05-w1920.jpg" data-w="1920" data-h="1280" aria-label="Wedding photograph">
+    <img src="/images/photography/wedding/05-w600.jpg" srcset="/images/photography/wedding/05-w600.jpg 600w, /images/photography/wedding/05-w1200.jpg 1200w, /images/photography/wedding/05-w1920.jpg 1920w" sizes="(max-width: 600px) 92vw, (max-width: 960px) 46vw, 300px" width="1920" height="1280" loading="lazy" decoding="async" alt="Wedding photograph by Jeroen Van Goey" />
+  </a>
+  <a class="ph-item" href="/images/photography/wedding/06-w1920.jpg" data-w="1920" data-h="1280" aria-label="Wedding photograph">
+    <img src="/images/photography/wedding/06-w600.jpg" srcset="/images/photography/wedding/06-w600.jpg 600w, /images/photography/wedding/06-w1200.jpg 1200w, /images/photography/wedding/06-w1920.jpg 1920w" sizes="(max-width: 600px) 92vw, (max-width: 960px) 46vw, 300px" width="1920" height="1280" loading="lazy" decoding="async" alt="Wedding photograph by Jeroen Van Goey" />
+  </a>
+  <a class="ph-item" href="/images/photography/wedding/07-w1920.jpg" data-w="1365" data-h="2048" aria-label="Wedding photograph">
+    <img src="/images/photography/wedding/07-w600.jpg" srcset="/images/photography/wedding/07-w600.jpg 600w, /images/photography/wedding/07-w1200.jpg 1200w, /images/photography/wedding/07-w1920.jpg 1365w" sizes="(max-width: 600px) 92vw, (max-width: 960px) 46vw, 300px" width="1365" height="2048" loading="lazy" decoding="async" alt="Wedding photograph by Jeroen Van Goey" />
+  </a>
+</div>
+</section>
+
+<section class="ph-section">
+<h2 id="landscapes">Landscapes</h2>
+<div class="ph-grid">
+  <a class="ph-item" href="/images/photography/landscapes/01-w1920.jpg" data-w="1920" data-h="1082" aria-label="Landscapes photograph">
+    <img src="/images/photography/landscapes/01-w600.jpg" srcset="/images/photography/landscapes/01-w600.jpg 600w, /images/photography/landscapes/01-w1200.jpg 1200w, /images/photography/landscapes/01-w1920.jpg 1920w" sizes="(max-width: 600px) 92vw, (max-width: 960px) 46vw, 300px" width="1920" height="1082" loading="lazy" decoding="async" alt="Landscapes photograph by Jeroen Van Goey" />
+  </a>
+  <a class="ph-item" href="/images/photography/landscapes/02-w1920.jpg" data-w="1920" data-h="1280" aria-label="Landscapes photograph">
+    <img src="/images/photography/landscapes/02-w600.jpg" srcset="/images/photography/landscapes/02-w600.jpg 600w, /images/photography/landscapes/02-w1200.jpg 1200w, /images/photography/landscapes/02-w1920.jpg 1920w" sizes="(max-width: 600px) 92vw, (max-width: 960px) 46vw, 300px" width="1920" height="1280" loading="lazy" decoding="async" alt="Landscapes photograph by Jeroen Van Goey" />
+  </a>
+  <a class="ph-item" href="/images/photography/landscapes/03-w1920.jpg" data-w="1920" data-h="960" aria-label="Landscapes photograph">
+    <img src="/images/photography/landscapes/03-w600.jpg" srcset="/images/photography/landscapes/03-w600.jpg 600w, /images/photography/landscapes/03-w1200.jpg 1200w, /images/photography/landscapes/03-w1920.jpg 1920w" sizes="(max-width: 600px) 92vw, (max-width: 960px) 46vw, 300px" width="1920" height="960" loading="lazy" decoding="async" alt="Landscapes photograph by Jeroen Van Goey" />
+  </a>
+  <a class="ph-item" href="/images/photography/landscapes/04-w1920.jpg" data-w="1920" data-h="983" aria-label="Landscapes photograph">
+    <img src="/images/photography/landscapes/04-w600.jpg" srcset="/images/photography/landscapes/04-w600.jpg 600w, /images/photography/landscapes/04-w1200.jpg 1200w, /images/photography/landscapes/04-w1920.jpg 1920w" sizes="(max-width: 600px) 92vw, (max-width: 960px) 46vw, 300px" width="1920" height="983" loading="lazy" decoding="async" alt="Landscapes photograph by Jeroen Van Goey" />
+  </a>
+  <a class="ph-item" href="/images/photography/landscapes/05-w1920.jpg" data-w="1920" data-h="1280" aria-label="Landscapes photograph">
+    <img src="/images/photography/landscapes/05-w600.jpg" srcset="/images/photography/landscapes/05-w600.jpg 600w, /images/photography/landscapes/05-w1200.jpg 1200w, /images/photography/landscapes/05-w1920.jpg 1920w" sizes="(max-width: 600px) 92vw, (max-width: 960px) 46vw, 300px" width="1920" height="1280" loading="lazy" decoding="async" alt="Landscapes photograph by Jeroen Van Goey" />
+  </a>
+  <a class="ph-item" href="/images/photography/landscapes/06-w1920.jpg" data-w="1365" data-h="2048" aria-label="Landscapes photograph">
+    <img src="/images/photography/landscapes/06-w600.jpg" srcset="/images/photography/landscapes/06-w600.jpg 600w, /images/photography/landscapes/06-w1200.jpg 1200w, /images/photography/landscapes/06-w1920.jpg 1365w" sizes="(max-width: 600px) 92vw, (max-width: 960px) 46vw, 300px" width="1365" height="2048" loading="lazy" decoding="async" alt="Landscapes photograph by Jeroen Van Goey" />
+  </a>
+  <a class="ph-item" href="/images/photography/landscapes/07-w1920.jpg" data-w="1920" data-h="1079" aria-label="Landscapes photograph">
+    <img src="/images/photography/landscapes/07-w600.jpg" srcset="/images/photography/landscapes/07-w600.jpg 600w, /images/photography/landscapes/07-w1200.jpg 1200w, /images/photography/landscapes/07-w1920.jpg 1920w" sizes="(max-width: 600px) 92vw, (max-width: 960px) 46vw, 300px" width="1920" height="1079" loading="lazy" decoding="async" alt="Landscapes photograph by Jeroen Van Goey" />
+  </a>
+  <a class="ph-item" href="/images/photography/landscapes/08-w1920.jpg" data-w="1920" data-h="1079" aria-label="Landscapes photograph">
+    <img src="/images/photography/landscapes/08-w600.jpg" srcset="/images/photography/landscapes/08-w600.jpg 600w, /images/photography/landscapes/08-w1200.jpg 1200w, /images/photography/landscapes/08-w1920.jpg 1920w" sizes="(max-width: 600px) 92vw, (max-width: 960px) 46vw, 300px" width="1920" height="1079" loading="lazy" decoding="async" alt="Landscapes photograph by Jeroen Van Goey" />
+  </a>
+</div>
+</section>
+
+<section class="ph-section">
+<h2 id="boudoir">Boudoir</h2>
+<div class="ph-grid">
+  <a class="ph-item" href="/images/photography/boudoir/01-w1920.jpg" data-w="1920" data-h="1179" aria-label="Boudoir photograph">
+    <img src="/images/photography/boudoir/01-w600.jpg" srcset="/images/photography/boudoir/01-w600.jpg 600w, /images/photography/boudoir/01-w1200.jpg 1200w, /images/photography/boudoir/01-w1920.jpg 1920w" sizes="(max-width: 600px) 92vw, (max-width: 960px) 46vw, 300px" width="1920" height="1179" loading="lazy" decoding="async" alt="Boudoir photograph by Jeroen Van Goey" />
+  </a>
+  <a class="ph-item" href="/images/photography/boudoir/02-w1920.jpg" data-w="1420" data-h="2048" aria-label="Boudoir photograph">
+    <img src="/images/photography/boudoir/02-w600.jpg" srcset="/images/photography/boudoir/02-w600.jpg 600w, /images/photography/boudoir/02-w1200.jpg 1200w, /images/photography/boudoir/02-w1920.jpg 1420w" sizes="(max-width: 600px) 92vw, (max-width: 960px) 46vw, 300px" width="1420" height="2048" loading="lazy" decoding="async" alt="Boudoir photograph by Jeroen Van Goey" />
+  </a>
+  <a class="ph-item" href="/images/photography/boudoir/03-w1920.jpg" data-w="1365" data-h="2048" aria-label="Boudoir photograph">
+    <img src="/images/photography/boudoir/03-w600.jpg" srcset="/images/photography/boudoir/03-w600.jpg 600w, /images/photography/boudoir/03-w1200.jpg 1200w, /images/photography/boudoir/03-w1920.jpg 1365w" sizes="(max-width: 600px) 92vw, (max-width: 960px) 46vw, 300px" width="1365" height="2048" loading="lazy" decoding="async" alt="Boudoir photograph by Jeroen Van Goey" />
+  </a>
+  <a class="ph-item" href="/images/photography/boudoir/04-w1920.jpg" data-w="1365" data-h="2048" aria-label="Boudoir photograph">
+    <img src="/images/photography/boudoir/04-w600.jpg" srcset="/images/photography/boudoir/04-w600.jpg 600w, /images/photography/boudoir/04-w1200.jpg 1200w, /images/photography/boudoir/04-w1920.jpg 1365w" sizes="(max-width: 600px) 92vw, (max-width: 960px) 46vw, 300px" width="1365" height="2048" loading="lazy" decoding="async" alt="Boudoir photograph by Jeroen Van Goey" />
+  </a>
+  <a class="ph-item" href="/images/photography/boudoir/05-w1920.jpg" data-w="1920" data-h="1449" aria-label="Boudoir photograph">
+    <img src="/images/photography/boudoir/05-w600.jpg" srcset="/images/photography/boudoir/05-w600.jpg 600w, /images/photography/boudoir/05-w1200.jpg 1200w, /images/photography/boudoir/05-w1920.jpg 1920w" sizes="(max-width: 600px) 92vw, (max-width: 960px) 46vw, 300px" width="1920" height="1449" loading="lazy" decoding="async" alt="Boudoir photograph by Jeroen Van Goey" />
+  </a>
+  <a class="ph-item" href="/images/photography/boudoir/06-w1920.jpg" data-w="1365" data-h="2048" aria-label="Boudoir photograph">
+    <img src="/images/photography/boudoir/06-w600.jpg" srcset="/images/photography/boudoir/06-w600.jpg 600w, /images/photography/boudoir/06-w1200.jpg 1200w, /images/photography/boudoir/06-w1920.jpg 1365w" sizes="(max-width: 600px) 92vw, (max-width: 960px) 46vw, 300px" width="1365" height="2048" loading="lazy" decoding="async" alt="Boudoir photograph by Jeroen Van Goey" />
+  </a>
+</div>
+</section>
+
+<section class="ph-section">
+<h2 id="long-exposure">Long exposure</h2>
+<div class="ph-grid">
+  <a class="ph-item" href="/images/photography/long-exposure/04-w3840.jpg" data-w="3840" data-h="1512" aria-label="Long exposure photograph">
+    <img src="/images/photography/long-exposure/04-w600.jpg" srcset="/images/photography/long-exposure/04-w600.jpg 600w, /images/photography/long-exposure/04-w1200.jpg 1200w, /images/photography/long-exposure/04-w1920.jpg 1920w, /images/photography/long-exposure/04-w3840.jpg 3840w" sizes="(max-width: 600px) 92vw, (max-width: 960px) 46vw, 300px" width="3840" height="1512" loading="lazy" decoding="async" alt="Long exposure photograph by Jeroen Van Goey" />
+  </a>
+  <a class="ph-item" href="/images/photography/long-exposure/06-w1920.jpg" data-w="1920" data-h="1280" aria-label="Long exposure photograph">
+    <img src="/images/photography/long-exposure/06-w600.jpg" srcset="/images/photography/long-exposure/06-w600.jpg 600w, /images/photography/long-exposure/06-w1200.jpg 1200w, /images/photography/long-exposure/06-w1920.jpg 1920w" sizes="(max-width: 600px) 92vw, (max-width: 960px) 46vw, 300px" width="1920" height="1280" loading="lazy" decoding="async" alt="Long exposure photograph by Jeroen Van Goey" />
+  </a>
+  <a class="ph-item" href="/images/photography/long-exposure/01-w1920.jpg" data-w="1920" data-h="1280" aria-label="Long exposure photograph">
+    <img src="/images/photography/long-exposure/01-w600.jpg" srcset="/images/photography/long-exposure/01-w600.jpg 600w, /images/photography/long-exposure/01-w1200.jpg 1200w, /images/photography/long-exposure/01-w1920.jpg 1920w" sizes="(max-width: 600px) 92vw, (max-width: 960px) 46vw, 300px" width="1920" height="1280" loading="lazy" decoding="async" alt="Long exposure photograph by Jeroen Van Goey" />
+  </a>
+  <a class="ph-item" href="/images/photography/long-exposure/02-w1920.jpg" data-w="1920" data-h="1495" aria-label="Long exposure photograph">
+    <img src="/images/photography/long-exposure/02-w600.jpg" srcset="/images/photography/long-exposure/02-w600.jpg 600w, /images/photography/long-exposure/02-w1200.jpg 1200w, /images/photography/long-exposure/02-w1920.jpg 1920w" sizes="(max-width: 600px) 92vw, (max-width: 960px) 46vw, 300px" width="1920" height="1495" loading="lazy" decoding="async" alt="Long exposure photograph by Jeroen Van Goey" />
+  </a>
+  <a class="ph-item" href="/images/photography/long-exposure/03-w1920.jpg" data-w="1920" data-h="1280" aria-label="Long exposure photograph">
+    <img src="/images/photography/long-exposure/03-w600.jpg" srcset="/images/photography/long-exposure/03-w600.jpg 600w, /images/photography/long-exposure/03-w1200.jpg 1200w, /images/photography/long-exposure/03-w1920.jpg 1920w" sizes="(max-width: 600px) 92vw, (max-width: 960px) 46vw, 300px" width="1920" height="1280" loading="lazy" decoding="async" alt="Long exposure photograph by Jeroen Van Goey" />
+  </a>
+  <a class="ph-item" href="/images/photography/long-exposure/05-w1920.jpg" data-w="1920" data-h="1535" aria-label="Long exposure photograph">
+    <img src="/images/photography/long-exposure/05-w600.jpg" srcset="/images/photography/long-exposure/05-w600.jpg 600w, /images/photography/long-exposure/05-w1200.jpg 1200w, /images/photography/long-exposure/05-w1920.jpg 1920w" sizes="(max-width: 600px) 92vw, (max-width: 960px) 46vw, 300px" width="1920" height="1535" loading="lazy" decoding="async" alt="Long exposure photograph by Jeroen Van Goey" />
+  </a>
+  <a class="ph-item" href="/images/photography/long-exposure/07-w1920.jpg" data-w="1920" data-h="1280" aria-label="Long exposure photograph">
+    <img src="/images/photography/long-exposure/07-w600.jpg" srcset="/images/photography/long-exposure/07-w600.jpg 600w, /images/photography/long-exposure/07-w1200.jpg 1200w, /images/photography/long-exposure/07-w1920.jpg 1920w" sizes="(max-width: 600px) 92vw, (max-width: 960px) 46vw, 300px" width="1920" height="1280" loading="lazy" decoding="async" alt="Long exposure photograph by Jeroen Van Goey" />
+  </a>
+</div>
+</section>
+
+</div>
+
+<div id="ph-lightbox" class="ph-lightbox" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Image viewer">
+  <button class="ph-lb-close" type="button" aria-label="Close viewer">&times;</button>
+  <button class="ph-lb-prev" type="button" aria-label="Previous image">&#8249;</button>
+  <img class="ph-lb-img" src="" alt="" />
+  <button class="ph-lb-next" type="button" aria-label="Next image">&#8250;</button>
+</div>
+
+<script>
+(function () {
+  var items = Array.prototype.slice.call(
+    document.querySelectorAll('.ph-gallery .ph-item'));
+  if (!items.length) return;
+  var overlay = document.getElementById('ph-lightbox');
+  var imgEl = overlay.querySelector('.ph-lb-img');
+  var idx = -1;
+
+  function show(i) {
+    idx = (i + items.length) % items.length;
+    var a = items[idx];
+    var thumb = a.querySelector('img');
+    imgEl.src = a.getAttribute('href');
+    imgEl.alt = thumb ? thumb.alt : '';
+    overlay.classList.add('open');
+    overlay.setAttribute('aria-hidden', 'false');
+    document.body.style.overflow = 'hidden';
+  }
+  function close() {
+    overlay.classList.remove('open');
+    overlay.setAttribute('aria-hidden', 'true');
+    document.body.style.overflow = '';
+    imgEl.removeAttribute('src');
+  }
+
+  items.forEach(function (a, i) {
+    a.addEventListener('click', function (e) { e.preventDefault(); show(i); });
+  });
+  overlay.querySelector('.ph-lb-close').addEventListener('click', close);
+  overlay.querySelector('.ph-lb-prev').addEventListener('click', function (e) {
+    e.stopPropagation(); show(idx - 1);
+  });
+  overlay.querySelector('.ph-lb-next').addEventListener('click', function (e) {
+    e.stopPropagation(); show(idx + 1);
+  });
+  overlay.addEventListener('click', function (e) { if (e.target === overlay) close(); });
+  document.addEventListener('keydown', function (e) {
+    if (!overlay.classList.contains('open')) return;
+    if (e.key === 'Escape') close();
+    else if (e.key === 'ArrowLeft') show(idx - 1);
+    else if (e.key === 'ArrowRight') show(idx + 1);
+  });
+})();
+</script>
+```
