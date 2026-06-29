@@ -3,10 +3,10 @@ title: "Self-driving toy car"
 subtitle: "Turning a 1/16-scale DonkeyCar into an autonomous car — and a testbed for modern edge ML"
 description: >
   An ongoing project: training self-driving policies in simulation and deploying
-  them to a Jetson Nano and a Coral Edge TPU. Overview, architecture, and a build log.
+  them to a Jetson Nano (with a Coral Edge TPU planned). Overview, architecture, and a build log.
 date: 2026-06-26
-image: ../images/projects/self-driving-toy-car.svg
-image-alt: "Self-driving toy car"
+image: ../images/projects/self-driving-toy-car.jpg
+image-alt: "The assembled DonkeyCar with a Jetson Nano on a 3D-printed cage"
 listing:
   - id: buildlog-posts
     # Build-log posts are any post folder named posts/donkeycar-* or
@@ -33,26 +33,38 @@ This page is the hub: what the car is, how it's put together, and where the
 project is going. The [build log](#build-log) below collects the individual posts
 on architecture and progress as I write them.
 
+![Assembled and booted: the Jetson Nano and camera bolted into a 3D-printed cage on the RC chassis, next to the JetPack desktop.](../images/projects/donkeycar-assembled.jpg){fig-alt="An assembled DonkeyCar — a Jetson Nano and camera on a white 3D-printed cage mounted on an RC car chassis — on a desk beside a monitor showing the NVIDIA Jetson Ubuntu desktop"}
+
 ## The hardware
 
-- **The car** — a DonkeyCar chassis with steering and throttle over PWM, plus a forward-facing camera.
-- **Jetson Nano** — the on-board host. Old and power-limited, so it mostly handles I/O and runs a compiled policy rather than training anything.
-- **Coral Edge TPU** — a USB INT8 accelerator that runs the small, real-time driving policy at high frame rate and low power.
-- **An off-board GPU** (laptop / cloud) — where all the training happens, and where any heavy "thinking" model lives.
+| Part | Role |
+|------|------|
+| Jetson Nano (4 GB, B01) | On-board inference |
+| RC car chassis + <span class="term-tip" tabindex="0" role="note" aria-label="Electronic Speed Controller — the board that takes a control signal and drives the car's motor (speed and direction)." data-tip="Electronic Speed Controller — the board that takes a control signal and drives the car's motor (speed and direction).">ESC</span> + brushed motor | The vehicle |
+| Wide-angle <span class="term-tip" tabindex="0" role="note" aria-label="Camera Serial Interface — the ribbon-cable interface that connects a camera directly to the Nano." data-tip="Camera Serial Interface — the ribbon-cable interface that connects a camera directly to the Nano.">CSI</span> camera (<span class="term-tip" tabindex="0" role="note" aria-label="The Sony image sensor in the camera module — the same one used in the Raspberry Pi Camera v2." data-tip="The Sony image sensor in the camera module — the same one used in the Raspberry Pi Camera v2.">IMX219</span>) | The only sensor the model gets |
+| <span class="term-tip" tabindex="0" role="note" aria-label="A small 16-channel PWM driver board; the Nano talks to it over I²C and it outputs the pulses that command the servo and ESC." data-tip="A small 16-channel PWM driver board; the Nano talks to it over I²C and it outputs the pulses that command the servo and ESC.">PCA9685</span> (16-channel <span class="term-tip" tabindex="0" role="note" aria-label="Pulse-Width Modulation — encoding a value as the width of a repeating pulse; how servos and ESCs are commanded." data-tip="Pulse-Width Modulation — encoding a value as the width of a repeating pulse; how servos and ESCs are commanded.">PWM</span> driver) | Steering <span class="term-tip" tabindex="0" role="note" aria-label="A small motor that moves to a commanded angle — here it turns the steering." data-tip="A small motor that moves to a commanded angle — here it turns the steering.">servo</span> + ESC control over <span class="term-tip" tabindex="0" role="note" aria-label="Inter-Integrated Circuit — a simple two-wire serial bus (data plus clock) for connecting chips like the PCA9685 to the Nano." data-tip="Inter-Integrated Circuit — a simple two-wire serial bus (data plus clock) for connecting chips like the PCA9685 to the Nano.">I²C</span> |
+| TCBWORTH 1800 mAh <span class="term-tip" tabindex="0" role="note" aria-label="Lithium-polymer battery — high power density, but needs careful balance-charging and handling." data-tip="Lithium-polymer battery — high power density, but needs careful balance-charging and handling.">LiPo</span> | Drive battery (motor + servo rail) |
+| RED-E 10 000 mAh power bank | Untethered power for the Nano |
+
+A training PC (RTX 4070) sits on the same network for the heavy lifting later. A
+**Coral Edge TPU** is planned but not yet in the build — see the [roadmap](#roadmap).
+
+![Everything in the box before any of it fought back: the RC chassis and body, the Jetson Nano Developer Kit, the PCA9685 PWM driver, a buck converter, the IMX219 CSI camera and the 3D-printed cage.](../images/projects/donkeycar-parts.jpg){fig-alt="DonkeyCar parts laid out on a wooden floor — an RC monster-truck chassis with bodyshell, an NVIDIA Jetson Nano Developer Kit box, a PCA9685 PWM driver board, a buck converter, a CSI camera module and a white 3D-printed mounting cage"}
 
 ## The architecture
 
 One idea runs through the whole project: a slow brain and fast reflexes, split
-across devices.
+across devices. This is the *intended* design — today the car drives from the Nano
+alone over the web controller, and the pieces below get built out along the
+[roadmap](#roadmap).
 
-- **System 1 — the Coral.** A tiny convolutional policy that maps camera frames to steering and throttle, quantized to INT8 and compiled for the Edge TPU. This is the real-time control loop.
-- **Host — the Nano.** Camera capture, the Coral USB host, and the safety/glue layer.
+- **System 1 — fast reflexes.** A tiny convolutional policy that maps camera frames to steering and throttle, quantized to INT8 for the real-time control loop. The plan is to offload this to a **Coral Edge TPU** (a USB INT8 accelerator) so it runs at high frame rate and low power; for now it would run on the Nano.
+- **Host — the Nano.** Camera capture, actuator control over I²C, and the safety/glue layer.
 - **System 2 — off-board.** An optional, slower model (a small vision-language-action model, or an LLM planner) that issues high-level intent over wifi at a few hertz, which System 1 then carries out.
 
 The guiding constraint is simple: **train off-device, deploy on-device.** The
-Nano's software stack is too old for a modern training toolchain, and the Coral
-is inference-only — so learning happens on a real GPU and the car only ever runs
-a compiled artifact.
+Nano's software stack is too old for a modern training toolchain, so learning
+happens on a real GPU off-board and the car only ever runs a compiled artifact.
 
 ## Roadmap
 

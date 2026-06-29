@@ -1,35 +1,30 @@
 ---
-title: "Teaching an RC car to drive itself: DonkeyCar on a Jetson Nano"
-subtitle: "A full build log — calibration, a counterfeit controller, a flaky camera ribbon, power gremlins, and the fixes that actually worked"
+title: "Teaching an RC car to drive itself"
+subtitle: "Using Claude code to push past some hardware roadblocks on a hardware side project."
 description: >
-  An end-to-end DonkeyCar build on a Jetson Nano, documented command-by-command:
-  SSH and auth roadblocks, PCA9685 calibration, a counterfeit DualShock that the
-  kernel refuses, an intermittent CSI camera ribbon, USB-PD over-voltage, DHCP
-  surprises, and getting it all driving from a phone.
+  This page contains my build log for a DonkeyCar running on a Jetson Nano, with the goal of teaching it to drive itself. The log includes all the roadblocks I encountered along the way.
 date: 2026-06-28
 categories: [robotics, edge ml, jetson, side project]
-image: donkeycar.jpg
-image-alt: "DonkeyCar with a Jetson Nano"
+image: images/finished.jpg
+image-alt: "Holding up the finished DonkeyCar and the controller"
+# The <video> poster is referenced via a `poster=` attribute, which Quarto's
+# resource scanner doesn't follow — force-copy it so the poster frame loads.
+resources:
+  - images/drive-poster.jpg
 draft: false   # <- remove this line to publish
 ---
+
+
 
 This is a warts-and-all build log of getting a [DonkeyCar](https://docs.donkeycar.com/)
 running on a Jetson Nano in an afternoon. Almost nothing went smoothly, and that's
 exactly why it's worth writing down — every roadblock below cost real time, and the
 fix is the kind of thing you only find by reading kernel logs.
 
-## The hardware
-
-| Part | Role |
-|------|------|
-| Jetson Nano (4 GB, B01) | On-board inference |
-| RC car chassis + <span class="term-tip" tabindex="0" role="note" aria-label="Electronic Speed Controller — the board that takes a control signal and drives the car's motor (speed and direction)." data-tip="Electronic Speed Controller — the board that takes a control signal and drives the car's motor (speed and direction).">ESC</span> + brushed motor | The vehicle |
-| Wide-angle <span class="term-tip" tabindex="0" role="note" aria-label="Camera Serial Interface — the ribbon-cable interface that connects a camera directly to the Nano." data-tip="Camera Serial Interface — the ribbon-cable interface that connects a camera directly to the Nano.">CSI</span> camera (<span class="term-tip" tabindex="0" role="note" aria-label="The Sony image sensor in the camera module — the same one used in the Raspberry Pi Camera v2." data-tip="The Sony image sensor in the camera module — the same one used in the Raspberry Pi Camera v2.">IMX219</span>) | The only sensor the model gets |
-| <span class="term-tip" tabindex="0" role="note" aria-label="A small 16-channel PWM driver board; the Nano talks to it over I²C and it outputs the pulses that command the servo and ESC." data-tip="A small 16-channel PWM driver board; the Nano talks to it over I²C and it outputs the pulses that command the servo and ESC.">PCA9685</span> (16-channel <span class="term-tip" tabindex="0" role="note" aria-label="Pulse-Width Modulation — encoding a value as the width of a repeating pulse; how servos and ESCs are commanded." data-tip="Pulse-Width Modulation — encoding a value as the width of a repeating pulse; how servos and ESCs are commanded.">PWM</span> driver) | Steering <span class="term-tip" tabindex="0" role="note" aria-label="A small motor that moves to a commanded angle — here it turns the steering." data-tip="A small motor that moves to a commanded angle — here it turns the steering.">servo</span> + ESC control over <span class="term-tip" tabindex="0" role="note" aria-label="Inter-Integrated Circuit — a simple two-wire serial bus (data plus clock) for connecting chips like the PCA9685 to the Nano." data-tip="Inter-Integrated Circuit — a simple two-wire serial bus (data plus clock) for connecting chips like the PCA9685 to the Nano.">I²C</span> |
-| TCBWORTH 1800 mAh <span class="term-tip" tabindex="0" role="note" aria-label="Lithium-polymer battery — high power density, but needs careful balance-charging and handling." data-tip="Lithium-polymer battery — high power density, but needs careful balance-charging and handling.">LiPo</span> | Drive battery (motor + servo rail) |
-| RED-E 10 000 mAh power bank | Untethered power for the Nano |
-
-A training PC (RTX 4070) sits on the same network for the heavy lifting later.
+The full parts list — and where this whole project is going — lives on the
+[project overview](../../projects/self-driving-toy-car.html#the-hardware). In short:
+a Jetson Nano 4 GB drives an RC chassis through a PCA9685 PWM board, with an IMX219
+CSI camera as the only sensor and a training PC doing the heavy lifting off-board.
 
 ## Why the software stack is frozen in 2021
 
@@ -214,6 +209,8 @@ bind: FAILED   # the HID core won't let hid-generic claim a device a special dri
 driver is far more forgiving), or a Logitech F710. For now, the **web controller**
 (below) needs no gamepad at all.
 
+![Holding up the car and the controller that started the fight — note the giveaway "DOUBLESHOCK" box on the desk, the counterfeit DualShock 4 the kernel refused.](images/finished.jpg){fig-alt="Two people smiling and holding up the assembled DonkeyCar and a black DualShock-style controller; a blue \"DOUBLESHOCK\" retail box sits on the cluttered desk in front of them"}
+
 ## Roadblock 5 — the camera that wasn't sending data
 
 The CSI camera was the longest hunt. The sensor's I²C control channel worked — the
@@ -337,6 +334,16 @@ $ ss -tn | grep :8887 | grep -v 127.0.0.1
 A hard refresh re-established the `101 GET /wsDrive` WebSocket upgrade and the wheels
 responded.
 
+::: {.column-body}
+<video controls preload="none" poster="images/drive-poster.jpg" width="1280" height="720" style="width:100%;height:auto;border-radius:6px;">
+  <source src="images/drive.mp4" type="video/mp4">
+  Your browser doesn't support embedded video. <a href="images/drive.mp4">Download the clip</a>.
+</video>
+:::
+
+The payoff: driving it untethered across the floor from a phone — no gamepad, no
+tether, just the Nano and the web controller.
+
 ## Version control on the edge
 
 The calibration and camera config live in a fork (`BioGeek/mycar`). GitHub no longer
@@ -347,6 +354,8 @@ git config credential.helper store   # then enter the PAT once on first push
 git checkout -b jeroen_nano          # the repo was in detached HEAD at tag 4.5.1
 git push -u fork jeroen_nano
 ```
+
+![Most of this build log happened here — a long evening of breadboards, kernel logs and reseated cables.](images/workbench-night.jpg){fig-alt="A person working at a laptop late at night at a wooden dining table cluttered with the DonkeyCar, a breadboard, components and a DualShock controller"}
 
 ## What's next
 
