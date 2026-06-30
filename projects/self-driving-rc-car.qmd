@@ -33,23 +33,24 @@ This page gives an overview of what the car is, how it's put together, and where
 project is going. The [build log](#build-log) below collects the individual posts
 on architecture and progress as I write them.
 
-![Assembled and booted: the Jetson Nano and camera bolted into a 3D-printed cage on the RC chassis, next to the JetPack desktop.](../images/projects/donkeycar-assembled.jpg){fig-alt="An assembled DonkeyCar with a Jetson Nano and camera on a white 3D-printed cage mounted on an RC car chassis. — on a desk beside a monitor showing the NVIDIA Jetson Ubuntu desktop"}
+![Everything in the box before any of it fought back: the RC chassis and body, the Jetson Nano Developer Kit, the PCA9685 PWM driver, a buck converter, the IMX219 CSI camera and the 3D-printed cage.](../images/projects/donkeycar-parts.jpg){fig-alt="DonkeyCar parts laid out on a wooden floor — an RC monster-truck chassis with bodyshell, an NVIDIA Jetson Nano Developer Kit box, a PCA9685 PWM driver board, a buck converter, a CSI camera module and a white 3D-printed mounting cage"}
 
 ## The hardware
 
 | Part | Role |
 |------|------|
 | Jetson Nano (4 GB, B01) | On-board inference |
-| RC car chassis + <span class="term-tip" tabindex="0" role="note" aria-label="Electronic Speed Controller — the board that takes a control signal and drives the car's motor (speed and direction)." data-tip="Electronic Speed Controller — the board that takes a control signal and drives the car's motor (speed and direction).">ESC</span> + brushed motor | The vehicle |
+| HSP 94186 RC car chassis + <span class="term-tip" tabindex="0" role="note" aria-label="Electronic Speed Controller — the board that takes a control signal and drives the car's motor (speed and direction)." data-tip="Electronic Speed Controller — the board that takes a control signal and drives the car's motor (speed and direction).">ESC</span> + brushed motor | The vehicle |
 | Wide-angle <span class="term-tip" tabindex="0" role="note" aria-label="Camera Serial Interface — the ribbon-cable interface that connects a camera directly to the Nano." data-tip="Camera Serial Interface — the ribbon-cable interface that connects a camera directly to the Nano.">CSI</span> camera (<span class="term-tip" tabindex="0" role="note" aria-label="The Sony image sensor in the camera module — the same one used in the Raspberry Pi Camera v2." data-tip="The Sony image sensor in the camera module — the same one used in the Raspberry Pi Camera v2.">IMX219</span>) | The only sensor the model gets |
 | <span class="term-tip" tabindex="0" role="note" aria-label="A small 16-channel PWM driver board; the Nano talks to it over I²C and it outputs the pulses that command the servo and ESC." data-tip="A small 16-channel PWM driver board; the Nano talks to it over I²C and it outputs the pulses that command the servo and ESC.">PCA9685</span> (16-channel <span class="term-tip" tabindex="0" role="note" aria-label="Pulse-Width Modulation — encoding a value as the width of a repeating pulse; how servos and ESCs are commanded." data-tip="Pulse-Width Modulation — encoding a value as the width of a repeating pulse; how servos and ESCs are commanded.">PWM</span> driver) | Steering <span class="term-tip" tabindex="0" role="note" aria-label="A small motor that moves to a commanded angle — here it turns the steering." data-tip="A small motor that moves to a commanded angle — here it turns the steering.">servo</span> + ESC control over <span class="term-tip" tabindex="0" role="note" aria-label="Inter-Integrated Circuit — a simple two-wire serial bus (data plus clock) for connecting chips like the PCA9685 to the Nano." data-tip="Inter-Integrated Circuit — a simple two-wire serial bus (data plus clock) for connecting chips like the PCA9685 to the Nano.">I²C</span> |
 | TCBWORTH 1800 mAh <span class="term-tip" tabindex="0" role="note" aria-label="Lithium-polymer battery — high power density, but needs careful balance-charging and handling." data-tip="Lithium-polymer battery — high power density, but needs careful balance-charging and handling.">LiPo</span> | Drive battery (motor + servo rail) |
 | RED-E 10 000 mAh power bank | Untethered power for the Nano |
+| 3D-printed roll cage + laser-cut acrylic base plate | Mounts the Nano, camera and PWM board to the chassis |
 
-A training PC (RTX 4070) sits on the same network for the heavy lifting later. A
+A laptop with a GPU (RTX 4070) sits on the same network for the model training. A
 **Coral Edge TPU** is planned but not yet in the build — see the [roadmap](#roadmap).
 
-![Everything in the box before any of it fought back: the RC chassis and body, the Jetson Nano Developer Kit, the PCA9685 PWM driver, a buck converter, the IMX219 CSI camera and the 3D-printed cage.](../images/projects/donkeycar-parts.jpg){fig-alt="DonkeyCar parts laid out on a wooden floor — an RC monster-truck chassis with bodyshell, an NVIDIA Jetson Nano Developer Kit box, a PCA9685 PWM driver board, a buck converter, a CSI camera module and a white 3D-printed mounting cage"}
+![Assembled and booted: the Jetson Nano and camera bolted into a 3D-printed cage on the RC chassis, next to the JetPack desktop.](../images/projects/donkeycar-assembled.jpg){fig-alt="An assembled DonkeyCar with a Jetson Nano and camera on a white 3D-printed cage mounted on an RC car chassis. The monitor is plugged into the car and shows the Nano's JetPack desktop, NVIDIA's Ubuntu-based Linux for the Jetson."}
 
 ## The architecture
 
