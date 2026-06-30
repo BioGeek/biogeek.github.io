@@ -22,7 +22,7 @@ exactly why it's worth writing down — every roadblock below cost real time, an
 fix is the kind of thing you only find by reading kernel logs.
 
 The full parts list — and where this whole project is going — lives on the
-[project overview](../../projects/self-driving-toy-car.html#the-hardware). In short:
+[project overview](../../projects/self-driving-rc-car.html#the-hardware). In short:
 a Jetson Nano 4 GB drives an RC chassis through a PCA9685 PWM board, with an IMX219
 CSI camera as the only sensor and a training PC doing the heavy lifting off-board.
 

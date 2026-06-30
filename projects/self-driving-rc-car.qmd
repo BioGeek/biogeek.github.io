@@ -1,11 +1,15 @@
 ---
-title: "Self-driving toy car"
+title: "Self-driving RC car"
 subtitle: "Turning a 1/16-scale DonkeyCar into an autonomous car — and a testbed for modern edge ML"
 description: >
   An ongoing project: training self-driving policies in simulation and deploying
   them to a Jetson Nano (with a Coral Edge TPU planned). Overview, architecture, and a build log.
 date: 2026-06-26
-image: ../images/projects/self-driving-toy-car.jpg
+# Preserve the old /projects/self-driving-toy-car.html URL (renamed from
+# self-driving-toy-car.qmd) so existing inbound links and bookmarks still resolve.
+aliases:
+  - /projects/self-driving-toy-car.html
+image: ../images/projects/self-driving-rc-car.jpg
 image-alt: "The assembled DonkeyCar with a Jetson Nano on a 3D-printed cage"
 listing:
   - id: buildlog-posts
@@ -71,14 +75,14 @@ happens on a real GPU off-board and the car only ever runs a compiled artifact.
 Roughly most-feasible to most-ambitious. Each step reuses the deployment pipeline
 built by the one before it, and each will get its own build-log post.
 
-1. **Hardware audit & baseline** — confirm what each device runs; get teleop and the Coral working end to end.
-2. **Line following, classic CV** — point the camera forward, threshold + centroid + a P-controller, and drive a loop with no ML. Gets the car physically moving and sets a *baseline lap time*.
-3. **Line following, learned: BC-CNN → Coral** — redo it as a small CNN, quantized to INT8 and compiled for the Coral. This commissions the train → quantize → compile → deploy pipeline, and — seeing *ahead* — should beat the CV lap time.
-4. **LLM as an offline copilot** — use a large model off-line to design reward functions, generate track curricula, and analyse failure logs.
-5. **Sim RL with PufferLib** — train a policy in `gym-donkeycar` with PPO (pure Python), then distil and deploy.
-6. **High-throughput RL in JAX** — a fast custom driving env, GPU-vectorized, trained in minutes, transferred with domain randomization.
-7. **Dual-system "talk to your car"** — an off-board vision-language-action model issuing intent, the Coral handling control.
-8. **Dream-to-drive** — a JAX world model, training the policy in imagination.
+1. <input type="checkbox" checked disabled> **Hardware audit & baseline** — confirm what each device runs and get teleop working end to end.
+2. <input type="checkbox" disabled> **Line following, classic CV** — point the camera forward, threshold + centroid + a P-controller, and drive a loop with no ML. Gets the car physically moving and sets a *baseline lap time*.
+3. <input type="checkbox" disabled> **Line following, learned: BC-CNN → Coral** — redo it as a small CNN, quantized to INT8 and compiled for the Coral. This commissions the train → quantize → compile → deploy pipeline, and — seeing *ahead* — should beat the CV lap time.
+4. <input type="checkbox" disabled> **LLM as an offline copilot** — use a large model off-line to design reward functions, generate track curricula, and analyse failure logs.
+5. <input type="checkbox" disabled> **Sim RL with PufferLib** — train a policy in `gym-donkeycar` with PPO (pure Python), then distil and deploy.
+6. <input type="checkbox" disabled> **High-throughput RL in JAX** — a fast custom driving env, GPU-vectorized, trained in minutes, transferred with domain randomization.
+7. <input type="checkbox" disabled> **Dual-system "talk to your car"** — an off-board vision-language-action model issuing intent, the Coral handling control.
+8. <input type="checkbox" disabled> **Dream-to-drive** — a JAX world model, training the policy in imagination.
 
 ## Build log {#build-log}
 

@@ -460,14 +460,14 @@ Secondary education: mathematics–modern languages
 </div>
 
 <div class="pub-card">
-  <a class="pub-thumb" href="projects/self-driving-toy-car.html">
-    <img width="480" height="300" loading="lazy" src="images/projects/self-driving-toy-car.jpg" alt="The assembled DonkeyCar with a Jetson Nano on a 3D-printed cage" />
+  <a class="pub-thumb" href="projects/self-driving-rc-car.html">
+    <img width="480" height="300" loading="lazy" src="images/projects/self-driving-rc-car.jpg" alt="The assembled DonkeyCar with a Jetson Nano on a 3D-printed cage" />
   </a>
   <div class="pub-body">
-    <div class="pub-title"><a href="projects/self-driving-toy-car.html">Self-driving toy car</a></div>
+    <div class="pub-title"><a href="projects/self-driving-rc-car.html">Self-driving RC car</a></div>
     <p>Turning a 1/16-scale RC car into an autonomous car as a hands-on testbed for modern edge ML. Experimenting with training policies in simulation and deploying them to a Jetson Nano, with a Coral Edge TPU planned. An ongoing build, documented as I go.</p>
     <div class="pub-badges">
-      <a class="badge-primary" href="projects/self-driving-toy-car.html"><i class="bi bi-car-front"></i> Project overview</a>
+      <a class="badge-primary" href="projects/self-driving-rc-car.html"><i class="bi bi-car-front"></i> Project overview</a>
       <a href="writing.html#category=jetson"><i class="bi bi-journal-text"></i> Build log</a>
     </div>
   </div>
