@@ -34,6 +34,11 @@ wheels/
 /posts/trail-running-strava/strava-routes.png
 /posts/trails-and-sightings/crossover-map.png
 
+# Quarto listing / RSS render intermediates for the Writing page (regenerated
+# on every render; not committed).
+/writing-listing.json
+/writing.feed-full-staged
+
 # Local agent / skill tooling
 /.claude/
 /.agents/
