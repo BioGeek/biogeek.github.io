@@ -427,6 +427,20 @@ Secondary education: mathematics–modern languages
 ```{=html}
 <div class="pub-list">
 
+  <div class="pub-card">
+  <a class="pub-thumb" href="projects/self-driving-rc-car.html">
+    <img width="480" height="300" loading="lazy" src="images/projects/self-driving-rc-car.jpg" alt="The assembled DonkeyCar with a Jetson Nano on a 3D-printed cage" />
+  </a>
+  <div class="pub-body">
+    <div class="pub-title"><a href="projects/self-driving-rc-car.html">Self-driving RC car</a></div>
+    <p>Turning a 1/16-scale RC car into an autonomous car as a hands-on testbed for modern edge ML. Experimenting with training policies in simulation and deploying them to a Jetson Nano, with a Coral Edge TPU planned. An ongoing build, documented as I go.</p>
+    <div class="pub-badges">
+      <a class="badge-primary" href="projects/self-driving-rc-car.html"><i class="bi bi-car-front"></i> Project overview</a>
+      <a href="writing.html#category=jetson"><i class="bi bi-journal-text"></i> Build log</a>
+    </div>
+  </div>
+</div>
+
 <div class="pub-card">
   <a class="pub-thumb" href="https://schaakstudiespinsels2.be/nl/">
     <img width="480" height="300" loading="lazy" src="images/projects/schaakstudiespinsels2.jpg" alt="SchaakStudieSpinselS 2 cover artwork" />
@@ -438,37 +452,6 @@ Secondary education: mathematics–modern languages
       <a class="badge-primary" href="https://schaakstudiespinsels2.be/nl/"><i class="bi bi-box-arrow-up-right"></i> Live site</a>
       <a href="https://github.com/BioGeek/SchaakStudieSpinsels2"><i class="bi bi-github"></i> Code</a>
       <a href="https://www.lulu.com/shop/ignace-vandecasteele/schaakstudiespinsels-2/paperback/product-14n762rk.html"><i class="bi bi-bag"></i> Buy the book</a>
-    </div>
-  </div>
-</div>
-
-<div class="pub-card">
-  <!-- <a class="pub-thumb" href="photography/">
-    <img width="480" height="320" loading="lazy" src="images/photography/landscapes/02-w600.jpg" alt="Landscape photograph by Jeroen Van Goey" />
-  </a> -->
-  <a class="pub-thumb" href="photography/">
-    <img width="480" height="320" loading="lazy" src="/images/photography/pregnancy/01-w600.jpg" alt="Maternity photograph by Jeroen Van Goey" />
-  </a>
-  
-  <div class="pub-body">
-    <div class="pub-title"><a href="photography/">Photography</a></div>
-    <p>My portfolio of portrait, wedding, maternity, boudoir, landscape and long-exposure work. A hand-picked selection spanning intimate studio sessions and work out in the field.</p>
-    <div class="pub-badges">
-      <a class="badge-primary" href="photography/"><i class="bi bi-camera"></i> View portfolio</a>
-    </div>
-  </div>
-</div>
-
-<div class="pub-card">
-  <a class="pub-thumb" href="projects/self-driving-rc-car.html">
-    <img width="480" height="300" loading="lazy" src="images/projects/self-driving-rc-car.jpg" alt="The assembled DonkeyCar with a Jetson Nano on a 3D-printed cage" />
-  </a>
-  <div class="pub-body">
-    <div class="pub-title"><a href="projects/self-driving-rc-car.html">Self-driving RC car</a></div>
-    <p>Turning a 1/16-scale RC car into an autonomous car as a hands-on testbed for modern edge ML. Experimenting with training policies in simulation and deploying them to a Jetson Nano, with a Coral Edge TPU planned. An ongoing build, documented as I go.</p>
-    <div class="pub-badges">
-      <a class="badge-primary" href="projects/self-driving-rc-car.html"><i class="bi bi-car-front"></i> Project overview</a>
-      <a href="writing.html#category=jetson"><i class="bi bi-journal-text"></i> Build log</a>
     </div>
   </div>
 </div>
@@ -486,6 +469,20 @@ Secondary education: mathematics–modern languages
     </div>
   </div>
 </div>
+
+<div class="pub-card">
+  <a class="pub-thumb" href="photography/">
+    <img width="480" height="320" loading="lazy" src="/images/photography/pregnancy/01-w600.jpg" alt="Maternity photograph by Jeroen Van Goey" />
+  </a>
+  <div class="pub-body">
+    <div class="pub-title"><a href="photography/">Photography</a></div>
+    <p>My portfolio of portrait, wedding, maternity, boudoir, landscape and long-exposure work. A hand-picked selection spanning intimate studio sessions and work out in the field.</p>
+    <div class="pub-badges">
+      <a class="badge-primary" href="photography/"><i class="bi bi-camera"></i> View portfolio</a>
+    </div>
+  </div>
+</div>
+
 
 </div>
 ```
