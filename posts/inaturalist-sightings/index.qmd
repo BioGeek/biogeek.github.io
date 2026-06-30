@@ -3,7 +3,7 @@ title: "What I've been finding: my iNaturalist sightings"
 subtitle: "A naturalist's logbook, kept up to date straight from the iNaturalist API"
 description: >
   Favourite sightings, the rare and threatened ones, and what the numbers say
-  about where and what I observe — pulled live from iNaturalist and refreshed
+  about where and what I observe, pulled live from iNaturalist and refreshed
   automatically.
 date: 2026-06-26
 categories: [nature, data, south africa, api]
@@ -24,7 +24,7 @@ gen = data["generated_at"][:10]
 
 Every walk on the mountain or the shoreline ends the same way: phone out,
 photographing something I can't name yet. [iNaturalist](https://www.inaturalist.org)
-turns that habit into data — and since the numbers below come from its API and
+turns that habit into data, and since the numbers below come from its API and
 refresh on their own, this page is never out of date.
 
 ```{python}
@@ -81,7 +81,7 @@ HTML('<div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(180
 ## By the numbers
 
 <!-- TODO (viz ideas, not yet implemented): https://glauberramos.github.io/inat/
-     has some nice iNaturalist visualisations worth borrowing — e.g. a life-list
+     has some nice iNaturalist visualisations worth borrowing, e.g. a life-list
      timeline, observation calendar/heatmap, and taxonomic breakdowns. Revisit
      when expanding the charts below. -->
 

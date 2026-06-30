@@ -11,7 +11,7 @@ image-alt: "View over Cape Town"
 draft: true   # <- remove this line to publish
 ---
 
-> **Outline / draft.** This one is personal, so it should be in your voice —
+> **Outline / draft.** This one is personal, so it should be in your voice, 
 > I've only left signposts and prompts. Keep it concrete: specific mornings,
 > specific people, specific small frustrations.
 
@@ -23,7 +23,7 @@ draft: true   # <- remove this line to publish
 ## Working from the bottom of the map
 
 > The professional thread: leading BioAI from Cape Town, the time-zone reality,
-> the surprise of how *close* the European collaborations stayed — and the ways
+> the surprise of how *close* the European collaborations stayed, and the ways
 > being here changed the work (the Indaba, IndabaX, hackathons across the
 > continent, hiring across Cape Town and Kigali).
 
@@ -44,5 +44,5 @@ draft: true   # <- remove this line to publish
 
 ## What I'm taking back
 
-> The relocation to Europe is mid-2027. Close on what stays with you — a habit,
+> The relocation to Europe is mid-2027. Close on what stays with you, a habit,
 > a perspective on the field, a way of working you didn't have before.

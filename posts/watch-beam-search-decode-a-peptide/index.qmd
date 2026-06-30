@@ -1,8 +1,8 @@
 ---
 title: "Watch beam search decode a peptide"
-subtitle: "Mass-constrained beam search and the knapsack trick that prunes the dead ends — the way InstaNovo actually does it"
+subtitle: "Mass-constrained beam search and the knapsack trick that prunes the dead ends, the way InstaNovo actually does it"
 description: >
-  Decoding a peptide from a spectrum isn't argmax over a vocabulary — it's a
+  Decoding a peptide from a spectrum isn't argmax over a vocabulary, it's a
   search under a hard mass budget. A runnable, step-by-step look at the
   precursor-mass-constrained beam search in InstaNovo, and why a precomputed
   knapsack chart prunes branches the mass filter alone can't.
@@ -18,14 +18,14 @@ draft: true   # <- remove to publish
 
 A sequence model gives you a probability over the next residue. The obvious thing
 to do is take the most probable one, repeat, and stop at the end token. For text
-that's fine. For a peptide it's almost never right — because a peptide isn't just
+that's fine. For a peptide it's almost never right, because a peptide isn't just
 *likely*, it has to *weigh the right amount*. The precursor mass is measured, and
 the residues you emit have to add up to it within a few parts per million. Greedy
 decoding ignores that constraint until it's too late.
 
 So decoding a spectrum is really a **constrained search**: find the high-probability
 residue string whose total mass hits the precursor. This post walks through how
-[InstaNovo](https://github.com/instadeepai/InstaNovo) does it — first plain
+[InstaNovo](https://github.com/instadeepai/InstaNovo) does it, first plain
 beam search with a running mass budget, then the knapsack variant that prunes
 branches the mass filter can't see are doomed. The code below is a compact,
 runnable reimplementation of that logic; links to the real (batched, GPU)
@@ -110,7 +110,7 @@ a single running quantity: the **remaining mass**. It starts at
 out of it:
 
 1. **Prune overshoots.** Any residue heavier than the remaining budget (beyond
-   tolerance) can't possibly appear next — set its probability to `−∞`.
+   tolerance) can't possibly appear next, set its probability to `−∞`.
 2. **Force the end when the budget is spent.** When the remaining mass is within
    tolerance of zero, the only legal move is the end-of-sequence token.
 
@@ -186,7 +186,7 @@ print("Top-2 completed beams:", top2)
 ```
 
 Look at the top two beams: **PEPTLDE** and **PEPTIDE**, with *identical* log
-probabilities. That's not a bug — leucine and isoleucine have exactly the same
+probabilities. That's not a bug, leucine and isoleucine have exactly the same
 mass (113.08406 Da) and, without immonium or satellite ions to break the tie, are
 genuinely indistinguishable from this spectrum. It's the canonical example of why
 de novo sequencing reports ambiguity, and why you want a *beam* (a ranked set),
@@ -204,7 +204,7 @@ A **knapsack** answers the global question ahead of time. Precompute, for every
 achievable total mass, which residues a peptide of that mass can *begin with*.
 Then a residue is only valid if, after subtracting it, the remaining mass is
 something real residues can still realise. InstaNovo builds this chart once with a
-depth-first search over *feasible* masses —
+depth-first search over *feasible* masses, 
 [`construct_knapsack`](https://github.com/instadeepai/InstaNovo/blob/55a9a3ff7c18e2748c0ef7fc6ba3213002ad6a0f/instanovo/inference/knapsack.py):
 
 ```python
@@ -224,7 +224,7 @@ while agenda:
 Masses are integers (scaled by `MASS_SCALE = 10000`, i.e. 0.1 mDa resolution) so
 the chart is an exact lookup. At decode time, the filter checks the window of
 feasible masses around the remaining budget and keeps only residues that can start
-one of them —
+one of them, 
 [`_filter_knapsack`](https://github.com/instadeepai/InstaNovo/blob/55a9a3ff7c18e2748c0ef7fc6ba3213002ad6a0f/instanovo/inference/knapsack_beam_search.py),
 condensed:
 
@@ -235,7 +235,7 @@ upper = ((remaining_mass + tol) * mass_scale).round().long().clamp(max=chart.sha
 valid = chart[mass_indices, residue_columns].any(dim=-1)
 ```
 
-The runnable equivalent — a DFS to build the set of feasible masses per starting
+The runnable equivalent, a DFS to build the set of feasible masses per starting
 residue, and a binary-search lookup:
 
 ```{python}
@@ -288,7 +288,7 @@ print("Knapsack top-2:", [("".join(c["seq"]), round(c["logp"], 2)) for c in comp
 ```
 
 Same answer (PEPTLDE / PEPTIDE), but the knapsack reaches it having explored far
-fewer dead ends — the red bars show it discarding doomed branches mid-decode,
+fewer dead ends, the red bars show it discarding doomed branches mid-decode,
 exactly where the mass filter is still silent. On real spectra, with longer
 peptides and a vocabulary full of modifications, that pruning is the difference
 between a beam packed with viable candidates and one clogged with branches that
@@ -305,7 +305,7 @@ one-off runs or when the residue vocabulary keeps changing.
 
 ## Plugging in a real model
 
-Everything above swapped one function — `score_next` — for a toy. The real
+Everything above swapped one function, `score_next`, for a toy. The real
 contract is the
 [`Decodable`](https://github.com/instadeepai/InstaNovo/blob/55a9a3ff7c18e2748c0ef7fc6ba3213002ad6a0f/instanovo/inference/interfaces.py)
 interface: give the decoder a model that can encode a spectrum and score the next
@@ -313,9 +313,9 @@ residue, and the same mass-constrained search runs on top of it. The production
 versions are batched over beams and spectra and run on GPU, but the skeleton is
 the one you just watched:
 
-- [`beam_search.py`](https://github.com/instadeepai/InstaNovo/blob/55a9a3ff7c18e2748c0ef7fc6ba3213002ad6a0f/instanovo/inference/beam_search.py) — mass-constrained beam search
-- [`knapsack.py`](https://github.com/instadeepai/InstaNovo/blob/55a9a3ff7c18e2748c0ef7fc6ba3213002ad6a0f/instanovo/inference/knapsack.py) — the chart and its DFS construction
-- [`knapsack_beam_search.py`](https://github.com/instadeepai/InstaNovo/blob/55a9a3ff7c18e2748c0ef7fc6ba3213002ad6a0f/instanovo/inference/knapsack_beam_search.py) — the two combined
+- [`beam_search.py`](https://github.com/instadeepai/InstaNovo/blob/55a9a3ff7c18e2748c0ef7fc6ba3213002ad6a0f/instanovo/inference/beam_search.py), mass-constrained beam search
+- [`knapsack.py`](https://github.com/instadeepai/InstaNovo/blob/55a9a3ff7c18e2748c0ef7fc6ba3213002ad6a0f/instanovo/inference/knapsack.py), the chart and its DFS construction
+- [`knapsack_beam_search.py`](https://github.com/instadeepai/InstaNovo/blob/55a9a3ff7c18e2748c0ef7fc6ba3213002ad6a0f/instanovo/inference/knapsack_beam_search.py), the two combined
 
 > *The embedded code is a teaching reimplementation of InstaNovo's decoding logic
 > (Apache-2.0), reduced to single-spectrum, CPU, pure-Python form. Pinned to commit

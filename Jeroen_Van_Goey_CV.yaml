@@ -140,7 +140,7 @@ cv:
         highlights:
           - "Progress log: [jeroen.vangoey.be/writing (jetson)](https://jeroen.vangoey.be/writing.html#category=jetson)"
       - name: "[SchaakStudieSpinselS 2](https://schaakstudiespinsels2.be/nl/)"
-        summary: "Digitised the second volume of my grandfather Ignace Vandecasteele's third book of chess endgame studies — more than three hundred studies — put the whole collection online, and made the chess boards interactive."
+        summary: "Digitised the second volume of my grandfather Ignace Vandecasteele's third book of chess endgame studies, more than three hundred studies, put the whole collection online, and made the chess boards interactive."
         highlights:
           - "Open source: [github.com/BioGeek/SchaakStudieSpinsels2](https://github.com/BioGeek/SchaakStudieSpinsels2)"
       - name: "[Photography portfolio](https://jeroen.vangoey.be/photography/)"

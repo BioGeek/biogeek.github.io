@@ -1,7 +1,7 @@
 ---
 title: "Writing"
-description: "Notes on building ML systems for biology — and the occasional side quest."
-pagetitle: "Writing — Jeroen Van Goey"
+description: "Notes on building ML systems for biology, and the occasional side quest."
+pagetitle: "Writing by Jeroen Van Goey"
 # Preserve the old /blog.html URL (renamed from blog.qmd) so existing inbound
 # links and bookmarks still resolve.
 aliases:

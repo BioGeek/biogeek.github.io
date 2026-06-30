@@ -1,9 +1,9 @@
 ---
 title: "On the trails: running and hiking, straight from Strava"
-subtitle: "Where I run and hike, how far, and how much climbing — kept current by the Strava API"
+subtitle: "Where I run and hike, how far, and how much climbing, kept current by the Strava API"
 description: >
-  Trail running and hiking stats — distance, elevation, the long days out on the
-  mountain — pulled from the Strava API and refreshed automatically, with photos
+  Trail running and hiking stats, distance, elevation, the long days out on the
+  mountain, pulled from the Strava API and refreshed automatically, with photos
   from the trail.
 date: 2026-06-26
 categories: [running, trail, data, south africa, api]
@@ -23,8 +23,8 @@ gen = data["generated_at"][:10]
 ```
 
 Living under Table Mountain ruins you for flat running. Most weeks end with a few
-hours somewhere on the trails above Cape Town — running when the legs are fresh,
-hiking when they're not — and Strava quietly records all of it. The numbers below
+hours somewhere on the trails above Cape Town, running when the legs are fresh,
+hiking when they're not, and Strava quietly records all of it. The numbers below
 come from the Strava API and refresh on their own, so this is always the current
 picture, not a snapshot I forgot to update.
 
@@ -129,7 +129,7 @@ ax.set_ylabel("km"); plt.xticks(rotation=45, ha="right")
 fig.tight_layout(); fig.savefig("strava-monthly.png", dpi=130)
 ```
 
-Trail runs and hikes aren't just longer — they go *up*. Plotting elevation gain
+Trail runs and hikes aren't just longer, they go *up*. Plotting elevation gain
 against distance separates the mountain days from the easy road recovery runs:
 
 ```{python}
@@ -176,7 +176,7 @@ fig.tight_layout(); fig.savefig("strava-routes.png", dpi=130)
 ```
 
 Binning the GPS points into a 2-D histogram turns those overlapping lines into a
-true density heatmap — the brightest cells are the trails I keep coming back to:
+true density heatmap, the brightest cells are the trails I keep coming back to:
 
 ```{python}
 #| label: fig-density
@@ -217,7 +217,7 @@ fig.tight_layout()
 
 Joining each activity to the weather at that exact hour (via the free
 [Open-Meteo](https://open-meteo.com) archive) shows the conditions I actually
-head out in — and whether the heat slows me down.
+head out in, and whether the heat slows me down.
 
 ```{python}
 #| label: weather-panel

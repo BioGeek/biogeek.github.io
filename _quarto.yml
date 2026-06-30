@@ -3,7 +3,7 @@ project:
   output-dir: docs
   render:
     # Explicit render set so donkeycar-roadmap.md (and other stray .md like
-    # README) is NOT published — the roadmap stays in the repo as a personal
+    # README) is NOT published, the roadmap stays in the repo as a personal
     # "what to work on next" reference only.
     - "*.qmd"
     - "posts/"

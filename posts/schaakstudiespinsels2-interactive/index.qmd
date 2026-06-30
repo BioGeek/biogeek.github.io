@@ -1,9 +1,9 @@
 ---
 title: "Turning my grandfather's chess book into a playable website"
-subtitle: "OCR, a piece classifier, a Dutch-notation parser and a tablebase oracle — the pipeline behind an interactive edition of 308 endgame studies"
+subtitle: "OCR, a piece classifier, a Dutch-notation parser and a tablebase oracle, the pipeline behind an interactive edition of 308 endgame studies"
 description: >
   How I converted a printed book of 308 original chess endgame studies into a
-  bilingual site where every study is a clickable, playable board — and why
+  bilingual site where every study is a clickable, playable board, and why
   getting a correct starting position off a printed diagram was the hard part.
 date: 2026-06-27
 categories: [chess, side project, computer vision, parsing]
@@ -14,7 +14,7 @@ draft: true   # <- remove this line to publish
 
 > **Working draft.** The technical sections are written from the real pipeline;
 > the blockquote prompts (the opening hook and the closing reflection) are the
-> bits that should be in your own voice — fill those in.
+> bits that should be in your own voice, fill those in.
 
 ## The artifact
 
@@ -24,15 +24,15 @@ draft: true   # <- remove this line to publish
 
 [*Schaakstudiespinsels 2*](https://schaakstudiespinsels2.be/nl/) is the second
 volume of original chess endgame studies composed by my grandfather, Ignace
-Vandecasteele. A study is a constructed position with a stipulation — *White to
-play and win*, or *to draw* — and a single, often surprising, solution. In print
+Vandecasteele. A study is a constructed position with a stipulation, *White to
+play and win*, or *to draw*, and a single, often surprising, solution. In print
 each one is a static diagram, a string of moves in Dutch notation, and a few
 lines of analysis. The whole point of a study is that you play it out; a frozen
 diagram on paper is the one format that *won't* let you do that.
 
 So the goal was simple to state and annoying to deliver: turn every one of the
-308 studies into a position you can click through — main line, variations and
-sub-variations — in the browser, in both Dutch and English.
+308 studies into a position you can click through, main line, variations and
+sub-variations, in the browser, in both Dutch and English.
 
 ## Two halves: a pipeline and a site
 
@@ -45,55 +45,55 @@ The project is really two codebases that meet at a contract:
 
 The contract between them is a single [Zod](https://zod.dev/) schema. The Python
 parser emits exactly that shape; the Astro components read it. Everything hard
-happens on the Python side — the site is "just" rendering — so that is where
+happens on the Python side, the site is "just" rendering, so that is where
 most of this post lives.
 
 The hard problem, stated precisely: **recover a correct, machine-checkable
 position and move tree from a printed diagram and a paragraph of Dutch chess
 notation.** Neither half of that input is clean.
 
-## Step 1 — finding where each study starts
+## Step 1: finding where each study starts
 
 The book has two studies to a page sometimes, page-number artefacts bleeding
 into the text, and the occasional OCR smudge. The extractor finds study
 boundaries by collecting every `- N -` header span across all pages and sorting
-them in reading order — left column top to bottom, then right column. That
+them in reading order, left column top to bottom, then right column. That
 ordering is what correctly splits a page shared by two studies, something a
 naïve top-to-bottom pass silently merged.
 
 > **A bug worth remembering.** The header regex required a line starting with
-> `-`. A single mis-OCR'd header — `.- 115 -`, with a stray leading period —
+> `-`. A single mis-OCR'd header, `.- 115 -`, with a stray leading period, 
 > made study 115 invisible, and it was silently swallowed into its neighbour. It
 > had to be hand-reconstructed. Lesson: the parser that *segments* your input is
 > exactly as fragile as the noisiest character in your scan.
 
-## Step 2 — reading the board (the genuinely hard part)
+## Step 2: reading the board (the genuinely hard part)
 
 Each study ships with a diagram image. Deriving the starting [FEN](https://en.wikipedia.org/wiki/Forsyth%E2%80%93Edwards_Notation)
 (the standard text encoding of a position) from that image is a two-pass
 computer-vision problem:
 
-1. **Shape** — match each piece against templates using
+1. **Shape**: match each piece against templates using
    [Hu moments](https://en.wikipedia.org/wiki/Image_moment#Rotation_invariants),
    which are scale- and rotation-invariant, to guess the piece *type*.
-2. **Colour** — mean brightness inside the piece mask decides black vs. white.
+2. **Colour**: mean brightness inside the piece mask decides black vs. white.
 
 Piece *locations* come out reliable. Piece *type* is the weak point: the
 silhouettes of a queen, a rook and a bishop are close enough that the classifier
-regularly confuses them — the classic **queen-vs-rook-vs-bishop** problem.
+regularly confuses them, the classic **queen-vs-rook-vs-bishop** problem.
 
 The fix is to bring in a second, independent source of truth. Every study is
 annotated with a [GBR code](https://en.wikipedia.org/wiki/GBR_code), which
 specifies the exact material on the board. So the pipeline snaps the kings onto
 their GBR squares and relabels mis-typed officers to the type the GBR code
-demands — but only when it's unambiguous. Count mismatches and genuinely
+demands, but only when it's unambiguous. Count mismatches and genuinely
 ambiguous cases are surfaced as warnings, not papered over.
 
-## Step 3 — the swap the material count can't see
+## Step 3: the swap the material count can't see
 
 Here is the subtle failure that makes this project interesting. If the
-classifier swaps a rook and a bishop, the *material counts* are still correct —
-one rook, one bishop, both present — so the GBR check sees nothing wrong. The
+classifier swaps a rook and a bishop, the *material counts* are still correct, 
+one rook, one bishop, both present, so the GBR check sees nothing wrong. The
 board is still wrong, though, and you only find out because **the book's first
 move is now illegal**.
 
@@ -105,11 +105,11 @@ study's solution against each candidate, and keeps the one whose move tree runs
 disambiguates the position.
 
 The payoff is reproducibility: type-swap studies now rebuild correctly from a
-clean clone, with no hand-written override files. And it's cheap — the stage
+clean clone, with no hand-written override files. And it's cheap, the stage
 only fires when the classifier's FEN can't parse the moves, so the studies the
 classifier already got right pay nothing.
 
-## Step 4 — parsing Dutch move notation into a tree
+## Step 4: parsing Dutch move notation into a tree
 
 With a trustworthy starting position, the parser turns the printed Dutch
 notation (`K D T L P` for King, Queen, Rook, Bishop, Knight) into a structured
@@ -127,21 +127,21 @@ not a continuation. That single "does this move go backward?" guard
 un-truncated dozens of studies that an embedded side-line had been silently
 cutting short.
 
-## Step 5 — two gates, because "legal" isn't "correct"
+## Step 5: two gates, because "legal" isn't "correct"
 
 This is the part I'd press on anyone building something similar: **a consistency
 check is necessary but not sufficient.**
 
 The first gate, `verify_studies.py`, confirms three things: the FEN's material
 and king squares match the GBR code, at least one move parsed, and the move tree
-is *internally consistent* — every move is legal from its parent and lands on
+is *internally consistent*, every move is legal from its parent and lands on
 its recorded position. That catches corruption. It does **not** catch a study
-that is perfectly legal and still wrong — a position mis-read in a way that turns
+that is perfectly legal and still wrong, a position mis-read in a way that turns
 a win into a theoretical draw, say, or a side-to-move error.
 
 So there's a second, independent gate: `tablebase_audit.py` queries the
 [Lichess endgame tablebase](https://lichess.org/blog/W3WeMyQAACQAdfAL/7-piece-syzygy-tablebases-are-complete)
-for each starting position and checks the *value* against the stipulation — a
+for each starting position and checks the *value* against the stipulation, a
 "White to win" study had better be a tablebase win for White. It caught a whole
 class of studies that sailed through `verify` and were still wrong: queen↔bishop
 and knight↔bishop type swaps that preserved the material count, a rook one file
@@ -177,10 +177,10 @@ from a strip in the original source.
 305 of the book's 308 studies are live. Three are deliberately held back, and I
 think *which* three says something about the project's standard:
 
-- **45 and 205** — the move text was OCR-corrupted beyond safe reconstruction.
+- **45 and 205**: the move text was OCR-corrupted beyond safe reconstruction.
   One plausible-looking reconstruction of 45 was internally legal and passed
   `verify`, but ended by hanging the queen. Legal isn't correct.
-- **252** — not a pipeline failure at all: the book itself leaves Black's eighth
+- **252**: not a pipeline failure at all: the book itself leaves Black's eighth
   move blank at the zugzwang point. A genuine gap in the source, faithfully left
   as a gap.
 

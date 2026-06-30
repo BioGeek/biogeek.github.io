@@ -66,9 +66,9 @@ HTML('<div style="display:flex;gap:1rem;flex-wrap:wrap;margin:1rem 0">' + "".joi
 
 ## The map
 
-The map below is interactive — pan, zoom, and click any dot for the species.
+The map below is interactive, pan, zoom, and click any dot for the species.
 Faint grey lines are my Strava tracks; each coloured dot is an iNaturalist
-sighting, coloured by taxonomic group. Threatened taxa are excluded —
+sighting, coloured by taxonomic group. Threatened taxa are excluded, 
 iNaturalist obscures their locations, so they never appear here.
 
 ```{python}
@@ -146,7 +146,7 @@ m
 
 ## How close to the trail?
 
-Most sightings aren't *on* a track — they're a short detour off it. The
+Most sightings aren't *on* a track, they're a short detour off it. The
 distribution of distance-to-nearest-track shows how far I tend to wander:
 
 ```{python}
@@ -173,8 +173,8 @@ if near:
 
 ::: {.callout-note collapse="true"}
 ## How this works
-This page reads the two committed data files — `strava_runs.json` and
-`inat.json` — produced by the Strava and iNaturalist fetch jobs. The analysis is
+This page reads the two committed data files, `strava_runs.json` and
+`inat.json`, produced by the Strava and iNaturalist fetch jobs. The analysis is
 bounded to the area my tracks cover, distances use an equirectangular
 approximation (fine at city scale), and only iNaturalist's non-obscured
 coordinates are used, so no threatened taxon is ever located.
