@@ -15,6 +15,8 @@ project:
   # whole folder to guarantee every srcset candidate lands in the output.
   resources:
     - "images/photography/**"
+    # Static redirect page (no Quarto processing): /i -> homepage with LinkedIn UTM tags.
+    - "i/index.html"
   post-render:
     - "cp -rv .well-known/. docs/.well-known/"
     - "cp CNAME docs/"
