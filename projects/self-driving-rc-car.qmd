@@ -1,8 +1,8 @@
 ---
 title: "Self-driving RC car"
-subtitle: "Turning a 1/16-scale DonkeyCar into an autonomous car — and a testbed for modern edge ML"
+subtitle: "Turning a 1/16-scale RC car into an autonomous car as a testbed for modern edge ML"
 description: >
-  An ongoing project: training self-driving policies in simulation and deploying
+  An ongoing project: experiments in training self-driving policies in simulation and deploying
   them to a Jetson Nano (with a Coral Edge TPU planned). Overview, architecture, and a build log.
 date: 2026-06-26
 # Preserve the old /projects/self-driving-toy-car.html URL (renamed from
@@ -27,17 +27,13 @@ listing:
 toc: true
 ---
 
-I'm turning a [DonkeyCar](https://www.donkeycar.com) — a 1/16-scale RC car — into
-a small autonomous vehicle. It's a deliberately constrained playground for the
-parts of modern ML I find most interesting: reinforcement learning, sim-to-real
-transfer, vision-language-action models, and the unglamorous reality of making
-all of that run on cheap, power-limited edge hardware.
+I'm turning a 1/16-scale RC car into a small autonomous vehicle using the [DonkeyCar](https://www.donkeycar.com) platform. In my day job I'm working with transformer and diffusion models, but this project gives me a deliberately constrained playground for the parts of modern ML that I don't get much exposure to: reinforcement learning, sim-to-real transfer, vision-language-action models. It is also my first hardware project.
 
-This page is the hub: what the car is, how it's put together, and where the
+This page gives an overview of what the car is, how it's put together, and where the
 project is going. The [build log](#build-log) below collects the individual posts
 on architecture and progress as I write them.
 
-![Assembled and booted: the Jetson Nano and camera bolted into a 3D-printed cage on the RC chassis, next to the JetPack desktop.](../images/projects/donkeycar-assembled.jpg){fig-alt="An assembled DonkeyCar — a Jetson Nano and camera on a white 3D-printed cage mounted on an RC car chassis — on a desk beside a monitor showing the NVIDIA Jetson Ubuntu desktop"}
+![Assembled and booted: the Jetson Nano and camera bolted into a 3D-printed cage on the RC chassis, next to the JetPack desktop.](../images/projects/donkeycar-assembled.jpg){fig-alt="An assembled DonkeyCar with a Jetson Nano and camera on a white 3D-printed cage mounted on an RC car chassis. — on a desk beside a monitor showing the NVIDIA Jetson Ubuntu desktop"}
 
 ## The hardware
 
