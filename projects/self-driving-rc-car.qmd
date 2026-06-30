@@ -3,7 +3,7 @@ title: "Self-driving RC car"
 subtitle: "Turning a 1/16-scale RC car into an autonomous car as a testbed for modern edge ML"
 description: >
   An ongoing project: experiments in training self-driving policies in simulation and deploying
-  them to a Jetson Nano (with a Coral Edge TPU planned). Overview, architecture, and a build log.
+  them to a Jetson Nano (with a Coral Edge TPU planned). Overview, architecture, and a progress log.
 date: 2026-06-26
 # Preserve the old /projects/self-driving-toy-car.html URL (renamed from
 # self-driving-toy-car.qmd) so existing inbound links and bookmarks still resolve.
@@ -12,8 +12,8 @@ aliases:
 image: ../images/projects/self-driving-rc-car.jpg
 image-alt: "The assembled DonkeyCar with a Jetson Nano on a 3D-printed cage"
 listing:
-  - id: buildlog-posts
-    # Build-log posts are any post folder named posts/donkeycar-* or
+  - id: progresslog-posts
+    # Progress-log posts are any post folder named posts/donkeycar-* or
     # posts/self-driving-* — they show up here automatically as I publish them.
     contents:
       - "../posts/donkeycar-*/index.qmd"
@@ -27,13 +27,13 @@ listing:
 toc: true
 ---
 
-I'm turning a 1/16-scale RC car into a small autonomous vehicle using the [DonkeyCar](https://www.donkeycar.com) platform. In my day job I'm working with transformer and diffusion models, but this project gives me a deliberately constrained playground for the parts of modern ML that I don't get much exposure to: reinforcement learning, sim-to-real transfer, vision-language-action models. It is also my first hardware project.
+I'm turning a 1/16-scale RC car into a small autonomous vehicle using the [DonkeyCar](https://www.donkeycar.com) platform. In my day job I'm working with transformer and diffusion models, but this project gives me a playground for the parts of modern ML that I don't get much exposure to: reinforcement learning, sim-to-real transfer and vision-language-action models. It is also my first project with a significant hardware component.
 
 This page gives an overview of what the car is, how it's put together, and where the
-project is going. The [build log](#build-log) below collects the individual posts
+project is going. The [progress log](#progress-log) below collects the individual posts
 on architecture and progress as I write them.
 
-![Everything in the box before any of it fought back: the RC chassis and body, the Jetson Nano Developer Kit, the PCA9685 PWM driver, a buck converter, the IMX219 CSI camera and the 3D-printed cage.](../images/projects/donkeycar-parts.jpg){fig-alt="DonkeyCar parts laid out on a wooden floor — an RC monster-truck chassis with bodyshell, an NVIDIA Jetson Nano Developer Kit box, a PCA9685 PWM driver board, a buck converter, a CSI camera module and a white 3D-printed mounting cage"}
+![Everything just unpacked: the RC chassis and body, the Jetson Nano Developer Kit, the PCA9685 PWM driver, a step-down converter, the IMX219 CSI camera and the 3D-printed cage.](../images/projects/donkeycar-parts.jpg){fig-alt="DonkeyCar parts laid out on a wooden table: an RC monster-truck chassis with bodyshell, an NVIDIA Jetson Nano Developer Kit box, a PCA9685 PWM driver board, a step-down converter, a CSI camera module and a white 3D-printed mounting cage"}
 
 ## The hardware
 
@@ -50,16 +50,12 @@ on architecture and progress as I write them.
 A laptop with a GPU (RTX 4070) sits on the same network for the model training. A
 **Coral Edge TPU** is planned but not yet in the build — see the [roadmap](#roadmap).
 
-![Assembled and booted: the Jetson Nano and camera bolted into a 3D-printed cage on the RC chassis, next to the JetPack desktop.](../images/projects/donkeycar-assembled.jpg){fig-alt="An assembled DonkeyCar with a Jetson Nano and camera on a white 3D-printed cage mounted on an RC car chassis. The monitor is plugged into the car and shows the Nano's JetPack desktop, NVIDIA's Ubuntu-based Linux for the Jetson."}
 
 ## The architecture
 
-One idea runs through the whole project: a slow brain and fast reflexes, split
-across devices. This is the *intended* design — today the car drives from the Nano
-alone over the web controller, and the pieces below get built out along the
-[roadmap](#roadmap).
+The project is built around a single guiding idea: a slow brain paired with fast reflexes, distributed across multiple devices. Today the car runs on teleoperation over the web controller, the design below is what it's being built toward.
 
-- **System 1 — fast reflexes.** A tiny convolutional policy that maps camera frames to steering and throttle, quantized to INT8 for the real-time control loop. The plan is to offload this to a **Coral Edge TPU** (a USB INT8 accelerator) so it runs at high frame rate and low power; for now it would run on the Nano.
+- **System 1 — fast reflexes.** A tiny convolutional policy that maps camera frames to steering and throttle, to be quantized to INT8 for the real-time control loop. The plan is to offload this to a **Coral Edge TPU** (a USB INT8 accelerator) so it runs at high frame rate and low power; for now it runs on the Nano.
 - **Host — the Nano.** Camera capture, actuator control over I²C, and the safety/glue layer.
 - **System 2 — off-board.** An optional, slower model (a small vision-language-action model, or an LLM planner) that issues high-level intent over wifi at a few hertz, which System 1 then carries out.
 
@@ -67,10 +63,11 @@ The guiding constraint is simple: **train off-device, deploy on-device.** The
 Nano's software stack is too old for a modern training toolchain, so learning
 happens on a real GPU off-board and the car only ever runs a compiled artifact.
 
+![Assembled and booted: the Jetson Nano and camera bolted into a 3D-printed cage on the RC chassis, next to the JetPack desktop.](../images/projects/donkeycar-assembled.jpg){fig-alt="An assembled DonkeyCar with a Jetson Nano and camera on a white 3D-printed cage mounted on an RC car chassis. The monitor is plugged into the car and shows the Nano's JetPack desktop, NVIDIA's Ubuntu-based Linux for the Jetson."}
+
 ## Roadmap
 
-Roughly most-feasible to most-ambitious. Each step reuses the deployment pipeline
-built by the one before it, and each will get its own build-log post.
+Roughly ordered from most-feasible to most-ambitious. Each step reuses the deployment pipeline built by the one before it, and each will get its own progress-log post.
 
 1. <input type="checkbox" checked disabled> **Hardware audit & baseline** — confirm what each device runs and get teleop working end to end.
 2. <input type="checkbox" disabled> **Line following, classic CV** — point the camera forward, threshold + centroid + a P-controller, and drive a loop with no ML. Gets the car physically moving and sets a *baseline lap time*.
@@ -81,10 +78,10 @@ built by the one before it, and each will get its own build-log post.
 7. <input type="checkbox" disabled> **Dual-system "talk to your car"** — an off-board vision-language-action model issuing intent, the Coral handling control.
 8. <input type="checkbox" disabled> **Dream-to-drive** — a JAX world model, training the policy in imagination.
 
-## Build log {#build-log}
+## Progress log {#progress-log}
 
 Posts on architecture and progress, oldest first. (More to come — this fills in
 as the roadmap above gets built.)
 
-::: {#buildlog-posts}
+::: {#progresslog-posts}
 :::
