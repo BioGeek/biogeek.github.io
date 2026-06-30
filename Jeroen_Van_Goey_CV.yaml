@@ -135,6 +135,16 @@ cv:
         summary: "A comprehensive, interactive map of the *de novo* peptide sequencing field: algorithms, post-processors, downstream applications, and adjacent tools, deep-learning and classical alike."
         highlights:
           - "Open source: [github.com/BioGeek/awesome_de_novo_peptide_sequencing](https://github.com/BioGeek/awesome_de_novo_peptide_sequencing)"
+      - name: "[Self-driving RC car](https://jeroen.vangoey.be/projects/self-driving-rc-car.html)"
+        summary: "Turning a 1/16-scale RC car into an autonomous vehicle as a hands-on testbed for modern edge ML: training policies in simulation and deploying them to a Jetson Nano. An ongoing build, documented in a public build log."
+        highlights:
+          - "Build log: [jeroen.vangoey.be/writing (jetson)](https://jeroen.vangoey.be/writing.html#category=jetson)"
+      - name: "[SchaakStudieSpinselS 2](https://schaakstudiespinsels2.be/nl/)"
+        summary: "Digitised the second volume of my grandfather Ignace Vandecasteele's third book of chess endgame studies — more than three hundred studies — put the whole collection online, and made the chess boards interactive."
+        highlights:
+          - "Open source: [github.com/BioGeek/SchaakStudieSpinsels2](https://github.com/BioGeek/SchaakStudieSpinsels2)"
+      - name: "[Photography portfolio](https://jeroen.vangoey.be/photography/)"
+        summary: "A portfolio of portrait, wedding, maternity, boudoir, landscape and long-exposure photography."
     Teaching & mentoring:
       - name: Machine Learning for Biology practical
         date: 2023
