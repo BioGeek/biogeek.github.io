@@ -764,6 +764,12 @@ div.callout-note.callout-style-default > .callout-header {
 }
 .ph-quicknav a:hover { color: $primary; border-bottom-color: $primary; }
 
+// Centered "Follow on Instagram" badge at the foot of the gallery.
+.ph-follow {
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
 .ph-section { margin: 0 0 2.75rem; }
 .ph-section > h2 {
   scroll-margin-top: 5rem;

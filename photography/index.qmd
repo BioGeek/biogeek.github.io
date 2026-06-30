@@ -213,6 +213,10 @@ Click any image to view it larger.
 
 </div>
 
+<div class="pub-badges ph-follow">
+  <a class="badge-primary" href="https://www.instagram.com/jeroenvangoey/" target="_blank" rel="noopener"><i class="bi bi-instagram"></i> Follow on Instagram</a>
+</div>
+
 <div id="ph-lightbox" class="ph-lightbox" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Image viewer">
   <button class="ph-lb-close" type="button" aria-label="Close viewer">&times;</button>
   <button class="ph-lb-prev" type="button" aria-label="Previous image">&#8249;</button>
