@@ -334,12 +334,10 @@ $ ss -tn | grep :8887 | grep -v 127.0.0.1
 A hard refresh re-established the `101 GET /wsDrive` WebSocket upgrade and the wheels
 responded.
 
-::: {.column-body}
 <video controls preload="none" poster="images/drive-poster.jpg" width="1280" height="720" style="width:100%;height:auto;border-radius:6px;">
   <source src="images/drive.mp4" type="video/mp4">
   Your browser doesn't support embedded video. <a href="images/drive.mp4">Download the clip</a>.
 </video>
-:::
 
 The payoff: driving it untethered across the floor from a phone — no gamepad, no
 tether, just the Nano and the web controller.

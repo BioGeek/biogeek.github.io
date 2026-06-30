@@ -27,18 +27,22 @@ jobs:
       name: github-pages
       url: ${{ steps.deploy.outputs.page_url }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
-      - uses: actions/setup-python@v5
+      - name: Install uv
+        uses: astral-sh/setup-uv@v7
         with:
-          python-version: "3.12"
+          enable-cache: true
+
+      - name: Install dependencies
+        run: uv sync --frozen
 
       - name: Archive all links (manual opt-in)
         if: ${{ inputs.archive }}
-        run: python scripts/check_links.py --archive || true
+        run: uv run python scripts/check_links.py --archive || true
 
       - name: Replace dead links with Wayback captures
-        run: python scripts/check_links.py --check
+        run: uv run python scripts/check_links.py --check
 
       - name: Commit and push source if changed
         run: |
@@ -60,13 +64,13 @@ jobs:
           version: 1.9.38
 
       - name: Render
-        run: quarto render
+        run: uv run quarto render
 
-      - uses: actions/configure-pages@v5
+      - uses: actions/configure-pages@v6
 
-      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/upload-pages-artifact@v5
         with:
           path: docs
 
       - id: deploy
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
