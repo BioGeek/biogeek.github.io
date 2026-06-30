@@ -36,11 +36,13 @@ jobs:
         run: uv run python scripts/update_openalex.py
 
       - name: Commit and push source if changed
+        id: changes
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           if [ -z "$(git status --porcelain)" ]; then
             echo "No citation changes."
+            echo "changed=false" >> "$GITHUB_OUTPUT"
             exit 0
           fi
           git add -A
@@ -49,19 +51,27 @@ jobs:
             git pull --rebase --autostash origin main && git push && break
             echo "push attempt $attempt failed; retrying"; sleep 5
           done
+          echo "changed=true" >> "$GITHUB_OUTPUT"
 
+      # Only render + deploy when this run actually changed something
+      # (a real change is pushed and deployed by the publish workflow too).
       - uses: quarto-dev/quarto-actions/setup@v2
+        if: steps.changes.outputs.changed == 'true'
         with:
           version: 1.9.38
 
       - name: Render
+        if: steps.changes.outputs.changed == 'true'
         run: uv run quarto render
 
       - uses: actions/configure-pages@v6
+        if: steps.changes.outputs.changed == 'true'
 
       - uses: actions/upload-pages-artifact@v5
+        if: steps.changes.outputs.changed == 'true'
         with:
           path: docs
 
       - id: deploy
+        if: steps.changes.outputs.changed == 'true'
         uses: actions/deploy-pages@v5
