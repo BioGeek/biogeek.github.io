@@ -9,6 +9,7 @@ project:
     - "posts/"
     - "projects/"
     - "photography/"
+    - "work/"
   # The photography gallery references multiple srcset resolutions per image;
   # Quarto only auto-copies the `src`/`href` files it parses, so force-copy the
   # whole folder to guarantee every srcset candidate lands in the output.

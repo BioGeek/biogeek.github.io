@@ -361,14 +361,20 @@ The InstaNovo paper drew broad attention across the scientific press.
 ### <img width="128" height="128" src="images/icons/barco.png" class="company-icon" alt=""> [Barco](https://www.barco.com/en)
 **Senior Software Development Engineer, Machine Learning**\
 <i class="bi bi-calendar3"></i> _February 2020 – August 2022_\
-<img width="640" height="480" src="images/flags/be.svg" class="flag-icon" alt="Belgium">Kortrijk, Belgium\
-Built a TensorFlow Extended production pipeline (orchestrated with Apache Airflow) training deep-learning models on multispectral images to detect and classify melanoma skin cancers for [Demetra](https://www.inthepocket.com/work/barco-demetra), Barco's dermatology imaging device. Engineered the pipeline with **end-to-end data and model lineage tracking** to deliver the traceability and reproducibility that **regulated medical industries (FDA approval)** require. Worked across the research, cloud-backend and mobile/web frontend teams.
+<img width="640" height="480" src="images/flags/be.svg" class="flag-icon" alt="Belgium">Kortrijk, Belgium
+
+- Built a TensorFlow Extended production pipeline (orchestrated with Apache Airflow) training deep-learning models on multispectral images to detect and classify melanoma skin cancers for [Demetra](https://www.inthepocket.com/work/barco-demetra), Barco's dermatology imaging device.
+- Engineered the pipeline with **end-to-end data and model lineage tracking** to deliver the traceability and reproducibility that **regulated medical industries (FDA approval)** require.
+- Worked across the research, cloud-backend and mobile/web frontend teams.
 
 ### <img width="128" height="128" src="images/icons/basf.png" class="company-icon" alt=""> [BASF](https://basf.com/)
 **Bioinformatics Researcher, Manager of the Python & R Platforms**\
 <i class="bi bi-calendar3"></i> _August 2018 – January 2020_\
-<img width="640" height="480" src="images/flags/be.svg" class="flag-icon" alt="Belgium">Zwijnaarde, Belgium\
-Owned the **Python/R data-analysis platform** used by **480 researchers and data scientists**: technical support, proactive monitoring and root-cause analysis, **training** (NumPy, pandas, BioPython, …) and **mentoring** across the company's internal research community.
+<img width="640" height="480" src="images/flags/be.svg" class="flag-icon" alt="Belgium">Zwijnaarde, Belgium
+
+- Owned the **[Python/R data-analysis platform](work/r-python-platforms.qmd)** used by **480 researchers and data scientists**. Sample use case: applying **deep learning** to annotate vascular bundles in wheat <span class="term-tip" tabindex="0" role="note" aria-label="The uppermost internode of a wheat stem, supporting the grain-bearing spike; the vascular bundles visible in its cross-section are linked to grain yield." data-tip="The uppermost internode of a wheat stem, supporting the grain-bearing spike; the vascular bundles visible in its cross-section are linked to grain yield.">peduncle</span> cross-sections (a yield-linked trait) with the model running on the on-premise GPU cluster.
+- Delivered **training** (NumPy, pandas, BioPython, …) and **mentoring** across the company's internal research community.
+- Provided technical support, proactive monitoring and root-cause analysis.
 
 ### <img width="48" height="48" src="images/icons/bayer.png" class="company-icon" alt=""> [Bayer Crop Science](https://www.bayer.com/)
 **Bioinformatics Researcher & Python Platform Manager**\

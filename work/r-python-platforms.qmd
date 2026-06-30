@@ -1,0 +1,10 @@
+---
+title: "R & Python Platforms"
+subtitle: "Supporting ~480 researchers at BASF, highlighting a deep-learning wheat-peduncle use case."
+image: /images/work/basf-r-python-platforms.jpg
+image-alt: "BASF R & Python Platforms poster"
+lightbox: true
+toc: false
+---
+
+![R &amp; Python Platforms, a function within Seed Technologies &amp; Analytics (BASF R&amp;D IT, DevOps).](/images/work/basf-r-python-platforms.jpg){.lightbox fig-alt="Conference-style poster titled “R & Python Platforms” with Rationale, R Platform and Python Platform sections and BASF branding"}
