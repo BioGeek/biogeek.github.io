@@ -468,7 +468,7 @@ Secondary education: mathematics–modern languages
     <p>Turning a 1/16-scale RC car into an autonomous car as a hands-on testbed for modern edge ML. Experimenting with training policies in simulation and deploying them to a Jetson Nano, with a Coral Edge TPU planned. An ongoing build, documented as I go.</p>
     <div class="pub-badges">
       <a class="badge-primary" href="projects/self-driving-toy-car.html"><i class="bi bi-car-front"></i> Project overview</a>
-      <a href="blog.html#category=jetson"><i class="bi bi-journal-text"></i> Build log</a>
+      <a href="writing.html#category=jetson"><i class="bi bi-journal-text"></i> Build log</a>
     </div>
   </div>
 </div>

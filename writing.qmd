@@ -2,6 +2,10 @@
 title: "Writing"
 description: "Notes on building ML systems for biology — and the occasional side quest."
 pagetitle: "Writing — Jeroen Van Goey"
+# Preserve the old /blog.html URL (renamed from blog.qmd) so existing inbound
+# links and bookmarks still resolve.
+aliases:
+  - /blog.html
 listing:
   id: post-list
   contents: posts          # any index.qmd under posts/ becomes a post
@@ -10,7 +14,7 @@ listing:
   categories: true         # category cloud in the sidebar
   sort-ui: [date, title]
   filter-ui: true
-  feed: true               # generates blog.xml (RSS) at the site root
+  feed: true               # generates writing.xml (RSS) at the site root
   fields: [date, title, description, reading-time, categories]
 page-layout: full
 toc: false
