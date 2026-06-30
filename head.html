@@ -1,3 +1,6 @@
+<!-- Google Search Console verification (HTML-tag method; redundant with the Analytics method) -->
+<meta name="google-site-verification" content="NRaOjA5VoFn7ZR9vYVxohpQqBkJbZETyRhjZkJDdrFo" />
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -151,4 +154,40 @@
 <meta property="og:image:height" content="630">
 <meta property="og:image:type" content="image/jpeg">
 <meta property="og:image:alt" content="Jeroen Van Goey, Staff Research Engineer & BioAI Lead">
+
+<!-- GA4 custom tracking. Quarto injects gtag() via the google-analytics config; these
+     listeners send extra events on top of it. Enhanced Measurement only auto-logs
+     *outbound* clicks, so link_click captures internal clicks/CTAs too, and Quarto's
+     search has no URL query param, so site searches are sent manually. Register
+     link_url / link_text / link_domain / outbound / page_path (and search_term) as
+     custom dimensions in GA4 to report on them. -->
+<script>
+(function () {
+  // Every link click (internal + outbound), with context.
+  document.addEventListener('click', function (e) {
+    var a = e.target.closest('a[href]');
+    if (!a || typeof gtag !== 'function') return;
+    gtag('event', 'link_click', {
+      link_url: a.href.slice(0, 100),
+      link_text: (a.textContent || a.getAttribute('aria-label') || '').trim().slice(0, 100),
+      link_domain: a.hostname,
+      outbound: a.hostname !== location.hostname,
+      page_path: location.pathname
+    });
+  }, true);
+
+  // On-site search queries (Quarto's search is client-side, no URL param). Debounced.
+  var t;
+  document.addEventListener('input', function (e) {
+    var el = e.target;
+    if (!el || !(el.closest('#quarto-search') || (el.matches && el.matches('input.aa-Input')))) return;
+    var q = (el.value || '').trim();
+    clearTimeout(t);
+    t = setTimeout(function () {
+      if (q.length < 3 || typeof gtag !== 'function') return;
+      gtag('event', 'search', { search_term: q.slice(0, 100) });
+    }, 1200);
+  }, true);
+})();
+</script>
 
