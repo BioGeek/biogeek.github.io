@@ -5,7 +5,14 @@ Public API, no authentication or secrets needed. Run via the
 update-inaturalist GitHub Action (or `make inat`), which commits the JSON and
 re-renders the site.
 
-Writes: posts/inaturalist-sightings/inat.json
+Writes: data/inat.json
+
+Only rewrites the file (and bumps its `generated_at`) when the underlying data
+actually changed, so a quiet day produces no diff and the workflow's git-status
+guard skips the commit. Old observations are re-fetched every run on purpose:
+unlike Strava activities, iNaturalist records keep improving (community re-IDs,
+added photos, rising fave counts), and the aggregates are deterministic, so a
+re-fetch corrects old data without introducing spurious churn.
 
 Config: set INAT_USER below (your iNaturalist login). Optionally list favourite
 observation IDs in FAVOURITE_IDS; if empty, the most-faved observations are used.
@@ -21,7 +28,7 @@ FAVOURITE_IDS: list[int] = []        # <- e.g. [12345678, 23456789]; empty -> to
 N_FAVOURITES = 12
 TOP_SPECIES = 10
 API = "https://api.inaturalist.org/v1"
-OUT = "posts/inaturalist-sightings/inat.json"
+OUT = "data/inat.json"
 UA = {"User-Agent": f"biogeek-site (https://jeroen.vangoey.be; iNat:{INAT_USER})"}
 
 
@@ -120,8 +127,7 @@ def main():
                    photos="true", **base)["results"]
     favourites = [summarise_observation(o) for o in favs]
 
-    payload = {
-        "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+    body = {
         "user": INAT_USER,
         "stats": {
             "observations": total,
@@ -135,6 +141,20 @@ def main():
         "favourites": favourites,
         "coords": coords,
     }
+
+    # Only rewrite (and bump generated_at) when the data itself changed, so a
+    # quiet day leaves the file byte-identical and the workflow skips the commit.
+    try:
+        with open(OUT, encoding="utf-8") as fh:
+            old = json.load(fh)
+    except (FileNotFoundError, ValueError):
+        old = {}
+    old_body = {k: v for k, v in old.items() if k != "generated_at"}
+    if json.dumps(old_body, sort_keys=True) == json.dumps(body, sort_keys=True):
+        print(f"No change ({total} observations, {species} species); {OUT} left as-is.")
+        return
+
+    payload = {"generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"), **body}
     with open(OUT, "w", encoding="utf-8") as fh:
         json.dump(payload, fh, indent=2, ensure_ascii=False)
     print(f"Wrote {OUT}: {total} observations, {species} species, "

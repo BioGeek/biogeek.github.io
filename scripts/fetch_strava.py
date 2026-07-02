@@ -12,10 +12,25 @@ SETUP-data-posts.md):
 Run via the update-strava GitHub Action (or `make strava`), which commits the
 JSON and re-renders the site.
 
-Writes: posts/trail-running-strava/strava_runs.json
+Incremental + stable, so the daily job only produces a commit when something
+real changed:
+
+  * Every activity (trimmed fields + its weather) is cached in strava_cache.json,
+    keyed by id. Each run fetches ONLY activities newer than the newest cached one
+    (Strava's `after` param), so old activities are never re-fetched and their data
+    (including weather) never changes.
+  * Weather is attached once per activity and frozen. Previously it was re-looked-up
+    every run at the moving centroid of all start points, so adding one activity
+    nudged every historical temperature by ~0.1 C; caching kills that drift.
+  * strava_runs.json (and its `generated_at`) is only rewritten when the computed
+    summary actually differs, so a quiet day writes nothing and the workflow's
+    `git status` guard skips the commit.
+
+Writes: data/strava_runs.json   (the summary the post reads)
+        data/strava_cache.json  (the per-activity cache)
 
 If the secrets are absent (e.g. local render, or a fork) the script prints a
-notice and exits 0 without touching the existing JSON, so the build never fails.
+notice and exits 0 without touching either file, so the build never fails.
 """
 import json
 import os
@@ -25,7 +40,8 @@ from collections import defaultdict
 from datetime import datetime, timezone
 from statistics import median
 
-OUT = "posts/trail-running-strava/strava_runs.json"
+OUT = "data/strava_runs.json"
+CACHE = "data/strava_cache.json"
 TOKEN_URL = "https://www.strava.com/oauth/token"
 ACTIVITIES_URL = "https://www.strava.com/api/v3/athlete/activities"
 FOOT_TYPES = {"Run", "TrailRun", "Hike"}   # foot activities we keep
@@ -147,11 +163,13 @@ def _weather_category(code):
 
 
 def attach_weather(runs):
-    """Attach hourly weather to each activity using ONE Open-Meteo archive call.
+    """Attach hourly weather to each activity in `runs` using ONE Open-Meteo call.
 
-    City-scale weather barely varies across a 20 km area, so we query the
-    centroid of all start points for the whole date range and look up each
-    activity's start hour. Free, no key. Fails soft (no weather -> no panel)."""
+    Only ever called on activities that don't yet have cached weather (new ones,
+    plus any that a past network hiccup left blank), so the values are computed
+    once and then frozen in the cache. City-scale weather barely varies across a
+    20 km area, so we query the centroid of these start points for their date
+    range and look up each activity's start hour. Free, no key. Fails soft."""
     coords = [c for c in (_start_coord(a) for a in runs) if c]
     if not coords:
         return
@@ -161,7 +179,7 @@ def attach_weather(runs):
     params = {
         "latitude": round(clat, 3), "longitude": round(clng, 3),
         "start_date": days[0], "end_date": days[-1],
-        "hourly": "temperature_2m,precipitation,wind_speed_10m,relative_humidity_2m,weather_code",
+        "hourly": "temperature_2m,precipitation,weather_code",
         "timezone": "auto",
     }
     url = f"{ARCHIVE_URL}?{urllib.parse.urlencode(params)}"
@@ -180,8 +198,6 @@ def attach_weather(runs):
         a["_weather"] = {
             "temp": h["temperature_2m"][i],
             "precip": h["precipitation"][i],
-            "wind": h["wind_speed_10m"][i],
-            "humidity": h["relative_humidity_2m"][i],
             "cat": _weather_category(h["weather_code"][i]),
         }
 
@@ -195,11 +211,14 @@ def access_token():
     })["access_token"]
 
 
-def all_activities(token):
+def all_activities(token, after=None):
+    """All activities, or (with `after` = epoch seconds) only those newer than it."""
     page, out = 1, []
     while True:
-        url = f"{ACTIVITIES_URL}?{urllib.parse.urlencode({'per_page': 200, 'page': page})}"
-        batch = _get(url, token)
+        q = {"per_page": 200, "page": page}
+        if after:
+            q["after"] = after
+        batch = _get(f"{ACTIVITIES_URL}?{urllib.parse.urlencode(q)}", token)
         if not batch:
             break
         out.extend(batch)
@@ -207,6 +226,39 @@ def all_activities(token):
         if page > 50:     # safety cap (~10k activities)
             break
     return out
+
+
+def _trim(a):
+    """Keep only the fields the summary needs, so the cache stays small."""
+    return {
+        "id": a["id"],
+        "name": a.get("name"),
+        "distance": a.get("distance", 0.0),
+        "total_elevation_gain": a.get("total_elevation_gain", 0.0),
+        "moving_time": a.get("moving_time", 0),
+        "start_date": a.get("start_date"),            # UTC, used as the fetch cursor
+        "start_date_local": a.get("start_date_local"),
+        "sport_type": a.get("sport_type") or a.get("type"),
+        "map": {"summary_polyline": (a.get("map") or {}).get("summary_polyline")},
+        "start_latlng": a.get("start_latlng"),
+    }
+
+
+def _epoch(iso):
+    return int(datetime.fromisoformat(iso.replace("Z", "+00:00")).timestamp())
+
+
+def _load_cache():
+    try:
+        with open(CACHE, encoding="utf-8") as fh:
+            return json.load(fh)
+    except (FileNotFoundError, ValueError):
+        return {}
+
+
+def _save_cache(cache):
+    with open(CACHE, "w", encoding="utf-8") as fh:
+        json.dump(cache, fh, indent=2, ensure_ascii=False, sort_keys=True)
 
 
 def summarise(runs):
@@ -310,20 +362,54 @@ def main():
     if missing:
         print(f"Strava secrets not set ({', '.join(missing)}); leaving {OUT} unchanged.")
         return
+
+    cache = _load_cache()                       # {str(id): trimmed record + _weather}
     token = access_token()
-    runs = [a for a in all_activities(token)
-            if a.get("sport_type", a.get("type")) in FOOT_TYPES]
-    attach_weather(runs)         # Open-Meteo crossover (one request)
+
+    # Fetch ONLY activities newer than the newest one we already have.
+    after = max((_epoch(r["start_date"]) for r in cache.values() if r.get("start_date")),
+                default=None)
+    added = 0
+    for a in all_activities(token, after):
+        if a.get("sport_type", a.get("type")) not in FOOT_TYPES:
+            continue
+        if str(a["id"]) in cache:               # already cached: never re-fetch/overwrite
+            continue
+        cache[str(a["id"])] = _trim(a)
+        added += 1
+
+    # Attach weather once, to new activities (and any a past failure left blank);
+    # existing weather is never touched, so historical temperatures stay put.
+    need = [r for r in cache.values() if "_weather" not in r and _start_coord(r)]
+    if need:
+        attach_weather(need)
+    if added or need:
+        _save_cache(cache)
+
+    runs = sorted(cache.values(), key=lambda r: (r.get("start_date_local") or "", r["id"]))
+    stats = summarise(runs)
+
+    # Only rewrite the summary (and bump generated_at) when it actually changed,
+    # so a quiet day leaves the file byte-identical and the workflow skips the commit.
+    try:
+        with open(OUT, encoding="utf-8") as fh:
+            old = json.load(fh)
+    except (FileNotFoundError, ValueError):
+        old = {}
+    if old.get("stats") is not None and \
+            json.dumps(old["stats"], sort_keys=True) == json.dumps(stats, sort_keys=True):
+        print(f"No summary change ({stats['runs']} activities, +{added} new); {OUT} left as-is.")
+        return
+
     payload = {
         "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
-        "stats": summarise(runs),
+        "stats": stats,
     }
     with open(OUT, "w", encoding="utf-8") as fh:
         json.dump(payload, fh, indent=2, ensure_ascii=False)
-    st = payload["stats"]
-    print(f"Wrote {OUT}: {st['runs']} activities ({st['trail_runs']} trail runs, "
-          f"{st['hikes']} hikes), {st['total_distance_km']} km, "
-          f"{st['total_elevation_m']} m climbed.")
+    print(f"Wrote {OUT}: {stats['runs']} activities (+{added} new; {stats['trail_runs']} trail "
+          f"runs, {stats['hikes']} hikes), {stats['total_distance_km']} km, "
+          f"{stats['total_elevation_m']} m climbed.")
 
 
 if __name__ == "__main__":
