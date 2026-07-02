@@ -17,7 +17,7 @@ draft: true                 # <- remove to publish
 #| label: load
 #| echo: false
 import json
-data = json.load(open("strava_runs.json", encoding="utf-8"))
+data = json.load(open("../../data/strava_runs.json", encoding="utf-8"))
 s = data["stats"]
 gen = data["generated_at"][:10]
 ```
@@ -301,9 +301,10 @@ Markdown("\n".join(rows))
 ::: {.callout-note collapse="true"}
 ## How this stays current
 A scheduled GitHub Action runs `scripts/fetch_strava.py`, which refreshes a
-short-lived Strava access token from a stored refresh token, pulls my activities,
-writes `strava_runs.json`, commits it, and re-renders the site. Only my own data
-is used (Strava "single player mode"), credentials live in encrypted Action
+short-lived Strava access token from a stored refresh token, pulls only activities
+newer than the ones it has already cached, writes `data/strava_runs.json`, and (only
+when the summary actually changed) commits it and re-renders the site. Only my own
+data is used (Strava "single player mode"), credentials live in encrypted Action
 secrets, and the page links back to each activity on Strava.
 :::
 

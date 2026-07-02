@@ -23,8 +23,8 @@ their APIs, so this answers itself and stays current.
 #| echo: false
 import json, math
 import numpy as np
-strava = json.load(open("../trail-running-strava/strava_runs.json"))["stats"]
-inat = json.load(open("../inaturalist-sightings/inat.json"))
+strava = json.load(open("../../data/strava_runs.json"))["stats"]
+inat = json.load(open("../../data/inat.json"))
 tracks = strava["tracks"]
 coords = inat["coords"]
 
@@ -173,8 +173,8 @@ if near:
 
 ::: {.callout-note collapse="true"}
 ## How this works
-This page reads the two committed data files, `strava_runs.json` and
-`inat.json`, produced by the Strava and iNaturalist fetch jobs. The analysis is
+This page reads the two committed data files, `data/strava_runs.json` and
+`data/inat.json`, produced by the Strava and iNaturalist fetch jobs. The analysis is
 bounded to the area my tracks cover, distances use an equirectangular
 approximation (fine at city scale), and only iNaturalist's non-obscured
 coordinates are used, so no threatened taxon is ever located.

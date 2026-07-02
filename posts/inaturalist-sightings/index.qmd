@@ -17,7 +17,7 @@ draft: true                # <- remove to publish
 #| label: load
 #| echo: false
 import json, datetime
-data = json.load(open("inat.json", encoding="utf-8"))
+data = json.load(open("../../data/inat.json", encoding="utf-8"))
 s = data["stats"]
 gen = data["generated_at"][:10]
 ```
@@ -123,9 +123,9 @@ df
 ::: {.callout-note collapse="true"}
 ## How this stays current
 A scheduled GitHub Action runs `scripts/fetch_inaturalist.py` (public
-iNaturalist API, no credentials), writes `inat.json`, commits it, and re-renders
-the site. The page reads only that file, so rendering is fast and offline; the
-freshness comes from the schedule. Locations for threatened taxa are obscured by
+iNaturalist API, no credentials), writes `data/inat.json`, and commits it and
+re-renders the site only when the data actually changed. The page reads only that
+file, so rendering is fast and offline; the freshness comes from the schedule. Locations for threatened taxa are obscured by
 iNaturalist, so nothing here pinpoints a sensitive species.
 
 ```{python}
