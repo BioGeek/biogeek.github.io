@@ -1,19 +1,24 @@
 {
-  "generated_at": "2026-07-02T06:49:33+00:00",
+  "generated_at": "2026-07-03T08:38:05+00:00",
   "stats": {
-    "runs": 1053,
-    "trail_runs": 104,
+    "runs": 1054,
+    "trail_runs": 105,
     "hikes": 222,
     "weather": {
       "available": true,
       "counts": {
         "clear": 723,
         "cloudy": 315,
-        "rain": 15
+        "rain": 16
       },
       "points": [
         {
-          "temp": 39.5,
+          "temp": 39.4,
+          "pace": 8.72,
+          "kind": "trail"
+        },
+        {
+          "temp": 39.4,
           "pace": 16.59,
           "kind": "hike"
         },
@@ -23,7 +28,7 @@
           "kind": "trail"
         },
         {
-          "temp": 37.2,
+          "temp": 37.1,
           "pace": 7.82,
           "kind": "trail"
         },
@@ -33,52 +38,52 @@
           "kind": "trail"
         },
         {
-          "temp": 29.7,
+          "temp": 29.9,
           "pace": 12.35,
           "kind": "hike"
         },
         {
-          "temp": 26.4,
+          "temp": 26.5,
           "pace": 7.04,
           "kind": "trail"
         },
         {
-          "temp": 29.5,
+          "temp": 29.7,
           "pace": 8.09,
           "kind": "trail"
         },
         {
-          "temp": 38.4,
+          "temp": 38.6,
           "pace": 8.51,
           "kind": "trail"
         },
         {
-          "temp": 22.7,
+          "temp": 22.5,
           "pace": 23.44,
           "kind": "hike"
         },
         {
-          "temp": 24.6,
+          "temp": 24.2,
           "pace": 14.28,
           "kind": "hike"
         },
         {
-          "temp": 22.8,
+          "temp": 23.1,
           "pace": 6.92,
           "kind": "trail"
         },
         {
-          "temp": 41.5,
+          "temp": 41.7,
           "pace": 5.04,
           "kind": "trail"
         },
         {
-          "temp": 28.7,
+          "temp": 28.9,
           "pace": 7.37,
           "kind": "trail"
         },
         {
-          "temp": 16.8,
+          "temp": 16.5,
           "pace": 7.65,
           "kind": "run"
         },
@@ -88,7 +93,7 @@
           "kind": "run"
         },
         {
-          "temp": 28.7,
+          "temp": 28.6,
           "pace": 6.83,
           "kind": "trail"
         },
@@ -103,22 +108,22 @@
           "kind": "trail"
         },
         {
-          "temp": 22.0,
+          "temp": 22.1,
           "pace": 17.1,
           "kind": "hike"
         },
         {
-          "temp": 19.4,
+          "temp": 19.2,
           "pace": 19.13,
           "kind": "hike"
         },
         {
-          "temp": 25.6,
+          "temp": 25.5,
           "pace": 7.23,
           "kind": "trail"
         },
         {
-          "temp": 24.0,
+          "temp": 23.3,
           "pace": 8.19,
           "kind": "trail"
         },
@@ -133,32 +138,32 @@
           "kind": "trail"
         },
         {
-          "temp": 20.9,
+          "temp": 21.0,
           "pace": 6.69,
           "kind": "trail"
         },
         {
-          "temp": 22.0,
+          "temp": 21.8,
           "pace": 8.46,
           "kind": "trail"
         },
         {
-          "temp": 13.6,
+          "temp": 13.3,
           "pace": 6.25,
           "kind": "run"
         },
         {
-          "temp": 24.2,
+          "temp": 24.1,
           "pace": 9.39,
           "kind": "trail"
         },
         {
-          "temp": 17.7,
+          "temp": 17.6,
           "pace": 8.12,
           "kind": "trail"
         },
         {
-          "temp": 14.2,
+          "temp": 14.1,
           "pace": 7.29,
           "kind": "run"
         },
@@ -178,27 +183,27 @@
           "kind": "run"
         },
         {
-          "temp": 19.6,
+          "temp": 19.5,
           "pace": 7.0,
           "kind": "run"
         },
         {
-          "temp": 16.0,
+          "temp": 15.2,
           "pace": 11.68,
           "kind": "trail"
         },
         {
-          "temp": 13.4,
+          "temp": 13.8,
           "pace": 18.35,
           "kind": "hike"
         },
         {
-          "temp": 5.3,
+          "temp": 5.5,
           "pace": 9.99,
           "kind": "trail"
         },
         {
-          "temp": 13.4,
+          "temp": 14.1,
           "pace": 7.81,
           "kind": "trail"
         },
@@ -208,37 +213,37 @@
           "kind": "trail"
         },
         {
-          "temp": 3.9,
+          "temp": 4.2,
           "pace": 10.22,
           "kind": "trail"
         },
         {
-          "temp": 15.6,
+          "temp": 16.2,
           "pace": 9.9,
           "kind": "trail"
         },
         {
-          "temp": 20.9,
+          "temp": 21.0,
           "pace": 6.78,
           "kind": "trail"
         },
         {
-          "temp": 12.2,
+          "temp": 12.3,
           "pace": 7.54,
           "kind": "trail"
         },
         {
-          "temp": 23.7,
+          "temp": 23.8,
           "pace": 6.91,
           "kind": "trail"
         },
         {
-          "temp": 23.8,
+          "temp": 24.0,
           "pace": 6.98,
           "kind": "trail"
         },
         {
-          "temp": 26.9,
+          "temp": 27.1,
           "pace": 8.53,
           "kind": "hike"
         },
@@ -248,32 +253,32 @@
           "kind": "run"
         },
         {
-          "temp": 23.4,
+          "temp": 23.3,
           "pace": 7.88,
           "kind": "run"
         },
         {
-          "temp": 28.3,
+          "temp": 28.1,
           "pace": 7.61,
           "kind": "run"
         },
         {
-          "temp": 28.6,
+          "temp": 28.7,
           "pace": 8.22,
           "kind": "trail"
         },
         {
-          "temp": 27.1,
+          "temp": 26.9,
           "pace": 17.38,
           "kind": "hike"
         },
         {
-          "temp": 19.6,
+          "temp": 19.9,
           "pace": 7.06,
           "kind": "trail"
         },
         {
-          "temp": 27.5,
+          "temp": 29.3,
           "pace": 6.56,
           "kind": "trail"
         },
@@ -283,12 +288,12 @@
           "kind": "run"
         },
         {
-          "temp": 23.4,
+          "temp": 23.7,
           "pace": 8.35,
           "kind": "run"
         },
         {
-          "temp": 32.0,
+          "temp": 32.2,
           "pace": 15.64,
           "kind": "hike"
         },
@@ -298,7 +303,7 @@
           "kind": "trail"
         },
         {
-          "temp": 34.8,
+          "temp": 34.6,
           "pace": 11.11,
           "kind": "hike"
         },
@@ -308,47 +313,47 @@
           "kind": "hike"
         },
         {
-          "temp": 33.2,
+          "temp": 33.1,
           "pace": 6.59,
           "kind": "trail"
         },
         {
-          "temp": 36.6,
+          "temp": 36.4,
           "pace": 16.98,
           "kind": "hike"
         },
         {
-          "temp": 37.2,
+          "temp": 37.1,
           "pace": 7.49,
           "kind": "trail"
         },
         {
-          "temp": 26.4,
+          "temp": 26.5,
           "pace": 8.09,
           "kind": "run"
         },
         {
-          "temp": 43.6,
+          "temp": 43.7,
           "pace": 7.68,
           "kind": "trail"
         },
         {
-          "temp": 25.4,
+          "temp": 25.3,
           "pace": 7.14,
           "kind": "trail"
         },
         {
-          "temp": 41.8,
+          "temp": 42.2,
           "pace": 6.46,
           "kind": "run"
         },
         {
-          "temp": 28.8,
+          "temp": 28.7,
           "pace": 16.33,
           "kind": "hike"
         },
         {
-          "temp": 35.8,
+          "temp": 35.6,
           "pace": 6.86,
           "kind": "trail"
         },
@@ -358,27 +363,27 @@
           "kind": "hike"
         },
         {
-          "temp": 45.4,
+          "temp": 44.9,
           "pace": 24.12,
           "kind": "hike"
         },
         {
-          "temp": 41.3,
+          "temp": 41.5,
           "pace": 21.96,
           "kind": "hike"
         },
         {
-          "temp": 38.5,
+          "temp": 38.4,
           "pace": 6.72,
           "kind": "trail"
         },
         {
-          "temp": 39.0,
+          "temp": 39.3,
           "pace": 7.28,
           "kind": "trail"
         },
         {
-          "temp": 39.2,
+          "temp": 39.1,
           "pace": 7.39,
           "kind": "trail"
         },
@@ -388,37 +393,37 @@
           "kind": "trail"
         },
         {
-          "temp": 26.5,
+          "temp": 26.3,
           "pace": 7.03,
           "kind": "trail"
         },
         {
-          "temp": 36.5,
+          "temp": 36.3,
           "pace": 18.4,
           "kind": "hike"
         },
         {
-          "temp": 25.1,
+          "temp": 25.0,
           "pace": 7.55,
           "kind": "trail"
         },
         {
-          "temp": 36.9,
+          "temp": 37.0,
           "pace": 7.12,
           "kind": "trail"
         },
         {
-          "temp": 26.0,
+          "temp": 26.2,
           "pace": 5.17,
           "kind": "run"
         },
         {
-          "temp": 24.7,
+          "temp": 24.9,
           "pace": 5.65,
           "kind": "run"
         },
         {
-          "temp": 21.8,
+          "temp": 21.7,
           "pace": 24.27,
           "kind": "hike"
         },
@@ -428,12 +433,12 @@
           "kind": "hike"
         },
         {
-          "temp": 19.4,
+          "temp": 19.7,
           "pace": 6.9,
           "kind": "trail"
         },
         {
-          "temp": 37.8,
+          "temp": 38.3,
           "pace": 6.96,
           "kind": "trail"
         },
@@ -443,42 +448,42 @@
           "kind": "hike"
         },
         {
-          "temp": 28.0,
+          "temp": 28.2,
           "pace": 6.24,
           "kind": "trail"
         },
         {
-          "temp": 33.6,
+          "temp": 34.3,
           "pace": 7.25,
           "kind": "trail"
         },
         {
-          "temp": 25.8,
+          "temp": 25.7,
           "pace": 10.56,
           "kind": "trail"
         },
         {
-          "temp": 20.2,
+          "temp": 20.1,
           "pace": 6.1,
           "kind": "trail"
         },
         {
-          "temp": 23.3,
+          "temp": 23.1,
           "pace": 14.19,
           "kind": "hike"
         },
         {
-          "temp": 29.0,
+          "temp": 29.2,
           "pace": 6.21,
           "kind": "trail"
         },
         {
-          "temp": 17.1,
+          "temp": 17.2,
           "pace": 6.01,
           "kind": "run"
         },
         {
-          "temp": 29.6,
+          "temp": 29.4,
           "pace": 6.84,
           "kind": "trail"
         },
@@ -488,47 +493,47 @@
           "kind": "hike"
         },
         {
-          "temp": 14.1,
+          "temp": 14.9,
           "pace": 7.37,
           "kind": "trail"
         },
         {
-          "temp": 16.4,
+          "temp": 16.1,
           "pace": 18.74,
           "kind": "hike"
         },
         {
-          "temp": 16.4,
+          "temp": 16.1,
           "pace": 7.38,
           "kind": "trail"
         },
         {
-          "temp": 7.0,
+          "temp": 6.6,
           "pace": 17.57,
           "kind": "hike"
         },
         {
-          "temp": 12.5,
+          "temp": 12.2,
           "pace": 7.59,
           "kind": "trail"
         },
         {
-          "temp": 18.0,
+          "temp": 17.9,
           "pace": 17.58,
           "kind": "hike"
         },
         {
-          "temp": 17.7,
+          "temp": 17.5,
           "pace": 15.85,
           "kind": "hike"
         },
         {
-          "temp": 17.3,
+          "temp": 17.4,
           "pace": 16.57,
           "kind": "hike"
         },
         {
-          "temp": 8.2,
+          "temp": 8.4,
           "pace": 19.33,
           "kind": "hike"
         },
@@ -538,47 +543,47 @@
           "kind": "hike"
         },
         {
-          "temp": 11.4,
+          "temp": 11.5,
           "pace": 19.21,
           "kind": "hike"
         },
         {
-          "temp": 14.2,
+          "temp": 13.8,
           "pace": 22.01,
           "kind": "hike"
         },
         {
-          "temp": 13.2,
+          "temp": 13.8,
           "pace": 23.24,
           "kind": "hike"
         },
         {
-          "temp": 10.6,
+          "temp": 11.0,
           "pace": 20.79,
           "kind": "hike"
         },
         {
-          "temp": 8.2,
+          "temp": 8.0,
           "pace": 19.34,
           "kind": "hike"
         },
         {
-          "temp": 20.9,
+          "temp": 21.6,
           "pace": 7.42,
           "kind": "trail"
         },
         {
-          "temp": 15.4,
+          "temp": 13.9,
           "pace": 11.09,
           "kind": "trail"
         },
         {
-          "temp": 20.2,
+          "temp": 19.5,
           "pace": 7.83,
           "kind": "trail"
         },
         {
-          "temp": 15.5,
+          "temp": 15.7,
           "pace": 14.95,
           "kind": "hike"
         },
@@ -588,22 +593,22 @@
           "kind": "hike"
         },
         {
-          "temp": 21.6,
+          "temp": 21.7,
           "pace": 17.5,
           "kind": "hike"
         },
         {
-          "temp": 24.9,
+          "temp": 24.8,
           "pace": 14.14,
           "kind": "hike"
         },
         {
-          "temp": 31.6,
+          "temp": 31.4,
           "pace": 6.14,
           "kind": "trail"
         },
         {
-          "temp": 33.2,
+          "temp": 33.4,
           "pace": 6.23,
           "kind": "trail"
         },
@@ -613,62 +618,62 @@
           "kind": "hike"
         },
         {
-          "temp": 23.0,
+          "temp": 23.1,
           "pace": 8.9,
           "kind": "trail"
         },
         {
-          "temp": 29.4,
+          "temp": 29.3,
           "pace": 18.22,
           "kind": "hike"
         },
         {
-          "temp": 27.5,
+          "temp": 27.0,
           "pace": 12.86,
           "kind": "hike"
         },
         {
-          "temp": 26.8,
+          "temp": 26.6,
           "pace": 5.53,
           "kind": "hike"
         },
         {
-          "temp": 33.2,
+          "temp": 32.9,
           "pace": 6.34,
           "kind": "run"
         },
         {
-          "temp": 38.0,
+          "temp": 38.2,
           "pace": 6.23,
           "kind": "run"
         },
         {
-          "temp": 28.4,
+          "temp": 28.3,
           "pace": 5.11,
           "kind": "run"
         },
         {
-          "temp": 35.5,
+          "temp": 35.1,
           "pace": 6.25,
           "kind": "run"
         },
         {
-          "temp": 39.1,
+          "temp": 39.0,
           "pace": 22.52,
           "kind": "hike"
         },
         {
-          "temp": 37.9,
+          "temp": 37.7,
           "pace": 8.04,
           "kind": "run"
         },
         {
-          "temp": 36.6,
+          "temp": 36.8,
           "pace": 20.46,
           "kind": "hike"
         },
         {
-          "temp": 34.3,
+          "temp": 34.0,
           "pace": 8.35,
           "kind": "trail"
         },
@@ -678,32 +683,32 @@
           "kind": "trail"
         },
         {
-          "temp": 30.2,
+          "temp": 30.0,
           "pace": 8.61,
           "kind": "trail"
         },
         {
-          "temp": 42.0,
+          "temp": 41.8,
           "pace": 6.94,
           "kind": "trail"
         },
         {
-          "temp": 39.0,
+          "temp": 38.8,
           "pace": 18.54,
           "kind": "hike"
         },
         {
-          "temp": 37.5,
+          "temp": 37.4,
           "pace": 25.57,
           "kind": "hike"
         },
         {
-          "temp": 44.5,
+          "temp": 45.0,
           "pace": 23.82,
           "kind": "hike"
         },
         {
-          "temp": 25.5,
+          "temp": 25.4,
           "pace": 7.78,
           "kind": "trail"
         },
@@ -713,12 +718,12 @@
           "kind": "hike"
         },
         {
-          "temp": 40.9,
+          "temp": 40.7,
           "pace": 22.97,
           "kind": "hike"
         },
         {
-          "temp": 22.2,
+          "temp": 22.4,
           "pace": 11.35,
           "kind": "run"
         },
@@ -728,7 +733,7 @@
           "kind": "run"
         },
         {
-          "temp": 23.6,
+          "temp": 23.7,
           "pace": 10.44,
           "kind": "trail"
         },
@@ -748,12 +753,12 @@
           "kind": "run"
         },
         {
-          "temp": 12.6,
+          "temp": 12.3,
           "pace": 6.18,
           "kind": "run"
         },
         {
-          "temp": 15.6,
+          "temp": 15.5,
           "pace": 5.63,
           "kind": "run"
         },
@@ -763,12 +768,12 @@
           "kind": "hike"
         },
         {
-          "temp": 16.0,
+          "temp": 16.1,
           "pace": 7.16,
           "kind": "trail"
         },
         {
-          "temp": 21.0,
+          "temp": 21.1,
           "pace": 10.86,
           "kind": "hike"
         },
@@ -783,7 +788,7 @@
           "kind": "trail"
         },
         {
-          "temp": 27.2,
+          "temp": 27.6,
           "pace": 6.68,
           "kind": "trail"
         },
@@ -793,37 +798,37 @@
           "kind": "trail"
         },
         {
-          "temp": 28.4,
+          "temp": 28.8,
           "pace": 6.21,
           "kind": "run"
         },
         {
-          "temp": 11.4,
+          "temp": 11.8,
           "pace": 9.32,
           "kind": "run"
         },
         {
-          "temp": 21.8,
+          "temp": 21.7,
           "pace": 9.84,
           "kind": "trail"
         },
         {
-          "temp": 19.5,
+          "temp": 19.7,
           "pace": 8.15,
           "kind": "trail"
         },
         {
-          "temp": 22.8,
+          "temp": 22.9,
           "pace": 6.57,
           "kind": "trail"
         },
         {
-          "temp": 19.3,
+          "temp": 19.0,
           "pace": 5.29,
           "kind": "run"
         },
         {
-          "temp": 19.6,
+          "temp": 19.7,
           "pace": 6.05,
           "kind": "run"
         },
@@ -833,22 +838,22 @@
           "kind": "run"
         },
         {
-          "temp": 18.8,
+          "temp": 18.9,
           "pace": 8.4,
           "kind": "trail"
         },
         {
-          "temp": 19.2,
+          "temp": 17.4,
           "pace": 9.45,
           "kind": "trail"
         },
         {
-          "temp": 17.2,
+          "temp": 17.4,
           "pace": 6.02,
           "kind": "trail"
         },
         {
-          "temp": 16.6,
+          "temp": 16.8,
           "pace": 7.3,
           "kind": "trail"
         },
@@ -858,42 +863,42 @@
           "kind": "trail"
         },
         {
-          "temp": 5.8,
+          "temp": 6.2,
           "pace": 5.62,
           "kind": "run"
         },
         {
-          "temp": 6.6,
+          "temp": 6.9,
           "pace": 4.87,
           "kind": "run"
         },
         {
-          "temp": 12.5,
+          "temp": 13.0,
           "pace": 7.01,
           "kind": "trail"
         },
         {
-          "temp": 5.3,
+          "temp": 5.7,
           "pace": 6.04,
           "kind": "run"
         },
         {
-          "temp": 11.5,
+          "temp": 11.6,
           "pace": 18.39,
           "kind": "hike"
         },
         {
-          "temp": 7.8,
+          "temp": 8.0,
           "pace": 6.08,
           "kind": "run"
         },
         {
-          "temp": 13.6,
+          "temp": 13.2,
           "pace": 16.84,
           "kind": "hike"
         },
         {
-          "temp": 13.8,
+          "temp": 13.1,
           "pace": 21.83,
           "kind": "hike"
         },
@@ -903,47 +908,47 @@
           "kind": "hike"
         },
         {
-          "temp": 13.5,
+          "temp": 14.9,
           "pace": 17.56,
           "kind": "hike"
         },
         {
-          "temp": 11.5,
+          "temp": 10.9,
           "pace": 22.91,
           "kind": "hike"
         },
         {
-          "temp": 9.0,
+          "temp": 9.2,
           "pace": 6.1,
           "kind": "trail"
         },
         {
-          "temp": 6.3,
+          "temp": 6.4,
           "pace": 10.26,
           "kind": "trail"
         },
         {
-          "temp": 13.7,
+          "temp": 12.8,
           "pace": 18.07,
           "kind": "hike"
         },
         {
-          "temp": 10.8,
+          "temp": 11.0,
           "pace": 22.72,
           "kind": "hike"
         },
         {
-          "temp": 15.3,
+          "temp": 15.2,
           "pace": 17.14,
           "kind": "hike"
         },
         {
-          "temp": 5.4,
+          "temp": 5.2,
           "pace": 4.98,
           "kind": "hike"
         },
         {
-          "temp": 13.3,
+          "temp": 13.4,
           "pace": 9.04,
           "kind": "trail"
         },
@@ -953,32 +958,32 @@
           "kind": "trail"
         },
         {
-          "temp": 11.9,
+          "temp": 12.0,
           "pace": 7.37,
           "kind": "trail"
         },
         {
-          "temp": 7.4,
+          "temp": 7.2,
           "pace": 10.34,
           "kind": "trail"
         },
         {
-          "temp": 15.8,
+          "temp": 15.7,
           "pace": 7.09,
           "kind": "trail"
         },
         {
-          "temp": 16.5,
+          "temp": 16.3,
           "pace": 17.29,
           "kind": "hike"
         },
         {
-          "temp": 15.0,
+          "temp": 15.4,
           "pace": 8.95,
           "kind": "trail"
         },
         {
-          "temp": 16.7,
+          "temp": 16.8,
           "pace": 7.54,
           "kind": "trail"
         },
@@ -988,32 +993,32 @@
           "kind": "trail"
         },
         {
-          "temp": 17.1,
+          "temp": 17.2,
           "pace": 8.6,
           "kind": "trail"
         },
         {
-          "temp": 22.7,
+          "temp": 23.0,
           "pace": 6.33,
           "kind": "trail"
         },
         {
-          "temp": 22.8,
+          "temp": 22.7,
           "pace": 6.32,
           "kind": "run"
         },
         {
-          "temp": 27.3,
+          "temp": 28.4,
           "pace": 6.71,
           "kind": "trail"
         },
         {
-          "temp": 31.6,
+          "temp": 32.1,
           "pace": 9.63,
           "kind": "trail"
         },
         {
-          "temp": 25.6,
+          "temp": 25.4,
           "pace": 5.32,
           "kind": "run"
         },
@@ -1023,22 +1028,22 @@
           "kind": "trail"
         },
         {
-          "temp": 27.5,
+          "temp": 27.3,
           "pace": 9.23,
           "kind": "trail"
         },
         {
-          "temp": 27.7,
+          "temp": 27.8,
           "pace": 6.45,
           "kind": "run"
         },
         {
-          "temp": 24.4,
+          "temp": 24.5,
           "pace": 6.29,
           "kind": "run"
         },
         {
-          "temp": 36.7,
+          "temp": 36.6,
           "pace": 5.14,
           "kind": "run"
         },
@@ -1048,7 +1053,7 @@
           "kind": "run"
         },
         {
-          "temp": 32.8,
+          "temp": 33.0,
           "pace": 11.33,
           "kind": "trail"
         },
@@ -1058,42 +1063,42 @@
           "kind": "hike"
         },
         {
-          "temp": 37.8,
+          "temp": 37.6,
           "pace": 5.68,
           "kind": "run"
         },
         {
-          "temp": 41.0,
+          "temp": 41.2,
           "pace": 19.68,
           "kind": "hike"
         },
         {
-          "temp": 39.4,
+          "temp": 39.5,
           "pace": 5.81,
           "kind": "run"
         },
         {
-          "temp": 30.3,
+          "temp": 30.1,
           "pace": 24.13,
           "kind": "hike"
         },
         {
-          "temp": 35.6,
+          "temp": 36.3,
           "pace": 6.49,
           "kind": "trail"
         },
         {
-          "temp": 42.1,
+          "temp": 42.5,
           "pace": 9.78,
           "kind": "trail"
         },
         {
-          "temp": 42.7,
+          "temp": 42.4,
           "pace": 5.37,
           "kind": "run"
         },
         {
-          "temp": 35.5,
+          "temp": 35.3,
           "pace": 6.13,
           "kind": "trail"
         },
@@ -1103,27 +1108,27 @@
           "kind": "run"
         },
         {
-          "temp": 45.2,
+          "temp": 45.3,
           "pace": 17.06,
           "kind": "hike"
         },
         {
-          "temp": 44.6,
+          "temp": 44.4,
           "pace": 7.87,
           "kind": "trail"
         },
         {
-          "temp": 40.2,
+          "temp": 39.9,
           "pace": 12.14,
           "kind": "hike"
         },
         {
-          "temp": 40.8,
+          "temp": 40.6,
           "pace": 5.4,
           "kind": "run"
         },
         {
-          "temp": 35.7,
+          "temp": 35.8,
           "pace": 12.62,
           "kind": "hike"
         },
@@ -1133,122 +1138,122 @@
           "kind": "hike"
         },
         {
-          "temp": 42.0,
+          "temp": 42.3,
           "pace": 6.1,
           "kind": "run"
         },
         {
-          "temp": 30.2,
+          "temp": 30.4,
           "pace": 8.94,
           "kind": "trail"
         },
         {
-          "temp": 27.0,
+          "temp": 26.9,
           "pace": 17.88,
           "kind": "hike"
         },
         {
-          "temp": 27.8,
+          "temp": 27.9,
           "pace": 5.92,
           "kind": "run"
         },
         {
-          "temp": 27.8,
+          "temp": 27.9,
           "pace": 7.03,
           "kind": "run"
         },
         {
-          "temp": 34.7,
+          "temp": 35.7,
           "pace": 6.39,
           "kind": "run"
         },
         {
-          "temp": 32.5,
+          "temp": 34.0,
           "pace": 5.77,
           "kind": "run"
         },
         {
-          "temp": 26.9,
+          "temp": 26.8,
           "pace": 15.96,
           "kind": "hike"
         },
         {
-          "temp": 23.9,
+          "temp": 23.7,
           "pace": 6.76,
           "kind": "run"
         },
         {
-          "temp": 19.0,
+          "temp": 18.6,
           "pace": 6.22,
           "kind": "run"
         },
         {
-          "temp": 31.2,
+          "temp": 31.3,
           "pace": 5.7,
           "kind": "run"
         },
         {
-          "temp": 26.1,
+          "temp": 25.8,
           "pace": 6.75,
           "kind": "run"
         },
         {
-          "temp": 17.3,
+          "temp": 17.4,
           "pace": 1.73,
           "kind": "run"
         },
         {
-          "temp": 3.6,
+          "temp": 3.7,
           "pace": 5.66,
           "kind": "run"
         },
         {
-          "temp": 17.0,
+          "temp": 16.9,
           "pace": 11.72,
           "kind": "hike"
         },
         {
-          "temp": 11.0,
+          "temp": 11.1,
           "pace": 12.12,
           "kind": "hike"
         },
         {
-          "temp": 13.4,
+          "temp": 13.3,
           "pace": 7.12,
           "kind": "run"
         },
         {
-          "temp": 15.8,
+          "temp": 15.5,
           "pace": 16.75,
           "kind": "hike"
         },
         {
-          "temp": 18.6,
+          "temp": 18.2,
           "pace": 5.67,
           "kind": "run"
         },
         {
-          "temp": 14.0,
+          "temp": 13.9,
           "pace": 14.86,
           "kind": "hike"
         },
         {
-          "temp": 16.4,
+          "temp": 16.7,
           "pace": 5.75,
           "kind": "run"
         },
         {
-          "temp": 12.7,
+          "temp": 14.3,
           "pace": 6.09,
           "kind": "run"
         },
         {
-          "temp": 10.6,
+          "temp": 10.8,
           "pace": 5.33,
           "kind": "run"
         },
         {
-          "temp": 16.1,
+          "temp": 16.0,
           "pace": 4.88,
           "kind": "run"
         },
@@ -1258,177 +1263,177 @@
           "kind": "run"
         },
         {
-          "temp": 26.3,
+          "temp": 25.9,
           "pace": 15.11,
           "kind": "hike"
         },
         {
-          "temp": 26.2,
+          "temp": 26.3,
           "pace": 5.94,
           "kind": "run"
         },
         {
-          "temp": 26.2,
+          "temp": 26.3,
           "pace": 5.98,
           "kind": "run"
         },
         {
-          "temp": 35.0,
+          "temp": 34.9,
           "pace": 6.66,
           "kind": "run"
         },
         {
-          "temp": 34.0,
+          "temp": 33.6,
           "pace": 6.25,
           "kind": "run"
         },
         {
-          "temp": 39.3,
+          "temp": 39.2,
           "pace": 6.14,
           "kind": "run"
         },
         {
-          "temp": 38.3,
+          "temp": 38.2,
           "pace": 6.63,
           "kind": "run"
         },
         {
-          "temp": 41.4,
+          "temp": 41.8,
           "pace": 7.85,
           "kind": "run"
         },
         {
-          "temp": 37.9,
+          "temp": 37.8,
           "pace": 5.45,
           "kind": "run"
         },
         {
-          "temp": 36.7,
+          "temp": 36.5,
           "pace": 6.11,
           "kind": "run"
         },
         {
-          "temp": 40.5,
+          "temp": 40.6,
           "pace": 5.52,
           "kind": "run"
         },
         {
-          "temp": 37.2,
+          "temp": 37.0,
           "pace": 6.17,
           "kind": "run"
         },
         {
-          "temp": 38.2,
+          "temp": 38.0,
           "pace": 6.23,
           "kind": "run"
         },
         {
-          "temp": 33.7,
+          "temp": 33.5,
           "pace": 6.75,
           "kind": "run"
         },
         {
-          "temp": 38.3,
+          "temp": 38.0,
           "pace": 7.27,
           "kind": "run"
         },
         {
-          "temp": 38.3,
+          "temp": 38.0,
           "pace": 5.24,
           "kind": "run"
         },
         {
-          "temp": 40.5,
+          "temp": 40.3,
           "pace": 7.09,
           "kind": "run"
         },
         {
-          "temp": 44.0,
+          "temp": 43.8,
           "pace": 5.32,
           "kind": "run"
         },
         {
-          "temp": 43.3,
+          "temp": 43.0,
           "pace": 6.47,
           "kind": "run"
         },
         {
-          "temp": 37.9,
+          "temp": 37.7,
           "pace": 6.36,
           "kind": "run"
         },
         {
-          "temp": 35.2,
+          "temp": 34.9,
           "pace": 5.79,
           "kind": "run"
         },
         {
-          "temp": 39.7,
+          "temp": 39.5,
           "pace": 5.31,
           "kind": "run"
         },
         {
-          "temp": 41.7,
+          "temp": 41.5,
           "pace": 5.47,
           "kind": "run"
         },
         {
-          "temp": 41.0,
+          "temp": 41.1,
           "pace": 7.19,
           "kind": "run"
         },
         {
-          "temp": 32.0,
+          "temp": 32.3,
           "pace": 6.51,
           "kind": "run"
         },
         {
-          "temp": 39.8,
+          "temp": 39.7,
           "pace": 4.68,
           "kind": "run"
         },
         {
-          "temp": 29.4,
+          "temp": 29.5,
           "pace": 5.84,
           "kind": "run"
         },
         {
-          "temp": 18.4,
+          "temp": 18.5,
           "pace": 6.95,
           "kind": "run"
         },
         {
-          "temp": 22.5,
+          "temp": 22.8,
           "pace": 5.83,
           "kind": "run"
         },
         {
-          "temp": 11.2,
+          "temp": 11.4,
           "pace": 5.29,
           "kind": "run"
         },
         {
-          "temp": 15.3,
+          "temp": 15.2,
           "pace": 6.26,
           "kind": "run"
         },
         {
-          "temp": 10.0,
+          "temp": 10.3,
           "pace": 16.94,
           "kind": "hike"
         },
         {
-          "temp": 14.6,
+          "temp": 14.7,
           "pace": 21.5,
           "kind": "hike"
         },
         {
-          "temp": 13.0,
+          "temp": 12.8,
           "pace": 23.11,
           "kind": "hike"
         },
         {
-          "temp": 20.0,
+          "temp": 19.9,
           "pace": 6.26,
           "kind": "run"
         },
@@ -1438,7 +1443,7 @@
           "kind": "run"
         },
         {
-          "temp": 10.5,
+          "temp": 10.7,
           "pace": 16.92,
           "kind": "hike"
         },
@@ -1448,22 +1453,22 @@
           "kind": "run"
         },
         {
-          "temp": 19.4,
+          "temp": 20.0,
           "pace": 6.32,
           "kind": "run"
         },
         {
-          "temp": 17.4,
+          "temp": 17.2,
           "pace": 5.71,
           "kind": "run"
         },
         {
-          "temp": 28.2,
+          "temp": 28.5,
           "pace": 12.68,
           "kind": "hike"
         },
         {
-          "temp": 25.2,
+          "temp": 25.0,
           "pace": 5.71,
           "kind": "run"
         },
@@ -1473,12 +1478,12 @@
           "kind": "run"
         },
         {
-          "temp": 34.6,
+          "temp": 35.4,
           "pace": 5.42,
           "kind": "run"
         },
         {
-          "temp": 34.7,
+          "temp": 34.3,
           "pace": 6.51,
           "kind": "run"
         },
@@ -1488,22 +1493,22 @@
           "kind": "run"
         },
         {
-          "temp": 38.0,
+          "temp": 37.8,
           "pace": 6.58,
           "kind": "run"
         },
         {
-          "temp": 38.0,
+          "temp": 37.7,
           "pace": 5.15,
           "kind": "run"
         },
         {
-          "temp": 40.5,
+          "temp": 40.2,
           "pace": 6.21,
           "kind": "run"
         },
         {
-          "temp": 38.2,
+          "temp": 38.1,
           "pace": 5.95,
           "kind": "run"
         },
@@ -1513,62 +1518,62 @@
           "kind": "run"
         },
         {
-          "temp": 36.4,
+          "temp": 36.6,
           "pace": 12.45,
           "kind": "hike"
         },
         {
-          "temp": 26.2,
+          "temp": 26.3,
           "pace": 11.24,
           "kind": "hike"
         },
         {
-          "temp": 28.1,
+          "temp": 28.5,
           "pace": 7.63,
           "kind": "run"
         },
         {
-          "temp": 20.4,
+          "temp": 20.5,
           "pace": 5.35,
           "kind": "run"
         },
         {
-          "temp": 21.7,
+          "temp": 21.9,
           "pace": 16.12,
           "kind": "hike"
         },
         {
-          "temp": 12.2,
+          "temp": 12.5,
           "pace": 22.73,
           "kind": "hike"
         },
         {
-          "temp": 13.8,
+          "temp": 13.9,
           "pace": 19.85,
           "kind": "hike"
         },
         {
-          "temp": 12.4,
+          "temp": 12.3,
           "pace": 10.0,
           "kind": "hike"
         },
         {
-          "temp": 13.0,
+          "temp": 12.8,
           "pace": 19.79,
           "kind": "hike"
         },
         {
-          "temp": 12.9,
+          "temp": 12.8,
           "pace": 19.73,
           "kind": "hike"
         },
         {
-          "temp": 14.8,
+          "temp": 14.5,
           "pace": 17.77,
           "kind": "hike"
         },
         {
-          "temp": 11.7,
+          "temp": 12.2,
           "pace": 6.61,
           "kind": "run"
         },
@@ -1578,12 +1583,12 @@
           "kind": "hike"
         },
         {
-          "temp": 17.1,
+          "temp": 17.3,
           "pace": 11.84,
           "kind": "hike"
         },
         {
-          "temp": 22.0,
+          "temp": 21.8,
           "pace": 14.15,
           "kind": "hike"
         },
@@ -1593,22 +1598,22 @@
           "kind": "hike"
         },
         {
-          "temp": 19.9,
+          "temp": 20.0,
           "pace": 23.35,
           "kind": "hike"
         },
         {
-          "temp": 13.2,
+          "temp": 13.1,
           "pace": 21.61,
           "kind": "hike"
         },
         {
-          "temp": 14.2,
+          "temp": 14.4,
           "pace": 19.89,
           "kind": "hike"
         },
         {
-          "temp": 20.0,
+          "temp": 19.8,
           "pace": 11.44,
           "kind": "hike"
         },
@@ -1618,7 +1623,7 @@
           "kind": "hike"
         },
         {
-          "temp": 17.1,
+          "temp": 16.9,
           "pace": 10.95,
           "kind": "hike"
         },
@@ -1628,17 +1633,17 @@
           "kind": "hike"
         },
         {
-          "temp": 18.1,
+          "temp": 18.0,
           "pace": 14.59,
           "kind": "hike"
         },
         {
-          "temp": 12.4,
+          "temp": 12.8,
           "pace": 5.91,
           "kind": "run"
         },
         {
-          "temp": 8.6,
+          "temp": 8.8,
           "pace": 12.44,
           "kind": "hike"
         },
@@ -1648,17 +1653,17 @@
           "kind": "hike"
         },
         {
-          "temp": 15.3,
+          "temp": 15.4,
           "pace": 12.33,
           "kind": "hike"
         },
         {
-          "temp": 11.4,
+          "temp": 11.6,
           "pace": 21.79,
           "kind": "hike"
         },
         {
-          "temp": 18.6,
+          "temp": 18.7,
           "pace": 11.18,
           "kind": "hike"
         },
@@ -1668,37 +1673,37 @@
           "kind": "hike"
         },
         {
-          "temp": 15.3,
+          "temp": 15.7,
           "pace": 12.36,
           "kind": "hike"
         },
         {
-          "temp": 15.0,
+          "temp": 14.9,
           "pace": 12.21,
           "kind": "hike"
         },
         {
-          "temp": 17.2,
+          "temp": 17.3,
           "pace": 16.18,
           "kind": "hike"
         },
         {
-          "temp": 13.3,
+          "temp": 13.9,
           "pace": 11.6,
           "kind": "hike"
         },
         {
-          "temp": 15.1,
+          "temp": 15.3,
           "pace": 5.33,
           "kind": "run"
         },
         {
-          "temp": 12.8,
+          "temp": 13.3,
           "pace": 14.07,
           "kind": "hike"
         },
         {
-          "temp": 19.1,
+          "temp": 18.8,
           "pace": 5.66,
           "kind": "run"
         },
@@ -1708,42 +1713,42 @@
           "kind": "run"
         },
         {
-          "temp": 17.6,
+          "temp": 17.4,
           "pace": 12.57,
           "kind": "hike"
         },
         {
-          "temp": 23.4,
+          "temp": 23.3,
           "pace": 21.54,
           "kind": "hike"
         },
         {
-          "temp": 19.8,
+          "temp": 19.6,
           "pace": 20.35,
           "kind": "hike"
         },
         {
-          "temp": 21.5,
+          "temp": 21.8,
           "pace": 14.81,
           "kind": "hike"
         },
         {
-          "temp": 24.8,
+          "temp": 24.9,
           "pace": 5.53,
           "kind": "run"
         },
         {
-          "temp": 23.3,
+          "temp": 23.4,
           "pace": 21.24,
           "kind": "hike"
         },
         {
-          "temp": 26.3,
+          "temp": 26.6,
           "pace": 4.89,
           "kind": "run"
         },
         {
-          "temp": 26.9,
+          "temp": 27.1,
           "pace": 15.39,
           "kind": "hike"
         },
@@ -1753,27 +1758,27 @@
           "kind": "run"
         },
         {
-          "temp": 23.3,
+          "temp": 23.4,
           "pace": 7.09,
           "kind": "run"
         },
         {
-          "temp": 23.4,
+          "temp": 23.3,
           "pace": 5.93,
           "kind": "run"
         },
         {
-          "temp": 22.8,
+          "temp": 22.5,
           "pace": 5.33,
           "kind": "run"
         },
         {
-          "temp": 24.7,
+          "temp": 24.6,
           "pace": 7.29,
           "kind": "run"
         },
         {
-          "temp": 21.9,
+          "temp": 22.0,
           "pace": 6.0,
           "kind": "run"
         },
@@ -1783,7 +1788,7 @@
           "kind": "run"
         },
         {
-          "temp": 26.1,
+          "temp": 26.2,
           "pace": 5.02,
           "kind": "run"
         },
@@ -1798,67 +1803,67 @@
           "kind": "run"
         },
         {
-          "temp": 34.8,
+          "temp": 34.6,
           "pace": 6.79,
           "kind": "run"
         },
         {
-          "temp": 32.2,
+          "temp": 32.4,
           "pace": 17.97,
           "kind": "hike"
         },
         {
-          "temp": 32.5,
+          "temp": 32.7,
           "pace": 20.17,
           "kind": "hike"
         },
         {
-          "temp": 26.4,
+          "temp": 26.3,
           "pace": 10.54,
           "kind": "run"
         },
         {
-          "temp": 41.4,
+          "temp": 41.2,
           "pace": 5.94,
           "kind": "run"
         },
         {
-          "temp": 41.2,
+          "temp": 41.0,
           "pace": 11.14,
           "kind": "run"
         },
         {
-          "temp": 36.5,
+          "temp": 36.6,
           "pace": 6.81,
           "kind": "run"
         },
         {
-          "temp": 40.3,
+          "temp": 40.1,
           "pace": 19.31,
           "kind": "hike"
         },
         {
-          "temp": 38.3,
+          "temp": 38.2,
           "pace": 14.79,
           "kind": "hike"
         },
         {
-          "temp": 36.4,
+          "temp": 36.0,
           "pace": 20.63,
           "kind": "hike"
         },
         {
-          "temp": 33.7,
+          "temp": 33.8,
           "pace": 6.46,
           "kind": "run"
         },
         {
-          "temp": 33.1,
+          "temp": 33.0,
           "pace": 16.52,
           "kind": "hike"
         },
         {
-          "temp": 27.6,
+          "temp": 27.5,
           "pace": 6.47,
           "kind": "run"
         },
@@ -1868,7 +1873,7 @@
           "kind": "hike"
         },
         {
-          "temp": 39.6,
+          "temp": 38.6,
           "pace": 5.48,
           "kind": "run"
         },
@@ -1878,7 +1883,7 @@
           "kind": "hike"
         },
         {
-          "temp": 34.1,
+          "temp": 33.9,
           "pace": 14.32,
           "kind": "hike"
         },
@@ -1913,12 +1918,12 @@
           "kind": "run"
         },
         {
-          "temp": 31.7,
+          "temp": 31.6,
           "pace": 7.21,
           "kind": "run"
         },
         {
-          "temp": 33.3,
+          "temp": 33.0,
           "pace": 6.77,
           "kind": "run"
         },
@@ -1928,42 +1933,42 @@
           "kind": "run"
         },
         {
-          "temp": 29.7,
+          "temp": 30.3,
           "pace": 15.81,
           "kind": "hike"
         },
         {
-          "temp": 33.3,
+          "temp": 33.6,
           "pace": 5.87,
           "kind": "run"
         },
         {
-          "temp": 24.6,
+          "temp": 24.0,
           "pace": 6.5,
           "kind": "run"
         },
         {
-          "temp": 28.4,
+          "temp": 28.7,
           "pace": 6.5,
           "kind": "run"
         },
         {
-          "temp": 24.4,
+          "temp": 24.5,
           "pace": 7.3,
           "kind": "run"
         },
         {
-          "temp": 31.9,
+          "temp": 31.8,
           "pace": 18.38,
           "kind": "hike"
         },
         {
-          "temp": 31.8,
+          "temp": 32.3,
           "pace": 6.54,
           "kind": "run"
         },
         {
-          "temp": 23.1,
+          "temp": 23.3,
           "pace": 6.65,
           "kind": "run"
         },
@@ -1973,12 +1978,12 @@
           "kind": "run"
         },
         {
-          "temp": 20.7,
+          "temp": 20.1,
           "pace": 6.81,
           "kind": "run"
         },
         {
-          "temp": 24.5,
+          "temp": 24.4,
           "pace": 6.02,
           "kind": "run"
         },
@@ -1988,12 +1993,12 @@
           "kind": "run"
         },
         {
-          "temp": 15.3,
+          "temp": 15.4,
           "pace": 6.58,
           "kind": "run"
         },
         {
-          "temp": 16.6,
+          "temp": 16.7,
           "pace": 5.87,
           "kind": "run"
         },
@@ -2003,7 +2008,7 @@
           "kind": "hike"
         },
         {
-          "temp": 22.3,
+          "temp": 22.4,
           "pace": 6.0,
           "kind": "run"
         },
@@ -2023,72 +2028,72 @@
           "kind": "run"
         },
         {
-          "temp": 16.7,
+          "temp": 16.9,
           "pace": 11.13,
           "kind": "hike"
         },
         {
-          "temp": 6.3,
+          "temp": 6.5,
           "pace": 6.04,
           "kind": "run"
         },
         {
-          "temp": 16.7,
+          "temp": 16.9,
           "pace": 5.68,
           "kind": "run"
         },
         {
-          "temp": 18.1,
+          "temp": 18.3,
           "pace": 5.24,
           "kind": "run"
         },
         {
-          "temp": 13.9,
+          "temp": 13.6,
           "pace": 11.82,
           "kind": "hike"
         },
         {
-          "temp": 14.0,
+          "temp": 13.9,
           "pace": 12.79,
           "kind": "hike"
         },
         {
-          "temp": 12.5,
+          "temp": 12.3,
           "pace": 17.94,
           "kind": "hike"
         },
         {
-          "temp": 5.1,
+          "temp": 5.0,
           "pace": 6.9,
           "kind": "run"
         },
         {
-          "temp": 8.2,
+          "temp": 9.0,
           "pace": 12.99,
           "kind": "hike"
         },
         {
-          "temp": 8.7,
+          "temp": 8.4,
           "pace": 13.1,
           "kind": "hike"
         },
         {
-          "temp": 12.9,
+          "temp": 12.8,
           "pace": 5.77,
           "kind": "run"
         },
         {
-          "temp": 17.3,
+          "temp": 17.5,
           "pace": 6.64,
           "kind": "run"
         },
         {
-          "temp": 17.6,
+          "temp": 17.7,
           "pace": 7.55,
           "kind": "run"
         },
         {
-          "temp": 14.1,
+          "temp": 14.3,
           "pace": 6.23,
           "kind": "run"
         },
@@ -2103,7 +2108,7 @@
           "kind": "hike"
         },
         {
-          "temp": 20.0,
+          "temp": 20.1,
           "pace": 12.62,
           "kind": "hike"
         },
@@ -2113,37 +2118,37 @@
           "kind": "run"
         },
         {
-          "temp": 21.7,
+          "temp": 21.6,
           "pace": 6.85,
           "kind": "run"
         },
         {
-          "temp": 24.9,
+          "temp": 24.3,
           "pace": 5.97,
           "kind": "run"
         },
         {
-          "temp": 26.9,
+          "temp": 27.1,
           "pace": 23.46,
           "kind": "hike"
         },
         {
-          "temp": 27.3,
+          "temp": 27.1,
           "pace": 6.4,
           "kind": "run"
         },
         {
-          "temp": 40.8,
+          "temp": 40.7,
           "pace": 6.13,
           "kind": "run"
         },
         {
-          "temp": 38.8,
+          "temp": 38.9,
           "pace": 6.05,
           "kind": "run"
         },
         {
-          "temp": 36.0,
+          "temp": 36.2,
           "pace": 5.76,
           "kind": "run"
         },
@@ -2153,12 +2158,12 @@
           "kind": "run"
         },
         {
-          "temp": 36.4,
+          "temp": 36.2,
           "pace": 5.82,
           "kind": "run"
         },
         {
-          "temp": 32.5,
+          "temp": 32.3,
           "pace": 6.39,
           "kind": "run"
         },
@@ -2168,17 +2173,17 @@
           "kind": "hike"
         },
         {
-          "temp": 43.5,
+          "temp": 43.3,
           "pace": 13.07,
           "kind": "hike"
         },
         {
-          "temp": 37.6,
+          "temp": 37.0,
           "pace": 5.62,
           "kind": "run"
         },
         {
-          "temp": 38.8,
+          "temp": 38.7,
           "pace": 4.59,
           "kind": "run"
         },
@@ -2188,82 +2193,82 @@
           "kind": "run"
         },
         {
-          "temp": 38.8,
+          "temp": 38.7,
           "pace": 22.76,
           "kind": "hike"
         },
         {
-          "temp": 33.4,
+          "temp": 33.0,
           "pace": 21.83,
           "kind": "hike"
         },
         {
-          "temp": 31.6,
+          "temp": 31.5,
           "pace": 8.78,
           "kind": "run"
         },
         {
-          "temp": 30.1,
+          "temp": 29.7,
           "pace": 22.9,
           "kind": "hike"
         },
         {
-          "temp": 26.1,
+          "temp": 25.8,
           "pace": 8.87,
           "kind": "run"
         },
         {
-          "temp": 26.8,
+          "temp": 26.7,
           "pace": 8.15,
           "kind": "run"
         },
         {
-          "temp": 21.7,
+          "temp": 21.6,
           "pace": 6.61,
           "kind": "run"
         },
         {
-          "temp": 27.8,
+          "temp": 27.7,
           "pace": 5.08,
           "kind": "run"
         },
         {
-          "temp": 26.4,
+          "temp": 26.1,
           "pace": 13.35,
           "kind": "hike"
         },
         {
-          "temp": 26.9,
+          "temp": 27.6,
           "pace": 5.57,
           "kind": "run"
         },
         {
-          "temp": 27.5,
+          "temp": 27.4,
           "pace": 5.7,
           "kind": "run"
         },
         {
-          "temp": 25.2,
+          "temp": 24.9,
           "pace": 6.39,
           "kind": "run"
         },
         {
-          "temp": 32.1,
+          "temp": 33.2,
           "pace": 5.64,
           "kind": "run"
         },
         {
-          "temp": 26.0,
+          "temp": 25.9,
           "pace": 6.29,
           "kind": "run"
         },
         {
-          "temp": 25.9,
+          "temp": 25.8,
           "pace": 5.17,
           "kind": "run"
         },
         {
-          "temp": 26.9,
+          "temp": 27.5,
           "pace": 6.74,
           "kind": "run"
         },
@@ -2278,37 +2283,37 @@
           "kind": "run"
         },
         {
-          "temp": 17.8,
+          "temp": 17.7,
           "pace": 7.36,
           "kind": "run"
         },
         {
-          "temp": 21.6,
+          "temp": 22.0,
           "pace": 5.83,
           "kind": "run"
         },
         {
-          "temp": 15.4,
+          "temp": 15.6,
           "pace": 6.87,
           "kind": "run"
         },
         {
-          "temp": 19.0,
+          "temp": 19.4,
           "pace": 4.65,
           "kind": "run"
         },
         {
-          "temp": 24.8,
+          "temp": 24.4,
           "pace": 5.62,
           "kind": "run"
         },
         {
-          "temp": 13.2,
+          "temp": 14.1,
           "pace": 6.08,
           "kind": "run"
         },
         {
-          "temp": 16.4,
+          "temp": 16.8,
           "pace": 4.26,
           "kind": "run"
         },
@@ -2318,17 +2323,17 @@
           "kind": "run"
         },
         {
-          "temp": 10.3,
+          "temp": 10.4,
           "pace": 6.09,
           "kind": "run"
         },
         {
-          "temp": 20.6,
+          "temp": 20.3,
           "pace": 6.04,
           "kind": "run"
         },
         {
-          "temp": 22.0,
+          "temp": 21.9,
           "pace": 6.11,
           "kind": "run"
         },
@@ -2338,82 +2343,82 @@
           "kind": "run"
         },
         {
-          "temp": 11.0,
+          "temp": 10.9,
           "pace": 7.43,
           "kind": "run"
         },
         {
-          "temp": 18.1,
+          "temp": 18.2,
           "pace": 5.49,
           "kind": "run"
         },
         {
-          "temp": 3.6,
+          "temp": 3.8,
           "pace": 12.39,
           "kind": "hike"
         },
         {
-          "temp": 12.5,
+          "temp": 12.2,
           "pace": 6.64,
           "kind": "run"
         },
         {
-          "temp": 11.7,
+          "temp": 11.5,
           "pace": 6.64,
           "kind": "run"
         },
         {
-          "temp": 8.4,
+          "temp": 8.6,
           "pace": 6.18,
           "kind": "run"
         },
         {
-          "temp": 13.5,
+          "temp": 13.6,
           "pace": 5.83,
           "kind": "run"
         },
         {
-          "temp": 16.4,
+          "temp": 16.0,
           "pace": 7.3,
           "kind": "run"
         },
         {
-          "temp": 15.2,
+          "temp": 15.1,
           "pace": 16.58,
           "kind": "hike"
         },
         {
-          "temp": 14.3,
+          "temp": 14.1,
           "pace": 20.68,
           "kind": "hike"
         },
         {
-          "temp": 9.6,
+          "temp": 9.4,
           "pace": 6.49,
           "kind": "hike"
         },
         {
-          "temp": 6.1,
+          "temp": 5.4,
           "pace": 16.73,
           "kind": "hike"
         },
         {
-          "temp": 15.7,
+          "temp": 15.6,
           "pace": 13.5,
           "kind": "hike"
         },
         {
-          "temp": 10.7,
+          "temp": 10.0,
           "pace": 14.98,
           "kind": "hike"
         },
         {
-          "temp": 4.8,
+          "temp": 4.3,
           "pace": 16.53,
           "kind": "hike"
         },
         {
-          "temp": 14.9,
+          "temp": 14.8,
           "pace": 9.31,
           "kind": "hike"
         },
@@ -2423,62 +2428,62 @@
           "kind": "hike"
         },
         {
-          "temp": 10.4,
+          "temp": 10.2,
           "pace": 15.64,
           "kind": "hike"
         },
         {
-          "temp": 15.2,
+          "temp": 15.0,
           "pace": 13.32,
           "kind": "hike"
         },
         {
-          "temp": 11.8,
+          "temp": 11.5,
           "pace": 19.92,
           "kind": "hike"
         },
         {
-          "temp": 14.5,
+          "temp": 14.4,
           "pace": 17.39,
           "kind": "hike"
         },
         {
-          "temp": 9.4,
+          "temp": 9.1,
           "pace": 14.4,
           "kind": "hike"
         },
         {
-          "temp": 16.9,
+          "temp": 16.7,
           "pace": 10.34,
           "kind": "hike"
         },
         {
-          "temp": 13.4,
+          "temp": 13.5,
           "pace": 11.27,
           "kind": "hike"
         },
         {
-          "temp": 15.7,
+          "temp": 15.6,
           "pace": 12.22,
           "kind": "hike"
         },
         {
-          "temp": 17.5,
+          "temp": 17.8,
           "pace": 5.79,
           "kind": "run"
         },
         {
-          "temp": 16.9,
+          "temp": 16.7,
           "pace": 5.36,
           "kind": "run"
         },
         {
-          "temp": 26.0,
+          "temp": 26.2,
           "pace": 5.7,
           "kind": "run"
         },
         {
-          "temp": 26.6,
+          "temp": 26.5,
           "pace": 11.76,
           "kind": "hike"
         },
@@ -2493,17 +2498,17 @@
           "kind": "run"
         },
         {
-          "temp": 28.8,
+          "temp": 28.7,
           "pace": 6.18,
           "kind": "run"
         },
         {
-          "temp": 31.0,
+          "temp": 31.3,
           "pace": 24.21,
           "kind": "hike"
         },
         {
-          "temp": 27.6,
+          "temp": 28.1,
           "pace": 15.49,
           "kind": "hike"
         },
@@ -2513,7 +2518,7 @@
           "kind": "run"
         },
         {
-          "temp": 32.5,
+          "temp": 32.8,
           "pace": 5.8,
           "kind": "run"
         },
@@ -2523,12 +2528,12 @@
           "kind": "run"
         },
         {
-          "temp": 31.8,
+          "temp": 31.7,
           "pace": 7.24,
           "kind": "run"
         },
         {
-          "temp": 25.1,
+          "temp": 25.0,
           "pace": 5.37,
           "kind": "run"
         },
@@ -2548,27 +2553,27 @@
           "kind": "hike"
         },
         {
-          "temp": 37.5,
+          "temp": 37.3,
           "pace": 12.15,
           "kind": "hike"
         },
         {
-          "temp": 28.3,
+          "temp": 28.2,
           "pace": 7.53,
           "kind": "run"
         },
         {
-          "temp": 33.0,
+          "temp": 32.9,
           "pace": 6.27,
           "kind": "run"
         },
         {
-          "temp": 39.5,
+          "temp": 39.7,
           "pace": 6.32,
           "kind": "run"
         },
         {
-          "temp": 35.2,
+          "temp": 35.3,
           "pace": 6.62,
           "kind": "run"
         },
@@ -2578,12 +2583,12 @@
           "kind": "hike"
         },
         {
-          "temp": 42.0,
+          "temp": 41.5,
           "pace": 8.9,
           "kind": "run"
         },
         {
-          "temp": 42.0,
+          "temp": 41.5,
           "pace": 18.21,
           "kind": "hike"
         },
@@ -2593,22 +2598,22 @@
           "kind": "run"
         },
         {
-          "temp": 35.3,
+          "temp": 35.1,
           "pace": 5.9,
           "kind": "run"
         },
         {
-          "temp": 32.4,
+          "temp": 32.5,
           "pace": 6.15,
           "kind": "run"
         },
         {
-          "temp": 35.8,
+          "temp": 35.6,
           "pace": 6.33,
           "kind": "run"
         },
         {
-          "temp": 33.8,
+          "temp": 33.7,
           "pace": 6.42,
           "kind": "run"
         },
@@ -2618,27 +2623,27 @@
           "kind": "run"
         },
         {
-          "temp": 29.8,
+          "temp": 30.1,
           "pace": 5.96,
           "kind": "run"
         },
         {
-          "temp": 37.8,
+          "temp": 38.0,
           "pace": 12.87,
           "kind": "hike"
         },
         {
-          "temp": 33.9,
+          "temp": 34.0,
           "pace": 12.44,
           "kind": "run"
         },
         {
-          "temp": 37.5,
+          "temp": 37.2,
           "pace": 3.74,
           "kind": "hike"
         },
         {
-          "temp": 31.6,
+          "temp": 31.7,
           "pace": 6.22,
           "kind": "run"
         },
@@ -2648,12 +2653,12 @@
           "kind": "hike"
         },
         {
-          "temp": 25.6,
+          "temp": 25.4,
           "pace": 6.1,
           "kind": "run"
         },
         {
-          "temp": 25.6,
+          "temp": 25.8,
           "pace": 13.29,
           "kind": "hike"
         },
@@ -2663,12 +2668,12 @@
           "kind": "run"
         },
         {
-          "temp": 25.3,
+          "temp": 25.1,
           "pace": 5.64,
           "kind": "run"
         },
         {
-          "temp": 24.7,
+          "temp": 24.5,
           "pace": 13.24,
           "kind": "hike"
         },
@@ -2678,22 +2683,22 @@
           "kind": "run"
         },
         {
-          "temp": 27.9,
+          "temp": 28.1,
           "pace": 6.66,
           "kind": "run"
         },
         {
-          "temp": 20.1,
+          "temp": 19.9,
           "pace": 4.69,
           "kind": "run"
         },
         {
-          "temp": 25.0,
+          "temp": 24.7,
           "pace": 14.01,
           "kind": "hike"
         },
         {
-          "temp": 24.2,
+          "temp": 24.1,
           "pace": 13.61,
           "kind": "hike"
         },
@@ -2703,27 +2708,27 @@
           "kind": "run"
         },
         {
-          "temp": 26.5,
+          "temp": 26.4,
           "pace": 13.37,
           "kind": "hike"
         },
         {
-          "temp": 26.6,
+          "temp": 26.7,
           "pace": 14.01,
           "kind": "hike"
         },
         {
-          "temp": 23.8,
+          "temp": 24.2,
           "pace": 12.18,
           "kind": "hike"
         },
         {
-          "temp": 21.3,
+          "temp": 21.6,
           "pace": 21.37,
           "kind": "hike"
         },
         {
-          "temp": 23.6,
+          "temp": 23.7,
           "pace": 12.78,
           "kind": "hike"
         },
@@ -2733,32 +2738,32 @@
           "kind": "hike"
         },
         {
-          "temp": 11.6,
+          "temp": 11.5,
           "pace": 5.01,
           "kind": "run"
         },
         {
-          "temp": 24.1,
+          "temp": 24.3,
           "pace": 14.64,
           "kind": "hike"
         },
         {
-          "temp": 22.2,
+          "temp": 22.4,
           "pace": 10.35,
           "kind": "hike"
         },
         {
-          "temp": 19.5,
+          "temp": 19.9,
           "pace": 11.01,
           "kind": "hike"
         },
         {
-          "temp": 21.6,
+          "temp": 21.9,
           "pace": 11.83,
           "kind": "hike"
         },
         {
-          "temp": 13.5,
+          "temp": 13.9,
           "pace": 8.71,
           "kind": "hike"
         },
@@ -2778,72 +2783,72 @@
           "kind": "hike"
         },
         {
-          "temp": 10.1,
+          "temp": 9.9,
           "pace": 7.57,
           "kind": "run"
         },
         {
-          "temp": 14.8,
+          "temp": 14.7,
           "pace": 6.11,
           "kind": "run"
         },
         {
-          "temp": 9.4,
+          "temp": 8.9,
           "pace": 12.32,
           "kind": "hike"
         },
         {
-          "temp": 11.1,
+          "temp": 11.0,
           "pace": 6.44,
           "kind": "run"
         },
         {
-          "temp": 9.5,
+          "temp": 9.4,
           "pace": 4.96,
           "kind": "run"
         },
         {
-          "temp": 9.5,
+          "temp": 9.4,
           "pace": 4.45,
           "kind": "run"
         },
         {
-          "temp": 9.5,
+          "temp": 9.4,
           "pace": 4.8,
           "kind": "run"
         },
         {
-          "temp": 9.5,
+          "temp": 9.4,
           "pace": 5.11,
           "kind": "run"
         },
         {
-          "temp": 9.5,
+          "temp": 9.4,
           "pace": 6.41,
           "kind": "run"
         },
         {
-          "temp": 14.0,
+          "temp": 14.1,
           "pace": 5.84,
           "kind": "run"
         },
         {
-          "temp": 15.1,
+          "temp": 14.9,
           "pace": 6.7,
           "kind": "run"
         },
         {
-          "temp": 9.2,
+          "temp": 9.0,
           "pace": 6.84,
           "kind": "run"
         },
         {
-          "temp": 19.8,
+          "temp": 19.6,
           "pace": 15.5,
           "kind": "hike"
         },
         {
-          "temp": 12.6,
+          "temp": 12.4,
           "pace": 7.65,
           "kind": "run"
         },
@@ -2853,67 +2858,67 @@
           "kind": "hike"
         },
         {
-          "temp": 15.2,
+          "temp": 15.3,
           "pace": 18.11,
           "kind": "hike"
         },
         {
-          "temp": 7.1,
+          "temp": 6.9,
           "pace": 9.13,
           "kind": "run"
         },
         {
-          "temp": 9.9,
+          "temp": 9.6,
           "pace": 6.19,
           "kind": "run"
         },
         {
-          "temp": 8.3,
+          "temp": 7.5,
           "pace": 6.29,
           "kind": "run"
         },
         {
-          "temp": 13.1,
+          "temp": 12.7,
           "pace": 6.97,
           "kind": "run"
         },
         {
-          "temp": 11.9,
+          "temp": 11.5,
           "pace": 5.69,
           "kind": "run"
         },
         {
-          "temp": 12.7,
+          "temp": 12.1,
           "pace": 6.0,
           "kind": "run"
         },
         {
-          "temp": 13.5,
+          "temp": 13.4,
           "pace": 15.78,
           "kind": "hike"
         },
         {
-          "temp": 14.7,
+          "temp": 14.6,
           "pace": 6.98,
           "kind": "run"
         },
         {
-          "temp": 9.6,
+          "temp": 10.0,
           "pace": 12.86,
           "kind": "hike"
         },
         {
-          "temp": 12.0,
+          "temp": 12.1,
           "pace": 6.33,
           "kind": "run"
         },
         {
-          "temp": 9.5,
+          "temp": 9.3,
           "pace": 6.15,
           "kind": "run"
         },
         {
-          "temp": 10.6,
+          "temp": 10.1,
           "pace": 6.17,
           "kind": "run"
         },
@@ -2923,47 +2928,47 @@
           "kind": "run"
         },
         {
-          "temp": 17.1,
+          "temp": 16.7,
           "pace": 5.76,
           "kind": "run"
         },
         {
-          "temp": 10.9,
+          "temp": 11.1,
           "pace": 5.28,
           "kind": "run"
         },
         {
-          "temp": 10.6,
+          "temp": 10.9,
           "pace": 6.42,
           "kind": "run"
         },
         {
-          "temp": 10.2,
+          "temp": 9.7,
           "pace": 6.05,
           "kind": "run"
         },
         {
-          "temp": 11.8,
+          "temp": 11.9,
           "pace": 5.31,
           "kind": "run"
         },
         {
-          "temp": 13.7,
+          "temp": 13.6,
           "pace": 6.32,
           "kind": "run"
         },
         {
-          "temp": 25.7,
+          "temp": 25.9,
           "pace": 5.17,
           "kind": "run"
         },
         {
-          "temp": 17.6,
+          "temp": 17.5,
           "pace": 5.57,
           "kind": "run"
         },
         {
-          "temp": 19.0,
+          "temp": 18.5,
           "pace": 5.76,
           "kind": "run"
         },
@@ -2973,112 +2978,112 @@
           "kind": "run"
         },
         {
-          "temp": 22.4,
+          "temp": 22.5,
           "pace": 6.48,
           "kind": "run"
         },
         {
-          "temp": 23.0,
+          "temp": 23.2,
           "pace": 5.45,
           "kind": "run"
         },
         {
-          "temp": 22.1,
+          "temp": 22.0,
           "pace": 5.63,
           "kind": "run"
         },
         {
-          "temp": 25.9,
+          "temp": 27.6,
           "pace": 6.02,
           "kind": "run"
         },
         {
-          "temp": 26.4,
+          "temp": 28.3,
           "pace": 5.7,
           "kind": "run"
         },
         {
-          "temp": 21.5,
+          "temp": 21.4,
           "pace": 5.94,
           "kind": "run"
         },
         {
-          "temp": 22.4,
+          "temp": 22.2,
           "pace": 5.35,
           "kind": "run"
         },
         {
-          "temp": 23.1,
+          "temp": 23.2,
           "pace": 6.72,
           "kind": "run"
         },
         {
-          "temp": 23.6,
+          "temp": 23.5,
           "pace": 5.72,
           "kind": "run"
         },
         {
-          "temp": 29.7,
+          "temp": 30.0,
           "pace": 6.14,
           "kind": "run"
         },
         {
-          "temp": 19.6,
+          "temp": 19.7,
           "pace": 5.62,
           "kind": "run"
         },
         {
-          "temp": 29.9,
+          "temp": 29.7,
           "pace": 5.84,
           "kind": "run"
         },
         {
-          "temp": 32.0,
+          "temp": 32.5,
           "pace": 5.65,
           "kind": "run"
         },
         {
-          "temp": 34.4,
+          "temp": 34.2,
           "pace": 7.79,
           "kind": "run"
         },
         {
-          "temp": 32.5,
+          "temp": 32.6,
           "pace": 7.2,
           "kind": "run"
         },
         {
-          "temp": 32.5,
+          "temp": 32.6,
           "pace": 6.72,
           "kind": "run"
         },
         {
-          "temp": 29.7,
+          "temp": 30.1,
           "pace": 5.91,
           "kind": "run"
         },
         {
-          "temp": 30.3,
+          "temp": 30.6,
           "pace": 5.67,
           "kind": "run"
         },
         {
-          "temp": 26.1,
+          "temp": 26.2,
           "pace": 6.61,
           "kind": "run"
         },
         {
-          "temp": 35.2,
+          "temp": 35.3,
           "pace": 5.18,
           "kind": "run"
         },
         {
-          "temp": 30.7,
+          "temp": 30.4,
           "pace": 5.67,
           "kind": "run"
         },
         {
-          "temp": 24.8,
+          "temp": 24.5,
           "pace": 22.81,
           "kind": "hike"
         },
@@ -3088,57 +3093,57 @@
           "kind": "hike"
         },
         {
-          "temp": 31.8,
+          "temp": 32.0,
           "pace": 11.73,
           "kind": "hike"
         },
         {
-          "temp": 31.6,
+          "temp": 31.9,
           "pace": 12.51,
           "kind": "hike"
         },
         {
-          "temp": 34.7,
+          "temp": 35.1,
           "pace": 16.33,
           "kind": "hike"
         },
         {
-          "temp": 34.2,
+          "temp": 34.6,
           "pace": 5.67,
           "kind": "run"
         },
         {
-          "temp": 34.1,
+          "temp": 34.3,
           "pace": 5.59,
           "kind": "run"
         },
         {
-          "temp": 37.7,
+          "temp": 38.1,
           "pace": 5.66,
           "kind": "run"
         },
         {
-          "temp": 39.5,
+          "temp": 39.9,
           "pace": 6.19,
           "kind": "run"
         },
         {
-          "temp": 37.9,
+          "temp": 38.1,
           "pace": 5.02,
           "kind": "run"
         },
         {
-          "temp": 40.6,
+          "temp": 40.4,
           "pace": 5.8,
           "kind": "run"
         },
         {
-          "temp": 41.9,
+          "temp": 40.5,
           "pace": 5.51,
           "kind": "run"
         },
         {
-          "temp": 39.1,
+          "temp": 39.2,
           "pace": 6.78,
           "kind": "run"
         },
@@ -3148,12 +3153,12 @@
           "kind": "run"
         },
         {
-          "temp": 37.1,
+          "temp": 37.2,
           "pace": 3.7,
           "kind": "run"
         },
         {
-          "temp": 40.8,
+          "temp": 41.8,
           "pace": 5.83,
           "kind": "run"
         },
@@ -3163,77 +3168,77 @@
           "kind": "run"
         },
         {
-          "temp": 29.0,
+          "temp": 28.8,
           "pace": 5.18,
           "kind": "run"
         },
         {
-          "temp": 37.2,
+          "temp": 37.0,
           "pace": 5.37,
           "kind": "run"
         },
         {
-          "temp": 34.2,
+          "temp": 34.0,
           "pace": 6.02,
           "kind": "run"
         },
         {
-          "temp": 29.5,
+          "temp": 29.4,
           "pace": 7.81,
           "kind": "run"
         },
         {
-          "temp": 27.5,
+          "temp": 27.6,
           "pace": 5.11,
           "kind": "run"
         },
         {
-          "temp": 40.6,
+          "temp": 44.3,
           "pace": 6.54,
           "kind": "run"
         },
         {
-          "temp": 35.6,
+          "temp": 35.8,
           "pace": 6.11,
           "kind": "run"
         },
         {
-          "temp": 38.7,
+          "temp": 38.6,
           "pace": 5.71,
           "kind": "run"
         },
         {
-          "temp": 36.3,
+          "temp": 36.2,
           "pace": 6.04,
           "kind": "run"
         },
         {
-          "temp": 36.1,
+          "temp": 35.9,
           "pace": 6.48,
           "kind": "run"
         },
         {
-          "temp": 30.3,
+          "temp": 30.0,
           "pace": 6.41,
           "kind": "run"
         },
         {
-          "temp": 33.1,
+          "temp": 32.8,
           "pace": 6.08,
           "kind": "run"
         },
         {
-          "temp": 33.7,
+          "temp": 34.3,
           "pace": 5.77,
           "kind": "run"
         },
         {
-          "temp": 29.7,
+          "temp": 29.9,
           "pace": 6.56,
           "kind": "run"
         },
         {
-          "temp": 26.3,
+          "temp": 26.2,
           "pace": 5.81,
           "kind": "run"
         },
@@ -3243,22 +3248,22 @@
           "kind": "run"
         },
         {
-          "temp": 30.2,
+          "temp": 30.3,
           "pace": 6.52,
           "kind": "run"
         },
         {
-          "temp": 22.6,
+          "temp": 22.3,
           "pace": 5.98,
           "kind": "run"
         },
         {
-          "temp": 37.7,
+          "temp": 37.9,
           "pace": 5.93,
           "kind": "run"
         },
         {
-          "temp": 26.7,
+          "temp": 26.6,
           "pace": 6.66,
           "kind": "run"
         },
@@ -3273,27 +3278,27 @@
           "kind": "run"
         },
         {
-          "temp": 13.8,
+          "temp": 14.5,
           "pace": 6.39,
           "kind": "run"
         },
         {
-          "temp": 18.3,
+          "temp": 18.7,
           "pace": 11.08,
           "kind": "hike"
         },
         {
-          "temp": 20.5,
+          "temp": 20.7,
           "pace": 7.34,
           "kind": "run"
         },
         {
-          "temp": 18.7,
+          "temp": 18.9,
           "pace": 7.1,
           "kind": "run"
         },
         {
-          "temp": 15.1,
+          "temp": 15.2,
           "pace": 8.41,
           "kind": "run"
         },
@@ -3303,67 +3308,67 @@
           "kind": "run"
         },
         {
-          "temp": 20.9,
+          "temp": 20.7,
           "pace": 5.97,
           "kind": "run"
         },
         {
-          "temp": 12.7,
+          "temp": 12.6,
           "pace": 7.65,
           "kind": "run"
         },
         {
-          "temp": 15.9,
+          "temp": 16.1,
           "pace": 6.33,
           "kind": "run"
         },
         {
-          "temp": 19.4,
+          "temp": 19.3,
           "pace": 14.11,
           "kind": "hike"
         },
         {
-          "temp": 17.2,
+          "temp": 17.1,
           "pace": 14.13,
           "kind": "hike"
         },
         {
-          "temp": 17.0,
+          "temp": 17.2,
           "pace": 12.72,
           "kind": "run"
         },
         {
-          "temp": 17.2,
+          "temp": 17.0,
           "pace": 7.49,
           "kind": "run"
         },
         {
-          "temp": 22.0,
+          "temp": 22.2,
           "pace": 5.8,
           "kind": "run"
         },
         {
-          "temp": 19.2,
+          "temp": 19.1,
           "pace": 7.54,
           "kind": "run"
         },
         {
-          "temp": 20.1,
+          "temp": 20.2,
           "pace": 5.33,
           "kind": "run"
         },
         {
-          "temp": 19.5,
+          "temp": 19.7,
           "pace": 5.72,
           "kind": "run"
         },
         {
-          "temp": 19.1,
+          "temp": 19.2,
           "pace": 8.44,
           "kind": "run"
         },
         {
-          "temp": 23.9,
+          "temp": 24.1,
           "pace": 7.52,
           "kind": "run"
         },
@@ -3373,37 +3378,37 @@
           "kind": "run"
         },
         {
-          "temp": 16.9,
+          "temp": 17.1,
           "pace": 5.95,
           "kind": "run"
         },
         {
-          "temp": 16.4,
+          "temp": 16.2,
           "pace": 5.68,
           "kind": "run"
         },
         {
-          "temp": 9.3,
+          "temp": 9.2,
           "pace": 5.97,
           "kind": "run"
         },
         {
-          "temp": 13.5,
+          "temp": 13.7,
           "pace": 5.93,
           "kind": "run"
         },
         {
-          "temp": 13.5,
+          "temp": 13.4,
           "pace": 6.15,
           "kind": "run"
         },
         {
-          "temp": 14.1,
+          "temp": 13.5,
           "pace": 5.75,
           "kind": "run"
         },
         {
-          "temp": 9.3,
+          "temp": 9.4,
           "pace": 5.56,
           "kind": "run"
         },
@@ -3418,12 +3423,12 @@
           "kind": "run"
         },
         {
-          "temp": 11.0,
+          "temp": 11.2,
           "pace": 5.84,
           "kind": "run"
         },
         {
-          "temp": 9.2,
+          "temp": 9.3,
           "pace": 6.79,
           "kind": "run"
         },
@@ -3448,27 +3453,27 @@
           "kind": "run"
         },
         {
-          "temp": 13.6,
+          "temp": 13.4,
           "pace": 6.6,
           "kind": "run"
         },
         {
-          "temp": 6.4,
+          "temp": 6.3,
           "pace": 6.23,
           "kind": "run"
         },
         {
-          "temp": 10.7,
+          "temp": 10.6,
           "pace": 5.67,
           "kind": "run"
         },
         {
-          "temp": 12.6,
+          "temp": 12.5,
           "pace": 6.29,
           "kind": "run"
         },
         {
-          "temp": 8.6,
+          "temp": 8.5,
           "pace": 8.16,
           "kind": "run"
         },
@@ -3478,7 +3483,7 @@
           "kind": "run"
         },
         {
-          "temp": 13.6,
+          "temp": 13.5,
           "pace": 6.39,
           "kind": "run"
         },
@@ -3488,17 +3493,17 @@
           "kind": "run"
         },
         {
-          "temp": 13.2,
+          "temp": 13.1,
           "pace": 6.73,
           "kind": "run"
         },
         {
-          "temp": 13.2,
+          "temp": 13.1,
           "pace": 3.84,
           "kind": "run"
         },
         {
-          "temp": 13.2,
+          "temp": 13.1,
           "pace": 6.46,
           "kind": "run"
         },
@@ -3508,17 +3513,17 @@
           "kind": "run"
         },
         {
-          "temp": 21.1,
+          "temp": 21.0,
           "pace": 8.41,
           "kind": "run"
         },
         {
-          "temp": 17.2,
+          "temp": 17.1,
           "pace": 13.11,
           "kind": "run"
         },
         {
-          "temp": 28.6,
+          "temp": 28.5,
           "pace": 5.28,
           "kind": "run"
         },
@@ -3528,12 +3533,12 @@
           "kind": "run"
         },
         {
-          "temp": 28.5,
+          "temp": 28.4,
           "pace": 6.06,
           "kind": "run"
         },
         {
-          "temp": 22.5,
+          "temp": 22.4,
           "pace": 5.69,
           "kind": "run"
         },
@@ -3543,7 +3548,7 @@
           "kind": "run"
         },
         {
-          "temp": 33.2,
+          "temp": 33.1,
           "pace": 7.4,
           "kind": "run"
         },
@@ -3553,12 +3558,12 @@
           "kind": "run"
         },
         {
-          "temp": 36.6,
+          "temp": 36.5,
           "pace": 5.26,
           "kind": "run"
         },
         {
-          "temp": 30.7,
+          "temp": 30.6,
           "pace": 6.76,
           "kind": "run"
         },
@@ -3568,7 +3573,7 @@
           "kind": "run"
         },
         {
-          "temp": 35.5,
+          "temp": 35.4,
           "pace": 6.66,
           "kind": "run"
         },
@@ -3578,17 +3583,17 @@
           "kind": "run"
         },
         {
-          "temp": 38.9,
+          "temp": 38.8,
           "pace": 6.29,
           "kind": "run"
         },
         {
-          "temp": 38.3,
+          "temp": 38.2,
           "pace": 6.42,
           "kind": "run"
         },
         {
-          "temp": 30.0,
+          "temp": 29.9,
           "pace": 6.56,
           "kind": "run"
         },
@@ -3598,12 +3603,12 @@
           "kind": "run"
         },
         {
-          "temp": 42.6,
+          "temp": 42.5,
           "pace": 5.23,
           "kind": "run"
         },
         {
-          "temp": 31.1,
+          "temp": 31.0,
           "pace": 7.37,
           "kind": "run"
         },
@@ -3613,22 +3618,22 @@
           "kind": "run"
         },
         {
-          "temp": 45.7,
+          "temp": 45.6,
           "pace": 18.51,
           "kind": "hike"
         },
         {
-          "temp": 32.7,
+          "temp": 32.6,
           "pace": 33.89,
           "kind": "hike"
         },
         {
-          "temp": 42.2,
+          "temp": 42.1,
           "pace": 15.98,
           "kind": "hike"
         },
         {
-          "temp": 34.1,
+          "temp": 34.0,
           "pace": 6.11,
           "kind": "run"
         },
@@ -3643,7 +3648,7 @@
           "kind": "run"
         },
         {
-          "temp": 21.3,
+          "temp": 21.2,
           "pace": 6.55,
           "kind": "run"
         },
@@ -3658,12 +3663,12 @@
           "kind": "run"
         },
         {
-          "temp": 20.3,
+          "temp": 20.2,
           "pace": 4.5,
           "kind": "run"
         },
         {
-          "temp": 35.5,
+          "temp": 35.4,
           "pace": 5.23,
           "kind": "run"
         },
@@ -3688,7 +3693,7 @@
           "kind": "run"
         },
         {
-          "temp": 25.8,
+          "temp": 25.7,
           "pace": 6.61,
           "kind": "run"
         },
@@ -3703,7 +3708,7 @@
           "kind": "run"
         },
         {
-          "temp": 22.4,
+          "temp": 22.3,
           "pace": 6.12,
           "kind": "run"
         },
@@ -3723,7 +3728,7 @@
           "kind": "run"
         },
         {
-          "temp": 17.0,
+          "temp": 16.9,
           "pace": 5.6,
           "kind": "run"
         },
@@ -3738,7 +3743,7 @@
           "kind": "run"
         },
         {
-          "temp": 15.6,
+          "temp": 15.5,
           "pace": 8.3,
           "kind": "run"
         },
@@ -3748,27 +3753,27 @@
           "kind": "run"
         },
         {
-          "temp": 12.3,
+          "temp": 12.2,
           "pace": 5.46,
           "kind": "run"
         },
         {
-          "temp": 21.7,
+          "temp": 21.6,
           "pace": 7.67,
           "kind": "run"
         },
         {
-          "temp": 15.0,
+          "temp": 14.9,
           "pace": 6.74,
           "kind": "run"
         },
         {
-          "temp": 14.4,
+          "temp": 14.3,
           "pace": 6.79,
           "kind": "run"
         },
         {
-          "temp": 20.2,
+          "temp": 20.1,
           "pace": 8.48,
           "kind": "run"
         },
@@ -3788,17 +3793,17 @@
           "kind": "run"
         },
         {
-          "temp": 21.0,
+          "temp": 20.9,
           "pace": 6.03,
           "kind": "run"
         },
         {
-          "temp": 12.0,
+          "temp": 11.9,
           "pace": 6.97,
           "kind": "run"
         },
         {
-          "temp": 13.5,
+          "temp": 13.4,
           "pace": 5.84,
           "kind": "run"
         },
@@ -3823,7 +3828,7 @@
           "kind": "run"
         },
         {
-          "temp": 14.1,
+          "temp": 14.0,
           "pace": 5.8,
           "kind": "run"
         },
@@ -3833,12 +3838,12 @@
           "kind": "run"
         },
         {
-          "temp": 11.1,
+          "temp": 11.0,
           "pace": 5.97,
           "kind": "run"
         },
         {
-          "temp": 14.0,
+          "temp": 13.9,
           "pace": 5.65,
           "kind": "run"
         },
@@ -3853,17 +3858,17 @@
           "kind": "run"
         },
         {
-          "temp": 13.4,
+          "temp": 13.3,
           "pace": 5.31,
           "kind": "run"
         },
         {
-          "temp": 11.9,
+          "temp": 11.8,
           "pace": 5.72,
           "kind": "run"
         },
         {
-          "temp": 8.3,
+          "temp": 8.2,
           "pace": 6.62,
           "kind": "run"
         },
@@ -3883,7 +3888,7 @@
           "kind": "run"
         },
         {
-          "temp": 13.9,
+          "temp": 13.8,
           "pace": 6.29,
           "kind": "run"
         },
@@ -3893,12 +3898,12 @@
           "kind": "run"
         },
         {
-          "temp": 12.1,
+          "temp": 12.0,
           "pace": 6.46,
           "kind": "run"
         },
         {
-          "temp": 10.2,
+          "temp": 10.1,
           "pace": 6.63,
           "kind": "run"
         },
@@ -3933,12 +3938,12 @@
           "kind": "run"
         },
         {
-          "temp": 19.4,
+          "temp": 19.3,
           "pace": 6.21,
           "kind": "run"
         },
         {
-          "temp": 19.0,
+          "temp": 18.9,
           "pace": 12.69,
           "kind": "hike"
         },
@@ -3953,12 +3958,12 @@
           "kind": "run"
         },
         {
-          "temp": 29.4,
+          "temp": 29.3,
           "pace": 6.44,
           "kind": "run"
         },
         {
-          "temp": 18.9,
+          "temp": 18.8,
           "pace": 5.65,
           "kind": "run"
         },
@@ -3968,7 +3973,7 @@
           "kind": "run"
         },
         {
-          "temp": 29.7,
+          "temp": 29.6,
           "pace": 5.63,
           "kind": "run"
         },
@@ -3983,17 +3988,17 @@
           "kind": "run"
         },
         {
-          "temp": 27.8,
+          "temp": 27.7,
           "pace": 6.41,
           "kind": "run"
         },
         {
-          "temp": 28.0,
+          "temp": 27.9,
           "pace": 5.95,
           "kind": "run"
         },
         {
-          "temp": 24.1,
+          "temp": 24.0,
           "pace": 5.99,
           "kind": "run"
         },
@@ -4008,7 +4013,7 @@
           "kind": "run"
         },
         {
-          "temp": 30.5,
+          "temp": 30.4,
           "pace": 6.27,
           "kind": "run"
         },
@@ -4023,7 +4028,7 @@
           "kind": "run"
         },
         {
-          "temp": 26.1,
+          "temp": 26.0,
           "pace": 5.38,
           "kind": "run"
         },
@@ -4033,7 +4038,7 @@
           "kind": "run"
         },
         {
-          "temp": 35.7,
+          "temp": 35.6,
           "pace": 6.84,
           "kind": "run"
         },
@@ -4058,7 +4063,7 @@
           "kind": "run"
         },
         {
-          "temp": 37.8,
+          "temp": 37.7,
           "pace": 6.27,
           "kind": "run"
         },
@@ -4073,12 +4078,12 @@
           "kind": "run"
         },
         {
-          "temp": 37.0,
+          "temp": 36.9,
           "pace": 5.67,
           "kind": "run"
         },
         {
-          "temp": 36.6,
+          "temp": 36.5,
           "pace": 5.81,
           "kind": "run"
         },
@@ -4088,12 +4093,12 @@
           "kind": "run"
         },
         {
-          "temp": 36.6,
+          "temp": 36.5,
           "pace": 6.62,
           "kind": "run"
         },
         {
-          "temp": 40.6,
+          "temp": 40.5,
           "pace": 6.24,
           "kind": "run"
         },
@@ -4103,7 +4108,7 @@
           "kind": "run"
         },
         {
-          "temp": 36.4,
+          "temp": 36.3,
           "pace": 6.59,
           "kind": "run"
         },
@@ -4113,7 +4118,7 @@
           "kind": "run"
         },
         {
-          "temp": 36.5,
+          "temp": 36.4,
           "pace": 4.92,
           "kind": "run"
         },
@@ -4128,7 +4133,7 @@
           "kind": "run"
         },
         {
-          "temp": 31.0,
+          "temp": 30.9,
           "pace": 5.45,
           "kind": "run"
         },
@@ -4138,12 +4143,12 @@
           "kind": "run"
         },
         {
-          "temp": 32.1,
+          "temp": 32.0,
           "pace": 5.45,
           "kind": "run"
         },
         {
-          "temp": 32.2,
+          "temp": 32.1,
           "pace": 6.17,
           "kind": "run"
         },
@@ -4158,7 +4163,7 @@
           "kind": "run"
         },
         {
-          "temp": 33.3,
+          "temp": 33.2,
           "pace": 6.36,
           "kind": "run"
         },
@@ -4168,7 +4173,7 @@
           "kind": "run"
         },
         {
-          "temp": 23.4,
+          "temp": 23.3,
           "pace": 9.44,
           "kind": "run"
         },
@@ -4178,7 +4183,7 @@
           "kind": "run"
         },
         {
-          "temp": 29.7,
+          "temp": 29.6,
           "pace": 6.04,
           "kind": "run"
         },
@@ -4208,7 +4213,7 @@
           "kind": "run"
         },
         {
-          "temp": 40.7,
+          "temp": 40.6,
           "pace": 7.71,
           "kind": "run"
         },
@@ -4228,22 +4233,22 @@
           "kind": "run"
         },
         {
-          "temp": 31.4,
+          "temp": 31.3,
           "pace": 13.34,
           "kind": "hike"
         },
         {
-          "temp": 27.7,
+          "temp": 27.6,
           "pace": 7.47,
           "kind": "run"
         },
         {
-          "temp": 27.7,
+          "temp": 27.6,
           "pace": 10.87,
           "kind": "run"
         },
         {
-          "temp": 27.5,
+          "temp": 27.4,
           "pace": 5.71,
           "kind": "run"
         },
@@ -4258,17 +4263,17 @@
           "kind": "run"
         },
         {
-          "temp": 30.6,
+          "temp": 30.5,
           "pace": 5.74,
           "kind": "run"
         },
         {
-          "temp": 33.8,
+          "temp": 33.7,
           "pace": 5.54,
           "kind": "run"
         },
         {
-          "temp": 24.3,
+          "temp": 24.2,
           "pace": 5.49,
           "kind": "run"
         },
@@ -4283,7 +4288,7 @@
           "kind": "run"
         },
         {
-          "temp": 28.3,
+          "temp": 28.2,
           "pace": 5.96,
           "kind": "run"
         },
@@ -4298,17 +4303,17 @@
           "kind": "run"
         },
         {
-          "temp": 28.3,
+          "temp": 28.2,
           "pace": 4.93,
           "kind": "run"
         },
         {
-          "temp": 36.1,
+          "temp": 36.0,
           "pace": 5.23,
           "kind": "run"
         },
         {
-          "temp": 34.7,
+          "temp": 34.6,
           "pace": 5.49,
           "kind": "run"
         },
@@ -4333,7 +4338,7 @@
           "kind": "run"
         },
         {
-          "temp": 22.5,
+          "temp": 22.4,
           "pace": 5.4,
           "kind": "run"
         },
@@ -4343,27 +4348,27 @@
           "kind": "run"
         },
         {
-          "temp": 24.2,
+          "temp": 24.1,
           "pace": 5.73,
           "kind": "run"
         },
         {
-          "temp": 12.8,
+          "temp": 12.7,
           "pace": 6.19,
           "kind": "run"
         },
         {
-          "temp": 14.3,
+          "temp": 14.2,
           "pace": 3.63,
           "kind": "run"
         },
         {
-          "temp": 14.3,
+          "temp": 14.2,
           "pace": 6.04,
           "kind": "run"
         },
         {
-          "temp": 16.6,
+          "temp": 16.5,
           "pace": 7.01,
           "kind": "run"
         },
@@ -4373,7 +4378,7 @@
           "kind": "run"
         },
         {
-          "temp": 24.1,
+          "temp": 24.0,
           "pace": 5.77,
           "kind": "run"
         },
@@ -4388,7 +4393,7 @@
           "kind": "run"
         },
         {
-          "temp": 18.3,
+          "temp": 18.2,
           "pace": 5.87,
           "kind": "run"
         },
@@ -4398,7 +4403,7 @@
           "kind": "run"
         },
         {
-          "temp": 10.5,
+          "temp": 10.4,
           "pace": 5.37,
           "kind": "run"
         },
@@ -4418,12 +4423,12 @@
           "kind": "run"
         },
         {
-          "temp": 11.5,
+          "temp": 11.4,
           "pace": 4.62,
           "kind": "run"
         },
         {
-          "temp": 12.1,
+          "temp": 12.0,
           "pace": 6.15,
           "kind": "run"
         },
@@ -4433,7 +4438,7 @@
           "kind": "run"
         },
         {
-          "temp": 4.1,
+          "temp": 4.0,
           "pace": 24.85,
           "kind": "hike"
         },
@@ -4458,7 +4463,7 @@
           "kind": "run"
         },
         {
-          "temp": 10.4,
+          "temp": 10.3,
           "pace": 6.23,
           "kind": "run"
         },
@@ -4478,12 +4483,12 @@
           "kind": "run"
         },
         {
-          "temp": 7.6,
+          "temp": 7.5,
           "pace": 5.13,
           "kind": "run"
         },
         {
-          "temp": 8.9,
+          "temp": 8.8,
           "pace": 5.52,
           "kind": "run"
         },
@@ -4493,27 +4498,27 @@
           "kind": "run"
         },
         {
-          "temp": 13.1,
+          "temp": 13.0,
           "pace": 5.36,
           "kind": "run"
         },
         {
-          "temp": 13.3,
+          "temp": 13.2,
           "pace": 6.15,
           "kind": "run"
         },
         {
-          "temp": 13.3,
+          "temp": 13.2,
           "pace": 4.15,
           "kind": "run"
         },
         {
-          "temp": 13.3,
+          "temp": 13.2,
           "pace": 6.13,
           "kind": "run"
         },
         {
-          "temp": 11.8,
+          "temp": 11.7,
           "pace": 6.39,
           "kind": "run"
         },
@@ -4523,7 +4528,7 @@
           "kind": "run"
         },
         {
-          "temp": 12.4,
+          "temp": 12.3,
           "pace": 6.62,
           "kind": "run"
         },
@@ -4533,7 +4538,7 @@
           "kind": "run"
         },
         {
-          "temp": 12.8,
+          "temp": 12.7,
           "pace": 5.64,
           "kind": "run"
         },
@@ -4543,12 +4548,12 @@
           "kind": "run"
         },
         {
-          "temp": 25.6,
+          "temp": 25.5,
           "pace": 6.23,
           "kind": "run"
         },
         {
-          "temp": 37.2,
+          "temp": 37.1,
           "pace": 5.53,
           "kind": "run"
         },
@@ -4558,7 +4563,7 @@
           "kind": "run"
         },
         {
-          "temp": 29.0,
+          "temp": 28.9,
           "pace": 5.82,
           "kind": "run"
         },
@@ -4583,12 +4588,12 @@
           "kind": "run"
         },
         {
-          "temp": 37.4,
+          "temp": 37.3,
           "pace": 5.65,
           "kind": "run"
         },
         {
-          "temp": 37.9,
+          "temp": 37.8,
           "pace": 6.53,
           "kind": "run"
         },
@@ -4603,7 +4608,7 @@
           "kind": "run"
         },
         {
-          "temp": 41.2,
+          "temp": 41.1,
           "pace": 5.37,
           "kind": "run"
         },
@@ -4633,22 +4638,22 @@
           "kind": "run"
         },
         {
-          "temp": 43.5,
+          "temp": 43.4,
           "pace": 6.78,
           "kind": "run"
         },
         {
-          "temp": 38.0,
+          "temp": 37.9,
           "pace": 6.6,
           "kind": "run"
         },
         {
-          "temp": 39.4,
+          "temp": 39.3,
           "pace": 7.44,
           "kind": "run"
         },
         {
-          "temp": 29.7,
+          "temp": 29.6,
           "pace": 5.69,
           "kind": "run"
         },
@@ -4673,7 +4678,7 @@
           "kind": "run"
         },
         {
-          "temp": 27.8,
+          "temp": 27.7,
           "pace": 5.96,
           "kind": "run"
         },
@@ -4683,7 +4688,7 @@
           "kind": "run"
         },
         {
-          "temp": 26.8,
+          "temp": 26.7,
           "pace": 5.58,
           "kind": "run"
         },
@@ -4703,7 +4708,7 @@
           "kind": "run"
         },
         {
-          "temp": 31.3,
+          "temp": 31.2,
           "pace": 5.99,
           "kind": "run"
         },
@@ -4743,12 +4748,12 @@
           "kind": "run"
         },
         {
-          "temp": 23.9,
+          "temp": 23.8,
           "pace": 5.64,
           "kind": "run"
         },
         {
-          "temp": 26.6,
+          "temp": 26.5,
           "pace": 5.89,
           "kind": "run"
         },
@@ -4758,7 +4763,7 @@
           "kind": "run"
         },
         {
-          "temp": 15.6,
+          "temp": 15.5,
           "pace": 5.1,
           "kind": "run"
         },
@@ -4773,37 +4778,37 @@
           "kind": "run"
         },
         {
-          "temp": 19.4,
+          "temp": 19.3,
           "pace": 5.51,
           "kind": "run"
         },
         {
-          "temp": 24.4,
+          "temp": 24.3,
           "pace": 8.38,
           "kind": "run"
         },
         {
-          "temp": 24.4,
+          "temp": 24.3,
           "pace": 7.0,
           "kind": "run"
         },
         {
-          "temp": 24.4,
+          "temp": 24.3,
           "pace": 7.08,
           "kind": "run"
         },
         {
-          "temp": 17.8,
+          "temp": 17.7,
           "pace": 6.34,
           "kind": "run"
         },
         {
-          "temp": 25.5,
+          "temp": 25.4,
           "pace": 4.5,
           "kind": "run"
         },
         {
-          "temp": 24.0,
+          "temp": 23.9,
           "pace": 4.56,
           "kind": "run"
         },
@@ -4813,12 +4818,12 @@
           "kind": "run"
         },
         {
-          "temp": 17.3,
+          "temp": 17.2,
           "pace": 5.45,
           "kind": "run"
         },
         {
-          "temp": 15.7,
+          "temp": 15.6,
           "pace": 6.4,
           "kind": "run"
         },
@@ -4833,7 +4838,7 @@
           "kind": "run"
         },
         {
-          "temp": 9.9,
+          "temp": 9.8,
           "pace": 5.34,
           "kind": "run"
         },
@@ -4853,17 +4858,17 @@
           "kind": "run"
         },
         {
-          "temp": 20.1,
+          "temp": 20.0,
           "pace": 6.93,
           "kind": "run"
         },
         {
-          "temp": 15.4,
+          "temp": 15.3,
           "pace": 5.9,
           "kind": "run"
         },
         {
-          "temp": 16.9,
+          "temp": 16.8,
           "pace": 7.37,
           "kind": "run"
         },
@@ -4878,17 +4883,17 @@
           "kind": "run"
         },
         {
-          "temp": 19.2,
+          "temp": 19.1,
           "pace": 6.44,
           "kind": "run"
         },
         {
-          "temp": 15.8,
+          "temp": 15.7,
           "pace": 4.65,
           "kind": "run"
         },
         {
-          "temp": 15.8,
+          "temp": 15.7,
           "pace": 4.84,
           "kind": "run"
         },
@@ -4913,12 +4918,12 @@
           "kind": "run"
         },
         {
-          "temp": 11.8,
+          "temp": 11.7,
           "pace": 6.5,
           "kind": "run"
         },
         {
-          "temp": 11.8,
+          "temp": 11.7,
           "pace": 6.51,
           "kind": "run"
         },
@@ -4933,7 +4938,7 @@
           "kind": "run"
         },
         {
-          "temp": 13.7,
+          "temp": 13.6,
           "pace": 6.44,
           "kind": "run"
         },
@@ -4943,7 +4948,7 @@
           "kind": "run"
         },
         {
-          "temp": 11.3,
+          "temp": 11.2,
           "pace": 5.88,
           "kind": "run"
         },
@@ -4963,42 +4968,42 @@
           "kind": "run"
         },
         {
-          "temp": 12.1,
+          "temp": 12.0,
           "pace": 6.61,
           "kind": "run"
         },
         {
-          "temp": 7.9,
+          "temp": 7.8,
           "pace": 5.23,
           "kind": "run"
         },
         {
-          "temp": 7.9,
+          "temp": 7.8,
           "pace": 5.19,
           "kind": "run"
         },
         {
-          "temp": 10.6,
+          "temp": 10.5,
           "pace": 6.47,
           "kind": "run"
         },
         {
-          "temp": 12.5,
+          "temp": 12.4,
           "pace": 6.84,
           "kind": "run"
         },
         {
-          "temp": 33.0,
+          "temp": 32.9,
           "pace": 2.89,
           "kind": "run"
         },
         {
-          "temp": 32.1,
+          "temp": 32.0,
           "pace": 6.0,
           "kind": "run"
         },
         {
-          "temp": 30.2,
+          "temp": 30.1,
           "pace": 6.27,
           "kind": "run"
         },
@@ -5013,7 +5018,7 @@
           "kind": "run"
         },
         {
-          "temp": 36.0,
+          "temp": 35.9,
           "pace": 6.38,
           "kind": "run"
         },
@@ -5028,7 +5033,7 @@
           "kind": "run"
         },
         {
-          "temp": 13.5,
+          "temp": 13.4,
           "pace": 5.63,
           "kind": "run"
         },
@@ -5038,7 +5043,7 @@
           "kind": "run"
         },
         {
-          "temp": 28.9,
+          "temp": 28.8,
           "pace": 5.09,
           "kind": "run"
         },
@@ -5053,7 +5058,7 @@
           "kind": "run"
         },
         {
-          "temp": 33.4,
+          "temp": 33.3,
           "pace": 4.71,
           "kind": "run"
         },
@@ -5078,7 +5083,7 @@
           "kind": "run"
         },
         {
-          "temp": 22.4,
+          "temp": 22.3,
           "pace": 5.65,
           "kind": "run"
         },
@@ -5088,17 +5093,17 @@
           "kind": "run"
         },
         {
-          "temp": 17.6,
+          "temp": 17.5,
           "pace": 5.61,
           "kind": "run"
         },
         {
-          "temp": 11.0,
+          "temp": 10.9,
           "pace": 5.9,
           "kind": "run"
         },
         {
-          "temp": 19.6,
+          "temp": 19.5,
           "pace": 6.05,
           "kind": "run"
         },
@@ -5113,7 +5118,7 @@
           "kind": "run"
         },
         {
-          "temp": 4.4,
+          "temp": 4.3,
           "pace": 6.05,
           "kind": "run"
         },
@@ -5123,12 +5128,12 @@
           "kind": "run"
         },
         {
-          "temp": 43.1,
+          "temp": 43.0,
           "pace": 6.12,
           "kind": "run"
         },
         {
-          "temp": 26.7,
+          "temp": 26.6,
           "pace": 6.43,
           "kind": "run"
         },
@@ -5138,42 +5143,42 @@
           "kind": "run"
         },
         {
-          "temp": 35.6,
+          "temp": 35.5,
           "pace": 5.97,
           "kind": "run"
         },
         {
-          "temp": 35.5,
+          "temp": 35.4,
           "pace": 5.55,
           "kind": "run"
         },
         {
-          "temp": 38.4,
+          "temp": 38.3,
           "pace": 5.47,
           "kind": "run"
         },
         {
-          "temp": 18.7,
+          "temp": 18.6,
           "pace": 7.3,
           "kind": "run"
         },
         {
-          "temp": 19.0,
+          "temp": 18.9,
           "pace": 4.42,
           "kind": "run"
         },
         {
-          "temp": 19.2,
+          "temp": 19.1,
           "pace": 5.5,
           "kind": "run"
         },
         {
-          "temp": 18.6,
+          "temp": 18.5,
           "pace": 5.41,
           "kind": "run"
         },
         {
-          "temp": 10.6,
+          "temp": 10.5,
           "pace": 6.33,
           "kind": "run"
         },
@@ -5183,7 +5188,7 @@
           "kind": "run"
         },
         {
-          "temp": 16.9,
+          "temp": 16.8,
           "pace": 5.87,
           "kind": "run"
         },
@@ -5198,12 +5203,12 @@
           "kind": "run"
         },
         {
-          "temp": 15.8,
+          "temp": 15.7,
           "pace": 5.56,
           "kind": "run"
         },
         {
-          "temp": 7.6,
+          "temp": 7.5,
           "pace": 6.43,
           "kind": "run"
         },
@@ -5218,12 +5223,12 @@
           "kind": "run"
         },
         {
-          "temp": 14.7,
+          "temp": 14.6,
           "pace": 5.92,
           "kind": "run"
         },
         {
-          "temp": 10.5,
+          "temp": 10.4,
           "pace": 6.12,
           "kind": "run"
         },
@@ -5233,7 +5238,7 @@
           "kind": "run"
         },
         {
-          "temp": 16.1,
+          "temp": 16.0,
           "pace": 5.71,
           "kind": "run"
         },
@@ -5248,12 +5253,12 @@
           "kind": "run"
         },
         {
-          "temp": 12.0,
+          "temp": 11.9,
           "pace": 6.69,
           "kind": "run"
         },
         {
-          "temp": 14.9,
+          "temp": 14.8,
           "pace": 6.55,
           "kind": "run"
         },
@@ -5268,15 +5273,15 @@
           "kind": "run"
         }
       ],
-      "median_temp": 23.1,
-      "rain_pct": 1
+      "median_temp": 23.2,
+      "rain_pct": 2
     },
-    "total_distance_km": 10475,
-    "total_elevation_m": 141361,
+    "total_distance_km": 10480,
+    "total_elevation_m": 141639,
     "total_moving_hours": 1278,
-    "total_moving_seconds": 4599918,
-    "total_calories": 676302,
-    "active_days": 950,
+    "total_moving_seconds": 4602468,
+    "total_calories": 676653,
+    "active_days": 951,
     "first_date": "2010-12-18",
     "longest_run": {
       "name": "Eerste Ultra!! Trail des Geules Noires. Door de modder lag het parcours er super glibberig bij, en het lopen op de schuine maakte het erg technisch.",
@@ -5454,7 +5459,8 @@
       "2026-03": 11.494299999999999,
       "2026-04": 42.3666,
       "2026-05": 29.286299999999997,
-      "2026-06": 59.6386
+      "2026-06": 59.6386,
+      "2026-07": 4.8727
     },
     "by_year": {
       "2010": 5,
@@ -5473,7 +5479,7 @@
       "2023": 412,
       "2024": 586,
       "2025": 440,
-      "2026": 250
+      "2026": 255
     },
     "time_grid": [
       [
@@ -5572,7 +5578,7 @@
         0,
         4,
         2,
-        22,
+        23,
         30,
         0,
         4,
@@ -5660,6 +5666,248 @@
       ]
     ],
     "tracks": [
+      [
+        [
+          -34.05781,
+          18.36697
+        ],
+        [
+          -34.0571,
+          18.36683
+        ],
+        [
+          -34.05623,
+          18.36629
+        ],
+        [
+          -34.05545,
+          18.36643
+        ],
+        [
+          -34.05478,
+          18.36655
+        ],
+        [
+          -34.05387,
+          18.36607
+        ],
+        [
+          -34.05317,
+          18.3658
+        ],
+        [
+          -34.05219,
+          18.36539
+        ],
+        [
+          -34.05197,
+          18.36531
+        ],
+        [
+          -34.05199,
+          18.3653
+        ],
+        [
+          -34.05232,
+          18.36578
+        ],
+        [
+          -34.05262,
+          18.36618
+        ],
+        [
+          -34.05259,
+          18.36644
+        ],
+        [
+          -34.05204,
+          18.3662
+        ],
+        [
+          -34.05153,
+          18.36588
+        ],
+        [
+          -34.05113,
+          18.36571
+        ],
+        [
+          -34.05132,
+          18.36608
+        ],
+        [
+          -34.05122,
+          18.36624
+        ],
+        [
+          -34.05119,
+          18.36654
+        ],
+        [
+          -34.05079,
+          18.36635
+        ],
+        [
+          -34.05089,
+          18.36676
+        ],
+        [
+          -34.05124,
+          18.36749
+        ],
+        [
+          -34.05147,
+          18.36793
+        ],
+        [
+          -34.05098,
+          18.36753
+        ],
+        [
+          -34.05046,
+          18.3672
+        ],
+        [
+          -34.05042,
+          18.36733
+        ],
+        [
+          -34.05075,
+          18.36787
+        ],
+        [
+          -34.05041,
+          18.3691
+        ],
+        [
+          -34.05013,
+          18.37041
+        ],
+        [
+          -34.05031,
+          18.36925
+        ],
+        [
+          -34.05058,
+          18.36793
+        ],
+        [
+          -34.0505,
+          18.36748
+        ],
+        [
+          -34.05037,
+          18.36711
+        ],
+        [
+          -34.05081,
+          18.36742
+        ],
+        [
+          -34.05155,
+          18.36799
+        ],
+        [
+          -34.05108,
+          18.36722
+        ],
+        [
+          -34.05079,
+          18.36636
+        ],
+        [
+          -34.05134,
+          18.36665
+        ],
+        [
+          -34.05095,
+          18.36616
+        ],
+        [
+          -34.05058,
+          18.36588
+        ],
+        [
+          -34.05007,
+          18.36575
+        ],
+        [
+          -34.04939,
+          18.36579
+        ],
+        [
+          -34.04944,
+          18.36601
+        ],
+        [
+          -34.04948,
+          18.36606
+        ],
+        [
+          -34.04964,
+          18.36566
+        ],
+        [
+          -34.05025,
+          18.36573
+        ],
+        [
+          -34.05073,
+          18.36597
+        ],
+        [
+          -34.0512,
+          18.3665
+        ],
+        [
+          -34.05119,
+          18.36633
+        ],
+        [
+          -34.0513,
+          18.36601
+        ],
+        [
+          -34.05118,
+          18.3657
+        ],
+        [
+          -34.05173,
+          18.36599
+        ],
+        [
+          -34.05246,
+          18.3664
+        ],
+        [
+          -34.05264,
+          18.36621
+        ],
+        [
+          -34.05206,
+          18.36532
+        ],
+        [
+          -34.05294,
+          18.36578
+        ],
+        [
+          -34.05437,
+          18.36626
+        ],
+        [
+          -34.0553,
+          18.36643
+        ],
+        [
+          -34.05612,
+          18.36642
+        ],
+        [
+          -34.05761,
+          18.36699
+        ]
+      ],
       [
         [
           -34.01163,
@@ -209697,13 +209945,26 @@
     ],
     "recent": [
       {
+        "id": 19152842556,
+        "name": "Afternoon Trail Run",
+        "date": "2026-07-02",
+        "distance_km": 4.87,
+        "elev_gain_m": 278,
+        "pace_min_km": 8.72,
+        "temp_c": 39.4,
+        "weather": "cloudy",
+        "sport_type": "TrailRun",
+        "kind": "trail",
+        "is_trail": true
+      },
+      {
         "id": 19085323424,
         "name": "Afternoon Hike",
         "date": "2026-06-27",
         "distance_km": 0.67,
         "elev_gain_m": 51,
         "pace_min_km": 16.59,
-        "temp_c": 39.5,
+        "temp_c": 39.4,
         "weather": "clear",
         "sport_type": "Hike",
         "kind": "hike",
@@ -209717,7 +209978,7 @@
         "elev_gain_m": 384,
         "pace_min_km": 7.87,
         "temp_c": 30.7,
-        "weather": "clear",
+        "weather": "cloudy",
         "sport_type": "TrailRun",
         "kind": "trail",
         "is_trail": true
@@ -209729,7 +209990,7 @@
         "distance_km": 6.81,
         "elev_gain_m": 352,
         "pace_min_km": 7.82,
-        "temp_c": 37.2,
+        "temp_c": 37.1,
         "weather": "clear",
         "sport_type": "TrailRun",
         "kind": "trail",
@@ -209755,7 +210016,7 @@
         "distance_km": 4.55,
         "elev_gain_m": 59,
         "pace_min_km": 12.35,
-        "temp_c": 29.7,
+        "temp_c": 29.9,
         "weather": "cloudy",
         "sport_type": "Hike",
         "kind": "hike",
@@ -209768,7 +210029,7 @@
         "distance_km": 9.95,
         "elev_gain_m": 158,
         "pace_min_km": 7.04,
-        "temp_c": 26.4,
+        "temp_c": 26.5,
         "weather": "cloudy",
         "sport_type": "TrailRun",
         "kind": "trail",
@@ -209781,7 +210042,7 @@
         "distance_km": 17.44,
         "elev_gain_m": 625,
         "pace_min_km": 8.09,
-        "temp_c": 29.5,
+        "temp_c": 29.7,
         "weather": "cloudy",
         "sport_type": "TrailRun",
         "kind": "trail",
@@ -209794,7 +210055,7 @@
         "distance_km": 4.92,
         "elev_gain_m": 235,
         "pace_min_km": 8.51,
-        "temp_c": 38.4,
+        "temp_c": 38.6,
         "weather": "clear",
         "sport_type": "TrailRun",
         "kind": "trail",
@@ -209807,7 +210068,7 @@
         "distance_km": 4.83,
         "elev_gain_m": 717,
         "pace_min_km": 23.44,
-        "temp_c": 22.7,
+        "temp_c": 22.5,
         "weather": "clear",
         "sport_type": "Hike",
         "kind": "hike",
@@ -209820,7 +210081,7 @@
         "distance_km": 8.75,
         "elev_gain_m": 271,
         "pace_min_km": 14.28,
-        "temp_c": 24.6,
+        "temp_c": 24.2,
         "weather": "cloudy",
         "sport_type": "Hike",
         "kind": "hike",
@@ -209833,7 +210094,7 @@
         "distance_km": 5.72,
         "elev_gain_m": 59,
         "pace_min_km": 6.92,
-        "temp_c": 22.8,
+        "temp_c": 23.1,
         "weather": "rain",
         "sport_type": "TrailRun",
         "kind": "trail",
@@ -209846,7 +210107,7 @@
         "distance_km": 6.97,
         "elev_gain_m": 209,
         "pace_min_km": 5.04,
-        "temp_c": 41.5,
+        "temp_c": 41.7,
         "weather": "clear",
         "sport_type": "TrailRun",
         "kind": "trail",
@@ -209859,7 +210120,7 @@
         "distance_km": 3.02,
         "elev_gain_m": 53,
         "pace_min_km": 7.37,
-        "temp_c": 28.7,
+        "temp_c": 28.9,
         "weather": "cloudy",
         "sport_type": "TrailRun",
         "kind": "trail",
@@ -209872,7 +210133,7 @@
         "distance_km": 4.63,
         "elev_gain_m": 111,
         "pace_min_km": 7.65,
-        "temp_c": 16.8,
+        "temp_c": 16.5,
         "weather": "clear",
         "sport_type": "Run",
         "kind": "run",
@@ -209898,7 +210159,7 @@
         "distance_km": 6.35,
         "elev_gain_m": 102,
         "pace_min_km": 6.83,
-        "temp_c": 28.7,
+        "temp_c": 28.6,
         "weather": "clear",
         "sport_type": "TrailRun",
         "kind": "trail",
@@ -209937,7 +210198,7 @@
         "distance_km": 2.29,
         "elev_gain_m": 223,
         "pace_min_km": 17.1,
-        "temp_c": 22.0,
+        "temp_c": 22.1,
         "weather": "clear",
         "sport_type": "Hike",
         "kind": "hike",
@@ -209950,7 +210211,7 @@
         "distance_km": 6.6,
         "elev_gain_m": 132,
         "pace_min_km": 19.13,
-        "temp_c": 19.4,
+        "temp_c": 19.2,
         "weather": "clear",
         "sport_type": "Hike",
         "kind": "hike",
@@ -209963,7 +210224,7 @@
         "distance_km": 6.56,
         "elev_gain_m": 141,
         "pace_min_km": 7.23,
-        "temp_c": 25.6,
+        "temp_c": 25.5,
         "weather": "clear",
         "sport_type": "TrailRun",
         "kind": "trail",
@@ -209976,7 +210237,7 @@
         "distance_km": 4.94,
         "elev_gain_m": 590,
         "pace_min_km": 8.19,
-        "temp_c": 24.0,
+        "temp_c": 23.3,
         "weather": "clear",
         "sport_type": "TrailRun",
         "kind": "trail",
@@ -210015,7 +210276,7 @@
         "distance_km": 6.91,
         "elev_gain_m": 120,
         "pace_min_km": 6.69,
-        "temp_c": 20.9,
+        "temp_c": 21.0,
         "weather": "clear",
         "sport_type": "TrailRun",
         "kind": "trail",
@@ -210028,7 +210289,7 @@
         "distance_km": 5.63,
         "elev_gain_m": 151,
         "pace_min_km": 8.46,
-        "temp_c": 22.0,
+        "temp_c": 21.8,
         "weather": "clear",
         "sport_type": "TrailRun",
         "kind": "trail",
@@ -210041,7 +210302,7 @@
         "distance_km": 7.84,
         "elev_gain_m": 99,
         "pace_min_km": 6.25,
-        "temp_c": 13.6,
+        "temp_c": 13.3,
         "weather": "clear",
         "sport_type": "Run",
         "kind": "run",
@@ -210054,7 +210315,7 @@
         "distance_km": 6.84,
         "elev_gain_m": 398,
         "pace_min_km": 9.39,
-        "temp_c": 24.2,
+        "temp_c": 24.1,
         "weather": "clear",
         "sport_type": "TrailRun",
         "kind": "trail",
@@ -210067,8 +210328,8 @@
         "distance_km": 5.48,
         "elev_gain_m": 172,
         "pace_min_km": 8.12,
-        "temp_c": 17.7,
-        "weather": "cloudy",
+        "temp_c": 17.6,
+        "weather": "clear",
         "sport_type": "TrailRun",
         "kind": "trail",
         "is_trail": true
@@ -210080,7 +210341,7 @@
         "distance_km": 1.54,
         "elev_gain_m": 3,
         "pace_min_km": 7.29,
-        "temp_c": 14.2,
+        "temp_c": 14.1,
         "weather": "cloudy",
         "sport_type": "Run",
         "kind": "run",
@@ -210132,7 +210393,7 @@
         "distance_km": 6.01,
         "elev_gain_m": 95,
         "pace_min_km": 7.0,
-        "temp_c": 19.6,
+        "temp_c": 19.5,
         "weather": "cloudy",
         "sport_type": "Run",
         "kind": "run",
@@ -210145,7 +210406,7 @@
         "distance_km": 9.27,
         "elev_gain_m": 530,
         "pace_min_km": 11.68,
-        "temp_c": 16.0,
+        "temp_c": 15.2,
         "weather": "cloudy",
         "sport_type": "TrailRun",
         "kind": "trail",
@@ -210158,7 +210419,7 @@
         "distance_km": 5.51,
         "elev_gain_m": 261,
         "pace_min_km": 18.35,
-        "temp_c": 13.4,
+        "temp_c": 13.8,
         "weather": "cloudy",
         "sport_type": "Hike",
         "kind": "hike",
@@ -210171,7 +210432,7 @@
         "distance_km": 6.6,
         "elev_gain_m": 377,
         "pace_min_km": 9.99,
-        "temp_c": 5.3,
+        "temp_c": 5.5,
         "weather": "clear",
         "sport_type": "TrailRun",
         "kind": "trail",
@@ -210184,7 +210445,7 @@
         "distance_km": 5.33,
         "elev_gain_m": 111,
         "pace_min_km": 7.81,
-        "temp_c": 13.4,
+        "temp_c": 14.1,
         "weather": "rain",
         "sport_type": "TrailRun",
         "kind": "trail",
@@ -210210,7 +210471,7 @@
         "distance_km": 6.31,
         "elev_gain_m": 369,
         "pace_min_km": 10.22,
-        "temp_c": 3.9,
+        "temp_c": 4.2,
         "weather": "cloudy",
         "sport_type": "TrailRun",
         "kind": "trail",
@@ -210223,8 +210484,8 @@
         "distance_km": 6.51,
         "elev_gain_m": 363,
         "pace_min_km": 9.9,
-        "temp_c": 15.6,
-        "weather": "clear",
+        "temp_c": 16.2,
+        "weather": "cloudy",
         "sport_type": "TrailRun",
         "kind": "trail",
         "is_trail": true
@@ -210236,7 +210497,7 @@
         "distance_km": 5.68,
         "elev_gain_m": 151,
         "pace_min_km": 6.78,
-        "temp_c": 20.9,
+        "temp_c": 21.0,
         "weather": "clear",
         "sport_type": "TrailRun",
         "kind": "trail",
@@ -210249,7 +210510,7 @@
         "distance_km": 13.71,
         "elev_gain_m": 539,
         "pace_min_km": 7.54,
-        "temp_c": 12.2,
+        "temp_c": 12.3,
         "weather": "cloudy",
         "sport_type": "TrailRun",
         "kind": "trail",
@@ -210262,7 +210523,7 @@
         "distance_km": 5.87,
         "elev_gain_m": 111,
         "pace_min_km": 6.91,
-        "temp_c": 23.7,
+        "temp_c": 23.8,
         "weather": "cloudy",
         "sport_type": "TrailRun",
         "kind": "trail",
@@ -210275,7 +210536,7 @@
         "distance_km": 6.43,
         "elev_gain_m": 92,
         "pace_min_km": 6.98,
-        "temp_c": 23.8,
+        "temp_c": 24.0,
         "weather": "cloudy",
         "sport_type": "TrailRun",
         "kind": "trail",
@@ -210288,7 +210549,7 @@
         "distance_km": 11.61,
         "elev_gain_m": 1325,
         "pace_min_km": 8.53,
-        "temp_c": 26.9,
+        "temp_c": 27.1,
         "weather": "clear",
         "sport_type": "Hike",
         "kind": "hike",
@@ -210314,7 +210575,7 @@
         "distance_km": 7.02,
         "elev_gain_m": 449,
         "pace_min_km": 7.88,
-        "temp_c": 23.4,
+        "temp_c": 23.3,
         "weather": "clear",
         "sport_type": "Run",
         "kind": "run",
@@ -210327,7 +210588,7 @@
         "distance_km": 6.93,
         "elev_gain_m": 314,
         "pace_min_km": 7.61,
-        "temp_c": 28.3,
+        "temp_c": 28.1,
         "weather": "clear",
         "sport_type": "Run",
         "kind": "run",
@@ -210340,7 +210601,7 @@
         "distance_km": 2.56,
         "elev_gain_m": 248,
         "pace_min_km": 8.22,
-        "temp_c": 28.6,
+        "temp_c": 28.7,
         "weather": "clear",
         "sport_type": "TrailRun",
         "kind": "trail",
@@ -210353,7 +210614,7 @@
         "distance_km": 3.35,
         "elev_gain_m": 88,
         "pace_min_km": 17.38,
-        "temp_c": 27.1,
+        "temp_c": 26.9,
         "weather": "clear",
         "sport_type": "Hike",
         "kind": "hike",
@@ -210366,7 +210627,7 @@
         "distance_km": 7.43,
         "elev_gain_m": 372,
         "pace_min_km": 7.06,
-        "temp_c": 19.6,
+        "temp_c": 19.9,
         "weather": "clear",
         "sport_type": "TrailRun",
         "kind": "trail",
@@ -210379,7 +210640,7 @@
         "distance_km": 5.6,
         "elev_gain_m": 99,
         "pace_min_km": 6.56,
-        "temp_c": 27.5,
+        "temp_c": 29.3,
         "weather": "cloudy",
         "sport_type": "TrailRun",
         "kind": "trail",
@@ -210405,7 +210666,7 @@
         "distance_km": 4.92,
         "elev_gain_m": 100,
         "pace_min_km": 8.35,
-        "temp_c": 23.4,
+        "temp_c": 23.7,
         "weather": "cloudy",
         "sport_type": "Run",
         "kind": "run",
@@ -210418,7 +210679,7 @@
         "distance_km": 1.2,
         "elev_gain_m": 3,
         "pace_min_km": 15.64,
-        "temp_c": 32.0,
+        "temp_c": 32.2,
         "weather": "clear",
         "sport_type": "Hike",
         "kind": "hike",
@@ -210444,7 +210705,7 @@
         "distance_km": 0.51,
         "elev_gain_m": 3,
         "pace_min_km": 11.11,
-        "temp_c": 34.8,
+        "temp_c": 34.6,
         "weather": "clear",
         "sport_type": "Hike",
         "kind": "hike",
@@ -210470,7 +210731,7 @@
         "distance_km": 6.43,
         "elev_gain_m": 227,
         "pace_min_km": 6.59,
-        "temp_c": 33.2,
+        "temp_c": 33.1,
         "weather": "clear",
         "sport_type": "TrailRun",
         "kind": "trail",
@@ -210483,7 +210744,7 @@
         "distance_km": 4.41,
         "elev_gain_m": 262,
         "pace_min_km": 16.98,
-        "temp_c": 36.6,
+        "temp_c": 36.4,
         "weather": "cloudy",
         "sport_type": "Hike",
         "kind": "hike",
@@ -210496,7 +210757,7 @@
         "distance_km": 5.01,
         "elev_gain_m": 223,
         "pace_min_km": 7.49,
-        "temp_c": 37.2,
+        "temp_c": 37.1,
         "weather": "clear",
         "sport_type": "TrailRun",
         "kind": "trail",
@@ -210509,7 +210770,7 @@
         "distance_km": 2.41,
         "elev_gain_m": 14,
         "pace_min_km": 8.09,
-        "temp_c": 26.4,
+        "temp_c": 26.5,
         "weather": "clear",
         "sport_type": "Run",
         "kind": "run",
@@ -210522,7 +210783,7 @@
         "distance_km": 10.68,
         "elev_gain_m": 284,
         "pace_min_km": 7.68,
-        "temp_c": 43.6,
+        "temp_c": 43.7,
         "weather": "clear",
         "sport_type": "TrailRun",
         "kind": "trail",
@@ -210535,8 +210796,8 @@
         "distance_km": 17.13,
         "elev_gain_m": 395,
         "pace_min_km": 7.14,
-        "temp_c": 25.4,
-        "weather": "cloudy",
+        "temp_c": 25.3,
+        "weather": "clear",
         "sport_type": "TrailRun",
         "kind": "trail",
         "is_trail": true
@@ -210548,7 +210809,7 @@
         "distance_km": 9.94,
         "elev_gain_m": 301,
         "pace_min_km": 6.46,
-        "temp_c": 41.8,
+        "temp_c": 42.2,
         "weather": "clear",
         "sport_type": "Run",
         "kind": "run",
@@ -210561,7 +210822,7 @@
         "distance_km": 8.48,
         "elev_gain_m": 420,
         "pace_min_km": 16.33,
-        "temp_c": 28.8,
+        "temp_c": 28.7,
         "weather": "clear",
         "sport_type": "Hike",
         "kind": "hike",
@@ -210574,7 +210835,7 @@
         "distance_km": 5.92,
         "elev_gain_m": 210,
         "pace_min_km": 6.86,
-        "temp_c": 35.8,
+        "temp_c": 35.6,
         "weather": "clear",
         "sport_type": "TrailRun",
         "kind": "trail",
@@ -210600,7 +210861,7 @@
         "distance_km": 1.7,
         "elev_gain_m": 122,
         "pace_min_km": 24.12,
-        "temp_c": 45.4,
+        "temp_c": 44.9,
         "weather": "clear",
         "sport_type": "Hike",
         "kind": "hike",
@@ -210613,7 +210874,7 @@
         "distance_km": 3.71,
         "elev_gain_m": 427,
         "pace_min_km": 21.96,
-        "temp_c": 41.3,
+        "temp_c": 41.5,
         "weather": "clear",
         "sport_type": "Hike",
         "kind": "hike",
@@ -210626,7 +210887,7 @@
         "distance_km": 5.76,
         "elev_gain_m": 155,
         "pace_min_km": 6.72,
-        "temp_c": 38.5,
+        "temp_c": 38.4,
         "weather": "clear",
         "sport_type": "TrailRun",
         "kind": "trail",
@@ -210639,8 +210900,8 @@
         "distance_km": 19.08,
         "elev_gain_m": 725,
         "pace_min_km": 7.28,
-        "temp_c": 39.0,
-        "weather": "clear",
+        "temp_c": 39.3,
+        "weather": "cloudy",
         "sport_type": "TrailRun",
         "kind": "trail",
         "is_trail": true
@@ -210652,7 +210913,7 @@
         "distance_km": 5.06,
         "elev_gain_m": 85,
         "pace_min_km": 7.39,
-        "temp_c": 39.2,
+        "temp_c": 39.1,
         "weather": "clear",
         "sport_type": "TrailRun",
         "kind": "trail",
@@ -210678,7 +210939,7 @@
         "distance_km": 5.63,
         "elev_gain_m": 106,
         "pace_min_km": 7.03,
-        "temp_c": 26.5,
+        "temp_c": 26.3,
         "weather": "clear",
         "sport_type": "TrailRun",
         "kind": "trail",
@@ -210691,7 +210952,7 @@
         "distance_km": 4.35,
         "elev_gain_m": 168,
         "pace_min_km": 18.4,
-        "temp_c": 36.5,
+        "temp_c": 36.3,
         "weather": "clear",
         "sport_type": "Hike",
         "kind": "hike",
@@ -210704,7 +210965,7 @@
         "distance_km": 9.01,
         "elev_gain_m": 241,
         "pace_min_km": 7.55,
-        "temp_c": 25.1,
+        "temp_c": 25.0,
         "weather": "clear",
         "sport_type": "TrailRun",
         "kind": "trail",
@@ -210717,7 +210978,7 @@
         "distance_km": 6.05,
         "elev_gain_m": 142,
         "pace_min_km": 7.12,
-        "temp_c": 36.9,
+        "temp_c": 37.0,
         "weather": "clear",
         "sport_type": "TrailRun",
         "kind": "trail",
@@ -210730,7 +210991,7 @@
         "distance_km": 9.2,
         "elev_gain_m": 34,
         "pace_min_km": 5.17,
-        "temp_c": 26.0,
+        "temp_c": 26.2,
         "weather": "clear",
         "sport_type": "Run",
         "kind": "run",
@@ -210743,7 +211004,7 @@
         "distance_km": 8.09,
         "elev_gain_m": 40,
         "pace_min_km": 5.65,
-        "temp_c": 24.7,
+        "temp_c": 24.9,
         "weather": "clear",
         "sport_type": "Run",
         "kind": "run",
@@ -210756,7 +211017,7 @@
         "distance_km": 0.7,
         "elev_gain_m": 88,
         "pace_min_km": 24.27,
-        "temp_c": 21.8,
+        "temp_c": 21.7,
         "weather": "clear",
         "sport_type": "Hike",
         "kind": "hike",
@@ -210782,7 +211043,7 @@
         "distance_km": 21.53,
         "elev_gain_m": 768,
         "pace_min_km": 6.9,
-        "temp_c": 19.4,
+        "temp_c": 19.7,
         "weather": "rain",
         "sport_type": "TrailRun",
         "kind": "trail",
@@ -210795,7 +211056,7 @@
         "distance_km": 8.54,
         "elev_gain_m": 153,
         "pace_min_km": 6.96,
-        "temp_c": 37.8,
+        "temp_c": 38.3,
         "weather": "cloudy",
         "sport_type": "TrailRun",
         "kind": "trail",
@@ -210821,8 +211082,8 @@
         "distance_km": 6.52,
         "elev_gain_m": 234,
         "pace_min_km": 6.24,
-        "temp_c": 28.0,
-        "weather": "clear",
+        "temp_c": 28.2,
+        "weather": "cloudy",
         "sport_type": "TrailRun",
         "kind": "trail",
         "is_trail": true
@@ -210834,7 +211095,7 @@
         "distance_km": 5.54,
         "elev_gain_m": 96,
         "pace_min_km": 7.25,
-        "temp_c": 33.6,
+        "temp_c": 34.3,
         "weather": "cloudy",
         "sport_type": "TrailRun",
         "kind": "trail",
@@ -210847,7 +211108,7 @@
         "distance_km": 10.46,
         "elev_gain_m": 342,
         "pace_min_km": 10.56,
-        "temp_c": 25.8,
+        "temp_c": 25.7,
         "weather": "clear",
         "sport_type": "TrailRun",
         "kind": "trail",
@@ -210860,7 +211121,7 @@
         "distance_km": 9.83,
         "elev_gain_m": 49,
         "pace_min_km": 6.1,
-        "temp_c": 20.2,
+        "temp_c": 20.1,
         "weather": "cloudy",
         "sport_type": "TrailRun",
         "kind": "trail",
@@ -210873,7 +211134,7 @@
         "distance_km": 4.7,
         "elev_gain_m": 78,
         "pace_min_km": 14.19,
-        "temp_c": 23.3,
+        "temp_c": 23.1,
         "weather": "clear",
         "sport_type": "Hike",
         "kind": "hike",
@@ -210886,7 +211147,7 @@
         "distance_km": 5.93,
         "elev_gain_m": 78,
         "pace_min_km": 6.21,
-        "temp_c": 29.0,
+        "temp_c": 29.2,
         "weather": "clear",
         "sport_type": "TrailRun",
         "kind": "trail",
@@ -210899,8 +211160,8 @@
         "distance_km": 11.49,
         "elev_gain_m": 176,
         "pace_min_km": 6.01,
-        "temp_c": 17.1,
-        "weather": "clear",
+        "temp_c": 17.2,
+        "weather": "cloudy",
         "sport_type": "Run",
         "kind": "run",
         "is_trail": false
@@ -210912,7 +211173,7 @@
         "distance_km": 5.09,
         "elev_gain_m": 100,
         "pace_min_km": 6.84,
-        "temp_c": 29.6,
+        "temp_c": 29.4,
         "weather": "cloudy",
         "sport_type": "TrailRun",
         "kind": "trail",
@@ -210938,7 +211199,7 @@
         "distance_km": 7.09,
         "elev_gain_m": 138,
         "pace_min_km": 7.37,
-        "temp_c": 14.1,
+        "temp_c": 14.9,
         "weather": "clear",
         "sport_type": "TrailRun",
         "kind": "trail",
@@ -210951,7 +211212,7 @@
         "distance_km": 1.97,
         "elev_gain_m": 201,
         "pace_min_km": 18.74,
-        "temp_c": 16.4,
+        "temp_c": 16.1,
         "weather": "cloudy",
         "sport_type": "Hike",
         "kind": "hike",
@@ -210964,7 +211225,7 @@
         "distance_km": 6.39,
         "elev_gain_m": 237,
         "pace_min_km": 7.38,
-        "temp_c": 16.4,
+        "temp_c": 16.1,
         "weather": "clear",
         "sport_type": "TrailRun",
         "kind": "trail",
@@ -210977,7 +211238,7 @@
         "distance_km": 3.42,
         "elev_gain_m": 177,
         "pace_min_km": 17.57,
-        "temp_c": 7.0,
+        "temp_c": 6.6,
         "weather": "cloudy",
         "sport_type": "Hike",
         "kind": "hike",
@@ -210990,7 +211251,7 @@
         "distance_km": 8.64,
         "elev_gain_m": 419,
         "pace_min_km": 7.59,
-        "temp_c": 12.5,
+        "temp_c": 12.2,
         "weather": "cloudy",
         "sport_type": "TrailRun",
         "kind": "trail",
@@ -211003,7 +211264,7 @@
         "distance_km": 1.06,
         "elev_gain_m": 0,
         "pace_min_km": 17.58,
-        "temp_c": 18.0,
+        "temp_c": 17.9,
         "weather": "cloudy",
         "sport_type": "Hike",
         "kind": "hike",
@@ -211016,7 +211277,7 @@
         "distance_km": 0.5,
         "elev_gain_m": 3,
         "pace_min_km": 15.85,
-        "temp_c": 17.7,
+        "temp_c": 17.5,
         "weather": "cloudy",
         "sport_type": "Hike",
         "kind": "hike",
@@ -211029,7 +211290,7 @@
         "distance_km": 0.66,
         "elev_gain_m": 17,
         "pace_min_km": 16.57,
-        "temp_c": 17.3,
+        "temp_c": 17.4,
         "weather": "cloudy",
         "sport_type": "Hike",
         "kind": "hike",
@@ -211042,7 +211303,7 @@
         "distance_km": 3.02,
         "elev_gain_m": 96,
         "pace_min_km": 19.33,
-        "temp_c": 8.2,
+        "temp_c": 8.4,
         "weather": "clear",
         "sport_type": "Hike",
         "kind": "hike",
@@ -211068,7 +211329,7 @@
         "distance_km": 1.29,
         "elev_gain_m": 26,
         "pace_min_km": 19.21,
-        "temp_c": 11.4,
+        "temp_c": 11.5,
         "weather": "cloudy",
         "sport_type": "Hike",
         "kind": "hike",
@@ -211081,7 +211342,7 @@
         "distance_km": 3.55,
         "elev_gain_m": 214,
         "pace_min_km": 22.01,
-        "temp_c": 14.2,
+        "temp_c": 13.8,
         "weather": "cloudy",
         "sport_type": "Hike",
         "kind": "hike",
@@ -211094,7 +211355,7 @@
         "distance_km": 5.13,
         "elev_gain_m": 145,
         "pace_min_km": 23.24,
-        "temp_c": 13.2,
+        "temp_c": 13.8,
         "weather": "rain",
         "sport_type": "Hike",
         "kind": "hike",
@@ -211107,7 +211368,7 @@
         "distance_km": 4.58,
         "elev_gain_m": 100,
         "pace_min_km": 20.79,
-        "temp_c": 10.6,
+        "temp_c": 11.0,
         "weather": "clear",
         "sport_type": "Hike",
         "kind": "hike",
@@ -211120,7 +211381,7 @@
         "distance_km": 3.63,
         "elev_gain_m": 165,
         "pace_min_km": 19.34,
-        "temp_c": 8.2,
+        "temp_c": 8.0,
         "weather": "clear",
         "sport_type": "Hike",
         "kind": "hike",
@@ -211133,7 +211394,7 @@
         "distance_km": 7.0,
         "elev_gain_m": 274,
         "pace_min_km": 7.42,
-        "temp_c": 20.9,
+        "temp_c": 21.6,
         "weather": "clear",
         "sport_type": "TrailRun",
         "kind": "trail",
@@ -211146,7 +211407,7 @@
         "distance_km": 30.26,
         "elev_gain_m": 1787,
         "pace_min_km": 11.09,
-        "temp_c": 15.4,
+        "temp_c": 13.9,
         "weather": "cloudy",
         "sport_type": "TrailRun",
         "kind": "trail",
@@ -211159,7 +211420,7 @@
         "distance_km": 4.9,
         "elev_gain_m": 223,
         "pace_min_km": 7.83,
-        "temp_c": 20.2,
+        "temp_c": 19.5,
         "weather": "rain",
         "sport_type": "TrailRun",
         "kind": "trail",
@@ -211172,7 +211433,7 @@
         "distance_km": 1.39,
         "elev_gain_m": 34,
         "pace_min_km": 14.95,
-        "temp_c": 15.5,
+        "temp_c": 15.7,
         "weather": "clear",
         "sport_type": "Hike",
         "kind": "hike",
@@ -211198,8 +211459,8 @@
         "distance_km": 2.43,
         "elev_gain_m": 44,
         "pace_min_km": 17.5,
-        "temp_c": 21.6,
-        "weather": "cloudy",
+        "temp_c": 21.7,
+        "weather": "clear",
         "sport_type": "Hike",
         "kind": "hike",
         "is_trail": false
@@ -211211,7 +211472,7 @@
         "distance_km": 5.09,
         "elev_gain_m": 34,
         "pace_min_km": 14.14,
-        "temp_c": 24.9,
+        "temp_c": 24.8,
         "weather": "clear",
         "sport_type": "Hike",
         "kind": "hike",
@@ -211224,7 +211485,7 @@
         "distance_km": 8.84,
         "elev_gain_m": 185,
         "pace_min_km": 6.14,
-        "temp_c": 31.6,
+        "temp_c": 31.4,
         "weather": "clear",
         "sport_type": "TrailRun",
         "kind": "trail",
@@ -211237,7 +211498,7 @@
         "distance_km": 5.9,
         "elev_gain_m": 217,
         "pace_min_km": 6.23,
-        "temp_c": 33.2,
+        "temp_c": 33.4,
         "weather": "cloudy",
         "sport_type": "TrailRun",
         "kind": "trail",
@@ -211263,7 +211524,7 @@
         "distance_km": 4.73,
         "elev_gain_m": 230,
         "pace_min_km": 8.9,
-        "temp_c": 23.0,
+        "temp_c": 23.1,
         "weather": "rain",
         "sport_type": "TrailRun",
         "kind": "trail",
@@ -211276,7 +211537,7 @@
         "distance_km": 4.63,
         "elev_gain_m": 104,
         "pace_min_km": 18.22,
-        "temp_c": 29.4,
+        "temp_c": 29.3,
         "weather": "clear",
         "sport_type": "Hike",
         "kind": "hike",
@@ -211289,7 +211550,7 @@
         "distance_km": 1.71,
         "elev_gain_m": 24,
         "pace_min_km": 12.86,
-        "temp_c": 27.5,
+        "temp_c": 27.0,
         "weather": "clear",
         "sport_type": "Hike",
         "kind": "hike",
@@ -211302,7 +211563,7 @@
         "distance_km": 11.7,
         "elev_gain_m": 66,
         "pace_min_km": 5.53,
-        "temp_c": 26.8,
+        "temp_c": 26.6,
         "weather": "cloudy",
         "sport_type": "Hike",
         "kind": "hike",
@@ -211315,7 +211576,7 @@
         "distance_km": 8.82,
         "elev_gain_m": 24,
         "pace_min_km": 6.34,
-        "temp_c": 33.2,
+        "temp_c": 32.9,
         "weather": "cloudy",
         "sport_type": "Run",
         "kind": "run",
@@ -211328,7 +211589,7 @@
         "distance_km": 4.75,
         "elev_gain_m": 69,
         "pace_min_km": 6.23,
-        "temp_c": 38.0,
+        "temp_c": 38.2,
         "weather": "clear",
         "sport_type": "Run",
         "kind": "run",
@@ -211341,7 +211602,7 @@
         "distance_km": 4.98,
         "elev_gain_m": 12,
         "pace_min_km": 5.11,
-        "temp_c": 28.4,
+        "temp_c": 28.3,
         "weather": "clear",
         "sport_type": "Run",
         "kind": "run",
@@ -211354,7 +211615,7 @@
         "distance_km": 5.81,
         "elev_gain_m": 29,
         "pace_min_km": 6.25,
-        "temp_c": 35.5,
+        "temp_c": 35.1,
         "weather": "cloudy",
         "sport_type": "Run",
         "kind": "run",
@@ -211367,7 +211628,7 @@
         "distance_km": 3.17,
         "elev_gain_m": 127,
         "pace_min_km": 22.52,
-        "temp_c": 39.1,
+        "temp_c": 39.0,
         "weather": "clear",
         "sport_type": "Hike",
         "kind": "hike",
@@ -211380,8 +211641,8 @@
         "distance_km": 8.57,
         "elev_gain_m": 102,
         "pace_min_km": 8.04,
-        "temp_c": 37.9,
-        "weather": "cloudy",
+        "temp_c": 37.7,
+        "weather": "clear",
         "sport_type": "Run",
         "kind": "run",
         "is_trail": false
@@ -211393,7 +211654,7 @@
         "distance_km": 4.52,
         "elev_gain_m": 249,
         "pace_min_km": 20.46,
-        "temp_c": 36.6,
+        "temp_c": 36.8,
         "weather": "clear",
         "sport_type": "Hike",
         "kind": "hike",
@@ -211406,8 +211667,8 @@
         "distance_km": 3.93,
         "elev_gain_m": 374,
         "pace_min_km": 8.35,
-        "temp_c": 34.3,
-        "weather": "rain",
+        "temp_c": 34.0,
+        "weather": "cloudy",
         "sport_type": "TrailRun",
         "kind": "trail",
         "is_trail": true
@@ -211432,7 +211693,7 @@
         "distance_km": 32.68,
         "elev_gain_m": 1010,
         "pace_min_km": 8.61,
-        "temp_c": 30.2,
+        "temp_c": 30.0,
         "weather": "clear",
         "sport_type": "TrailRun",
         "kind": "trail",
@@ -211445,7 +211706,7 @@
         "distance_km": 8.85,
         "elev_gain_m": 161,
         "pace_min_km": 6.94,
-        "temp_c": 42.0,
+        "temp_c": 41.8,
         "weather": "clear",
         "sport_type": "TrailRun",
         "kind": "trail",
@@ -211458,7 +211719,7 @@
         "distance_km": 3.11,
         "elev_gain_m": 132,
         "pace_min_km": 18.54,
-        "temp_c": 39.0,
+        "temp_c": 38.8,
         "weather": "clear",
         "sport_type": "Hike",
         "kind": "hike",
@@ -211471,7 +211732,7 @@
         "distance_km": 1.8,
         "elev_gain_m": 128,
         "pace_min_km": 25.57,
-        "temp_c": 37.5,
+        "temp_c": 37.4,
         "weather": "clear",
         "sport_type": "Hike",
         "kind": "hike",
@@ -211484,7 +211745,7 @@
         "distance_km": 1.4,
         "elev_gain_m": 119,
         "pace_min_km": 23.82,
-        "temp_c": 44.5,
+        "temp_c": 45.0,
         "weather": "clear",
         "sport_type": "Hike",
         "kind": "hike",
@@ -211497,7 +211758,7 @@
         "distance_km": 24.12,
         "elev_gain_m": 604,
         "pace_min_km": 7.78,
-        "temp_c": 25.5,
+        "temp_c": 25.4,
         "weather": "clear",
         "sport_type": "TrailRun",
         "kind": "trail",
@@ -211523,7 +211784,7 @@
         "distance_km": 2.12,
         "elev_gain_m": 219,
         "pace_min_km": 22.97,
-        "temp_c": 40.9,
+        "temp_c": 40.7,
         "weather": "clear",
         "sport_type": "Hike",
         "kind": "hike",
@@ -211536,7 +211797,7 @@
         "distance_km": 37.96,
         "elev_gain_m": 1372,
         "pace_min_km": 11.35,
-        "temp_c": 22.2,
+        "temp_c": 22.4,
         "weather": "clear",
         "sport_type": "Run",
         "kind": "run",
@@ -211562,7 +211823,7 @@
         "distance_km": 7.76,
         "elev_gain_m": 280,
         "pace_min_km": 10.44,
-        "temp_c": 23.6,
+        "temp_c": 23.7,
         "weather": "clear",
         "sport_type": "TrailRun",
         "kind": "trail",
@@ -211602,7 +211863,7 @@
         "elev_gain_m": 53,
         "pace_min_km": 6.74,
         "temp_c": 21.0,
-        "weather": "clear",
+        "weather": "cloudy",
         "sport_type": "Run",
         "kind": "run",
         "is_trail": false
@@ -211614,7 +211875,7 @@
         "distance_km": 5.26,
         "elev_gain_m": 38,
         "pace_min_km": 6.18,
-        "temp_c": 12.6,
+        "temp_c": 12.3,
         "weather": "clear",
         "sport_type": "Run",
         "kind": "run",
@@ -211627,7 +211888,7 @@
         "distance_km": 21.34,
         "elev_gain_m": 326,
         "pace_min_km": 5.63,
-        "temp_c": 15.6,
+        "temp_c": 15.5,
         "weather": "cloudy",
         "sport_type": "Run",
         "kind": "run",
@@ -211653,7 +211914,7 @@
         "distance_km": 7.42,
         "elev_gain_m": 285,
         "pace_min_km": 7.16,
-        "temp_c": 16.0,
+        "temp_c": 16.1,
         "weather": "clear",
         "sport_type": "TrailRun",
         "kind": "trail",
@@ -211666,7 +211927,7 @@
         "distance_km": 5.11,
         "elev_gain_m": 144,
         "pace_min_km": 10.86,
-        "temp_c": 21.0,
+        "temp_c": 21.1,
         "weather": "clear",
         "sport_type": "Hike",
         "kind": "hike",
@@ -211705,7 +211966,7 @@
         "distance_km": 7.5,
         "elev_gain_m": 282,
         "pace_min_km": 6.68,
-        "temp_c": 27.2,
+        "temp_c": 27.6,
         "weather": "clear",
         "sport_type": "TrailRun",
         "kind": "trail",
@@ -211731,8 +211992,8 @@
         "distance_km": 10.53,
         "elev_gain_m": 191,
         "pace_min_km": 6.21,
-        "temp_c": 28.4,
-        "weather": "cloudy",
+        "temp_c": 28.8,
+        "weather": "clear",
         "sport_type": "Run",
         "kind": "run",
         "is_trail": false
@@ -211744,7 +212005,7 @@
         "distance_km": 19.45,
         "elev_gain_m": 1157,
         "pace_min_km": 9.32,
-        "temp_c": 11.4,
+        "temp_c": 11.8,
         "weather": "cloudy",
         "sport_type": "Run",
         "kind": "run",
@@ -211757,7 +212018,7 @@
         "distance_km": 3.59,
         "elev_gain_m": 376,
         "pace_min_km": 9.84,
-        "temp_c": 21.8,
+        "temp_c": 21.7,
         "weather": "cloudy",
         "sport_type": "TrailRun",
         "kind": "trail",
@@ -211770,7 +212031,7 @@
         "distance_km": 6.17,
         "elev_gain_m": 399,
         "pace_min_km": 8.15,
-        "temp_c": 19.5,
+        "temp_c": 19.7,
         "weather": "clear",
         "sport_type": "TrailRun",
         "kind": "trail",
@@ -211783,7 +212044,7 @@
         "distance_km": 7.25,
         "elev_gain_m": 438,
         "pace_min_km": 6.57,
-        "temp_c": 22.8,
+        "temp_c": 22.9,
         "weather": "cloudy",
         "sport_type": "TrailRun",
         "kind": "trail",
@@ -211796,7 +212057,7 @@
         "distance_km": 1.35,
         "elev_gain_m": 21,
         "pace_min_km": 5.29,
-        "temp_c": 19.3,
+        "temp_c": 19.0,
         "weather": "cloudy",
         "sport_type": "Run",
         "kind": "run",
@@ -211809,7 +212070,7 @@
         "distance_km": 11.43,
         "elev_gain_m": 217,
         "pace_min_km": 6.05,
-        "temp_c": 19.6,
+        "temp_c": 19.7,
         "weather": "cloudy",
         "sport_type": "Run",
         "kind": "run",
@@ -211823,7 +212084,7 @@
         "elev_gain_m": 246,
         "pace_min_km": 6.25,
         "temp_c": 17.2,
-        "weather": "clear",
+        "weather": "cloudy",
         "sport_type": "Run",
         "kind": "run",
         "is_trail": false
@@ -211835,7 +212096,7 @@
         "distance_km": 6.68,
         "elev_gain_m": 246,
         "pace_min_km": 8.4,
-        "temp_c": 18.8,
+        "temp_c": 18.9,
         "weather": "clear",
         "sport_type": "TrailRun",
         "kind": "trail",
@@ -211848,7 +212109,7 @@
         "distance_km": 5.5,
         "elev_gain_m": 284,
         "pace_min_km": 9.45,
-        "temp_c": 19.2,
+        "temp_c": 17.4,
         "weather": "clear",
         "sport_type": "TrailRun",
         "kind": "trail",
@@ -211861,7 +212122,7 @@
         "distance_km": 10.35,
         "elev_gain_m": 247,
         "pace_min_km": 6.02,
-        "temp_c": 17.2,
+        "temp_c": 17.4,
         "weather": "cloudy",
         "sport_type": "TrailRun",
         "kind": "trail",
@@ -211874,7 +212135,7 @@
         "distance_km": 7.31,
         "elev_gain_m": 288,
         "pace_min_km": 7.3,
-        "temp_c": 16.6,
+        "temp_c": 16.8,
         "weather": "clear",
         "sport_type": "TrailRun",
         "kind": "trail",
@@ -211900,7 +212161,7 @@
         "distance_km": 8.13,
         "elev_gain_m": 47,
         "pace_min_km": 5.62,
-        "temp_c": 5.8,
+        "temp_c": 6.2,
         "weather": "clear",
         "sport_type": "Run",
         "kind": "run",
@@ -211913,7 +212174,7 @@
         "distance_km": 5.0,
         "elev_gain_m": 21,
         "pace_min_km": 4.87,
-        "temp_c": 6.6,
+        "temp_c": 6.9,
         "weather": "clear",
         "sport_type": "Run",
         "kind": "run",
@@ -211926,8 +212187,8 @@
         "distance_km": 21.25,
         "elev_gain_m": 621,
         "pace_min_km": 7.01,
-        "temp_c": 12.5,
-        "weather": "clear",
+        "temp_c": 13.0,
+        "weather": "cloudy",
         "sport_type": "TrailRun",
         "kind": "trail",
         "is_trail": true
@@ -211939,7 +212200,7 @@
         "distance_km": 10.05,
         "elev_gain_m": 126,
         "pace_min_km": 6.04,
-        "temp_c": 5.3,
+        "temp_c": 5.7,
         "weather": "clear",
         "sport_type": "Run",
         "kind": "run",
@@ -211952,7 +212213,7 @@
         "distance_km": 0.81,
         "elev_gain_m": 4,
         "pace_min_km": 18.39,
-        "temp_c": 11.5,
+        "temp_c": 11.6,
         "weather": "cloudy",
         "sport_type": "Hike",
         "kind": "hike",
@@ -211965,7 +212226,7 @@
         "distance_km": 13.67,
         "elev_gain_m": 109,
         "pace_min_km": 6.08,
-        "temp_c": 7.8,
+        "temp_c": 8.0,
         "weather": "clear",
         "sport_type": "Run",
         "kind": "run",
@@ -211978,7 +212239,7 @@
         "distance_km": 6.61,
         "elev_gain_m": 212,
         "pace_min_km": 16.84,
-        "temp_c": 13.6,
+        "temp_c": 13.2,
         "weather": "clear",
         "sport_type": "Hike",
         "kind": "hike",
@@ -211991,7 +212252,7 @@
         "distance_km": 5.97,
         "elev_gain_m": 248,
         "pace_min_km": 21.83,
-        "temp_c": 13.8,
+        "temp_c": 13.1,
         "weather": "clear",
         "sport_type": "Hike",
         "kind": "hike",
@@ -212017,7 +212278,7 @@
         "distance_km": 3.64,
         "elev_gain_m": 22,
         "pace_min_km": 17.56,
-        "temp_c": 13.5,
+        "temp_c": 14.9,
         "weather": "clear",
         "sport_type": "Hike",
         "kind": "hike",
@@ -212030,7 +212291,7 @@
         "distance_km": 0.99,
         "elev_gain_m": 63,
         "pace_min_km": 22.91,
-        "temp_c": 11.5,
+        "temp_c": 10.9,
         "weather": "cloudy",
         "sport_type": "Hike",
         "kind": "hike",
@@ -212043,7 +212304,7 @@
         "distance_km": 2.18,
         "elev_gain_m": 19,
         "pace_min_km": 6.1,
-        "temp_c": 9.0,
+        "temp_c": 9.2,
         "weather": "cloudy",
         "sport_type": "TrailRun",
         "kind": "trail",
@@ -212056,7 +212317,7 @@
         "distance_km": 4.84,
         "elev_gain_m": 218,
         "pace_min_km": 10.26,
-        "temp_c": 6.3,
+        "temp_c": 6.4,
         "weather": "cloudy",
         "sport_type": "TrailRun",
         "kind": "trail",
@@ -212069,7 +212330,7 @@
         "distance_km": 4.39,
         "elev_gain_m": 396,
         "pace_min_km": 18.07,
-        "temp_c": 13.7,
+        "temp_c": 12.8,
         "weather": "cloudy",
         "sport_type": "Hike",
         "kind": "hike",
@@ -212082,7 +212343,7 @@
         "distance_km": 4.0,
         "elev_gain_m": 28,
         "pace_min_km": 22.72,
-        "temp_c": 10.8,
+        "temp_c": 11.0,
         "weather": "cloudy",
         "sport_type": "Hike",
         "kind": "hike",
@@ -212095,7 +212356,7 @@
         "distance_km": 3.04,
         "elev_gain_m": 111,
         "pace_min_km": 17.14,
-        "temp_c": 15.3,
+        "temp_c": 15.2,
         "weather": "clear",
         "sport_type": "Hike",
         "kind": "hike",
@@ -212108,7 +212369,7 @@
         "distance_km": 11.55,
         "elev_gain_m": 179,
         "pace_min_km": 4.98,
-        "temp_c": 5.4,
+        "temp_c": 5.2,
         "weather": "clear",
         "sport_type": "Hike",
         "kind": "hike",
@@ -212121,7 +212382,7 @@
         "distance_km": 4.2,
         "elev_gain_m": 182,
         "pace_min_km": 9.04,
-        "temp_c": 13.3,
+        "temp_c": 13.4,
         "weather": "cloudy",
         "sport_type": "TrailRun",
         "kind": "trail",
@@ -212147,7 +212408,7 @@
         "distance_km": 7.29,
         "elev_gain_m": 387,
         "pace_min_km": 7.37,
-        "temp_c": 11.9,
+        "temp_c": 12.0,
         "weather": "rain",
         "sport_type": "TrailRun",
         "kind": "trail",
@@ -212160,7 +212421,7 @@
         "distance_km": 8.96,
         "elev_gain_m": 547,
         "pace_min_km": 10.34,
-        "temp_c": 7.4,
+        "temp_c": 7.2,
         "weather": "clear",
         "sport_type": "TrailRun",
         "kind": "trail",
@@ -212173,7 +212434,7 @@
         "distance_km": 7.18,
         "elev_gain_m": 259,
         "pace_min_km": 7.09,
-        "temp_c": 15.8,
+        "temp_c": 15.7,
         "weather": "clear",
         "sport_type": "TrailRun",
         "kind": "trail",
@@ -212186,7 +212447,7 @@
         "distance_km": 3.64,
         "elev_gain_m": 166,
         "pace_min_km": 17.29,
-        "temp_c": 16.5,
+        "temp_c": 16.3,
         "weather": "clear",
         "sport_type": "Hike",
         "kind": "hike",
@@ -212199,7 +212460,7 @@
         "distance_km": 4.59,
         "elev_gain_m": 256,
         "pace_min_km": 8.95,
-        "temp_c": 15.0,
+        "temp_c": 15.4,
         "weather": "cloudy",
         "sport_type": "TrailRun",
         "kind": "trail",
@@ -212212,7 +212473,7 @@
         "distance_km": 5.65,
         "elev_gain_m": 213,
         "pace_min_km": 7.54,
-        "temp_c": 16.7,
+        "temp_c": 16.8,
         "weather": "cloudy",
         "sport_type": "TrailRun",
         "kind": "trail",
@@ -212238,7 +212499,7 @@
         "distance_km": 16.08,
         "elev_gain_m": 717,
         "pace_min_km": 8.6,
-        "temp_c": 17.1,
+        "temp_c": 17.2,
         "weather": "clear",
         "sport_type": "TrailRun",
         "kind": "trail",
@@ -212251,7 +212512,7 @@
         "distance_km": 7.29,
         "elev_gain_m": 277,
         "pace_min_km": 6.33,
-        "temp_c": 22.7,
+        "temp_c": 23.0,
         "weather": "cloudy",
         "sport_type": "TrailRun",
         "kind": "trail",
@@ -212264,7 +212525,7 @@
         "distance_km": 5.15,
         "elev_gain_m": 17,
         "pace_min_km": 6.32,
-        "temp_c": 22.8,
+        "temp_c": 22.7,
         "weather": "clear",
         "sport_type": "Run",
         "kind": "run",
@@ -212277,21 +212538,8 @@
         "distance_km": 8.03,
         "elev_gain_m": 325,
         "pace_min_km": 6.71,
-        "temp_c": 27.3,
+        "temp_c": 28.4,
         "weather": "cloudy",
-        "sport_type": "TrailRun",
-        "kind": "trail",
-        "is_trail": true
-      },
-      {
-        "id": 10056844095,
-        "name": "Scorpion 🦂 on the trail!",
-        "date": "2023-10-17",
-        "distance_km": 4.38,
-        "elev_gain_m": 275,
-        "pace_min_km": 9.63,
-        "temp_c": 31.6,
-        "weather": "clear",
         "sport_type": "TrailRun",
         "kind": "trail",
         "is_trail": true
