@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-06-26T07:55:27+00:00",
+  "generated_at": "2026-07-05T06:20:32+00:00",
   "user": "biogeek",
   "stats": {
-    "observations": 1460,
+    "observations": 1461,
     "species": 947,
-    "threatened_observations": 75,
-    "research_grade": 744,
+    "threatened_observations": 74,
+    "research_grade": 745,
     "by_group": {
       "Plantae": 629,
       "Insecta": 284,
-      "Aves": 172,
+      "Aves": 173,
       "Mammalia": 126,
       "Fungi": 50,
       "Animalia": 48,
@@ -28,7 +28,7 @@
       "2023": 115,
       "2024": 495,
       "2025": 460,
-      "2026": 324
+      "2026": 325
     },
     "top_species": [
       {
@@ -10045,7 +10045,7 @@
       "lng": 19.41198,
       "group": "Insecta",
       "common_name": null,
-      "species": "Chrysis lincea"
+      "species": "Chrysidini"
     },
     {
       "lat": -34.54023,
@@ -10352,8 +10352,15 @@
       "lat": -34.04369,
       "lng": 18.36194,
       "group": "Animalia",
-      "common_name": "Cape Beach Hopper",
-      "species": "Capeorchestia capensis"
+      "common_name": "Arthropods",
+      "species": "Arthropoda"
+    },
+    {
+      "lat": -34.04365,
+      "lng": 18.36191,
+      "group": "Aves",
+      "common_name": "Spotted Eagle-Owl",
+      "species": "Bubo africanus"
     },
     {
       "lat": -34.04062,
