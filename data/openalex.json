@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-06-26T07:01:22+00:00",
+  "generated_at": "2026-07-06T07:45:31+00:00",
   "orcid": "0000-0003-4480-5567",
-  "cited_by_count": 91,
-  "works_count": 18,
+  "cited_by_count": 93,
+  "works_count": 22,
   "h_index": 5,
   "i10_index": 4,
   "counts_by_year": [
@@ -34,12 +34,12 @@
       "year": 2025,
       "works_count": 4,
       "oa_works_count": 4,
-      "cited_by_count": 50
+      "cited_by_count": 52
     },
     {
       "year": 2026,
-      "works_count": 9,
-      "oa_works_count": 9,
+      "works_count": 13,
+      "oa_works_count": 13,
       "cited_by_count": 0
     }
   ],
@@ -48,7 +48,7 @@
       "title": "InstaNovo enables diffusion-powered de novo peptide sequencing in large-scale proteomics experiments",
       "year": 2025,
       "doi": "https://doi.org/10.1038/s42256-025-01019-5",
-      "cited_by_count": 31
+      "cited_by_count": 32
     },
     {
       "title": "De novo peptide sequencing with InstaNovo: Accurate, database-free peptide identification for large scale proteomics experiments",
@@ -87,9 +87,21 @@
       "cited_by_count": 1
     },
     {
+      "title": "guomics-lab/MassNet-DDA: v1.1",
+      "year": 2026,
+      "doi": "https://doi.org/10.5281/zenodo.21151148",
+      "cited_by_count": 0
+    },
+    {
       "title": "Awesome De Novo Peptide Sequencing",
       "year": 2026,
       "doi": "https://doi.org/10.5281/zenodo.20825736",
+      "cited_by_count": 0
+    },
+    {
+      "title": "guomics-lab/MassNet-DDA: v1.1",
+      "year": 2026,
+      "doi": "https://doi.org/10.5281/zenodo.21151147",
       "cited_by_count": 0
     },
     {
@@ -105,15 +117,15 @@
       "cited_by_count": 0
     },
     {
-      "title": "<b>A living proteomics benchmark for comprehensive </b><b>evaluation of deep learning-based </b><b><i>de novo</i></b><b> peptide </b><b>sequencing tools</b>",
-      "year": 2026,
-      "doi": "https://doi.org/10.6084/m9.figshare.31680883.v1",
-      "cited_by_count": 0
-    },
-    {
       "title": "Updated DLDN-Bench De Novo Sequencing Benchmark Outputs with InstaNovo v1.2.2",
       "year": 2026,
       "doi": "https://doi.org/10.5281/zenodo.20767590",
+      "cited_by_count": 0
+    },
+    {
+      "title": "<b>A living proteomics benchmark for comprehensive </b><b>evaluation of deep learning-based </b><b><i>de novo</i></b><b> peptide </b><b>sequencing tools</b>",
+      "year": 2026,
+      "doi": "https://doi.org/10.6084/m9.figshare.31680883.v1",
       "cited_by_count": 0
     },
     {
