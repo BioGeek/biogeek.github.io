@@ -10939,6 +10939,28 @@
     ],
     "total_elevation_gain": 121.0
   },
+  "19245304097": {
+    "_weather": {
+      "cat": "clear",
+      "precip": 0.0,
+      "temp": 12.6
+    },
+    "distance": 6349.3,
+    "id": 19245304097,
+    "map": {
+      "summary_polyline": "vldnEgxgoBTm@AEPKB]Xe@LCTLVId@k@LIP]@KTMLQNGFGHA\\QRCLOBMNQP@DETA\\EDGBS?WCA@ERKFIHCBE?ERHJMDKFHARBRHJL`@LTLh@N\\Nt@BDB?DE@MLMCSDWE_@Dw@?WF_@DMBUDE@GNQBMJKFOJGB?@F?f@DTJBNGAGDIZc@HWN[PUHQHIBODCLQDORWBQJIFODAb@w@JWLMHOTSDDCNJP?HGJ?\\J^?NDNBl@JRDE?QBUNy@HU?GDEFUF@GJDVBh@H`@HABCJ@TID?HGB@DED@JKD?`@SN@@XCCBMA??C@C@B?C@@C@@ACA?BFMEMBa@JINSPi@JOBSP_@Ze@TSDYb@o@FSZQDSHGJWFUHGFHNOTi@@KJUJk@HI@SBBK?@ECGRIBGJWHK@IJQD[ZUT]@GDCDObAuAL_@TSLGFK`@SF?LSFW`@}@AOFGA_@@UBEDU@a@Je@BQDE@KNOPi@X_@Zo@LQH?JMDAXi@FIB@@CDCNSNWFg@REBQTCDOJMD@AIIIAMDKNK?EXi@FC@AEGNKBMPYBQb@aABIAKHSN[LKP[Pa@BOPYDUFEVg@CKHIPCAMFGEKBMDOJy@FG?a@H]Dg@HYBGHE@_@FWDo@?GEE@[Zs@H[ASV]Cc@DIHEFSLuAAo@KU@OCEHc@?UJWAACF?AC@BAAYCIEC[XKZIJEGCe@CC?MCOE?GNMv@?`@GR?TITE\\@^DRE`@GNIAIQCAO?UFW??KHIFKCGSHo@CMEY@GBKEAIDI?EGDGACc@IOKE?KDKLAF@^KDG?IEISE@IHI@OQBUOCKDOCEGA?]CIBGAG_@Ii@?YJIF]l@Y^KV]^m@hAg@d@KVMJm@bAe@rAm@h@Ud@Kb@GnAEBKv@y@bBe@d@IFQFIAODDPANEKAKIHWHi@VIFORw@lDCX?XBb@PzAAb@M^y@~@Uh@c@tCEt@Kb@OdAc@|@Ob@uAlCmAtCy@bB_@~@Mt@KXw@fAKXYb@Yp@IHKBYPc@J_@TK@WN]`@IRKLENc@t@[`ASx@G~@GVWjCU`BIXc@t@O^S`AKLG@SVBFMTFFE@B?AGFBA??GABKHEHKHKLG^KZMBOEQ@MBGFEAa@n@SBCHC?OAQD_@TKXGDITGJMF_@^I?KTULc@h@WPMBOTE@MEGO?OF[Ri@Mg@?M"
+    },
+    "moving_time": 2852,
+    "name": "Kloof nek in the dark 🐆🌌",
+    "sport_type": "TrailRun",
+    "start_date": "2026-07-09T15:50:57Z",
+    "start_date_local": "2026-07-09T17:50:57Z",
+    "start_latlng": [
+      -33.942679,
+      18.395081
+    ],
+    "total_elevation_gain": 305.0
+  },
   "1932615577": {
     "_weather": {
       "cat": "cloudy",
