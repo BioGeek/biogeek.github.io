@@ -573,6 +573,16 @@ I have **co-created, organized and judged** machine-learning hackathons at the [
 
 ## Teaching & mentoring
 
+**AIMS South Africa MSc supervision**\
+<i class="bi bi-calendar3"></i> _2025–2026_\
+<img width="900" height="600" src="images/flags/za.svg" class="flag-icon" alt="South Africa">AIMS South Africa, with InstaDeep\
+Co-supervised several African Institute for Mathematical Sciences (AIMS) South Africa Master's students at InstaDeep on de novo peptide sequencing and proteomics: mechanistic interpretability of InstaNovo (sparse autoencoders), self-supervised diffusion models for mass spectrometry, fine-tuning InstaNovo on glycosylation data, and an AI-native framework for large-scale proteomic database search via contrastive joint embeddings and a transformer-based scoring function.
+
+<div class="pub-badges">
+  <a href="https://www.linkedin.com/posts/mohammed-nagi-418924236_airesearch-machinelearning-mechanisticinterpretability-ugcPost-7480980239163117568-KkZc/"><i class="bi bi-linkedin"></i> Interpretability (SAEs)</a>
+  <a href="https://www.linkedin.com/posts/vicent-mwanda-6b278313a_aims-googledeepmind-artificialintelligence-ugcPost-7480934646164340736-RRSL/"><i class="bi bi-linkedin"></i> Diffusion for MS</a>
+</div>
+
 **Machine Learning for Biology practical**\
 <i class="bi bi-calendar3"></i> _2023_\
 <img width="900" height="600" src="images/flags/gh.svg" class="flag-icon" alt="Ghana">Deep Learning Indaba, Ghana\

@@ -146,6 +146,11 @@ cv:
       - name: "[Photography portfolio](https://jeroen.vangoey.be/photography/)"
         summary: "A portfolio of portrait, wedding, maternity, boudoir, landscape and long-exposure photography."
     Teaching & mentoring:
+      - name: AIMS South Africa MSc supervision
+        start_date: 2025
+        end_date: 2026
+        location: AIMS South Africa, with InstaDeep
+        summary: Co-supervised several AIMS South Africa Master's students at InstaDeep on de novo peptide sequencing and proteomics, including InstaNovo interpretability (sparse autoencoders), diffusion models for mass spectrometry, glyco-peptide fine-tuning of InstaNovo, and AI-native proteomic database search via contrastive joint embeddings and a transformer-based scoring function.
       - name: Machine Learning for Biology practical
         date: 2023
         location: Deep Learning Indaba, Ghana
