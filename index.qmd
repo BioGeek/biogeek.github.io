@@ -24,7 +24,7 @@ format: html
     <a class="cta" href="https://scholar.google.com/citations?user=QinE3gcAAAAJ&hl=en"><i class="bi bi-mortarboard"></i> Google Scholar</a>
   </div>
   <ul class="proof">
-    <li>Published InstaNovo (a transformer) and InstaNovo+ (a diffusion model) for <i>de novo</i> peptide sequencing in <strong>Nature Machine Intelligence</strong>, and InstaNovo-P for phosphoproteomics in <strong>Nature Communications</strong>.</li>
+    <li>Published InstaNovo (a transformer model) and InstaNovo+ (a diffusion model) for <i>de novo</i> peptide sequencing in <strong>Nature Machine Intelligence</strong>, and InstaNovo-P (a model finetuned on phosphoproteomics data) in <strong>Nature Communications</strong>.</li>
     <li>Lead BioAI teams working on peptide sequencing and signal-peptide design.</li>
     <li>Built and shipped production-grade ML systems across GPUs, HPC, cloud, and scientific data pipelines.</li>
   </ul>
