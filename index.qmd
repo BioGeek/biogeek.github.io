@@ -69,7 +69,7 @@ I build and ship machine-learning systems for science. My main application is *d
 
 ## Publications
 
-8 publications, including in *Nature Machine Intelligence*.
+8 publications, including papers published in *Nature Machine Intelligence* and *Nature Communications*.
 
 ```{=html}
 <p class="pub-metrics"><!-- OPENALEX:START --><strong>93</strong> citations &middot; <span class="h-index-term" tabindex="0" role="note" aria-label="If you have an h-index of 5, it means you have published at least 5 papers that have each received 5 or more citations" data-tip="If you have an h-index of 5, it means you have published at least 5 papers that have each received 5 or more citations">h-index</span> <strong>5</strong> &middot; <span class="h-index-term" tabindex="0" role="note" aria-label="If you have an i10-index of 4, it means you have published 4 papers that have each received 10 or more citations" data-tip="If you have an i10-index of 4, it means you have published 4 papers that have each received 10 or more citations">i10</span> <strong>4</strong> &middot; <span style="color:#888;font-size:.8rem">via OpenAlex, Jul 2026</span><!-- OPENALEX:END --></p>
@@ -103,18 +103,18 @@ I build and ship machine-learning systems for science. My main application is *d
 </div>
 
 <div class="pub-card">
-  <a class="pub-thumb" href="https://doi.org/10.1101/2025.05.14.654049">
+  <a class="pub-thumb" href="https://doi.org/10.1038/s41467-026-75138-x">
     <img width="480" height="405" loading="lazy" src="images/publications/instanovo-p_figure1.png" alt="InstaNovo-P figure 1" />
   </a>
   <div class="pub-body">
-    <div class="pub-title"><a href="https://doi.org/10.1101/2025.05.14.654049">InstaNovo-P: a <i>de novo</i> peptide sequencing model for phosphoproteomics</a></div>
+    <div class="pub-title"><a href="https://doi.org/10.1038/s41467-026-75138-x">InstaNovo-P: a <i>de novo</i> peptide sequencing model for phosphoproteomics</a></div>
     <div class="pub-authors">J. Lauridsen*, P. Ramasamy*, <span class="author-ellipsis" role="button" tabindex="0" aria-expanded="false" aria-label="Full author list: J. Lauridsen*, P. Ramasamy*, R. Catzel, V. Canbay, A. Mabona, K. Eloff, P. Fullwood, J. Ferguson, A. Kirketerp-Møller, I. S. Goldschmidt, T. Claeys, S. van Puyenbroeck, N. Lopez Carranza, E. M. Schoof, L. Martens, J. Van Goey, C. Francavilla, T. P. Jenkins†, K. Kalogeropoulos†" data-authors="J. Lauridsen*, P. Ramasamy*, R. Catzel, V. Canbay, A. Mabona, K. Eloff, P. Fullwood, J. Ferguson, A. Kirketerp-Møller, I. S. Goldschmidt, T. Claeys, S. van Puyenbroeck, N. Lopez Carranza, E. M. Schoof, L. Martens, J. Van Goey, C. Francavilla, T. P. Jenkins†, K. Kalogeropoulos†">...</span> <strong>J. Van Goey</strong>, <span class="author-ellipsis" role="button" tabindex="0" aria-expanded="false" aria-label="Full author list: J. Lauridsen*, P. Ramasamy*, R. Catzel, V. Canbay, A. Mabona, K. Eloff, P. Fullwood, J. Ferguson, A. Kirketerp-Møller, I. S. Goldschmidt, T. Claeys, S. van Puyenbroeck, N. Lopez Carranza, E. M. Schoof, L. Martens, J. Van Goey, C. Francavilla, T. P. Jenkins†, K. Kalogeropoulos†" data-authors="J. Lauridsen*, P. Ramasamy*, R. Catzel, V. Canbay, A. Mabona, K. Eloff, P. Fullwood, J. Ferguson, A. Kirketerp-Møller, I. S. Goldschmidt, T. Claeys, S. van Puyenbroeck, N. Lopez Carranza, E. M. Schoof, L. Martens, J. Van Goey, C. Francavilla, T. P. Jenkins†, K. Kalogeropoulos†">...</span> K. Kalogeropoulos†</div>
-    <div class="pub-venue"><span class="venue-name">bioRxiv</span> (preprint) · 2025</div>
+    <div class="pub-venue"><span class="venue-name">Nature Communications</span> · 2026</div>
     <div class="pub-badges">
-      <a class="badge-primary" href="https://doi.org/10.1101/2025.05.14.654049"><i class="bi bi-file-earmark-text"></i> bioRxiv</a>
+      <a class="badge-primary" href="https://doi.org/10.1038/s41467-026-75138-x"><i class="bi bi-journal-text"></i> Nature Commun.</a>
       <a href="https://github.com/instadeepai/InstaNovo-P"><i class="bi bi-github"></i> Code</a>
       <a href="https://huggingface.co/datasets/InstaDeepAI/InstaNovo-P"><i class="bi bi-database"></i> Datasets</a>
-      <a href="files/bib/lauridsen2025instanovo.bib" download><i class="bi bi-quote"></i> BibTeX</a>
+      <a href="files/bib/lauridsen2026instanovo_p.bib" download><i class="bi bi-quote"></i> BibTeX</a>
     </div>
   </div>
 </div>
