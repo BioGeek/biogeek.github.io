@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-05T06:20:32+00:00",
+  "generated_at": "2026-07-12T07:29:10+00:00",
   "user": "biogeek",
   "stats": {
     "observations": 1461,
-    "species": 947,
+    "species": 946,
     "threatened_observations": 74,
     "research_grade": 745,
     "by_group": {
@@ -127,20 +127,6 @@
       "iucn": null
     },
     {
-      "id": 322778548,
-      "species": "Temnopteryx phalerata",
-      "common_name": "Cape Zebra Cockroach",
-      "group": "Insecta",
-      "observed_on": "2025-10-24",
-      "place": "Scott Estate, Cape Town, 7806, South Africa",
-      "quality_grade": "needs_id",
-      "faves": 1,
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/583972603/large.jpg",
-      "uri": "https://www.inaturalist.org/observations/322778548",
-      "conservation_status": null,
-      "iucn": null
-    },
-    {
       "id": 332421663,
       "species": "Diceros bicornis",
       "common_name": "Black Rhinoceros",
@@ -153,6 +139,20 @@
       "uri": "https://www.inaturalist.org/observations/332421663",
       "conservation_status": "critically endangered",
       "iucn": 50
+    },
+    {
+      "id": 322778548,
+      "species": "Temnopteryx phalerata",
+      "common_name": "Cape Zebra Cockroach",
+      "group": "Insecta",
+      "observed_on": "2025-10-24",
+      "place": "Scott Estate, Cape Town, 7806, South Africa",
+      "quality_grade": "needs_id",
+      "faves": 1,
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/583972603/large.jpg",
+      "uri": "https://www.inaturalist.org/observations/322778548",
+      "conservation_status": null,
+      "iucn": null
     },
     {
       "id": 342868171,
@@ -2435,8 +2435,8 @@
       "lat": -34.19076,
       "lng": 18.43287,
       "group": "Actinopterygii",
-      "common_name": "Dwarf Herrings",
-      "species": "Spratelloididae"
+      "common_name": "Ray-finned Fishes",
+      "species": "Actinopterygii"
     },
     {
       "lat": -34.11338,
@@ -6166,7 +6166,7 @@
       "lat": -34.03484,
       "lng": 18.36159,
       "group": "Plantae",
-      "common_name": "Flowering Plants",
+      "common_name": "flowering plants",
       "species": "Angiospermae"
     },
     {
@@ -10261,8 +10261,8 @@
       "lat": -34.80079,
       "lng": 20.05801,
       "group": "Actinopterygii",
-      "common_name": "Pacific Sardine",
-      "species": "Sardinops sagax"
+      "common_name": "Ray-finned Fishes",
+      "species": "Actinopterygii"
     },
     {
       "lat": -34.90055,
