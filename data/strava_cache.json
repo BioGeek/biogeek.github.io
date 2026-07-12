@@ -10961,6 +10961,28 @@
     ],
     "total_elevation_gain": 305.0
   },
+  "19277726691": {
+    "_weather": {
+      "cat": "rain",
+      "precip": 0.1,
+      "temp": 16.7
+    },
+    "distance": 4430.3,
+    "id": 19277726691,
+    "map": {
+      "summary_polyline": "`{huDgro|Do@y@AZQj@Rp@Mf@O^KDWf@c@fASp@mBtEwAjCo@t@QZe@jAQXg@b@i@p@}@v@[^Yb@wBzBe@JGEWc@eAIaA?_Bb@kB`A[Xa@Tk@TaAh@oBjA_@RgA`@_@XcBx@uBh@y@HyAn@qAL}@\\_@Va@NgCt@]F}APEIG@?EEEw@Zu@TeDh@mAP]IHI_@`A[\\OZ?r@CPIRs@RSVm@X_AXa@Pg@Hc@LMPGzAMh@m@rAIHFVJ~A?n@Kj@[\\Qd@c@LQ@I?QLSXQ`@Of@[`@kAZWHa@VcCb@UTI`@Hj@FTIp@Mh@KdBBxABFTNLd@NvA@z@PnAP`CNrAJd@RtABBFEPAp@c@~@Af@ID@DJDj@LFZZLd@D`CFj@Ll@D`@Af@PXj@PF?`@QDKB[t@q@PEVSn@Id@IhAYd@Cf@Ed@Ud@CDCGNI?q@[]Da@JoBZe@D[ZUj@c@FWKDJORU_@"
+    },
+    "moving_time": 1666,
+    "name": "Morning Run",
+    "sport_type": "Run",
+    "start_date": "2026-07-12T07:02:12Z",
+    "start_date_local": "2026-07-12T09:02:12Z",
+    "start_latlng": [
+      -29.869442,
+      31.050768
+    ],
+    "total_elevation_gain": 22.0
+  },
   "1932615577": {
     "_weather": {
       "cat": "cloudy",
