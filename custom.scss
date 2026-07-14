@@ -598,6 +598,16 @@ ol.pipeline li::before {
   display: none;
 }
 
+// Within an entry that stays visible, also narrow its bullet list down to
+// the bullets tagged with the active filter (entries with no per-bullet
+// tags, e.g. single-paragraph roles, are unaffected: the rule only targets li).
+#experience:has(#exp-filter-research-ml:checked) .experience-entry li:not([data-tags~="research-ml"]),
+#experience:has(#exp-filter-engineering-mlops:checked) .experience-entry li:not([data-tags~="engineering-mlops"]),
+#experience:has(#exp-filter-leadership-people:checked) .experience-entry li:not([data-tags~="leadership-people"]),
+#experience:has(#exp-filter-bioinformatics-domain:checked) .experience-entry li:not([data-tags~="bioinformatics-domain"]) {
+  display: none;
+}
+
 // Favicon-style company icons in the Experience headings
 .company-icon {
   width: 1.1em;

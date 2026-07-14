@@ -370,11 +370,15 @@ The InstaNovo paper drew broad attention across the scientific press.
 <i class="bi bi-calendar3"></i> _August 2022 – Present_\
 <img width="900" height="600" src="images/flags/za.svg" class="flag-icon" alt="South Africa">Cape Town, South Africa
 
-- **Tech lead and hiring manager** for two cross-disciplinary **ML research teams** of about 5 to 8 people: *de novo* peptide sequencing (with the Technical University of Denmark) and signal-peptide design for secretion efficiency (with BioNTech).
-- Set **research direction** and take models **from research to production** (InstaNovo is available to commercial customers on **[DeepChain](https://deepchain.bio/sequence-peptideswithout-reference-databases/)**), balancing scientific rigour with reliable, maintainable engineering.
-- Delivered a **client collaboration with [Syngenta](https://instadeep.com/2024/06/syngenta-and-instadeep-collaborate-to-accelerate-crops-seeds-trait-research-using-ai-large-language-models/)**, applying **genomic language models** (AgroNT, a Nucleotide Transformer trained on ~10.5 million genomic sequences spanning trillions of base pairs across 48 plant species) to accelerate crop trait research.
-- **Lead the BioAI department** of InstaDeep's Cape Town office and serve as the office's **site manager** (an office of about 25 people); responsible for **hiring and growing** the BioAI teams across the Cape Town and Kigali offices.
-- Directed the team's **ML engineering foundations**: scalable, Transformer-based libraries (Python / PyTorch) for large-scale training on InstaDeep's [**Kyber**](https://instadeep.com/2024/10/instadeep-unveils-near-exascale-supercomputer-kyber-boosting-ai-capabilities/) (~500 PFLOPs) and EuroHPC's [**MareNostrum 5**](https://web.archive.org/web/20260607175948/https://www.bsc.es/marenostrum/marenostrum-5) (260 PFLOPs) supercomputers, and the cloud (AWS, GCP).
+```{=html}
+<ul>
+<li data-tags="leadership-people research-ml"><strong>Tech lead and hiring manager</strong> for two cross-disciplinary <strong>ML research teams</strong> of about 5 to 8 people: <em>de novo</em> peptide sequencing (with the Technical University of Denmark) and signal-peptide design for secretion efficiency (with BioNTech).</li>
+<li data-tags="research-ml engineering-mlops">Set <strong>research direction</strong> and take models <strong>from research to production</strong> (InstaNovo is available to commercial customers on <strong><a href="https://deepchain.bio/sequence-peptideswithout-reference-databases/">DeepChain</a></strong>), balancing scientific rigour with reliable, maintainable engineering.</li>
+<li data-tags="research-ml">Delivered a <strong>client collaboration with <a href="https://instadeep.com/2024/06/syngenta-and-instadeep-collaborate-to-accelerate-crops-seeds-trait-research-using-ai-large-language-models/">Syngenta</a></strong>, applying <strong>genomic language models</strong> (AgroNT, a Nucleotide Transformer trained on ~10.5 million genomic sequences spanning trillions of base pairs across 48 plant species) to accelerate crop trait research.</li>
+<li data-tags="leadership-people"><strong>Lead the BioAI department</strong> of InstaDeep’s Cape Town office and serve as the office’s <strong>site manager</strong> (an office of about 25 people); responsible for <strong>hiring and growing</strong> the BioAI teams across the Cape Town and Kigali offices.</li>
+<li data-tags="engineering-mlops">Directed the team’s <strong>ML engineering foundations</strong>: scalable, Transformer-based libraries (Python / PyTorch) for large-scale training on InstaDeep’s <a href="https://instadeep.com/2024/10/instadeep-unveils-near-exascale-supercomputer-kyber-boosting-ai-capabilities/"><strong>Kyber</strong></a> (~500 PFLOPs) and EuroHPC’s <a href="https://web.archive.org/web/20260607175948/https://www.bsc.es/marenostrum/marenostrum-5"><strong>MareNostrum 5</strong></a> (260 PFLOPs) supercomputers, and the cloud (AWS, GCP).</li>
+</ul>
+```
 :::
 
 ::: {.experience-entry data-tags="engineering-mlops"}
@@ -383,9 +387,13 @@ The InstaNovo paper drew broad attention across the scientific press.
 <i class="bi bi-calendar3"></i> _February 2020 – August 2022_\
 <img width="640" height="480" src="images/flags/be.svg" class="flag-icon" alt="Belgium">Kortrijk, Belgium
 
-- Built a TensorFlow Extended production pipeline (orchestrated with Apache Airflow) training deep-learning models on multispectral images to detect and classify melanoma skin cancers for [Demetra](https://www.inthepocket.com/work/barco-demetra), Barco's dermatology imaging device.
-- Engineered the pipeline with **end-to-end data and model lineage tracking** to deliver the traceability and reproducibility that **regulated medical industries (FDA approval)** require.
-- Worked across the research, cloud-backend and mobile/web frontend teams.
+```{=html}
+<ul>
+<li data-tags="engineering-mlops">Built a TensorFlow Extended production pipeline (orchestrated with Apache Airflow) training deep-learning models on multispectral images to detect and classify melanoma skin cancers for <a href="https://www.inthepocket.com/work/barco-demetra">Demetra</a>, Barco’s dermatology imaging device.</li>
+<li data-tags="engineering-mlops">Engineered the pipeline with <strong>end-to-end data and model lineage tracking</strong> to deliver the traceability and reproducibility that <strong>regulated medical industries (FDA approval)</strong> require.</li>
+<li data-tags="engineering-mlops">Worked across the research, cloud-backend and mobile/web frontend teams.</li>
+</ul>
+```
 :::
 
 ::: {.experience-entry data-tags="bioinformatics-domain leadership-people research-ml"}
@@ -394,9 +402,14 @@ The InstaNovo paper drew broad attention across the scientific press.
 <i class="bi bi-calendar3"></i> _August 2018 – January 2020_\
 <img width="640" height="480" src="images/flags/be.svg" class="flag-icon" alt="Belgium">Zwijnaarde, Belgium
 
-- Owned the **[Python/R data-analysis platform](work/r-python-platforms.qmd)** used by **480 researchers and data scientists**. Sample use case: applying **deep learning** to annotate vascular bundles in wheat <span class="term-tip" tabindex="0" role="note" aria-label="The uppermost internode of a wheat stem, supporting the grain-bearing spike; the vascular bundles visible in its cross-section are linked to grain yield." data-tip="The uppermost internode of a wheat stem, supporting the grain-bearing spike; the vascular bundles visible in its cross-section are linked to grain yield.">peduncle</span> cross-sections (a yield-linked trait) with the model running on the on-premise GPU cluster.
-- Delivered **training** (NumPy, pandas, BioPython, …) and **mentoring** across the company's internal research community.
-- Provided technical support, proactive monitoring and root-cause analysis.
+```{=html}
+<ul>
+<li data-tags="bioinformatics-domain">Owned the <strong><a href="work/r-python-platforms.qmd">Python/R data-analysis platform</a></strong> used by <strong>480 researchers and data scientists</strong>.</li>
+<li data-tags="research-ml bioinformatics-domain">Sample use case: applying <strong>deep learning</strong> to annotate vascular bundles in wheat <span class="term-tip" tabindex="0" role="note" aria-label="The uppermost internode of a wheat stem, supporting the grain-bearing spike; the vascular bundles visible in its cross-section are linked to grain yield." data-tip="The uppermost internode of a wheat stem, supporting the grain-bearing spike; the vascular bundles visible in its cross-section are linked to grain yield.">peduncle</span> cross-sections (a yield-linked trait) with the model running on the on-premise GPU cluster.</li>
+<li data-tags="leadership-people bioinformatics-domain">Delivered <strong>training</strong> (NumPy, pandas, BioPython, …) and <strong>mentoring</strong> across the company’s internal research community.</li>
+<li data-tags="bioinformatics-domain">Provided technical support, proactive monitoring and root-cause analysis.</li>
+</ul>
+```
 :::
 
 ::: {.experience-entry data-tags="bioinformatics-domain"}
