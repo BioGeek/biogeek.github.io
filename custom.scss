@@ -542,6 +542,62 @@ ol.pipeline li::before {
   margin-right: 0.3rem;
 }
 
+// Experience filter bar: CSS-only (no JS) toggle, radio inputs styled as pill
+// buttons. Each .experience-entry carries a space-separated data-tags list;
+// checking a radio hides sibling entries whose data-tags doesn't contain it.
+.exp-filter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 0 0 1.5rem;
+}
+.exp-filter-input {
+  // Visually hidden but left in normal flow (not position:absolute): as a
+  // flex item of .exp-filter, an out-of-flow input would have its static
+  // position collapsed to the flex container's start corner by every other
+  // absolutely-positioned sibling, stacking all radios on top of each other.
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+}
+.exp-filter-btn {
+  display: inline-block;
+  cursor: pointer;
+  user-select: none;
+  font-size: 0.85rem;
+  font-weight: 600;
+  padding: 0.35rem 0.95rem;
+  border: 1px solid $primary;
+  border-radius: 999px;
+  color: $primary;
+  background: var(--bs-body-bg);
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+.exp-filter-btn:hover { background: rgba(15, 118, 110, 0.1); }
+.exp-filter-input:checked + .exp-filter-btn {
+  background: $primary;
+  color: #fff;
+}
+.exp-filter-input:focus-visible + .exp-filter-btn {
+  outline: 2px solid $primary;
+  outline-offset: 2px;
+}
+
+// The radio inputs live inside .exp-filter, not as direct siblings of the
+// .experience-entry sections, so a plain ~ combinator can't reach them;
+// :has() scopes on the ancestor #experience section instead.
+#experience:has(#exp-filter-research-ml:checked) .experience-entry:not([data-tags~="research-ml"]),
+#experience:has(#exp-filter-engineering-mlops:checked) .experience-entry:not([data-tags~="engineering-mlops"]),
+#experience:has(#exp-filter-leadership-people:checked) .experience-entry:not([data-tags~="leadership-people"]),
+#experience:has(#exp-filter-bioinformatics-domain:checked) .experience-entry:not([data-tags~="bioinformatics-domain"]) {
+  display: none;
+}
+
 // Favicon-style company icons in the Experience headings
 .company-icon {
   width: 1.1em;

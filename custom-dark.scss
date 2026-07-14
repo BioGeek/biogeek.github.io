@@ -11,7 +11,8 @@ $link-color: #3db8a6;
 .pub-badges a.badge-primary,
 .pub-badges a.badge-primary:hover,
 .cta-buttons .cta-primary,
-.cta-buttons .cta-primary:hover {
+.cta-buttons .cta-primary:hover,
+.exp-filter-input:checked + .exp-filter-btn {
   color: #06302b;
 }
 

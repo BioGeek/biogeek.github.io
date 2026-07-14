@@ -345,8 +345,26 @@ The InstaNovo paper drew broad attention across the scientific press.
 <div class="relocation">
   <i class="bi bi-geo-alt-fill"></i> <strong>Location &amp; availability:</strong> I moved from Belgium to South Africa with my family in 2023, and we plan to relocate back to Europe around mid-2027. So I'm open to <strong>remote-first roles now</strong>, or <strong>hybrid / on-site roles in Europe from 2027</strong>.
 </div>
+
+<div class="exp-filter" role="group" aria-label="Filter experience by focus area">
+  <input type="radio" name="exp-filter" id="exp-filter-all" class="exp-filter-input" checked>
+  <label for="exp-filter-all" class="exp-filter-btn">All</label>
+
+  <input type="radio" name="exp-filter" id="exp-filter-research-ml" class="exp-filter-input">
+  <label for="exp-filter-research-ml" class="exp-filter-btn">Research &amp; ML</label>
+
+  <input type="radio" name="exp-filter" id="exp-filter-engineering-mlops" class="exp-filter-input">
+  <label for="exp-filter-engineering-mlops" class="exp-filter-btn">Engineering &amp; MLOps</label>
+
+  <input type="radio" name="exp-filter" id="exp-filter-leadership-people" class="exp-filter-input">
+  <label for="exp-filter-leadership-people" class="exp-filter-btn">Leadership &amp; People</label>
+
+  <input type="radio" name="exp-filter" id="exp-filter-bioinformatics-domain" class="exp-filter-input">
+  <label for="exp-filter-bioinformatics-domain" class="exp-filter-btn">Bioinformatics &amp; Domain</label>
+</div>
 ```
 
+::: {.experience-entry data-tags="research-ml engineering-mlops leadership-people"}
 ### <img width="32" height="32" src="images/icons/instadeep.png" class="company-icon" alt=""> [InstaDeep](https://www.instadeep.com/)
 **Staff Research Engineer · BioAI Lead**\
 <i class="bi bi-calendar3"></i> _August 2022 – Present_\
@@ -357,7 +375,9 @@ The InstaNovo paper drew broad attention across the scientific press.
 - Delivered a **client collaboration with [Syngenta](https://instadeep.com/2024/06/syngenta-and-instadeep-collaborate-to-accelerate-crops-seeds-trait-research-using-ai-large-language-models/)**, applying **genomic language models** (AgroNT, a Nucleotide Transformer trained on ~10.5 million genomic sequences spanning trillions of base pairs across 48 plant species) to accelerate crop trait research.
 - **Lead the BioAI department** of InstaDeep's Cape Town office and serve as the office's **site manager** (an office of about 25 people); responsible for **hiring and growing** the BioAI teams across the Cape Town and Kigali offices.
 - Directed the team's **ML engineering foundations**: scalable, Transformer-based libraries (Python / PyTorch) for large-scale training on InstaDeep's [**Kyber**](https://instadeep.com/2024/10/instadeep-unveils-near-exascale-supercomputer-kyber-boosting-ai-capabilities/) (~500 PFLOPs) and EuroHPC's [**MareNostrum 5**](https://web.archive.org/web/20260607175948/https://www.bsc.es/marenostrum/marenostrum-5) (260 PFLOPs) supercomputers, and the cloud (AWS, GCP).
+:::
 
+::: {.experience-entry data-tags="engineering-mlops"}
 ### <img width="128" height="128" src="images/icons/barco.png" class="company-icon" alt=""> [Barco](https://www.barco.com/en)
 **Senior Software Development Engineer, Machine Learning**\
 <i class="bi bi-calendar3"></i> _February 2020 – August 2022_\
@@ -366,7 +386,9 @@ The InstaNovo paper drew broad attention across the scientific press.
 - Built a TensorFlow Extended production pipeline (orchestrated with Apache Airflow) training deep-learning models on multispectral images to detect and classify melanoma skin cancers for [Demetra](https://www.inthepocket.com/work/barco-demetra), Barco's dermatology imaging device.
 - Engineered the pipeline with **end-to-end data and model lineage tracking** to deliver the traceability and reproducibility that **regulated medical industries (FDA approval)** require.
 - Worked across the research, cloud-backend and mobile/web frontend teams.
+:::
 
+::: {.experience-entry data-tags="bioinformatics-domain leadership-people research-ml"}
 ### <img width="128" height="128" src="images/icons/basf.png" class="company-icon" alt=""> [BASF](https://basf.com/)
 **Bioinformatics Researcher, Manager of the Python & R Platforms**\
 <i class="bi bi-calendar3"></i> _August 2018 – January 2020_\
@@ -375,18 +397,23 @@ The InstaNovo paper drew broad attention across the scientific press.
 - Owned the **[Python/R data-analysis platform](work/r-python-platforms.qmd)** used by **480 researchers and data scientists**. Sample use case: applying **deep learning** to annotate vascular bundles in wheat <span class="term-tip" tabindex="0" role="note" aria-label="The uppermost internode of a wheat stem, supporting the grain-bearing spike; the vascular bundles visible in its cross-section are linked to grain yield." data-tip="The uppermost internode of a wheat stem, supporting the grain-bearing spike; the vascular bundles visible in its cross-section are linked to grain yield.">peduncle</span> cross-sections (a yield-linked trait) with the model running on the on-premise GPU cluster.
 - Delivered **training** (NumPy, pandas, BioPython, …) and **mentoring** across the company's internal research community.
 - Provided technical support, proactive monitoring and root-cause analysis.
+:::
 
+::: {.experience-entry data-tags="bioinformatics-domain"}
 ### <img width="48" height="48" src="images/icons/bayer.png" class="company-icon" alt=""> [Bayer Crop Science](https://www.bayer.com/)
 **Bioinformatics Researcher & Python Platform Manager**\
 <i class="bi bi-calendar3"></i> _February 2018 – July 2018_\
 <img width="640" height="480" src="images/flags/be.svg" class="flag-icon" alt="Belgium">Zwijnaarde, Belgium\
 Same platform role, prior to acquisition by BASF Agricultural Solutions.
+:::
 
+::: {.experience-entry data-tags="bioinformatics-domain"}
 ### <img width="121" height="121" src="images/icons/biomerieux.png" class="company-icon" alt=""> [Applied Maths (acquired by bioMérieux)](https://web.archive.org/web/20201211112011/https://www.applied-maths.com/)
 **Bioinformatics Software Developer**\
 <i class="bi bi-calendar3"></i> _September 2011 – January 2018_\
 <img width="640" height="480" src="images/flags/be.svg" class="flag-icon" alt="Belgium">Sint-Martens-Latem, Belgium\
 Worked on BioNumerics, a bioinformatics suite for integrated analysis of biological data, writing **custom Python scripts and extensions** for clients in the clinical, academic and government sectors.
+:::
 
 
 ---
