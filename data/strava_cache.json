@@ -10983,6 +10983,50 @@
     ],
     "total_elevation_gain": 22.0
   },
+  "19292268031": {
+    "_weather": {
+      "cat": "rain",
+      "precip": 0.2,
+      "temp": 16.3
+    },
+    "distance": 2898.1,
+    "id": 19292268031,
+    "map": {
+      "summary_polyline": "djezDuq}wD@AGACBPITCT@HUCGADFXZNp@h@h@bAX\\fBnAz@^z@Vp@Dj@G\\@l@K\\BVEZ@VCHETBRKXGFCJBRCFE?EXOHOf@Wh@SBHIV[`@A@?GCD?E?B?A@IR]?KDGXQB?h@k@PEZUFBBGJCZc@BIFoAG{@E[BaAAQ?oBB[P_ACk@FUEm@Rg@AGLKFICSBBA@BDAC@@CAD??FEFAFKIEF@ZGTCzBGt@ETCh@BVGd@@h@L~DC\\U`@QR{A`AQFSN}@Z_@j@i@TQFS@]LY@g@Hk@EI@UC[Nm@Ho@@oAKeAg@q@UKKg@]QU_@a@Yg@GESe@g@[?@o@[]@ICK@[Tc@CK@IBDC@FCB?EDIJAS@K??Kd@]PImAv@AXBAEBRu@BJJD?H_ABSAME_A?IGAK@IAKOUSu@CW@MAO@Ms@Y_@EGEKEMSXCNINAl@@@PK?IFAD?DB?FFFGC@"
+    },
+    "moving_time": 2876,
+    "name": "Morning Hike",
+    "sport_type": "Hike",
+    "start_date": "2026-07-13T08:58:21Z",
+    "start_date_local": "2026-07-13T10:58:21Z",
+    "start_latlng": [
+      -30.670589,
+      30.303152
+    ],
+    "total_elevation_gain": 44.0
+  },
+  "19295342025": {
+    "_weather": {
+      "cat": "cloudy",
+      "precip": 0.0,
+      "temp": 18.3
+    },
+    "distance": 1944.9,
+    "id": 19295342025,
+    "map": {
+      "summary_polyline": "r{guDqhn|D]TG?{Az@m@b@A@DEB?IHADIDS?IBHCEHYPu@`@[Vo@ZG?i@^_Bz@GI?BIMJBAICAc@ZmAj@c@NoCt@?CFChAS?BKFoBh@iAj@c@NUBFEp@St@_@pAc@^QtAe@ZEZCTIrAs@tB{@YXEJDA^c@^UlBgArGmEb@WVSHCh@c@?@C?XYp@e@NSLEp@m@pA}A\\_@\\YR]AGL?REl@i@b@m@F?N@CDBI"
+    },
+    "moving_time": 890,
+    "name": "Afternoon Hike",
+    "sport_type": "Hike",
+    "start_date": "2026-07-13T14:11:22Z",
+    "start_date_local": "2026-07-13T16:11:22Z",
+    "start_latlng": [
+      -29.864411,
+      31.044096
+    ],
+    "total_elevation_gain": 15.0
+  },
   "1932615577": {
     "_weather": {
       "cat": "cloudy",
