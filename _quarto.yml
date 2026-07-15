@@ -20,6 +20,9 @@ project:
   post-render:
     - "cp -rv .well-known/. docs/.well-known/"
     - "cp CNAME docs/"
+    # See https://llmstxt.org/; kept in sync with the qmd source by
+    # scripts/generate_llms_txt.py and the update-llms-txt GitHub Action.
+    - "cp llms.txt docs/"
 
 website:
   title: "Jeroen Van Goey"

@@ -1,0 +1,56 @@
+name: Update llms.txt
+
+# Keeps llms.txt (https://llmstxt.org/) in sync with the qmd source: titles,
+# descriptions, and the set of published (non-draft) pages/posts.
+on:
+  push:
+    branches: [main]
+    paths:
+      - "**.qmd"
+      - "_quarto.yml"
+      - "scripts/generate_llms_txt.py"
+  workflow_dispatch: {} # manual "Run workflow" button in the Actions tab
+
+permissions:
+  contents: write # commit updated llms.txt
+
+# Shared with publish + other auto-update workflows so renders/deploys/pushes never race.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v7
+        with:
+          enable-cache: true
+
+      - name: Install dependencies
+        run: uv sync --frozen
+
+      - name: Regenerate llms.txt
+        run: uv run python scripts/generate_llms_txt.py
+
+      # No render/deploy step here: llms.txt is a plain static file copied to
+      # docs/ by the post-render step in _quarto.yml, and any push to main
+      # (including this workflow's own commit below) already triggers the
+      # publish workflow, which picks up the new file on its next render.
+      - name: Commit and push if changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet -- llms.txt; then
+            echo "llms.txt unchanged."
+            exit 0
+          fi
+          git add llms.txt
+          git commit -m "chore: regenerate llms.txt"
+          for attempt in 1 2 3; do
+            git pull --rebase --autostash origin main && git push && break
+            echo "push attempt $attempt failed; retrying"; sleep 5
+          done

@@ -148,6 +148,7 @@ dependencies = [
     { name = "jupyter" },
     { name = "matplotlib" },
     { name = "pandas" },
+    { name = "pyyaml" },
     { name = "rendercv", extra = ["full"] },
 ]
 
@@ -157,6 +158,7 @@ requires-dist = [
     { name = "jupyter", specifier = ">=1.1.1" },
     { name = "matplotlib", specifier = ">=3.9.2" },
     { name = "pandas", specifier = ">=2.2.3" },
+    { name = "pyyaml", specifier = ">=6.0.2" },
     { name = "rendercv", extras = ["full"], specifier = ">=2.8" },
 ]
 

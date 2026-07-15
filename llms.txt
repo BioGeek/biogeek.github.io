@@ -1,0 +1,21 @@
+# Jeroen Van Goey
+
+> Staff Research Engineer in BioAI building generative models for biology: de novo peptide sequencing, proteomics, and personalized cancer vaccines.
+
+## Pages
+
+- [Home](https://jeroen.vangoey.be/): Staff Research Engineer in BioAI building generative models for biology
+- [Writing](https://jeroen.vangoey.be/writing.html): Notes on building ML systems for biology, and the occasional side quest.
+- [Photography](https://jeroen.vangoey.be/photography/): Portfolio of portrait, wedding, maternity, boudoir, landscape, and long-exposure photography.
+
+## Writing
+
+- [Teaching an RC car to drive itself](https://jeroen.vangoey.be/posts/donkeycar-jetson-nano/): This page contains my build log for a DonkeyCar running on a Jetson Nano, with the goal of teaching it to drive itself. The log includes all the roadblocks I encountered along the way.
+
+## Projects
+
+- [Self-driving RC car](https://jeroen.vangoey.be/projects/self-driving-rc-car.html): An ongoing project: experiments in training self-driving policies in simulation and deploying them to a Jetson Nano (with a Coral Edge TPU planned). Overview, architecture, and a progress log.
+
+## Work
+
+- [R & Python Platforms](https://jeroen.vangoey.be/work/r-python-platforms.html): Supporting ~480 researchers at BASF, highlighting a deep-learning wheat-peduncle use case.

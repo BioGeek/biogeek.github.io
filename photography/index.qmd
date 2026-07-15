@@ -1,5 +1,6 @@
 ---
 title: "Photography by Jeroen Van Goey"
+description: "Portfolio of portrait, wedding, maternity, boudoir, landscape, and long-exposure photography."
 image: /images/photography/landscapes/02-w1200.jpg
 image-alt: "Landscape photograph by Jeroen Van Goey"
 toc: false
