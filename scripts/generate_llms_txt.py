@@ -13,6 +13,7 @@ as the Writing page listing. Run it directly (`python scripts/generate_llms_txt.
 or via the update-llms-txt GitHub Action, which re-runs it whenever a .qmd
 file or _quarto.yml changes and commits the result if it differs.
 """
+import html
 import re
 from pathlib import Path
 
@@ -20,6 +21,19 @@ import yaml
 
 ROOT = Path(__file__).resolve().parent.parent
 FRONTMATTER_RE = re.compile(r"^---\n(.*?)\n---\n", re.DOTALL)
+
+# Experience entries: "::: {.experience-entry ...}\n### <img .../> [Company](url)\n**Position**\\\n<i ...calendar3...></i> _Date range_\\"
+EXPERIENCE_RE = re.compile(
+    r"::: \{\.experience-entry[^}]*\}\n"
+    r"### .*?\[([^\]]+)\]\([^)]+\)\n"
+    r"\*\*([^*]+)\*\*\\\n"
+    r'<i class="bi bi-calendar3"></i> _([^_]+)_\\'
+)
+
+# Publication cards: "<div class=\"pub-title\"><a href=\"URL\">Title</a></div>" followed
+# later by "<div class=\"pub-venue\">Venue text</div>" for the same card, both in order.
+PUB_TITLE_RE = re.compile(r'<div class="pub-title"><a href="([^"]+)">(.*?)</a></div>', re.DOTALL)
+PUB_VENUE_RE = re.compile(r'<div class="pub-venue">(.*?)</div>', re.DOTALL)
 
 
 def front_matter(path: Path) -> dict:
@@ -37,6 +51,43 @@ def site_url() -> str:
 
 def blurb(meta: dict) -> str:
     return (meta.get("description") or meta.get("subtitle") or "").strip()
+
+
+def strip_tags(text: str) -> str:
+    return html.unescape(re.sub(r"<[^>]+>", "", text)).strip()
+
+
+def pandoc_slug(text: str) -> str:
+    """Approximate Quarto/Pandoc's auto-generated heading id for anchor links."""
+    text = text.lower()
+    text = re.sub(r"[^\w\s.-]", "", text, flags=re.UNICODE)
+    text = re.sub(r"\s+", "-", text.strip())
+    text = re.sub(r"^[^a-zà-\U0010ffff]+", "", text)
+    return text or "section"
+
+
+def section_body(text: str, heading: str, next_heading: str) -> str:
+    return text.split(f"\n## {heading}\n", 1)[1].split(f"\n## {next_heading}\n", 1)[0]
+
+
+def collect_experience(base_url: str, index_text: str) -> list[str]:
+    body = section_body(index_text, "Experience", "Education")
+    return [
+        bullet(company, f"{base_url}/#{pandoc_slug(company)}", f"{position.strip()} — {dates.strip()}")
+        for company, position, dates in EXPERIENCE_RE.findall(body)
+    ]
+
+
+def collect_publications(base_url: str, index_text: str) -> list[str]:
+    body = section_body(index_text, "Publications", "Experience")
+    titles = PUB_TITLE_RE.findall(body)
+    venues = PUB_VENUE_RE.findall(body)
+    entries = []
+    for (url, title), venue in zip(titles, venues):
+        if not url.startswith("http"):
+            url = f"{base_url}/{url}"
+        entries.append(bullet(strip_tags(title), url, strip_tags(venue)))
+    return entries
 
 
 def bullet(title: str, url: str, description: str) -> str:
@@ -76,6 +127,7 @@ def collect_qmds(base_url: str, dirname: str) -> list[tuple[str, dict]]:
 
 def build() -> str:
     base_url = site_url()
+    index_text = (ROOT / "index.qmd").read_text(encoding="utf-8")
     index_meta = front_matter(ROOT / "index.qmd")
     writing_meta = front_matter(ROOT / "writing.qmd")
     photography_meta = front_matter(ROOT / "photography" / "index.qmd")
@@ -91,6 +143,16 @@ def build() -> str:
         bullet("Writing", f"{base_url}/writing.html", blurb(writing_meta)),
         bullet("Photography", f"{base_url}/photography/", blurb(photography_meta)),
     ]
+
+    publications = collect_publications(base_url, index_text)
+    if publications:
+        lines += ["", "## Publications", ""]
+        lines += publications
+
+    experience = collect_experience(base_url, index_text)
+    if experience:
+        lines += ["", "## Experience", ""]
+        lines += experience
 
     posts = collect_posts(base_url)
     if posts:

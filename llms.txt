@@ -8,6 +8,25 @@
 - [Writing](https://jeroen.vangoey.be/writing.html): Notes on building ML systems for biology, and the occasional side quest.
 - [Photography](https://jeroen.vangoey.be/photography/): Portfolio of portrait, wedding, maternity, boudoir, landscape, and long-exposure photography.
 
+## Publications
+
+- [InstaNovo enables diffusion-powered de novo peptide sequencing in large-scale proteomics experiments](https://doi.org/10.1038/s42256-025-01019-5): Nature Machine Intelligence · 2025 · 7(4):565–579
+- [InstaNovo-P: a de novo peptide sequencing model for phosphoproteomics](https://doi.org/10.1038/s41467-026-75138-x): Nature Communications · 2026
+- [De novo peptide sequencing rescoring and FDR estimation with Winnow](https://arxiv.org/abs/2509.24952): arXiv (preprint) · 2025
+- [A living proteomics benchmark for comprehensive evaluation of deep learning-based de novo peptide sequencing tools](https://springernature.figshare.com/articles/journal_contribution/_b_A_living_proteomics_benchmark_for_comprehensive_b_b_evaluation_of_deep_learning-based_b_b_i_de_novo_i_b_b_peptide_b_b_sequencing_tools_b_/31680883/1): Registered report (preprint) · 2026
+- [Generalizable direct protein sequencing with InstaNexus](https://doi.org/10.1016/j.mcpro.2026.101547): Molecular & Cellular Proteomics · 2026 · 25(4):101547
+- [A framework for database search with AI models in mass spectrometry-based proteomics](https://doi.org/10.1021/acs.jproteome.5c01153): Journal of Proteome Research · 2026 · 25(5):2234–2242
+- [Open-source and FAIR research software for proteomics](https://doi.org/10.1021/acs.jproteome.4c01079): Journal of Proteome Research · 2025 · 24(5):2222–2234
+- [afkSNP: assembly-free k-mer based SNP comparison of bacterial WGS samples](https://jeroen.vangoey.be/files/poster_afkSNP.pdf): Conference poster · Benelux Bioinformatics Conference 2015
+
+## Experience
+
+- [InstaDeep](https://jeroen.vangoey.be/#instadeep): Staff Research Engineer · BioAI Lead — August 2022 – Present
+- [Barco](https://jeroen.vangoey.be/#barco): Senior Software Development Engineer, Machine Learning — February 2020 – August 2022
+- [BASF](https://jeroen.vangoey.be/#basf): Bioinformatics Researcher, Manager of the Python & R Platforms — August 2018 – January 2020
+- [Bayer Crop Science](https://jeroen.vangoey.be/#bayer-crop-science): Bioinformatics Researcher & Python Platform Manager — February 2018 – July 2018
+- [Applied Maths (acquired by bioMérieux)](https://jeroen.vangoey.be/#applied-maths-acquired-by-biomérieux): Bioinformatics Software Developer — September 2011 – January 2018
+
 ## Writing
 
 - [Teaching an RC car to drive itself](https://jeroen.vangoey.be/posts/donkeycar-jetson-nano/): This page contains my build log for a DonkeyCar running on a Jetson Nano, with the goal of teaching it to drive itself. The log includes all the roadblocks I encountered along the way.
