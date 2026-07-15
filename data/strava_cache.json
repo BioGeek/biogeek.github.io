@@ -11027,6 +11027,72 @@
     ],
     "total_elevation_gain": 15.0
   },
+  "19304974132": {
+    "_weather": {
+      "cat": "clear",
+      "precip": 0.0,
+      "temp": 15.0
+    },
+    "distance": 1442.2,
+    "id": 19304974132,
+    "map": {
+      "summary_polyline": "jaiuDyno|DLEDOBc@EMOCGBq@@ODMn@BJRVCY?CC@@CARLd@@P@@K`@ILEBeBUaAe@cA_@CIEACIWUSKa@He@b@a@l@Qp@m@tAYd@Qt@a@~@i@|@m@x@Sb@KH_@MF??V@QCRSb@O?SXGV@BIVG?ADu@hAcB~AsAbAqAfBCJ@VRj@^n@BH]^[VAFNr@YHZFEFE@O?EBEAA@MQC?LDADEBBBP?G@?FTFLJ"
+    },
+    "moving_time": 1378,
+    "name": "Walking to the surf spot",
+    "sport_type": "Hike",
+    "start_date": "2026-07-14T06:56:27Z",
+    "start_date_local": "2026-07-14T08:56:27Z",
+    "start_latlng": [
+      -29.870452,
+      31.050216
+    ],
+    "total_elevation_gain": 14.0
+  },
+  "19307534189": {
+    "_weather": {
+      "cat": "clear",
+      "precip": 0.0,
+      "temp": 20.6
+    },
+    "distance": 1844.3,
+    "id": 19307534189,
+    "map": {
+      "summary_polyline": "pgguDecn|Di@VQDSNkAZG@EFK?EBAISCw@TGHKDc@BID?@I?I??IYZUBAD@BCC@HFKj@_@?CCBBECGBFADB@AEAB^d@a@e@@KEM@AJVCBKa@BD?LFHCKABG@FB@@?D?[@N@FEECQHNCCGFGESTO@I?JFJAPUHAHBFHAFAE?BBE?HB?E?BWMQEMBBJTDT?d@DICW?K@GASDHGDDBGBCIBQAFIPHKFAABJMND@D_@HGEW?PJ@J@MHCJMM@CJ@FB?A@IE@CH@DDAJCAIHEKJ?FB@BMCDLGBTCCBBBDGCEKBB@DDH@EK][[Q^d@EA?BB?CE?DBC@BCC@@HCCFCAB@FOFEz@_@`@MHDXG~@W`@MtCqAz@[T?`@Mb@[TAr@_@r@q@HEb@Ch@Ux@UF?FCq@R?@?CAB"
+    },
+    "moving_time": 1898,
+    "name": "Playing on the beach between surfing sessions",
+    "sport_type": "Hike",
+    "start_date": "2026-07-14T09:55:02Z",
+    "start_date_local": "2026-07-14T11:55:02Z",
+    "start_latlng": [
+      -29.861206,
+      31.043233
+    ],
+    "total_elevation_gain": 0.0
+  },
+  "19309906596": {
+    "_weather": {
+      "cat": "clear",
+      "precip": 0.0,
+      "temp": 21.8
+    },
+    "distance": 4754.3,
+    "id": 19309906596,
+    "map": {
+      "summary_polyline": "x~guDshn|Ds@MOMBGIFABJ?CGA@G@IH]NQRkBzAEHkAn@]XKBYXi@NSJCKcAt@WJSBGHAAHM@AGXMJWJ]?O^KFN??COH?DEIh@_@JMKD_@TWB_@LBBHMQR^EJSTWj@Qj@a@bD_B`Ao@f@W|AiAVMBGx@g@|Bg@@HO^WXMVIFQHIIJOUPMC@CBNBEGIH?[BNAJDH?DDME\\Q\\[T[NSJ[HOBSVa@LI^c@RY`@_@|@_A\\k@x@w@|@s@\\a@z@q@N@BPv@GQDECK@EAEEHKAIA@H\\BBJKQFCF?FCCYDEC@CAI@@BKGHLCSBEC@Sz@oBHg@Z_AVc@JKRc@n@aAh@sBz@sBJOXQNc@HoA?@Hc@RU`@u@Lo@@Ql@kAJ}@f@kAVc@JKLWLm@`@{@?Y?PCJHABHIRG^WPI\\SVGTWn@WN@`@a@l@Ef@IJ[|@E^Bh@Uj@CLAAABYEGHCH?r@KL?JM^e@jA]j@QBIHGf@Kd@Ej@c@jAg@~@m@`A_@`Ai@r@Kd@G?B@@BMZBLB?DFNM?DCIXIBIg@PQHZGB@OD@@pAB_AACBE?ORWB?BWL]He@XYXC@_@^@EJM`@YLSXUDK\\QFGXa@HSDD?@JSD@BDGB@GDACB?G@BBCEUBADQb@_@AALCABD?IJAQFDGGHDE?@@?E?DB@CA@@AE@DAAAB@CCCD@?CG@DJAABGEADCCB@BAG@A@MTm@Da@VWx@uAVw@T[Pe@Rq@DURWZy@b@u@hAd@J@\\g@j@cAPSDQLE`@Gd@FFCf@B?HIVC@CPIHCP@JKeC"
+    },
+    "moving_time": 4038,
+    "name": "More go-karting",
+    "sport_type": "Hike",
+    "start_date": "2026-07-14T12:30:21Z",
+    "start_date_local": "2026-07-14T14:30:21Z",
+    "start_latlng": [
+      -29.864926,
+      31.044105
+    ],
+    "total_elevation_gain": 9.6
+  },
   "1932615577": {
     "_weather": {
       "cat": "cloudy",
