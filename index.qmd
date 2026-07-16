@@ -343,7 +343,7 @@ The InstaNovo paper drew broad attention across the scientific press.
 
 ```{=html}
 <div class="relocation">
-  <i class="bi bi-geo-alt-fill"></i> <strong>Location &amp; availability:</strong> I moved from Belgium to South Africa with my family in 2023, and we plan to relocate back to Europe around mid-2027. So I'm open to <strong>remote-first roles now</strong>, or <strong>hybrid / on-site roles in Europe from 2027</strong>.
+  <i class="bi bi-geo-alt-fill"></i> <strong>Location &amp; availability:</strong> My family and I moved from Belgium to South Africa in 2023. We plan to relocate again around mid-2027 to either Europe or the USA. So I'm open to <strong>remote-first roles now</strong>, or <strong>hybrid / on-site roles in Europe or America from 2027</strong>.
 </div>
 
 <div class="exp-filter" role="group" aria-label="Filter experience by focus area">
