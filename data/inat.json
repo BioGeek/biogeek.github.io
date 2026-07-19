@@ -1,34 +1,35 @@
 {
-  "generated_at": "2026-07-12T07:29:10+00:00",
+  "generated_at": "2026-07-19T07:27:25+00:00",
   "user": "biogeek",
   "stats": {
-    "observations": 1461,
-    "species": 946,
-    "threatened_observations": 74,
-    "research_grade": 745,
+    "observations": 1508,
+    "species": 976,
+    "threatened_observations": 90,
+    "research_grade": 761,
     "by_group": {
-      "Plantae": 629,
-      "Insecta": 284,
-      "Aves": 173,
-      "Mammalia": 126,
+      "Plantae": 637,
+      "Insecta": 286,
+      "Aves": 179,
+      "Mammalia": 130,
+      "Reptilia": 57,
+      "Animalia": 51,
       "Fungi": 50,
-      "Animalia": 48,
-      "Reptilia": 44,
-      "Arachnida": 35,
-      "Mollusca": 29,
-      "Actinopterygii": 26,
+      "Arachnida": 36,
+      "Actinopterygii": 33,
+      "Mollusca": 31,
       "Amphibia": 12,
-      "Unknown": 3,
+      "Unknown": 4,
       "Protozoa": 1,
       "Chromista": 1
     },
     "by_year": {
       "2008": 12,
+      "2016": 1,
       "2020": 39,
       "2023": 115,
       "2024": 495,
       "2025": 460,
-      "2026": 325
+      "2026": 370
     },
     "top_species": [
       {
@@ -127,20 +128,6 @@
       "iucn": null
     },
     {
-      "id": 332421663,
-      "species": "Diceros bicornis",
-      "common_name": "Black Rhinoceros",
-      "group": "Mammalia",
-      "observed_on": "2025-12-27",
-      "place": "Namibia",
-      "quality_grade": "research",
-      "faves": 1,
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/603279324/large.jpg",
-      "uri": "https://www.inaturalist.org/observations/332421663",
-      "conservation_status": "critically endangered",
-      "iucn": 50
-    },
-    {
       "id": 322778548,
       "species": "Temnopteryx phalerata",
       "common_name": "Cape Zebra Cockroach",
@@ -153,6 +140,20 @@
       "uri": "https://www.inaturalist.org/observations/322778548",
       "conservation_status": null,
       "iucn": null
+    },
+    {
+      "id": 332421663,
+      "species": "Diceros bicornis",
+      "common_name": "Black Rhinoceros",
+      "group": "Mammalia",
+      "observed_on": "2025-12-27",
+      "place": "Namibia",
+      "quality_grade": "research",
+      "faves": 1,
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/603279324/large.jpg",
+      "uri": "https://www.inaturalist.org/observations/332421663",
+      "conservation_status": "critically endangered",
+      "iucn": 50
     },
     {
       "id": 342868171,
@@ -337,6 +338,13 @@
       "group": "Actinopterygii",
       "common_name": "Zander",
       "species": "Sander lucioperca"
+    },
+    {
+      "lat": -29.86757,
+      "lng": 31.046,
+      "group": "Actinopterygii",
+      "common_name": "Paletail Unicornfish",
+      "species": "Naso brevirostris"
     },
     {
       "lat": 51.08963,
@@ -2415,7 +2423,7 @@
       "lng": 18.43291,
       "group": "Mollusca",
       "common_name": null,
-      "species": "Euthyneura"
+      "species": "Aplysia"
     },
     {
       "lat": -34.18948,
@@ -2484,8 +2492,8 @@
       "lat": -34.19047,
       "lng": 18.43253,
       "group": "Actinopterygii",
-      "common_name": "Pipefishes and Allies",
-      "species": "Syngnathiformes"
+      "common_name": "Longsnout Pipefish",
+      "species": "Syngnathus temminckii"
     },
     {
       "lat": -34.16852,
@@ -10037,8 +10045,8 @@
       "lat": -34.54023,
       "lng": 19.41198,
       "group": "Insecta",
-      "common_name": "Narrow-waisted Wasps, Ants, and Bees",
-      "species": "Apocrita"
+      "common_name": "Thread-waisted Sand Wasps",
+      "species": "Ammophila"
     },
     {
       "lat": -34.54023,
@@ -10361,6 +10369,321 @@
       "group": "Aves",
       "common_name": "Spotted Eagle-Owl",
       "species": "Bubo africanus"
+    },
+    {
+      "lat": -29.86725,
+      "lng": 31.04476,
+      "group": "Mammalia",
+      "common_name": "Common Bottlenose Dolphin",
+      "species": "Tursiops truncatus"
+    },
+    {
+      "lat": -29.86735,
+      "lng": 31.04631,
+      "group": "Actinopterygii",
+      "common_name": "Eyestripe Surgeonfish",
+      "species": "Acanthurus dussumieri"
+    },
+    {
+      "lat": -29.86735,
+      "lng": 31.04631,
+      "group": "Actinopterygii",
+      "common_name": "Giant Grouper",
+      "species": "Epinephelus lanceolatus"
+    },
+    {
+      "lat": -29.86735,
+      "lng": 31.04631,
+      "group": "Actinopterygii",
+      "common_name": "Blue-barred Parrotfish",
+      "species": "Scarus ghobban"
+    },
+    {
+      "lat": -29.86735,
+      "lng": 31.04631,
+      "group": "Actinopterygii",
+      "common_name": "Redmouth Grouper",
+      "species": "Aethaloperca rogaa"
+    },
+    {
+      "lat": -29.8196,
+      "lng": 31.00085,
+      "group": "Animalia",
+      "common_name": "Whitespotted Guitarfish",
+      "species": "Rhynchobatus australiae"
+    },
+    {
+      "lat": -29.86626,
+      "lng": 31.13511,
+      "group": "Animalia",
+      "common_name": "Common Blacktip Shark",
+      "species": "Carcharhinus limbatus"
+    },
+    {
+      "lat": -29.86734,
+      "lng": 31.04628,
+      "group": "Actinopterygii",
+      "common_name": "Dusky Grouper",
+      "species": "Epinephelus marginatus"
+    },
+    {
+      "lat": -29.86735,
+      "lng": 31.04631,
+      "group": "Actinopterygii",
+      "common_name": "Giant Grouper",
+      "species": "Epinephelus lanceolatus"
+    },
+    {
+      "lat": -30.6708,
+      "lng": 30.30334,
+      "group": "Plantae",
+      "common_name": "Siam weed",
+      "species": "Chromolaena odorata"
+    },
+    {
+      "lat": -30.6736,
+      "lng": 30.30175,
+      "group": "Plantae",
+      "common_name": "billygoat weed",
+      "species": "Ageratum conyzoides"
+    },
+    {
+      "lat": -30.67479,
+      "lng": 30.30195,
+      "group": "Plantae",
+      "common_name": "Iboza",
+      "species": "Tetradenia riparia"
+    },
+    {
+      "lat": -30.6752,
+      "lng": 30.30207,
+      "group": "Plantae",
+      "common_name": "Sugarcane",
+      "species": "Saccharum officinarum"
+    },
+    {
+      "lat": -30.66448,
+      "lng": 30.33436,
+      "group": "Mammalia",
+      "common_name": "Samango",
+      "species": "Cercopithecus mitis labiatus"
+    },
+    {
+      "lat": -29.86937,
+      "lng": 31.0455,
+      "group": "Reptilia",
+      "common_name": "Snakes",
+      "species": "Serpentes"
+    },
+    {
+      "lat": -29.86937,
+      "lng": 31.04549,
+      "group": "Reptilia",
+      "common_name": "Southern African Python",
+      "species": "Python natalensis"
+    },
+    {
+      "lat": -29.86937,
+      "lng": 31.04546,
+      "group": "Arachnida",
+      "common_name": "Common Trapdoor Baboon Spider",
+      "species": "Idiothele nigrofulva"
+    },
+    {
+      "lat": -29.86937,
+      "lng": 31.04546,
+      "group": "Reptilia",
+      "common_name": "Typical Crocodiles",
+      "species": "Crocodylus"
+    },
+    {
+      "lat": -29.86948,
+      "lng": 31.04563,
+      "group": "Reptilia",
+      "common_name": "Redtail Rat Snakes",
+      "species": "Gonyosoma"
+    },
+    {
+      "lat": -29.86906,
+      "lng": 31.04624,
+      "group": "Aves",
+      "common_name": "Common Myna",
+      "species": "Acridotheres tristis"
+    },
+    {
+      "lat": -29.86439,
+      "lng": 31.04395,
+      "group": "Insecta",
+      "common_name": "Dune Tortoise Beetle",
+      "species": "Aspidomorpha puncticosta"
+    },
+    {
+      "lat": -29.85947,
+      "lng": 31.04256,
+      "group": "Animalia",
+      "common_name": "South African Mole Crab",
+      "species": "Emerita austroafricana"
+    },
+    {
+      "lat": -29.86,
+      "lng": 31.04272,
+      "group": "Mollusca",
+      "common_name": "Pleated Ploughshell",
+      "species": "Bullia natalensis"
+    },
+    {
+      "lat": -29.85993,
+      "lng": 31.04245,
+      "group": "Mollusca",
+      "common_name": "Brown Mussel",
+      "species": "Perna perna"
+    },
+    {
+      "lat": -29.87014,
+      "lng": 31.05016,
+      "group": "Insecta",
+      "common_name": null,
+      "species": "Erebinae"
+    },
+    {
+      "lat": -30.25529,
+      "lng": 30.77094,
+      "group": "Aves",
+      "common_name": "African Spoonbill",
+      "species": "Platalea alba"
+    },
+    {
+      "lat": -30.25591,
+      "lng": 30.77047,
+      "group": "Reptilia",
+      "common_name": "Ball Python",
+      "species": "Python regius"
+    },
+    {
+      "lat": -30.2563,
+      "lng": 30.77084,
+      "group": "Reptilia",
+      "common_name": "Nile Crocodile",
+      "species": "Crocodylus niloticus"
+    },
+    {
+      "lat": -30.2563,
+      "lng": 30.77084,
+      "group": "Plantae",
+      "common_name": "Common Coral Tree",
+      "species": "Erythrina lysistemon"
+    },
+    {
+      "lat": -30.25659,
+      "lng": 30.76985,
+      "group": "Plantae",
+      "common_name": "Candelabra Aloe",
+      "species": "Aloe candelabrum"
+    },
+    {
+      "lat": -30.25597,
+      "lng": 30.76978,
+      "group": "Reptilia",
+      "common_name": "Nile Crocodile",
+      "species": "Crocodylus niloticus"
+    },
+    {
+      "lat": -30.24924,
+      "lng": 30.6349,
+      "group": "Aves",
+      "common_name": "Gray Crowned-Crane",
+      "species": "Balearica regulorum"
+    },
+    {
+      "lat": -30.25549,
+      "lng": 30.77042,
+      "group": "Aves",
+      "common_name": "Marabou Stork",
+      "species": "Leptoptilos crumenifer"
+    },
+    {
+      "lat": -30.25629,
+      "lng": 30.77058,
+      "group": "Reptilia",
+      "common_name": "Nile Crocodile",
+      "species": "Crocodylus niloticus"
+    },
+    {
+      "lat": -30.25527,
+      "lng": 30.77162,
+      "group": "Aves",
+      "common_name": "African Fish-Eagle",
+      "species": "Icthyophaga vocifer"
+    },
+    {
+      "lat": -30.25486,
+      "lng": 30.77149,
+      "group": "Plantae",
+      "common_name": "fever tree",
+      "species": "Vachellia xanthophloea"
+    },
+    {
+      "lat": -30.25484,
+      "lng": 30.77182,
+      "group": "Mammalia",
+      "common_name": "Vervet Monkey",
+      "species": "Chlorocebus pygerythrus"
+    },
+    {
+      "lat": -30.25534,
+      "lng": 30.77194,
+      "group": "Reptilia",
+      "common_name": "Eastern Green Mamba",
+      "species": "Dendroaspis angusticeps"
+    },
+    {
+      "lat": -30.25535,
+      "lng": 30.77194,
+      "group": "Reptilia",
+      "common_name": "Ball Python",
+      "species": "Python regius"
+    },
+    {
+      "lat": -30.25535,
+      "lng": 30.77194,
+      "group": "Reptilia",
+      "common_name": "Puff Adder",
+      "species": "Bitis arietans"
+    },
+    {
+      "lat": -30.25535,
+      "lng": 30.77193,
+      "group": "Reptilia",
+      "common_name": "Gaboon Viper",
+      "species": "Bitis gabonica"
+    },
+    {
+      "lat": -30.20601,
+      "lng": 30.72211,
+      "group": "Reptilia",
+      "common_name": "Burmese Python",
+      "species": "Python bivittatus"
+    },
+    {
+      "lat": -30.25534,
+      "lng": 30.77195,
+      "group": "Mammalia",
+      "common_name": "Vervet Monkey",
+      "species": "Chlorocebus pygerythrus"
+    },
+    {
+      "lat": -29.86912,
+      "lng": 31.05085,
+      "group": "Plantae",
+      "common_name": "Dune aloe",
+      "species": "Aloe thraskii"
+    },
+    {
+      "lat": -29.87033,
+      "lng": 31.05003,
+      "group": "Aves",
+      "common_name": "Blacksmith Lapwing",
+      "species": "Vanellus armatus"
     },
     {
       "lat": -34.04062,
