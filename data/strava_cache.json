@@ -11115,6 +11115,28 @@
     ],
     "total_elevation_gain": 67.0
   },
+  "19384212517": {
+    "_weather": {
+      "cat": "cloudy",
+      "precip": 0.0,
+      "temp": 12.6
+    },
+    "distance": 7011.9,
+    "id": 19384212517,
+    "map": {
+      "summary_polyline": "ryboE{o`oBJd@G@CTEBKCAABCJG?OHM\\QLCD?FJG@ACJGHRBP@\\OTKxAOl@?RCd@H^VZ`ADdAId@H`@@ZFFFJBNC`@A|@i@t@Y\\In@Bb@CDDb@AR@CBh@?b@DVAIb@@V@b@WhB@C?KGPHTPZl@@^Jf@JCBPE`@SAXEIBGB?JDHADDBI@?DBALFCD@^JNC\\FDC?En@?NB^?h@DxAFv@FDB`@DDBl@EbAB`@Jp@FpAVFCj@P\\Fx@Bt@LrAh@NBLHHEF@BNZXf@RG?CEV?VB@CTAHBBAHHHBf@?RGp@H`@?HB?DH?ABv@Yr@C@BC@r@Jl@Z|@Rx@J\\AvAVJCLDbBFp@A`@FDAPLJ?z@PV?AKn@APCA@D@l@@l@Hv@D?CHLHDNCj@Db@L`@T^\\NJPDLJ`@JHADFj@Fj@PNHPA@A?DLF`@HAAH?JDJADBn@JJJf@VXFHCJ@d@Vb@Fb@NZRB@OQNFb@Fb@NN@PCTHDE~@h@DR~Bz@CA@QAI@Av@VDBA?NEb@NXGNLHILADZv@PFPd@b@|@h@d@Rj@`@r@r@h@XfAv@\\JDEJXBBL`@@?FL?CIC?GFMCB?DFHAJD@@SIC@FCCA@BI?BACB?GUEIw@m@QKw@M]CcAWc@GkBa@c@EgACeAQgA_@{@a@a@UqA{@e@Yc@Sa@Ma@MoAWeAOiAWkBm@oAg@{@UkASIE@EWMaBYc@O{B_@a@KY?y@[u@Ma@I_Ae@c@Ge@?m@KsAMo@Me@Ae@Ok@IaBCeASw@Ga@@c@GcBIgDc@s@O}Aw@SC][WMu@M_AC}@KwACc@GkAWuAM_@ImCIaBOmAEqBSg@A}@Kg@Qi@OuAcCy@eAWScABe@DqBf@mAEo@Ie@A]BACK?UFc@Be@CSKKMA?@OAo@^aCB[N]AIOq@CGKKIAe@N@EPGAEB??BFBEDOF"
+    },
+    "moving_time": 4911,
+    "name": "To the wreck of the Kakapo",
+    "sport_type": "Hike",
+    "start_date": "2026-07-19T06:43:23Z",
+    "start_date_local": "2026-07-19T08:43:23Z",
+    "start_latlng": [
+      -34.09834,
+      18.357906
+    ],
+    "total_elevation_gain": 15.5
+  },
   "194310927": {
     "_weather": {
       "cat": "clear",
