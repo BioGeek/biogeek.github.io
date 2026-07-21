@@ -918,3 +918,12 @@ div.callout-note.callout-style-default > .callout-header {
 @media (max-width: 600px) {
   .ph-lb-prev, .ph-lb-next { font-size: 2.5rem; padding: 0.5rem; }
 }
+
+// Homepage "jump to a section" hamburger, inserted next to the navbar search
+// loupe by a script in index.qmd. Keep it aligned with the navbar tools.
+#section-menu .nav-link {
+  display: flex;
+  align-items: center;
+  padding: 0.4rem 0.5rem;
+}
+#section-menu .nav-link .bi-list { font-size: 1.15rem; line-height: 1; }

@@ -727,3 +727,55 @@ Trained and mentored researchers and data scientists in scientific Python (NumPy
 ::: {.genome-hacker}
 Just another genome hacker. 🧬
 :::
+
+```{=html}
+<script>
+// Homepage-only "jump to a section" hamburger: a dropdown appended to the
+// right-aligned navbar list, so it sits in the top-right corner and its menu
+// (dropdown-menu-end) opens fully on-screen. Lives here (not in _quarto.yml) so
+// it appears only on the homepage. Uses Bootstrap's dropdown, which Quarto loads
+// and auto-wires for [data-bs-toggle] via event delegation.
+document.addEventListener("DOMContentLoaded", () => {
+  const rightNav = document.querySelector(".navbar .navbar-nav.ms-auto");
+  if (!rightNav || document.getElementById("section-menu")) return;
+  const sections = [
+    ["What I work on", "#what-i-work-on"],
+    ["Publications", "#publications"],
+    ["Experience", "#experience"],
+    ["Education", "#education"],
+    ["Projects", "#projects"],
+    ["Hackathons", "#hackathons"],
+    ["Teaching & mentoring", "#teaching-mentoring"],
+    ["Skills", "#skills"],
+  ];
+  const li = document.createElement("li");
+  li.className = "nav-item dropdown";
+  li.id = "section-menu";
+
+  const toggle = document.createElement("a");
+  toggle.className = "nav-link dropdown-toggle";
+  toggle.href = "#";
+  toggle.setAttribute("role", "button");
+  toggle.setAttribute("data-bs-toggle", "dropdown");
+  toggle.setAttribute("aria-expanded", "false");
+  toggle.setAttribute("aria-label", "Jump to a section");
+  toggle.innerHTML = '<i class="bi bi-list"></i>';
+
+  const menu = document.createElement("ul");
+  menu.className = "dropdown-menu dropdown-menu-end";
+  for (const [label, href] of sections) {
+    const item = document.createElement("li");
+    const a = document.createElement("a");
+    a.className = "dropdown-item";
+    a.href = href;
+    a.textContent = label;
+    item.appendChild(a);
+    menu.appendChild(item);
+  }
+
+  li.appendChild(toggle);
+  li.appendChild(menu);
+  rightNav.appendChild(li);
+});
+</script>
+```
