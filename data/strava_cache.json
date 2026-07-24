@@ -11159,6 +11159,28 @@
     ],
     "total_elevation_gain": 23.7
   },
+  "19434437053": {
+    "_weather": {
+      "cat": "cloudy",
+      "precip": 0.0,
+      "temp": 15.2
+    },
+    "distance": 8210.5,
+    "id": 19434437053,
+    "map": {
+      "summary_polyline": "`gqnEim}nBC?d@Er@|@n@THLFb@LHZd@LHBZVF?JSZ@j@ZTDPFF\\QDBF\\EN@NNZETNr@EXGH?PHRCDLJVhA\\b@E|@J\\?ZBJG^HLTLTb@KP?XDb@HP?TJRDTAd@NXXAPh@PPXHXXVb@h@\\L?XVdCz@`@Oh@eAPO`A]x@C\\Qf@?`@\\d@JHRd@f@AFGAF??Gp@Jp@^r@Fp@EZJ^EPH\\[JTLHdAPd@^ZJ^AXb@ZHZTNVVPLVn@BT`@ZFZGhAFTf@?PLTj@Rb@?r@`@f@BRZhALd@Px@Lb@R\\@VIt@Fd@GVDh@ELD\\z@VJHR^DNPAD@CNFF\\ANNR~BtAv@t@pB|ADC@EIOcA_ASAa@a@Mo@q@uA?OOS?c@BOa@]]GCYRK?IPERa@RCFMPEv@g@VHDG?s@WWWm@WkAA{@V_Av@eABa@Ts@Bw@RQv@GR[RKHMNJHI@KISHWBWOm@?[PUFa@PMDFDEEQ?WBGCGKuALq@Pm@DAHHNIBND@FLHb@FFHEJ\\TZQCB?BNKBBHCNHDHf@`@r@VN?PNFBLz@Nz@h@Bd@H^F~@Pn@HzA?x@Hb@FfAPz@@d@Hn@nArEr@bBEEDC?GCUa@}@A_@Qo@U{AIWMwABeCMg@C}DBa@h@mD@o@EA?FIFGu@SSu@iA_@Oq@CCI@KGMKHIMi@f@W?Q[OLk@@CADIUA_@_@Yu@MEULKEGbAIVDNCRHfAGRECHA?XMEEDIj@OP@`@KHLD@MHZK`A@N[NC?JGKAi@n@u@L[ZKh@B\\KRC`@KVWRUb@UbA?\\XzAM^PZWh@LPDXi@J]b@WBUd@QTYCKVi@@a@^QDKWQKYo@_BC[H[Om@TmA_@[Cs@Yc@?k@U[Ya@?[Y{AUMQIi@YYmBBk@o@k@CWg@i@c@i@SQYm@Gi@c@a@KQ@a@Qo@@OKg@FOGUBeBKe@_@s@Is@cA_@Ac@Ye@Cw@R}@@GJSAOHIJYl@k@h@wDiAq@i@W]s@c@[s@W@GMEk@DOUk@Gi@B_@G[DSm@q@Bq@OeAFUAWc@o@Ga@MGIg@@GIQAKNMCOBEI]KaACaAIG_@LYYG[Dm@FUg@u@GCQYWSGe@OOq@Qg@o@U?"
+    },
+    "moving_time": 3206,
+    "name": "Sandy bay, uphill to the jeep track and back down",
+    "sport_type": "TrailRun",
+    "start_date": "2026-07-23T15:47:55Z",
+    "start_date_local": "2026-07-23T17:47:55Z",
+    "start_latlng": [
+      -34.008321,
+      18.342136
+    ],
+    "total_elevation_gain": 231.3
+  },
   "1946008195": {
     "_weather": {
       "cat": "clear",
