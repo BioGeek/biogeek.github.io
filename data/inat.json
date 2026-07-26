@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-07-19T07:27:25+00:00",
+  "generated_at": "2026-07-26T07:36:00+00:00",
   "user": "biogeek",
   "stats": {
-    "observations": 1508,
-    "species": 976,
-    "threatened_observations": 90,
-    "research_grade": 761,
+    "observations": 1510,
+    "species": 975,
+    "threatened_observations": 91,
+    "research_grade": 764,
     "by_group": {
-      "Plantae": 637,
+      "Plantae": 638,
       "Insecta": 286,
-      "Aves": 179,
+      "Aves": 180,
       "Mammalia": 130,
       "Reptilia": 57,
       "Animalia": 51,
@@ -29,7 +29,7 @@
       "2023": 115,
       "2024": 495,
       "2025": 460,
-      "2026": 370
+      "2026": 372
     },
     "top_species": [
       {
@@ -8743,8 +8743,8 @@
       "lat": -17.80719,
       "lng": 25.14744,
       "group": "Insecta",
-      "common_name": "Peaceful giant ground beetles",
-      "species": "Tefflus"
+      "common_name": "Ground Beetles",
+      "species": "Carabidae"
     },
     {
       "lat": -17.80719,
@@ -10684,6 +10684,20 @@
       "group": "Aves",
       "common_name": "Blacksmith Lapwing",
       "species": "Vanellus armatus"
+    },
+    {
+      "lat": -34.09767,
+      "lng": 18.35869,
+      "group": "Plantae",
+      "common_name": "flowering plants",
+      "species": "Angiospermae"
+    },
+    {
+      "lat": -34.10659,
+      "lng": 18.35449,
+      "group": "Aves",
+      "common_name": "African Penguin",
+      "species": "Spheniscus demersus"
     },
     {
       "lat": -34.04062,
