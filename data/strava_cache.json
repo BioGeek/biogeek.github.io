@@ -11203,6 +11203,28 @@
     ],
     "total_elevation_gain": 37.0
   },
+  "19473300289": {
+    "_weather": {
+      "cat": "cloudy",
+      "precip": 0.0,
+      "temp": 19.9
+    },
+    "distance": 8138.1,
+    "id": 19473300289,
+    "map": {
+      "summary_polyline": "fgxnEggaoBN[Hu@L_@nAaBX{BAILW?YFY@g@KWDsBUuAGQOS_@Q_AEQIIMe@aAm@eBYaAyCyGKg@ISGy@[mAUkAC]Bg@Cq@DSEW?WCY@YAQGSA_@DWG[Ca@Si@@QMo@O]AIHEJ[ESO_@Ac@?KHGBw@HK?QBO?UG[BICMAc@MYQQFk@?SCEAUHWRWCa@j@}@Na@NM@EJI?OGY?ON]?MDEn@I?a@@K?KBG?QTq@Zk@ZUDAOH@IFDBPHBBLBEDAHFDCR?LCDJHBNLLA?GPGF?FDPENFDFBTPDLLFBDPLHHLLFPRTHHd@JLLLB?JJNFHAN[D@HEBEG[JSRGBERI@CLEDEh@TL@HDPMJHNDNr@\\fADZFZALDTALLf@JJAb@FTHR@NDF|@z@JBVZJDPXPP~@^tCl@^P\\^dAbDd@dBr@rB^rA\\`BPj@Jf@D^At@EZBPNf@Ex@HhAANBf@RRNBRJ{@xAEROPO`@B?j@YDKNO\\QFALQD?LKPY^UTW\\OF?FFEPILGZQ\\]VUb@_@f@EP@p@Ob@BFGTTOPAp@k@PGDLOd@OTAPGRB?@KJIPI@ZEVCJMR?DIJIV^Gd@e@XEHIJCd@_@NQJADEh@K\\QD?PIX?RKNLB?fAgBn@y@JGRWN[Ze@|@i@Xa@DOJMZO^YRKVWl@}@Nc@X]NKVEl@SXWBDZGh@?RETMX[D?VUh@QTWLQB?DRBv@FR[f@CLSHOLK^QhAQd@q@p@cBvAEBm@AI^Gd@GPa@J]PYVUd@g@r@MH?DFDF?TFL@PGR\\BLCFDFRDb@@@RFJHx@@DHAHFBF?VCL@G?DA?Sl@g@Ie@Cs@LUEQ@IHMDKC@EA?DNSLAN?B@UC]FTj@ULB^An@Sd@?P@NDDFEPOX?N@NJH?HGJKCa@[AJEFCLMJcAFWDqAr@yAH[NmBfBm@^eBh@sBZk@TiAHUFUPYd@]\\KDi@Jg@BgCFBEINeALMDa@VQNKNQd@Cf@HlAAb@ERFBo@Di@?qAMo@MeAUi@QyC{Ag@@c@VW^Wf@[\\{@v@W`@[^Ub@uAvBcAp@_@\\a@Rc@Le@FI@sAMQ`@Bn@ExAENC\\AI@PJGIAJSCIC_@Wo@E[R_AGMEi@IYEm@Do@Lg@BCdCcBh@a@f@k@LUTe@H]UIQWGSGE"
+    },
+    "moving_time": 4385,
+    "name": "Baviaanskloof - Forresters Cottage. 5 PRs! 🏆",
+    "sport_type": "TrailRun",
+    "start_date": "2026-07-26T12:19:30Z",
+    "start_date_local": "2026-07-26T14:19:30Z",
+    "start_latlng": [
+      -34.044193,
+      18.361644
+    ],
+    "total_elevation_gain": 418.1
+  },
   "196727024": {
     "_weather": {
       "cat": "cloudy",
