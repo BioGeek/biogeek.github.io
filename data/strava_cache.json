@@ -11225,6 +11225,28 @@
     ],
     "total_elevation_gain": 418.1
   },
+  "19531544435": {
+    "_weather": {
+      "cat": "cloudy",
+      "precip": 0.0,
+      "temp": 17.7
+    },
+    "distance": 8272.0,
+    "id": 19531544435,
+    "map": {
+      "summary_polyline": "jrqnE_}ioBi@Gg@I]I_A]s@Mg@Mo@[_@_@i@_@q@]Qa@IuAKk@a@i@Ua@Ug@Cc@@_AH{CW}ACeAKc@WUq@U_@E]FO?CAOa@Ii@a@kBE{@QmAMa@QYs@q@a@Yg@Ow@GoAAo@[iAYOKMc@FiA@q@Hy@B_A@}@C]EKyA}B]QG?cAz@c@J}BRa@Ny@g@_@_@IMOe@u@}AI]B_AIkAWw@OYMUa@e@c@SSEi@?WDSGEKGc@M]c@a@IOKaAW_ASWOOUK[K[GeBUi@OO@g@PWT_AfAQJ[ZQDCEd@a@Te@Jc@N]FYHsBJc@Rg@t@k@lA_@TAd@Hn@ZLTA\\DRJRv@Pb@ANEv@FPCJBdAp@b@Ld@Wb@Wb@E`@P\\ZdCxA^VTb@TxADj@Aj@Gh@Of@El@BJ`@Nv@c@b@Gf@CjABb@Id@Ut@e@h@Gb@RZZr@|@Rd@b@n@Th@p@pALl@An@Mh@@n@Hl@L^N^BDBABGOq@MaA?a@h@aADUHc@?k@Q_@a@c@OYy@aC[s@_@k@wAeBmBgBk@Qa@JITOP]OUk@]qAk@uDUa@US]Wk@WYIe@E_@Y}@}@a@[_@Qg@@WGOUMKCK@C@]_@]SWKUEUAkAKo@Q}ASm@u@mAg@i@MIwBo@SKNq@Ag@Fa@L[N@fEvA^RnA|@Zd@Nj@JrATf@JJVDVL^VNPD@TATGXAZKh@AF?FF^h@j@`@f@j@Vd@XVTn@`@PHZP\\\\VZ\\p@nA\\LLLL^RXLj@dAvA~@bAZVxAtB^`@FJDl@Ld@r@fATd@BLJ~@B~@P|@NhATh@XZRNLXTJPLHJHb@?LENWXCNSPIVQREPUZITUVCLINCRC\\D\\Ch@BVEb@@b@BJFHL`@BPALNt@DHHDFVCPCdDKj@DR@h@C|BXn@d@`@Vl@NdARdCEn@YtAI`ABx@FZVx@d@lANh@Bl@Jh@|@f@`BjAx@VVDlAZ\\DLDH@XINBj@Tf@J^FZJLJJTFBDJBTLT"
+    },
+    "moving_time": 3125,
+    "name": "Steady with the Leopards 🐆",
+    "sport_type": "TrailRun",
+    "start_date": "2026-07-30T15:57:10Z",
+    "start_date_local": "2026-07-30T17:57:10Z",
+    "start_latlng": [
+      -34.010133,
+      18.406088
+    ],
+    "total_elevation_gain": 216.0
+  },
   "196727024": {
     "_weather": {
       "cat": "cloudy",
