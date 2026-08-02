@@ -11247,6 +11247,28 @@
     ],
     "total_elevation_gain": 216.0
   },
+  "19556733025": {
+    "_weather": {
+      "cat": "clear",
+      "precip": 0.0,
+      "temp": 26.8
+    },
+    "distance": 2929.1,
+    "id": 19556733025,
+    "map": {
+      "summary_polyline": "bgxnEegaoBXm@BK@SRc@\\a@r@k@Z_@FCnAH`@Q^Sh@Bd@?^Gd@Fb@LRL^I^Vj@X`@XXNt@fAZj@b@b@R@LELS^{A?MHSfAg@PS`@OF@FJCZs@V_@XQTQd@CLLhBMl@GDc@Do@Ek@MyB[I@AJHHFb@LXE^Pr@@l@Gl@_@pAMj@m@xBiArEKj@qAbB?FAAD?MGF@?KLi@Xg@He@Ts@HMLa@BOb@mAl@mCLe@N_@@}@Ns@?y@CCDMDBJu@DCJWF?FG@FICKDa@QBQOG?GBEYW}@SYS[OOOSCGKCYCIA?IFKBO^O@a@RY^[Ro@x@E?SPUQK\\OJOf@S`@]\\q@`ACJMRw@x@]VIEC]i@wAs@k@COMQD]h@k@P]TWHOZWFF@KXc@EOKC@B"
+    },
+    "moving_time": 1693,
+    "name": "Afternoon Run",
+    "sport_type": "Run",
+    "start_date": "2026-08-01T12:47:44Z",
+    "start_date_local": "2026-08-01T14:47:44Z",
+    "start_latlng": [
+      -34.044171,
+      18.36163
+    ],
+    "total_elevation_gain": 49.0
+  },
   "196727024": {
     "_weather": {
       "cat": "cloudy",
