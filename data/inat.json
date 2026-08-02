@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-07-26T07:36:00+00:00",
+  "generated_at": "2026-08-02T07:32:11+00:00",
   "user": "biogeek",
   "stats": {
-    "observations": 1510,
-    "species": 975,
-    "threatened_observations": 91,
-    "research_grade": 764,
+    "observations": 1513,
+    "species": 978,
+    "threatened_observations": 92,
+    "research_grade": 768,
     "by_group": {
-      "Plantae": 638,
-      "Insecta": 286,
+      "Plantae": 639,
+      "Insecta": 287,
       "Aves": 180,
       "Mammalia": 130,
-      "Reptilia": 57,
+      "Reptilia": 58,
       "Animalia": 51,
       "Fungi": 50,
       "Arachnida": 36,
@@ -29,7 +29,7 @@
       "2023": 115,
       "2024": 495,
       "2025": 460,
-      "2026": 372
+      "2026": 375
     },
     "top_species": [
       {
@@ -198,20 +198,6 @@
       "iucn": null
     },
     {
-      "id": 332198940,
-      "species": "Panthera leo melanochaita",
-      "common_name": "Southern Lion",
-      "group": "Mammalia",
-      "observed_on": "2025-12-20",
-      "place": "Siyanda, ZA-NC, ZA",
-      "quality_grade": "research",
-      "faves": 1,
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/602820219/large.jpg",
-      "uri": "https://www.inaturalist.org/observations/332198940",
-      "conservation_status": null,
-      "iucn": null
-    },
-    {
       "id": 324823211,
       "species": "Messor capensis",
       "common_name": "Cape Harvester Ant",
@@ -222,6 +208,20 @@
       "faves": 1,
       "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/588006083/large.jpg",
       "uri": "https://www.inaturalist.org/observations/324823211",
+      "conservation_status": null,
+      "iucn": null
+    },
+    {
+      "id": 332198940,
+      "species": "Panthera leo melanochaita",
+      "common_name": "Southern Lion",
+      "group": "Mammalia",
+      "observed_on": "2025-12-20",
+      "place": "Siyanda, ZA-NC, ZA",
+      "quality_grade": "research",
+      "faves": 1,
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/602820219/large.jpg",
+      "uri": "https://www.inaturalist.org/observations/332198940",
       "conservation_status": null,
       "iucn": null
     },
@@ -7966,8 +7966,8 @@
       "lat": -19.33248,
       "lng": 15.94008,
       "group": "Insecta",
-      "common_name": "Short-horned Grasshoppers",
-      "species": "Acrididae"
+      "common_name": "Slant-faced Grasshoppers",
+      "species": "Gomphocerinae"
     },
     {
       "lat": -19.33248,
@@ -10017,8 +10017,8 @@
       "lat": -34.54023,
       "lng": 19.41198,
       "group": "Insecta",
-      "common_name": "Wasp Moths and Handmaiden Moths",
-      "species": "Syntomini"
+      "common_name": null,
+      "species": "Eutomis minceus"
     },
     {
       "lat": -34.54023,
@@ -10031,8 +10031,8 @@
       "lat": -34.54023,
       "lng": 19.41198,
       "group": "Insecta",
-      "common_name": "Large Black Nest Chafer",
-      "species": "Diplognatha gagates"
+      "common_name": "Black Mirror Chafer",
+      "species": "Diplognatha gagates silicea"
     },
     {
       "lat": -34.54023,
@@ -10686,8 +10686,8 @@
       "species": "Vanellus armatus"
     },
     {
-      "lat": -34.09767,
-      "lng": 18.35869,
+      "lat": -34.10644,
+      "lng": 18.35397,
       "group": "Plantae",
       "common_name": "flowering plants",
       "species": "Angiospermae"
@@ -10698,6 +10698,27 @@
       "group": "Aves",
       "common_name": "African Penguin",
       "species": "Spheniscus demersus"
+    },
+    {
+      "lat": -34.0496,
+      "lng": 18.36262,
+      "group": "Reptilia",
+      "common_name": "Common Slug-eater",
+      "species": "Duberria lutrix"
+    },
+    {
+      "lat": -34.04358,
+      "lng": 18.36188,
+      "group": "Insecta",
+      "common_name": "Dark-winged Fungus Gnats",
+      "species": "Sciaridae"
+    },
+    {
+      "lat": -34.04355,
+      "lng": 18.36189,
+      "group": "Plantae",
+      "common_name": "Blushing Bride",
+      "species": "Serruria florida"
     },
     {
       "lat": -34.04062,
