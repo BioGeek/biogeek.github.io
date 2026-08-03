@@ -90,7 +90,7 @@ I build and ship machine-learning systems for science. My main application is *d
     <div class="pub-venue"><span class="venue-name">Nature Machine Intelligence</span> · 2025 · 7(4):565–579</div>
     <div class="pub-badges">
       <a class="badge-primary" href="https://doi.org/10.1038/s42256-025-01019-5"><i class="bi bi-journal-text"></i> Nature Mach. Intell.</a>
-      <a href="https://github.com/instadeepai/InstaNovo"><i class="bi bi-github"></i> Code (125 <i class="bi bi-star-fill"></i>)</a>
+      <a href="https://github.com/instadeepai/InstaNovo"><i class="bi bi-github"></i> Code (126 <i class="bi bi-star-fill"></i>)</a>
       <a href="https://deepchain.bio/sequence-peptideswithout-reference-databases/"><i class="bi bi-box-seam"></i> Commercial hosting (DeepChain)</a>
       <a href="https://instadeepai.github.io/InstaNovo/"><i class="bi bi-book"></i> Docs</a>
       <a href="https://huggingface.co/spaces/InstaDeepAI/InstaNovo"><i class="bi bi-play-circle"></i> Demo</a>
