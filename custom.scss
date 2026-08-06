@@ -407,6 +407,13 @@ ol.pipeline li::before {
   margin-bottom: 0.6rem;
 }
 .pub-body .pub-venue .venue-name { font-style: italic; }
+// One or two line plain-language summary of what each paper is/does.
+.pub-body .pub-summary {
+  font-size: 0.94rem;
+  line-height: 1.4;
+  color: var(--bs-body-color);
+  margin: 0 0 0.55rem;
+}
 
 .flagship .pub-title::before {
   content: "★ ";
