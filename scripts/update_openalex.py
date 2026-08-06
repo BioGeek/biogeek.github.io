@@ -77,7 +77,9 @@ def main():
              f'<span class="h-index-term" tabindex="0" role="note" '
              f'aria-label="{i10_tip}" data-tip="{i10_tip}">i10</span> '
              f'<strong>{i10}</strong> &middot; '
-             f'<span style="color:#888;font-size:.8rem">via OpenAlex, {now:%b %Y}</span>')
+             f'<span style="color:#888;font-size:.8rem">'
+             f'<a href="https://openalex.org/works?filter=author.orcid:{ORCID}">via OpenAlex</a>, '
+             f'{now:%b %Y}</span>')
 
     # 1) Inject the metrics strip into index.qmd between the markers.
     text = open(QMD, encoding="utf-8").read()

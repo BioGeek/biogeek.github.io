@@ -927,3 +927,8 @@ div.callout-note.callout-style-default > .callout-header {
   padding: 0.4rem 0.5rem;
 }
 #section-menu .nav-link .bi-list { font-size: 1.15rem; line-height: 1; }
+
+// The "via OpenAlex" source link in the publications metrics strip: keep it the
+// same muted grey as the surrounding text (not the teal link colour), just underlined.
+.pub-metrics a { color: #888; text-decoration: underline; }
+.pub-metrics a:hover { color: #888; }
