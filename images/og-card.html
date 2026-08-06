@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,600;0,700;0,800;1,400;1,600&display=swap" rel="stylesheet">
+<style>
+  :root { --teal: #0f766e; --teal-dark: #0b5e54; --ink: #111827; --muted: #4b5563; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; background: #ffffff; }
+  .card {
+    position: relative;
+    width: 1200px;
+    height: 630px;
+    overflow: hidden;
+    background: #ffffff;
+    font-family: "Inter", system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  .edge { position: absolute; top: 0; bottom: 0; left: 0; width: 12px; background: var(--teal); }
+  .content { position: absolute; top: 0; left: 0; right: 0; padding: 48px 60px 0 84px; }
+  h1 { font-size: 76px; font-weight: 800; color: var(--ink); letter-spacing: -2px; line-height: 1.02; }
+  .sub { font-size: 34px; font-weight: 700; color: var(--teal); margin-top: 10px; }
+  .tag { font-size: 25px; color: var(--muted); margin-top: 8px; }
+  .tag i { font-style: italic; }
+  .badges { display: flex; gap: 13px; margin-top: 18px; }
+  .badge {
+    font-size: 20px; font-weight: 600; color: var(--teal);
+    background: #e8f1ef; border: 1px solid #c9e0db;
+    border-radius: 999px; padding: 6px 19px;
+  }
+  ul { list-style: none; margin-top: 22px; }
+  li { font-size: 30px; color: #1f2937; margin: 11px 0; display: flex; align-items: baseline; gap: 16px; line-height: 1.25; }
+  li .check { color: var(--teal); font-weight: 700; flex: 0 0 auto; }
+  li b { font-weight: 700; color: var(--ink); }
+  .footer {
+    position: absolute; left: 0; right: 0; bottom: 0; height: 84px;
+    background: var(--teal-dark); color: #ffffff;
+    display: flex; align-items: center; gap: 20px; padding-left: 84px;
+    font-size: 42px; font-weight: 700;
+  }
+</style>
+</head>
+<body>
+  <div class="card">
+    <div class="edge"></div>
+    <div class="content">
+      <h1>Jeroen Van Goey</h1>
+      <div class="sub">Staff Research Engineer &middot; BioAI Lead</div>
+      <div class="tag">Generative models for biology &middot; <i>de novo</i> peptide sequencing</div>
+      <div class="badges">
+        <span class="badge">PyTorch</span>
+        <span class="badge">Transformers</span>
+        <span class="badge">Diffusion models</span>
+        <span class="badge">LLMs</span>
+      </div>
+      <ul>
+        <li><span class="check">&#10003;</span><span>Lead &amp; hire cross-disciplinary <b>BioAI research teams</b></span></li>
+        <li><span class="check">&#10003;</span><span>Take <b>generative models</b> from research to production</span></li>
+        <li><span class="check">&#10003;</span><span>Distributed training on <b>HPC supercomputers</b></span></li>
+        <li><span class="check">&#10003;</span><span>Published in <b>Nature Machine Intelligence</b> &amp; <b>Nature Communications</b></span></li>
+      </ul>
+    </div>
+    <div class="footer"><span>&#127760;</span><span>jeroen.vangoey.be</span></div>
+  </div>
+</body>
+</html>
