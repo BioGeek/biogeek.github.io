@@ -11269,6 +11269,28 @@
     ],
     "total_elevation_gain": 49.0
   },
+  "19629867474": {
+    "_weather": {
+      "cat": "clear",
+      "precip": 0.0,
+      "temp": 13.3
+    },
+    "distance": 9093.2,
+    "id": 19629867474,
+    "map": {
+      "summary_polyline": "|ernE{yroBF?V^APF^Eh@DPO\\Ah@]r@Ch@g@bDY^c@fAkBlBmB|De@r@Oh@e@x@Od@?J[XIPCVkAzB_@nAc@|@Ib@Uh@Qp@wAjCk@vACJFFKXIFGdAGl@Sr@Er@]fAA`@@HH@ON[~@O?BPK\\E`@Ub@c@rA]t@i@hBi@^m@lBMPeAbAq@jA]ZY^SHW?[Ry@xAUxAMtCBf@d@tCDbALj@Ff@@`@EZ@b@GJ@FCt@Lv@Nf@Ht@T`A`@nDAd@Vx@Bf@HZDh@RhAAj@TXARDDG^KDINOl@j@LPj@F\\Af@Q`@@f@Sb@LFJAJNR?JHHP?NOn@?Ld@r@Hl@Cj@HFBLNPPxAEPON@FCGi@hAKVANAfAH^P`@Df@MfAFP@b@Zp@Kt@E?@PDHUh@AHXlACt@DV?p@Nb@GTWXGPDr@CNMLAHh@tAALM^@N^Tf@DJGHQF?JVVFJXECFCC@DBABDAEC@CIBEJ@EMVSt@{@~@q@f@}@NGODQPQ@OCO]e@[MGM]eBAm@uAaCFq@Ui@m@gAeAy@W_@_@[k@aAu@u@MWEFATUoAY[e@WsB}C]UQ]_@WGW_@o@}@_A[KODcAw@y@Ga@^c@UQU[K[U[a@As@Kq@Mi@Sa@wAkAeAg@gBo@eAYIBMX?NGP@l@KVWQq@BWIIMC?Kg@GEB?Dc@Vi@EKD?QOAKOAw@JQEM@YMw@Di@MYKIMCSYK@y@Ms@a@YM[QSg@OUMBWMKGcAFUT[b@]Za@XO@SPQHc@b@ELWv@m@Zc@r@e@^a@^GAG^UJULMHU@a@d@}@Jm@jBiELa@Ra@PuAT_@He@V_@Lo@^}@f@a@BWTi@\\uA~@w@X[XM~@}@LELJ\\`AZCd@D`Aa@rAYv@Yr@KnAo@r@Gh@NDFC?HELDLZXB_@j@BLL@\\Ml@@JUFC|@CvBgBJQf@e@p@c@hAWj@YfAgAz@m@VGZPHAZm@jBwEFg@t@eCJcAR{@Fi@Ro@Z{CXaAVm@f@w@n@{Al@kBLSz@_Cf@aAh@oAd@oAvAoC|AmD\\c@dBiBl@_AX_AX}ANyALg@LWBc@Jc@@qAEKSEYUO@QT?EYU_@GBA"
+    },
+    "moving_time": 3515,
+    "name": "Afternoon Trail Run",
+    "sport_type": "TrailRun",
+    "start_date": "2026-08-06T15:53:48Z",
+    "start_date_local": "2026-08-06T17:53:48Z",
+    "start_latlng": [
+      -34.013261,
+      18.451667
+    ],
+    "total_elevation_gain": 189.1
+  },
   "196727024": {
     "_weather": {
       "cat": "cloudy",
