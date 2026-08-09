@@ -11291,6 +11291,28 @@
     ],
     "total_elevation_gain": 189.1
   },
+  "19655244050": {
+    "_weather": {
+      "cat": "rain",
+      "precip": 0.3,
+      "temp": 14.4
+    },
+    "distance": 3520.9,
+    "id": 19655244050,
+    "map": {
+      "summary_polyline": "bgxnEsgaoBJVFQPiAh@e@\\i@XQN_@Jw@?QJeA?wACoDSw@GKUQWOo@@UM{@cBk@{AY}@a@_AQq@Yi@Ye@k@qAQo@Sc@ESI]A_@IWGc@WmA?yAHg@?IIO@OEUFc@Gc@Fu@K]Cg@O_@CYK]@QQU?AFEHc@EUS]Ec@@UHGBe@DU@KAQD]Cq@EW@KS_@OIFU?MD[GMD]Re@CW@IJORg@DAXa@LGL[@KEC@KCIAKBMDI?GDG?Ur@?@AEW@[Li@HO@OHOFGHCTc@FADB?TGWNZMK?GAKCAMPK`@E@Q^Kf@@HIb@?Ra@JO@EJ@DCLIZBPAHBH@FIJEPIDEJMLCJG@c@n@BVAHMREX@TDLE`@@FGR^j@AJHj@CbBIRAh@CDCVDTRf@@PEDEVIJ?FT|@?LPf@PfACz@JX@b@DNK\\FLA@?bCDd@TjATn@Fj@R`Af@dA|@hCb@v@X|@f@nAx@bCRVP@ZE^BNJ^r@Tv@Bf@@vBEtABvAAh@GRMNw@n@Yd@IPSz@Yf@KHGAGK[M"
+    },
+    "moving_time": 1934,
+    "name": "Afternoon Trail Run",
+    "sport_type": "TrailRun",
+    "start_date": "2026-08-08T13:22:43Z",
+    "start_date_local": "2026-08-08T15:22:43Z",
+    "start_latlng": [
+      -34.044172,
+      18.3617
+    ],
+    "total_elevation_gain": 201.0
+  },
   "196727024": {
     "_weather": {
       "cat": "cloudy",
