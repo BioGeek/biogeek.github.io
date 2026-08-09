@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-02T07:32:11+00:00",
+  "generated_at": "2026-08-09T05:47:08+00:00",
   "user": "biogeek",
   "stats": {
     "observations": 1513,
     "species": 978,
     "threatened_observations": 92,
-    "research_grade": 768,
+    "research_grade": 769,
     "by_group": {
       "Plantae": 639,
       "Insecta": 287,
@@ -101,7 +101,7 @@
     },
     {
       "id": 332626309,
-      "species": "Schizomantodea",
+      "species": "Miomantis",
       "common_name": null,
       "group": "Insecta",
       "observed_on": "2025-12-29",
@@ -115,7 +115,7 @@
     },
     {
       "id": 332626287,
-      "species": "Schizomantodea",
+      "species": "Miomantis",
       "common_name": null,
       "group": "Insecta",
       "observed_on": "2025-12-29",
@@ -170,20 +170,6 @@
       "iucn": null
     },
     {
-      "id": 243280861,
-      "species": "Chrysobothris smaragdinea",
-      "common_name": null,
-      "group": "Insecta",
-      "observed_on": "2024-09-21",
-      "place": "West Coast Peninsula, Zuid-Afrika",
-      "quality_grade": "research",
-      "faves": 1,
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/433793209/large.jpeg",
-      "uri": "https://www.inaturalist.org/observations/243280861",
-      "conservation_status": null,
-      "iucn": null
-    },
-    {
       "id": 224949836,
       "species": "Amblyrhynchote honckenii",
       "common_name": "Evileye Blaasop",
@@ -198,16 +184,16 @@
       "iucn": null
     },
     {
-      "id": 324823211,
-      "species": "Messor capensis",
-      "common_name": "Cape Harvester Ant",
+      "id": 243280861,
+      "species": "Chrysobothris smaragdinea",
+      "common_name": null,
       "group": "Insecta",
-      "observed_on": "2025-11-04",
-      "place": "Mainstream, Scott Estate, Cape Town, 7806, South Africa",
-      "quality_grade": "needs_id",
+      "observed_on": "2024-09-21",
+      "place": "West Coast Peninsula, Zuid-Afrika",
+      "quality_grade": "research",
       "faves": 1,
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/588006083/large.jpg",
-      "uri": "https://www.inaturalist.org/observations/324823211",
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/433793209/large.jpeg",
+      "uri": "https://www.inaturalist.org/observations/243280861",
       "conservation_status": null,
       "iucn": null
     },
@@ -222,6 +208,20 @@
       "faves": 1,
       "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/602820219/large.jpg",
       "uri": "https://www.inaturalist.org/observations/332198940",
+      "conservation_status": null,
+      "iucn": null
+    },
+    {
+      "id": 324823211,
+      "species": "Messor capensis",
+      "common_name": "Cape Harvester Ant",
+      "group": "Insecta",
+      "observed_on": "2025-11-04",
+      "place": "Mainstream, Scott Estate, Cape Town, 7806, South Africa",
+      "quality_grade": "needs_id",
+      "faves": 1,
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/588006083/large.jpg",
+      "uri": "https://www.inaturalist.org/observations/324823211",
       "conservation_status": null,
       "iucn": null
     },
@@ -7988,14 +7988,14 @@
       "lng": 16.9424,
       "group": "Insecta",
       "common_name": null,
-      "species": "Schizomantodea"
+      "species": "Miomantis"
     },
     {
       "lat": -18.80476,
       "lng": 16.9424,
       "group": "Insecta",
       "common_name": null,
-      "species": "Schizomantodea"
+      "species": "Miomantis"
     },
     {
       "lat": -18.80476,
