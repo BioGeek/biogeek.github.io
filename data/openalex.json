@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-03T09:55:24+00:00",
+  "generated_at": "2026-08-10T07:50:11+00:00",
   "orcid": "0000-0003-4480-5567",
-  "cited_by_count": 97,
+  "cited_by_count": 99,
   "works_count": 22,
   "h_index": 5,
   "i10_index": 4,
@@ -34,7 +34,7 @@
       "year": 2025,
       "works_count": 3,
       "oa_works_count": 3,
-      "cited_by_count": 51
+      "cited_by_count": 53
     },
     {
       "year": 2026,
@@ -48,7 +48,7 @@
       "title": "InstaNovo enables diffusion-powered de novo peptide sequencing in large-scale proteomics experiments",
       "year": 2025,
       "doi": "https://doi.org/10.1038/s42256-025-01019-5",
-      "cited_by_count": 36
+      "cited_by_count": 37
     },
     {
       "title": "De novo peptide sequencing with InstaNovo: Accurate, database-free peptide identification for large scale proteomics experiments",
@@ -60,7 +60,7 @@
       "title": "Open-Source and FAIR Research Software for Proteomics",
       "year": 2025,
       "doi": "https://doi.org/10.1021/acs.jproteome.4c01079",
-      "cited_by_count": 15
+      "cited_by_count": 16
     },
     {
       "title": "amueller/word_cloud: WordCloud 1.5.0",
