@@ -11313,6 +11313,28 @@
     ],
     "total_elevation_gain": 201.0
   },
+  "19670277926": {
+    "_weather": {
+      "cat": "clear",
+      "precip": 0.0,
+      "temp": 12.0
+    },
+    "distance": 2512.0,
+    "id": 19670277926,
+    "map": {
+      "summary_polyline": "zyqnEie_oB@CBMHJOEQIQHQ?YJU@UFG?@?EK@?@@CAAII{@?SK[?JEV[h@UJURGT?VSZETCAWRg@NQRMBONEH@??COPACK@QIBMAs@EMBOCSCIDQCe@@MCK@@?QBIGW?UCQGkCEUDSEM@WCCBEAQE_@AU@MEm@BQEY?Q@MKk@@UAk@CGCCEOD[EOD]E]B@ECACFa@CE@QEWD[GKB}@Cm@HiAKODG@UCa@B[Ea@B[AI@MEQ@KB@GEBACEBOAY@MA@@MCQ@_@CED]AG@EEA@?@IEK?w@@[FCNRJADEJCF@HHNCDBHIL@^b@?f@FTLNJd@IP?IGB@??bATJ@D@?@LJp@GH?HDPF@@ABBCA@FEHA?HC@K?@GAADBA?B?CCD@N@IBBCECD@EC@BAAANDDAJDEPDTTPHL?NFRLd@NVF\\JXFf@Cd@@PDH@NAl@DNB@?P@BEDAXIZB`@APC?BLCZEDB?GHIBGLCNBLHL@JAH?CBDBC@HATBDCH?JDb@F\\AN@ZE\\DZ?R@BB?C?CTDf@?LDNAX@RAg@CE@AJv@BECXBh@HP?f@Hl@B@TGNAN@ZGDCJAFEHBH?NDHALMFUJMDC@GF?@CFDA@B??CEBLLFJJ?LMZP`@FJDPNIFHKCCE?DFABAABI"
+    },
+    "moving_time": 2492,
+    "name": "Afternoon Hike",
+    "sport_type": "Hike",
+    "start_date": "2026-08-09T14:08:32Z",
+    "start_date_local": "2026-08-09T16:08:32Z",
+    "start_latlng": [
+      -34.011331,
+      18.351098
+    ],
+    "total_elevation_gain": 79.7
+  },
   "196727024": {
     "_weather": {
       "cat": "cloudy",
