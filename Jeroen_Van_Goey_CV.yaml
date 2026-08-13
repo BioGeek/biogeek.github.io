@@ -151,6 +151,10 @@ cv:
         end_date: 2026
         location: AIMS South Africa, with InstaDeep
         summary: Co-supervised several AIMS South Africa Master's students at InstaDeep on de novo peptide sequencing and proteomics, including InstaNovo interpretability (sparse autoencoders), diffusion models for mass spectrometry, glyco-peptide fine-tuning of InstaNovo, and AI-native proteomic database search via contrastive joint embeddings and a transformer-based scoring function.
+      - name: DTU PhD research stay
+        date: 2026
+        location: InstaDeep, Cape Town, South Africa
+        summary: Mentored a Technical University of Denmark (DTU) PhD student during a 3-month research stay at InstaDeep Cape Town, developing a foundational model for proteomics with rigorous software-engineering practices, part of the ongoing DTU and InstaDeep collaboration.
       - name: Machine Learning for Biology practical
         date: 2023
         location: Deep Learning Indaba, Ghana
