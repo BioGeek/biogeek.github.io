@@ -629,6 +629,7 @@ Co-supervised several African Institute for Mathematical Sciences (AIMS) South A
 <div class="pub-badges">
   <a href="https://www.linkedin.com/posts/mohammed-nagi-418924236_airesearch-machinelearning-mechanisticinterpretability-ugcPost-7480980239163117568-KkZc/"><i class="bi bi-linkedin"></i> Interpretability (SAEs)</a>
   <a href="https://www.linkedin.com/posts/vicent-mwanda-6b278313a_aims-googledeepmind-artificialintelligence-ugcPost-7480934646164340736-RRSL/"><i class="bi bi-linkedin"></i> Diffusion for MS</a>
+  <a href="https://www.linkedin.com/feed/update/urn:li:activity:7491538591270211584/"><i class="bi bi-linkedin"></i> AI-assisted database search</a>
 </div>
 
 **Machine Learning for Biology practical**\
