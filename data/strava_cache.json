@@ -11401,6 +11401,28 @@
     ],
     "total_elevation_gain": 376.0
   },
+  "19727975563": {
+    "_weather": {
+      "cat": "clear",
+      "precip": 0.0,
+      "temp": 20.8
+    },
+    "distance": 4700.0,
+    "id": 19727975563,
+    "map": {
+      "summary_polyline": "j|znEahboBAMCIMEg@@e@Ly@^OJiAtASPI@]?GCUQUk@OME?MHg@^u@DUAm@]o@DWJgAr@aAXO@oATk@PSJw@Hc@JWZIFuAl@MEEH@??A?BCBB??ECE?DEOEC@KLWRQRWP_@bBqBBIpAmBPMVYv@kAh@k@RGPM`@e@DMj@W`@]BAPWh@oAj@u@TQh@MVMr@m@^Qf@g@HSDe@FGHc@LYBm@DIEWCEGo@D]GaAN{@AOEGJIJERU\\k@Jo@Vq@?QZi@d@Qh@cAPG`@n@Z\\VLb@Jf@Mj@_ANaACYFDACC?JLG?@EEEBBSg@Mu@BULk@Bm@YU{@aBc@[Sg@QOCICCGMIe@KY@OCMBUCKBKAQBUAADEC@?GDGCEBDGFACF?@FBBA?@IIA?A@H@?CD@EAA?B@C?FMK?EHJD@?DC@BNAPCFHZCX@VPb@Hh@@DRLTh@h@d@p@vAHLRJBHYtA@ZFHBP@XNb@@T?LERC^KX_@f@WBSA_@GWI_@[[a@KQUHc@|@KHY@EFEZIR@PK\\ODOdAk@r@SDEBDj@GVCZBP@`@Gp@BXHV?r@Ij@S^GTI`@Q`@]Zo@\\EDF??E?B@AABBBdBMPKVWhAo@NQJWDJDb@@\\BNAF[l@QJI@S`@SvAITS\\cCvBSBa@?GJQjAq@PULSNSXc@x@UPFHd@J\\CTXCD@NHFRDv@C^MTOXCHBRf@VVR@PCPGv@{@b@_@`Aa@j@IV?ZJ?XQX?C"
+    },
+    "moving_time": 2317,
+    "name": "Up Blackburn Kloof on a beautiful and warm winter day",
+    "sport_type": "TrailRun",
+    "start_date": "2026-08-13T15:55:15Z",
+    "start_date_local": "2026-08-13T17:55:15Z",
+    "start_latlng": [
+      -34.05781,
+      18.366893
+    ],
+    "total_elevation_gain": 222.0
+  },
   "198070609": {
     "_weather": {
       "cat": "cloudy",
