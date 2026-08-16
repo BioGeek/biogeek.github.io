@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-09T05:47:08+00:00",
+  "generated_at": "2026-08-16T05:27:56+00:00",
   "user": "biogeek",
   "stats": {
-    "observations": 1513,
-    "species": 978,
+    "observations": 1517,
+    "species": 980,
     "threatened_observations": 92,
-    "research_grade": 769,
+    "research_grade": 771,
     "by_group": {
-      "Plantae": 639,
+      "Plantae": 642,
       "Insecta": 287,
       "Aves": 180,
-      "Mammalia": 130,
+      "Mammalia": 131,
       "Reptilia": 58,
       "Animalia": 51,
       "Fungi": 50,
@@ -29,7 +29,7 @@
       "2023": 115,
       "2024": 495,
       "2025": 460,
-      "2026": 375
+      "2026": 379
     },
     "top_species": [
       {
@@ -5677,8 +5677,8 @@
       "lat": -33.8898,
       "lng": 18.81924,
       "group": "Insecta",
-      "common_name": "Holy Bark Mantid",
-      "species": "Tarachodes sanctus"
+      "common_name": "Bark Mantises",
+      "species": "Tarachodes"
     },
     {
       "lat": -33.88994,
@@ -7378,8 +7378,8 @@
       "lat": -34.04398,
       "lng": 18.36154,
       "group": "Insecta",
-      "common_name": "Holy Bark Mantid",
-      "species": "Tarachodes sanctus"
+      "common_name": "Bark Mantises",
+      "species": "Tarachodes"
     },
     {
       "lat": -34.04387,
@@ -10719,6 +10719,34 @@
       "group": "Plantae",
       "common_name": "Blushing Bride",
       "species": "Serruria florida"
+    },
+    {
+      "lat": -34.00877,
+      "lng": 18.35783,
+      "group": "Mammalia",
+      "common_name": "Cape Molerat",
+      "species": "Georychus capensis"
+    },
+    {
+      "lat": -34.04476,
+      "lng": 18.37647,
+      "group": "Plantae",
+      "common_name": "rope capespray",
+      "species": "Struthiola ciliata"
+    },
+    {
+      "lat": -34.04641,
+      "lng": 18.37631,
+      "group": "Plantae",
+      "common_name": "Needle Capesaffron",
+      "species": "Gnidia pinifolia"
+    },
+    {
+      "lat": -34.04641,
+      "lng": 18.37631,
+      "group": "Plantae",
+      "common_name": "Wagon Tree",
+      "species": "Protea nitida"
     },
     {
       "lat": -34.04062,
