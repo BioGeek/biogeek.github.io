@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-10T07:50:11+00:00",
+  "generated_at": "2026-08-17T07:04:18+00:00",
   "orcid": "0000-0003-4480-5567",
-  "cited_by_count": 99,
-  "works_count": 22,
+  "cited_by_count": 100,
+  "works_count": 23,
   "h_index": 5,
   "i10_index": 4,
   "counts_by_year": [
@@ -22,7 +22,7 @@
       "year": 2023,
       "works_count": 1,
       "oa_works_count": 1,
-      "cited_by_count": 29
+      "cited_by_count": 30
     },
     {
       "year": 2024,
@@ -38,8 +38,8 @@
     },
     {
       "year": 2026,
-      "works_count": 14,
-      "oa_works_count": 14,
+      "works_count": 15,
+      "oa_works_count": 15,
       "cited_by_count": 5
     }
   ],
@@ -54,7 +54,7 @@
       "title": "De novo peptide sequencing with InstaNovo: Accurate, database-free peptide identification for large scale proteomics experiments",
       "year": 2023,
       "doi": "https://doi.org/10.1101/2023.08.30.555055",
-      "cited_by_count": 29
+      "cited_by_count": 30
     },
     {
       "title": "Open-Source and FAIR Research Software for Proteomics",
@@ -162,6 +162,12 @@
       "title": "Updated DLDN-Bench De Novo Sequencing Benchmark Outputs with InstaNovo v1.2.2",
       "year": 2026,
       "doi": "https://doi.org/10.5281/zenodo.20767591",
+      "cited_by_count": 0
+    },
+    {
+      "title": "Generalizable Direct Protein Sequencing With InstaNexus",
+      "year": 2026,
+      "doi": "https://doi.org/10.1016/j.mcpro.2026.101547",
       "cited_by_count": 0
     },
     {
