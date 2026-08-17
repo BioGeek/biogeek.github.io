@@ -91,7 +91,7 @@ I build and ship machine-learning systems for science. My main application is *d
     <div class="pub-summary">A transformer (InstaNovo) and a diffusion model (InstaNovo+) that read peptide sequences straight from mass spectra with no reference database. Trained on up to 28 million spectra and validated on real datasets: improving therapeutic sequencing coverage, discovering novel peptides and detecting previously unreported organisms.</div>
     <div class="pub-badges">
       <a class="badge-primary" href="https://doi.org/10.1038/s42256-025-01019-5"><i class="bi bi-journal-text"></i> Nature Mach. Intell.</a>
-      <a href="https://github.com/instadeepai/InstaNovo"><i class="bi bi-github"></i> Code (126 <i class="bi bi-star-fill"></i>)</a>
+      <a href="https://github.com/instadeepai/InstaNovo"><i class="bi bi-github"></i> Code (127 <i class="bi bi-star-fill"></i>)</a>
       <a href="https://deepchain.bio/sequence-peptideswithout-reference-databases/"><i class="bi bi-box-seam"></i> Commercial hosting (DeepChain)</a>
       <a href="https://instadeepai.github.io/InstaNovo/"><i class="bi bi-book"></i> Docs</a>
       <a href="https://huggingface.co/spaces/InstaDeepAI/InstaNovo"><i class="bi bi-play-circle"></i> Demo</a>
