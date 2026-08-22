@@ -11489,6 +11489,28 @@
     ],
     "total_elevation_gain": 259.0
   },
+  "19838895800": {
+    "_weather": {
+      "cat": "cloudy",
+      "precip": 0.0,
+      "temp": 20.0
+    },
+    "distance": 3740.2,
+    "id": 19838895800,
+    "map": {
+      "summary_polyline": "lifmEiiwyBEEYg@[a@Y]IGKBgAvAMJAFBJNTb@b@t@dAx@|@V^~BtD\\r@dArAVb@bApAbAlBrAzAVb@Kf@[XwAv@YTg@j@[Rq@r@_@Xs@v@ARBl@Aj@Oj@OXWRg@Jc@De@Ec@@e@L_@TuAtAc@RYBg@I]W[c@Ik@Bo@Lg@Xe@t@}@Zg@nBaClBsBDI?IuCgEaB}BSg@sAkEsA}Dw@wBg@iA{@wBuAyDE[`@WlDyAX_@Py@XwB@uACc@Oi@SyAUiAa@_DYaBSc@e@Rs@PsATWJEFIr@UVQCQUKk@}@cHB[HMRMTG~Ck@rCc@dIyALG?I"
+    },
+    "moving_time": 1234,
+    "name": "Chase the tuk-tuk",
+    "sport_type": "Run",
+    "start_date": "2026-08-21T15:35:06Z",
+    "start_date_local": "2026-08-21T17:35:06Z",
+    "start_latlng": [
+      -33.788548,
+      20.113018
+    ],
+    "total_elevation_gain": 58.0
+  },
   "2006583953": {
     "_weather": {
       "cat": "clear",
