@@ -11511,6 +11511,50 @@
     ],
     "total_elevation_gain": 58.0
   },
+  "19846481143": {
+    "_weather": {
+      "cat": "cloudy",
+      "precip": 0.0,
+      "temp": 9.4
+    },
+    "distance": 21039.2,
+    "id": 19846481143,
+    "map": {
+      "summary_polyline": "phfmEmhwyBZW}A_C}ApAi@OyG_In@oCNaE_Fl@qKiBuCjA{EtJqCfGiAv@sAFc@s@gA[{BeCgCwAq@_AqBq@o@_A_BaAyAcCUBYwAo@B@s@Se@iBaBDWW]kCAKwAo@uAs@_AqB]_AmCu@e@i@Ry@|BBh@{@PS`B]PUxDh@nBBt@Oh@g@j@sAdDuA~@yAFw@`Au@K[yAYOu@FiAq@eFP_BUwGeEWGe@nAe@CeF{C]JKRTpAoGjDwLpNoBW_At@eAbBPvAf@zA\\~Cj@z@RnAjB~AGXUHeC}@oAcCqDw@e@AqA`BSrBuClHkE~L`C~OpAzAf@bB?l@w@Q}@RyC}BqDa@}Bq@}BfAcCrBi@dEWb@g@E}AfEi@f@cAxLiCi@a@J]`D}BdE]jEi@rCH`Ha@jI}BzAMl@F^{AxA_ApE{B`BmEbJkA|@eDrAsDvG{@xD~C`Hy@nAqBfBuBZ}@rBq@l@iAQgCjBU[eB}IE{DW_CuB_GtBeBlAeC@e@{A}DmAiH{@SwBaDc@wCq@uAGy@NsAx@RfFkF|@Ln@k@n@FRj@v@j@bBAz@a@lA{@x@uBjBqCDg@z@aBf@a@E[kA]q@yAGsAm@_CCgArBmHhAgFj@eDt@oCv@sAbGkE`A_@pANFh@v@jATSn@h@`Bq@jBoBb@aAMgAf@v@hABbBwBlAs@l@VjA?\\]lCPrAsDd@aCTqDdA{CzAuB`Ag@\\}@b@l@X?fCaC|@^nAlC\\dFh@v@TK~CsJfDqId@oCZMfBgDn@{@dAe@l@yAQy@De@n@s@^mAlBwAhAeBx@gCiAsCtP_IfDh@`CxA`Ct@`@oAjIbErBNN[YQFWQMN_@e@UMc@p@a@FW@aAV[\\@Dw@VBVp@vASL_@xAC`Ab@JMLa@Mk@L_Ce@UXkB\\k@Mc@J{Az@_A~DwH`BoAbBo@|DGd@KvC^dAjB`@jCb@Lb@Mz@n@j@BCz@x@zB`@f@R[VB|@`AJZr@NbAt@AtBl@^VKZd@C|Av@D`@|@zAb@zAU`@k@l@C~@u@rEmA|AFbAWn@VhAg@t@Vd@u@BeBrChBPd@F`DNd@X?RM_@uEmBwFAi@zOwCbCnSv@fEGpAw@tE`@|@~FtHxB{AxA`CWh@"
+    },
+    "moving_time": 9929,
+    "name": "Montagu Trail Festival Cruise - day 1",
+    "sport_type": "TrailRun",
+    "start_date": "2026-08-22T05:31:07Z",
+    "start_date_local": "2026-08-22T07:31:07Z",
+    "start_latlng": [
+      -33.788409,
+      20.112871
+    ],
+    "total_elevation_gain": 496.0
+  },
+  "19850872392": {
+    "_weather": {
+      "cat": "cloudy",
+      "precip": 0.0,
+      "temp": 20.7
+    },
+    "distance": 656.7,
+    "id": 19850872392,
+    "map": {
+      "summary_polyline": "bifmEqhwyBLe@aAy@M@OHUR~@dAJF\\a@[e@[_@QE]\\AJLRn@l@JFBAVe@We@[_@GEGB_@\\CFFL`@XTZLFb@[IUu@}@CAG@a@b@x@z@NJHAAB"
+    },
+    "moving_time": 210,
+    "name": "Beer run 🍻",
+    "sport_type": "Run",
+    "start_date": "2026-08-22T13:30:15Z",
+    "start_date_local": "2026-08-22T15:30:15Z",
+    "start_latlng": [
+      -33.788499,
+      20.112896
+    ],
+    "total_elevation_gain": 1.0
+  },
   "2006583953": {
     "_weather": {
       "cat": "clear",
