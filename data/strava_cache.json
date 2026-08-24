@@ -11555,6 +11555,28 @@
     ],
     "total_elevation_gain": 1.0
   },
+  "19859663142": {
+    "_weather": {
+      "cat": "cloudy",
+      "precip": 0.0,
+      "temp": 9.5
+    },
+    "distance": 10815.5,
+    "id": 19859663142,
+    "map": {
+      "summary_polyline": "phfmEghwyBTYq@iAi@s@_Ah@WZFh@x@|AlAxAfAtBXRd@j@pAbCj@x@lArA^h@f@~@|AnBVf@IZKLi@`@qAv@qBjBcBnAI?WMo@y@eAgBQOQJmCdDgAfAMFWIGGMk@Eg@@qAEs@Uk@SWUOSCMDITI`BQt@Yv@i@n@kB|AGh@BV]ZMZQPKV?XCFDN?TFBBZS^?RMRUJADA\\ID@HMt@QJIj@QHKTCVGBCREDAPEH?ZCRH`A?FGFALB~AE^?d@CRNt@N\\`@VLB\\Ed@m@`Aq@n@BNLBnAEj@Ht@\\bA@nAKj@Sd@Sd@_@^M\\?d@P|A`@`A?DlAi@lAq@p@g@l@k@rCgBJS`@i@^uAXsAXqCBk@GkA?q@Dy@@m@E}@DYLSTSRDxAKz@YJYFk@HkAAMNkAPSb@Q\\_@b@cA^k@LKn@MnCExAK~ALb@JPHj@l@bAlBn@|@BADi@T_@@IAWOy@E]F_@Es@Jk@d@KV^Ph@Nl@hAtCHI?k@]qAK_B@q@HkBFyE?mCJyA@uDEeG[gHE_BF}ALc@FPH?NNN?VLNRXj@XRBPLV\\R\\`@\\l@TRLZJFDJLBNNLf@@d@DFBd@JVbAaAVOL?^o@ZeARc@Fu@FU|@kAv@y@JQHUAKSq@C[?OEGGSOeDPmBRg@NKNe@PmBHANPD?DKL{@HGLFD\\RVLINLLc@TJ?CD]Jg@hBy@v@M\\[pBsCbAiARa@Le@`@MPc@USAOMWOKqA_@]BYGY@ABB`@TnBDl@?j@ELs@Lg@NCLDX@b@LfA?PKZa@N}@J}@^_@FeD^yBLGJ_@bDQB?FAIABKC]@GREzBBj@AjAi@B{@V[EY@oAReAZULOLWx@IJId@U\\_A@ECKSM?EGC@Qd@Ij@?j@NjGC~@PpBF~A?p@FxACl@Bl@IpFM|DG~EDzAJh@ZjA@HCHI?We@{AcEGKMGSHKh@@FEF?j@GVB\\P~@?PITKHE`@GNGCYk@c@k@w@wAUWi@[cAOwAG{ALoBFs@JQYWMMm@L]Cg@Fg@IQC]CAEWQCAGBOCON_@GYFWf@s@VUPMx@Ul@g@v@}@BQ{BuCuB_Di@q@wBcDu@_AmB{C}AoBUc@ASVe@JMv@m@HDT`@~@lACVQT"
+    },
+    "moving_time": 4879,
+    "name": "Montagu Trail Festival - day 2",
+    "sport_type": "TrailRun",
+    "start_date": "2026-08-23T05:30:23Z",
+    "start_date_local": "2026-08-23T07:30:23Z",
+    "start_latlng": [
+      -33.788404,
+      20.112841
+    ],
+    "total_elevation_gain": 286.0
+  },
   "2006583953": {
     "_weather": {
       "cat": "clear",
