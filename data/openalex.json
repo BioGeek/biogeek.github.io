@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-17T07:04:18+00:00",
+  "generated_at": "2026-08-24T07:07:33+00:00",
   "orcid": "0000-0003-4480-5567",
-  "cited_by_count": 100,
+  "cited_by_count": 101,
   "works_count": 23,
   "h_index": 5,
   "i10_index": 4,
@@ -34,7 +34,7 @@
       "year": 2025,
       "works_count": 3,
       "oa_works_count": 3,
-      "cited_by_count": 53
+      "cited_by_count": 54
     },
     {
       "year": 2026,
@@ -48,7 +48,7 @@
       "title": "InstaNovo enables diffusion-powered de novo peptide sequencing in large-scale proteomics experiments",
       "year": 2025,
       "doi": "https://doi.org/10.1038/s42256-025-01019-5",
-      "cited_by_count": 37
+      "cited_by_count": 38
     },
     {
       "title": "De novo peptide sequencing with InstaNovo: Accurate, database-free peptide identification for large scale proteomics experiments",
@@ -117,15 +117,15 @@
       "cited_by_count": 0
     },
     {
-      "title": "Updated DLDN-Bench De Novo Sequencing Benchmark Outputs with InstaNovo v1.2.2",
+      "title": "A living proteomics benchmark for comprehensive evaluation of deep learning-based de novo peptide sequencing tools",
       "year": 2026,
-      "doi": "https://doi.org/10.5281/zenodo.20767590",
+      "doi": "https://doi.org/10.6084/m9.figshare.31680883.v1",
       "cited_by_count": 0
     },
     {
-      "title": "<b>A living proteomics benchmark for comprehensive </b><b>evaluation of deep learning-based </b><b><i>de novo</i></b><b> peptide </b><b>sequencing tools</b>",
+      "title": "Updated DLDN-Bench De Novo Sequencing Benchmark Outputs with InstaNovo v1.2.2",
       "year": 2026,
-      "doi": "https://doi.org/10.6084/m9.figshare.31680883.v1",
+      "doi": "https://doi.org/10.5281/zenodo.20767590",
       "cited_by_count": 0
     },
     {
@@ -177,7 +177,7 @@
       "cited_by_count": 0
     },
     {
-      "title": "<b>A living proteomics benchmark for comprehensive </b><b>evaluation of deep learning-based </b><b><i>de novo</i></b><b> peptide </b><b>sequencing tools</b>",
+      "title": "A living proteomics benchmark for comprehensive evaluation of deep learning-based de novo peptide sequencing tools",
       "year": 2026,
       "doi": "https://doi.org/10.6084/m9.figshare.31680883",
       "cited_by_count": 0
