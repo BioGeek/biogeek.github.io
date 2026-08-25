@@ -472,6 +472,8 @@ ol.pipeline li::before {
   color: var(--bs-secondary-color);
   margin-top: 0.4rem;
 }
+// Space the extra impact badges (Dimensions, BIP!) stacked under the Altmetric donut.
+.altmetric-box .metric-extra { margin-top: 1rem; }
 .coverage { flex: 1 1 320px; }
 
 .coverage-grid {

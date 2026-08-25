@@ -285,6 +285,19 @@ The InstaNovo paper drew broad attention across the scientific press.
   <div class="altmetric-box">
     <div data-badge-type="donut" data-badge-popover="right" data-doi="10.1038/s42256-025-01019-5" class="altmetric-embed"></div>
     <div class="altmetric-caption">Live Altmetric attention</div>
+
+    <div class="metric-extra">
+      <span class="__dimensions_badge_embed__" data-doi="10.1038/s42256-025-01019-5" data-style="small_circle"></span>
+      <div class="altmetric-caption">Dimensions citations</div>
+    </div>
+
+    <div class="metric-extra">
+      <div class="bip-embed" data-doi="10.1038/s42256-025-01019-5"></div>
+      <div class="altmetric-caption">BIP! impact indicators</div>
+    </div>
+
+    <script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+    <script async src="https://cdn.jsdelivr.net/gh/athenarc/bip-plugin@main/embed.min.js"></script>
   </div>
   <div class="coverage">
     <strong>Selected coverage</strong>
