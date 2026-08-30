@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-23T05:28:59+00:00",
+  "generated_at": "2026-08-30T10:17:22+00:00",
   "user": "biogeek",
   "stats": {
-    "observations": 1520,
-    "species": 981,
+    "observations": 1523,
+    "species": 982,
     "threatened_observations": 92,
-    "research_grade": 771,
+    "research_grade": 775,
     "by_group": {
-      "Plantae": 642,
+      "Plantae": 643,
       "Insecta": 288,
-      "Aves": 180,
-      "Mammalia": 131,
+      "Aves": 181,
+      "Mammalia": 132,
       "Reptilia": 58,
       "Animalia": 52,
       "Fungi": 50,
@@ -29,13 +29,13 @@
       "2023": 115,
       "2024": 495,
       "2025": 460,
-      "2026": 382
+      "2026": 385
     },
     "top_species": [
       {
         "species": "Papio ursinus",
         "common_name": "Chacma Baboon",
-        "count": 9
+        "count": 10
       },
       {
         "species": "Struthio camelus",
@@ -68,6 +68,11 @@
         "count": 7
       },
       {
+        "species": "Motacilla capensis",
+        "common_name": "Cape Wagtail",
+        "count": 6
+      },
+      {
         "species": "Chersina angulata",
         "common_name": "Angulate Tortoise",
         "count": 6
@@ -75,11 +80,6 @@
       {
         "species": "Arctocephalus pusillus",
         "common_name": "Brown Fur Seal",
-        "count": 6
-      },
-      {
-        "species": "Loxodonta africana",
-        "common_name": "African Savanna Elephant",
         "count": 6
       }
     ]
@@ -4571,7 +4571,7 @@
       "lat": -33.96144,
       "lng": 18.80929,
       "group": "Plantae",
-      "common_name": "Tickseed",
+      "common_name": "Tickseeds",
       "species": "Coreopsis"
     },
     {
@@ -6706,8 +6706,8 @@
       "lat": -1.93111,
       "lng": 30.06064,
       "group": "Plantae",
-      "common_name": "gingers, bananas, and allies",
-      "species": "Zingiberales"
+      "common_name": "Red Ginger",
+      "species": "Alpinia purpurata"
     },
     {
       "lat": -1.93084,
@@ -8029,8 +8029,8 @@
       "lat": -18.79344,
       "lng": 18.92634,
       "group": "Insecta",
-      "common_name": "Driver Ants and Allies",
-      "species": "Dorylus"
+      "common_name": "Helvolus-group Driver Ants and Allies",
+      "species": "Dorylus helvolus"
     },
     {
       "lat": -18.79344,
@@ -10768,6 +10768,27 @@
       "group": "Insecta",
       "common_name": "Brown Tricolour Tiger Moth",
       "species": "Rhodogastria amasis"
+    },
+    {
+      "lat": -33.74398,
+      "lng": 20.08259,
+      "group": "Mammalia",
+      "common_name": "Chacma Baboon",
+      "species": "Papio ursinus"
+    },
+    {
+      "lat": -33.76747,
+      "lng": 20.11597,
+      "group": "Plantae",
+      "common_name": "Christmas Aloe",
+      "species": "Aloe comptonii"
+    },
+    {
+      "lat": -33.78848,
+      "lng": 20.11308,
+      "group": "Aves",
+      "common_name": "Cape Wagtail",
+      "species": "Motacilla capensis"
     },
     {
       "lat": -34.04062,
