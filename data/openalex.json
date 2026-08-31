@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-24T07:07:33+00:00",
+  "generated_at": "2026-08-31T13:14:06+00:00",
   "orcid": "0000-0003-4480-5567",
   "cited_by_count": 101,
-  "works_count": 23,
+  "works_count": 27,
   "h_index": 5,
   "i10_index": 4,
   "counts_by_year": [
@@ -38,8 +38,8 @@
     },
     {
       "year": 2026,
-      "works_count": 15,
-      "oa_works_count": 15,
+      "works_count": 19,
+      "oa_works_count": 19,
       "cited_by_count": 5
     }
   ],
@@ -87,9 +87,45 @@
       "cited_by_count": 1
     },
     {
+      "title": "InstaNovo-FM: corpus assembly for a 92-dataset tandem mass spectrometry pretraining resource: dataset curation metadata, FragPipe search configurations, sequence databases and processing scripts",
+      "year": 2026,
+      "doi": "https://doi.org/10.6084/m9.figshare.33368752",
+      "cited_by_count": 0
+    },
+    {
+      "title": "InstaNovo-FM: corpus assembly for a 92-dataset tandem mass spectrometry pretraining resource: dataset curation metadata, FragPipe search configurations, sequence databases and processing scripts",
+      "year": 2026,
+      "doi": "https://doi.org/10.6084/m9.figshare.33368752.v1",
+      "cited_by_count": 0
+    },
+    {
+      "title": "InstaNovo-FM pretraining corpus: FragPipe workflow configurations for 92 public proteomics datasets",
+      "year": 2026,
+      "doi": "https://doi.org/10.6084/m9.figshare.33345456",
+      "cited_by_count": 0
+    },
+    {
+      "title": "InstaNovo-FM pretraining corpus: FragPipe workflow configurations for 92 public proteomics datasets",
+      "year": 2026,
+      "doi": "https://doi.org/10.6084/m9.figshare.33345456.v1",
+      "cited_by_count": 0
+    },
+    {
+      "title": "guomics-lab/MassNet-DDA: v1.1",
+      "year": 2026,
+      "doi": "https://doi.org/10.5281/zenodo.21151147",
+      "cited_by_count": 0
+    },
+    {
       "title": "guomics-lab/MassNet-DDA: v1.1",
       "year": 2026,
       "doi": "https://doi.org/10.5281/zenodo.21151148",
+      "cited_by_count": 0
+    },
+    {
+      "title": "Awesome De Novo Peptide Sequencing",
+      "year": 2026,
+      "doi": "https://doi.org/10.5281/zenodo.20825737",
       "cited_by_count": 0
     },
     {
@@ -99,9 +135,33 @@
       "cited_by_count": 0
     },
     {
-      "title": "guomics-lab/MassNet-DDA: v1.1",
+      "title": "Updated DLDN-Bench De Novo Sequencing Benchmark Outputs with InstaNovo v1.2.2",
       "year": 2026,
-      "doi": "https://doi.org/10.5281/zenodo.21151147",
+      "doi": "https://doi.org/10.5281/zenodo.20767591",
+      "cited_by_count": 0
+    },
+    {
+      "title": "Updated DLDN-Bench De Novo Sequencing Benchmark Outputs with InstaNovo v1.2.2",
+      "year": 2026,
+      "doi": "https://doi.org/10.5281/zenodo.20767590",
+      "cited_by_count": 0
+    },
+    {
+      "title": "InstaNovo prediction sample files for PDV import validation",
+      "year": 2026,
+      "doi": "https://doi.org/10.5281/zenodo.20756892",
+      "cited_by_count": 0
+    },
+    {
+      "title": "InstaNovo prediction sample files for PDV import validation",
+      "year": 2026,
+      "doi": "https://doi.org/10.5281/zenodo.20756891",
+      "cited_by_count": 0
+    },
+    {
+      "title": "instadeepai/InstaNovo-P: InstaNovo-P public release",
+      "year": 2026,
+      "doi": "https://doi.org/10.5281/zenodo.20430929",
       "cited_by_count": 0
     },
     {
@@ -119,19 +179,19 @@
     {
       "title": "A living proteomics benchmark for comprehensive evaluation of deep learning-based de novo peptide sequencing tools",
       "year": 2026,
+      "doi": "https://doi.org/10.6084/m9.figshare.31680883",
+      "cited_by_count": 0
+    },
+    {
+      "title": "A living proteomics benchmark for comprehensive evaluation of deep learning-based de novo peptide sequencing tools",
+      "year": 2026,
       "doi": "https://doi.org/10.6084/m9.figshare.31680883.v1",
       "cited_by_count": 0
     },
     {
-      "title": "Updated DLDN-Bench De Novo Sequencing Benchmark Outputs with InstaNovo v1.2.2",
+      "title": "Generalizable Direct Protein Sequencing With InstaNexus",
       "year": 2026,
-      "doi": "https://doi.org/10.5281/zenodo.20767590",
-      "cited_by_count": 0
-    },
-    {
-      "title": "InstaNovo prediction sample files for PDV import validation",
-      "year": 2026,
-      "doi": "https://doi.org/10.5281/zenodo.20756892",
+      "doi": "https://doi.org/10.1016/j.mcpro.2026.101547",
       "cited_by_count": 0
     },
     {
@@ -144,42 +204,6 @@
       "title": "De novo peptide sequencing with InstaNovo: Diffusion-powered, peptide identification for large scale proteomics experiments",
       "year": 2024,
       "doi": "https://doi.org/10.21203/rs.3.rs-3376248/v1",
-      "cited_by_count": 0
-    },
-    {
-      "title": "instadeepai/InstaNovo-P: InstaNovo-P public release",
-      "year": 2026,
-      "doi": "https://doi.org/10.5281/zenodo.20430929",
-      "cited_by_count": 0
-    },
-    {
-      "title": "InstaNovo prediction sample files for PDV import validation",
-      "year": 2026,
-      "doi": "https://doi.org/10.5281/zenodo.20756891",
-      "cited_by_count": 0
-    },
-    {
-      "title": "Updated DLDN-Bench De Novo Sequencing Benchmark Outputs with InstaNovo v1.2.2",
-      "year": 2026,
-      "doi": "https://doi.org/10.5281/zenodo.20767591",
-      "cited_by_count": 0
-    },
-    {
-      "title": "Generalizable Direct Protein Sequencing With InstaNexus",
-      "year": 2026,
-      "doi": "https://doi.org/10.1016/j.mcpro.2026.101547",
-      "cited_by_count": 0
-    },
-    {
-      "title": "Awesome De Novo Peptide Sequencing",
-      "year": 2026,
-      "doi": "https://doi.org/10.5281/zenodo.20825737",
-      "cited_by_count": 0
-    },
-    {
-      "title": "A living proteomics benchmark for comprehensive evaluation of deep learning-based de novo peptide sequencing tools",
-      "year": 2026,
-      "doi": "https://doi.org/10.6084/m9.figshare.31680883",
       "cited_by_count": 0
     }
   ]
