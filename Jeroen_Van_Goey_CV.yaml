@@ -64,7 +64,7 @@ cv:
         date: 2025
         summary: Trained on ~63 million spectra; top-ranked in an independent benchmark of 17 de novo tools across 83 datasets; Altmetric attention score 100+ and 120+ GitHub stars.
       - title: "InstaNovo-P: a *de novo* peptide sequencing model for phosphoproteomics"
-        authors: ["J. Lauridsen", "P. Ramasamy", "…", "**J. Van Goey**", "…", "K. Kalogeropoulos"]
+        authors: ["J. Lauridsen", "V. Canbay", "…", "**J. Van Goey**", "…", "K. Kalogeropoulos"]
         journal: Nature Communications
         doi: 10.1038/s41467-026-75138-x
         date: 2026
