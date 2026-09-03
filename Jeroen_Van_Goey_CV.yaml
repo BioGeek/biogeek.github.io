@@ -150,7 +150,7 @@ cv:
         start_date: 2025
         end_date: 2026
         location: AIMS South Africa, with InstaDeep
-        summary: Co-supervised several AIMS South Africa Master's students at InstaDeep on de novo peptide sequencing and proteomics, including InstaNovo interpretability (sparse autoencoders), diffusion models for mass spectrometry, glyco-peptide fine-tuning of InstaNovo, and AI-native proteomic database search via contrastive joint embeddings and a transformer-based scoring function.
+        summary: Co-supervised several AIMS South Africa Master's students at InstaDeep on de novo peptide sequencing and proteomics, including InstaNovo interpretability (sparse autoencoders), diffusion models for mass spectrometry, contrastive-predictive-coding encoder pretraining, glyco-peptide fine-tuning of InstaNovo, and AI-native proteomic database search via contrastive joint embeddings and a transformer-based scoring function.
       - name: DTU PhD research stay
         date: 2026
         location: InstaDeep, Cape Town, South Africa
