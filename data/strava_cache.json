@@ -11599,6 +11599,28 @@
     ],
     "total_elevation_gain": 53.3
   },
+  "20041719353": {
+    "_weather": {
+      "cat": "clear",
+      "precip": 0.0,
+      "temp": 15.6
+    },
+    "distance": 8239.0,
+    "id": 20041719353,
+    "map": {
+      "summary_polyline": "lbxnEa`aoBv@zAPf@F^BDFBTEb@[rBmClAiBx@{@r@cAd@c@PMF?^HN@nA^h@\\nAf@^Hr@Hx@Rz@Dj@A\\WJk@CkAVsARQf@Sp@QrAQjAMd@?bAOTMRSZe@JIv@IfAS`@QhBe@tAm@d@Wj@e@d@YX]n@_@REd@@PCxAi@d@KT?h@BNJJPK??FDAd@\\VJ`@Mh@mABCn@Qx@OTGPOVg@d@_BN]Ta@NSn@Yf@IRBb@NZFL@b@Eb@Q`AeA\\e@HWJg@Dm@Ae@C_@_@qCEo@M}@A_ARc@HEJ?T@j@^z@TH@\\GPONe@L{@?e@N}A@w@Bi@Ni@JKXKVFPLx@|@RJZFr@DjCa@|Bm@v@o@h@WZUB@AVSKLa@|@[?GBBABXCNGN?JDTD^Tf@j@^x@Tl@Tb@PNb@PbC\\|@NVJp@^vBrA~@b@x@d@b@JP?xBa@n@@RFzBrA`@\\LPFNLzANd@h@r@Xh@^NPBVGJKEEi@AYK[Wq@wAi@mBIQIKsBmAc@SWCQ?q@Hq@Pc@FUAe@Ka@[c@QiBcAwBcAs@UsBYgBm@UUy@yBUc@]]c@Oi@?]Jc@Vw@dAo@p@W\\{@Ac@N]Ds@COBeAXe@Fe@Ge@Qw@w@_@UG?[DIHKNIRG`@IfBEjCIn@INa@ZQBe@GcB_Ae@FKh@^pDFb@XrCCp@Kj@OZSTi@v@[Z_@VSDW?e@C_@Me@Gc@B]NSNW`@o@pBQb@U`@c@VmANOD_@VSb@Yb@e@B]UQQa@Sa@?u@BcAj@oAFSDSJuApAm@d@cAh@uA^yAN[N]LiANc@NW^]Zc@N}@F{ADUDmAAaALSJWTMPOf@YlAKTOJa@EQQESc@c@o@{@e@[]_@YO{@[_@QYQ_@OO@KN}A?c@L]VI@gASC@y@b@]\\SXQ`@ITGd@Ub@MDIEOCSOIQ"
+    },
+    "moving_time": 3614,
+    "name": "Chappies to the white bike and back",
+    "sport_type": "Run",
+    "start_date": "2026-09-03T16:42:40Z",
+    "start_date_local": "2026-09-03T18:42:40Z",
+    "start_latlng": [
+      -34.043423,
+      18.360498
+    ],
+    "total_elevation_gain": 193.0
+  },
   "2006583953": {
     "_weather": {
       "cat": "clear",
