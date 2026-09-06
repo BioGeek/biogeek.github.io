@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-30T10:17:22+00:00",
+  "generated_at": "2026-09-06T09:10:48+00:00",
   "user": "biogeek",
   "stats": {
     "observations": 1523,
-    "species": 982,
-    "threatened_observations": 92,
+    "species": 981,
+    "threatened_observations": 91,
     "research_grade": 775,
     "by_group": {
       "Plantae": 643,
@@ -170,20 +170,6 @@
       "iucn": null
     },
     {
-      "id": 243280861,
-      "species": "Chrysobothris smaragdinea",
-      "common_name": null,
-      "group": "Insecta",
-      "observed_on": "2024-09-21",
-      "place": "West Coast Peninsula, Zuid-Afrika",
-      "quality_grade": "research",
-      "faves": 1,
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/433793209/large.jpeg",
-      "uri": "https://www.inaturalist.org/observations/243280861",
-      "conservation_status": null,
-      "iucn": null
-    },
-    {
       "id": 224949836,
       "species": "Amblyrhynchote honckenii",
       "common_name": "Evileye Blaasop",
@@ -194,6 +180,20 @@
       "faves": 1,
       "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/398759878/large.jpeg",
       "uri": "https://www.inaturalist.org/observations/224949836",
+      "conservation_status": null,
+      "iucn": null
+    },
+    {
+      "id": 243280861,
+      "species": "Chrysobothris smaragdinea",
+      "common_name": null,
+      "group": "Insecta",
+      "observed_on": "2024-09-21",
+      "place": "West Coast Peninsula, Zuid-Afrika",
+      "quality_grade": "research",
+      "faves": 1,
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/433793209/large.jpeg",
+      "uri": "https://www.inaturalist.org/observations/243280861",
       "conservation_status": null,
       "iucn": null
     },
@@ -10416,8 +10416,8 @@
       "lat": -29.86626,
       "lng": 31.13511,
       "group": "Animalia",
-      "common_name": "Common Blacktip Shark",
-      "species": "Carcharhinus limbatus"
+      "common_name": "Typical Requiem Sharks",
+      "species": "Carcharhinus"
     },
     {
       "lat": -29.86734,
