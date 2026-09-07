@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-31T13:14:06+00:00",
+  "generated_at": "2026-09-07T12:04:35+00:00",
   "orcid": "0000-0003-4480-5567",
-  "cited_by_count": 101,
-  "works_count": 27,
+  "cited_by_count": 102,
+  "works_count": 30,
   "h_index": 5,
   "i10_index": 4,
   "counts_by_year": [
@@ -34,12 +34,12 @@
       "year": 2025,
       "works_count": 3,
       "oa_works_count": 3,
-      "cited_by_count": 54
+      "cited_by_count": 55
     },
     {
       "year": 2026,
-      "works_count": 19,
-      "oa_works_count": 19,
+      "works_count": 22,
+      "oa_works_count": 22,
       "cited_by_count": 5
     }
   ],
@@ -48,7 +48,7 @@
       "title": "InstaNovo enables diffusion-powered de novo peptide sequencing in large-scale proteomics experiments",
       "year": 2025,
       "doi": "https://doi.org/10.1038/s42256-025-01019-5",
-      "cited_by_count": 38
+      "cited_by_count": 39
     },
     {
       "title": "De novo peptide sequencing with InstaNovo: Accurate, database-free peptide identification for large scale proteomics experiments",
@@ -85,6 +85,18 @@
       "year": 2016,
       "doi": "https://doi.org/10.5281/zenodo.49907",
       "cited_by_count": 1
+    },
+    {
+      "title": "mateuslab-prot/xuanjinovo-novotax: xuanjinovo-novotax v1.0.0",
+      "year": 2026,
+      "doi": "https://doi.org/10.5281/zenodo.22305108",
+      "cited_by_count": 0
+    },
+    {
+      "title": "mateuslab-prot/xuanjinovo-novotax: xuanjinovo-novotax v1.0.0",
+      "year": 2026,
+      "doi": "https://doi.org/10.5281/zenodo.22305109",
+      "cited_by_count": 0
     },
     {
       "title": "InstaNovo-FM: corpus assembly for a 92-dataset tandem mass spectrometry pretraining resource: dataset curation metadata, FragPipe search configurations, sequence databases and processing scripts",
@@ -192,6 +204,12 @@
       "title": "Generalizable Direct Protein Sequencing With InstaNexus",
       "year": 2026,
       "doi": "https://doi.org/10.1016/j.mcpro.2026.101547",
+      "cited_by_count": 0
+    },
+    {
+      "title": "InstaNovo-P: a de novo peptide sequencing model for phosphoproteomics",
+      "year": 2026,
+      "doi": "https://doi.org/10.1038/s41467-026-75138-x",
       "cited_by_count": 0
     },
     {
