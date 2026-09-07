@@ -689,13 +689,17 @@ Mentored the hands-on practical alongside InstaDeep and Google DeepMind colleagu
 
 <div class="pub-badges">
   <a href="https://github.com/BioGeek/indaba-pracs-2023/blob/main/practicals/ML_for_Bio_Indaba_Practical_2023.ipynb"><i class="bi bi-github"></i> Code</a>
-  <a href="https://www.linkedin.com/posts/yousra-farhani-7a416219a_machinelearning-biology-dli23-ugcPost-7109547765549936640-Y4t3/"><i class="bi bi-newspaper"></i> News</a>
+  <a href="https://www.linkedin.com/posts/yousra-farhani-7a416219a_machinelearning-biology-dli23-ugcPost-7109547765549936640-Y4t3/"><i class="bi bi-linkedin"></i> Practical highlights</a>
 </div>
 
 **Scientific Python training & mentoring**\
 <i class="bi bi-calendar3"></i> _2018–2020_\
 <img width="640" height="480" src="images/flags/be.svg" class="flag-icon" alt="Belgium">BASF and Bayer Crop Science, Belgium\
 Trained and mentored researchers and data scientists in scientific Python (NumPy, pandas, BioPython, …) as manager of the Python/R analysis platform used across the company's internal research community.
+
+<div class="pub-badges">
+  <a href="work/r-python-platforms.html"><i class="bi bi-easel"></i> R &amp; Python platforms</a>
+</div>
 
 ---
 
