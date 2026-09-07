@@ -68,6 +68,11 @@ cv:
         journal: Nature Communications
         doi: 10.1038/s41467-026-75138-x
         date: 2026
+      - title: Learning from tandem mass spectra at scale with a self-supervised foundation model for proteomics
+        authors: ["M. Nieuwoudt", "M. Reverenna", "…", "**J. Van Goey**", "K. Kalogeropoulos"]
+        journal: bioRxiv (preprint)
+        doi: 10.64898/2026.09.03.747733
+        date: 2026
       - title: "*De novo* peptide sequencing rescoring and FDR estimation with Winnow"
         authors: ["A. Mabona", "J. Daniel", "…", "**J. Van Goey**", "K. Kalogeropoulos"]
         journal: arXiv

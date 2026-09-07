@@ -121,6 +121,24 @@ I build and ship machine-learning systems for science. My main application is *d
   </div>
 </div>
 
+<div class="pub-card" id="pub-instanovo-fm">
+  <a class="pub-thumb" href="https://www.biorxiv.org/content/10.64898/2026.09.03.747733v1">
+    <img width="480" height="585" loading="lazy" src="images/publications/instanovo-fm_figure1.png" alt="InstaNovo-FM figure 1" />
+  </a>
+  <div class="pub-body">
+    <div class="pub-title"><a href="https://www.biorxiv.org/content/10.64898/2026.09.03.747733v1">Learning from tandem mass spectra at scale with a self-supervised foundation model for proteomics</a></div>
+    <div class="pub-authors">M. Nieuwoudt*, M. Reverenna*, <span class="author-ellipsis" role="button" tabindex="0" aria-expanded="false" aria-label="Full author list: M. Nieuwoudt*, M. Reverenna*, D. Patel*, R. Catzel, I. H. J. Houngue, J. Daniel, K. Eloff, A. Santos, N. Lopez Carranza, T. P. Jenkins, J. Van Goey†, K. Kalogeropoulos†" data-authors="M. Nieuwoudt*, M. Reverenna*, D. Patel*, R. Catzel, I. H. J. Houngue, J. Daniel, K. Eloff, A. Santos, N. Lopez Carranza, T. P. Jenkins, J. Van Goey†, K. Kalogeropoulos†">...</span> <strong>J. Van Goey</strong><span class="author-role" aria-label="co-senior author" title="co-senior author">†</span>, K. Kalogeropoulos<span class="author-role" aria-label="co-senior author" title="co-senior author">†</span></div>
+    <div class="pub-venue"><span class="venue-name">bioRxiv</span> (preprint) · 2026</div>
+    <div class="pub-summary">InstaNovo-FM, a self-supervised foundation model for bottom-up proteomics: an encoder-only transformer pretrained on 1.47 billion tandem mass spectra by physics-aware masked reconstruction, whose embeddings transfer to <i>de novo</i> sequencing, database-free identification and analytical run classification.</div>
+    <div class="pub-badges">
+      <a class="badge-primary" href="https://www.biorxiv.org/content/10.64898/2026.09.03.747733v1"><i class="bi bi-file-earmark-text"></i> bioRxiv</a>
+      <a href="https://github.com/instadeepai/InstaNovo-FM"><i class="bi bi-github"></i> Code</a>
+      <a href="https://huggingface.co/datasets/InstaDeepAI/InstaNovo"><i class="bi bi-database"></i> Datasets</a>
+      <a href="files/bib/nieuwoudt2026instanovo_fm.bib" download><i class="bi bi-quote"></i> BibTeX</a>
+    </div>
+  </div>
+</div>
+
 <div class="pub-card" id="pub-winnow">
   <a class="pub-thumb" href="https://arxiv.org/abs/2509.24952">
     <img width="480" height="418" loading="lazy" src="images/publications/winnow_figure1.png" alt="Winnow figure 1" />
@@ -657,9 +675,10 @@ Co-supervised several African Institute for Mathematical Sciences (AIMS) South A
 **DTU PhD research stay**\
 <i class="bi bi-calendar3"></i> _2026_\
 <img width="900" height="600" src="images/flags/za.svg" class="flag-icon" alt="South Africa">InstaDeep, Cape Town, South Africa\
-Mentored a PhD student from the Technical University of Denmark (DTU) during a 3-month research stay at InstaDeep in Cape Town, part of an ongoing collaboration between DTU and InstaDeep. Together we developed a foundational model for proteomics and put rigorous software-engineering practices in place, with a publication to come.
+Mentored a PhD student from the Technical University of Denmark (DTU) during a 3-month research stay at InstaDeep in Cape Town, part of an ongoing collaboration between DTU and InstaDeep. Together we developed InstaNovo-FM, a self-supervised foundation model for proteomics, and put rigorous software-engineering practices in place.
 
 <div class="pub-badges">
+  <a href="https://www.biorxiv.org/content/10.64898/2026.09.03.747733v1"><i class="bi bi-file-earmark-text"></i> InstaNovo-FM (bioRxiv)</a>
   <a href="https://www.linkedin.com/posts/welcome-back-to-two-of-our-phd-students-ugcPost-7485665343999287296-Pqac/"><i class="bi bi-linkedin"></i> Proteomics foundation model</a>
 </div>
 
