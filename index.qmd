@@ -639,12 +639,20 @@ I have **co-created, organized and judged** machine-learning hackathons at the [
 <img width="900" height="600" src="images/flags/za.svg" class="flag-icon" alt="South Africa">AIMS South Africa, with InstaDeep\
 Co-supervised several African Institute for Mathematical Sciences (AIMS) South Africa Master's students at InstaDeep on de novo peptide sequencing and proteomics: mechanistic interpretability of InstaNovo (sparse autoencoders), self-supervised diffusion models for mass spectrometry, contrastive-predictive-coding pretraining of a mass-spectra encoder, fine-tuning InstaNovo on glycosylation data, and an AI-native framework for large-scale proteomic database search via contrastive joint embeddings and a transformer-based scoring function.
 
+```{=html}
 <div class="pub-badges">
   <a href="https://www.linkedin.com/posts/mohammed-nagi-418924236_airesearch-machinelearning-mechanisticinterpretability-ugcPost-7480980239163117568-KkZc/"><i class="bi bi-linkedin"></i> Interpretability (SAEs)</a>
   <a href="https://www.linkedin.com/posts/vicent-mwanda-6b278313a_aims-googledeepmind-artificialintelligence-ugcPost-7480934646164340736-RRSL/"><i class="bi bi-linkedin"></i> Diffusion for MS</a>
   <a href="https://www.linkedin.com/feed/update/urn:li:activity:7491538591270211584/"><i class="bi bi-linkedin"></i> AI-assisted database search</a>
-  <a href="https://github.com/Abellegese/denovo"><i class="bi bi-github"></i> Spectra-encoder pretraining</a>
 </div>
+<div class="pub-badges thesis-row">
+  <a href="files/theses/interpretability-sparse-autoencoders-instanovo.pdf"><i class="bi bi-file-earmark-pdf"></i> Interpretability (SAEs) thesis</a>
+  <a href="files/theses/diffusion-foundation-model-mass-spectrometry.pdf"><i class="bi bi-file-earmark-pdf"></i> Diffusion for MS thesis</a>
+  <a href="files/theses/ai-guided-database-search-proteomics.pdf"><i class="bi bi-file-earmark-pdf"></i> AI-assisted database search thesis</a>
+  <a href="files/theses/spectra-encoder-cpc-pretraining.pdf"><i class="bi bi-file-earmark-pdf"></i> Spectra-encoder pretraining thesis</a>
+  <a href="files/theses/glyco-finetuning-instanovo.pdf"><i class="bi bi-file-earmark-pdf"></i> Glyco fine-tuning thesis</a>
+</div>
+```
 
 **DTU PhD research stay**\
 <i class="bi bi-calendar3"></i> _2026_\

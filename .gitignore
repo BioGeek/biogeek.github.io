@@ -46,3 +46,6 @@ wheels/
 /.claude/
 /.agents/
 /skills-lock.json
+
+# Staging area for source thesis PDFs; the served copies live in files/theses/.
+/pdfs/

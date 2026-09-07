@@ -427,6 +427,13 @@ ol.pipeline li::before {
   gap: 0.4rem;
   margin-top: 0.4rem;
 }
+// Thesis-PDF row: comfortable vertical breathing room between wrapped lines
+// (and the same separation from the showcase row above), without spreading
+// the buttons apart horizontally.
+.pub-badges.thesis-row {
+  row-gap: 0.6rem;
+  margin-top: 0.6rem;
+}
 .pub-badges a {
   display: inline-flex;
   align-items: center;
