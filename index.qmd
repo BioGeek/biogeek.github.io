@@ -380,6 +380,26 @@ The InstaNovo paper drew broad attention across the scientific press.
 </details>
 ```
 
+<!--
+  READY FOR LATER: an "InstaNovo-FM in the news" section, mirroring the
+  InstaNovo one above. Only a few LinkedIn posts so far, so it is kept
+  commented out. To enable: remove the surrounding comment wrapper, flesh
+  out the coverage, and add an "In the news" button linking to
+  #instanovo-fm-in-the-news on the InstaNovo-FM card.
+
+<section id="instanovo-fm-in-the-news">
+  <h3>InstaNovo-FM in the news</h3>
+  <div class="coverage">
+    <strong>On LinkedIn</strong>
+    <ul class="coverage-grid">
+      <li><a href="https://www.linkedin.com/posts/konstantinos-kalogeropoulos-57a265167_proteomics-activity-7503503849152860160-tSwy/">K. Kalogeropoulos</a></li>
+      <li><a href="https://www.linkedin.com/feed/update/urn:li:activity:7503469354999709696/">LinkedIn post (add author label)</a></li>
+      <li><a href="https://www.linkedin.com/feed/update/urn:li:activity:7502811920438177792/">LinkedIn post (add author label)</a></li>
+    </ul>
+  </div>
+</section>
+-->
+
 ---
 
 ## Experience
