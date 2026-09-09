@@ -12,7 +12,7 @@
 
 - [InstaNovo enables diffusion-powered de novo peptide sequencing in large-scale proteomics experiments](https://doi.org/10.1038/s42256-025-01019-5): Nature Machine Intelligence · 2025 · 7(4):565–579
 - [InstaNovo-P: a de novo peptide sequencing model for phosphoproteomics](https://doi.org/10.1038/s41467-026-75138-x): Nature Communications · 2026
-- [Learning from tandem mass spectra at scale with a self-supervised foundation model for proteomics](https://www.biorxiv.org/content/10.64898/2026.09.03.747733v1): bioRxiv (preprint) · 2026
+- [Learning from tandem mass spectra at scale with a self-supervised foundation model for proteomics](https://doi.org/10.64898/2026.09.03.747733): bioRxiv (preprint) · 2026
 - [De novo peptide sequencing rescoring and FDR estimation with Winnow](https://arxiv.org/abs/2509.24952): arXiv (preprint) · 2025
 - [A living proteomics benchmark for comprehensive evaluation of deep learning-based de novo peptide sequencing tools](https://springernature.figshare.com/articles/journal_contribution/_b_A_living_proteomics_benchmark_for_comprehensive_b_b_evaluation_of_deep_learning-based_b_b_i_de_novo_i_b_b_peptide_b_b_sequencing_tools_b_/31680883/1): Registered report (preprint) · 2026
 - [Generalizable direct protein sequencing with InstaNexus](https://doi.org/10.1016/j.mcpro.2026.101547): Molecular & Cellular Proteomics · 2026 · 25(4):101547
