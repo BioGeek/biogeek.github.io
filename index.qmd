@@ -393,8 +393,8 @@ The InstaNovo paper drew broad attention across the scientific press.
     <strong>On LinkedIn</strong>
     <ul class="coverage-grid">
       <li><a href="https://www.linkedin.com/posts/konstantinos-kalogeropoulos-57a265167_proteomics-activity-7503503849152860160-tSwy/">K. Kalogeropoulos</a></li>
-      <li><a href="https://www.linkedin.com/feed/update/urn:li:activity:7503469354999709696/">LinkedIn post (add author label)</a></li>
-      <li><a href="https://www.linkedin.com/feed/update/urn:li:activity:7502811920438177792/">LinkedIn post (add author label)</a></li>
+      <li><a href="https://www.linkedin.com/posts/jeroenvangoey_proteomics-activity-7503469354999709696-weew">J. Van Goey</a></li>
+      <li><a href="https://www.linkedin.com/posts/qing-zhang-66482792_learning-from-tandem-mass-spectra-at-scale-activity-7502811920438177792-E_8M">Q. Zhang</a></li>
     </ul>
   </div>
 </section>
