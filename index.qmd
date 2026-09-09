@@ -133,9 +133,11 @@ I build and ship machine-learning systems for science. My main application is *d
     <div class="pub-badges">
       <a class="badge-primary" href="https://doi.org/10.64898/2026.09.03.747733"><i class="bi bi-file-earmark-text"></i> bioRxiv</a>
       <a href="https://github.com/instadeepai/InstaNovo-FM"><i class="bi bi-github"></i> Code</a>
+      <a href="https://colab.research.google.com/github/instadeepai/InstaNovo-FM/blob/main/notebooks/getting_started_with_instanovo_fm.ipynb"><i class="bi bi-journal-code"></i> Getting started</a>
       <a href="https://huggingface.co/spaces/InstaDeepAI/InstaNovo-FM"><i class="bi bi-play-circle"></i> Demo</a>
       <a href="https://instadeepai.github.io/InstaNovo-FM"><i class="bi bi-graph-up"></i> UMAP explorer</a>
       <a href="https://huggingface.co/datasets/InstaDeepAI/InstaNovo"><i class="bi bi-database"></i> Datasets</a>
+      <a href="https://huggingface.co/datasets/InstaDeepAI/InstaNovo-FM-embeddings"><i class="bi bi-grid-3x3"></i> Embeddings</a>
       <a href="files/bib/nieuwoudt2026instanovo_fm.bib" download><i class="bi bi-quote"></i> BibTeX</a>
     </div>
   </div>
