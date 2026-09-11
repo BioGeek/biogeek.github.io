@@ -17,6 +17,10 @@ project:
     - "images/photography/**"
     # Static redirect page (no Quarto processing): /i -> homepage with LinkedIn UTM tags.
     - "i/index.html"
+  pre-render:
+    # Recompute the "N publications" intro count from the cards actually listed
+    # in the Publications section, so it never drifts (see scripts/update_pubcount.py).
+    - "uv run python scripts/update_pubcount.py"
   post-render:
     - "cp -rv .well-known/. docs/.well-known/"
     - "cp CNAME docs/"

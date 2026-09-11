@@ -41,6 +41,11 @@ openalex:
 	python scripts/update_openalex.py
 	quarto render
 
+# Recompute the "N publications" intro count from the cards listed. Also runs
+# automatically as a Quarto pre-render step on every build.
+pubcount:
+	python scripts/update_pubcount.py
+
 # Remove the built site.
 clean:
 	rm -rf docs
