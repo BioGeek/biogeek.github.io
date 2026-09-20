@@ -16,7 +16,7 @@ format: html
 </div>
 
 <div class="hiring">
-  <p class="hiring-status"><strong>Currently looking for roles in AI for science</strong> (biology, proteomics, drug discovery, protein design, foundation models): Manager of Machine Learning · Member of Technical Staff · Head of Artificial Intelligence · Chief Technology Officer.</p>
+  <p class="hiring-status"><strong>Currently looking for leadership roles in AI for science</strong> (biology, proteomics, drug discovery, protein design, foundation models): leading a machine-learning team, Head of AI, or CTO of a small startup.</p>
   <div class="cta-buttons">
     <a class="cta cta-primary" href="files/jeroen-van-goey-cv.pdf" onclick="if(typeof gtag==='function'){gtag('event','cv_download',{file_name:'jeroen-van-goey-cv.pdf',link_text:'Download CV'});}"><i class="bi bi-file-earmark-arrow-down"></i> Download CV</a>
     <a class="cta cta-primary" href="mailto:jeroen.vangoey@gmail.com"><i class="bi bi-envelope"></i> Email me</a>
