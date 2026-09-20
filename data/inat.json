@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-13T10:01:36+00:00",
+  "generated_at": "2026-09-20T09:37:22+00:00",
   "user": "biogeek",
   "stats": {
-    "observations": 1524,
-    "species": 981,
+    "observations": 1526,
+    "species": 982,
     "threatened_observations": 91,
-    "research_grade": 775,
+    "research_grade": 777,
     "by_group": {
-      "Plantae": 643,
+      "Plantae": 645,
       "Insecta": 289,
       "Aves": 181,
       "Mammalia": 132,
@@ -29,7 +29,7 @@
       "2023": 115,
       "2024": 495,
       "2025": 460,
-      "2026": 386
+      "2026": 388
     },
     "top_species": [
       {
@@ -10796,6 +10796,20 @@
       "group": "Insecta",
       "common_name": "European grain moth",
       "species": "Nemapogon granella"
+    },
+    {
+      "lat": -34.0444,
+      "lng": 18.35989,
+      "group": "Plantae",
+      "common_name": "common poppy",
+      "species": "Papaver rhoeas"
+    },
+    {
+      "lat": -34.0444,
+      "lng": 18.35989,
+      "group": "Plantae",
+      "common_name": "rose-scented geranium",
+      "species": "Pelargonium capitatum"
     },
     {
       "lat": -34.04062,
