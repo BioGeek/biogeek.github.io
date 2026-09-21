@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-14T12:20:28+00:00",
+  "generated_at": "2026-09-21T12:27:48+00:00",
   "orcid": "0000-0003-4480-5567",
   "cited_by_count": 104,
-  "works_count": 31,
+  "works_count": 36,
   "h_index": 5,
   "i10_index": 4,
   "counts_by_year": [
@@ -14,14 +14,26 @@
     },
     {
       "year": 2018,
-      "works_count": 1,
-      "oa_works_count": 1,
+      "works_count": 2,
+      "oa_works_count": 2,
       "cited_by_count": 10
     },
     {
-      "year": 2023,
+      "year": 2019,
+      "works_count": 2,
+      "oa_works_count": 2,
+      "cited_by_count": 0
+    },
+    {
+      "year": 2021,
       "works_count": 1,
       "oa_works_count": 1,
+      "cited_by_count": 0
+    },
+    {
+      "year": 2023,
+      "works_count": 2,
+      "oa_works_count": 2,
       "cited_by_count": 30
     },
     {
@@ -228,6 +240,36 @@
       "title": "De novo peptide sequencing with InstaNovo: Diffusion-powered, peptide identification for large scale proteomics experiments",
       "year": 2024,
       "doi": "https://doi.org/10.21203/rs.3.rs-3376248/v1",
+      "cited_by_count": 0
+    },
+    {
+      "title": "ropensci/rotl: rotl 3.1.0",
+      "year": 2023,
+      "doi": "https://doi.org/10.5281/zenodo.594157",
+      "cited_by_count": 0
+    },
+    {
+      "title": "ropensci/rotl: rotl 3.0.12",
+      "year": 2021,
+      "doi": "https://doi.org/10.5281/zenodo.5766055",
+      "cited_by_count": 0
+    },
+    {
+      "title": "ropensci/rotl: rotl 3.0.7",
+      "year": 2019,
+      "doi": "https://doi.org/10.5281/zenodo.2567425",
+      "cited_by_count": 0
+    },
+    {
+      "title": "ropensci/rotl: rotl 3.0.6",
+      "year": 2019,
+      "doi": "https://doi.org/10.5281/zenodo.2547594",
+      "cited_by_count": 0
+    },
+    {
+      "title": "ropensci/rotl: rotl 3.0.5",
+      "year": 2018,
+      "doi": "https://doi.org/10.5281/zenodo.1438980",
       "cited_by_count": 0
     }
   ]
