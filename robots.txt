@@ -1,0 +1,7 @@
+# Quarto generates a robots.txt containing only the Sitemap line for this
+# site's own `site-url`. That misses the project sites published from other
+# repositories under this domain, whose sitemaps are never declared anywhere a
+# crawler looks. This file replaces the generated one via the post-render copy
+# in _quarto.yml, the same mechanism CNAME and llms.txt already use.
+Sitemap: https://jeroen.vangoey.be/sitemap.xml
+Sitemap: https://jeroen.vangoey.be/awesome_de_novo_peptide_sequencing/sitemap.xml
