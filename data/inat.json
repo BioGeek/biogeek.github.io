@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-09-20T09:37:22+00:00",
+  "generated_at": "2026-09-27T10:23:11+00:00",
   "user": "biogeek",
   "stats": {
-    "observations": 1526,
-    "species": 982,
-    "threatened_observations": 91,
-    "research_grade": 777,
+    "observations": 1543,
+    "species": 992,
+    "threatened_observations": 92,
+    "research_grade": 779,
     "by_group": {
-      "Plantae": 645,
+      "Plantae": 660,
       "Insecta": 289,
-      "Aves": 181,
+      "Aves": 183,
       "Mammalia": 132,
       "Reptilia": 58,
       "Animalia": 52,
@@ -29,7 +29,7 @@
       "2023": 115,
       "2024": 495,
       "2025": 460,
-      "2026": 388
+      "2026": 405
     },
     "top_species": [
       {
@@ -128,20 +128,6 @@
       "iucn": null
     },
     {
-      "id": 332421663,
-      "species": "Diceros bicornis",
-      "common_name": "Black Rhinoceros",
-      "group": "Mammalia",
-      "observed_on": "2025-12-27",
-      "place": "Namibia",
-      "quality_grade": "research",
-      "faves": 1,
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/603279324/large.jpg",
-      "uri": "https://www.inaturalist.org/observations/332421663",
-      "conservation_status": "critically endangered",
-      "iucn": 50
-    },
-    {
       "id": 322778548,
       "species": "Temnopteryx phalerata",
       "common_name": "Cape Zebra Cockroach",
@@ -154,6 +140,20 @@
       "uri": "https://www.inaturalist.org/observations/322778548",
       "conservation_status": null,
       "iucn": null
+    },
+    {
+      "id": 332421663,
+      "species": "Diceros bicornis",
+      "common_name": "Black Rhinoceros",
+      "group": "Mammalia",
+      "observed_on": "2025-12-27",
+      "place": "Namibia",
+      "quality_grade": "research",
+      "faves": 1,
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/603279324/large.jpg",
+      "uri": "https://www.inaturalist.org/observations/332421663",
+      "conservation_status": "critically endangered",
+      "iucn": 50
     },
     {
       "id": 342868171,
@@ -5565,7 +5565,7 @@
       "lat": -33.74009,
       "lng": 18.94966,
       "group": "Insecta",
-      "common_name": "Crowned Large Carpenter Bee",
+      "common_name": "Big Black Large Carpenter Bee",
       "species": "Xylocopa capitata"
     },
     {
@@ -8897,8 +8897,8 @@
       "lat": -22.25133,
       "lng": 26.72799,
       "group": "Insecta",
-      "common_name": "Long-fringed Bark Moth",
-      "species": "Phelotis cognata"
+      "common_name": "Geometer Moths",
+      "species": "Geometridae"
     },
     {
       "lat": -22.25145,
@@ -9436,7 +9436,7 @@
       "lat": -32.44328,
       "lng": 19.18966,
       "group": "Insecta",
-      "common_name": "Crowned Large Carpenter Bee",
+      "common_name": "Big Black Large Carpenter Bee",
       "species": "Xylocopa capitata"
     },
     {
@@ -10810,6 +10810,125 @@
       "group": "Plantae",
       "common_name": "rose-scented geranium",
       "species": "Pelargonium capitatum"
+    },
+    {
+      "lat": -33.97546,
+      "lng": 18.78166,
+      "group": "Plantae",
+      "common_name": "Common Coral Tree",
+      "species": "Erythrina lysistemon"
+    },
+    {
+      "lat": -33.975,
+      "lng": 18.78184,
+      "group": "Aves",
+      "common_name": "Cape White-eye",
+      "species": "Zosterops virens"
+    },
+    {
+      "lat": -33.975,
+      "lng": 18.78184,
+      "group": "Plantae",
+      "common_name": "African hemp",
+      "species": "Sparrmannia africana"
+    },
+    {
+      "lat": -33.97905,
+      "lng": 18.7781,
+      "group": "Plantae",
+      "common_name": "African Felicia",
+      "species": "Felicia aethiopica"
+    },
+    {
+      "lat": -33.9754,
+      "lng": 18.78181,
+      "group": "Plantae",
+      "common_name": "calla lily",
+      "species": "Zantedeschia aethiopica"
+    },
+    {
+      "lat": -33.97304,
+      "lng": 18.78347,
+      "group": "Plantae",
+      "common_name": "cape-pondweed",
+      "species": "Aponogeton distachyos"
+    },
+    {
+      "lat": -33.97304,
+      "lng": 18.78347,
+      "group": "Plantae",
+      "common_name": "Wild Jasmine",
+      "species": "Jasminum multipartitum"
+    },
+    {
+      "lat": -33.97335,
+      "lng": 18.78323,
+      "group": "Plantae",
+      "common_name": "iris family",
+      "species": "Iridaceae"
+    },
+    {
+      "lat": -33.97316,
+      "lng": 18.7834,
+      "group": "Plantae",
+      "common_name": "Mat Sedge",
+      "species": "Cyperus textilis"
+    },
+    {
+      "lat": -33.97316,
+      "lng": 18.7834,
+      "group": "Plantae",
+      "common_name": "Western Sunbush",
+      "species": "Leucadendron sessile"
+    },
+    {
+      "lat": -33.97408,
+      "lng": 18.78252,
+      "group": "Plantae",
+      "common_name": "Cape Cheesewood",
+      "species": "Pittosporum viridiflorum"
+    },
+    {
+      "lat": -33.97408,
+      "lng": 18.78252,
+      "group": "Plantae",
+      "common_name": "Cape Virgilia",
+      "species": "Virgilia oroboides"
+    },
+    {
+      "lat": -33.97408,
+      "lng": 18.78252,
+      "group": "Plantae",
+      "common_name": "Cape Virgilia",
+      "species": "Virgilia oroboides"
+    },
+    {
+      "lat": -33.97408,
+      "lng": 18.78252,
+      "group": "Plantae",
+      "common_name": "African lily",
+      "species": "Agapanthus africanus"
+    },
+    {
+      "lat": -33.97408,
+      "lng": 18.78252,
+      "group": "Plantae",
+      "common_name": "Smooth Cineraria",
+      "species": "Cineraria lobata"
+    },
+    {
+      "lat": -33.97408,
+      "lng": 18.78252,
+      "group": "Plantae",
+      "common_name": "Common Burnleaf",
+      "species": "Knowltonia vesicatoria"
+    },
+    {
+      "lat": -34.04384,
+      "lng": 18.36179,
+      "group": "Aves",
+      "common_name": "Spotted Eagle-Owl",
+      "species": "Bubo africanus"
     },
     {
       "lat": -34.04062,
