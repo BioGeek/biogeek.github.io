@@ -11687,6 +11687,94 @@
     ],
     "total_elevation_gain": 21.0
   },
+  "20361125887": {
+    "_weather": {
+      "cat": "cloudy",
+      "precip": 0.0,
+      "temp": 18.8
+    },
+    "distance": 8550.0,
+    "id": 20361125887,
+    "map": {
+      "summary_polyline": "zwchEq|puBMPIZMD]j@DPCn@BXMZCVBHEROHFTGF?FODANXp@GA@GqAg@FEO?EH`@E@DMAb@AJFKINEPBe@IJ?GIU@FH?HKBP?f@^P^ARKHB?Id@KPI~@IFBTFFAp@ERFZMv@FHJ\\YZOh@O\\YhCORCTAZBPFDCJkA~AMpA[r@k@ROPe@FWVkAPQEEFSIP?PP_@UU?cCs@uA_Ak@G_@Sm@}@[[U?SFaAUUR]`Aq@FKROBDRGHc@FGN?PFZMH]SSJKEIt@MN@JYLJKD??LIEGPOJ@HIFAVMEHPCFQDMn@a@RQZ?VKTQCADGIG?BX]BLOc@EQ]]@COa@@IQ[ME\\O?eAi@O??JKFW?QNARSb@BCKIBT?S@HGTUNYBEEMVE\\F@OLDCBNCNF\\Eh@F^CXc@f@S?SPCN_@NOEQPg@r@@LODERe@f@I@e@x@I?Yf@MLE?OF?RGAJAIAD@MHCLI?BVMZ@HG@o@x@k@GJMOKc@E@KIZKLGOQGWRKXHPa@YE??XSBMMBFC@?GUMLBHl@_@QILId@c@TQNUCWWo@\\CIKAOQWGYDGHS?Ye@OGGe@BC@HLRDZGPEKLE_@COr@MEvAFg@[a@?J}@JSNPMG@GC@^p@JBEF?NGSKCBDI?ENTCTFf@GT?F`@JCTFREBMHBH[JGFDB^^@HOb@Y@I^e@J@CONNGUPFNSJENBE@HKl@OR?BKH@BEf@HDZXF\\Wb@w@POBGGCBIJQDUP?EQ\\CLg@VUAOl@SJ[XOFMCYDB^g@Pc@ZAj@WZaAL@HSJIKOHi@JMUU@SV?WQFKG[PGDM~@KDa@Vm@t@i@T?nAl@LG@GZCFT^BVNJGJ^AKHJSm@b@rAXbA\\d@HXKj@FR@o@I_@[MZk@DA?DCD@MRRNDSCWYc@aAPCLWHBNUJ]CSDOj@m@BQNGP_@XSHW@KSEGKDDLWEa@@oAHe@DITAHc@FGFBRQPC?EZBVKGI?[L[XM?L?YTUl@DEIJ]RGH_@JEjAAVDFRTPEVB\\PPJzAPj@j@b@L@O@d@JJCVXNDSKdAp@ACLEfB`Az@L`@EFG\\GTWp@OFSZQL?`@mBP_@^[FUVU@OIM?WRw@Bu@\\aBFi@Zc@Ai@GCJe@?s@Nk@Q[ViAKaAICCKA{@f@eATqAAOPWBoAEGf@o@^_A"
+    },
+    "moving_time": 10743,
+    "name": "Morning Hike",
+    "sport_type": "Hike",
+    "start_date": "2026-09-25T07:42:09Z",
+    "start_date_local": "2026-09-25T09:42:09Z",
+    "start_latlng": [
+      -32.956299,
+      19.424892
+    ],
+    "total_elevation_gain": 432.0
+  },
+  "20361132818": {
+    "_weather": {
+      "cat": "rain",
+      "precip": 1.0,
+      "temp": 13.9
+    },
+    "distance": 8854.6,
+    "id": 20361132818,
+    "map": {
+      "summary_polyline": "dychEo}puBz@z@ZLx@Af@Fz@AbAIj@YDKFm@HYTEl@A`@Iv@g@v@]b@MZA^O~AkAx@{@z@gBf@s@Na@JO^W`D}@VBLHJRDXN`@Ad@VZb@Lb@@JAVM\\NNB`@B\\EbCRv@Np@Vv@bA^l@`@ZZ`@@HERFnACVSj@O~@Ar@d@rB^FLGRH\\V\\j@Hv@Kb@ATVtBK^@TbAdAHLAbALf@Mz@@NJX`A|@f@t@FVA~@Gr@LZ@PGZ?j@F^?PKx@Yf@Wl@CVS`AARO\\?PKr@IxAa@^Pv@B\\GX\\d@CV?`@h@b@^r@HZ`@l@pAxALZXLPNPVZz@`@b@HRNP|@\\Rb@^d@CAHFLn@U^GX^V^l@Vj@?NKx@e@j@ARF~@Ah@q@vAELA|@a@`BEx@Gf@SVSHEH?FP\\^LJJWdA]~@@^\\f@?\\Od@Wb@WTOp@?f@CNM\\QJSXGRDZETBHH@\\WZIV}@HIv@Qz@c@^VVp@l@@`@TLf@FjBKf@aAjBIh@_@j@AL@H`@lANJX\\JZ`@f@FNQX]fA?b@CJBd@I\\WVQHMh@MJ?N@CHBB^AHOj@?^P?HWnA_A^U\\KmAcA[GNw@Go@DK?[T_ARQDK?Gs@aAMa@[Ya@gADULMT]Jg@RMBa@`@_AFm@WcCQiDK_AAgAGc@QaCKSw@KGGSc@MQFg@WC]OTw@DgAb@gBAm@La@RWTy@GyA?Wd@g@BMBw@Yu@e@u@WW^g@Gk@wAkBYg@ECB?GGI[Ac@J[By@Ls@@i@A_@HY@O?I[{@@s@Gk@@i@Gy@Wi@uAmAUwAQe@cBgAQSEMRy@LeCEkAH[UmADMDk@Ck@GQSSO[aAcAEUJcAMw@Bu@KSiAiAJe@?m@OwAFi@?k@Ke@Di@Lg@Du@Ru@CaAm@cA}@q@c@mAgA_Am@gAq@k@eA_@cAOgAM}@Da@G]WM?WNK@q@GUK?CB@GAo@w@?QNi@CUQO]IK@iAl@}A`@Wl@OX[\\Uh@o@fAgAbAcBfAgAP}@XcAl@mANWHIr@Qd@a@JuBPqA@e@I[Uu@{@a@Ga@LQEBO"
+    },
+    "moving_time": 4115,
+    "name": "Morning Trail Run",
+    "sport_type": "TrailRun",
+    "start_date": "2026-09-26T07:28:26Z",
+    "start_date_local": "2026-09-26T09:28:26Z",
+    "start_latlng": [
+      -32.956503,
+      19.425045
+    ],
+    "total_elevation_gain": 82.0
+  },
+  "20361136044": {
+    "_weather": {
+      "cat": "rain",
+      "precip": 2.0,
+      "temp": 17.0
+    },
+    "distance": 3915.7,
+    "id": 20361136044,
+    "map": {
+      "summary_polyline": "``ehEkkquBdA\\b@EBKT?PLb@Jj@C^DTC\\PX@n@AXHDFn@Fz@|@^v@bA|@@HC`@DXCPB^If@INE`@Kd@@n@DNHPB??h@FHD^RFh@BND^b@FLLv@I`@?d@Nf@Dh@?f@ADCf@f@b@PZFj@Nl@Bj@Kr@Jd@bAfAf@`ACTBR?LGh@?TRd@Kl@?`@Fh@KpAU`@Yr@BFAXWdAKPCJ?VMnAA`@IZC@MNCR?FLPGdAXTDFI|@RTRHDFXj@Zb@D\\JBINCSWYGQSYOg@CEOEEKOQEU@MJQCI]]AGHYAYMq@^_@DWDs@AADGDS?IDQ@]BAJo@FKRoAH[Vi@HcA@]Ea@Bo@AFDK?QOm@Fq@?s@CQc@u@q@w@U_@?g@Hq@O_A@g@EISOk@q@Ic@H[Ks@IgAJw@IUBKIi@@YLw@VkABY?aAq@cA[W_@a@[{@UYm@g@[]Qc@Y]]]_@Ua@KoAO]AcAI[BYE_@Oc@AMJ_@?{@UOW[a@@Au@xBEFE@B?Tm@^oAZqARw@DG@QACcAn@mBz@"
+    },
+    "moving_time": 3524,
+    "name": "Afternoon Hike",
+    "sport_type": "Hike",
+    "start_date": "2026-09-26T14:13:37Z",
+    "start_date_local": "2026-09-26T16:13:37Z",
+    "start_latlng": [
+      -32.962724,
+      19.427265
+    ],
+    "total_elevation_gain": 64.0
+  },
+  "20361136272": {
+    "_weather": {
+      "cat": "cloudy",
+      "precip": 0.0,
+      "temp": 14.0
+    },
+    "distance": 6252.6,
+    "id": 20361136272,
+    "map": {
+      "summary_polyline": "hvchE{}puBPDt@QNNG??BIFSh@GFCTKBCHQPERDRCL@LAPQn@@PEJ@H@CGCBPCPI\\IDAJBTIJBB?JDGm@USUF@MMIFGC@DE??E@IJNL@p@h@J?CLBCOIDBBJABH^EPKFH@@JCBHTEF?j@ELGHDX@TDDILCvAIR?PCCHDDPKVGDAHKLENBRCHGDCZMZD`@MI@BGPAV@JM^G`@@RFHAL]h@c@j@]bBCDBBB`BOd@?z@B\\NNAHe@bAYlAQXIZANHj@?d@Oz@G?ED?fBS|@SFSXGVe@RLf@SL@NKLMd@Bt@MtA@ZGZIzABVM?Gx@?TK|A@?Gl@d@UZEJDZ?v@DNVPb@Jl@JTV~@CFAj@]|@DYGZGB@CKd@C`@e@zBO|@C^Bj@QU@NAXBN@xACzAEhA?bAK^e@z@a@b@Mb@?PTdA?d@H|@GLArBE`@DZADZxDCF@n@CTEFQ?g@}@c@Ak@NBv@RpAC?@L\\hADN@v@Pn@DZ?RHd@BfAC~@[|@y@b@[Bi@SWa@I_@\\a@CMIGa@DGFIX?FFn@@ZA@@?IOK[@BB@CC@FACC?@ECDJc@EEHBA@B@DAE?IGDFECE@B?ACJBABA?HWRQZENDBH@RUb@HPd@n@JDZMFI`@]X}@BoACoAS{AKg@Cc@IYg@aCCo@@a@HMTE`@BPFX\\Jp@DBFCJWDm@Gi@S}@GcBA}@Da@AcBDYKwA?[IeA@SFUX[^s@Xs@Du@Hu@Ao@Dm@Km@?k@C[?yADk@X}@RoAFOJaAPg@P[P{@CALVAWB?KSCAMa@[mA]q@ICk@@s@Es@TEk@@m@^uD@_@FYHcBFm@?m@AGGEAM`@k@HGIG\\{@N?EQ?KTY^MNU@SCi@FgAJGH[@}ACe@D[@BJKTqAb@eAF[OK@OC}@Nc@@sBDYB]FWRa@d@[@GTY?UGQD_@DUH?DICYDo@HKAMFO@e@Pm@NQFAFe@CWB@EE?MBY@?AQ@?BGCGHU?QDSCCA_@CKPq@GE?GIIFM?YEIM@P?W@GFEE?GRSROBI@KCMIIH@DQDACAB[BBBIC?Bi@FCAIHAAAHKCUP]IQ@WHO?SGODKNEPQHY`@_A?EGG"
+    },
+    "moving_time": 6921,
+    "name": "Morning Hike",
+    "sport_type": "Hike",
+    "start_date": "2026-09-27T08:07:43Z",
+    "start_date_local": "2026-09-27T10:07:43Z",
+    "start_latlng": [
+      -32.956046,
+      19.425102
+    ],
+    "total_elevation_gain": 212.0
+  },
   "2038172079": {
     "_weather": {
       "cat": "cloudy",
