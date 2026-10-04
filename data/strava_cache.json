@@ -11863,6 +11863,72 @@
     ],
     "total_elevation_gain": 68.2
   },
+  "20433281996": {
+    "_weather": {
+      "cat": "cloudy",
+      "precip": 0.0,
+      "temp": 15.3
+    },
+    "distance": 7203.0,
+    "id": 20433281996,
+    "map": {
+      "summary_polyline": "j|znEyfboBE?FAFDAAGDCC?EAQFI@GEU?DSBQG]F[BaA`@c@ZKRs@n@QDYAIGQUGc@MIWFu@^KBICS@WAUEIQEC[FG?GCYBK@QRMDg@`@S?OHg@JWLi@JIDq@Hc@Vo@@_@HUNUVSJYJ_@RMEQB?J@??A@@C@ACC@FDBCCEA@BQEFB@BDCGCHIBFA?DD[DMPQRMDMJKFUDAR]ROPYLE@ILSJC@EEKEEE?MFs@LIDe@Ns@Z_@VGJ]LGFM@SNGBSL_@DR]HWHCFG@W@c@OJGLUHACHQBWd@w@?GACE?UHKPQJQNUAQLCGLSICRk@Eg@JYR[VSFSb@_@NYD[DC?@DK?MA@D@ECI@OHCB?JIJGBS?CFUNOR[HGPG?WRWHk@d@E@GC@GVSDU^{@NGFKDOFC@G?@E?BA@F@EUOCIKASIGK@OCi@@IIaAL_@?KUs@AK?IH[?c@GW?KGQAUQ_@Ga@Oe@AMGMAQKe@ISESSc@E[KKADB@?I?FPXRx@JTD`@`@pANt@V~@BT?l@If@?FHZHNBRI|@Dj@A~@NLJDHRB?JPCDYAV@K`@GJATGFCJODA@GTIJ?RCAVAHCn@o@XIPOBGCCBAC??CFCF?JEBIZYZORIRMDBADAAKLU^@LCJm@f@GRi@dAALFT?JCPKLBFOL@Df@JLQ^UNQCI@?G@BA?BCEBB@A@@AA@@?E?BBA?DGDW`@M\\KF[b@IDGAQJIJCJIAc@RGH?C@DC@@@CABAADIMG@@@AEG@GCGBa@?MJKEIDI?KBI?a@QK@AMCCDEBQDM?KFUE@@BBKB_@qsCjhD@??D"
+    },
+    "moving_time": 1855,
+    "name": "Evening Trail Run",
+    "sport_type": "TrailRun",
+    "start_date": "2026-10-01T16:09:01Z",
+    "start_date_local": "2026-10-01T18:09:01Z",
+    "start_latlng": [
+      -34.057817,
+      18.366693
+    ],
+    "total_elevation_gain": 274.6
+  },
+  "20434467800": {
+    "_weather": {
+      "cat": "clear",
+      "precip": 0.0,
+      "temp": 18.3
+    },
+    "distance": 4520.9,
+    "id": 20434467800,
+    "map": {
+      "summary_polyline": "`ttnEaz|nBKVCNOXQPAHIBMPA?ABBTFLPB@HDFBXLb@@^A@DVJRFFBNFDBLDALX^XJ?`@HDLA?JAJDD?RJFHF^?NBD@`@BL?AC@CEA@FF?HFL?DJh@Fb@BlA@AAAEH?JBDAPPt@?VJb@ADEK@GADHPH~@DR@ZP`ATn@J`@`@nA?HJLBPJPBJHJBFABLR?FJXPv@JXFXHJThAPZ@LJN?FHJJTIARHHLZTNBPJPRNFZd@BJV^FTABXt@FN@TFL@VLv@NZB`@Tx@@PDLBLCBHLBZNd@?ZBVCHBFE@?ADDDPGNAA@LCVJp@DHABDPC?NZAHJLD\\CNBHC?HJ@NI~@@HCPAACTBNEb@BbAAXFRADDB?REJKdAGLAPQdAAZ@VABCA@HCKFV?b@Fb@?RJv@@XAVBTEf@DRI`A@TCt@@XCXFLBPAHBJLT@HFDCBBC?CMGGQ?UKk@C[B_@AIJqBCk@BU?_@BSGQIo@BQIY@KEOCe@@]BGAGFOAID]PgAAENk@?]A?AAAm@IM@YAI@EB@CI?e@BO@_@Fk@AC@SD[QmAAQBCGEISEa@GYA[FLA@EG@MEc@BWAaAGYASGYCSEMCYIMOaAOc@SiAEE@@BCCBAMBJGa@AUKQBBC?@EAMCIEAC[GSE@??CSKSAKW[GAEM}@k@OCWW?E?BEGOKCKKOUg@I]IMEYD@SYi@yBCEAUKKK[KQESIECUAAA@B@IYO]CWM]CQQg@?@AMOe@G[Cg@g@{DGy@?FBWCWAo@EYI[G]A??u@Ke@AOOU]MUO[AUKMO?BKSUUCI?BISOSIS?IAB@QCIBI?GE@BMKOC[QSIC@Ei@{A?KBMR_@?SCEB]@E?KNOFBB?E?D@@CTJ\\@PEj@a@TUHODEDUJGVq@JOBKP[DQJYBCFAC@D]P]?MFM@OHMDMCC@@BIED?BFIFYJMFULSJKJ@@GDA"
+    },
+    "moving_time": 4193,
+    "name": "Afternoon Hike",
+    "sport_type": "Hike",
+    "start_date": "2026-10-03T13:19:08Z",
+    "start_date_local": "2026-10-03T15:19:08Z",
+    "start_latlng": [
+      -34.025766,
+      18.339055
+    ],
+    "total_elevation_gain": 45.9
+  },
+  "20443161490": {
+    "_weather": {
+      "cat": "clear",
+      "precip": 0.0,
+      "temp": 21.5
+    },
+    "distance": 8117.3,
+    "id": 20443161490,
+    "map": {
+      "summary_polyline": "|axnE_aaoBKFBRRZh@l@LDPRRd@@b@BNNIf@q@p@u@`@q@f@o@Tc@b@u@Za@POFOFAHWpAaABAJH~@ER?b@J|@`@|@f@z@Xp@LfCVd@GDEPc@Ai@Gq@Hm@\\o@^Wn@WLEnB]b@EhBCPGHE\\[Ze@`@Sp@Qr@ANCfA[d@K\\O`AYN?b@Y`CoBTKTEz@E`@KdAm@X@XCd@NdAt@b@En@qALKPKd@KZA^I^[Tg@Pm@h@{ATS^YTKj@CfAZb@?XEf@]l@s@f@u@N_@Fk@Dk@MuAo@mFCm@BO^Wd@FnAl@b@D\\MX_@HSFi@Ae@DuAN_CLc@`@Uf@DLFhAhA^Rj@?xBa@PAPDd@Gh@[RGXH\\W|BkCb@KVAv@L`@VT\\n@lBR\\\\Zx@VtC\\b@J\\LdHzDb@FXAjAUd@Cb@@`@PjAl@^Td@j@Jj@@x@Lh@xAnBd@LP@NI@KiA_@[]Wc@iAmCYa@]WiAo@c@Se@Mg@D_BRc@?e@Ky@g@yAq@_Am@iAk@s@UuBWg@Kc@M]UYa@aAcC]a@a@Me@E[Da@N_@VW`@y@z@Q`@UAQIwFhA]Be@EWK_@Yq@u@WIc@FW`@SdHEXGPY^QFe@A_@KgAq@c@AW^?Zd@`ETzABT?jAGh@Qh@W`@mAjAm@Ta@Bi@?_AOe@HSJ]\\U`@}@vC[\\e@LcAJWJW\\_@r@c@Na@Um@i@a@Oq@FWHc@\\_@Pc@Fe@BYFWNeB|Ac@VaA`@sA\\{AT[JgATc@DSJm@x@KFe@LgALq@?{@Fg@E[QiAp@{@l@Oj@K`AER[TUEGEcAuAa@]UWUMo@k@mAi@e@Yq@EYBk@Aa@Ea@H]Ze@BcAO[\\SJQNQTS`@KXSx@MVMFE@EE"
+    },
+    "moving_time": 3270,
+    "name": "Morning Run",
+    "sport_type": "Run",
+    "start_date": "2026-10-04T07:30:09Z",
+    "start_date_local": "2026-10-04T09:30:09Z",
+    "start_latlng": [
+      -34.043348,
+      18.360647
+    ],
+    "total_elevation_gain": 126.0
+  },
   "2045381106": {
     "_weather": {
       "cat": "clear",
