@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-09-27T10:23:11+00:00",
+  "generated_at": "2026-10-04T10:56:47+00:00",
   "user": "biogeek",
   "stats": {
-    "observations": 1543,
-    "species": 992,
+    "observations": 1640,
+    "species": 1046,
     "threatened_observations": 92,
-    "research_grade": 779,
+    "research_grade": 812,
     "by_group": {
-      "Plantae": 660,
-      "Insecta": 289,
-      "Aves": 183,
-      "Mammalia": 132,
+      "Plantae": 735,
+      "Insecta": 295,
+      "Aves": 188,
+      "Mammalia": 135,
       "Reptilia": 58,
+      "Fungi": 54,
       "Animalia": 52,
-      "Fungi": 50,
-      "Arachnida": 37,
+      "Arachnida": 40,
       "Actinopterygii": 33,
       "Mollusca": 31,
-      "Amphibia": 12,
+      "Amphibia": 13,
       "Unknown": 4,
       "Protozoa": 1,
       "Chromista": 1
@@ -29,13 +29,13 @@
       "2023": 115,
       "2024": 495,
       "2025": 460,
-      "2026": 405
+      "2026": 502
     },
     "top_species": [
       {
         "species": "Papio ursinus",
         "common_name": "Chacma Baboon",
-        "count": 10
+        "count": 12
       },
       {
         "species": "Struthio camelus",
@@ -128,20 +128,6 @@
       "iucn": null
     },
     {
-      "id": 322778548,
-      "species": "Temnopteryx phalerata",
-      "common_name": "Cape Zebra Cockroach",
-      "group": "Insecta",
-      "observed_on": "2025-10-24",
-      "place": "Scott Estate, Cape Town, 7806, South Africa",
-      "quality_grade": "needs_id",
-      "faves": 1,
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/583972603/large.jpg",
-      "uri": "https://www.inaturalist.org/observations/322778548",
-      "conservation_status": null,
-      "iucn": null
-    },
-    {
       "id": 332421663,
       "species": "Diceros bicornis",
       "common_name": "Black Rhinoceros",
@@ -154,6 +140,20 @@
       "uri": "https://www.inaturalist.org/observations/332421663",
       "conservation_status": "critically endangered",
       "iucn": 50
+    },
+    {
+      "id": 322778548,
+      "species": "Temnopteryx phalerata",
+      "common_name": "Cape Zebra Cockroach",
+      "group": "Insecta",
+      "observed_on": "2025-10-24",
+      "place": "Scott Estate, Cape Town, 7806, South Africa",
+      "quality_grade": "needs_id",
+      "faves": 1,
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/583972603/large.jpg",
+      "uri": "https://www.inaturalist.org/observations/322778548",
+      "conservation_status": null,
+      "iucn": null
     },
     {
       "id": 342868171,
@@ -198,20 +198,6 @@
       "iucn": null
     },
     {
-      "id": 332198940,
-      "species": "Panthera leo melanochaita",
-      "common_name": "Southern Lion",
-      "group": "Mammalia",
-      "observed_on": "2025-12-20",
-      "place": "Siyanda, ZA-NC, ZA",
-      "quality_grade": "research",
-      "faves": 1,
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/602820219/large.jpg",
-      "uri": "https://www.inaturalist.org/observations/332198940",
-      "conservation_status": null,
-      "iucn": null
-    },
-    {
       "id": 324823211,
       "species": "Messor capensis",
       "common_name": "Cape Harvester Ant",
@@ -222,6 +208,20 @@
       "faves": 1,
       "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/588006083/large.jpg",
       "uri": "https://www.inaturalist.org/observations/324823211",
+      "conservation_status": null,
+      "iucn": null
+    },
+    {
+      "id": 332198940,
+      "species": "Panthera leo melanochaita",
+      "common_name": "Southern Lion",
+      "group": "Mammalia",
+      "observed_on": "2025-12-20",
+      "place": "Siyanda, ZA-NC, ZA",
+      "quality_grade": "research",
+      "faves": 1,
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/602820219/large.jpg",
+      "uri": "https://www.inaturalist.org/observations/332198940",
       "conservation_status": null,
       "iucn": null
     },
@@ -4571,8 +4571,8 @@
       "lat": -33.96144,
       "lng": 18.80929,
       "group": "Plantae",
-      "common_name": "Tickseeds",
-      "species": "Coreopsis"
+      "common_name": "Coreopsis and allies",
+      "species": "Coreopsideae"
     },
     {
       "lat": -33.96144,
@@ -5376,7 +5376,7 @@
       "lat": -34.10372,
       "lng": 23.38556,
       "group": "Insecta",
-      "common_name": "African Small White [Charina]",
+      "common_name": "African Ant-heap White",
       "species": "Dixeia charina charina"
     },
     {
@@ -8974,8 +8974,8 @@
       "lat": -27.51031,
       "lng": 23.30432,
       "group": "Mammalia",
-      "common_name": "Llamas and Guanacos",
-      "species": "Lama"
+      "common_name": "Alpaca",
+      "species": "Lama pacos"
     },
     {
       "lat": -27.50974,
@@ -10929,6 +10929,685 @@
       "group": "Aves",
       "common_name": "Spotted Eagle-Owl",
       "species": "Bubo africanus"
+    },
+    {
+      "lat": -32.9561,
+      "lng": 19.42524,
+      "group": "Aves",
+      "common_name": "Mountain Chat",
+      "species": "Myrmecocichla monticola"
+    },
+    {
+      "lat": -32.95633,
+      "lng": 19.42518,
+      "group": "Insecta",
+      "common_name": "African Meadow White",
+      "species": "Pontia helice"
+    },
+    {
+      "lat": -32.95596,
+      "lng": 19.42416,
+      "group": "Plantae",
+      "common_name": "Apricot Tulp",
+      "species": "Moraea ochroleuca"
+    },
+    {
+      "lat": -32.95576,
+      "lng": 19.42334,
+      "group": "Plantae",
+      "common_name": "Red Fingerflox",
+      "species": "Manulea rubra"
+    },
+    {
+      "lat": -32.95566,
+      "lng": 19.42215,
+      "group": "Plantae",
+      "common_name": "Bitterbush",
+      "species": "Chrysocoma ciliata"
+    },
+    {
+      "lat": -32.95566,
+      "lng": 19.42215,
+      "group": "Plantae",
+      "common_name": "Climbers Friend",
+      "species": "Cliffortia ruscifolia"
+    },
+    {
+      "lat": -32.95566,
+      "lng": 19.42215,
+      "group": "Plantae",
+      "common_name": "rope capespray",
+      "species": "Struthiola ciliata"
+    },
+    {
+      "lat": -32.95566,
+      "lng": 19.42215,
+      "group": "Plantae",
+      "common_name": "Robust Fountainreed",
+      "species": "Cannomois robusta"
+    },
+    {
+      "lat": -32.95565,
+      "lng": 19.42147,
+      "group": "Plantae",
+      "common_name": "Robust Fountainreed",
+      "species": "Cannomois robusta"
+    },
+    {
+      "lat": -32.95501,
+      "lng": 19.41903,
+      "group": "Plantae",
+      "common_name": "Stock Sunspurge",
+      "species": "Heliophila juncea"
+    },
+    {
+      "lat": -32.95501,
+      "lng": 19.41903,
+      "group": "Plantae",
+      "common_name": "Foxy Purplegorse",
+      "species": "Muraltia alopecuroides"
+    },
+    {
+      "lat": -32.95501,
+      "lng": 19.41903,
+      "group": "Plantae",
+      "common_name": "Cape Buchu",
+      "species": "Agathosma capensis"
+    },
+    {
+      "lat": -32.95459,
+      "lng": 19.41794,
+      "group": "Plantae",
+      "common_name": "Tall Bushman Grass",
+      "species": "Stipagrostis ciliata"
+    },
+    {
+      "lat": -32.95405,
+      "lng": 19.41778,
+      "group": "Plantae",
+      "common_name": "Sword Paintpetal",
+      "species": "Codonorhiza falcata"
+    },
+    {
+      "lat": -32.95346,
+      "lng": 19.41767,
+      "group": "Mammalia",
+      "common_name": "Caracal",
+      "species": "Caracal caracal"
+    },
+    {
+      "lat": -32.95288,
+      "lng": 19.41781,
+      "group": "Plantae",
+      "common_name": "rope capespray",
+      "species": "Struthiola ciliata"
+    },
+    {
+      "lat": -32.95252,
+      "lng": 19.41806,
+      "group": "Plantae",
+      "common_name": "Grey Sugarbush",
+      "species": "Protea laurifolia"
+    },
+    {
+      "lat": -32.95081,
+      "lng": 19.41878,
+      "group": "Plantae",
+      "common_name": "Grass-leaved Chincherinchee",
+      "species": "Ornithogalum juncifolium"
+    },
+    {
+      "lat": -32.95081,
+      "lng": 19.41878,
+      "group": "Plantae",
+      "common_name": "Arid Healthbush",
+      "species": "Lobostemon laevigatus"
+    },
+    {
+      "lat": -32.95035,
+      "lng": 19.41848,
+      "group": "Plantae",
+      "common_name": "Fire Clubrush",
+      "species": "Ficinia deusta"
+    },
+    {
+      "lat": -32.95035,
+      "lng": 19.41848,
+      "group": "Fungi",
+      "common_name": "Hooded Rosette Lichen",
+      "species": "Physcia adscendens"
+    },
+    {
+      "lat": -32.94949,
+      "lng": 19.41741,
+      "group": "Plantae",
+      "common_name": "Small Sundew",
+      "species": "Drosera trinervia"
+    },
+    {
+      "lat": -32.94949,
+      "lng": 19.41741,
+      "group": "Plantae",
+      "common_name": "Small Sundew",
+      "species": "Drosera trinervia"
+    },
+    {
+      "lat": -32.94949,
+      "lng": 19.41741,
+      "group": "Plantae",
+      "common_name": "Wire Disa",
+      "species": "Disa bifida"
+    },
+    {
+      "lat": -32.94946,
+      "lng": 19.4173,
+      "group": "Plantae",
+      "common_name": "Fynbos Blombush",
+      "species": "Metalasia densa"
+    },
+    {
+      "lat": -32.94914,
+      "lng": 19.41684,
+      "group": "Plantae",
+      "common_name": "Sword Paintpetal",
+      "species": "Codonorhiza falcata"
+    },
+    {
+      "lat": -32.94887,
+      "lng": 19.41627,
+      "group": "Plantae",
+      "common_name": "Menzies' anacolia moss",
+      "species": "Anacolia menziesii"
+    },
+    {
+      "lat": -32.9487,
+      "lng": 19.41628,
+      "group": "Plantae",
+      "common_name": "monocots",
+      "species": "Liliopsida"
+    },
+    {
+      "lat": -32.94846,
+      "lng": 19.41613,
+      "group": "Plantae",
+      "common_name": "Rock Candlewood",
+      "species": "Maytenus oleoides"
+    },
+    {
+      "lat": -32.94846,
+      "lng": 19.41613,
+      "group": "Fungi",
+      "common_name": "Cape Rock Shield",
+      "species": "Xanthoparmelia hottentotta"
+    },
+    {
+      "lat": -32.94643,
+      "lng": 19.41577,
+      "group": "Plantae",
+      "common_name": "Bedrock Heath",
+      "species": "Erica maximiliani"
+    },
+    {
+      "lat": -32.94618,
+      "lng": 19.41479,
+      "group": "Plantae",
+      "common_name": "Visgat Sugarbush",
+      "species": "Protea piscina"
+    },
+    {
+      "lat": -32.94603,
+      "lng": 19.41464,
+      "group": "Plantae",
+      "common_name": "Fine Felicia",
+      "species": "Felicia filifolia"
+    },
+    {
+      "lat": -32.94522,
+      "lng": 19.41388,
+      "group": "Plantae",
+      "common_name": "Stock Sunspurge",
+      "species": "Heliophila juncea"
+    },
+    {
+      "lat": -32.94522,
+      "lng": 19.41388,
+      "group": "Arachnida",
+      "common_name": "Cape Docile Scorpion",
+      "species": "Opisthacanthus capensis"
+    },
+    {
+      "lat": -32.94463,
+      "lng": 19.41292,
+      "group": "Arachnida",
+      "common_name": "Cape Docile Scorpion",
+      "species": "Opisthacanthus capensis"
+    },
+    {
+      "lat": -32.9447,
+      "lng": 19.41311,
+      "group": "Plantae",
+      "common_name": "Scented Fern",
+      "species": "Anemia afrorum"
+    },
+    {
+      "lat": -32.9447,
+      "lng": 19.41311,
+      "group": "Plantae",
+      "common_name": "runner mesemb",
+      "species": "Leipoldtia schultzei"
+    },
+    {
+      "lat": -32.94351,
+      "lng": 19.41256,
+      "group": "Plantae",
+      "common_name": "wild cotton",
+      "species": "Gomphocarpus cancellatus"
+    },
+    {
+      "lat": -32.94294,
+      "lng": 19.41217,
+      "group": "Plantae",
+      "common_name": "Fine Felicia",
+      "species": "Felicia filifolia"
+    },
+    {
+      "lat": -32.94283,
+      "lng": 19.41209,
+      "group": "Insecta",
+      "common_name": null,
+      "species": "Clytrini"
+    },
+    {
+      "lat": -32.94233,
+      "lng": 19.41176,
+      "group": "Plantae",
+      "common_name": "Rose-camphor Storksbill",
+      "species": "Pelargonium englerianum"
+    },
+    {
+      "lat": -32.94144,
+      "lng": 19.41172,
+      "group": "Fungi",
+      "common_name": "Coral Firedot",
+      "species": "Caloplaca cinnabarina"
+    },
+    {
+      "lat": -32.94144,
+      "lng": 19.41172,
+      "group": "Plantae",
+      "common_name": "Stock Sunspurge",
+      "species": "Heliophila juncea"
+    },
+    {
+      "lat": -32.94538,
+      "lng": 19.41366,
+      "group": "Plantae",
+      "common_name": "Eastern Rushiris",
+      "species": "Bobartia orientalis"
+    },
+    {
+      "lat": -32.94538,
+      "lng": 19.41366,
+      "group": "Plantae",
+      "common_name": "Eastern Rushiris",
+      "species": "Bobartia orientalis"
+    },
+    {
+      "lat": -32.94694,
+      "lng": 19.41636,
+      "group": "Plantae",
+      "common_name": "Crested Heath",
+      "species": "Erica cristiflora"
+    },
+    {
+      "lat": -32.94694,
+      "lng": 19.41636,
+      "group": "Plantae",
+      "common_name": "Differleaf Sorrel",
+      "species": "Oxalis heterophylla"
+    },
+    {
+      "lat": -32.9482,
+      "lng": 19.41638,
+      "group": "Aves",
+      "common_name": "Booted Eagle",
+      "species": "Hieraaetus pennatus"
+    },
+    {
+      "lat": -32.94846,
+      "lng": 19.41605,
+      "group": "Plantae",
+      "common_name": "Bedrock Heath",
+      "species": "Erica maximiliani"
+    },
+    {
+      "lat": -32.94845,
+      "lng": 19.41616,
+      "group": "Plantae",
+      "common_name": "Fragrant Crassula",
+      "species": "Crassula fascicularis"
+    },
+    {
+      "lat": -32.951,
+      "lng": 19.41903,
+      "group": "Plantae",
+      "common_name": "Bokkeveld Conebush",
+      "species": "Leucadendron nitidum"
+    },
+    {
+      "lat": -32.95278,
+      "lng": 19.41802,
+      "group": "Plantae",
+      "common_name": "Cape Buchu",
+      "species": "Agathosma capensis"
+    },
+    {
+      "lat": -32.95278,
+      "lng": 19.41802,
+      "group": "Plantae",
+      "common_name": "Bokkeveld Conebush",
+      "species": "Leucadendron nitidum"
+    },
+    {
+      "lat": -32.95431,
+      "lng": 19.41786,
+      "group": "Plantae",
+      "common_name": "Sock Squill",
+      "species": "Drimia exuviata"
+    },
+    {
+      "lat": -32.95521,
+      "lng": 19.41975,
+      "group": "Plantae",
+      "common_name": "Bitterbush",
+      "species": "Chrysocoma ciliata"
+    },
+    {
+      "lat": -32.95558,
+      "lng": 19.42086,
+      "group": "Plantae",
+      "common_name": "Grey Sugarbush",
+      "species": "Protea laurifolia"
+    },
+    {
+      "lat": -32.95587,
+      "lng": 19.42261,
+      "group": "Plantae",
+      "common_name": "Rose-camphor Storksbill",
+      "species": "Pelargonium englerianum"
+    },
+    {
+      "lat": -32.95729,
+      "lng": 19.42548,
+      "group": "Plantae",
+      "common_name": "maritime pine",
+      "species": "Pinus pinaster"
+    },
+    {
+      "lat": -32.95706,
+      "lng": 19.42548,
+      "group": "Aves",
+      "common_name": "Rameron Pigeon",
+      "species": "Columba arquatrix"
+    },
+    {
+      "lat": -32.95608,
+      "lng": 19.42521,
+      "group": "Mammalia",
+      "common_name": "Chacma Baboon",
+      "species": "Papio ursinus"
+    },
+    {
+      "lat": -32.96528,
+      "lng": 19.42647,
+      "group": "Insecta",
+      "common_name": "Tenspot ground beetle",
+      "species": "Anthia decemguttata"
+    },
+    {
+      "lat": -32.96284,
+      "lng": 19.42752,
+      "group": "Mammalia",
+      "common_name": "Chacma Baboon",
+      "species": "Papio ursinus"
+    },
+    {
+      "lat": -32.9602,
+      "lng": 19.4313,
+      "group": "Plantae",
+      "common_name": "sea fig",
+      "species": "Carpobrotus edulis"
+    },
+    {
+      "lat": -32.96706,
+      "lng": 19.41511,
+      "group": "Plantae",
+      "common_name": "Shamblefigs",
+      "species": "Phiambolia"
+    },
+    {
+      "lat": -32.96701,
+      "lng": 19.4166,
+      "group": "Plantae",
+      "common_name": "King Kalkoentjie",
+      "species": "Gladiolus alatus"
+    },
+    {
+      "lat": -32.96701,
+      "lng": 19.4166,
+      "group": "Plantae",
+      "common_name": "Brittle Indigo",
+      "species": "Indigofera capillaris"
+    },
+    {
+      "lat": -32.9673,
+      "lng": 19.41759,
+      "group": "Plantae",
+      "common_name": "Rose-camphor Storksbill",
+      "species": "Pelargonium englerianum"
+    },
+    {
+      "lat": -32.96746,
+      "lng": 19.41862,
+      "group": "Plantae",
+      "common_name": "Star of the Veldt",
+      "species": "Ursinia anthemoides"
+    },
+    {
+      "lat": -32.96746,
+      "lng": 19.41862,
+      "group": "Plantae",
+      "common_name": "Inkblom",
+      "species": "Hyobanche sanguinea"
+    },
+    {
+      "lat": -32.96748,
+      "lng": 19.41937,
+      "group": "Plantae",
+      "common_name": null,
+      "species": "Asteroideae"
+    },
+    {
+      "lat": -32.96749,
+      "lng": 19.41994,
+      "group": "Plantae",
+      "common_name": "Ball Bitterbush",
+      "species": "Selago dolosa"
+    },
+    {
+      "lat": -32.96694,
+      "lng": 19.42171,
+      "group": "Plantae",
+      "common_name": "Spoon Flowerseed",
+      "species": "Anthospermum spathulatum"
+    },
+    {
+      "lat": -32.96663,
+      "lng": 19.42234,
+      "group": "Plantae",
+      "common_name": "Climbers Friend",
+      "species": "Cliffortia ruscifolia"
+    },
+    {
+      "lat": -32.96651,
+      "lng": 19.42338,
+      "group": "Plantae",
+      "common_name": "Small Pink Satyre",
+      "species": "Satyrium erectum"
+    },
+    {
+      "lat": -32.96614,
+      "lng": 19.42552,
+      "group": "Plantae",
+      "common_name": "Fold Capespinach",
+      "species": "Trachyandra revoluta"
+    },
+    {
+      "lat": -32.95535,
+      "lng": 19.42506,
+      "group": "Insecta",
+      "common_name": null,
+      "species": "Selidosema taeniolaria"
+    },
+    {
+      "lat": -32.95535,
+      "lng": 19.42506,
+      "group": "Arachnida",
+      "common_name": "Namaqua Burrowing Scorpion",
+      "species": "Opistophthalmus pallipes"
+    },
+    {
+      "lat": -32.95605,
+      "lng": 19.42529,
+      "group": "Amphibia",
+      "common_name": "Raucous Toad",
+      "species": "Sclerophrys capensis"
+    },
+    {
+      "lat": -32.95606,
+      "lng": 19.42527,
+      "group": "Aves",
+      "common_name": "Southern Masked Weaver",
+      "species": "Ploceus velatus"
+    },
+    {
+      "lat": -32.95602,
+      "lng": 19.42519,
+      "group": "Aves",
+      "common_name": "Cape Bunting",
+      "species": "Emberiza capensis"
+    },
+    {
+      "lat": -32.9602,
+      "lng": 19.4313,
+      "group": "Plantae",
+      "common_name": "Apricot Tulp",
+      "species": "Moraea ochroleuca"
+    },
+    {
+      "lat": -32.95317,
+      "lng": 19.411,
+      "group": "Plantae",
+      "common_name": "King Kalkoentjie",
+      "species": "Gladiolus alatus"
+    },
+    {
+      "lat": -32.97046,
+      "lng": 19.43279,
+      "group": "Plantae",
+      "common_name": "Pink Sewejaartjie",
+      "species": "Syncarpha canescens"
+    },
+    {
+      "lat": -32.95342,
+      "lng": 19.40249,
+      "group": "Plantae",
+      "common_name": "Swan Spiderhead",
+      "species": "Serruria cygnea"
+    },
+    {
+      "lat": -32.95285,
+      "lng": 19.40121,
+      "group": "Plantae",
+      "common_name": null,
+      "species": "Phylica rigida"
+    },
+    {
+      "lat": -32.95252,
+      "lng": 19.39857,
+      "group": "Plantae",
+      "common_name": "Redmats",
+      "species": "Laurembergia repens"
+    },
+    {
+      "lat": -32.95252,
+      "lng": 19.39857,
+      "group": "Plantae",
+      "common_name": "Leafy Rush",
+      "species": "Juncus lomatophyllus"
+    },
+    {
+      "lat": -32.95281,
+      "lng": 19.3985,
+      "group": "Fungi",
+      "common_name": "Beach Brittlestem",
+      "species": "Psathyrella ammophila"
+    },
+    {
+      "lat": -32.95343,
+      "lng": 19.41229,
+      "group": "Plantae",
+      "common_name": "Sunsorrels",
+      "species": "Heliophila"
+    },
+    {
+      "lat": -32.95341,
+      "lng": 19.41389,
+      "group": "Plantae",
+      "common_name": "Sickle Brightfig",
+      "species": "Lampranthus falcatus"
+    },
+    {
+      "lat": -32.95437,
+      "lng": 19.41614,
+      "group": "Plantae",
+      "common_name": "Sock Squill",
+      "species": "Drimia exuviata"
+    },
+    {
+      "lat": -32.95437,
+      "lng": 19.41614,
+      "group": "Plantae",
+      "common_name": "Stock Sunspurge",
+      "species": "Heliophila juncea"
+    },
+    {
+      "lat": -32.95467,
+      "lng": 19.41745,
+      "group": "Plantae",
+      "common_name": "Broom reed",
+      "species": "Elegia capensis"
+    },
+    {
+      "lat": -32.95467,
+      "lng": 19.41745,
+      "group": "Plantae",
+      "common_name": "rope capespray",
+      "species": "Struthiola ciliata"
+    },
+    {
+      "lat": -32.956,
+      "lng": 19.42537,
+      "group": "Insecta",
+      "common_name": "Migrant Hover Fly",
+      "species": "Eupeodes corollae"
+    },
+    {
+      "lat": -34.04356,
+      "lng": 18.36184,
+      "group": "Insecta",
+      "common_name": "Non-biting Midges",
+      "species": "Chironomidae"
     },
     {
       "lat": -34.04062,
