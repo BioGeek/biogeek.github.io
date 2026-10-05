@@ -25,7 +25,7 @@ FRONTMATTER_RE = re.compile(r"^---\n(.*?)\n---\n", re.DOTALL)
 # Experience entries: "::: {.experience-entry ...}\n### <img .../> [Company](url)\n**Position**\\\n<i ...calendar3...></i> _Date range_\\"
 EXPERIENCE_RE = re.compile(
     r"::: \{\.experience-entry[^}]*\}\n"
-    r"### .*?\[([^\]]+)\]\([^)]+\)\n"
+    r"### .*?\[([^\]]+)\]\([^)]+\)[^\n]*?(?:\{#([^}\s]+)[^}]*\})?\n"
     r"\*\*([^*]+)\*\*\\\n"
     r'<i class="bi bi-calendar3"></i> _([^_]+)_\\'
 )
@@ -72,9 +72,14 @@ def section_body(text: str, heading: str, next_heading: str) -> str:
 
 def collect_experience(base_url: str, index_text: str) -> list[str]:
     body = section_body(index_text, "Experience", "Education")
+    # An explicit {#id} on the heading wins: Quarto honours it, so deriving the
+    # anchor from the company name would silently point at a section that does
+    # not exist. (It did - the InstaDeep entry carries {#instadeep} to keep its
+    # URL stable while its label changed.)
     return [
-        bullet(company, f"{base_url}/#{pandoc_slug(company)}", f"{position.strip()} — {dates.strip()}")
-        for company, position, dates in EXPERIENCE_RE.findall(body)
+        bullet(company, f"{base_url}/#{anchor or pandoc_slug(company)}",
+               f"{position.strip()} — {dates.strip()}")
+        for company, anchor, position, dates in EXPERIENCE_RE.findall(body)
     ]
 
 

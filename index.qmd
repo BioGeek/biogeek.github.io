@@ -432,7 +432,7 @@ The InstaNovo paper drew broad attention across the scientific press.
 ```
 
 ::: {.experience-entry data-tags="research-ml engineering-mlops leadership-people"}
-### <img width="32" height="32" src="images/icons/instadeep.png" class="company-icon" alt=""> [InstaDeep](https://www.instadeep.com/) (acquired by [BioNTech](https://www.biontech.com/)) {#instadeep}
+### <img width="32" height="32" src="images/icons/instadeep.png" class="company-icon" alt=""> [InstaDeep (acquired by BioNTech)](https://www.instadeep.com/) {#instadeep}
 **Staff Research Engineer, Machine Learning · BioAI Team Lead**\
 <i class="bi bi-calendar3"></i> _August 2022 – Present_\
 <img width="900" height="600" src="images/flags/za.svg" class="flag-icon" alt="South Africa">Cape Town, South Africa
