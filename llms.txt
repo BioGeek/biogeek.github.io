@@ -22,7 +22,6 @@
 
 ## Experience
 
-- [InstaDeep](https://jeroen.vangoey.be/#instadeep): Staff Research Engineer, Machine Learning · BioAI Team Lead — August 2022 – Present
 - [Barco](https://jeroen.vangoey.be/#barco): Senior Software Development Engineer, Machine Learning — February 2020 – August 2022
 - [BASF](https://jeroen.vangoey.be/#basf): Bioinformatics Researcher, Manager of the Python & R Platforms — August 2018 – January 2020
 - [Bayer Crop Science](https://jeroen.vangoey.be/#bayer-crop-science): Bioinformatics Researcher & Python Platform Manager — February 2018 – July 2018
