@@ -125,7 +125,7 @@ I build and ship machine-learning systems for science. My main application is *d
   </div>
 </div>
 
-<div class="pub-card" id="pub-instanovo-fm">
+<div class="pub-card flagship" id="pub-instanovo-fm">
   <a class="pub-thumb" href="https://doi.org/10.64898/2026.09.03.747733">
     <img width="480" height="585" loading="lazy" src="images/publications/instanovo-fm_figure1.png" alt="InstaNovo-FM figure 1" />
   </a>
@@ -133,7 +133,7 @@ I build and ship machine-learning systems for science. My main application is *d
     <div class="pub-title"><a href="https://doi.org/10.64898/2026.09.03.747733">Learning from tandem mass spectra at scale with a self-supervised foundation model for proteomics</a></div>
     <div class="pub-authors">M. Nieuwoudt*, M. Reverenna*, <span class="author-ellipsis" role="button" tabindex="0" aria-expanded="false" aria-label="Full author list: M. Nieuwoudt*, M. Reverenna*, D. Patel*, R. Catzel, I. H. J. Houngue, J. Daniel, K. Eloff, A. Santos, N. Lopez Carranza, T. P. Jenkins, J. Van Goey†, K. Kalogeropoulos†" data-authors="M. Nieuwoudt*, M. Reverenna*, D. Patel*, R. Catzel, I. H. J. Houngue, J. Daniel, K. Eloff, A. Santos, N. Lopez Carranza, T. P. Jenkins, J. Van Goey†, K. Kalogeropoulos†">...</span> <strong>J. Van Goey</strong><span class="author-role" aria-label="co-senior author" title="co-senior author">†</span>, K. Kalogeropoulos<span class="author-role" aria-label="co-senior author" title="co-senior author">†</span></div>
     <div class="pub-venue"><span class="venue-name">bioRxiv</span> (preprint) · 2026</div>
-    <div class="pub-summary">InstaNovo-FM, a self-supervised foundation model for bottom-up proteomics: an encoder-only transformer pretrained on 1.47 billion tandem mass spectra by physics-aware masked reconstruction, whose embeddings transfer to <i>de novo</i> sequencing, database-free identification and analytical run classification.</div>
+    <div class="pub-summary">InstaNovo-FM, a self-supervised foundation model for bottom-up proteomics: an encoder-only transformer pretrained on 1.63 billion tandem mass spectra by physics-aware masked reconstruction, whose embeddings transfer to <i>de novo</i> sequencing, database-free identification and analytical run classification.</div>
     <div class="pub-badges">
       <a class="badge-primary" href="https://doi.org/10.64898/2026.09.03.747733"><i class="bi bi-file-earmark-text"></i> bioRxiv</a>
       <a href="https://github.com/instadeepai/InstaNovo-FM"><i class="bi bi-github"></i> Code</a>
