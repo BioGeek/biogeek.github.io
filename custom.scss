@@ -723,6 +723,24 @@ svg.skill-glyph { width: 1.2em; height: 1.2em; vertical-align: -0.27em; }
 .aoc-table td:first-child { color: var(--bs-secondary-color); }
 .aoc-table img { display: block; height: 18px; }
 
+// The Advent of Code thumbnail is a table of badge images rather than one
+// picture, so the generic .pub-thumb:hover img pop-out above scaled every badge
+// about its own origin: each burst out of its cell while the gaps stayed put,
+// and they overlapped. Scale the table as a unit instead, so the spacing grows
+// with the badges and the block enlarges the way a single image would.
+@media (hover: hover) {
+  .pub-thumb .aoc-table {
+    transition: transform 0.18s ease;
+    transform-origin: top left;
+  }
+  .pub-thumb:hover .aoc-table { transform: scale(2); }
+  .pub-thumb:hover .aoc-table img {
+    transform: none;
+    box-shadow: none;
+    border-color: var(--bs-border-color);
+  }
+}
+
 // Recolor the note callout from Quarto's default blue to the site teal.
 // Selectors must match Quarto's own specificity (.callout-note.callout and
 // div.callout-note.callout-style-default > .callout-header) to win.
