@@ -3,24 +3,40 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="robots" content="noindex">
-<title>Redirecting to jeroen.vangoey.be</title>
+<title>Jeroen Van Goey</title>
 
 <!-- Bounce humans to the UTM-tagged homepage. No Google Analytics here on purpose:
      the intermediate hop must not fire a pageview, so the only GA hit is on the
-     destination, which carries the campaign tags. location.replace keeps /i out of
-     the back-button history. The meta refresh is the no-JS fallback. -->
-<meta http-equiv="refresh" content="0; url=https://jeroen.vangoey.be/?utm_source=linkedin&amp;utm_medium=social&amp;utm_campaign=profile_featured">
+     destination, which carries the campaign tags. location.replace keeps /i/ out of
+     the back-button history; visitors without JS get the link in the body.
+
+     Two tags were removed here and must not come back, because either one stops
+     LinkedIn generating a preview card (it reported "We couldn't load a preview for
+     this link"): a robots meta set to noindex, which its scraper honours, and a
+     zero-second meta refresh, which reads as "redirect, nothing to see".
+     Their syntax is spelled out in prose on purpose - a regex-based scraper would
+     match the real thing even inside a comment, which is the very failure being
+     fixed. The canonical below keeps this page out of search results on its own:
+     it consolidates to the homepage, and /i/ is in no sitemap and linked from
+     nowhere. -->
 <link rel="canonical" href="https://jeroen.vangoey.be/">
 <script>location.replace("https://jeroen.vangoey.be/?utm_source=linkedin&utm_medium=social&utm_campaign=profile_featured");</script>
 
-<!-- Open Graph, so the LinkedIn Featured preview card still renders nicely. -->
+<!-- Open Graph, kept in sync with the homepage's tags (quarto.yml / index.qmd), so a
+     share of this URL renders the same card as a share of the site itself. -->
+<meta name="author" content="Jeroen Van Goey">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://jeroen.vangoey.be/">
-<meta property="og:title" content="Jeroen Van Goey">
-<meta property="og:description" content="Staff Research Engineer, Machine Learning and BioAI Team Lead, building generative models for biology.">
+<meta property="og:title" content="Jeroen Van Goey - Staff Research Engineer, Machine Learning for Biology">
+<meta name="description" content="Staff Research Engineer, Machine Learning &middot; BioAI Team Lead. Generative models for biology: de novo peptide sequencing, proteomics, personalized cancer vaccines.">
+<meta property="og:description" content="Generative models for biology: de novo peptide sequencing, proteomics, and personalized cancer vaccines. Taking research models into production.">
 <meta property="og:image" content="https://jeroen.vangoey.be/images/og-image-v2.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:alt" content="Jeroen Van Goey, Staff Research Engineer, Machine Learning and BioAI Team Lead">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:creator" content="@BioGeek">
 </head>
 <body>
 <p>Redirecting to <a href="https://jeroen.vangoey.be/?utm_source=linkedin&amp;utm_medium=social&amp;utm_campaign=profile_featured">jeroen.vangoey.be</a>&hellip;</p>
