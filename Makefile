@@ -1,7 +1,7 @@
 # Build commands for the website (Quarto) and the CV (RenderCV).
 # Run `make` (or `make render`) to build both.
 
-.PHONY: render cv site preview stars inat strava openalex clean hooks
+.PHONY: render cv site og preview stars inat strava openalex clean hooks
 
 # Build the CV first, then the site, so the deployed site serves the latest CV PDF.
 render: cv site
@@ -15,6 +15,24 @@ cv:
 # Render the website into docs/.
 site:
 	quarto render
+
+# Re-render the Open Graph card (images/og-card.html) to images/og-image.jpg.
+# The card is a 1200x630 HTML template; the JPEG is what LinkedIn, Slack and
+# Bluesky actually display, so editing the template alone changes nothing.
+# Not part of `render` - it only needs running when the card's text changes.
+og:
+	# Rendered at 1200x800 and cropped: at a window height of exactly 630 Chrome
+	# clips the absolutely-positioned footer bar and leaves the bottom 84px white.
+	# --virtual-time-budget waits for the Inter webfont from Google Fonts; without
+	# it the screenshot can fire on fallback metrics and the text reflows.
+	google-chrome --headless --disable-gpu --hide-scrollbars \
+	  --screenshot=/tmp/og-image.png --window-size=1200,800 \
+	  --virtual-time-budget=5000 \
+	  "file://$(CURDIR)/images/og-card.html"
+	convert /tmp/og-image.png -crop 1200x630+0+0 +repage -quality 92 images/og-image.jpg
+	@rm -f /tmp/og-image.png
+	@identify images/og-image.jpg
+
 
 # Live-preview the website with auto-reload.
 preview:

@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.8/schema.json
 cv:
   name: Jeroen Van Goey
-  headline: Staff Research Engineer in BioAI building generative models for biology
+  headline: Staff Research Engineer building machine learning for biology, from research to production
   location: Cape Town, South Africa
   email: jeroen.vangoey@gmail.com
   phone: "+27724582796"
@@ -22,7 +22,7 @@ cv:
       - "Currently looking for Staff/Principal Research Engineer roles in AI for science. Based in Cape Town, open to remote-first roles now and hybrid/on-site roles in Europe or the USA from 2027."
     Experience:
       - company: InstaDeep
-        position: Staff Research Engineer · BioAI Lead
+        position: Staff Research Engineer, Machine Learning · BioAI Team Lead
         start_date: 2022-08
         end_date: present
         location: Cape Town, South Africa

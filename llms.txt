@@ -1,10 +1,10 @@
 # Jeroen Van Goey
 
-> Staff Research Engineer in BioAI building generative models for biology: de novo peptide sequencing, proteomics, and personalized cancer vaccines.
+> Staff Research Engineer, Machine Learning · BioAI Team Lead. Generative models for biology: de novo peptide sequencing, proteomics, personalized cancer vaccines.
 
 ## Pages
 
-- [Home](https://jeroen.vangoey.be/): Staff Research Engineer in BioAI building generative models for biology
+- [Home](https://jeroen.vangoey.be/): Staff Research Engineer, Machine Learning for Biology
 - [Writing](https://jeroen.vangoey.be/writing.html): Notes on building ML systems for biology, and the occasional side quest.
 - [Photography](https://jeroen.vangoey.be/photography/): Portfolio of portrait, wedding, maternity, boudoir, landscape, and long-exposure photography.
 
@@ -22,7 +22,7 @@
 
 ## Experience
 
-- [InstaDeep](https://jeroen.vangoey.be/#instadeep): Staff Research Engineer · BioAI Lead — August 2022 – Present
+- [InstaDeep](https://jeroen.vangoey.be/#instadeep): Staff Research Engineer, Machine Learning · BioAI Team Lead — August 2022 – Present
 - [Barco](https://jeroen.vangoey.be/#barco): Senior Software Development Engineer, Machine Learning — February 2020 – August 2022
 - [BASF](https://jeroen.vangoey.be/#basf): Bioinformatics Researcher, Manager of the Python & R Platforms — August 2018 – January 2020
 - [Bayer Crop Science](https://jeroen.vangoey.be/#bayer-crop-science): Bioinformatics Researcher & Python Platform Manager — February 2018 – July 2018

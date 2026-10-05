@@ -1,8 +1,8 @@
 ---
 title: "Jeroen Van Goey"
-subtitle: "Staff Research Engineer in BioAI building generative models for biology"
-pagetitle: "Jeroen Van Goey - Staff Research Engineer in BioAI"
-description-meta: "Staff Research Engineer in BioAI building generative models for biology: de novo peptide sequencing, proteomics, and personalized cancer vaccines."
+subtitle: "Staff Research Engineer & Team Lead, Machine Learning for Biology. Building Transformer, diffusion and foundation models, from research to production."
+pagetitle: "Jeroen Van Goey - Staff Research Engineer, Machine Learning for Biology"
+description-meta: "Staff Research Engineer, Machine Learning · BioAI Team Lead. Generative models for biology: de novo peptide sequencing, proteomics, personalized cancer vaccines."
 image: images/og-image.jpg
 format: html
 ---
@@ -16,7 +16,7 @@ format: html
 </div>
 
 <div class="hiring">
-  <p class="hiring-status"><strong>Currently looking for leadership roles in AI for science</strong> (biology, proteomics, drug discovery, protein design, foundation models): leading a machine-learning team, Head of AI, or CTO of a startup.</p>
+  <p class="hiring-status"><strong>Currently looking for Staff or Principal research roles in AI for science</strong> (biology, proteomics, drug discovery, foundation models): setting research direction and leading a team while staying hands-on.</p>
   <div class="cta-buttons">
     <a class="cta cta-primary" href="files/jeroen-van-goey-cv.pdf" onclick="if(typeof gtag==='function'){gtag('event','cv_download',{file_name:'jeroen-van-goey-cv.pdf',link_text:'Download CV'});}"><i class="bi bi-file-earmark-arrow-down"></i> Download CV</a>
     <a class="cta cta-primary" href="mailto:jeroen.vangoey@gmail.com"><i class="bi bi-envelope"></i> Email me</a>
@@ -429,7 +429,7 @@ The InstaNovo paper drew broad attention across the scientific press.
 
 ::: {.experience-entry data-tags="research-ml engineering-mlops leadership-people"}
 ### <img width="32" height="32" src="images/icons/instadeep.png" class="company-icon" alt=""> [InstaDeep](https://www.instadeep.com/)
-**Staff Research Engineer · BioAI Lead**\
+**Staff Research Engineer, Machine Learning · BioAI Team Lead**\
 <i class="bi bi-calendar3"></i> _August 2022 – Present_\
 <img width="900" height="600" src="images/flags/za.svg" class="flag-icon" alt="South Africa">Cape Town, South Africa
 
