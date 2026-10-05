@@ -1,9 +1,13 @@
 ---
 title: "Jeroen Van Goey"
-subtitle: "Staff Research Engineer & Team Lead, Machine Learning for Biology. Building Transformer, diffusion and foundation models, from research to production."
+subtitle: "Staff Research Engineer & Team Lead, Machine Learning for Biology"
 pagetitle: "Jeroen Van Goey - Staff Research Engineer, Machine Learning for Biology"
 description-meta: "Staff Research Engineer, Machine Learning · BioAI Team Lead. Generative models for biology: de novo peptide sequencing, proteomics, personalized cancer vaccines."
 image: images/og-image.jpg
+# Quarto feeds `subtitle` into og:description, which would just repeat `pagetitle`
+# on a social card; an explicit open-graph block overrides it.
+open-graph:
+  description: "Generative models for biology: de novo peptide sequencing, proteomics, and personalized cancer vaccines. Taking research models into production."
 format: html
 ---
 
