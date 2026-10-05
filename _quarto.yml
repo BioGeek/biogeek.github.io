@@ -41,7 +41,7 @@ website:
   site-url: https://jeroen.vangoey.be
   favicon: favicon.ico
   description: "Staff Research Engineer, Machine Learning · BioAI Team Lead. Generative models for biology: de novo peptide sequencing, proteomics, personalized cancer vaccines."
-  image: images/og-image.jpg
+  image: images/og-image-v2.jpg
   open-graph: true
   twitter-card:
     creator: "@BioGeek"

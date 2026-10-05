@@ -16,7 +16,12 @@ cv:
 site:
 	quarto render
 
-# Re-render the Open Graph card (images/og-card.html) to images/og-image.jpg.
+# Re-render the Open Graph card (images/og-card.html) to images/og-image-v2.jpg.
+# The -vN suffix is deliberate: LinkedIn caches the rendered image by URL, so a
+# re-scrape of an unchanged filename keeps serving the old picture (it was still
+# returning a 2026-06 copy after the page itself had updated). When the card's
+# content changes and the new version has to appear in shares, bump the suffix
+# here and in _quarto.yml, index.qmd and i/index.html.
 # The card is a 1200x630 HTML template; the JPEG is what LinkedIn, Slack and
 # Bluesky actually display, so editing the template alone changes nothing.
 # Not part of `render` - it only needs running when the card's text changes.
@@ -29,9 +34,9 @@ og:
 	  --screenshot=/tmp/og-image.png --window-size=1200,800 \
 	  --virtual-time-budget=5000 \
 	  "file://$(CURDIR)/images/og-card.html"
-	convert /tmp/og-image.png -crop 1200x630+0+0 +repage -quality 92 images/og-image.jpg
+	convert /tmp/og-image.png -crop 1200x630+0+0 +repage -quality 92 images/og-image-v2.jpg
 	@rm -f /tmp/og-image.png
-	@identify images/og-image.jpg
+	@identify images/og-image-v2.jpg
 
 
 # Live-preview the website with auto-reload.
