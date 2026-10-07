@@ -19,6 +19,10 @@
 - [A framework for database search with AI models in mass spectrometry-based proteomics](https://doi.org/10.1021/acs.jproteome.5c01153): Journal of Proteome Research · 2026 · 25(5):2234–2242
 - [Open-source and FAIR research software for proteomics](https://doi.org/10.1021/acs.jproteome.4c01079): Journal of Proteome Research · 2025 · 24(5):2222–2234
 - [afkSNP: assembly-free k-mer based SNP comparison of bacterial WGS samples](https://jeroen.vangoey.be/files/poster_afkSNP.pdf): Conference poster · Benelux Bioinformatics Conference 2015
+- [Self-driving RC car](https://jeroen.vangoey.be/projects/self-driving-rc-car.html): IndabaX 2025 · Stellenbosch University, South Africa
+- [SchaakStudieSpinselS 2](https://schaakstudiespinsels2.be/nl/): Deep Learning Indaba 2024 · Senegal
+- [Awesome De Novo Peptide Sequencing](https://jeroen.vangoey.be/awesome_de_novo_peptide_sequencing/): IndabaX 2024 · University of the Witwatersrand, Johannesburg
+- [Photography](https://jeroen.vangoey.be/photography/): Deep Learning Indaba 2023 · Ghana
 
 ## Experience
 
