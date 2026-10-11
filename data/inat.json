@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-10-04T10:56:47+00:00",
+  "generated_at": "2026-10-11T11:15:56+00:00",
   "user": "biogeek",
   "stats": {
-    "observations": 1640,
-    "species": 1046,
+    "observations": 1642,
+    "species": 1047,
     "threatened_observations": 92,
-    "research_grade": 812,
+    "research_grade": 817,
     "by_group": {
-      "Plantae": 735,
+      "Plantae": 736,
       "Insecta": 295,
       "Aves": 188,
       "Mammalia": 135,
       "Reptilia": 58,
       "Fungi": 54,
       "Animalia": 52,
-      "Arachnida": 40,
+      "Arachnida": 41,
       "Actinopterygii": 33,
       "Mollusca": 31,
       "Amphibia": 13,
@@ -29,7 +29,7 @@
       "2023": 115,
       "2024": 495,
       "2025": 460,
-      "2026": 502
+      "2026": 504
     },
     "top_species": [
       {
@@ -128,20 +128,6 @@
       "iucn": null
     },
     {
-      "id": 332421663,
-      "species": "Diceros bicornis",
-      "common_name": "Black Rhinoceros",
-      "group": "Mammalia",
-      "observed_on": "2025-12-27",
-      "place": "Namibia",
-      "quality_grade": "research",
-      "faves": 1,
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/603279324/large.jpg",
-      "uri": "https://www.inaturalist.org/observations/332421663",
-      "conservation_status": "critically endangered",
-      "iucn": 50
-    },
-    {
       "id": 322778548,
       "species": "Temnopteryx phalerata",
       "common_name": "Cape Zebra Cockroach",
@@ -154,6 +140,20 @@
       "uri": "https://www.inaturalist.org/observations/322778548",
       "conservation_status": null,
       "iucn": null
+    },
+    {
+      "id": 332421663,
+      "species": "Diceros bicornis",
+      "common_name": "Black Rhinoceros",
+      "group": "Mammalia",
+      "observed_on": "2025-12-27",
+      "place": "Namibia",
+      "quality_grade": "research",
+      "faves": 1,
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/603279324/large.jpg",
+      "uri": "https://www.inaturalist.org/observations/332421663",
+      "conservation_status": "critically endangered",
+      "iucn": 50
     },
     {
       "id": 342868171,
@@ -198,20 +198,6 @@
       "iucn": null
     },
     {
-      "id": 324823211,
-      "species": "Messor capensis",
-      "common_name": "Cape Harvester Ant",
-      "group": "Insecta",
-      "observed_on": "2025-11-04",
-      "place": "Mainstream, Scott Estate, Cape Town, 7806, South Africa",
-      "quality_grade": "needs_id",
-      "faves": 1,
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/588006083/large.jpg",
-      "uri": "https://www.inaturalist.org/observations/324823211",
-      "conservation_status": null,
-      "iucn": null
-    },
-    {
       "id": 332198940,
       "species": "Panthera leo melanochaita",
       "common_name": "Southern Lion",
@@ -222,6 +208,20 @@
       "faves": 1,
       "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/602820219/large.jpg",
       "uri": "https://www.inaturalist.org/observations/332198940",
+      "conservation_status": null,
+      "iucn": null
+    },
+    {
+      "id": 324823211,
+      "species": "Messor capensis",
+      "common_name": "Cape Harvester Ant",
+      "group": "Insecta",
+      "observed_on": "2025-11-04",
+      "place": "Mainstream, Scott Estate, Cape Town, 7806, South Africa",
+      "quality_grade": "needs_id",
+      "faves": 1,
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/588006083/large.jpg",
+      "uri": "https://www.inaturalist.org/observations/324823211",
       "conservation_status": null,
       "iucn": null
     },
@@ -11606,8 +11606,22 @@
       "lat": -34.04356,
       "lng": 18.36184,
       "group": "Insecta",
-      "common_name": "Non-biting Midges",
-      "species": "Chironomidae"
+      "common_name": "Tanypods",
+      "species": "Tanypodinae"
+    },
+    {
+      "lat": -34.02698,
+      "lng": 18.34144,
+      "group": "Plantae",
+      "common_name": "Spiderworts",
+      "species": "Tradescantia"
+    },
+    {
+      "lat": -34.04357,
+      "lng": 18.36192,
+      "group": "Arachnida",
+      "common_name": "Cape Rainspider",
+      "species": "Palystes castaneus"
     },
     {
       "lat": -34.04062,
