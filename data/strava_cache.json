@@ -12149,6 +12149,28 @@
     ],
     "total_elevation_gain": 984.0
   },
+  "20604270035": {
+    "_weather": {
+      "cat": "cloudy",
+      "precip": 0.0,
+      "temp": 15.3
+    },
+    "distance": 8661.2,
+    "id": 20604270035,
+    "map": {
+      "summary_polyline": "jzqnEixioBUKGOKIk@Yy@s@y@Uu@_@k@CIBi@KiB_@_AWg@UY[k@c@aAc@Og@Ek@?[Ik@M[]e@Uu@Ks@DgAL}@K}@Qw@O{BSa@cAe@UIy@FEEm@iCBc@A]Kq@MYO}@We@{AsAgAQgBCa@UeAWYMEGBe@EgABg@Jo@HgCGWYo@y@mAa@g@?CGEIAJGRCCJD?SCKR}@n@a@TkALw@?c@Je@Ma@Wk@o@c@iA_@m@GYJu@Ce@QqAYy@a@m@WUWOc@I]Fc@AKMI[EY_@g@KUQkAMi@IQQOw@U_Ca@m@Ss@Dc@NW\\OZsA~AEC?GTSFXUSFEVe@Vu@RiABYRqAPk@v@cAt@e@ZEX@vAl@Hb@@VJ\\h@J`@CLGPA`@FXALD|@z@b@Tb@KPKX]`@O^HbCdBdAf@X\\LdANr@Fl@Gn@Qp@Gh@@RHR\\Fv@_@f@Ib@Eb@D\\?PEn@YLIh@o@RGf@HjAx@j@f@\\f@`AxBb@r@H\\@TUrA?ZHn@\\tAFHK?FD?EG@DFCg@Kg@Em@A[F_@\\m@Vq@?e@K[m@eA}@oCe@eAqAaBmBmBq@k@YCYDUd@WRE?Yk@My@g@eBG]Es@Mk@M[SUk@a@WGUMcAMIE}@oA]]c@S{@D]K{@yA[aAEs@@[Q_BCs@ESM_@m@_A}@_AmC_APAEDGAGEJg@As@J[NYb@HrCbAz@\\|ApAT^\\zBJ`@PPJ?j@XR^P@VIZEj@Uh@CNBv@rA^PTR\\h@fAvAJFN\\Vb@Pf@\\`@b@b@NRXLf@z@L`@?JPRhAbAPTJZb@x@LPt@t@`@f@?HFL^`@Jh@b@d@Zb@Vn@?Z`@dAPv@B\\EFMp@B`@Nj@Td@PLDJB@FCE@B?HHLb@b@h@FNEPs@t@Q\\eAnBEl@Mf@B\\CBC\\F`ACXHP?LN^@LJHDHTVDf@FZEdADl@C^SjA@TLn@KhA?d@D\\LLh@^HJXn@H^@x@Ab@Lh@Dj@En@UbAGj@I^Bj@F^Vz@Vd@Ld@VxBrAz@j@b@p@\\n@Td@FLHp@Rb@Fn@G^J|@b@l@NXb@dAj@RFBB"
+    },
+    "moving_time": 3270,
+    "name": "Constantia Nek - Cecilia Forest 🐆",
+    "sport_type": "TrailRun",
+    "start_date": "2026-10-15T16:04:15Z",
+    "start_date_local": "2026-10-15T18:04:15Z",
+    "start_latlng": [
+      -34.011417,
+      18.405333
+    ],
+    "total_elevation_gain": 248.0
+  },
   "2062860221": {
     "_weather": {
       "cat": "clear",
