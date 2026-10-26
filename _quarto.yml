@@ -17,6 +17,9 @@ project:
     - "images/photography/**"
     # Static redirect page (no Quarto processing): /i -> homepage with LinkedIn UTM tags.
     - "i/index.html"
+    # Third-party posters hosted for the de novo catalog (awesome_de_novo_peptide_sequencing).
+    # Nothing on this site links them, so Quarto would not copy them on its own.
+    - "files/posters/**"
   pre-render:
     # Recompute the "N publications" intro count from the cards actually listed
     # in the Publications section, so it never drifts (see scripts/update_pubcount.py).
