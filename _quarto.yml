@@ -22,6 +22,11 @@ project:
     # in the Publications section, so it never drifts (see scripts/update_pubcount.py).
     - "uv run python scripts/update_pubcount.py"
   post-render:
+    # Subset Quarto's bundled Bootstrap Icons (full set: ~98 KB CSS + ~177 KB
+    # font, both render-blocking) down to the ~45 glyphs the built pages
+    # actually use, saving ~270 KB on the mobile critical path. Discovers the
+    # used icons from the rendered HTML/JS, so it needs no allow-list.
+    - "uv run python scripts/subset_bootstrap_icons.py"
     # Inject self-referencing canonical links and normalize sitemap.xml to the
     # clean (no index.html) URLs; Quarto 1.9.x emits neither. See the script.
     - "uv run python scripts/seo_canonicals.py"

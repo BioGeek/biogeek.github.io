@@ -1,5 +1,17 @@
 <meta name="author" content="Jeroen Van Goey">
 
+<!-- Warm up cross-origin connections used early (web fonts block render) or
+     by the async citation badges, so their TCP+TLS handshakes overlap the
+     critical CSS download instead of adding a serial round-trip on mobile. -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="dns-prefetch" href="https://www.googletagmanager.com">
+<link rel="dns-prefetch" href="https://badge.dimensions.ai">
+<link rel="dns-prefetch" href="https://embed.altmetric.com">
+<link rel="dns-prefetch" href="https://badges.altmetric.com">
+<link rel="dns-prefetch" href="https://d1bxh8uas1mnw7.cloudfront.net">
+<link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
+
 <!-- Google Search Console verification (HTML-tag method; redundant with the Analytics method) -->
 <meta name="google-site-verification" content="NRaOjA5VoFn7ZR9vYVxohpQqBkJbZETyRhjZkJDdrFo" />
 
