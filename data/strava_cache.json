@@ -12237,6 +12237,28 @@
     ],
     "total_elevation_gain": 308.0
   },
+  "20725723542": {
+    "_weather": {
+      "cat": "cloudy",
+      "precip": 0.0,
+      "temp": 21.0
+    },
+    "distance": 1195.1,
+    "id": 20725723542,
+    "map": {
+      "summary_polyline": "~vwmE}vopBAA?@?ACAD?C?B@BGEDC?@CC@AAEFa@AWHSf@IHQNG@UJIHGPIb@IJBDIHs@j@?Ak@VA?B?CCSHIACCIW_@G?CMIABCKGGA@CAOQ]O@AE@YIM?]GM?SEIGSCQLM?QJGF?`@Rh@JDLZ@??CJPJJ?JFD?@LBDDDTXd@Ph@Hn@DF@LAAFHJ@DJJDLANFDA?@C?D@l@EL@NGPA^Od@[B??@AETMBERGNITALGL?RGFG^MLKJ?BGTEBIfAw@Xc@HU?KKIBAIEKA@?CEIGKEBFAGGAMIWGKWEOJo@D_@COBKDc@@C?WDG"
+    },
+    "moving_time": 1271,
+    "name": "Tortoise 🐢 route at Tygerberg Nature Reserve",
+    "sport_type": "Hike",
+    "start_date": "2026-10-25T12:41:31Z",
+    "start_date_local": "2026-10-25T14:41:31Z",
+    "start_latlng": [
+      -33.87776,
+      18.599675
+    ],
+    "total_elevation_gain": 48.7
+  },
   "2114274671": {
     "_weather": {
       "cat": "cloudy",
