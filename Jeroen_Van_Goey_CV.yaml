@@ -18,7 +18,7 @@ cv:
   sections:
     Summary:
       - Machine learning research engineer working at the intersection of AI and science, bridging scientific ML, biological domain knowledge, production-quality software, and team leadership. I build generative models and take them from prototype to deployment, with a focus on *de novo* peptide sequencing.
-      - 8 publications, including papers published in *Nature Machine Intelligence* and *Nature Communications*.
+      - Published in *Nature Machine Intelligence* and *Nature Communications*, among other peer-reviewed venues.
       - "Currently looking for Staff/Principal Research Engineer roles in AI for science. Based in Cape Town, open to remote-first roles now and hybrid/on-site roles in Europe or the USA from 2027."
     Experience:
       - company: InstaDeep
@@ -75,23 +75,13 @@ cv:
         date: 2026
       - title: "*De novo* peptide sequencing rescoring and FDR estimation with Winnow"
         authors: ["A. Mabona", "J. Daniel", "…", "**J. Van Goey**", "K. Kalogeropoulos"]
-        journal: arXiv
+        journal: arXiv (preprint)
         doi: 10.48550/arXiv.2509.24952
         date: 2025
       - title: A living proteomics benchmark for comprehensive evaluation of deep learning-based *de novo* peptide sequencing tools
         authors: ["M. Pominova", "**J. Van Goey**", "C. Adams", "…", "W. Bittremieux"]
         journal: Registered report (preprint)
         doi: 10.6084/m9.figshare.31680883.v1
-        date: 2026
-      - title: Generalizable direct protein sequencing with InstaNexus
-        authors: ["M. Reverenna", "M. Wennekers Nielsen", "…", "**J. Van Goey**", "…", "K. Kalogeropoulos"]
-        journal: Mol. Cell. Proteomics
-        doi: 10.1016/j.mcpro.2026.101547
-        date: 2026
-      - title: A Framework for Database Search with AI Models in Mass Spectrometry-Based Proteomics
-        authors: ["K. Kalogeropoulos", "**J. Van Goey**", "T. P. Jenkins", "K. M. Eloff"]
-        journal: Journal of Proteome Research
-        doi: 10.1021/acs.jproteome.5c01153
         date: 2026
     Education:
       - institution: HOWEST Hogeschool West-Vlaanderen
@@ -140,16 +130,6 @@ cv:
         summary: "A comprehensive, interactive map of the *de novo* peptide sequencing field: algorithms, post-processors, downstream applications, and adjacent tools, deep-learning and classical alike."
         highlights:
           - "Open source: [github.com/BioGeek/awesome_de_novo_peptide_sequencing](https://github.com/BioGeek/awesome_de_novo_peptide_sequencing)"
-      - name: "[Self-driving RC car](https://jeroen.vangoey.be/projects/self-driving-rc-car.html)"
-        summary: "Turning a 1/16-scale RC car into an autonomous vehicle as a hands-on testbed for modern edge ML: training policies in simulation and deploying them to a Jetson Nano. An ongoing build, documented in a public progress log."
-        highlights:
-          - "Progress log: [jeroen.vangoey.be/writing (jetson)](https://jeroen.vangoey.be/writing.html#category=jetson)"
-      - name: "[SchaakStudieSpinselS 2](https://schaakstudiespinsels2.be/nl/)"
-        summary: "Digitised the second volume of my grandfather Ignace Vandecasteele's third book of chess endgame studies, more than three hundred studies, put the whole collection online, and made the chess boards interactive."
-        highlights:
-          - "Open source: [github.com/BioGeek/SchaakStudieSpinsels2](https://github.com/BioGeek/SchaakStudieSpinsels2)"
-      - name: "[Photography portfolio](https://jeroen.vangoey.be/photography/)"
-        summary: "A portfolio of portrait, wedding, maternity, boudoir, landscape and long-exposure photography."
     Teaching & mentoring:
       - name: AIMS South Africa MSc supervision
         start_date: 2025
@@ -169,17 +149,13 @@ cv:
         end_date: 2020
         location: BASF and Bayer Crop Science, Belgium
         summary: Trained and mentored researchers and data scientists in scientific Python (NumPy, pandas, BioPython) as manager of the Python/R analysis platform.
-    Hackathons (co-created, organized and judged):
-      - label: "2025"
-        details: "Machine Learning Interatomic Potentials Hackathon, IndabaX (Stellenbosch University, South Africa)"
-      - label: "2024"
-        details: "Snakes and Sequences: Senegalese Serpent Venom Sequencing Hackathon, Deep Learning Indaba (Senegal)"
-      - label: "2024"
-        details: "Desert Locust Breeding Ground Prediction Hackathon, IndabaX (Wits, Johannesburg)"
-      - label: "2023"
-        details: "Unveiling Cassava's Secrets, Deep Learning Indaba (Ghana)"
 design:
   theme: classic
+  header:
+    connections:
+      # Keep the +27 country code visible; rendercv's default "national" format
+      # strips it (renders 072 458 2796 instead of +27 72 458 2796).
+      phone_number_format: international
   colors:
     name: rgb(11, 94, 84)
     headline: rgb(11, 94, 84)
