@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-25T09:36:10+00:00",
+  "generated_at": "2026-11-01T11:42:06+00:00",
   "user": "biogeek",
   "stats": {
     "observations": 1647,
     "species": 1049,
-    "threatened_observations": 92,
-    "research_grade": 822,
+    "threatened_observations": 91,
+    "research_grade": 823,
     "by_group": {
       "Plantae": 736,
       "Insecta": 298,
@@ -93,7 +93,7 @@
       "observed_on": "2008-05-02",
       "place": "Zonnemaire, Netherlands",
       "quality_grade": "research",
-      "faves": 13,
+      "faves": 12,
       "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/648/large.jpg",
       "uri": "https://www.inaturalist.org/observations/562",
       "conservation_status": null,
@@ -128,20 +128,6 @@
       "iucn": null
     },
     {
-      "id": 322778548,
-      "species": "Temnopteryx phalerata",
-      "common_name": "Cape Zebra Cockroach",
-      "group": "Insecta",
-      "observed_on": "2025-10-24",
-      "place": "Scott Estate, Cape Town, 7806, South Africa",
-      "quality_grade": "needs_id",
-      "faves": 1,
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/583972603/large.jpg",
-      "uri": "https://www.inaturalist.org/observations/322778548",
-      "conservation_status": null,
-      "iucn": null
-    },
-    {
       "id": 332421663,
       "species": "Diceros bicornis",
       "common_name": "Black Rhinoceros",
@@ -154,6 +140,20 @@
       "uri": "https://www.inaturalist.org/observations/332421663",
       "conservation_status": "critically endangered",
       "iucn": 50
+    },
+    {
+      "id": 322778548,
+      "species": "Temnopteryx phalerata",
+      "common_name": "Cape Zebra Cockroach",
+      "group": "Insecta",
+      "observed_on": "2025-10-24",
+      "place": "Scott Estate, Cape Town, 7806, South Africa",
+      "quality_grade": "needs_id",
+      "faves": 1,
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/583972603/large.jpg",
+      "uri": "https://www.inaturalist.org/observations/322778548",
+      "conservation_status": null,
+      "iucn": null
     },
     {
       "id": 342868171,
@@ -4145,7 +4145,7 @@
       "lng": 17.937,
       "group": "Aves",
       "common_name": "Blue Crane",
-      "species": "Grus paradiseus"
+      "species": "Grus paradisea"
     },
     {
       "lat": -32.78398,
@@ -6993,7 +6993,7 @@
       "lat": -33.89473,
       "lng": 18.44721,
       "group": "Aves",
-      "common_name": "Moseley's Rockhopper Penguin",
+      "common_name": "Northern Rockhopper Penguin",
       "species": "Eudyptes moseleyi"
     },
     {
@@ -8184,7 +8184,7 @@
       "lng": 21.81668,
       "group": "Aves",
       "common_name": "Wattled Crane",
-      "species": "Grus carunculatus"
+      "species": "Grus carunculata"
     },
     {
       "lat": -18.43278,
@@ -9653,8 +9653,8 @@
       "lat": -34.10952,
       "lng": 18.46719,
       "group": "Mollusca",
-      "common_name": null,
-      "species": "Scissodesma"
+      "common_name": "Angular Surf Clam",
+      "species": "Scissodesma spengleri"
     },
     {
       "lat": -34.10701,
@@ -10584,8 +10584,8 @@
       "lat": -30.25597,
       "lng": 30.76978,
       "group": "Reptilia",
-      "common_name": "Nile Crocodile",
-      "species": "Crocodylus niloticus"
+      "common_name": "Crocodilians",
+      "species": "Crocodylia"
     },
     {
       "lat": -30.24924,
@@ -11495,7 +11495,7 @@
       "lng": 19.42519,
       "group": "Aves",
       "common_name": "Cape Bunting",
-      "species": "Emberiza capensis"
+      "species": "Fringillaria capensis"
     },
     {
       "lat": -32.9602,
