@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-26T12:35:39+00:00",
+  "generated_at": "2026-11-02T15:16:40+00:00",
   "orcid": "0000-0003-4480-5567",
-  "cited_by_count": 95,
+  "cited_by_count": 97,
   "works_count": 26,
   "h_index": 3,
   "i10_index": 3,
@@ -9,38 +9,38 @@
     {
       "year": 2015,
       "works_count": 2,
-      "oa_works_count": 2,
+      "oa_works_count": 1,
       "cited_by_count": 0
     },
     {
       "year": 2016,
       "works_count": 1,
       "oa_works_count": 1,
-      "cited_by_count": 1
+      "cited_by_count": 0
     },
     {
       "year": 2023,
       "works_count": 1,
       "oa_works_count": 1,
-      "cited_by_count": 24
+      "cited_by_count": 1
     },
     {
       "year": 2024,
       "works_count": 2,
       "oa_works_count": 2,
-      "cited_by_count": 2
+      "cited_by_count": 15
     },
     {
       "year": 2025,
       "works_count": 5,
       "oa_works_count": 5,
-      "cited_by_count": 64
+      "cited_by_count": 31
     },
     {
       "year": 2026,
       "works_count": 15,
       "oa_works_count": 15,
-      "cited_by_count": 4
+      "cited_by_count": 50
     }
   ],
   "works": [
@@ -48,7 +48,7 @@
       "title": "InstaNovo enables diffusion-powered de novo peptide sequencing in large-scale proteomics experiments",
       "year": 2025,
       "doi": "https://doi.org/10.1038/s42256-025-01019-5",
-      "cited_by_count": 43
+      "cited_by_count": 44
     },
     {
       "title": "De novo peptide sequencing with InstaNovo: Accurate, database-free peptide identification for large scale proteomics experiments",
