@@ -12259,6 +12259,28 @@
     ],
     "total_elevation_gain": 48.7
   },
+  "20852061918": {
+    "_weather": {
+      "cat": "clear",
+      "precip": 0.0,
+      "temp": 21.8
+    },
+    "distance": 4395.1,
+    "id": 20852061918,
+    "map": {
+      "summary_polyline": "j~tnEwk}nBFNCR@LPNH\\Cn@]r@@x@Wz@O`A[d@a@`@_B~A_ApBYv@q@fAMp@L\\Vf@f@r@`@Rd@Fj@\\LLLj@?n@Ff@Ll@Dr@@fAB`@`@rCRrBLh@n@rBBLh@zABDBCSm@U{@g@uCQ{AKeKNaARcBPu@TGFKVCV@@DADQTGRJ\\BX@FD@?Jb@\\PBP^RLJNBJFDHLNDDLDB?RDD@DFD@LNDFp@BDF?BC?P?ARF?FFJENH@AV@@CDFEHDDJHDBLPLHN@NFNFFL@VHHFFPP?HJ?HHPJ?RDRCLFHI^OHQH@BFF?PJVTBLTBBHF?@HPHA@HFF?@DDDJCJDBACDDADFAFB@@FFB@G?DLKC@?CB?@DDB?HB@CBBDJBARH?FHNFJLALINCP@LVd@PDDF@DTLNNDLFFBCBHJJ@VLHFADFVLL@?FCD@^EHAXBJLHN@BD@A_@?MIBg@DIBYAOOCGGUKKAMM?YAAAGK@MUe@]EIWIQa@GIAWP_@AEKQE@EEKOAKIECE?EKIEOCREK?BOQ@?E@MGK@IM?AEAEEE?AGI?EIKKE?MGEMUOCEOEKMa@R[TMEKBGCOBCEI?CAK[GKK?EIIGQEIGI?OQGUIM[UAKBAGEQYAIDGGACEDGIOBCSG@OUC?OO]CIE??KOOAOBGKOQIGKOGEOMOMGMUa@SSO?KEEEIKa@?MAGRw@]F[KIHK?GEEYYm@QY[]e@UU@OABAOGAKGMI@KE]\\WDGCKSM@GC?CZcAHw@P_@Ze@?_@P[?IFAHPT?JG|@y@LOb@_ALo@Ps@VoABeAAMMQKICY?_@"
+    },
+    "moving_time": 2845,
+    "name": "Shutter's Peak",
+    "sport_type": "TrailRun",
+    "start_date": "2026-10-29T16:08:32Z",
+    "start_date_local": "2026-10-29T18:08:32Z",
+    "start_latlng": [
+      -34.027413,
+      18.341883
+    ],
+    "total_elevation_gain": 403.0
+  },
   "2114274671": {
     "_weather": {
       "cat": "cloudy",
