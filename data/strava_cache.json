@@ -12281,6 +12281,28 @@
     ],
     "total_elevation_gain": 403.0
   },
+  "20857413307": {
+    "_weather": {
+      "cat": "cloudy",
+      "precip": 0.0,
+      "temp": 21.7
+    },
+    "distance": 7959.3,
+    "id": 20857413307,
+    "map": {
+      "summary_polyline": "~gxnE_iaoB?IJ]Ra@VWFM\\[B?Z_@JGFAZLt@JHC^a@JEbABNBHCb@C^A\\L^Xr@TJFv@t@^RTZ`@XJLVj@RT`@@NMLW@OH]BYJ[DEDO|@i@bAYPBNJTAJ@RELMLDZ@VG\\@t@GPEJGLOHO^e@TMNALBL?n@S^GPIjAQz@Uj@SVOXIvAgAp@o@d@URC\\@p@GJKn@]TMLAn@?XFVR^^RFL@JEFEN_@Xg@JMh@Ot@GRG`@YRc@L_@BMN]H[LUL_@JMHATMBId@Ij@?ZNZD^A\\KNEZSvAeBL[Fi@@iA}@}H?QDYFMVIF?d@V`@P`@PTDX?LELGHKLYDS@o@BSAaABEBICKB_@?WDm@?Q@MXe@TIR?THz@~@^Pd@L`@CnAUXKh@BVEJGT?\\QFA@EAAA?HE`@LJ?BADKB[DIVMVU^m@XMZSf@IVD\\JLHLJRXNZ\\lAR^Z\\`AZb@Fr@N\\?|A`@p@^`Ad@`@Zf@XrAr@`@LJ@~@AXIr@Kd@?VD|Av@v@h@FHBHJJDV@`ADXp@z@^b@N\\VFRHLBRIDGBI?EIGWBWAk@c@o@sAo@cBMUSU_@WQEsAu@]KSAYFYBg@JQ?WFi@Ey@_@YQIKe@Qe@WWQk@Ye@[]Ik@Wq@Mk@Ge@KK?[EWGc@UYWMW_@kAYo@c@c@YMk@Gg@FMF_@^e@\\IZk@ZId@EF_@AMGK@cAP]JoAPs@Pm@@c@Mc@U_@g@WSME]AACIBMNMj@OhD?b@EV?n@Gb@OXMHUDi@AmBaAUDQREHAPB`@Jn@RpBVjBBv@EdAOj@]f@}@bA[XMFo@Bk@IWIQEq@FKFm@d@MPQb@o@nBU`@_@Vs@D_AXSTAF@HIDCBM^MLMBSA_@e@WSOGeACO@k@`@]Pm@Ho@?[Ja@Zq@n@gAv@kBt@Q@_@JiAN]RUBgARW@IB[d@k@l@iAJ_A?[DQAi@LIGUAOME?ODOFSTc@N_@`@S\\SrAGRIJQDYGGEu@kAUQYa@UQWKWWi@[u@Yc@YWIsALgAKQFW\\MHmAQOGMJ]f@SHGDELa@n@I\\]fAQL[GF?AE"
+    },
+    "moving_time": 2924,
+    "name": "Chappies",
+    "sport_type": "Run",
+    "start_date": "2026-11-04T14:00:33Z",
+    "start_date_local": "2026-11-04T16:00:33Z",
+    "start_latlng": [
+      -34.044311,
+      18.361927
+    ],
+    "total_elevation_gain": 113.1
+  },
   "2114274671": {
     "_weather": {
       "cat": "cloudy",
