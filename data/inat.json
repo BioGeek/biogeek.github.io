@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-01T11:42:06+00:00",
+  "generated_at": "2026-11-08T11:44:06+00:00",
   "user": "biogeek",
   "stats": {
-    "observations": 1647,
-    "species": 1049,
+    "observations": 1650,
+    "species": 1050,
     "threatened_observations": 91,
     "research_grade": 823,
     "by_group": {
       "Plantae": 736,
-      "Insecta": 298,
+      "Insecta": 301,
       "Aves": 189,
       "Mammalia": 135,
       "Reptilia": 58,
@@ -29,7 +29,7 @@
       "2023": 115,
       "2024": 495,
       "2025": 460,
-      "2026": 509
+      "2026": 512
     },
     "top_species": [
       {
@@ -11657,6 +11657,27 @@
       "group": "Insecta",
       "common_name": "Carpet Moths",
       "species": "Larentiinae"
+    },
+    {
+      "lat": -34.04359,
+      "lng": 18.36188,
+      "group": "Insecta",
+      "common_name": null,
+      "species": "Molophilus"
+    },
+    {
+      "lat": -34.04359,
+      "lng": 18.36189,
+      "group": "Insecta",
+      "common_name": null,
+      "species": "Dolichopeza"
+    },
+    {
+      "lat": -34.04358,
+      "lng": 18.36189,
+      "group": "Insecta",
+      "common_name": null,
+      "species": "Neomuda"
     },
     {
       "lat": -34.04062,
