@@ -12347,6 +12347,28 @@
     ],
     "total_elevation_gain": 192.6
   },
+  "20906097639": {
+    "_weather": {
+      "cat": "clear",
+      "precip": 0.0,
+      "temp": 22.8
+    },
+    "distance": 6248.9,
+    "id": 20906097639,
+    "map": {
+      "summary_polyline": "zexnEsgaoBDFLGHKRYJa@^m@p@k@l@_@Tg@Py@Bm@Jk@Ec@@cBEyACUM_@SWUQCBMC[BMAUIWc@y@cCc@kBi@iAQg@Y_@O_@]{@Og@Wi@SaAUo@a@aBMo@?QNyAKYBSCEKGEKDe@CMKW?q@CUEOA[Ug@AUCWGSEC?WFOBYUw@CYBUFEBOCSJk@CKBUCoACUGOKMIE?ERw@@GEE?I@KXk@@KCG@Kb@{@DONSHERe@CA?GEACEAOBQLa@AMZGVC@s@BGVo@F]LOHUJECFFAH@DHLGF@BDD?`@E?JNFFFFCDKLID@BDPDDCPFJ\\h@R?DBH\\d@HDD?FJRLHf@B@?DJRHAFFPFDBB?BGNI@GD@NOE[BGJQHGD@BGDAJKLAHILNXJRBLKB?DFPJT`AXx@Jj@Ft@V`A?VF^Vn@h@b@HLHDLRLFJDT`@H@BFnAf@jAVj@Fn@^LNFBPVP\\Tx@Lt@HTHj@@Zd@z@t@pBBZRd@Bj@f@nBFd@AlADLFl@G~@NhBFHLHH?FFPJUh@MLCHa@t@SXENBAD@EBPGbAi@PMPYB@FEl@q@NMVORGFED@Sl@AJMXKLSJKRK`@MLMXGN@b@Mf@BDIRF?HIXGf@a@@EJGDAAXGNId@M^@@BILINKBFCf@ALGJGD?FSh@DELCJIb@Y^Mb@_@l@]`Bk@TALGLCDJETQXKHQVe@f@]t@EFSNQXAFDBFCR?xAy@`@]ZIf@Ad@QfCi@nA_@r@g@\\ORAHB^ETNl@JDFHTBp@BLVDDFBZIb@a@fA@TFTCHEBKAQIGIC?GBI@KRqAPsAr@SDo@?[BOHy@p@aBjAqAj@q@RcBZs@VgAPC?c@Pq@v@MH_@F}AJe@BOCSFM?}@ScBz@_@TYf@GbAIXMR_@AIGWk@UWIOy@}@u@o@sCeASAW?IBg@?_AGa@NWNc@@y@MGB]Vw@z@_@h@o@zAOD"
+    },
+    "moving_time": 3689,
+    "name": "Baviaanskloof up, Alfies down ☀️",
+    "sport_type": "TrailRun",
+    "start_date": "2026-11-08T09:43:10Z",
+    "start_date_local": "2026-11-08T11:43:10Z",
+    "start_latlng": [
+      -34.04398,
+      18.361703
+    ],
+    "total_elevation_gain": 371.0
+  },
   "2114274671": {
     "_weather": {
       "cat": "cloudy",
