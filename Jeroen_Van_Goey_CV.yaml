@@ -129,7 +129,7 @@ cv:
       - name: "[Awesome De Novo Peptide Sequencing](https://jeroen.vangoey.be/awesome_de_novo_peptide_sequencing/)"
         summary: "A comprehensive, interactive map of the *de novo* peptide sequencing field: algorithms, post-processors, downstream applications, and adjacent tools, deep-learning and classical alike."
         highlights:
-          - "Open source: [github.com/BioGeek/awesome_de_novo_peptide_sequencing](https://github.com/BioGeek/awesome_de_novo_peptide_sequencing)"
+          - "[jeroen.vangoey.be/awesome_de_novo_peptide_sequencing](https://jeroen.vangoey.be/awesome_de_novo_peptide_sequencing/) · open source on [GitHub](https://github.com/BioGeek/awesome_de_novo_peptide_sequencing)"
     Teaching & mentoring:
       - name: AIMS South Africa MSc supervision
         start_date: 2025
