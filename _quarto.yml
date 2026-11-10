@@ -17,9 +17,6 @@ project:
     - "images/photography/**"
     # Static redirect page (no Quarto processing): /i -> homepage with LinkedIn UTM tags.
     - "i/index.html"
-    # Third-party posters hosted for the de novo catalog (awesome_de_novo_peptide_sequencing).
-    # Nothing on this site links them, so Quarto would not copy them on its own.
-    - "files/posters/**"
   post-render:
     # Subset Quarto's bundled Bootstrap Icons (full set: ~98 KB CSS + ~177 KB
     # font, both render-blocking) down to the ~45 glyphs the built pages
