@@ -26,8 +26,16 @@ if [ -z "$CHROME" ]; then
 fi
 
 # Full-viewport screenshot of the live page.
+# --virtual-time-budget lets Chrome keep advancing its clock (running the page's
+# JS, webfonts and the dashboard's client-side charts) up to the budget before
+# firing the screenshot; --run-all-compositor-stages-before-draw then forces the
+# compositor to finish painting first. Without the compositor flag the capture
+# lands on a page with only the title/TOC drawn and a blank middle where the
+# stat cards and breakdown charts should be (they paint a frame too late).
 "$CHROME" --headless=new --no-sandbox --disable-gpu --hide-scrollbars \
-  --window-size=1280,900 --screenshot="$TMP/full.png" "$URL"
+  --window-size=1280,900 --virtual-time-budget=20000 \
+  --run-all-compositor-stages-before-draw \
+  --screenshot="$TMP/full.png" "$URL"
 
 # Crop the content area (title + stat cards + breakdown charts), excluding the
 # right-hand "On this page" table of contents, then resize to a card-friendly width.
