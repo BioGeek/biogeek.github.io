@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-08T11:44:06+00:00",
+  "generated_at": "2026-11-15T12:31:23+00:00",
   "user": "biogeek",
   "stats": {
-    "observations": 1650,
+    "observations": 1652,
     "species": 1050,
-    "threatened_observations": 91,
+    "threatened_observations": 92,
     "research_grade": 823,
     "by_group": {
       "Plantae": 736,
@@ -14,8 +14,8 @@
       "Reptilia": 58,
       "Fungi": 54,
       "Animalia": 52,
-      "Arachnida": 42,
-      "Actinopterygii": 33,
+      "Arachnida": 43,
+      "Actinopterygii": 34,
       "Mollusca": 31,
       "Amphibia": 13,
       "Unknown": 4,
@@ -29,7 +29,7 @@
       "2023": 115,
       "2024": 495,
       "2025": 460,
-      "2026": 512
+      "2026": 514
     },
     "top_species": [
       {
@@ -128,20 +128,6 @@
       "iucn": null
     },
     {
-      "id": 332421663,
-      "species": "Diceros bicornis",
-      "common_name": "Black Rhinoceros",
-      "group": "Mammalia",
-      "observed_on": "2025-12-27",
-      "place": "Namibia",
-      "quality_grade": "research",
-      "faves": 1,
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/603279324/large.jpg",
-      "uri": "https://www.inaturalist.org/observations/332421663",
-      "conservation_status": "critically endangered",
-      "iucn": 50
-    },
-    {
       "id": 322778548,
       "species": "Temnopteryx phalerata",
       "common_name": "Cape Zebra Cockroach",
@@ -154,6 +140,20 @@
       "uri": "https://www.inaturalist.org/observations/322778548",
       "conservation_status": null,
       "iucn": null
+    },
+    {
+      "id": 332421663,
+      "species": "Diceros bicornis",
+      "common_name": "Black Rhinoceros",
+      "group": "Mammalia",
+      "observed_on": "2025-12-27",
+      "place": "Namibia",
+      "quality_grade": "research",
+      "faves": 1,
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/603279324/large.jpg",
+      "uri": "https://www.inaturalist.org/observations/332421663",
+      "conservation_status": "critically endangered",
+      "iucn": 50
     },
     {
       "id": 342868171,
@@ -198,20 +198,6 @@
       "iucn": null
     },
     {
-      "id": 332198940,
-      "species": "Panthera leo melanochaita",
-      "common_name": "Southern Lion",
-      "group": "Mammalia",
-      "observed_on": "2025-12-20",
-      "place": "Siyanda, ZA-NC, ZA",
-      "quality_grade": "research",
-      "faves": 1,
-      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/602820219/large.jpg",
-      "uri": "https://www.inaturalist.org/observations/332198940",
-      "conservation_status": null,
-      "iucn": null
-    },
-    {
       "id": 324823211,
       "species": "Messor capensis",
       "common_name": "Cape Harvester Ant",
@@ -222,6 +208,20 @@
       "faves": 1,
       "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/588006083/large.jpg",
       "uri": "https://www.inaturalist.org/observations/324823211",
+      "conservation_status": null,
+      "iucn": null
+    },
+    {
+      "id": 332198940,
+      "species": "Panthera leo melanochaita",
+      "common_name": "Southern Lion",
+      "group": "Mammalia",
+      "observed_on": "2025-12-20",
+      "place": "Siyanda, ZA-NC, ZA",
+      "quality_grade": "research",
+      "faves": 1,
+      "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/602820219/large.jpg",
+      "uri": "https://www.inaturalist.org/observations/332198940",
       "conservation_status": null,
       "iucn": null
     },
@@ -5240,8 +5240,8 @@
       "species": "Equus quagga burchellii"
     },
     {
-      "lat": -34.14131,
-      "lng": 23.91923,
+      "lat": -34.01097,
+      "lng": 23.86974,
       "group": "Mammalia",
       "common_name": "Leopard",
       "species": "Panthera pardus"
@@ -8799,8 +8799,8 @@
       "lat": -20.34481,
       "lng": 26.26003,
       "group": "Insecta",
-      "common_name": null,
-      "species": "Lucaninae"
+      "common_name": "Beetles",
+      "species": "Coleoptera"
     },
     {
       "lat": -20.22556,
@@ -11678,6 +11678,20 @@
       "group": "Insecta",
       "common_name": null,
       "species": "Neomuda"
+    },
+    {
+      "lat": -33.76868,
+      "lng": 19.51884,
+      "group": "Arachnida",
+      "common_name": "Cricket Thief Spider",
+      "species": "Thanatus vulgaris"
+    },
+    {
+      "lat": -33.7688,
+      "lng": 19.51969,
+      "group": "Actinopterygii",
+      "common_name": "Short-finned Eel",
+      "species": "Anguilla australis"
     },
     {
       "lat": -34.04062,
