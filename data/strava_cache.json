@@ -12391,6 +12391,28 @@
     ],
     "total_elevation_gain": 309.0
   },
+  "20985928280": {
+    "_weather": {
+      "cat": "clear",
+      "precip": 0.0,
+      "temp": 27.9
+    },
+    "distance": 5457.7,
+    "id": 20985928280,
+    "map": {
+      "summary_polyline": "rmbmEqjcvBCPFHLGFJAEVa@lCkDBMI_@MWAOFOXQPe@Za@BU?u@F_@BUEi@Wy@Ua@CAEBD?A?CI?SQe@]YY?CD@FCCM?OGQSG?IFMZCNNp@?NM\\ILQ`@IHQrASXAXOTQdAg@z@Eh@Hf@EPGHMfAOZANCBSB]MOAq@Lc@Pa@AGESCOMY?OG]LWQ?VCH@NIDCGAM]QK?IDCFAZILDNEXDp@AHCDAKEG[BENM?EH@HALKBWQI?GCGSDO@Q?EEMECI?EASYEM@IFIDSAe@JQ?ICMDS@CLAFIBa@La@HERLBCFq@Ve@Fa@NYb@_@DSDI\\GJGLAFMLAA]LMFYFOv@KLGFGR?JGLe@AM@OKc@JSBUKq@?WL]?KEOJc@PK@EBY?]XUh@]VUXQXEHQNm@FCVa@Lc@LWNECOHg@JQL_@DEHBHJDLBl@Gr@HfAAp@F\\IZ@f@?`@JTDVFNG\\Lx@G\\ABGBCPFVRID??EDCTCF@DJFEF@XVVLBDDJCHKJBLBDLBDFF@^nA?l@Kl@?rAe@r@i@j@KBABDJ?PJADDDHLr@BXAP@XBNADJj@Ff@CZH~AF\\Rb@@JFAK]JLABI?GD]Zi@R[Xc@DCD@Da@b@KOq@f@e@Ha@R[ZOBk@COBGHIVQNGJGDSCa@W?G@Eb@G\\PPPJA?e@FSBAPCPHJ@`@MPOFKNGNId@GVWd@U~@m@z@o@|A{@`Aa@XEj@Qf@Y`@GRIJIHMLUT]^{@JGxAq@TG\\Sd@OPKdAa@f@YHOUe@?E@MFG`@K^QD@LLLXBI@KM?F?DRFA?FF?MFJHBq@QHEG?BBGGIODUEA@@FA?@BAF@CC?MBo@\\@JLb@ALCBsGrC]JUTKZe@|@W^QHc@FgBp@SDsAj@]BEAEKCkAOoACg@Gi@KsAEQGKC?IDO`@MXUPe@t@UTYb@QNI?A@@BAQF]HQHD?EBCAS"
+    },
+    "moving_time": 1866,
+    "name": "Afternoon Run",
+    "sport_type": "Run",
+    "start_date": "2026-11-14T14:39:40Z",
+    "start_date_local": "2026-11-14T16:39:40Z",
+    "start_latlng": [
+      -33.768737,
+      19.519295
+    ],
+    "total_elevation_gain": 44.4
+  },
   "2114274671": {
     "_weather": {
       "cat": "cloudy",
