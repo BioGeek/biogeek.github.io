@@ -12413,6 +12413,28 @@
     ],
     "total_elevation_gain": 44.4
   },
+  "21068666060": {
+    "_weather": {
+      "cat": "cloudy",
+      "precip": 0.0,
+      "temp": 18.4
+    },
+    "distance": 23420.2,
+    "id": 21068666060,
+    "map": {
+      "summary_polyline": "zhqnE{rooBX[_AuAaO|PqBvAoAX}Bg@yE}BwA{BWkB\\sFpE\\jAK\\a@v@{BW{CyH}CaBhAuBBcBt@aEzDk@vCi@f@iBdE{@pDaCjF`@fDqD^iFdEIt@{BfEfCbBNtB|AfB~DEt@V\\hAk@dAfBx@iB`BYv@CzEkCt@Y|Ai@p@DbD]bAd@xB?vCk@`Ek@W_BcJ}@y@cEGwCvA}CXAi@sCyA}KqDuCWsCn@aClA_At@QbA_BeAgBr@v@eEoB_DeEqA{@Zy@iAsCs@wAd@g@_@wBb@qFdDFqGYsBeAkBsDsCk@U{DAg@YkBZUYQ_EQIFh@UXEYi@XQ|Aq@VFVYGD_@m@X[i@JrA]RYGLS]e@UDsAk@_AgAi@aANsAtAi@gBiFyB}DQuAeCeCc@w@qASiAj@u@AmAo@LcBWc@uAkAkBk@o@y@wCk@CfA[HmCmBa@cAiA`@c@i@_AGPgDYaAqAc@aC{C_@AkDjDsBmAgDnAk@m@m@oBiE}CwBgD`BuCEc@p@gBvCaD^y@n@yBwB{@oAJ?yBgA_CHk@q@aDcBqBeFqCi@iCo@WkCTSwAjA_DcBoBS}B{AmADi@~@iAV{B{@_BdCEbAr@jAPx@nBxEDrF~CpJ`Cr@@LWiBgEuHcMQiG~ByC|@@j@_@s@i@k@Z}@O}By@wAoA{@aJgAaDLwBoGa@y@p@w@rBy@v@cFhC}C^{WgOkHqA_Fh@W|I{@xAgBZ}@tAm@PyAe@OcDIc@a@E}AjFsAtBLtJ|AhDdA|CJvAPCj@xAJzC\\h@{@rCs@dIgBfHaB|Ea@L_AxBi@tBClE`ApBuA~@mBvD{EtG@vFXdB[tBp@nCJrC`AdBpA\\p@]`@|A|Ad@NMWC`@QTJTtAv@i@lAD[tAJvA[`AXvC\\z@kAxEqCbEBlAt@lCfCAv@Yb@q@nBSxBvA|@WvCpAtBWbF`A|B_@\\tACxAx@pAbErAt@[AlHZXJdBUO?T]i@XbEiB{BTdAOlAu@mBGvAe@Da@k@xAnG{AdExA~JTrGSASsAYMeBlDa@Ka@mGiA}BW{BsA}GUk@]bE_AsAe@Dp@vEi@fD[Cq@oBkAhB}CeAf@pDS~@kFrBb@jAzBhBAh@cGcB{@NmEeAoAh@}Aa@qA`BgAXqCtB}FbAwAdFeAhAXtAPs@fCF"
+    },
+    "moving_time": 12862,
+    "name": "UTCT EX23!",
+    "sport_type": "TrailRun",
+    "start_date": "2026-11-21T07:00:29Z",
+    "start_date_local": "2026-11-21T09:00:29Z",
+    "start_latlng": [
+      -34.008612,
+      18.43519
+    ],
+    "total_elevation_gain": 1026.0
+  },
   "2114274671": {
     "_weather": {
       "cat": "cloudy",
