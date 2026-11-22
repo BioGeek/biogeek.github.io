@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-11-15T12:31:23+00:00",
+  "generated_at": "2026-11-22T13:05:59+00:00",
   "user": "biogeek",
   "stats": {
-    "observations": 1652,
-    "species": 1050,
+    "observations": 1664,
+    "species": 1056,
     "threatened_observations": 92,
-    "research_grade": 823,
+    "research_grade": 825,
     "by_group": {
-      "Plantae": 736,
-      "Insecta": 301,
-      "Aves": 189,
+      "Plantae": 738,
+      "Insecta": 306,
+      "Aves": 190,
       "Mammalia": 135,
       "Reptilia": 58,
-      "Fungi": 54,
+      "Fungi": 55,
       "Animalia": 52,
-      "Arachnida": 43,
-      "Actinopterygii": 34,
+      "Arachnida": 45,
+      "Actinopterygii": 35,
       "Mollusca": 31,
       "Amphibia": 13,
       "Unknown": 4,
@@ -29,7 +29,7 @@
       "2023": 115,
       "2024": 495,
       "2025": 460,
-      "2026": 514
+      "2026": 526
     },
     "top_species": [
       {
@@ -40,6 +40,11 @@
       {
         "species": "Struthio camelus",
         "common_name": "Common Ostrich",
+        "count": 8
+      },
+      {
+        "species": "Schizonycha",
+        "common_name": "Longleg Chafers",
         "count": 8
       },
       {
@@ -60,11 +65,6 @@
       {
         "species": "Protea cynaroides",
         "common_name": "King Protea",
-        "count": 7
-      },
-      {
-        "species": "Schizonycha",
-        "common_name": "Longleg Chafers",
         "count": 7
       },
       {
@@ -11692,6 +11692,90 @@
       "group": "Actinopterygii",
       "common_name": "Short-finned Eel",
       "species": "Anguilla australis"
+    },
+    {
+      "lat": -33.78295,
+      "lng": 19.62394,
+      "group": "Arachnida",
+      "common_name": "African Crown Pisaurid",
+      "species": "Rothus aethiopicus"
+    },
+    {
+      "lat": -33.76979,
+      "lng": 19.52249,
+      "group": "Aves",
+      "common_name": "Southern Red Bishop",
+      "species": "Euplectes orix"
+    },
+    {
+      "lat": -33.76508,
+      "lng": 19.51928,
+      "group": "Plantae",
+      "common_name": "calla lily",
+      "species": "Zantedeschia aethiopica"
+    },
+    {
+      "lat": -33.76524,
+      "lng": 19.51985,
+      "group": "Plantae",
+      "common_name": "Grass Chink",
+      "species": "Ornithogalum graminifolium"
+    },
+    {
+      "lat": -33.76564,
+      "lng": 19.52053,
+      "group": "Insecta",
+      "common_name": "Red Gum Lerp Psyllid",
+      "species": "Glycaspis brimblecombei"
+    },
+    {
+      "lat": -33.76564,
+      "lng": 19.52053,
+      "group": "Insecta",
+      "common_name": "Australian Eucalyptus Leafgall Wasp",
+      "species": "Ophelimus maskelli"
+    },
+    {
+      "lat": -33.76749,
+      "lng": 19.5241,
+      "group": "Insecta",
+      "common_name": "Cucujiform Beetles",
+      "species": "Cucujiformia"
+    },
+    {
+      "lat": -33.76896,
+      "lng": 19.52421,
+      "group": "Fungi",
+      "common_name": "Port Jackson Gall Rust",
+      "species": "Uromycladium morrisii"
+    },
+    {
+      "lat": -34.04358,
+      "lng": 18.36185,
+      "group": "Insecta",
+      "common_name": "Longleg Chafers",
+      "species": "Schizonycha"
+    },
+    {
+      "lat": -34.04356,
+      "lng": 18.36184,
+      "group": "Insecta",
+      "common_name": null,
+      "species": "Heterochelus"
+    },
+    {
+      "lat": -33.90827,
+      "lng": 18.41717,
+      "group": "Actinopterygii",
+      "common_name": "Jacks",
+      "species": "Carangidae"
+    },
+    {
+      "lat": -34.04357,
+      "lng": 18.36189,
+      "group": "Arachnida",
+      "common_name": null,
+      "species": "Anyphops"
     },
     {
       "lat": -34.04062,
