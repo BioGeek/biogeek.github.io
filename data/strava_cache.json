@@ -12435,6 +12435,28 @@
     ],
     "total_elevation_gain": 1026.0
   },
+  "21093084366": {
+    "_weather": {
+      "cat": "cloudy",
+      "precip": 0.0,
+      "temp": 21.5
+    },
+    "distance": 3195.4,
+    "id": 21093084366,
+    "map": {
+      "summary_polyline": "xjznEai~nBs@BSNc@bAMHMZQ`BEJIBIHm@fA_@Za@Nc@JOA_@DkANcBNw@?e@BMC?CMGa@Ag@@e@CmGcFs@}@{AsAu@w@{@w@g@gA[}@_@}@eAoBa@ESJUPg@_CEYCk@IYU[CSc@iAOUFDMQc@oAKk@s@wEQkCE_DD}EVwDEi@]_@y@{BCk@LoBJk@b@mA\\a@p@i@n@q@BDHYb@y@lA_Dt@yBFm@Co@CW}AqAe@OSEQQQc@e@Oe@Fa@ZSTg@r@s@v@_@Xq@VuAxByAbBQPOHEi@IOi@u@O[[YSc@hAwAr@w@Pe@FE?S"
+    },
+    "moving_time": 1103,
+    "name": "From Sentinel Coachworks back home 🏡",
+    "sport_type": "Run",
+    "start_date": "2026-11-23T10:36:59Z",
+    "start_date_local": "2026-11-23T12:36:59Z",
+    "start_latlng": [
+      -34.055002,
+      18.346572
+    ],
+    "total_elevation_gain": 15.0
+  },
   "2114274671": {
     "_weather": {
       "cat": "cloudy",
